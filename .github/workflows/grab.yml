@@ -1,0 +1,41 @@
+name: Grab DirecTV EPG
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone epg grabber
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-src
+
+      - name: Install dependencies
+        run: cd epg-src && npm install
+
+      - name: Copy channels file
+        run: cp jamie.channels.xml epg-src/jamie.channels.xml
+
+      - name: Grab guide
+        run: cd epg-src && npm run grab -- --channels=jamie.channels.xml --output=DIRECTV.xml --days=5
+
+      - name: Gzip and move
+        run: cd epg-src && gzip -f DIRECTV.xml && cp DIRECTV.xml.gz ../DIRECTV.xml.gz
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add DIRECTV.xml.gz
+          git commit -m "Update DirecTV EPG" || echo "No changes"
+          git push
