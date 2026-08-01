@@ -1,4 +1,4 @@
-name: Grab DirecTV + OSN + ART + Toonami EPG
+name: Grab DirecTV + ART + Toonami EPG
 
 on:
   schedule:
@@ -32,54 +32,6 @@ jobs:
 
       - name: Gzip and move DirecTV
         run: cd epg-src && gzip -f DIRECTV.xml && cp DIRECTV.xml.gz ../DIRECTV.xml.gz
-
-      # ── OSN English (geoblocked - may fail without UAE/KSA IP) ──
-      - name: Parse OSN EN channels
-        run: |
-          cd epg-src
-          npm run channels:parse -- --config=./sites/osn.com/osn.com.config.js \
-            --output=./sites/osn.com/osn.com_en.channels.xml \
-            --set=lang:en
-        continue-on-error: true
-
-      - name: Grab OSN EN guide
-        run: |
-          cd epg-src
-          npm run grab -- --sites=osn.com --lang=en --output=OSN_EN.xml --days=5
-        continue-on-error: true
-
-      - name: Move OSN EN
-        run: |
-          if [ -f epg-src/OSN_EN.xml ]; then
-            gzip -f epg-src/OSN_EN.xml
-            cp epg-src/OSN_EN.xml.gz OSN_EN.xml.gz
-          else
-            echo "OSN_EN.xml not generated (likely geoblocked)"
-          fi
-
-      # ── OSN Arabic (geoblocked - may fail without UAE/KSA IP) ───
-      - name: Parse OSN AR channels
-        run: |
-          cd epg-src
-          npm run channels:parse -- --config=./sites/osn.com/osn.com.config.js \
-            --output=./sites/osn.com/osn.com_ar.channels.xml \
-            --set=lang:ar
-        continue-on-error: true
-
-      - name: Grab OSN AR guide
-        run: |
-          cd epg-src
-          npm run grab -- --sites=osn.com --lang=ar --output=OSN_AR.xml --days=5
-        continue-on-error: true
-
-      - name: Move OSN AR
-        run: |
-          if [ -f epg-src/OSN_AR.xml ]; then
-            gzip -f epg-src/OSN_AR.xml
-            cp epg-src/OSN_AR.xml.gz OSN_AR.xml.gz
-          else
-            echo "OSN_AR.xml not generated (likely geoblocked)"
-          fi
 
       # ── ART ───────────────────────────────────────────────
       - name: Grab ART guide
@@ -126,6 +78,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add DIRECTV.xml.gz OSN_EN.xml.gz OSN_AR.xml.gz ART.xml.gz TOONAMIAM.xml.gz
+          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz
           git commit -m "Update EPG files" || echo "No changes"
           git push
