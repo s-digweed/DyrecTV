@@ -1,4 +1,4 @@
-name: Grab DirecTV + ART + Toonami EPG
+name: Grab DirecTV + ART + Toonami + AFN EPG
 
 on:
   schedule:
@@ -73,11 +73,35 @@ jobs:
             echo "TOONAMIAM.xml not generated"
           fi
 
+      # ── AFN ───────────────────────────────────────────────
+      - name: Parse AFN channels
+        run: |
+          cd epg-src
+          npm run channels:parse -- \
+            --config=./sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.config.js \
+            --output=./sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.channels.xml
+        continue-on-error: true
+
+      - name: Grab AFN guide
+        run: |
+          cd epg-src
+          npm run grab -- --sites=v3.myafn.dodmedia.osd.mil --output=AFN.xml --days=5
+        continue-on-error: true
+
+      - name: Move AFN
+        run: |
+          if [ -f epg-src/AFN.xml ]; then
+            gzip -f epg-src/AFN.xml
+            cp epg-src/AFN.xml.gz AFN.xml.gz
+          else
+            echo "AFN.xml not generated"
+          fi
+
       # ── Commit all results ────────────────────────────────
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz
+          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz AFN.xml.gz
           git commit -m "Update EPG files" || echo "No changes"
           git push
