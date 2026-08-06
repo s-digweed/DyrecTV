@@ -23,16 +23,24 @@ jobs:
       - name: Install dependencies
         run: cd epg-src && npm install
 
-      - name: Parse OSN EN channels
+      - name: Copy Legacy config
+        run: cp osn_legacy.config.js epg-src/sites/osn.com/osn_legacy.config.js
+
+      # ── OSN Legacy English ────────────────────────────────
+      - name: Parse OSN Legacy EN channels
         run: |
           cd epg-src
-          npm run channels:parse -- --config=./sites/osn.com/osn.com.config.js \
-            --output=./sites/osn.com/osn.com_en.channels.xml \
+          npm run channels:parse -- --config=./sites/osn.com/osn_legacy.config.js \
+            --output=./sites/osn.com/osn_legacy_en.channels.xml \
             --set=lang:en
         continue-on-error: true
 
-      - name: Grab OSN EN guide
-        run: cd epg-src && npm run grab -- --sites=osn.com --lang=en --output=OSN_EN.xml --days=5
+      - name: Grab OSN Legacy EN guide
+        run: |
+          cd epg-src
+          npm run grab -- --config=./sites/osn.com/osn_legacy.config.js \
+            --channels=./sites/osn.com/osn_legacy_en.channels.xml \
+            --output=OSN_EN.xml --days=5
         continue-on-error: true
 
       - name: Move OSN EN
@@ -44,16 +52,21 @@ jobs:
             echo "OSN_EN.xml not generated"
           fi
 
-      - name: Parse OSN AR channels
+      # ── OSN Legacy Arabic ─────────────────────────────────
+      - name: Parse OSN Legacy AR channels
         run: |
           cd epg-src
-          npm run channels:parse -- --config=./sites/osn.com/osn.com.config.js \
-            --output=./sites/osn.com/osn.com_ar.channels.xml \
+          npm run channels:parse -- --config=./sites/osn.com/osn_legacy.config.js \
+            --output=./sites/osn.com/osn_legacy_ar.channels.xml \
             --set=lang:ar
         continue-on-error: true
 
-      - name: Grab OSN AR guide
-        run: cd epg-src && npm run grab -- --sites=osn.com --lang=ar --output=OSN_AR.xml --days=5
+      - name: Grab OSN Legacy AR guide
+        run: |
+          cd epg-src
+          npm run grab -- --config=./sites/osn.com/osn_legacy.config.js \
+            --channels=./sites/osn.com/osn_legacy_ar.channels.xml \
+            --output=OSN_AR.xml --days=5
         continue-on-error: true
 
       - name: Move OSN AR
@@ -65,6 +78,7 @@ jobs:
             echo "OSN_AR.xml not generated"
           fi
 
+      # ── Commit results ────────────────────────────────────
       - name: Commit results
         run: |
           git config user.name "github-actions"
