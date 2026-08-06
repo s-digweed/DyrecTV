@@ -1,4 +1,4 @@
-name: Grab OSN EPG (every 3 days)
+name: Grab OSN EPG (every three days)
 
 on:
   schedule:
