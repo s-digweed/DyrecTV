@@ -26,15 +26,54 @@ jobs:
       - name: Copy Legacy config
         run: cp osn_legacy.config.js epg-src/sites/osn.com/osn_legacy.config.js
 
+      - name: Copy custom EN channels file
+        run: cp osn_legacy_en.channels.xml epg-src/sites/osn.com/osn_legacy_en.channels.xml
+
+      - name: Copy custom AR channels file
+        run: cp osn_legacy_ar.channels.xml epg-src/sites/osn.com/osn_legacy_ar.channels.xml
+
       # ── OSN Legacy English ────────────────────────────────
-      - name: Parse OSN Legacy EN channels
+      - name: Grab OSN Legacy EN guide
         run: |
           cd epg-src
-          npm run channels:parse -- --config=./sites/osn.com/osn_legacy.config.js \
-            --output=./sites/osn.com/osn_legacy_en.channels.xml \
-            --set=lang:en
+          npm run grab -- --channels=./sites/osn.com/osn_legacy_en.channels.xml \
+            --output=OSN_EN.xml --days=5
         continue-on-error: true
 
+      - name: Move OSN EN
+        run: |
+          if [ -f epg-src/OSN_EN.xml ]; then
+            gzip -f epg-src/OSN_EN.xml
+            cp epg-src/OSN_EN.xml.gz OSN_EN.xml.gz
+          else
+            echo "OSN_EN.xml not generated"
+          fi
+
+      # ── OSN Legacy Arabic ─────────────────────────────────
+      - name: Grab OSN Legacy AR guide
+        run: |
+          cd epg-src
+          npm run grab -- --channels=./sites/osn.com/osn_legacy_ar.channels.xml \
+            --output=OSN_AR.xml --days=5
+        continue-on-error: true
+
+      - name: Move OSN AR
+        run: |
+          if [ -f epg-src/OSN_AR.xml ]; then
+            gzip -f epg-src/OSN_AR.xml
+            cp epg-src/OSN_AR.xml.gz OSN_AR.xml.gz
+          else
+            echo "OSN_AR.xml not generated"
+          fi
+
+      # ── Commit results ────────────────────────────────────
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add OSN_EN.xml.gz OSN_AR.xml.gz
+          git commit -m "Update OSN EPG" || echo "No changes"
+          git push
       - name: Grab OSN Legacy EN guide
         run: |
           cd epg-src
