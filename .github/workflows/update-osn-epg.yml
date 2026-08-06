@@ -85,7 +85,7 @@ jobs:
         run: |
           python3 - <<'EOF'
 import xml.etree.ElementTree as ET
-import os
+import os, shutil
 
 android = 'epg-src/OSN_ANDROID_EN.xml'
 legacy = 'epg-src/OSN_LEGACY_EN.xml'
@@ -99,11 +99,9 @@ if os.path.exists(android) and os.path.exists(legacy):
     ET.ElementTree(base).write(output, encoding='UTF-8', xml_declaration=True)
     print("Merged EN files")
 elif os.path.exists(android):
-    import shutil
     shutil.copy(android, output)
     print("Only Android EN available")
 elif os.path.exists(legacy):
-    import shutil
     shutil.copy(legacy, output)
     print("Only Legacy EN available")
 else:
@@ -114,7 +112,7 @@ EOF
         run: |
           python3 - <<'EOF'
 import xml.etree.ElementTree as ET
-import os
+import os, shutil
 
 android = 'epg-src/OSN_ANDROID_AR.xml'
 legacy = 'epg-src/OSN_LEGACY_AR.xml'
@@ -128,11 +126,9 @@ if os.path.exists(android) and os.path.exists(legacy):
     ET.ElementTree(base).write(output, encoding='UTF-8', xml_declaration=True)
     print("Merged AR files")
 elif os.path.exists(android):
-    import shutil
     shutil.copy(android, output)
     print("Only Android AR available")
 elif os.path.exists(legacy):
-    import shutil
     shutil.copy(legacy, output)
     print("Only Legacy AR available")
 else:
