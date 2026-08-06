@@ -38,8 +38,7 @@ jobs:
       - name: Grab OSN Legacy EN guide
         run: |
           cd epg-src
-          npm run grab -- --config=./sites/osn.com/osn_legacy.config.js \
-            --channels=./sites/osn.com/osn_legacy_en.channels.xml \
+          npm run grab -- --channels=./sites/osn.com/osn_legacy_en.channels.xml \
             --output=OSN_EN.xml --days=5
         continue-on-error: true
 
@@ -64,8 +63,7 @@ jobs:
       - name: Grab OSN Legacy AR guide
         run: |
           cd epg-src
-          npm run grab -- --config=./sites/osn.com/osn_legacy.config.js \
-            --channels=./sites/osn.com/osn_legacy_ar.channels.xml \
+          npm run grab -- --channels=./sites/osn.com/osn_legacy_ar.channels.xml \
             --output=OSN_AR.xml --days=5
         continue-on-error: true
 
