@@ -1,8 +1,8 @@
-name: Grab OSN EPG (every three days)
+name: Grab OSN EPG (every 3 days)
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 3 */3 * *'
   workflow_dispatch:
 
 jobs:
@@ -83,57 +83,41 @@ jobs:
       # ── Merge Android + Legacy into final EN/AR files ─────
       - name: Merge EN files
         run: |
-          python3 - <<'EOF'
+          python3 -c "
 import xml.etree.ElementTree as ET
 import os, shutil
-
 android = 'epg-src/OSN_ANDROID_EN.xml'
 legacy = 'epg-src/OSN_LEGACY_EN.xml'
 output = 'epg-src/OSN_EN.xml'
-
 if os.path.exists(android) and os.path.exists(legacy):
     base = ET.parse(android).getroot()
     extra = ET.parse(legacy).getroot()
-    for elem in extra:
-        base.append(elem)
+    [base.append(e) for e in extra]
     ET.ElementTree(base).write(output, encoding='UTF-8', xml_declaration=True)
-    print("Merged EN files")
 elif os.path.exists(android):
     shutil.copy(android, output)
-    print("Only Android EN available")
 elif os.path.exists(legacy):
     shutil.copy(legacy, output)
-    print("Only Legacy EN available")
-else:
-    print("No EN files to merge")
-EOF
+"
 
       - name: Merge AR files
         run: |
-          python3 - <<'EOF'
+          python3 -c "
 import xml.etree.ElementTree as ET
 import os, shutil
-
 android = 'epg-src/OSN_ANDROID_AR.xml'
 legacy = 'epg-src/OSN_LEGACY_AR.xml'
 output = 'epg-src/OSN_AR.xml'
-
 if os.path.exists(android) and os.path.exists(legacy):
     base = ET.parse(android).getroot()
     extra = ET.parse(legacy).getroot()
-    for elem in extra:
-        base.append(elem)
+    [base.append(e) for e in extra]
     ET.ElementTree(base).write(output, encoding='UTF-8', xml_declaration=True)
-    print("Merged AR files")
 elif os.path.exists(android):
     shutil.copy(android, output)
-    print("Only Android AR available")
 elif os.path.exists(legacy):
     shutil.copy(legacy, output)
-    print("Only Legacy AR available")
-else:
-    print("No AR files to merge")
-EOF
+"
 
       # ── Gzip and commit ───────────────────────────────────
       - name: Gzip EN
