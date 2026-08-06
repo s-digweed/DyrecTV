@@ -2,7 +2,7 @@ name: Grab OSN EPG (every three days)
 
 on:
   schedule:
-    - cron: '0 3 */3 * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 jobs:
