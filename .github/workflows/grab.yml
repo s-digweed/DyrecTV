@@ -1,4 +1,4 @@
-name: Grab DirecTV + ART + Toonami + Bein EPG
+name: Grab DirecTV + ART + Toonami + beIN EPG
 
 on:
   schedule:
