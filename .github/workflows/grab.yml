@@ -1,4 +1,4 @@
-name: Grab DirecTV + ART + Toonami EPG
+name: Grab DirecTV + ART + Toonami + Bein EPG
 
 on:
   schedule:
@@ -73,11 +73,63 @@ jobs:
             echo "TOONAMIAM.xml not generated"
           fi
 
+      # ── Bein English ──────────────────────────────────────
+      - name: Parse Bein EN channels
+        run: |
+          cd epg-src
+          npm run channels:parse -- \
+            --config=./sites/bein.com/bein.com.config.js \
+            --output=./sites/bein.com/bein.com_en.channels.xml \
+            --set=lang:en
+        continue-on-error: true
+
+      - name: Grab Bein EN guide
+        run: |
+          cd epg-src
+          npm run grab -- --channels=./sites/bein.com/bein.com_en.channels.xml \
+            --output=BEIN_EN.xml --days=5
+        continue-on-error: true
+
+      - name: Move Bein EN
+        run: |
+          if [ -f epg-src/BEIN_EN.xml ]; then
+            gzip -f epg-src/BEIN_EN.xml
+            cp epg-src/BEIN_EN.xml.gz BEIN_EN.xml.gz
+          else
+            echo "BEIN_EN.xml not generated"
+          fi
+
+      # ── Bein Arabic ───────────────────────────────────────
+      - name: Parse Bein AR channels
+        run: |
+          cd epg-src
+          npm run channels:parse -- \
+            --config=./sites/bein.com/bein.com.config.js \
+            --output=./sites/bein.com/bein.com_ar.channels.xml \
+            --set=lang:ar
+        continue-on-error: true
+
+      - name: Grab Bein AR guide
+        run: |
+          cd epg-src
+          npm run grab -- --channels=./sites/bein.com/bein.com_ar.channels.xml \
+            --output=BEIN_AR.xml --days=5
+        continue-on-error: true
+
+      - name: Move Bein AR
+        run: |
+          if [ -f epg-src/BEIN_AR.xml ]; then
+            gzip -f epg-src/BEIN_AR.xml
+            cp epg-src/BEIN_AR.xml.gz BEIN_AR.xml.gz
+          else
+            echo "BEIN_AR.xml not generated"
+          fi
+
       # ── Commit all results ────────────────────────────────
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz
+          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz
           git commit -m "Update EPG files" || echo "No changes"
           git push
