@@ -37,7 +37,7 @@ jobs:
       - name: Grab ART guide
         run: |
           cd epg-src
-          npm run grab -- --sites=artonline.tv --output=ART.xml --days=5
+          npm run grab -- --sites=artonline.tv --output=ART.xml --days=7
         continue-on-error: true
 
       - name: Move ART
