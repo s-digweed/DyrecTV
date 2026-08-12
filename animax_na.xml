@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv generator-info-name="animax-schedule-grabber">
+<channel id="animax-na"><display-name>Animax NA</display-name></channel>
+<programme start="20260817100000 +0000" stop="20260817110000 +0000" channel="animax-na"><title lang="en">Gigantor (1963)</title></programme>
+<programme start="20260817110000 +0000" stop="20260817120000 +0000" channel="animax-na"><title lang="en">Astro Boy (1963)</title></programme>
+<programme start="20260817120000 +0000" stop="20260817130000 +0000" channel="animax-na"><title lang="en">Hamtaro</title></programme>
+<programme start="20260817130000 +0000" stop="20260817140000 +0000" channel="animax-na"><title lang="en">Speed Racer</title></programme>
+<programme start="20260817140000 +0000" stop="20260817150000 +0000" channel="animax-na"><title lang="en">Yu-Gi-Oh! Duel Monsters</title></programme>
+<programme start="20260817150000 +0000" stop="20260817160000 +0000" channel="animax-na"><title lang="en">Bakugan: Battle Brawlers</title></programme>
+<programme start="20260817160000 +0000" stop="20260817170000 +0000" channel="animax-na"><title lang="en">Ultimate Muscle</title></programme>
+<programme start="20260817170000 +0000" stop="20260817190000 +0000" channel="animax-na"><title lang="en">Pokemon Horizons</title></programme>
+<programme start="20260817190000 +0000" stop="20260817200000 +0000" channel="animax-na"><title lang="en">Sgt. Frog</title></programme>
+<programme start="20260817200000 +0000" stop="20260817210000 +0000" channel="animax-na"><title lang="en">Initial D</title></programme>
+<programme start="20260817210000 +0000" stop="20260817220000 +0000" channel="animax-na"><title lang="en">Sailor Moon</title></programme>
+<programme start="20260817220000 +0000" stop="20260817230000 +0000" channel="animax-na"><title lang="en">Fruits Basket (2019)</title></programme>
+<programme start="20260817230000 +0000" stop="20260818000000 +0000" channel="animax-na"><title lang="en">Gintama</title></programme>
+<programme start="20260818000000 +0000" stop="20260818010000 +0000" channel="animax-na"><title lang="en">That Time I Got Reincarnated as a Slime</title></programme>
+<programme start="20260818010000 +0000" stop="20260818020000 +0000" channel="animax-na"><title lang="en">Yu Yu Hakusho</title></programme>
+<programme start="20260818020000 +0000" stop="20260818030000 +0000" channel="animax-na"><title lang="en">Dr. STONE</title></programme>
+<programme start="20260818030000 +0000" stop="20260818040000 +0000" channel="animax-na"><title lang="en">Lupin The 3rd</title></programme>
+<programme start="20260818040000 +0000" stop="20260818050000 +0000" channel="animax-na"><title lang="en">Jojo's Bizarre Adventure</title></programme>
+<programme start="20260818050000 +0000" stop="20260818060000 +0000" channel="animax-na"><title lang="en">Hell Girl</title></programme>
+<programme start="20260818060000 +0000" stop="20260818070000 +0000" channel="animax-na"><title lang="en">Blue Exorcist</title></programme>
+<programme start="20260818070000 +0000" stop="20260818080000 +0000" channel="animax-na"><title lang="en">Fist of the North Star</title></programme>
+<programme start="20260818080000 +0000" stop="20260818090000 +0000" channel="animax-na"><title lang="en">Attack on Titan</title></programme>
+<programme start="20260818090000 +0000" stop="20260818100000 +0000" channel="animax-na"><title lang="en">Unbeatable Banzuke</title></programme>
+<programme start="20260818100000 +0000" stop="20260818110000 +0000" channel="animax-na"><title lang="en">Gigantor (1963)</title></programme>
+<programme start="20260818110000 +0000" stop="20260818120000 +0000" channel="animax-na"><title lang="en">Astro Boy (1963)</title></programme>
+<programme start="20260818120000 +0000" stop="20260818130000 +0000" channel="animax-na"><title lang="en">Hamtaro</title></programme>
+<programme start="20260818130000 +0000" stop="20260818140000 +0000" channel="animax-na"><title lang="en">Speed Racer</title></programme>
+<programme start="20260818140000 +0000" stop="20260818150000 +0000" channel="animax-na"><title lang="en">Yu-Gi-Oh! Duel Monsters</title></programme>
+<programme start="20260818150000 +0000" stop="20260818160000 +0000" channel="animax-na"><title lang="en">Bakugan: Battle Brawlers</title></programme>
+<programme start="20260818160000 +0000" stop="20260818170000 +0000" channel="animax-na"><title lang="en">Ultimate Muscle</title></programme>
+<programme start="20260818170000 +0000" stop="20260818190000 +0000" channel="animax-na"><title lang="en">Pokemon Horizons</title></programme>
+<programme start="20260818190000 +0000" stop="20260818200000 +0000" channel="animax-na"><title lang="en">Sgt. Frog</title></programme>
+<programme start="20260818200000 +0000" stop="20260818210000 +0000" channel="animax-na"><title lang="en">Initial D</title></programme>
+<programme start="20260818210000 +0000" stop="20260818220000 +0000" channel="animax-na"><title lang="en">Sailor Moon</title></programme>
+<programme start="20260818220000 +0000" stop="20260818230000 +0000" channel="animax-na"><title lang="en">Fruits Basket (2019)</title></programme>
+<programme start="20260818230000 +0000" stop="20260819000000 +0000" channel="animax-na"><title lang="en">Gintama</title></programme>
+<programme start="20260819000000 +0000" stop="20260819010000 +0000" channel="animax-na"><title lang="en">That Time I Got Reincarnated as a Slime</title></programme>
+<programme start="20260819010000 +0000" stop="20260819020000 +0000" channel="animax-na"><title lang="en">Yu Yu Hakusho</title></programme>
+<programme start="20260819020000 +0000" stop="20260819030000 +0000" channel="animax-na"><title lang="en">Dr. STONE</title></programme>
+<programme start="20260819030000 +0000" stop="20260819040000 +0000" channel="animax-na"><title lang="en">Lupin The 3rd</title></programme>
+<programme start="20260819040000 +0000" stop="20260819050000 +0000" channel="animax-na"><title lang="en">Jojo's Bizarre Adventure</title></programme>
+<programme start="20260819050000 +0000" stop="20260819060000 +0000" channel="animax-na"><title lang="en">Hell Girl</title></programme>
+<programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="animax-na"><title lang="en">Blue Exorcist</title></programme>
+<programme start="20260819070000 +0000" stop="20260819080000 +0000" channel="animax-na"><title lang="en">Fist of the North Star</title></programme>
+<programme start="20260819080000 +0000" stop="20260819090000 +0000" channel="animax-na"><title lang="en">Attack on Titan</title></programme>
+<programme start="20260819090000 +0000" stop="20260819100000 +0000" channel="animax-na"><title lang="en">Unbeatable Banzuke</title></programme>
+<programme start="20260819100000 +0000" stop="20260819110000 +0000" channel="animax-na"><title lang="en">Gigantor (1963)</title></programme>
+<programme start="20260819110000 +0000" stop="20260819120000 +0000" channel="animax-na"><title lang="en">Astro Boy (1963)</title></programme>
+<programme start="20260819120000 +0000" stop="20260819130000 +0000" channel="animax-na"><title lang="en">Hamtaro</title></programme>
+<programme start="20260819130000 +0000" stop="20260819140000 +0000" channel="animax-na"><title lang="en">Speed Racer</title></programme>
+<programme start="20260819140000 +0000" stop="20260819150000 +0000" channel="animax-na"><title lang="en">Yu-Gi-Oh! Duel Monsters</title></programme>
+<programme start="20260819150000 +0000" stop="20260819160000 +0000" channel="animax-na"><title lang="en">Bakugan: Battle Brawlers</title></programme>
+<programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="animax-na"><title lang="en">Ultimate Muscle</title></programme>
+<programme start="20260819170000 +0000" stop="20260819190000 +0000" channel="animax-na"><title lang="en">Pokemon Horizons</title></programme>
+<programme start="20260819190000 +0000" stop="20260819200000 +0000" channel="animax-na"><title lang="en">Sgt. Frog</title></programme>
+<programme start="20260819200000 +0000" stop="20260819210000 +0000" channel="animax-na"><title lang="en">Initial D</title></programme>
+<programme start="20260819210000 +0000" stop="20260819220000 +0000" channel="animax-na"><title lang="en">Sailor Moon</title></programme>
+<programme start="20260819220000 +0000" stop="20260819230000 +0000" channel="animax-na"><title lang="en">Fruits Basket (2019)</title></programme>
+<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="animax-na"><title lang="en">Gintama</title></programme>
+<programme start="20260820000000 +0000" stop="20260820010000 +0000" channel="animax-na"><title lang="en">That Time I Got Reincarnated as a Slime</title></programme>
+<programme start="20260820010000 +0000" stop="20260820020000 +0000" channel="animax-na"><title lang="en">Yu Yu Hakusho</title></programme>
+<programme start="20260820020000 +0000" stop="20260820030000 +0000" channel="animax-na"><title lang="en">Dr. STONE</title></programme>
+<programme start="20260820030000 +0000" stop="20260820040000 +0000" channel="animax-na"><title lang="en">Lupin The 3rd</title></programme>
+<programme start="20260820040000 +0000" stop="20260820050000 +0000" channel="animax-na"><title lang="en">Jojo's Bizarre Adventure</title></programme>
+<programme start="20260820050000 +0000" stop="20260820060000 +0000" channel="animax-na"><title lang="en">Hell Girl</title></programme>
+<programme start="20260820060000 +0000" stop="20260820070000 +0000" channel="animax-na"><title lang="en">Blue Exorcist</title></programme>
+<programme start="20260820070000 +0000" stop="20260820080000 +0000" channel="animax-na"><title lang="en">Fist of the North Star</title></programme>
+<programme start="20260820080000 +0000" stop="20260820090000 +0000" channel="animax-na"><title lang="en">Attack on Titan</title></programme>
+<programme start="20260820090000 +0000" stop="20260820100000 +0000" channel="animax-na"><title lang="en">Unbeatable Banzuke</title></programme>
+<programme start="20260820100000 +0000" stop="20260820110000 +0000" channel="animax-na"><title lang="en">Gigantor (1963)</title></programme>
+<programme start="20260820110000 +0000" stop="20260820120000 +0000" channel="animax-na"><title lang="en">Astro Boy (1963)</title></programme>
+<programme start="20260820120000 +0000" stop="20260820130000 +0000" channel="animax-na"><title lang="en">Hamtaro</title></programme>
+<programme start="20260820130000 +0000" stop="20260820140000 +0000" channel="animax-na"><title lang="en">Speed Racer</title></programme>
+<programme start="20260820140000 +0000" stop="20260820150000 +0000" channel="animax-na"><title lang="en">Yu-Gi-Oh! Duel Monsters</title></programme>
+<programme start="20260820150000 +0000" stop="20260820160000 +0000" channel="animax-na"><title lang="en">Bakugan: Battle Brawlers</title></programme>
+<programme start="20260820160000 +0000" stop="20260820170000 +0000" channel="animax-na"><title lang="en">Ultimate Muscle</title></programme>
+<programme start="20260820170000 +0000" stop="20260820190000 +0000" channel="animax-na"><title lang="en">Pokemon Horizons</title></programme>
+<programme start="20260820190000 +0000" stop="20260820200000 +0000" channel="animax-na"><title lang="en">Sgt. Frog</title></programme>
+<programme start="20260820200000 +0000" stop="20260820210000 +0000" channel="animax-na"><title lang="en">Initial D</title></programme>
+<programme start="20260820210000 +0000" stop="20260820220000 +0000" channel="animax-na"><title lang="en">Sailor Moon</title></programme>
+<programme start="20260820220000 +0000" stop="20260820230000 +0000" channel="animax-na"><title lang="en">Fruits Basket (2019)</title></programme>
+<programme start="20260820230000 +0000" stop="20260821000000 +0000" channel="animax-na"><title lang="en">Gintama</title></programme>
+<programme start="20260821000000 +0000" stop="20260821010000 +0000" channel="animax-na"><title lang="en">That Time I Got Reincarnated as a Slime</title></programme>
+<programme start="20260821010000 +0000" stop="20260821020000 +0000" channel="animax-na"><title lang="en">Yu Yu Hakusho</title></programme>
+<programme start="20260821020000 +0000" stop="20260821030000 +0000" channel="animax-na"><title lang="en">Dr. STONE</title></programme>
+<programme start="20260821030000 +0000" stop="20260821040000 +0000" channel="animax-na"><title lang="en">Lupin The 3rd</title></programme>
+<programme start="20260821040000 +0000" stop="20260821050000 +0000" channel="animax-na"><title lang="en">Jojo's Bizarre Adventure</title></programme>
+<programme start="20260821050000 +0000" stop="20260821060000 +0000" channel="animax-na"><title lang="en">Hell Girl</title></programme>
+<programme start="20260821060000 +0000" stop="20260821070000 +0000" channel="animax-na"><title lang="en">Blue Exorcist</title></programme>
+<programme start="20260821070000 +0000" stop="20260821080000 +0000" channel="animax-na"><title lang="en">Fist of the North Star</title></programme>
+<programme start="20260821080000 +0000" stop="20260821090000 +0000" channel="animax-na"><title lang="en">Attack on Titan</title></programme>
+<programme start="20260821090000 +0000" stop="20260821100000 +0000" channel="animax-na"><title lang="en">Unbeatable Banzuke</title></programme>
+<programme start="20260821100000 +0000" stop="20260821110000 +0000" channel="animax-na"><title lang="en">Gigantor (1963)</title></programme>
+<programme start="20260821110000 +0000" stop="20260821120000 +0000" channel="animax-na"><title lang="en">Astro Boy (1963)</title></programme>
+<programme start="20260821120000 +0000" stop="20260821130000 +0000" channel="animax-na"><title lang="en">Hamtaro</title></programme>
+<programme start="20260821130000 +0000" stop="20260821140000 +0000" channel="animax-na"><title lang="en">Speed Racer</title></programme>
+<programme start="20260821140000 +0000" stop="20260821150000 +0000" channel="animax-na"><title lang="en">Yu-Gi-Oh! Duel Monsters</title></programme>
+<programme start="20260821150000 +0000" stop="20260821160000 +0000" channel="animax-na"><title lang="en">Bakugan: Battle Brawlers</title></programme>
+<programme start="20260821160000 +0000" stop="20260821170000 +0000" channel="animax-na"><title lang="en">Ultimate Muscle</title></programme>
+<programme start="20260821170000 +0000" stop="20260821190000 +0000" channel="animax-na"><title lang="en">Pokemon Horizons</title></programme>
+<programme start="20260821190000 +0000" stop="20260821210000 +0000" channel="animax-na"><title lang="en">Kiki's Delivery Service (1989)</title></programme>
+<programme start="20260821210000 +0000" stop="20260821220000 +0000" channel="animax-na"><title lang="en">Sailor Moon SuperS: The Movie (1995)</title></programme>
+<programme start="20260821220000 +0000" stop="20260821230000 +0000" channel="animax-na"><title lang="en">Your Name (2016)</title></programme>
+<programme start="20260821230000 +0000" stop="20260822000000 +0000" channel="animax-na"><title lang="en">Gintama</title></programme>
+<programme start="20260822000000 +0000" stop="20260822010000 +0000" channel="animax-na"><title lang="en">That Time I Got Reincarnated as a Slime</title></programme>
+<programme start="20260822010000 +0000" stop="20260822020000 +0000" channel="animax-na"><title lang="en">Yu Yu Hakusho</title></programme>
+<programme start="20260822020000 +0000" stop="20260822030000 +0000" channel="animax-na"><title lang="en">Dr. STONE</title></programme>
+<programme start="20260822030000 +0000" stop="20260822040000 +0000" channel="animax-na"><title lang="en">Lupin The 3rd</title></programme>
+<programme start="20260822040000 +0000" stop="20260822050000 +0000" channel="animax-na"><title lang="en">Jojo's Bizarre Adventure</title></programme>
+<programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="animax-na"><title lang="en">Hell Girl</title></programme>
+<programme start="20260822060000 +0000" stop="20260822070000 +0000" channel="animax-na"><title lang="en">Blue Exorcist</title></programme>
+<programme start="20260822070000 +0000" stop="20260822080000 +0000" channel="animax-na"><title lang="en">Delicious in Dungeon</title></programme>
+<programme start="20260822080000 +0000" stop="20260822090000 +0000" channel="animax-na"><title lang="en">Kaijuu No. 8</title></programme>
+<programme start="20260822090000 +0000" stop="20260822100000 +0000" channel="animax-na"><title lang="en">Delta State</title></programme>
+<programme start="20260822100000 +0000" stop="20260822110000 +0000" channel="animax-na"><title lang="en">Assassination Classroom</title></programme>
+<programme start="20260822110000 +0000" stop="20260822120000 +0000" channel="animax-na"><title lang="en">YAIBA: Samurai Legend</title></programme>
+<programme start="20260822120000 +0000" stop="20260822130000 +0000" channel="animax-na"><title lang="en">CITY: The Animation</title></programme>
+<programme start="20260822130000 +0000" stop="20260822140000 +0000" channel="animax-na"><title lang="en">Laid-Back Camp</title></programme>
+<programme start="20260822140000 +0000" stop="20260822150000 +0000" channel="animax-na"><title lang="en">My Life Me</title></programme>
+<programme start="20260822150000 +0000" stop="20260822160000 +0000" channel="animax-na"><title lang="en">Medabots</title></programme>
+<programme start="20260822160000 +0000" stop="20260822170000 +0000" channel="animax-na"><title lang="en">Megas XLR</title></programme>
+<programme start="20260822170000 +0000" stop="20260822180000 +0000" channel="animax-na"><title lang="en">Doraemon (2014)</title></programme>
+<programme start="20260822180000 +0000" stop="20260822190000 +0000" channel="animax-na"><title lang="en">Non Non Biyori</title></programme>
+<programme start="20260822190000 +0000" stop="20260822193000 +0000" channel="animax-na"><title lang="en">See You Tomorrow at The Food Court</title></programme>
+<programme start="20260822193000 +0000" stop="20260822203000 +0000" channel="animax-na"><title lang="en">Umamusume: Pretty Derby</title></programme>
+<programme start="20260822203000 +0000" stop="20260822210000 +0000" channel="animax-na"><title lang="en">Makeine: Too Many Losing Heroines!</title></programme>
+<programme start="20260822210000 +0000" stop="20260822213000 +0000" channel="animax-na"><title lang="en">The Angel Next Door Spoils Me Rotten</title></programme>
+<programme start="20260822213000 +0000" stop="20260822220000 +0000" channel="animax-na"><title lang="en">Ameku M.D.</title></programme>
+<programme start="20260822220000 +0000" stop="20260822230000 +0000" channel="animax-na"><title lang="en">Frieren</title></programme>
+<programme start="20260822230000 +0000" stop="20260823000000 +0000" channel="animax-na"><title lang="en">SPY X FAMILY</title></programme>
+<programme start="20260823000000 +0000" stop="20260823003000 +0000" channel="animax-na"><title lang="en">Girls Band Cry</title></programme>
+<programme start="20260823003000 +0000" stop="20260823013000 +0000" channel="animax-na"><title lang="en">Ginger Root's SHINBANGUMI: A Music Movie (2024)</title></programme>
+<programme start="20260823013000 +0000" stop="20260823023000 +0000" channel="animax-na"><title lang="en">My Happy Marriage</title></programme>
+<programme start="20260823023000 +0000" stop="20260823030000 +0000" channel="animax-na"><title lang="en">My Deer Friend Nokotan</title></programme>
+<programme start="20260823030000 +0000" stop="20260823033000 +0000" channel="animax-na"><title lang="en">PSI Cops</title></programme>
+<programme start="20260823033000 +0000" stop="20260823060000 +0000" channel="animax-na"><title lang="en">Demon Slayer: Infinity Castle (2025)</title></programme>
+<programme start="20260823060000 +0000" stop="20260823063000 +0000" channel="animax-na"><title lang="en">Scavengers Reign</title></programme>
+<programme start="20260823063000 +0000" stop="20260823070000 +0000" channel="animax-na"><title lang="en">Wandering Witch</title></programme>
+<programme start="20260823070000 +0000" stop="20260823080000 +0000" channel="animax-na"><title lang="en">Delicious in Dungeon</title></programme>
+<programme start="20260823080000 +0000" stop="20260823090000 +0000" channel="animax-na"><title lang="en">Kaijuu No. 8</title></programme>
+<programme start="20260823090000 +0000" stop="20260823100000 +0000" channel="animax-na"><title lang="en">Delta State</title></programme>
+<programme start="20260823100000 +0000" stop="20260823110000 +0000" channel="animax-na"><title lang="en">Assassination Classroom</title></programme>
+<programme start="20260823110000 +0000" stop="20260823120000 +0000" channel="animax-na"><title lang="en">YAIBA: Samurai Legend</title></programme>
+<programme start="20260823120000 +0000" stop="20260823130000 +0000" channel="animax-na"><title lang="en">CITY: The Animation</title></programme>
+<programme start="20260823130000 +0000" stop="20260823140000 +0000" channel="animax-na"><title lang="en">Laid-Back Camp</title></programme>
+<programme start="20260823140000 +0000" stop="20260823150000 +0000" channel="animax-na"><title lang="en">My Life Me</title></programme>
+<programme start="20260823150000 +0000" stop="20260823160000 +0000" channel="animax-na"><title lang="en">Medabots</title></programme>
+<programme start="20260823160000 +0000" stop="20260823170000 +0000" channel="animax-na"><title lang="en">Megas XLR</title></programme>
+<programme start="20260823170000 +0000" stop="20260823180000 +0000" channel="animax-na"><title lang="en">Doraemon (2014)</title></programme>
+<programme start="20260823180000 +0000" stop="20260823190000 +0000" channel="animax-na"><title lang="en">Non Non Biyori</title></programme>
+<programme start="20260823190000 +0000" stop="20260823193000 +0000" channel="animax-na"><title lang="en">See You Tomorrow at The Food Court</title></programme>
+<programme start="20260823193000 +0000" stop="20260823203000 +0000" channel="animax-na"><title lang="en">Umamusume: Pretty Derby</title></programme>
+<programme start="20260823203000 +0000" stop="20260823210000 +0000" channel="animax-na"><title lang="en">Makeine: Too Many Losing Heroines!</title></programme>
+<programme start="20260823210000 +0000" stop="20260823213000 +0000" channel="animax-na"><title lang="en">The Angel Next Door Spoils Me Rotten</title></programme>
+<programme start="20260823213000 +0000" stop="20260823220000 +0000" channel="animax-na"><title lang="en">Ameku M.D.</title></programme>
+<programme start="20260823220000 +0000" stop="20260823230000 +0000" channel="animax-na"><title lang="en">Frieren</title></programme>
+<programme start="20260823230000 +0000" stop="20260824000000 +0000" channel="animax-na"><title lang="en">SPY X FAMILY</title></programme>
+<programme start="20260824000000 +0000" stop="20260824003000 +0000" channel="animax-na"><title lang="en">Girls Band Cry</title></programme>
+<programme start="20260824003000 +0000" stop="20260824013000 +0000" channel="animax-na"><title lang="en">My Happy Marriage</title></programme>
+<programme start="20260824013000 +0000" stop="20260824023000 +0000" channel="animax-na"><title lang="en">Ranma 1/2 (2024)</title></programme>
+<programme start="20260824023000 +0000" stop="20260824030000 +0000" channel="animax-na"><title lang="en">My Deer Friend Nokotan</title></programme>
+<programme start="20260824030000 +0000" stop="20260824033000 +0000" channel="animax-na"><title lang="en">PSI Cops</title></programme>
+<programme start="20260824033000 +0000" stop="20260824043000 +0000" channel="animax-na"><title lang="en">Dorohedoro</title></programme>
+<programme start="20260824043000 +0000" stop="20260824053000 +0000" channel="animax-na"><title lang="en">The Apothecary Diaries</title></programme>
+<programme start="20260824053000 +0000" stop="20260824063000 +0000" channel="animax-na"><title lang="en">Ginger Root's SHINBANGUMI: A Music Movie (2024)</title></programme>
+<programme start="20260824063000 +0000" stop="20260824070000 +0000" channel="animax-na"><title lang="en">Wandering Witch</title></programme>
+<programme start="20260824070000 +0000" stop="20260824093000 +0000" channel="animax-na"><title lang="en">Demon Slayer: Infinity Castle (2025)</title></programme>
+<programme start="20260824093000 +0000" stop="20260824100000 +0000" channel="animax-na"><title lang="en">Unbeatable Banzuke</title></programme>
+</tv>
