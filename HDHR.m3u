@@ -1,0 +1,671 @@
+#EXTM3U
+
+# ---------- Bellingham, WA ----------
+#EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="CBUT-DT" group-title="Bellingham, WA",2.1 CBUT-DT
+http://44.25.145.45:5004/auto/v2.1
+#EXTINF:-1 channel-id="6.1" channel-number="6.1" tvg-name="CHEK" group-title="Bellingham, WA",6.1 CHEK
+http://44.25.145.45:5004/auto/v6.1
+#EXTINF:-1 channel-id="8.1" channel-number="8.1" tvg-name="CHAN" group-title="Bellingham, WA",8.1 CHAN
+http://44.25.145.45:5004/auto/v8.1
+#EXTINF:-1 channel-id="12.1" channel-number="12.1" tvg-name="KVOS-HD" group-title="Bellingham, WA",12.1 KVOS-HD
+http://44.25.145.45:5004/auto/v12.1
+#EXTINF:-1 channel-id="12.2" channel-number="12.2" tvg-name="MOVIES" group-title="Bellingham, WA",12.2 MOVIES
+http://44.25.145.45:5004/auto/v12.2
+#EXTINF:-1 channel-id="12.3" channel-number="12.3" tvg-name="MeTV" group-title="Bellingham, WA",12.3 MeTV
+http://44.25.145.45:5004/auto/v12.3
+#EXTINF:-1 channel-id="12.4" channel-number="12.4" tvg-name="CATCHY" group-title="Bellingham, WA",12.4 CATCHY
+http://44.25.145.45:5004/auto/v12.4
+#EXTINF:-1 channel-id="12.5" channel-number="12.5" tvg-name="START" group-title="Bellingham, WA",12.5 START
+http://44.25.145.45:5004/auto/v12.5
+#EXTINF:-1 channel-id="12.7" channel-number="12.7" tvg-name="STORY" group-title="Bellingham, WA",12.7 STORY
+http://44.25.145.45:5004/auto/v12.7
+#EXTINF:-1 channel-id="12.8" channel-number="12.8" tvg-name="HEROES" group-title="Bellingham, WA",12.8 HEROES
+http://44.25.145.45:5004/auto/v12.8
+#EXTINF:-1 channel-id="12.9" channel-number="12.9" tvg-name="TOONS" group-title="Bellingham, WA",12.9 TOONS
+http://44.25.145.45:5004/auto/v12.9
+#EXTINF:-1 channel-id="17.1" channel-number="17.1" tvg-name="CIVI-2" group-title="Bellingham, WA",17.1 CIVI-2
+http://44.25.145.45:5004/auto/v17.1
+#EXTINF:-1 channel-id="21.1" channel-number="21.1" tvg-name="JOYTV" group-title="Bellingham, WA",21.1 JOYTV
+http://44.25.145.45:5004/auto/v21.1
+#EXTINF:-1 channel-id="23.1" channel-number="23.1" tvg-name="CIVI" group-title="Bellingham, WA",23.1 CIVI
+http://44.25.145.45:5004/auto/v23.1
+#EXTINF:-1 channel-id="24.1" channel-number="24.1" tvg-name="KBCB HD" group-title="Bellingham, WA",24.1 KBCB HD
+http://44.25.145.45:5004/auto/v24.1
+#EXTINF:-1 channel-id="24.2" channel-number="24.2" tvg-name="SBN" group-title="Bellingham, WA",24.2 SBN
+http://44.25.145.45:5004/auto/v24.2
+#EXTINF:-1 channel-id="24.3" channel-number="24.3" tvg-name="GDT" group-title="Bellingham, WA",24.3 GDT
+http://44.25.145.45:5004/auto/v24.3
+#EXTINF:-1 channel-id="24.4" channel-number="24.4" tvg-name="ShopLC" group-title="Bellingham, WA",24.4 ShopLC
+http://44.25.145.45:5004/auto/v24.4
+#EXTINF:-1 channel-id="24.5" channel-number="24.5" tvg-name="BizTV" group-title="Bellingham, WA",24.5 BizTV
+http://44.25.145.45:5004/auto/v24.5
+#EXTINF:-1 channel-id="26.1" channel-number="26.1" tvg-name="CBUFT" group-title="Bellingham, WA",26.1 CBUFT
+http://44.25.145.45:5004/auto/v26.1
+#EXTINF:-1 channel-id="27.1" channel-number="27.1" tvg-name="CKVU-DT" group-title="Bellingham, WA",27.1 CKVU-DT
+http://44.25.145.45:5004/auto/v27.1
+#EXTINF:-1 channel-id="28.1" channel-number="28.1" tvg-name="KBTC" group-title="Bellingham, WA",28.1 KBTC
+http://44.25.145.45:5004/auto/v28.1
+#EXTINF:-1 channel-id="28.2" channel-number="28.2" tvg-name="NHK_WLD" group-title="Bellingham, WA",28.2 NHK_WLD
+http://44.25.145.45:5004/auto/v28.2
+#EXTINF:-1 channel-id="28.3" channel-number="28.3" tvg-name="FNX" group-title="Bellingham, WA",28.3 FNX
+http://44.25.145.45:5004/auto/v28.3
+#EXTINF:-1 channel-id="29.1" channel-number="29.1" tvg-name="CHNM-DT" group-title="Bellingham, WA",29.1 CHNM-DT
+http://44.25.145.45:5004/auto/v29.1
+#EXTINF:-1 channel-id="32.1" channel-number="32.1" tvg-name="CIVT" group-title="Bellingham, WA",32.1 CIVT
+http://44.25.145.45:5004/auto/v32.1
+#EXTINF:-1 channel-id="42.1" channel-number="42.1" tvg-name="CHNM-DT" group-title="Bellingham, WA",42.1 CHNM-DT
+http://44.25.145.45:5004/auto/v42.1
+#EXTINF:-1 channel-id="66.1" channel-number="66.1" tvg-name="Joytv" group-title="Bellingham, WA",66.1 Joytv
+http://44.25.145.45:5004/auto/v66.1
+
+# ---------- Pittsburgh, PA ----------
+#EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="KDKA-HD" group-title="Pittsburgh, PA",2.1 KDKA-HD
+http://164.52.224.212:5004/auto/v2.1
+#EXTINF:-1 channel-id="2.2" channel-number="2.2" tvg-name="StartTV" group-title="Pittsburgh, PA",2.2 StartTV
+http://164.52.224.212:5004/auto/v2.2
+#EXTINF:-1 channel-id="2.3" channel-number="2.3" tvg-name="DABL" group-title="Pittsburgh, PA",2.3 DABL
+http://164.52.224.212:5004/auto/v2.3
+#EXTINF:-1 channel-id="2.4" channel-number="2.4" tvg-name="THE365" group-title="Pittsburgh, PA",2.4 THE365
+http://164.52.224.212:5004/auto/v2.4
+#EXTINF:-1 channel-id="2.5" channel-number="2.5" tvg-name="Catchy" group-title="Pittsburgh, PA",2.5 Catchy
+http://164.52.224.212:5004/auto/v2.5
+#EXTINF:-1 channel-id="4.1" channel-number="4.1" tvg-name="WTAE" group-title="Pittsburgh, PA",4.1 WTAE
+http://164.52.224.212:5004/auto/v4.1
+#EXTINF:-1 channel-id="4.2" channel-number="4.2" tvg-name="Cozi TV" group-title="Pittsburgh, PA",4.2 Cozi TV
+http://164.52.224.212:5004/auto/v4.2
+#EXTINF:-1 channel-id="4.3" channel-number="4.3" tvg-name="STORY" group-title="Pittsburgh, PA",4.3 STORY
+http://164.52.224.212:5004/auto/v4.3
+#EXTINF:-1 channel-id="11.1" channel-number="11.1" tvg-name="WPXI-HD" group-title="Pittsburgh, PA",11.1 WPXI-HD
+http://164.52.224.212:5004/auto/v11.1
+#EXTINF:-1 channel-id="11.2" channel-number="11.2" tvg-name="MeTV" group-title="Pittsburgh, PA",11.2 MeTV
+http://164.52.224.212:5004/auto/v11.2
+#EXTINF:-1 channel-id="11.3" channel-number="11.3" tvg-name="LAFF TV" group-title="Pittsburgh, PA",11.3 LAFF TV
+http://164.52.224.212:5004/auto/v11.3
+#EXTINF:-1 channel-id="11.4" channel-number="11.4" tvg-name="PCNC" group-title="Pittsburgh, PA",11.4 PCNC
+http://164.52.224.212:5004/auto/v11.4
+#EXTINF:-1 channel-id="13.1" channel-number="13.1" tvg-name="WQED-HD" group-title="Pittsburgh, PA",13.1 WQED-HD
+http://164.52.224.212:5004/auto/v13.1
+#EXTINF:-1 channel-id="13.2" channel-number="13.2" tvg-name="CREATE" group-title="Pittsburgh, PA",13.2 CREATE
+http://164.52.224.212:5004/auto/v13.2
+#EXTINF:-1 channel-id="13.3" channel-number="13.3" tvg-name="WORLD" group-title="Pittsburgh, PA",13.3 WORLD
+http://164.52.224.212:5004/auto/v13.3
+#EXTINF:-1 channel-id="13.4" channel-number="13.4" tvg-name="SHOW" group-title="Pittsburgh, PA",13.4 SHOW
+http://164.52.224.212:5004/auto/v13.4
+#EXTINF:-1 channel-id="13.5" channel-number="13.5" tvg-name="KIDS" group-title="Pittsburgh, PA",13.5 KIDS
+http://164.52.224.212:5004/auto/v13.5
+#EXTINF:-1 channel-id="16.1" channel-number="16.1" tvg-name="ION" group-title="Pittsburgh, PA",16.1 ION
+http://164.52.224.212:5004/auto/v16.1
+#EXTINF:-1 channel-id="16.2" channel-number="16.2" tvg-name="Bounce" group-title="Pittsburgh, PA",16.2 Bounce
+http://164.52.224.212:5004/auto/v16.2
+#EXTINF:-1 channel-id="16.3" channel-number="16.3" tvg-name="Mystery" group-title="Pittsburgh, PA",16.3 Mystery
+http://164.52.224.212:5004/auto/v16.3
+#EXTINF:-1 channel-id="16.4" channel-number="16.4" tvg-name="IONPlus" group-title="Pittsburgh, PA",16.4 IONPlus
+http://164.52.224.212:5004/auto/v16.4
+#EXTINF:-1 channel-id="16.5" channel-number="16.5" tvg-name="BUSTED" group-title="Pittsburgh, PA",16.5 BUSTED
+http://164.52.224.212:5004/auto/v16.5
+#EXTINF:-1 channel-id="16.6" channel-number="16.6" tvg-name="GameSho" group-title="Pittsburgh, PA",16.6 GameSho
+http://164.52.224.212:5004/auto/v16.6
+#EXTINF:-1 channel-id="16.7" channel-number="16.7" tvg-name="QVC" group-title="Pittsburgh, PA",16.7 QVC
+http://164.52.224.212:5004/auto/v16.7
+#EXTINF:-1 channel-id="16.8" channel-number="16.8" tvg-name="HSN" group-title="Pittsburgh, PA",16.8 HSN
+http://164.52.224.212:5004/auto/v16.8
+#EXTINF:-1 channel-id="22.1" channel-number="22.1" tvg-name="WPNT CW" group-title="Pittsburgh, PA",22.1 WPNT CW
+http://164.52.224.212:5004/auto/v22.1
+#EXTINF:-1 channel-id="22.2" channel-number="22.2" tvg-name="Stadium" group-title="Pittsburgh, PA",22.2 Stadium
+http://164.52.224.212:5004/auto/v22.2
+#EXTINF:-1 channel-id="22.3" channel-number="22.3" tvg-name="Comet" group-title="Pittsburgh, PA",22.3 Comet
+http://164.52.224.212:5004/auto/v22.3
+#EXTINF:-1 channel-id="22.4" channel-number="22.4" tvg-name="TBD" group-title="Pittsburgh, PA",22.4 TBD
+http://164.52.224.212:5004/auto/v22.4
+#EXTINF:-1 channel-id="45.1" channel-number="45.1" tvg-name="WWAT-CD" group-title="Pittsburgh, PA",45.1 WWAT-CD
+http://164.52.224.212:5004/auto/v45.1
+#EXTINF:-1 channel-id="45.2" channel-number="45.2" tvg-name="ACTION" group-title="Pittsburgh, PA",45.2 ACTION
+http://164.52.224.212:5004/auto/v45.2
+#EXTINF:-1 channel-id="45.3" channel-number="45.3" tvg-name="FAMILY" group-title="Pittsburgh, PA",45.3 FAMILY
+http://164.52.224.212:5004/auto/v45.3
+#EXTINF:-1 channel-id="45.4" channel-number="45.4" tvg-name="ACETV" group-title="Pittsburgh, PA",45.4 ACETV
+http://164.52.224.212:5004/auto/v45.4
+#EXTINF:-1 channel-id="45.5" channel-number="45.5" tvg-name="RIGHTNW" group-title="Pittsburgh, PA",45.5 RIGHTNW
+http://164.52.224.212:5004/auto/v45.5
+#EXTINF:-1 channel-id="45.6" channel-number="45.6" tvg-name="YTA" group-title="Pittsburgh, PA",45.6 YTA
+http://164.52.224.212:5004/auto/v45.6
+#EXTINF:-1 channel-id="45.7" channel-number="45.7" tvg-name="AMGTV" group-title="Pittsburgh, PA",45.7 AMGTV
+http://164.52.224.212:5004/auto/v45.7
+#EXTINF:-1 channel-id="45.8" channel-number="45.8" tvg-name="FUNRDS" group-title="Pittsburgh, PA",45.8 FUNRDS
+http://164.52.224.212:5004/auto/v45.8
+#EXTINF:-1 channel-id="45.10" channel-number="45.10" tvg-name="WXNATN" group-title="Pittsburgh, PA",45.10 WXNATN
+http://164.52.224.212:5004/auto/v45.10
+#EXTINF:-1 channel-id="53.1" channel-number="53.1" tvg-name="FOX" group-title="Pittsburgh, PA",53.1 FOX
+http://164.52.224.212:5004/auto/v53.1
+#EXTINF:-1 channel-id="53.2" channel-number="53.2" tvg-name="Antenna" group-title="Pittsburgh, PA",53.2 Antenna
+http://164.52.224.212:5004/auto/v53.2
+#EXTINF:-1 channel-id="53.3" channel-number="53.3" tvg-name="Charge!" group-title="Pittsburgh, PA",53.3 Charge!
+http://164.52.224.212:5004/auto/v53.3
+#EXTINF:-1 channel-id="53.4" channel-number="53.4" tvg-name="ROAR" group-title="Pittsburgh, PA",53.4 ROAR
+http://164.52.224.212:5004/auto/v53.4
+#EXTINF:-1 channel-id="61.1" channel-number="61.1" tvg-name="WOSC-CD" group-title="Pittsburgh, PA",61.1 WOSC-CD
+http://164.52.224.212:5004/auto/v61.1
+#EXTINF:-1 channel-id="61.2" channel-number="61.2" tvg-name="MOVISPH" group-title="Pittsburgh, PA",61.2 MOVISPH
+http://164.52.224.212:5004/auto/v61.2
+#EXTINF:-1 channel-id="61.3" channel-number="61.3" tvg-name="BUZZR" group-title="Pittsburgh, PA",61.3 BUZZR
+http://164.52.224.212:5004/auto/v61.3
+#EXTINF:-1 channel-id="61.4" channel-number="61.4" tvg-name="SBN" group-title="Pittsburgh, PA",61.4 SBN
+http://164.52.224.212:5004/auto/v61.4
+#EXTINF:-1 channel-id="61.5" channel-number="61.5" tvg-name="WEST" group-title="Pittsburgh, PA",61.5 WEST
+http://164.52.224.212:5004/auto/v61.5
+#EXTINF:-1 channel-id="61.6" channel-number="61.6" tvg-name="QVC" group-title="Pittsburgh, PA",61.6 QVC
+http://164.52.224.212:5004/auto/v61.6
+#EXTINF:-1 channel-id="61.7" channel-number="61.7" tvg-name="NEWSMX2" group-title="Pittsburgh, PA",61.7 NEWSMX2
+http://164.52.224.212:5004/auto/v61.7
+#EXTINF:-1 channel-id="61.8" channel-number="61.8" tvg-name="OAN" group-title="Pittsburgh, PA",61.8 OAN
+http://164.52.224.212:5004/auto/v61.8
+#EXTINF:-1 channel-id="61.9" channel-number="61.9" tvg-name="AMVOICE" group-title="Pittsburgh, PA",61.9 AMVOICE
+http://164.52.224.212:5004/auto/v61.9
+#EXTINF:-1 channel-id="61.10" channel-number="61.10" tvg-name="OSN" group-title="Pittsburgh, PA",61.10 OSN
+http://164.52.224.212:5004/auto/v61.10
+#EXTINF:-1 channel-id="61.11" channel-number="61.11" tvg-name="QVC2" group-title="Pittsburgh, PA",61.11 QVC2
+http://164.52.224.212:5004/auto/v61.11
+#EXTINF:-1 channel-id="61.12" channel-number="61.12" tvg-name="HSN2" group-title="Pittsburgh, PA",61.12 HSN2
+http://164.52.224.212:5004/auto/v61.12
+#EXTINF:-1 channel-id="65.1" channel-number="65.1" tvg-name="WPDN-LD" group-title="Pittsburgh, PA",65.1 WPDN-LD
+http://164.52.224.212:5004/auto/v65.1
+#EXTINF:-1 channel-id="65.2" channel-number="65.2" tvg-name="WPDN-ES" group-title="Pittsburgh, PA",65.2 WPDN-ES
+http://164.52.224.212:5004/auto/v65.2
+#EXTINF:-1 channel-id="65.3" channel-number="65.3" tvg-name="WPDN-SD" group-title="Pittsburgh, PA",65.3 WPDN-SD
+http://164.52.224.212:5004/auto/v65.3
+#EXTINF:-1 channel-id="69.1" channel-number="69.1" tvg-name="WPTG-CD" group-title="Pittsburgh, PA",69.1 WPTG-CD
+http://164.52.224.212:5004/auto/v69.1
+#EXTINF:-1 channel-id="69.2" channel-number="69.2" tvg-name="NTD" group-title="Pittsburgh, PA",69.2 NTD
+http://164.52.224.212:5004/auto/v69.2
+#EXTINF:-1 channel-id="69.3" channel-number="69.3" tvg-name="RETRO" group-title="Pittsburgh, PA",69.3 RETRO
+http://164.52.224.212:5004/auto/v69.3
+#EXTINF:-1 channel-id="69.4" channel-number="69.4" tvg-name="FTFSPTS" group-title="Pittsburgh, PA",69.4 FTFSPTS
+http://164.52.224.212:5004/auto/v69.4
+#EXTINF:-1 channel-id="69.5" channel-number="69.5" tvg-name="TRUCRME" group-title="Pittsburgh, PA",69.5 TRUCRME
+http://164.52.224.212:5004/auto/v69.5
+#EXTINF:-1 channel-id="69.6" channel-number="69.6" tvg-name="HEARTLD" group-title="Pittsburgh, PA",69.6 HEARTLD
+http://164.52.224.212:5004/auto/v69.6
+#EXTINF:-1 channel-id="69.7" channel-number="69.7" tvg-name="AWEPLUS" group-title="Pittsburgh, PA",69.7 AWEPLUS
+http://164.52.224.212:5004/auto/v69.7
+#EXTINF:-1 channel-id="69.8" channel-number="69.8" tvg-name="REWIND" group-title="Pittsburgh, PA",69.8 REWIND
+http://164.52.224.212:5004/auto/v69.8
+#EXTINF:-1 channel-id="69.9" channel-number="69.9" tvg-name="MARIAVN" group-title="Pittsburgh, PA",69.9 MARIAVN
+http://164.52.224.212:5004/auto/v69.9
+#EXTINF:-1 channel-id="69.10" channel-number="69.10" tvg-name="CANELLA" group-title="Pittsburgh, PA",69.10 CANELLA
+http://164.52.224.212:5004/auto/v69.10
+#EXTINF:-1 channel-id="69.11" channel-number="69.11" tvg-name="SHOPLC" group-title="Pittsburgh, PA",69.11 SHOPLC
+http://164.52.224.212:5004/auto/v69.11
+#EXTINF:-1 channel-id="69.12" channel-number="69.12" tvg-name="JTV" group-title="Pittsburgh, PA",69.12 JTV
+http://164.52.224.212:5004/auto/v69.12
+
+# ---------- Florence, AL ----------
+#EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="Guide" group-title="Florence, AL",2.1 Guide
+http://12.189.234.26:5004/auto/v2.1
+#EXTINF:-1 channel-id="3.1" channel-number="3.1" tvg-name="WAAY" group-title="Florence, AL",3.1 WAAY
+http://12.189.234.26:5004/auto/v3.1
+#EXTINF:-1 channel-id="4.1" channel-number="4.1" tvg-name="WAFF" group-title="Florence, AL",4.1 WAFF
+http://12.189.234.26:5004/auto/v4.1
+#EXTINF:-1 channel-id="5.1" channel-number="5.1" tvg-name="WZDX" group-title="Florence, AL",5.1 WZDX
+http://12.189.234.26:5004/auto/v5.1
+#EXTINF:-1 channel-id="6.1" channel-number="6.1" tvg-name="WHIQ" group-title="Florence, AL",6.1 WHIQ
+http://12.189.234.26:5004/auto/v6.1
+#EXTINF:-1 channel-id="7.1" channel-number="7.1" tvg-name="WHNT" group-title="Florence, AL",7.1 WHNT
+http://12.189.234.26:5004/auto/v7.1
+#EXTINF:-1 channel-id="8.1" channel-number="8.1" tvg-name="WHDF" group-title="Florence, AL",8.1 WHDF
+http://12.189.234.26:5004/auto/v8.1
+#EXTINF:-1 channel-id="9.1" channel-number="9.1" tvg-name="ION" group-title="Florence, AL",9.1 ION
+http://12.189.234.26:5004/auto/v9.1
+#EXTINF:-1 channel-id="10.1" channel-number="10.1" tvg-name="GREAT" group-title="Florence, AL",10.1 GREAT
+http://12.189.234.26:5004/auto/v10.1
+#EXTINF:-1 channel-id="11.1" channel-number="11.1" tvg-name="CSPAN" group-title="Florence, AL",11.1 CSPAN
+http://12.189.234.26:5004/auto/v11.1
+#EXTINF:-1 channel-id="12.1" channel-number="12.1" tvg-name="CNN" group-title="Florence, AL",12.1 CNN
+http://12.189.234.26:5004/auto/v12.1
+#EXTINF:-1 channel-id="13.1" channel-number="13.1" tvg-name="HLN" group-title="Florence, AL",13.1 HLN
+http://12.189.234.26:5004/auto/v13.1
+#EXTINF:-1 channel-id="14.1" channel-number="14.1" tvg-name="FXNWS" group-title="Florence, AL",14.1 FXNWS
+http://12.189.234.26:5004/auto/v14.1
+#EXTINF:-1 channel-id="15.1" channel-number="15.1" tvg-name="MSNOW" group-title="Florence, AL",15.1 MSNOW
+http://12.189.234.26:5004/auto/v15.1
+#EXTINF:-1 channel-id="16.1" channel-number="16.1" tvg-name="CNBC" group-title="Florence, AL",16.1 CNBC
+http://12.189.234.26:5004/auto/v16.1
+#EXTINF:-1 channel-id="17.1" channel-number="17.1" tvg-name="BITV" group-title="Florence, AL",17.1 BITV
+http://12.189.234.26:5004/auto/v17.1
+#EXTINF:-1 channel-id="18.1" channel-number="18.1" tvg-name="FOXB" group-title="Florence, AL",18.1 FOXB
+http://12.189.234.26:5004/auto/v18.1
+#EXTINF:-1 channel-id="19.1" channel-number="19.1" tvg-name="WEATH" group-title="Florence, AL",19.1 WEATH
+http://12.189.234.26:5004/auto/v19.1
+#EXTINF:-1 channel-id="20.1" channel-number="20.1" tvg-name="ESPN" group-title="Florence, AL",20.1 ESPN
+http://12.189.234.26:5004/auto/v20.1
+#EXTINF:-1 channel-id="21.1" channel-number="21.1" tvg-name="ESPN2" group-title="Florence, AL",21.1 ESPN2
+http://12.189.234.26:5004/auto/v21.1
+#EXTINF:-1 channel-id="22.1" channel-number="22.1" tvg-name="ESNWS" group-title="Florence, AL",22.1 ESNWS
+http://12.189.234.26:5004/auto/v22.1
+#EXTINF:-1 channel-id="23.1" channel-number="23.1" tvg-name="ESPNU" group-title="Florence, AL",23.1 ESPNU
+http://12.189.234.26:5004/auto/v23.1
+#EXTINF:-1 channel-id="24.1" channel-number="24.1" tvg-name="BOOST" group-title="Florence, AL",24.1 BOOST
+http://12.189.234.26:5004/auto/v24.1
+#EXTINF:-1 channel-id="25.1" channel-number="25.1" tvg-name="BIG10" group-title="Florence, AL",25.1 BIG10
+http://12.189.234.26:5004/auto/v25.1
+#EXTINF:-1 channel-id="26.1" channel-number="26.1" tvg-name="NFL" group-title="Florence, AL",26.1 NFL
+http://12.189.234.26:5004/auto/v26.1
+#EXTINF:-1 channel-id="27.1" channel-number="27.1" tvg-name="NHLN" group-title="Florence, AL",27.1 NHLN
+http://12.189.234.26:5004/auto/v27.1
+#EXTINF:-1 channel-id="28.1" channel-number="28.1" tvg-name="MLBN" group-title="Florence, AL",28.1 MLBN
+http://12.189.234.26:5004/auto/v28.1
+#EXTINF:-1 channel-id="29.1" channel-number="29.1" tvg-name="NBATV" group-title="Florence, AL",29.1 NBATV
+http://12.189.234.26:5004/auto/v29.1
+#EXTINF:-1 channel-id="30.1" channel-number="30.1" tvg-name="TCT" group-title="Florence, AL",30.1 TCT
+http://12.189.234.26:5004/auto/v30.1
+#EXTINF:-1 channel-id="31.1" channel-number="31.1" tvg-name="FOXS1" group-title="Florence, AL",31.1 FOXS1
+http://12.189.234.26:5004/auto/v31.1
+#EXTINF:-1 channel-id="32.1" channel-number="32.1" tvg-name="FOXS2" group-title="Florence, AL",32.1 FOXS2
+http://12.189.234.26:5004/auto/v32.1
+#EXTINF:-1 channel-id="33.1" channel-number="33.1" tvg-name="GOLF" group-title="Florence, AL",33.1 GOLF
+http://12.189.234.26:5004/auto/v33.1
+#EXTINF:-1 channel-id="42.1" channel-number="42.1" tvg-name="VH1" group-title="Florence, AL",42.1 VH1
+http://12.189.234.26:5004/auto/v42.1
+#EXTINF:-1 channel-id="43.1" channel-number="43.1" tvg-name="FUSE" group-title="Florence, AL",43.1 FUSE
+http://12.189.234.26:5004/auto/v43.1
+#EXTINF:-1 channel-id="44.1" channel-number="44.1" tvg-name="MTV" group-title="Florence, AL",44.1 MTV
+http://12.189.234.26:5004/auto/v44.1
+#EXTINF:-1 channel-id="45.1" channel-number="45.1" tvg-name="MTV2" group-title="Florence, AL",45.1 MTV2
+http://12.189.234.26:5004/auto/v45.1
+#EXTINF:-1 channel-id="46.1" channel-number="46.1" tvg-name="MTVL" group-title="Florence, AL",46.1 MTVL
+http://12.189.234.26:5004/auto/v46.1
+#EXTINF:-1 channel-id="47.1" channel-number="47.1" tvg-name="CMT" group-title="Florence, AL",47.1 CMT
+http://12.189.234.26:5004/auto/v47.1
+#EXTINF:-1 channel-id="48.1" channel-number="48.1" tvg-name="BET" group-title="Florence, AL",48.1 BET
+http://12.189.234.26:5004/auto/v48.1
+#EXTINF:-1 channel-id="49.1" channel-number="49.1" tvg-name="E!" group-title="Florence, AL",49.1 E!
+http://12.189.234.26:5004/auto/v49.1
+#EXTINF:-1 channel-id="50.1" channel-number="50.1" tvg-name="DISC" group-title="Florence, AL",50.1 DISC
+http://12.189.234.26:5004/auto/v50.1
+#EXTINF:-1 channel-id="51.1" channel-number="51.1" tvg-name="APL" group-title="Florence, AL",51.1 APL
+http://12.189.234.26:5004/auto/v51.1
+#EXTINF:-1 channel-id="52.1" channel-number="52.1" tvg-name="HIST" group-title="Florence, AL",52.1 HIST
+http://12.189.234.26:5004/auto/v52.1
+#EXTINF:-1 channel-id="53.1" channel-number="53.1" tvg-name="NTGEO" group-title="Florence, AL",53.1 NTGEO
+http://12.189.234.26:5004/auto/v53.1
+#EXTINF:-1 channel-id="54.1" channel-number="54.1" tvg-name="BRAVO" group-title="Florence, AL",54.1 BRAVO
+http://12.189.234.26:5004/auto/v54.1
+#EXTINF:-1 channel-id="55.1" channel-number="55.1" tvg-name="TLC" group-title="Florence, AL",55.1 TLC
+http://12.189.234.26:5004/auto/v55.1
+#EXTINF:-1 channel-id="56.1" channel-number="56.1" tvg-name="FRFM" group-title="Florence, AL",56.1 FRFM
+http://12.189.234.26:5004/auto/v56.1
+#EXTINF:-1 channel-id="57.1" channel-number="57.1" tvg-name="NICK" group-title="Florence, AL",57.1 NICK
+http://12.189.234.26:5004/auto/v57.1
+#EXTINF:-1 channel-id="58.1" channel-number="58.1" tvg-name="TOON" group-title="Florence, AL",58.1 TOON
+http://12.189.234.26:5004/auto/v58.1
+#EXTINF:-1 channel-id="59.1" channel-number="59.1" tvg-name="DISE" group-title="Florence, AL",59.1 DISE
+http://12.189.234.26:5004/auto/v59.1
+#EXTINF:-1 channel-id="60.1" channel-number="60.1" tvg-name="SYFY" group-title="Florence, AL",60.1 SYFY
+http://12.189.234.26:5004/auto/v60.1
+#EXTINF:-1 channel-id="61.1" channel-number="61.1" tvg-name="HGTV" group-title="Florence, AL",61.1 HGTV
+http://12.189.234.26:5004/auto/v61.1
+#EXTINF:-1 channel-id="62.1" channel-number="62.1" tvg-name="A&E" group-title="Florence, AL",62.1 A&E
+http://12.189.234.26:5004/auto/v62.1
+#EXTINF:-1 channel-id="63.1" channel-number="63.1" tvg-name="LIFE" group-title="Florence, AL",63.1 LIFE
+http://12.189.234.26:5004/auto/v63.1
+#EXTINF:-1 channel-id="64.1" channel-number="64.1" tvg-name="WE" group-title="Florence, AL",64.1 WE
+http://12.189.234.26:5004/auto/v64.1
+#EXTINF:-1 channel-id="65.1" channel-number="65.1" tvg-name="OWN" group-title="Florence, AL",65.1 OWN
+http://12.189.234.26:5004/auto/v65.1
+#EXTINF:-1 channel-id="66.1" channel-number="66.1" tvg-name="OXYGN" group-title="Florence, AL",66.1 OXYGN
+http://12.189.234.26:5004/auto/v66.1
+#EXTINF:-1 channel-id="67.1" channel-number="67.1" tvg-name="HLMRK" group-title="Florence, AL",67.1 HLMRK
+http://12.189.234.26:5004/auto/v67.1
+#EXTINF:-1 channel-id="68.1" channel-number="68.1" tvg-name="FX" group-title="Florence, AL",68.1 FX
+http://12.189.234.26:5004/auto/v68.1
+#EXTINF:-1 channel-id="69.1" channel-number="69.1" tvg-name="FXX" group-title="Florence, AL",69.1 FXX
+http://12.189.234.26:5004/auto/v69.1
+#EXTINF:-1 channel-id="70.1" channel-number="70.1" tvg-name="TNT" group-title="Florence, AL",70.1 TNT
+http://12.189.234.26:5004/auto/v70.1
+#EXTINF:-1 channel-id="71.1" channel-number="71.1" tvg-name="TBS" group-title="Florence, AL",71.1 TBS
+http://12.189.234.26:5004/auto/v71.1
+#EXTINF:-1 channel-id="72.1" channel-number="72.1" tvg-name="USA" group-title="Florence, AL",72.1 USA
+http://12.189.234.26:5004/auto/v72.1
+#EXTINF:-1 channel-id="73.1" channel-number="73.1" tvg-name="PARAM" group-title="Florence, AL",73.1 PARAM
+http://12.189.234.26:5004/auto/v73.1
+#EXTINF:-1 channel-id="74.1" channel-number="74.1" tvg-name="TRU" group-title="Florence, AL",74.1 TRU
+http://12.189.234.26:5004/auto/v74.1
+#EXTINF:-1 channel-id="75.1" channel-number="75.1" tvg-name="AMC" group-title="Florence, AL",75.1 AMC
+http://12.189.234.26:5004/auto/v75.1
+#EXTINF:-1 channel-id="76.1" channel-number="76.1" tvg-name="IFC" group-title="Florence, AL",76.1 IFC
+http://12.189.234.26:5004/auto/v76.1
+#EXTINF:-1 channel-id="77.1" channel-number="77.1" tvg-name="BBCA" group-title="Florence, AL",77.1 BBCA
+http://12.189.234.26:5004/auto/v77.1
+#EXTINF:-1 channel-id="78.1" channel-number="78.1" tvg-name="TRV" group-title="Florence, AL",78.1 TRV
+http://12.189.234.26:5004/auto/v78.1
+#EXTINF:-1 channel-id="79.1" channel-number="79.1" tvg-name="FOOD" group-title="Florence, AL",79.1 FOOD
+http://12.189.234.26:5004/auto/v79.1
+#EXTINF:-1 channel-id="80.1" channel-number="80.1" tvg-name="CMDY" group-title="Florence, AL",80.1 CMDY
+http://12.189.234.26:5004/auto/v80.1
+#EXTINF:-1 channel-id="81.1" channel-number="81.1" tvg-name="TVLND" group-title="Florence, AL",81.1 TVLND
+http://12.189.234.26:5004/auto/v81.1
+
+# ---------- Crafton, PA ----------
+#EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="KDKA-HD" group-title="Crafton, PA",2.1 KDKA-HD
+http://98.111.243.7:5004/auto/v2.1
+#EXTINF:-1 channel-id="2.2" channel-number="2.2" tvg-name="StartTV" group-title="Crafton, PA",2.2 StartTV
+http://98.111.243.7:5004/auto/v2.2
+#EXTINF:-1 channel-id="2.3" channel-number="2.3" tvg-name="DABL" group-title="Crafton, PA",2.3 DABL
+http://98.111.243.7:5004/auto/v2.3
+#EXTINF:-1 channel-id="2.4" channel-number="2.4" tvg-name="THE365" group-title="Crafton, PA",2.4 THE365
+http://98.111.243.7:5004/auto/v2.4
+#EXTINF:-1 channel-id="2.5" channel-number="2.5" tvg-name="Catchy" group-title="Crafton, PA",2.5 Catchy
+http://98.111.243.7:5004/auto/v2.5
+#EXTINF:-1 channel-id="4.1" channel-number="4.1" tvg-name="WTAE" group-title="Crafton, PA",4.1 WTAE
+http://98.111.243.7:5004/auto/v4.1
+#EXTINF:-1 channel-id="4.2" channel-number="4.2" tvg-name="Cozi TV" group-title="Crafton, PA",4.2 Cozi TV
+http://98.111.243.7:5004/auto/v4.2
+#EXTINF:-1 channel-id="4.3" channel-number="4.3" tvg-name="STORY" group-title="Crafton, PA",4.3 STORY
+http://98.111.243.7:5004/auto/v4.3
+#EXTINF:-1 channel-id="11.1" channel-number="11.1" tvg-name="WPXI-HD" group-title="Crafton, PA",11.1 WPXI-HD
+http://98.111.243.7:5004/auto/v11.1
+#EXTINF:-1 channel-id="11.2" channel-number="11.2" tvg-name="MeTV" group-title="Crafton, PA",11.2 MeTV
+http://98.111.243.7:5004/auto/v11.2
+#EXTINF:-1 channel-id="11.3" channel-number="11.3" tvg-name="LAFF TV" group-title="Crafton, PA",11.3 LAFF TV
+http://98.111.243.7:5004/auto/v11.3
+#EXTINF:-1 channel-id="11.4" channel-number="11.4" tvg-name="PCNC" group-title="Crafton, PA",11.4 PCNC
+http://98.111.243.7:5004/auto/v11.4
+#EXTINF:-1 channel-id="13.1" channel-number="13.1" tvg-name="WQED-HD" group-title="Crafton, PA",13.1 WQED-HD
+http://98.111.243.7:5004/auto/v13.1
+#EXTINF:-1 channel-id="13.2" channel-number="13.2" tvg-name="CREATE" group-title="Crafton, PA",13.2 CREATE
+http://98.111.243.7:5004/auto/v13.2
+#EXTINF:-1 channel-id="13.3" channel-number="13.3" tvg-name="WORLD" group-title="Crafton, PA",13.3 WORLD
+http://98.111.243.7:5004/auto/v13.3
+#EXTINF:-1 channel-id="13.4" channel-number="13.4" tvg-name="SHOW" group-title="Crafton, PA",13.4 SHOW
+http://98.111.243.7:5004/auto/v13.4
+#EXTINF:-1 channel-id="13.5" channel-number="13.5" tvg-name="KIDS" group-title="Crafton, PA",13.5 KIDS
+http://98.111.243.7:5004/auto/v13.5
+#EXTINF:-1 channel-id="16.1" channel-number="16.1" tvg-name="ION" group-title="Crafton, PA",16.1 ION
+http://98.111.243.7:5004/auto/v16.1
+#EXTINF:-1 channel-id="16.2" channel-number="16.2" tvg-name="Bounce" group-title="Crafton, PA",16.2 Bounce
+http://98.111.243.7:5004/auto/v16.2
+#EXTINF:-1 channel-id="16.3" channel-number="16.3" tvg-name="Mystery" group-title="Crafton, PA",16.3 Mystery
+http://98.111.243.7:5004/auto/v16.3
+#EXTINF:-1 channel-id="16.4" channel-number="16.4" tvg-name="IONPlus" group-title="Crafton, PA",16.4 IONPlus
+http://98.111.243.7:5004/auto/v16.4
+#EXTINF:-1 channel-id="16.5" channel-number="16.5" tvg-name="BUSTED" group-title="Crafton, PA",16.5 BUSTED
+http://98.111.243.7:5004/auto/v16.5
+#EXTINF:-1 channel-id="16.6" channel-number="16.6" tvg-name="GameSho" group-title="Crafton, PA",16.6 GameSho
+http://98.111.243.7:5004/auto/v16.6
+#EXTINF:-1 channel-id="16.7" channel-number="16.7" tvg-name="QVC" group-title="Crafton, PA",16.7 QVC
+http://98.111.243.7:5004/auto/v16.7
+#EXTINF:-1 channel-id="16.8" channel-number="16.8" tvg-name="HSN" group-title="Crafton, PA",16.8 HSN
+http://98.111.243.7:5004/auto/v16.8
+#EXTINF:-1 channel-id="19.1" channel-number="19.1" tvg-name="WPKD-DT" group-title="Crafton, PA",19.1 WPKD-DT
+http://98.111.243.7:5004/auto/v19.1
+#EXTINF:-1 channel-id="19.2" channel-number="19.2" tvg-name="H&I" group-title="Crafton, PA",19.2 H&I
+http://98.111.243.7:5004/auto/v19.2
+#EXTINF:-1 channel-id="19.3" channel-number="19.3" tvg-name="GRIT" group-title="Crafton, PA",19.3 GRIT
+http://98.111.243.7:5004/auto/v19.3
+#EXTINF:-1 channel-id="19.4" channel-number="19.4" tvg-name="Movies!" group-title="Crafton, PA",19.4 Movies!
+http://98.111.243.7:5004/auto/v19.4
+#EXTINF:-1 channel-id="19.5" channel-number="19.5" tvg-name="HSN" group-title="Crafton, PA",19.5 HSN
+http://98.111.243.7:5004/auto/v19.5
+#EXTINF:-1 channel-id="19.6" channel-number="19.6" tvg-name="Nosey" group-title="Crafton, PA",19.6 Nosey
+http://98.111.243.7:5004/auto/v19.6
+#EXTINF:-1 channel-id="22.1" channel-number="22.1" tvg-name="WPNT CW" group-title="Crafton, PA",22.1 WPNT CW
+http://98.111.243.7:5004/auto/v22.1
+#EXTINF:-1 channel-id="22.2" channel-number="22.2" tvg-name="Stadium" group-title="Crafton, PA",22.2 Stadium
+http://98.111.243.7:5004/auto/v22.2
+#EXTINF:-1 channel-id="22.3" channel-number="22.3" tvg-name="Comet" group-title="Crafton, PA",22.3 Comet
+http://98.111.243.7:5004/auto/v22.3
+#EXTINF:-1 channel-id="22.4" channel-number="22.4" tvg-name="TBD" group-title="Crafton, PA",22.4 TBD
+http://98.111.243.7:5004/auto/v22.4
+#EXTINF:-1 channel-id="40.1" channel-number="40.1" tvg-name="WPCBDT" group-title="Crafton, PA",40.1 WPCBDT
+http://98.111.243.7:5004/auto/v40.1
+#EXTINF:-1 channel-id="40.2" channel-number="40.2" tvg-name="CourtTV" group-title="Crafton, PA",40.2 CourtTV
+http://98.111.243.7:5004/auto/v40.2
+#EXTINF:-1 channel-id="40.3" channel-number="40.3" tvg-name="The365" group-title="Crafton, PA",40.3 The365
+http://98.111.243.7:5004/auto/v40.3
+#EXTINF:-1 channel-id="40.4" channel-number="40.4" tvg-name="Quest" group-title="Crafton, PA",40.4 Quest
+http://98.111.243.7:5004/auto/v40.4
+#EXTINF:-1 channel-id="40.5" channel-number="40.5" tvg-name="GetTV" group-title="Crafton, PA",40.5 GetTV
+http://98.111.243.7:5004/auto/v40.5
+#EXTINF:-1 channel-id="40.6" channel-number="40.6" tvg-name="DEFY" group-title="Crafton, PA",40.6 DEFY
+http://98.111.243.7:5004/auto/v40.6
+#EXTINF:-1 channel-id="40.7" channel-number="40.7" tvg-name="OUTLAW" group-title="Crafton, PA",40.7 OUTLAW
+http://98.111.243.7:5004/auto/v40.7
+#EXTINF:-1 channel-id="40.8" channel-number="40.8" tvg-name="PFFC" group-title="Crafton, PA",40.8 PFFC
+http://98.111.243.7:5004/auto/v40.8
+#EXTINF:-1 channel-id="45.1" channel-number="45.1" tvg-name="WWAT-CD" group-title="Crafton, PA",45.1 WWAT-CD
+http://98.111.243.7:5004/auto/v45.1
+#EXTINF:-1 channel-id="45.2" channel-number="45.2" tvg-name="ACTION" group-title="Crafton, PA",45.2 ACTION
+http://98.111.243.7:5004/auto/v45.2
+#EXTINF:-1 channel-id="45.3" channel-number="45.3" tvg-name="FAMILY" group-title="Crafton, PA",45.3 FAMILY
+http://98.111.243.7:5004/auto/v45.3
+#EXTINF:-1 channel-id="45.4" channel-number="45.4" tvg-name="ACETV" group-title="Crafton, PA",45.4 ACETV
+http://98.111.243.7:5004/auto/v45.4
+#EXTINF:-1 channel-id="45.5" channel-number="45.5" tvg-name="RIGHTNW" group-title="Crafton, PA",45.5 RIGHTNW
+http://98.111.243.7:5004/auto/v45.5
+#EXTINF:-1 channel-id="45.6" channel-number="45.6" tvg-name="YTA" group-title="Crafton, PA",45.6 YTA
+http://98.111.243.7:5004/auto/v45.6
+#EXTINF:-1 channel-id="45.7" channel-number="45.7" tvg-name="AMGTV" group-title="Crafton, PA",45.7 AMGTV
+http://98.111.243.7:5004/auto/v45.7
+#EXTINF:-1 channel-id="45.8" channel-number="45.8" tvg-name="FUNRDS" group-title="Crafton, PA",45.8 FUNRDS
+http://98.111.243.7:5004/auto/v45.8
+#EXTINF:-1 channel-id="45.10" channel-number="45.10" tvg-name="WXNATN" group-title="Crafton, PA",45.10 WXNATN
+http://98.111.243.7:5004/auto/v45.10
+#EXTINF:-1 channel-id="53.1" channel-number="53.1" tvg-name="FOX" group-title="Crafton, PA",53.1 FOX
+http://98.111.243.7:5004/auto/v53.1
+#EXTINF:-1 channel-id="53.2" channel-number="53.2" tvg-name="Antenna" group-title="Crafton, PA",53.2 Antenna
+http://98.111.243.7:5004/auto/v53.2
+#EXTINF:-1 channel-id="53.3" channel-number="53.3" tvg-name="Charge!" group-title="Crafton, PA",53.3 Charge!
+http://98.111.243.7:5004/auto/v53.3
+#EXTINF:-1 channel-id="53.4" channel-number="53.4" tvg-name="ROAR" group-title="Crafton, PA",53.4 ROAR
+http://98.111.243.7:5004/auto/v53.4
+#EXTINF:-1 channel-id="61.1" channel-number="61.1" tvg-name="WOSC-CD" group-title="Crafton, PA",61.1 WOSC-CD
+http://98.111.243.7:5004/auto/v61.1
+#EXTINF:-1 channel-id="61.2" channel-number="61.2" tvg-name="MOVISPH" group-title="Crafton, PA",61.2 MOVISPH
+http://98.111.243.7:5004/auto/v61.2
+#EXTINF:-1 channel-id="61.3" channel-number="61.3" tvg-name="BUZZR" group-title="Crafton, PA",61.3 BUZZR
+http://98.111.243.7:5004/auto/v61.3
+#EXTINF:-1 channel-id="61.4" channel-number="61.4" tvg-name="SBN" group-title="Crafton, PA",61.4 SBN
+http://98.111.243.7:5004/auto/v61.4
+#EXTINF:-1 channel-id="61.5" channel-number="61.5" tvg-name="WEST" group-title="Crafton, PA",61.5 WEST
+http://98.111.243.7:5004/auto/v61.5
+#EXTINF:-1 channel-id="61.6" channel-number="61.6" tvg-name="QVC" group-title="Crafton, PA",61.6 QVC
+http://98.111.243.7:5004/auto/v61.6
+#EXTINF:-1 channel-id="61.7" channel-number="61.7" tvg-name="NEWSMX2" group-title="Crafton, PA",61.7 NEWSMX2
+http://98.111.243.7:5004/auto/v61.7
+#EXTINF:-1 channel-id="61.8" channel-number="61.8" tvg-name="OAN" group-title="Crafton, PA",61.8 OAN
+http://98.111.243.7:5004/auto/v61.8
+#EXTINF:-1 channel-id="61.9" channel-number="61.9" tvg-name="AMVOICE" group-title="Crafton, PA",61.9 AMVOICE
+http://98.111.243.7:5004/auto/v61.9
+#EXTINF:-1 channel-id="61.10" channel-number="61.10" tvg-name="OSN" group-title="Crafton, PA",61.10 OSN
+http://98.111.243.7:5004/auto/v61.10
+#EXTINF:-1 channel-id="61.11" channel-number="61.11" tvg-name="QVC2" group-title="Crafton, PA",61.11 QVC2
+http://98.111.243.7:5004/auto/v61.11
+#EXTINF:-1 channel-id="61.12" channel-number="61.12" tvg-name="HSN2" group-title="Crafton, PA",61.12 HSN2
+http://98.111.243.7:5004/auto/v61.12
+#EXTINF:-1 channel-id="65.1" channel-number="65.1" tvg-name="WPDN-LD" group-title="Crafton, PA",65.1 WPDN-LD
+http://98.111.243.7:5004/auto/v65.1
+#EXTINF:-1 channel-id="65.2" channel-number="65.2" tvg-name="WPDN-ES" group-title="Crafton, PA",65.2 WPDN-ES
+http://98.111.243.7:5004/auto/v65.2
+#EXTINF:-1 channel-id="65.3" channel-number="65.3" tvg-name="WPDN-SD" group-title="Crafton, PA",65.3 WPDN-SD
+http://98.111.243.7:5004/auto/v65.3
+#EXTINF:-1 channel-id="69.1" channel-number="69.1" tvg-name="WPTG-CD" group-title="Crafton, PA",69.1 WPTG-CD
+http://98.111.243.7:5004/auto/v69.1
+#EXTINF:-1 channel-id="69.2" channel-number="69.2" tvg-name="NTD" group-title="Crafton, PA",69.2 NTD
+http://98.111.243.7:5004/auto/v69.2
+#EXTINF:-1 channel-id="69.3" channel-number="69.3" tvg-name="RETRO" group-title="Crafton, PA",69.3 RETRO
+http://98.111.243.7:5004/auto/v69.3
+#EXTINF:-1 channel-id="69.4" channel-number="69.4" tvg-name="FTFSPTS" group-title="Crafton, PA",69.4 FTFSPTS
+http://98.111.243.7:5004/auto/v69.4
+#EXTINF:-1 channel-id="69.5" channel-number="69.5" tvg-name="TRUCRME" group-title="Crafton, PA",69.5 TRUCRME
+http://98.111.243.7:5004/auto/v69.5
+#EXTINF:-1 channel-id="69.6" channel-number="69.6" tvg-name="HEARTLD" group-title="Crafton, PA",69.6 HEARTLD
+http://98.111.243.7:5004/auto/v69.6
+#EXTINF:-1 channel-id="69.7" channel-number="69.7" tvg-name="AWEPLUS" group-title="Crafton, PA",69.7 AWEPLUS
+http://98.111.243.7:5004/auto/v69.7
+#EXTINF:-1 channel-id="69.8" channel-number="69.8" tvg-name="REWIND" group-title="Crafton, PA",69.8 REWIND
+http://98.111.243.7:5004/auto/v69.8
+#EXTINF:-1 channel-id="69.9" channel-number="69.9" tvg-name="MARIAVN" group-title="Crafton, PA",69.9 MARIAVN
+http://98.111.243.7:5004/auto/v69.9
+#EXTINF:-1 channel-id="69.10" channel-number="69.10" tvg-name="CANELLA" group-title="Crafton, PA",69.10 CANELLA
+http://98.111.243.7:5004/auto/v69.10
+#EXTINF:-1 channel-id="69.11" channel-number="69.11" tvg-name="SHOPLC" group-title="Crafton, PA",69.11 SHOPLC
+http://98.111.243.7:5004/auto/v69.11
+#EXTINF:-1 channel-id="69.12" channel-number="69.12" tvg-name="JTV" group-title="Crafton, PA",69.12 JTV
+http://98.111.243.7:5004/auto/v69.12
+
+# ---------- Syracuse, NY ----------
+#EXTINF:-1 channel-id="3.1" channel-number="3.1" tvg-name="WSTMNBC" group-title="Syracuse, NY",3.1 WSTMNBC
+http://131.239.69.234:5004/auto/v3.1
+#EXTINF:-1 channel-id="3.2" channel-number="3.2" tvg-name="CW6" group-title="Syracuse, NY",3.2 CW6
+http://131.239.69.234:5004/auto/v3.2
+#EXTINF:-1 channel-id="3.3" channel-number="3.3" tvg-name="Comet" group-title="Syracuse, NY",3.3 Comet
+http://131.239.69.234:5004/auto/v3.3
+#EXTINF:-1 channel-id="5.1" channel-number="5.1" tvg-name="ROAR" group-title="Syracuse, NY",5.1 ROAR
+http://131.239.69.234:5004/auto/v5.1
+#EXTINF:-1 channel-id="5.2" channel-number="5.2" tvg-name="Charge!" group-title="Syracuse, NY",5.2 Charge!
+http://131.239.69.234:5004/auto/v5.2
+#EXTINF:-1 channel-id="9.1" channel-number="9.1" tvg-name="WSYR-HD" group-title="Syracuse, NY",9.1 WSYR-HD
+http://131.239.69.234:5004/auto/v9.1
+#EXTINF:-1 channel-id="9.2" channel-number="9.2" tvg-name="Antenna" group-title="Syracuse, NY",9.2 Antenna
+http://131.239.69.234:5004/auto/v9.2
+#EXTINF:-1 channel-id="9.3" channel-number="9.3" tvg-name="Bounce" group-title="Syracuse, NY",9.3 Bounce
+http://131.239.69.234:5004/auto/v9.3
+#EXTINF:-1 channel-id="9.4" channel-number="9.4" tvg-name="LAFF" group-title="Syracuse, NY",9.4 LAFF
+http://131.239.69.234:5004/auto/v9.4
+#EXTINF:-1 channel-id="11.1" channel-number="11.1" tvg-name="WONO-CD" group-title="Syracuse, NY",11.1 WONO-CD
+http://131.239.69.234:5004/auto/v11.1
+#EXTINF:-1 channel-id="11.2" channel-number="11.2" tvg-name="MVSGLD" group-title="Syracuse, NY",11.2 MVSGLD
+http://131.239.69.234:5004/auto/v11.2
+#EXTINF:-1 channel-id="11.3" channel-number="11.3" tvg-name="Binge" group-title="Syracuse, NY",11.3 Binge
+http://131.239.69.234:5004/auto/v11.3
+#EXTINF:-1 channel-id="11.4" channel-number="11.4" tvg-name="HSN2" group-title="Syracuse, NY",11.4 HSN2
+http://131.239.69.234:5004/auto/v11.4
+#EXTINF:-1 channel-id="11.5" channel-number="11.5" tvg-name="QVC" group-title="Syracuse, NY",11.5 QVC
+http://131.239.69.234:5004/auto/v11.5
+#EXTINF:-1 channel-id="11.6" channel-number="11.6" tvg-name="MainStr" group-title="Syracuse, NY",11.6 MainStr
+http://131.239.69.234:5004/auto/v11.6
+#EXTINF:-1 channel-id="15.1" channel-number="15.1" tvg-name="WKOFCBS" group-title="Syracuse, NY",15.1 WKOFCBS
+http://131.239.69.234:5004/auto/v15.1
+#EXTINF:-1 channel-id="22.1" channel-number="22.1" tvg-name="WTVU-CD" group-title="Syracuse, NY",22.1 WTVU-CD
+http://131.239.69.234:5004/auto/v22.1
+#EXTINF:-1 channel-id="22.2" channel-number="22.2" tvg-name="HSN HD" group-title="Syracuse, NY",22.2 HSN HD
+http://131.239.69.234:5004/auto/v22.2
+#EXTINF:-1 channel-id="22.3" channel-number="22.3" tvg-name="H&I" group-title="Syracuse, NY",22.3 H&I
+http://131.239.69.234:5004/auto/v22.3
+#EXTINF:-1 channel-id="22.4" channel-number="22.4" tvg-name="StartTV" group-title="Syracuse, NY",22.4 StartTV
+http://131.239.69.234:5004/auto/v22.4
+#EXTINF:-1 channel-id="22.5" channel-number="22.5" tvg-name="Catchy" group-title="Syracuse, NY",22.5 Catchy
+http://131.239.69.234:5004/auto/v22.5
+#EXTINF:-1 channel-id="22.6" channel-number="22.6" tvg-name="Movies" group-title="Syracuse, NY",22.6 Movies
+http://131.239.69.234:5004/auto/v22.6
+#EXTINF:-1 channel-id="24.1" channel-number="24.1" tvg-name="WCNY-HD" group-title="Syracuse, NY",24.1 WCNY-HD
+http://131.239.69.234:5004/auto/v24.1
+#EXTINF:-1 channel-id="24.2" channel-number="24.2" tvg-name="Create" group-title="Syracuse, NY",24.2 Create
+http://131.239.69.234:5004/auto/v24.2
+#EXTINF:-1 channel-id="24.3" channel-number="24.3" tvg-name="Global" group-title="Syracuse, NY",24.3 Global
+http://131.239.69.234:5004/auto/v24.3
+#EXTINF:-1 channel-id="24.4" channel-number="24.4" tvg-name="Kids" group-title="Syracuse, NY",24.4 Kids
+http://131.239.69.234:5004/auto/v24.4
+#EXTINF:-1 channel-id="35.1" channel-number="35.1" tvg-name="WWLF-LD" group-title="Syracuse, NY",35.1 WWLF-LD
+http://131.239.69.234:5004/auto/v35.1
+#EXTINF:-1 channel-id="35.2" channel-number="35.2" tvg-name="WWLFLD2" group-title="Syracuse, NY",35.2 WWLFLD2
+http://131.239.69.234:5004/auto/v35.2
+#EXTINF:-1 channel-id="40.1" channel-number="40.1" tvg-name="WMJQ-CD" group-title="Syracuse, NY",40.1 WMJQ-CD
+http://131.239.69.234:5004/auto/v40.1
+#EXTINF:-1 channel-id="40.2" channel-number="40.2" tvg-name="BUZZR" group-title="Syracuse, NY",40.2 BUZZR
+http://131.239.69.234:5004/auto/v40.2
+#EXTINF:-1 channel-id="40.3" channel-number="40.3" tvg-name="MeToons" group-title="Syracuse, NY",40.3 MeToons
+http://131.239.69.234:5004/auto/v40.3
+#EXTINF:-1 channel-id="40.4" channel-number="40.4" tvg-name="QVC2" group-title="Syracuse, NY",40.4 QVC2
+http://131.239.69.234:5004/auto/v40.4
+#EXTINF:-1 channel-id="40.5" channel-number="40.5" tvg-name="great" group-title="Syracuse, NY",40.5 great
+http://131.239.69.234:5004/auto/v40.5
+#EXTINF:-1 channel-id="43.1" channel-number="43.1" tvg-name="MY43" group-title="Syracuse, NY",43.1 MY43
+http://131.239.69.234:5004/auto/v43.1
+#EXTINF:-1 channel-id="43.2" channel-number="43.2" tvg-name="Dabl" group-title="Syracuse, NY",43.2 Dabl
+http://131.239.69.234:5004/auto/v43.2
+#EXTINF:-1 channel-id="49.1" channel-number="49.1" tvg-name="WBLZ-LD" group-title="Syracuse, NY",49.1 WBLZ-LD
+http://131.239.69.234:5004/auto/v49.1
+#EXTINF:-1 channel-id="49.2" channel-number="49.2" tvg-name="Action" group-title="Syracuse, NY",49.2 Action
+http://131.239.69.234:5004/auto/v49.2
+#EXTINF:-1 channel-id="49.3" channel-number="49.3" tvg-name="Heart" group-title="Syracuse, NY",49.3 Heart
+http://131.239.69.234:5004/auto/v49.3
+#EXTINF:-1 channel-id="49.4" channel-number="49.4" tvg-name="REVN" group-title="Syracuse, NY",49.4 REVN
+http://131.239.69.234:5004/auto/v49.4
+#EXTINF:-1 channel-id="51.1" channel-number="51.1" tvg-name="WHSU-CD" group-title="Syracuse, NY",51.1 WHSU-CD
+http://131.239.69.234:5004/auto/v51.1
+#EXTINF:-1 channel-id="51.2" channel-number="51.2" tvg-name="Story" group-title="Syracuse, NY",51.2 Story
+http://131.239.69.234:5004/auto/v51.2
+#EXTINF:-1 channel-id="51.3" channel-number="51.3" tvg-name="JTV HD" group-title="Syracuse, NY",51.3 JTV HD
+http://131.239.69.234:5004/auto/v51.3
+#EXTINF:-1 channel-id="51.4" channel-number="51.4" tvg-name="WEST" group-title="Syracuse, NY",51.4 WEST
+http://131.239.69.234:5004/auto/v51.4
+#EXTINF:-1 channel-id="51.5" channel-number="51.5" tvg-name="FR24" group-title="Syracuse, NY",51.5 FR24
+http://131.239.69.234:5004/auto/v51.5
+#EXTINF:-1 channel-id="51.6" channel-number="51.6" tvg-name="ARTS" group-title="Syracuse, NY",51.6 ARTS
+http://131.239.69.234:5004/auto/v51.6
+#EXTINF:-1 channel-id="56.1" channel-number="56.1" tvg-name="ION" group-title="Syracuse, NY",56.1 ION
+http://131.239.69.234:5004/auto/v56.1
+#EXTINF:-1 channel-id="56.2" channel-number="56.2" tvg-name="CourtTV" group-title="Syracuse, NY",56.2 CourtTV
+http://131.239.69.234:5004/auto/v56.2
+#EXTINF:-1 channel-id="56.3" channel-number="56.3" tvg-name="Grit" group-title="Syracuse, NY",56.3 Grit
+http://131.239.69.234:5004/auto/v56.3
+#EXTINF:-1 channel-id="56.4" channel-number="56.4" tvg-name="Mystery" group-title="Syracuse, NY",56.4 Mystery
+http://131.239.69.234:5004/auto/v56.4
+#EXTINF:-1 channel-id="56.5" channel-number="56.5" tvg-name="IONPlus" group-title="Syracuse, NY",56.5 IONPlus
+http://131.239.69.234:5004/auto/v56.5
+#EXTINF:-1 channel-id="56.6" channel-number="56.6" tvg-name="BUSTED" group-title="Syracuse, NY",56.6 BUSTED
+http://131.239.69.234:5004/auto/v56.6
+#EXTINF:-1 channel-id="56.7" channel-number="56.7" tvg-name="GameSho" group-title="Syracuse, NY",56.7 GameSho
+http://131.239.69.234:5004/auto/v56.7
+#EXTINF:-1 channel-id="56.8" channel-number="56.8" tvg-name="HSN" group-title="Syracuse, NY",56.8 HSN
+http://131.239.69.234:5004/auto/v56.8
+#EXTINF:-1 channel-id="56.9" channel-number="56.9" tvg-name="QVC" group-title="Syracuse, NY",56.9 QVC
+http://131.239.69.234:5004/auto/v56.9
+#EXTINF:-1 channel-id="68.1" channel-number="68.1" tvg-name="FOX68" group-title="Syracuse, NY",68.1 FOX68
+http://131.239.69.234:5004/auto/v68.1
+#EXTINF:-1 channel-id="68.2" channel-number="68.2" tvg-name="CoziTV" group-title="Syracuse, NY",68.2 CoziTV
+http://131.239.69.234:5004/auto/v68.2
+#EXTINF:-1 channel-id="103.1" channel-number="103.1" tvg-name="WSTM" group-title="Syracuse, NY",103.1 WSTM
+http://131.239.69.234:5004/auto/v103.1
+#EXTINF:-1 channel-id="105.1" channel-number="105.1" tvg-name="WTVH" group-title="Syracuse, NY",105.1 WTVH
+http://131.239.69.234:5004/auto/v105.1
+#EXTINF:-1 channel-id="106.1" channel-number="106.1" tvg-name="WQSE-LD" group-title="Syracuse, NY",106.1 WQSE-LD
+http://131.239.69.234:5004/auto/v106.1
+#EXTINF:-1 channel-id="109.1" channel-number="109.1" tvg-name="WSYR" group-title="Syracuse, NY",109.1 WSYR
+http://131.239.69.234:5004/auto/v109.1
+#EXTINF:-1 channel-id="115.1" channel-number="115.1" tvg-name="WKOF" group-title="Syracuse, NY",115.1 WKOF
+http://131.239.69.234:5004/auto/v115.1
+
+# ---------- Vintodale, PA ----------
+#EXTINF:-1 channel-id="6.1" channel-number="6.1" tvg-name="NBC" group-title="Vintodale, PA",6.1 NBC
+http://199.193.59.138:5004/auto/v6.1
+#EXTINF:-1 channel-id="6.2" channel-number="6.2" tvg-name="Charge!" group-title="Vintodale, PA",6.2 Charge!
+http://199.193.59.138:5004/auto/v6.2
+#EXTINF:-1 channel-id="6.3" channel-number="6.3" tvg-name="Comet" group-title="Vintodale, PA",6.3 Comet
+http://199.193.59.138:5004/auto/v6.3
+#EXTINF:-1 channel-id="6.4" channel-number="6.4" tvg-name="CW+" group-title="Vintodale, PA",6.4 CW+
+http://199.193.59.138:5004/auto/v6.4
+#EXTINF:-1 channel-id="6.5" channel-number="6.5" tvg-name="TheNest" group-title="Vintodale, PA",6.5 TheNest
+http://199.193.59.138:5004/auto/v6.5
+#EXTINF:-1 channel-id="23.1" channel-number="23.1" tvg-name="ABC" group-title="Vintodale, PA",23.1 ABC
+http://199.193.59.138:5004/auto/v23.1
+#EXTINF:-1 channel-id="23.2" channel-number="23.2" tvg-name="FOX" group-title="Vintodale, PA",23.2 FOX
+http://199.193.59.138:5004/auto/v23.2
+#EXTINF:-1 channel-id="23.3" channel-number="23.3" tvg-name="TCN" group-title="Vintodale, PA",23.3 TCN
+http://199.193.59.138:5004/auto/v23.3
+#EXTINF:-1 channel-id="23.4" channel-number="23.4" tvg-name="ShopLC" group-title="Vintodale, PA",23.4 ShopLC
+http://199.193.59.138:5004/auto/v23.4
+#EXTINF:-1 channel-id="50.1" channel-number="50.1" tvg-name="WTOO-CD" group-title="Vintodale, PA",50.1 WTOO-CD
+http://199.193.59.138:5004/auto/v50.1
+#EXTINF:-1 channel-id="50.2" channel-number="50.2" tvg-name="StartTV" group-title="Vintodale, PA",50.2 StartTV
+http://199.193.59.138:5004/auto/v50.2
+#EXTINF:-1 channel-id="50.3" channel-number="50.3" tvg-name="Catchy" group-title="Vintodale, PA",50.3 Catchy
+http://199.193.59.138:5004/auto/v50.3
+#EXTINF:-1 channel-id="50.4" channel-number="50.4" tvg-name="Movies" group-title="Vintodale, PA",50.4 Movies
+http://199.193.59.138:5004/auto/v50.4
+#EXTINF:-1 channel-id="50.5" channel-number="50.5" tvg-name="Story" group-title="Vintodale, PA",50.5 Story
+http://199.193.59.138:5004/auto/v50.5
+#EXTINF:-1 channel-id="50.6" channel-number="50.6" tvg-name="MeTOONS" group-title="Vintodale, PA",50.6 MeTOONS
+http://199.193.59.138:5004/auto/v50.6
+#EXTINF:-1 channel-id="50.7" channel-number="50.7" tvg-name="WBPH" group-title="Vintodale, PA",50.7 WBPH
+http://199.193.59.138:5004/auto/v50.7
