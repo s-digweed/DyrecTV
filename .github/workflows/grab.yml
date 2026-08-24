@@ -1,4 +1,4 @@
-name: Grab DirecTV + ART + Toonami + beIN EPG
+name: Grab DirecTV + ART + Toonami + beIN + Wavve EPG
 
 on:
   schedule:
@@ -125,12 +125,36 @@ jobs:
             echo "BEIN_AR.xml not generated"
           fi
 
+      # ── Wavve (Korea) ─────────────────────────────────────
+      - name: Parse Wavve channels
+        run: |
+          cd epg-src
+          npm run channels:parse -- \
+            --config=./sites/wavve.com/wavve.com.config.js \
+            --output=./sites/wavve.com/wavve.com.channels.xml
+        continue-on-error: true
+
+      - name: Grab Wavve guide
+        run: |
+          cd epg-src
+          npm run grab -- --sites=wavve.com --output=WAVVE.xml --days=3
+        continue-on-error: true
+
+      - name: Move Wavve
+        run: |
+          if [ -f epg-src/WAVVE.xml ]; then
+            gzip -f epg-src/WAVVE.xml
+            cp epg-src/WAVVE.xml.gz WAVVE.xml.gz
+          else
+            echo "WAVVE.xml not generated"
+          fi
+
       # ── Commit all results ────────────────────────────────
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz
+          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz WAVVE.xml.gz
           git commit -m "Update EPG files" || echo "No changes"
           git pull --rebase origin main
           git push
