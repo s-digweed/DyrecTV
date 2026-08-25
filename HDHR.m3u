@@ -1,6 +1,4 @@
 #EXTM3U
-
-# ---------- Bellingham, WA ----------
 #EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="CBUT-DT" group-title="Bellingham, WA",2.1 CBUT-DT
 http://44.25.145.45:5004/auto/v2.1
 #EXTINF:-1 channel-id="6.1" channel-number="6.1" tvg-name="CHEK" group-title="Bellingham, WA",6.1 CHEK
@@ -57,8 +55,6 @@ http://44.25.145.45:5004/auto/v32.1
 http://44.25.145.45:5004/auto/v42.1
 #EXTINF:-1 channel-id="66.1" channel-number="66.1" tvg-name="Joytv" group-title="Bellingham, WA",66.1 Joytv
 http://44.25.145.45:5004/auto/v66.1
-
-# ---------- Pittsburgh, PA ----------
 #EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="KDKA-HD" group-title="Pittsburgh, PA",2.1 KDKA-HD
 http://164.52.224.212:5004/auto/v2.1
 #EXTINF:-1 channel-id="2.2" channel-number="2.2" tvg-name="StartTV" group-title="Pittsburgh, PA",2.2 StartTV
@@ -197,8 +193,6 @@ http://164.52.224.212:5004/auto/v69.10
 http://164.52.224.212:5004/auto/v69.11
 #EXTINF:-1 channel-id="69.12" channel-number="69.12" tvg-name="JTV" group-title="Pittsburgh, PA",69.12 JTV
 http://164.52.224.212:5004/auto/v69.12
-
-# ---------- Florence, AL ----------
 #EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="Guide" group-title="Florence, AL",2.1 Guide
 http://12.189.234.26:5004/auto/v2.1
 #EXTINF:-1 channel-id="3.1" channel-number="3.1" tvg-name="WAAY" group-title="Florence, AL",3.1 WAAY
@@ -343,8 +337,6 @@ http://12.189.234.26:5004/auto/v79.1
 http://12.189.234.26:5004/auto/v80.1
 #EXTINF:-1 channel-id="81.1" channel-number="81.1" tvg-name="TVLND" group-title="Florence, AL",81.1 TVLND
 http://12.189.234.26:5004/auto/v81.1
-
-# ---------- Crafton, PA ----------
 #EXTINF:-1 channel-id="2.1" channel-number="2.1" tvg-name="KDKA-HD" group-title="Crafton, PA",2.1 KDKA-HD
 http://98.111.243.7:5004/auto/v2.1
 #EXTINF:-1 channel-id="2.2" channel-number="2.2" tvg-name="StartTV" group-title="Crafton, PA",2.2 StartTV
@@ -511,8 +503,6 @@ http://98.111.243.7:5004/auto/v69.10
 http://98.111.243.7:5004/auto/v69.11
 #EXTINF:-1 channel-id="69.12" channel-number="69.12" tvg-name="JTV" group-title="Crafton, PA",69.12 JTV
 http://98.111.243.7:5004/auto/v69.12
-
-# ---------- Syracuse, NY ----------
 #EXTINF:-1 channel-id="3.1" channel-number="3.1" tvg-name="WSTMNBC" group-title="Syracuse, NY",3.1 WSTMNBC
 http://131.239.69.234:5004/auto/v3.1
 #EXTINF:-1 channel-id="3.2" channel-number="3.2" tvg-name="CW6" group-title="Syracuse, NY",3.2 CW6
@@ -635,8 +625,6 @@ http://131.239.69.234:5004/auto/v106.1
 http://131.239.69.234:5004/auto/v109.1
 #EXTINF:-1 channel-id="115.1" channel-number="115.1" tvg-name="WKOF" group-title="Syracuse, NY",115.1 WKOF
 http://131.239.69.234:5004/auto/v115.1
-
-# ---------- Vintodale, PA ----------
 #EXTINF:-1 channel-id="6.1" channel-number="6.1" tvg-name="NBC" group-title="Vintodale, PA",6.1 NBC
 http://199.193.59.138:5004/auto/v6.1
 #EXTINF:-1 channel-id="6.2" channel-number="6.2" tvg-name="Charge!" group-title="Vintodale, PA",6.2 Charge!
@@ -669,3 +657,287 @@ http://199.193.59.138:5004/auto/v50.5
 http://199.193.59.138:5004/auto/v50.6
 #EXTINF:-1 channel-id="50.7" channel-number="50.7" tvg-name="WBPH" group-title="Vintodale, PA",50.7 WBPH
 http://199.193.59.138:5004/auto/v50.7
+#EXTINF:-1 group-title="Utah Locals",Antenna TV (KTVX 4.2)
+https://i1.ut770.freelocaltv.org/hls/ant-tv-4.2_hls/ant-tv-4.2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Catchy Comedy (KUED 8.2)
+https://i1.ut770.freelocaltv.org/hls/catchy-8.2_hls/catchy-8.2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Charge! (KUTV 2.4)
+https://i1.ut770.freelocaltv.org/hls/charge!-2.4_hls/charge!-2.4_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Comet (KUTV 2.3)
+https://i1.ut770.freelocaltv.org/hls/comet-2.3_hls/comet-2.3_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Cozi TV (KSL 5.2)
+https://i1.ut770.freelocaltv.org/hls/cozi-5.2_hls/cozi-5.2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",ION (16.4)
+https://i1.ut770.freelocaltv.org/hls/ion-16.4_hls/ion-16.4_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KBYU-TV 11 (PBS Utah)
+https://i1.ut770.freelocaltv.org/hls/kbyu-11_hls/kbyu-11_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",PBS Kids (KUED 7.3)
+https://i1.ut770.freelocaltv.org/hls/kids-7.3_hls/kids-7.3_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KJZZ-TV 14 (Independent)
+https://i1.ut770.freelocaltv.org/hls/kjzz-14_hls/kjzz-14_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KMYU 2.2 (MyNetworkTV)
+https://i1.ut770.freelocaltv.org/hls/kmyu-2.2_hls/kmyu-2.2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KSL-TV 5 (NBC)
+https://i1.ut770.freelocaltv.org/hls/ksl-5_hls/ksl-5_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KSTU FOX 13
+https://i1.ut770.freelocaltv.org/hls/kstu-13_hls/kstu-13_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KTMW 20 (Independent)
+https://i1.ut770.freelocaltv.org/hls/ktmw-20_hls/ktmw-20_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KTVX ABC 4
+https://i1.ut770.freelocaltv.org/hls/ktvx-4_hls/ktvx-4_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KUCW 30 (The CW)
+https://i1.ut770.freelocaltv.org/hls/kucw-30_hls/kucw-30_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KUED 7 (PBS Utah)
+https://i1.ut770.freelocaltv.org/hls/kued-7_hls/kued-7_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KUEN 9 (UEN-TV)
+https://i1.ut770.freelocaltv.org/hls/kuen-9_hls/kuen-9_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KUTH 32 (Univision)
+https://i1.ut770.freelocaltv.org/hls/kuth-32_hls/kuth-32_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",KUTV 2 (CBS)
+https://i1.ut770.freelocaltv.org/hls/kutv-2_hls/kutv-2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",MeTV (8)
+https://i1.ut770.freelocaltv.org/hls/metv-8_hls/metv-8_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Movies! (8.7)
+https://i1.ut770.freelocaltv.org/hls/movies-8.7_hls/movies-8.7_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",NHK World (9.4)
+https://i1.ut770.freelocaltv.org/hls/nhk-9.4_hls/nhk-9.4_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Outlaw (KTVX 4.4)
+https://i1.ut770.freelocaltv.org/hls/outlaw-4.4_hls/outlaw-4.4_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Oxygen True Crime (20.5)
+https://i1.ut770.freelocaltv.org/hls/oxygen-20.5_hls/oxygen-20.5_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Rewind TV (KTVX 4.3)
+https://i1.ut770.freelocaltv.org/hls/rewind-4.3_hls/rewind-4.3_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Toons (8.8)
+https://i1.ut770.freelocaltv.org/hls/toons-8.8_hls/toons-8.8_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",UniMas (KUTH 32.2)
+https://i1.ut770.freelocaltv.org/hls/unimas-32.2_hls/unimas-32.2_master.m3u8
+#EXTINF:-1 group-title="Utah Locals",Utah Channel 16
+https://i1.ut770.freelocaltv.org/hls/utah-16_hls/utah-16_master.m3u8
+#EXTINF:-1 tvg-id="Channel_1701" tvg-name="Channel 1701" group-title="Misc",Channel 1701
+http://stream.cammonitorplus.net/1701/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1702" tvg-name="Channel 1702" group-title="Misc",Channel 1702
+http://stream.cammonitorplus.net/1702/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1703" tvg-name="Channel 1703" group-title="Misc",Channel 1703
+http://stream.cammonitorplus.net/1703/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1704" tvg-name="Channel 1704" group-title="Misc",Channel 1704
+http://stream.cammonitorplus.net/1704/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1705" tvg-name="Channel 1705" group-title="Misc",Channel 1705
+http://stream.cammonitorplus.net/1705/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1706" tvg-name="Channel 1706" group-title="Misc",Channel 1706
+http://stream.cammonitorplus.net/1706/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1707" tvg-name="Channel 1707" group-title="Misc",Channel 1707
+http://stream.cammonitorplus.net/1707/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1708" tvg-name="Channel 1708" group-title="Misc",Channel 1708
+http://stream.cammonitorplus.net/1708/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1709" tvg-name="Channel 1709" group-title="Misc",Channel 1709
+http://stream.cammonitorplus.net/1709/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1710" tvg-name="Channel 1710" group-title="Misc",Channel 1710
+http://stream.cammonitorplus.net/1710/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1711" tvg-name="Channel 1711" group-title="Misc",Channel 1711
+http://stream.cammonitorplus.net/1711/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1712" tvg-name="Channel 1712" group-title="Misc",Channel 1712
+http://stream.cammonitorplus.net/1712/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1713" tvg-name="Channel 1713" group-title="Misc",Channel 1713
+http://stream.cammonitorplus.net/1713/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1714" tvg-name="Channel 1714" group-title="Misc",Channel 1714
+http://stream.cammonitorplus.net/1714/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1715" tvg-name="Channel 1715" group-title="Misc",Channel 1715
+http://stream.cammonitorplus.net/1715/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1717" tvg-name="Channel 1717" group-title="Misc",Channel 1717
+http://stream.cammonitorplus.net/1717/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1718" tvg-name="Channel 1718" group-title="Misc",Channel 1718
+http://stream.cammonitorplus.net/1718/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1719" tvg-name="Channel 1719" group-title="Misc",Channel 1719
+http://stream.cammonitorplus.net/1719/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1720" tvg-name="Channel 1720" group-title="Misc",Channel 1720
+http://stream.cammonitorplus.net/1720/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1721" tvg-name="Channel 1721" group-title="Misc",Channel 1721
+http://stream.cammonitorplus.net/1721/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1724" tvg-name="Channel 1724" group-title="Misc",Channel 1724
+http://stream.cammonitorplus.net/1724/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1725" tvg-name="Channel 1725" group-title="Misc",Channel 1725
+http://stream.cammonitorplus.net/1725/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1726" tvg-name="Channel 1726" group-title="Misc",Channel 1726
+http://stream.cammonitorplus.net/1726/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1728" tvg-name="Channel 1728" group-title="Misc",Channel 1728
+http://stream.cammonitorplus.net/1728/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1729" tvg-name="Channel 1729" group-title="Misc",Channel 1729
+http://stream.cammonitorplus.net/1729/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1730" tvg-name="Channel 1730" group-title="Misc",Channel 1730
+http://stream.cammonitorplus.net/1730/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1731" tvg-name="Channel 1731" group-title="Misc",Channel 1731
+http://stream.cammonitorplus.net/1731/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1734" tvg-name="Channel 1734" group-title="Misc",Channel 1734
+http://stream.cammonitorplus.net/1734/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1736" tvg-name="Channel 1736" group-title="Misc",Channel 1736
+http://stream.cammonitorplus.net/1736/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1738" tvg-name="Channel 1738" group-title="Misc",Channel 1738
+http://stream.cammonitorplus.net/1738/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1739" tvg-name="Channel 1739" group-title="Misc",Channel 1739
+http://stream.cammonitorplus.net/1739/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1740" tvg-name="Channel 1740" group-title="Misc",Channel 1740
+http://stream.cammonitorplus.net/1740/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1741" tvg-name="Channel 1741" group-title="Misc",Channel 1741
+http://stream.cammonitorplus.net/1741/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1742" tvg-name="Channel 1742" group-title="Misc",Channel 1742
+http://stream.cammonitorplus.net/1742/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1743" tvg-name="Channel 1743" group-title="Misc",Channel 1743
+http://stream.cammonitorplus.net/1743/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1744" tvg-name="Channel 1744" group-title="Misc",Channel 1744
+http://stream.cammonitorplus.net/1744/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1745" tvg-name="Channel 1745" group-title="Misc",Channel 1745
+http://stream.cammonitorplus.net/1745/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1746" tvg-name="Channel 1746" group-title="Misc",Channel 1746
+http://stream.cammonitorplus.net/1746/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1747" tvg-name="Channel 1747" group-title="Misc",Channel 1747
+http://stream.cammonitorplus.net/1747/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1748" tvg-name="Channel 1748" group-title="Misc",Channel 1748
+http://stream.cammonitorplus.net/1748/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1749" tvg-name="Channel 1749" group-title="Misc",Channel 1749
+http://stream.cammonitorplus.net/1749/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1750" tvg-name="Channel 1750" group-title="Misc",Channel 1750
+http://stream.cammonitorplus.net/1750/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1751" tvg-name="Channel 1751" group-title="Misc",Channel 1751
+http://stream.cammonitorplus.net/1751/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1752" tvg-name="Channel 1752" group-title="Misc",Channel 1752
+http://stream.cammonitorplus.net/1752/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1753" tvg-name="Channel 1753" group-title="Misc",Channel 1753
+http://stream.cammonitorplus.net/1753/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1754" tvg-name="Channel 1754" group-title="Misc",Channel 1754
+http://stream.cammonitorplus.net/1754/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1755" tvg-name="Channel 1755" group-title="Misc",Channel 1755
+http://stream.cammonitorplus.net/1755/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1756" tvg-name="Channel 1756" group-title="Misc",Channel 1756
+http://stream.cammonitorplus.net/1756/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1757" tvg-name="Channel 1757" group-title="Misc",Channel 1757
+http://stream.cammonitorplus.net/1757/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1758" tvg-name="Channel 1758" group-title="Misc",Channel 1758
+http://stream.cammonitorplus.net/1758/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1759" tvg-name="Channel 1759" group-title="Misc",Channel 1759
+http://stream.cammonitorplus.net/1759/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1760" tvg-name="Channel 1760" group-title="Misc",Channel 1760
+http://stream.cammonitorplus.net/1760/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1761" tvg-name="Channel 1761" group-title="Misc",Channel 1761
+http://stream.cammonitorplus.net/1761/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1762" tvg-name="Channel 1762" group-title="Misc",Channel 1762
+http://stream.cammonitorplus.net/1762/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1763" tvg-name="Channel 1763" group-title="Misc",Channel 1763
+http://stream.cammonitorplus.net/1763/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1764" tvg-name="Channel 1764" group-title="Misc",Channel 1764
+http://stream.cammonitorplus.net/1764/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1765" tvg-name="Channel 1765" group-title="Misc",Channel 1765
+http://stream.cammonitorplus.net/1765/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1766" tvg-name="Channel 1766" group-title="Misc",Channel 1766
+http://stream.cammonitorplus.net/1766/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1767" tvg-name="Channel 1767" group-title="Misc",Channel 1767
+http://stream.cammonitorplus.net/1767/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1768" tvg-name="Channel 1768" group-title="Misc",Channel 1768
+http://stream.cammonitorplus.net/1768/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1769" tvg-name="Channel 1769" group-title="Misc",Channel 1769
+http://stream.cammonitorplus.net/1769/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1770" tvg-name="Channel 1770" group-title="Misc",Channel 1770
+http://stream.cammonitorplus.net/1770/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1771" tvg-name="Channel 1771" group-title="Misc",Channel 1771
+http://stream.cammonitorplus.net/1771/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1772" tvg-name="Channel 1772" group-title="Misc",Channel 1772
+http://stream.cammonitorplus.net/1772/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1773" tvg-name="Channel 1773" group-title="Misc",Channel 1773
+http://stream.cammonitorplus.net/1773/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1774" tvg-name="Channel 1774" group-title="Misc",Channel 1774
+http://stream.cammonitorplus.net/1774/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1775" tvg-name="Channel 1775" group-title="Misc",Channel 1775
+http://stream.cammonitorplus.net/1775/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1776" tvg-name="Channel 1776" group-title="Misc",Channel 1776
+http://stream.cammonitorplus.net/1776/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1777" tvg-name="Channel 1777" group-title="Misc",Channel 1777
+http://stream.cammonitorplus.net/1777/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1778" tvg-name="Channel 1778" group-title="Misc",Channel 1778
+http://stream.cammonitorplus.net/1778/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1779" tvg-name="Channel 1779" group-title="Misc",Channel 1779
+http://stream.cammonitorplus.net/1779/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1780" tvg-name="Channel 1780" group-title="Misc",Channel 1780
+http://stream.cammonitorplus.net/1780/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1781" tvg-name="Channel 1781" group-title="Misc",Channel 1781
+http://stream.cammonitorplus.net/1781/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1782" tvg-name="Channel 1782" group-title="Misc",Channel 1782
+http://stream.cammonitorplus.net/1782/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1783" tvg-name="Channel 1783" group-title="Misc",Channel 1783
+http://stream.cammonitorplus.net/1783/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1784" tvg-name="Channel 1784" group-title="Misc",Channel 1784
+http://stream.cammonitorplus.net/1784/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1785" tvg-name="Channel 1785" group-title="Misc",Channel 1785
+http://stream.cammonitorplus.net/1785/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1786" tvg-name="Channel 1786" group-title="Misc",Channel 1786
+http://stream.cammonitorplus.net/1786/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1787" tvg-name="Channel 1787" group-title="Misc",Channel 1787
+http://stream.cammonitorplus.net/1787/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1788" tvg-name="Channel 1788" group-title="Misc",Channel 1788
+http://stream.cammonitorplus.net/1788/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1790" tvg-name="Channel 1790" group-title="Misc",Channel 1790
+http://stream.cammonitorplus.net/1790/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1791" tvg-name="Channel 1791" group-title="Misc",Channel 1791
+http://stream.cammonitorplus.net/1791/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1792" tvg-name="Channel 1792" group-title="Misc",Channel 1792
+http://stream.cammonitorplus.net/1792/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1793" tvg-name="Channel 1793" group-title="Misc",Channel 1793
+http://stream.cammonitorplus.net/1793/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1794" tvg-name="Channel 1794" group-title="Misc",Channel 1794
+http://stream.cammonitorplus.net/1794/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1795" tvg-name="Channel 1795" group-title="Misc",Channel 1795
+http://stream.cammonitorplus.net/1795/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1796" tvg-name="Channel 1796" group-title="Misc",Channel 1796
+http://stream.cammonitorplus.net/1796/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1797" tvg-name="Channel 1797" group-title="Misc",Channel 1797
+http://stream.cammonitorplus.net/1797/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1798" tvg-name="Channel 1798" group-title="Misc",Channel 1798
+http://stream.cammonitorplus.net/1798/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1799" tvg-name="Channel 1799" group-title="Misc",Channel 1799
+http://stream.cammonitorplus.net/1799/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1800" tvg-name="Channel 1800" group-title="Misc",Channel 1800
+http://stream.cammonitorplus.net/1800/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1805" tvg-name="Channel 1805" group-title="Misc",Channel 1805
+http://stream.cammonitorplus.net/1805/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1806" tvg-name="Channel 1806" group-title="Misc",Channel 1806
+http://stream.cammonitorplus.net/1806/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1808" tvg-name="Channel 1808" group-title="Misc",Channel 1808
+http://stream.cammonitorplus.net/1808/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1810" tvg-name="Channel 1810" group-title="Misc",Channel 1810
+http://stream.cammonitorplus.net/1810/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1812" tvg-name="Channel 1812" group-title="Misc",Channel 1812
+http://stream.cammonitorplus.net/1812/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1813" tvg-name="Channel 1813" group-title="Misc",Channel 1813
+http://stream.cammonitorplus.net/1813/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1814" tvg-name="Channel 1814" group-title="Misc",Channel 1814
+http://stream.cammonitorplus.net/1814/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1816" tvg-name="Channel 1816" group-title="Misc",Channel 1816
+http://stream.cammonitorplus.net/1816/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1817" tvg-name="Channel 1817" group-title="Misc",Channel 1817
+http://stream.cammonitorplus.net/1817/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1818" tvg-name="Channel 1818" group-title="Misc",Channel 1818
+http://stream.cammonitorplus.net/1818/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1820" tvg-name="Channel 1820" group-title="Misc",Channel 1820
+http://stream.cammonitorplus.net/1820/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1831" tvg-name="Channel 1831" group-title="Misc",Channel 1831
+http://stream.cammonitorplus.net/1831/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1832" tvg-name="Channel 1832" group-title="Misc",Channel 1832
+http://stream.cammonitorplus.net/1832/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1833" tvg-name="Channel 1833" group-title="Misc",Channel 1833
+http://stream.cammonitorplus.net/1833/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1834" tvg-name="Channel 1834" group-title="Misc",Channel 1834
+http://stream.cammonitorplus.net/1834/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1835" tvg-name="Channel 1835" group-title="Misc",Channel 1835
+http://stream.cammonitorplus.net/1835/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1836" tvg-name="Channel 1836" group-title="Misc",Channel 1836
+http://stream.cammonitorplus.net/1836/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1837" tvg-name="Channel 1837" group-title="Misc",Channel 1837
+http://stream.cammonitorplus.net/1837/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1838" tvg-name="Channel 1838" group-title="Misc",Channel 1838
+http://stream.cammonitorplus.net/1838/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1839" tvg-name="Channel 1839" group-title="Misc",Channel 1839
+http://stream.cammonitorplus.net/1839/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1840" tvg-name="Channel 1840" group-title="Misc",Channel 1840
+http://stream.cammonitorplus.net/1840/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1841" tvg-name="Channel 1841" group-title="Misc",Channel 1841
+http://stream.cammonitorplus.net/1841/index.m3u8
+#EXTINF:-1 tvg-id="Channel_1842" tvg-name="Channel 1842" group-title="Misc",Channel 1842
+http://stream.cammonitorplus.net/1842/index.m3u8
