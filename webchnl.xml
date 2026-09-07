@@ -2,705 +2,680 @@
 <tv generator-info-name="webchnl-grabber">
 <channel id="eel-channel"><display-name>Eel Channel</display-name><icon src="https://i.imgur.com/YBZUFXs.png" /></channel>
 <channel id="toon-disney"><display-name>Toon Disney</display-name><icon src="https://i.imgur.com/SVE5ykU.png" /></channel>
-<programme start="20260831040500 +0000" stop="20260831043500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260831043500 +0000" stop="20260831050500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260831050500 +0000" stop="20260831053000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260831053000 +0000" stop="20260831055500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260831055500 +0000" stop="20260831062000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260831062000 +0000" stop="20260831065000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260831065000 +0000" stop="20260831072000 +0000" channel="eel-channel"><title lang="en">Miami Guns</title></programme>
-<programme start="20260831072000 +0000" stop="20260831075000 +0000" channel="eel-channel"><title lang="en">The Brak Show</title></programme>
-<programme start="20260831075000 +0000" stop="20260831081500 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260831081500 +0000" stop="20260831084000 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260831084000 +0000" stop="20260831100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260831100000 +0000" stop="20260831102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260831102500 +0000" stop="20260831105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
-<programme start="20260831105000 +0000" stop="20260831111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
-<programme start="20260831111500 +0000" stop="20260831114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260831114000 +0000" stop="20260831120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260831120500 +0000" stop="20260831123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260831123000 +0000" stop="20260831125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260831125500 +0000" stop="20260831132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260831132000 +0000" stop="20260831134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260831134500 +0000" stop="20260831141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260831141000 +0000" stop="20260831144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260831144000 +0000" stop="20260831150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
-<programme start="20260831150500 +0000" stop="20260831153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260831153000 +0000" stop="20260831155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260831155500 +0000" stop="20260831162500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260831162500 +0000" stop="20260831165500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260831165500 +0000" stop="20260831172000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
-<programme start="20260831172000 +0000" stop="20260831183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260831183000 +0000" stop="20260831185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260831185500 +0000" stop="20260831192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260831192000 +0000" stop="20260831194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260831194500 +0000" stop="20260831201000 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
-<programme start="20260831201000 +0000" stop="20260831203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260831203500 +0000" stop="20260831210000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260831210000 +0000" stop="20260831212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260831212500 +0000" stop="20260831215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260831215000 +0000" stop="20260831221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260831221500 +0000" stop="20260831224000 +0000" channel="eel-channel"><title lang="en">Wildboyz</title></programme>
-<programme start="20260831224000 +0000" stop="20260831230500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260831230500 +0000" stop="20260831233000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260831233000 +0000" stop="20260901013500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260901013500 +0000" stop="20260901020000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260901020000 +0000" stop="20260901022500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260901022500 +0000" stop="20260901025000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260901025000 +0000" stop="20260901031500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260901031500 +0000" stop="20260901034000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260901034000 +0000" stop="20260901040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260901040000 +0000" stop="20260901043000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260901043000 +0000" stop="20260901050000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260901050000 +0000" stop="20260901052500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260901052500 +0000" stop="20260901055000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260901055000 +0000" stop="20260901061500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260901061500 +0000" stop="20260901064500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260901064500 +0000" stop="20260901071500 +0000" channel="eel-channel"><title lang="en">Miami Guns</title></programme>
-<programme start="20260901071500 +0000" stop="20260901074500 +0000" channel="eel-channel"><title lang="en">The Brak Show</title></programme>
-<programme start="20260901074500 +0000" stop="20260901081000 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260901081000 +0000" stop="20260901083500 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260901083500 +0000" stop="20260901100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260901100000 +0000" stop="20260901102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260901102500 +0000" stop="20260901105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
-<programme start="20260901105000 +0000" stop="20260901111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
-<programme start="20260901111500 +0000" stop="20260901114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260901114000 +0000" stop="20260901120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260901120500 +0000" stop="20260901123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260901123000 +0000" stop="20260901125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260901125500 +0000" stop="20260901132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260901132000 +0000" stop="20260901134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260901134500 +0000" stop="20260901141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260901141000 +0000" stop="20260901144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260901144000 +0000" stop="20260901150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
-<programme start="20260901150500 +0000" stop="20260901153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260901153000 +0000" stop="20260901155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260901155500 +0000" stop="20260901162000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260901162000 +0000" stop="20260901164500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260901164500 +0000" stop="20260901171000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
-<programme start="20260901171000 +0000" stop="20260901183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260901183000 +0000" stop="20260901185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260901185500 +0000" stop="20260901192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260901192000 +0000" stop="20260901194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260901194500 +0000" stop="20260901200500 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
-<programme start="20260901200500 +0000" stop="20260901203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260901203000 +0000" stop="20260901205000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260901205000 +0000" stop="20260901211500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260901211500 +0000" stop="20260901214000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260901214000 +0000" stop="20260901220500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260901220500 +0000" stop="20260901223000 +0000" channel="eel-channel"><title lang="en">Jackass</title></programme>
-<programme start="20260901223000 +0000" stop="20260901225500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260901225500 +0000" stop="20260901232000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260901232000 +0000" stop="20260902013000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260902013000 +0000" stop="20260902015500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260902015500 +0000" stop="20260902022000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260902022000 +0000" stop="20260902024500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260902024500 +0000" stop="20260902031000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260902031000 +0000" stop="20260902033500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260902033500 +0000" stop="20260902040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260902042000 +0000" stop="20260902045000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260902045000 +0000" stop="20260902052000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260902052000 +0000" stop="20260902054500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260902054500 +0000" stop="20260902061000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260902061000 +0000" stop="20260902063500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260902063500 +0000" stop="20260902070500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260902070500 +0000" stop="20260902073000 +0000" channel="eel-channel"><title lang="en">Miami Guns</title></programme>
-<programme start="20260902073000 +0000" stop="20260902080000 +0000" channel="eel-channel"><title lang="en">The Brak Show</title></programme>
-<programme start="20260902080000 +0000" stop="20260902083000 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260902083000 +0000" stop="20260902085500 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260902085500 +0000" stop="20260902100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260902100000 +0000" stop="20260902102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260902102500 +0000" stop="20260902105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
-<programme start="20260902105000 +0000" stop="20260902111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
-<programme start="20260902111500 +0000" stop="20260902114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260902114000 +0000" stop="20260902120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260902120500 +0000" stop="20260902123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260902123000 +0000" stop="20260902125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260902125500 +0000" stop="20260902132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260902132000 +0000" stop="20260902134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260902134500 +0000" stop="20260902141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260902141000 +0000" stop="20260902144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260902144000 +0000" stop="20260902150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
-<programme start="20260902150500 +0000" stop="20260902153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260902153000 +0000" stop="20260902155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260902155500 +0000" stop="20260902162000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260902162000 +0000" stop="20260902164500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260902164500 +0000" stop="20260902171000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
-<programme start="20260902171000 +0000" stop="20260902183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260902183000 +0000" stop="20260902185000 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260902185000 +0000" stop="20260902191500 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260902191500 +0000" stop="20260902194000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260902194000 +0000" stop="20260902200500 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
-<programme start="20260902200500 +0000" stop="20260902203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260902203000 +0000" stop="20260902205000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260902205000 +0000" stop="20260902211500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260902211500 +0000" stop="20260902214000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260902214000 +0000" stop="20260902220500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260902220500 +0000" stop="20260902222500 +0000" channel="eel-channel"><title lang="en">Viva La Bam</title></programme>
-<programme start="20260902222500 +0000" stop="20260902225000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260902225000 +0000" stop="20260902231500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260902231500 +0000" stop="20260903002500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260903002500 +0000" stop="20260903015000 +0000" channel="eel-channel"><title lang="en">Coonskin (1975)</title></programme>
-<programme start="20260903015000 +0000" stop="20260903021500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260903021500 +0000" stop="20260903024000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260903024000 +0000" stop="20260903030500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260903030500 +0000" stop="20260903033000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260903033000 +0000" stop="20260903035500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260903035500 +0000" stop="20260903040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260903042000 +0000" stop="20260903045000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260903045000 +0000" stop="20260903052000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260903052000 +0000" stop="20260903054500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260903054500 +0000" stop="20260903060500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260903060500 +0000" stop="20260903063000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260903063000 +0000" stop="20260903071000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260903071000 +0000" stop="20260903073500 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
-<programme start="20260903073500 +0000" stop="20260903080500 +0000" channel="eel-channel"><title lang="en">The Brak Show</title></programme>
-<programme start="20260903080500 +0000" stop="20260903083000 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260903083000 +0000" stop="20260903085500 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260903085500 +0000" stop="20260903100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260903100000 +0000" stop="20260903102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260903102500 +0000" stop="20260903105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
-<programme start="20260903105000 +0000" stop="20260903111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
-<programme start="20260903111500 +0000" stop="20260903114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260903114000 +0000" stop="20260903120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260903120500 +0000" stop="20260903123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260903123000 +0000" stop="20260903125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260903125500 +0000" stop="20260903132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260903132000 +0000" stop="20260903134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260903134500 +0000" stop="20260903141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260903141000 +0000" stop="20260903144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260903144000 +0000" stop="20260903150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
-<programme start="20260903150500 +0000" stop="20260903153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260903153000 +0000" stop="20260903155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260903155500 +0000" stop="20260903162000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260903162000 +0000" stop="20260903164500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260903164500 +0000" stop="20260903171000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
-<programme start="20260903171000 +0000" stop="20260903183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260903183000 +0000" stop="20260903185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260903185500 +0000" stop="20260903192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260903192000 +0000" stop="20260903194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260903194500 +0000" stop="20260903200500 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
-<programme start="20260903200500 +0000" stop="20260903203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260903203000 +0000" stop="20260903205500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260903205500 +0000" stop="20260903212000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260903212000 +0000" stop="20260903214500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260903214500 +0000" stop="20260903221000 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260903221000 +0000" stop="20260903223500 +0000" channel="eel-channel"><title lang="en">Jackass</title></programme>
-<programme start="20260903223500 +0000" stop="20260903230000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260903230000 +0000" stop="20260903232500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260903232500 +0000" stop="20260904003500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260904003500 +0000" stop="20260904024000 +0000" channel="eel-channel"><title lang="en">Akira (1988)</title></programme>
-<programme start="20260904024000 +0000" stop="20260904030500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260904030500 +0000" stop="20260904033000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260904033000 +0000" stop="20260904035500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260904035500 +0000" stop="20260904040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260904041500 +0000" stop="20260904044500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260904044500 +0000" stop="20260904051500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260904051500 +0000" stop="20260904054000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260904054000 +0000" stop="20260904060500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260904060500 +0000" stop="20260904063000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260904063000 +0000" stop="20260904065500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260904065500 +0000" stop="20260904072000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
-<programme start="20260904072000 +0000" stop="20260904075000 +0000" channel="eel-channel"><title lang="en">The Brak Show</title></programme>
-<programme start="20260904075000 +0000" stop="20260904081500 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260904081500 +0000" stop="20260904084000 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260904084000 +0000" stop="20260904100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260904100000 +0000" stop="20260904102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260904102500 +0000" stop="20260904105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
-<programme start="20260904105000 +0000" stop="20260904111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
-<programme start="20260904111500 +0000" stop="20260904114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260904114000 +0000" stop="20260904120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260904120500 +0000" stop="20260904123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260904123000 +0000" stop="20260904125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260904125500 +0000" stop="20260904132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260904132000 +0000" stop="20260904134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260904134500 +0000" stop="20260904141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260904141000 +0000" stop="20260904143500 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260904143500 +0000" stop="20260904150000 +0000" channel="eel-channel"><title lang="en">Modern Toss</title></programme>
-<programme start="20260904150000 +0000" stop="20260904152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260904152500 +0000" stop="20260904155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260904155000 +0000" stop="20260904161500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260904161500 +0000" stop="20260904164000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
-<programme start="20260904164000 +0000" stop="20260904170500 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
-<programme start="20260904170500 +0000" stop="20260904183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260904183000 +0000" stop="20260904185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260904185500 +0000" stop="20260904192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260904192000 +0000" stop="20260904194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260904194500 +0000" stop="20260904200500 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
-<programme start="20260904200500 +0000" stop="20260904203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260904203000 +0000" stop="20260904205500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260904205500 +0000" stop="20260904212000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260904212000 +0000" stop="20260904214500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260904214500 +0000" stop="20260904221000 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260904221000 +0000" stop="20260904223000 +0000" channel="eel-channel"><title lang="en">Viva La Bam</title></programme>
-<programme start="20260904223000 +0000" stop="20260904225500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260904225500 +0000" stop="20260904232000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260904232000 +0000" stop="20260905003000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260905003000 +0000" stop="20260905005500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905005500 +0000" stop="20260905012000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905012000 +0000" stop="20260905014500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905014500 +0000" stop="20260905021000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905021000 +0000" stop="20260905023500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905023500 +0000" stop="20260905030000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905030000 +0000" stop="20260905032500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905032500 +0000" stop="20260905035000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260905035000 +0000" stop="20260905040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260905041500 +0000" stop="20260905045000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260905045000 +0000" stop="20260905052000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260905052000 +0000" stop="20260905054500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260905054500 +0000" stop="20260905061000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260905061000 +0000" stop="20260905063500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260905063500 +0000" stop="20260905070500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260905070500 +0000" stop="20260905073000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
-<programme start="20260905073000 +0000" stop="20260905080000 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
-<programme start="20260905080000 +0000" stop="20260905083000 +0000" channel="eel-channel"><title lang="en">The Ping Pong Club</title></programme>
-<programme start="20260905083000 +0000" stop="20260905085500 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260905085500 +0000" stop="20260905100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260905100000 +0000" stop="20260905102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260905102500 +0000" stop="20260905105000 +0000" channel="eel-channel"><title lang="en">Mr. Bean</title></programme>
-<programme start="20260905105000 +0000" stop="20260905111500 +0000" channel="eel-channel"><title lang="en">Trigger Happy TV</title></programme>
-<programme start="20260905111500 +0000" stop="20260905114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260905114000 +0000" stop="20260905120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260905120500 +0000" stop="20260905123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260905123000 +0000" stop="20260905125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260905125500 +0000" stop="20260905132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260905132000 +0000" stop="20260905134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260905134500 +0000" stop="20260905141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260905141000 +0000" stop="20260905143500 +0000" channel="eel-channel"><title lang="en">Liquid Television</title></programme>
-<programme start="20260905143500 +0000" stop="20260905150000 +0000" channel="eel-channel"><title lang="en">Liquid Television</title></programme>
-<programme start="20260905150000 +0000" stop="20260905152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260905152500 +0000" stop="20260905155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260905155000 +0000" stop="20260905161000 +0000" channel="eel-channel"><title lang="en">The Tom Green Show</title></programme>
-<programme start="20260905161000 +0000" stop="20260905164000 +0000" channel="eel-channel"><title lang="en">Da Ali G Show</title></programme>
-<programme start="20260905164000 +0000" stop="20260905170500 +0000" channel="eel-channel"><title lang="en">The Adam and Joe Show</title></programme>
-<programme start="20260905170500 +0000" stop="20260905183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260905183000 +0000" stop="20260905185000 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260905185000 +0000" stop="20260905191500 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260905191500 +0000" stop="20260905194000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260905194000 +0000" stop="20260905200500 +0000" channel="eel-channel"><title lang="en">The Andy Milonakis Show</title></programme>
-<programme start="20260905200500 +0000" stop="20260905203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260905203000 +0000" stop="20260905210000 +0000" channel="eel-channel"><title lang="en">16 Storeys High</title></programme>
-<programme start="20260905210000 +0000" stop="20260905212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260905212500 +0000" stop="20260905215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260905215000 +0000" stop="20260905221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260905221500 +0000" stop="20260905224000 +0000" channel="eel-channel"><title lang="en">Wildboyz</title></programme>
-<programme start="20260905224000 +0000" stop="20260905230500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260905230500 +0000" stop="20260905233000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260905233000 +0000" stop="20260906004000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260906004000 +0000" stop="20260906023500 +0000" channel="eel-channel"><title lang="en">Dumb and Dumber (1994)</title></programme>
-<programme start="20260906023500 +0000" stop="20260906030000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260906030000 +0000" stop="20260906032500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260906032500 +0000" stop="20260906035000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260906035000 +0000" stop="20260906040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260906042000 +0000" stop="20260906050000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
-<programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
-<programme start="20260906053000 +0000" stop="20260906055500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
-<programme start="20260906055500 +0000" stop="20260906062000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
-<programme start="20260906062000 +0000" stop="20260906064500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
-<programme start="20260906064500 +0000" stop="20260906071500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
-<programme start="20260906071500 +0000" stop="20260906074000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
-<programme start="20260906074000 +0000" stop="20260906081000 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
-<programme start="20260906081000 +0000" stop="20260906083500 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
-<programme start="20260906083500 +0000" stop="20260906090000 +0000" channel="eel-channel"><title lang="en">Abenobashi</title></programme>
-<programme start="20260906090000 +0000" stop="20260906100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
-<programme start="20260906100000 +0000" stop="20260906102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
-<programme start="20260906102500 +0000" stop="20260906105000 +0000" channel="eel-channel"><title lang="en">The Ben Stiller Show</title></programme>
-<programme start="20260906105000 +0000" stop="20260906112000 +0000" channel="eel-channel"><title lang="en">World Shut Your Mouth</title></programme>
-<programme start="20260906112000 +0000" stop="20260906114500 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
-<programme start="20260906114500 +0000" stop="20260906121000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260906121000 +0000" stop="20260906123500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
-<programme start="20260906123500 +0000" stop="20260906130000 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
-<programme start="20260906130000 +0000" stop="20260906132500 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
-<programme start="20260906132500 +0000" stop="20260906135000 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
-<programme start="20260906135000 +0000" stop="20260906141500 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
-<programme start="20260906141500 +0000" stop="20260906144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
-<programme start="20260906144000 +0000" stop="20260906150500 +0000" channel="eel-channel"><title lang="en">Nirvanna the Band the Show</title></programme>
-<programme start="20260906150500 +0000" stop="20260906153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
-<programme start="20260906153000 +0000" stop="20260906155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
-<programme start="20260906155500 +0000" stop="20260906162000 +0000" channel="eel-channel"><title lang="en">The Tom Green Show</title></programme>
-<programme start="20260906162000 +0000" stop="20260906165000 +0000" channel="eel-channel"><title lang="en">Da Ali G Show</title></programme>
-<programme start="20260906165000 +0000" stop="20260906171500 +0000" channel="eel-channel"><title lang="en">The Adam and Joe Show</title></programme>
-<programme start="20260906171500 +0000" stop="20260906183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
-<programme start="20260906183000 +0000" stop="20260906185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
-<programme start="20260906185500 +0000" stop="20260906192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
-<programme start="20260906192000 +0000" stop="20260906194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
-<programme start="20260906194500 +0000" stop="20260906201000 +0000" channel="eel-channel"><title lang="en">The Andy Milonakis Show</title></programme>
-<programme start="20260906201000 +0000" stop="20260906203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
-<programme start="20260906203500 +0000" stop="20260906205500 +0000" channel="eel-channel"><title lang="en">Homeless in Denton</title></programme>
-<programme start="20260906205500 +0000" stop="20260906212000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260906212000 +0000" stop="20260906214500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
-<programme start="20260906214500 +0000" stop="20260906221000 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
-<programme start="20260906221000 +0000" stop="20260906223000 +0000" channel="eel-channel"><title lang="en">Viva La Bam</title></programme>
-<programme start="20260906223000 +0000" stop="20260906225500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260906225500 +0000" stop="20260906232000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
-<programme start="20260906232000 +0000" stop="20260907015000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
-<programme start="20260907015000 +0000" stop="20260907021500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260907021500 +0000" stop="20260907024000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260907024000 +0000" stop="20260907030500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260907030500 +0000" stop="20260907033000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260907033000 +0000" stop="20260907035500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
-<programme start="20260907035500 +0000" stop="20260907040000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
-<programme start="20260831041000 +0000" stop="20260831043500 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260831043500 +0000" stop="20260831050000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260831050000 +0000" stop="20260831052500 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
-<programme start="20260831052500 +0000" stop="20260831055000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
-<programme start="20260831055000 +0000" stop="20260831061500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260831061500 +0000" stop="20260831064000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260831064000 +0000" stop="20260831070500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260831070500 +0000" stop="20260831073000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260831073000 +0000" stop="20260831075500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260831075500 +0000" stop="20260831082000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
-<programme start="20260831082000 +0000" stop="20260831093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260831093500 +0000" stop="20260831100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260831100000 +0000" stop="20260831102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
-<programme start="20260831102500 +0000" stop="20260831105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
-<programme start="20260831105000 +0000" stop="20260831111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260831111500 +0000" stop="20260831114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260831114000 +0000" stop="20260831120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260831120500 +0000" stop="20260831123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260831123000 +0000" stop="20260831125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260831125500 +0000" stop="20260831132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260831132000 +0000" stop="20260831134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260831134500 +0000" stop="20260831141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260831141500 +0000" stop="20260831144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260831144000 +0000" stop="20260831151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260831151000 +0000" stop="20260831153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260831153500 +0000" stop="20260831160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260831160000 +0000" stop="20260831162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260831162500 +0000" stop="20260831165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260831165000 +0000" stop="20260831171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260831171500 +0000" stop="20260831174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260831174000 +0000" stop="20260831180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
-<programme start="20260831180500 +0000" stop="20260831183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
-<programme start="20260831183000 +0000" stop="20260831185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260831185500 +0000" stop="20260831192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260831192000 +0000" stop="20260831194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
-<programme start="20260831194500 +0000" stop="20260831201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260831201000 +0000" stop="20260831203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260831203500 +0000" stop="20260831213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260831213500 +0000" stop="20260831220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260831220000 +0000" stop="20260831222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260831222500 +0000" stop="20260831225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260831225000 +0000" stop="20260831231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260831231500 +0000" stop="20260831234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260831234000 +0000" stop="20260901000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
-<programme start="20260901000500 +0000" stop="20260901013000 +0000" channel="toon-disney"><title lang="en">The Little Mermaid (1989)</title></programme>
-<programme start="20260901013000 +0000" stop="20260901015500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901015500 +0000" stop="20260901022000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901022000 +0000" stop="20260901024500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901024500 +0000" stop="20260901031000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901031000 +0000" stop="20260901033000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901033000 +0000" stop="20260901035000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901035000 +0000" stop="20260901040000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
-<programme start="20260901042000 +0000" stop="20260901044500 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260901044500 +0000" stop="20260901051000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260901051000 +0000" stop="20260901053500 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
-<programme start="20260901053500 +0000" stop="20260901060000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
-<programme start="20260901060000 +0000" stop="20260901062500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260901062500 +0000" stop="20260901065000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260901065000 +0000" stop="20260901071500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260901071500 +0000" stop="20260901074000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260901074000 +0000" stop="20260901080500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260901080500 +0000" stop="20260901083000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
-<programme start="20260901083000 +0000" stop="20260901093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260901093500 +0000" stop="20260901100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260901100000 +0000" stop="20260901102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
-<programme start="20260901102500 +0000" stop="20260901105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
-<programme start="20260901105000 +0000" stop="20260901111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260901111500 +0000" stop="20260901114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260901114000 +0000" stop="20260901120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260901120500 +0000" stop="20260901123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260901123000 +0000" stop="20260901125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260901125500 +0000" stop="20260901132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260901132000 +0000" stop="20260901134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260901134500 +0000" stop="20260901141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260901141500 +0000" stop="20260901144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260901144000 +0000" stop="20260901151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260901151000 +0000" stop="20260901153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260901153500 +0000" stop="20260901160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260901160000 +0000" stop="20260901162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260901162500 +0000" stop="20260901165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260901165000 +0000" stop="20260901171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260901171500 +0000" stop="20260901174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260901174000 +0000" stop="20260901180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
-<programme start="20260901180500 +0000" stop="20260901183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
-<programme start="20260901183000 +0000" stop="20260901185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260901185500 +0000" stop="20260901192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260901192000 +0000" stop="20260901194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
-<programme start="20260901194500 +0000" stop="20260901201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260901201000 +0000" stop="20260901203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260901203500 +0000" stop="20260901213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260901213500 +0000" stop="20260901220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260901220000 +0000" stop="20260901222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260901222500 +0000" stop="20260901225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260901225000 +0000" stop="20260901231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260901231500 +0000" stop="20260901234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260901234000 +0000" stop="20260902000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
-<programme start="20260902000500 +0000" stop="20260902012500 +0000" channel="toon-disney"><title lang="en">The Lion King 1½ (2004)</title></programme>
-<programme start="20260902012500 +0000" stop="20260902015000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902015000 +0000" stop="20260902021500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902021500 +0000" stop="20260902024000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902024000 +0000" stop="20260902030500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902030500 +0000" stop="20260902033000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902033000 +0000" stop="20260902035500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902035500 +0000" stop="20260902040000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
-<programme start="20260902041500 +0000" stop="20260902044000 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260902044000 +0000" stop="20260902050500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260902050500 +0000" stop="20260902053000 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
-<programme start="20260902053000 +0000" stop="20260902055500 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
-<programme start="20260902055500 +0000" stop="20260902061500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260902061500 +0000" stop="20260902064000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260902064000 +0000" stop="20260902070500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260902070500 +0000" stop="20260902073000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260902073000 +0000" stop="20260902075500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260902075500 +0000" stop="20260902082000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
-<programme start="20260902082000 +0000" stop="20260902093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260902093500 +0000" stop="20260902100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260902100000 +0000" stop="20260902102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
-<programme start="20260902102500 +0000" stop="20260902105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
-<programme start="20260902105000 +0000" stop="20260902111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260902111500 +0000" stop="20260902114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260902114000 +0000" stop="20260902120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260902120500 +0000" stop="20260902123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260902123000 +0000" stop="20260902125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260902125500 +0000" stop="20260902132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260902132000 +0000" stop="20260902134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260902134500 +0000" stop="20260902141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260902141500 +0000" stop="20260902144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260902144000 +0000" stop="20260902151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260902151000 +0000" stop="20260902153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260902153500 +0000" stop="20260902160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260902160000 +0000" stop="20260902162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260902162500 +0000" stop="20260902165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260902165000 +0000" stop="20260902171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260902171500 +0000" stop="20260902174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260902174000 +0000" stop="20260902180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
-<programme start="20260902180500 +0000" stop="20260902183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
-<programme start="20260902183000 +0000" stop="20260902185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260902185500 +0000" stop="20260902192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260902192000 +0000" stop="20260902194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
-<programme start="20260902194500 +0000" stop="20260902201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260902201000 +0000" stop="20260902203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260902203500 +0000" stop="20260902213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260902213500 +0000" stop="20260902220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260902220000 +0000" stop="20260902222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260902222500 +0000" stop="20260902225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260902225000 +0000" stop="20260902231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260902231500 +0000" stop="20260902234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260902234000 +0000" stop="20260903000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
-<programme start="20260903000500 +0000" stop="20260903013000 +0000" channel="toon-disney"><title lang="en">Recess: School's Out (2001)</title></programme>
-<programme start="20260903013000 +0000" stop="20260903015000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903015000 +0000" stop="20260903021000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903021000 +0000" stop="20260903023000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903023000 +0000" stop="20260903025000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903025000 +0000" stop="20260903031000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903031000 +0000" stop="20260903033000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903033000 +0000" stop="20260903035000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903035000 +0000" stop="20260903040000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
-<programme start="20260903041500 +0000" stop="20260903044000 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260903044000 +0000" stop="20260903050500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260903050500 +0000" stop="20260903053000 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
-<programme start="20260903053000 +0000" stop="20260903055500 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
-<programme start="20260903055500 +0000" stop="20260903062000 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260903062000 +0000" stop="20260903064500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260903064500 +0000" stop="20260903071000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260903071000 +0000" stop="20260903073500 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260903073500 +0000" stop="20260903080000 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260903080000 +0000" stop="20260903082500 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
-<programme start="20260903082500 +0000" stop="20260903093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260903093500 +0000" stop="20260903100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260903100000 +0000" stop="20260903102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
-<programme start="20260903102500 +0000" stop="20260903105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
-<programme start="20260903105000 +0000" stop="20260903111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260903111500 +0000" stop="20260903114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260903114000 +0000" stop="20260903120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260903120500 +0000" stop="20260903123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260903123000 +0000" stop="20260903125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260903125500 +0000" stop="20260903132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260903132000 +0000" stop="20260903134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260903134500 +0000" stop="20260903141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260903141500 +0000" stop="20260903144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260903144000 +0000" stop="20260903151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260903151000 +0000" stop="20260903153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260903153500 +0000" stop="20260903160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260903160000 +0000" stop="20260903162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260903162500 +0000" stop="20260903165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260903165000 +0000" stop="20260903171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260903171500 +0000" stop="20260903174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260903174000 +0000" stop="20260903180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
-<programme start="20260903180500 +0000" stop="20260903183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
-<programme start="20260903183000 +0000" stop="20260903185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260903185500 +0000" stop="20260903192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260903192000 +0000" stop="20260903194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
-<programme start="20260903194500 +0000" stop="20260903201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260903201000 +0000" stop="20260903203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260903203500 +0000" stop="20260903213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260903213500 +0000" stop="20260903220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260903220000 +0000" stop="20260903222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260903222500 +0000" stop="20260903225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260903225000 +0000" stop="20260903231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260903231500 +0000" stop="20260903234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260903234000 +0000" stop="20260904000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
-<programme start="20260904000500 +0000" stop="20260904012000 +0000" channel="toon-disney"><title lang="en">Cats Don't Dance (1997)</title></programme>
-<programme start="20260904012000 +0000" stop="20260904014500 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904014500 +0000" stop="20260904021000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904021000 +0000" stop="20260904023500 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904023500 +0000" stop="20260904030000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904030000 +0000" stop="20260904032500 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904032500 +0000" stop="20260904035000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904035000 +0000" stop="20260904040000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
-<programme start="20260904041000 +0000" stop="20260904043500 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260904043500 +0000" stop="20260904050000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260904050000 +0000" stop="20260904052500 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
-<programme start="20260904052500 +0000" stop="20260904055000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
-<programme start="20260904055000 +0000" stop="20260904061500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260904061500 +0000" stop="20260904064000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260904064000 +0000" stop="20260904070500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260904070500 +0000" stop="20260904073000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260904073000 +0000" stop="20260904075500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260904075500 +0000" stop="20260904082000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
-<programme start="20260904082000 +0000" stop="20260904093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260904093500 +0000" stop="20260904100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260904100000 +0000" stop="20260904102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
-<programme start="20260904102500 +0000" stop="20260904105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
-<programme start="20260904105000 +0000" stop="20260904111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260904111500 +0000" stop="20260904114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260904114000 +0000" stop="20260904120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260904120500 +0000" stop="20260904123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260904123000 +0000" stop="20260904125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260904125500 +0000" stop="20260904132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260904132000 +0000" stop="20260904134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260904134500 +0000" stop="20260904141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260904141500 +0000" stop="20260904144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260904144000 +0000" stop="20260904151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260904151000 +0000" stop="20260904153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260904153500 +0000" stop="20260904160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260904160000 +0000" stop="20260904162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260904162500 +0000" stop="20260904165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260904165000 +0000" stop="20260904171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260904171500 +0000" stop="20260904174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260904174000 +0000" stop="20260904180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
-<programme start="20260904180500 +0000" stop="20260904183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
-<programme start="20260904183000 +0000" stop="20260904185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260904185500 +0000" stop="20260904192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260904192000 +0000" stop="20260904194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
-<programme start="20260904194500 +0000" stop="20260904201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260904201000 +0000" stop="20260904203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260904203500 +0000" stop="20260904213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260904213500 +0000" stop="20260904220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260904220000 +0000" stop="20260904222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260904222500 +0000" stop="20260904225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260904225000 +0000" stop="20260904231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260904231500 +0000" stop="20260904234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260904234000 +0000" stop="20260905000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
-<programme start="20260905000500 +0000" stop="20260905014000 +0000" channel="toon-disney"><title lang="en">Hercules (1997)</title></programme>
-<programme start="20260905014000 +0000" stop="20260905020500 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905020500 +0000" stop="20260905023000 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905023000 +0000" stop="20260905025500 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905025500 +0000" stop="20260905032000 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905032000 +0000" stop="20260905034500 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905034500 +0000" stop="20260905040000 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
-<programme start="20260905042000 +0000" stop="20260905044500 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260905044500 +0000" stop="20260905051000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260905051000 +0000" stop="20260905053500 +0000" channel="toon-disney"><title lang="en">Ōban Star-Racers</title></programme>
-<programme start="20260905053500 +0000" stop="20260905060000 +0000" channel="toon-disney"><title lang="en">Dungeons &amp; Dragons</title></programme>
-<programme start="20260905060000 +0000" stop="20260905062500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260905062500 +0000" stop="20260905065000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260905065000 +0000" stop="20260905071500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260905071500 +0000" stop="20260905074000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260905074000 +0000" stop="20260905080500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260905080500 +0000" stop="20260905082500 +0000" channel="toon-disney"><title lang="en">Nightmare Ned</title></programme>
-<programme start="20260905082500 +0000" stop="20260905093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260905093500 +0000" stop="20260905100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260905100000 +0000" stop="20260905102500 +0000" channel="toon-disney"><title lang="en">Shin-Chan</title></programme>
-<programme start="20260905102500 +0000" stop="20260905105000 +0000" channel="toon-disney"><title lang="en">Bump in the Night</title></programme>
-<programme start="20260905105000 +0000" stop="20260905111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260905111500 +0000" stop="20260905114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260905114000 +0000" stop="20260905120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260905120500 +0000" stop="20260905123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260905123000 +0000" stop="20260905125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260905125500 +0000" stop="20260905132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260905132000 +0000" stop="20260905134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260905134500 +0000" stop="20260905141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260905141500 +0000" stop="20260905144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260905144000 +0000" stop="20260905151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260905151000 +0000" stop="20260905153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260905153500 +0000" stop="20260905160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260905160000 +0000" stop="20260905162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260905162500 +0000" stop="20260905165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260905165000 +0000" stop="20260905171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260905171500 +0000" stop="20260905174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260905174000 +0000" stop="20260905180500 +0000" channel="toon-disney"><title lang="en">The Weekenders</title></programme>
-<programme start="20260905180500 +0000" stop="20260905183000 +0000" channel="toon-disney"><title lang="en">The Weekenders</title></programme>
-<programme start="20260905183000 +0000" stop="20260905185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260905185500 +0000" stop="20260905192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260905192000 +0000" stop="20260905194500 +0000" channel="toon-disney"><title lang="en">Fillmore!</title></programme>
-<programme start="20260905194500 +0000" stop="20260905201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260905201000 +0000" stop="20260905203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260905203500 +0000" stop="20260905213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260905213500 +0000" stop="20260905220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260905220000 +0000" stop="20260905222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260905222500 +0000" stop="20260905225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260905225000 +0000" stop="20260905231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260905231500 +0000" stop="20260905234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260905234000 +0000" stop="20260906000500 +0000" channel="toon-disney"><title lang="en">Dave the Barbarian</title></programme>
-<programme start="20260906000500 +0000" stop="20260906012500 +0000" channel="toon-disney"><title lang="en">Kronk's New Groove (2005)</title></programme>
-<programme start="20260906012500 +0000" stop="20260906015000 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906015000 +0000" stop="20260906021500 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906021500 +0000" stop="20260906024000 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906024000 +0000" stop="20260906030500 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906030500 +0000" stop="20260906033000 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906033000 +0000" stop="20260906035500 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906035500 +0000" stop="20260906040000 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
-<programme start="20260906042000 +0000" stop="20260906044500 +0000" channel="toon-disney"><title lang="en">Batman Animated</title></programme>
-<programme start="20260906044500 +0000" stop="20260906051000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260906051000 +0000" stop="20260906053500 +0000" channel="toon-disney"><title lang="en">Ōban Star-Racers</title></programme>
-<programme start="20260906053500 +0000" stop="20260906060000 +0000" channel="toon-disney"><title lang="en">Dungeons &amp; Dragons</title></programme>
-<programme start="20260906060000 +0000" stop="20260906062500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
-<programme start="20260906062500 +0000" stop="20260906065000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260906065000 +0000" stop="20260906071500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260906071500 +0000" stop="20260906074000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
-<programme start="20260906074000 +0000" stop="20260906080500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
-<programme start="20260906080500 +0000" stop="20260906083000 +0000" channel="toon-disney"><title lang="en">The Mouse and the Monster</title></programme>
-<programme start="20260906083000 +0000" stop="20260906093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260906093500 +0000" stop="20260906100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
-<programme start="20260906100000 +0000" stop="20260906102500 +0000" channel="toon-disney"><title lang="en">Shin-Chan</title></programme>
-<programme start="20260906102500 +0000" stop="20260906105000 +0000" channel="toon-disney"><title lang="en">Bump in the Night</title></programme>
-<programme start="20260906105000 +0000" stop="20260906111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
-<programme start="20260906111500 +0000" stop="20260906114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
-<programme start="20260906114000 +0000" stop="20260906120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
-<programme start="20260906120500 +0000" stop="20260906123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
-<programme start="20260906123000 +0000" stop="20260906125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
-<programme start="20260906125500 +0000" stop="20260906132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
-<programme start="20260906132000 +0000" stop="20260906134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
-<programme start="20260906134500 +0000" stop="20260906141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
-<programme start="20260906141500 +0000" stop="20260906144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
-<programme start="20260906144000 +0000" stop="20260906151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
-<programme start="20260906151000 +0000" stop="20260906153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
-<programme start="20260906153500 +0000" stop="20260906160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
-<programme start="20260906160000 +0000" stop="20260906162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
-<programme start="20260906162500 +0000" stop="20260906165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
-<programme start="20260906165000 +0000" stop="20260906171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
-<programme start="20260906171500 +0000" stop="20260906174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
-<programme start="20260906174000 +0000" stop="20260906180500 +0000" channel="toon-disney"><title lang="en">The Weekenders</title></programme>
-<programme start="20260906180500 +0000" stop="20260906183000 +0000" channel="toon-disney"><title lang="en">The Weekenders</title></programme>
-<programme start="20260906183000 +0000" stop="20260906185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
-<programme start="20260906185500 +0000" stop="20260906192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
-<programme start="20260906192000 +0000" stop="20260906194500 +0000" channel="toon-disney"><title lang="en">Fillmore!</title></programme>
-<programme start="20260906194500 +0000" stop="20260906201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
-<programme start="20260906201000 +0000" stop="20260906203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
-<programme start="20260906203500 +0000" stop="20260906213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
-<programme start="20260906213500 +0000" stop="20260906220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
-<programme start="20260906220000 +0000" stop="20260906222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
-<programme start="20260906222500 +0000" stop="20260906225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
-<programme start="20260906225000 +0000" stop="20260906231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
-<programme start="20260906231500 +0000" stop="20260906234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
-<programme start="20260906234000 +0000" stop="20260907000500 +0000" channel="toon-disney"><title lang="en">Dave the Barbarian</title></programme>
-<programme start="20260907000500 +0000" stop="20260907015000 +0000" channel="toon-disney"><title lang="en">Kiki's Delivery Service (1989)</title></programme>
-<programme start="20260907015000 +0000" stop="20260907021500 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
-<programme start="20260907021500 +0000" stop="20260907024000 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
-<programme start="20260907024000 +0000" stop="20260907030500 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
-<programme start="20260907030500 +0000" stop="20260907033000 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
-<programme start="20260907033000 +0000" stop="20260907035500 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
-<programme start="20260907035500 +0000" stop="20260907040000 +0000" channel="toon-disney"><title lang="en">Static Shock</title></programme>
+<programme start="20260907041000 +0000" stop="20260907044000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260907044000 +0000" stop="20260907051000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260907051000 +0000" stop="20260907053500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260907053500 +0000" stop="20260907060000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260907060000 +0000" stop="20260907062500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260907062500 +0000" stop="20260907065500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260907065500 +0000" stop="20260907072000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260907072000 +0000" stop="20260907075000 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260907075000 +0000" stop="20260907081500 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260907081500 +0000" stop="20260907084000 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260907084000 +0000" stop="20260907100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260907100000 +0000" stop="20260907102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260907102500 +0000" stop="20260907105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
+<programme start="20260907105000 +0000" stop="20260907111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
+<programme start="20260907111500 +0000" stop="20260907114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260907114000 +0000" stop="20260907120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260907120500 +0000" stop="20260907123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260907123000 +0000" stop="20260907125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260907125500 +0000" stop="20260907132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260907132000 +0000" stop="20260907134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260907134500 +0000" stop="20260907141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260907141000 +0000" stop="20260907144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260907144000 +0000" stop="20260907150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
+<programme start="20260907150500 +0000" stop="20260907153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260907153000 +0000" stop="20260907155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260907155500 +0000" stop="20260907162000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260907162000 +0000" stop="20260907164500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260907164500 +0000" stop="20260907171000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
+<programme start="20260907171000 +0000" stop="20260907183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260907183000 +0000" stop="20260907185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260907185500 +0000" stop="20260907192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260907192000 +0000" stop="20260907194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260907194500 +0000" stop="20260907201000 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
+<programme start="20260907201000 +0000" stop="20260907203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260907203500 +0000" stop="20260907205500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260907205500 +0000" stop="20260907212000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260907212000 +0000" stop="20260907214500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260907214500 +0000" stop="20260907221000 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260907221000 +0000" stop="20260907223500 +0000" channel="eel-channel"><title lang="en">Wildboyz</title></programme>
+<programme start="20260907223500 +0000" stop="20260907230000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260907230000 +0000" stop="20260907232500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260907232500 +0000" stop="20260908020500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260908020500 +0000" stop="20260908023000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260908023000 +0000" stop="20260908025500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260908025500 +0000" stop="20260908032000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260908032000 +0000" stop="20260908034500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260908034500 +0000" stop="20260908040000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260908040000 +0000" stop="20260908043500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260908043500 +0000" stop="20260908050500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260908050500 +0000" stop="20260908053000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260908053000 +0000" stop="20260908055500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260908055500 +0000" stop="20260908062000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260908062000 +0000" stop="20260908065000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260908065000 +0000" stop="20260908071500 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260908071500 +0000" stop="20260908074500 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260908074500 +0000" stop="20260908081000 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260908081000 +0000" stop="20260908083500 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260908083500 +0000" stop="20260908100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260908100000 +0000" stop="20260908102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260908102500 +0000" stop="20260908105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
+<programme start="20260908105000 +0000" stop="20260908111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
+<programme start="20260908111500 +0000" stop="20260908114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260908114000 +0000" stop="20260908120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260908120500 +0000" stop="20260908123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260908123000 +0000" stop="20260908125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260908125500 +0000" stop="20260908132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260908132000 +0000" stop="20260908134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260908134500 +0000" stop="20260908141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260908141000 +0000" stop="20260908143500 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260908143500 +0000" stop="20260908150000 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
+<programme start="20260908150000 +0000" stop="20260908152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260908152500 +0000" stop="20260908155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260908155000 +0000" stop="20260908161500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260908161500 +0000" stop="20260908164000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260908164000 +0000" stop="20260908170500 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
+<programme start="20260908170500 +0000" stop="20260908183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260908183000 +0000" stop="20260908185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260908185500 +0000" stop="20260908192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260908192000 +0000" stop="20260908194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260908194500 +0000" stop="20260908201000 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
+<programme start="20260908201000 +0000" stop="20260908203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260908203500 +0000" stop="20260908210000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260908210000 +0000" stop="20260908212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260908212500 +0000" stop="20260908215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260908215000 +0000" stop="20260908221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260908221500 +0000" stop="20260908224000 +0000" channel="eel-channel"><title lang="en">Wildboyz</title></programme>
+<programme start="20260908224000 +0000" stop="20260908230500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260908230500 +0000" stop="20260908233000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260908233000 +0000" stop="20260909004000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260909004000 +0000" stop="20260909013000 +0000" channel="eel-channel"><title lang="en">DBZ: Bio-Broly (1994)</title></programme>
+<programme start="20260909013000 +0000" stop="20260909015500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260909015500 +0000" stop="20260909022000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260909022000 +0000" stop="20260909024500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260909024500 +0000" stop="20260909031000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260909031000 +0000" stop="20260909033500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260909033500 +0000" stop="20260909040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260909040000 +0000" stop="20260909043000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260909043000 +0000" stop="20260909050000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260909050000 +0000" stop="20260909052500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260909052500 +0000" stop="20260909055000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260909055000 +0000" stop="20260909061500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260909061500 +0000" stop="20260909064500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260909064500 +0000" stop="20260909071000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260909071000 +0000" stop="20260909074000 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260909074000 +0000" stop="20260909080500 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260909080500 +0000" stop="20260909083000 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260909083000 +0000" stop="20260909100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260909100000 +0000" stop="20260909102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260909102500 +0000" stop="20260909105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
+<programme start="20260909105000 +0000" stop="20260909111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
+<programme start="20260909111500 +0000" stop="20260909114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260909114000 +0000" stop="20260909120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260909120500 +0000" stop="20260909123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260909123000 +0000" stop="20260909125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260909125500 +0000" stop="20260909132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260909132000 +0000" stop="20260909134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260909134500 +0000" stop="20260909141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260909141000 +0000" stop="20260909143500 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260909143500 +0000" stop="20260909150000 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
+<programme start="20260909150000 +0000" stop="20260909152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260909152500 +0000" stop="20260909155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260909155000 +0000" stop="20260909161500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260909161500 +0000" stop="20260909164000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260909164000 +0000" stop="20260909170500 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
+<programme start="20260909170500 +0000" stop="20260909183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260909183000 +0000" stop="20260909185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260909185500 +0000" stop="20260909192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260909192000 +0000" stop="20260909194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260909194500 +0000" stop="20260909201000 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
+<programme start="20260909201000 +0000" stop="20260909203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260909203500 +0000" stop="20260909210000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260909210000 +0000" stop="20260909212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260909212500 +0000" stop="20260909215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260909215000 +0000" stop="20260909221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260909221500 +0000" stop="20260909224000 +0000" channel="eel-channel"><title lang="en">Jackass</title></programme>
+<programme start="20260909224000 +0000" stop="20260909230500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260909230500 +0000" stop="20260909233000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260909233000 +0000" stop="20260910003500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260910003500 +0000" stop="20260910031000 +0000" channel="eel-channel"><title lang="en">Pulp Fiction (1994)</title></programme>
+<programme start="20260910031000 +0000" stop="20260910033500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260910033500 +0000" stop="20260910040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260910041500 +0000" stop="20260910044500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260910044500 +0000" stop="20260910051500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260910051500 +0000" stop="20260910054000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260910054000 +0000" stop="20260910060500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260910060500 +0000" stop="20260910063000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260910063000 +0000" stop="20260910070000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260910070000 +0000" stop="20260910072000 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260910072000 +0000" stop="20260910075000 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260910075000 +0000" stop="20260910081500 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260910081500 +0000" stop="20260910084000 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260910084000 +0000" stop="20260910100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260910100000 +0000" stop="20260910102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260910102500 +0000" stop="20260910105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
+<programme start="20260910105000 +0000" stop="20260910111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
+<programme start="20260910111500 +0000" stop="20260910114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260910114000 +0000" stop="20260910120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260910120500 +0000" stop="20260910123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260910123000 +0000" stop="20260910125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260910125500 +0000" stop="20260910132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260910132000 +0000" stop="20260910134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260910134500 +0000" stop="20260910141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260910141000 +0000" stop="20260910144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260910144000 +0000" stop="20260910150500 +0000" channel="eel-channel"><title lang="en">The State</title></programme>
+<programme start="20260910150500 +0000" stop="20260910153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260910153000 +0000" stop="20260910155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260910155500 +0000" stop="20260910162000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260910162000 +0000" stop="20260910164500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260910164500 +0000" stop="20260910171000 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
+<programme start="20260910171000 +0000" stop="20260910183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260910183000 +0000" stop="20260910185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260910185500 +0000" stop="20260910192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260910192000 +0000" stop="20260910194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260910194500 +0000" stop="20260910201000 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
+<programme start="20260910201000 +0000" stop="20260910203500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260910203500 +0000" stop="20260910210000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260910210000 +0000" stop="20260910212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260910212500 +0000" stop="20260910215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260910215000 +0000" stop="20260910221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260910221500 +0000" stop="20260910223500 +0000" channel="eel-channel"><title lang="en">Viva La Bam</title></programme>
+<programme start="20260910223500 +0000" stop="20260910230000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260910230000 +0000" stop="20260910232500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260910232500 +0000" stop="20260911014500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260911014500 +0000" stop="20260911021000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260911021000 +0000" stop="20260911023500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260911023500 +0000" stop="20260911030000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260911030000 +0000" stop="20260911032500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260911032500 +0000" stop="20260911035000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260911035000 +0000" stop="20260911040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260911041500 +0000" stop="20260911044500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260911044500 +0000" stop="20260911051500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260911051500 +0000" stop="20260911054000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260911054000 +0000" stop="20260911060500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260911060500 +0000" stop="20260911063000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260911063000 +0000" stop="20260911070000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260911070000 +0000" stop="20260911072500 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260911072500 +0000" stop="20260911075500 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260911075500 +0000" stop="20260911082000 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260911082000 +0000" stop="20260911084500 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260911084500 +0000" stop="20260911100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260911100000 +0000" stop="20260911102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260911102500 +0000" stop="20260911105000 +0000" channel="eel-channel"><title lang="en">Bro’Town</title></programme>
+<programme start="20260911105000 +0000" stop="20260911111500 +0000" channel="eel-channel"><title lang="en">Dilbert</title></programme>
+<programme start="20260911111500 +0000" stop="20260911114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260911114000 +0000" stop="20260911120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260911120500 +0000" stop="20260911123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260911123000 +0000" stop="20260911125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260911125500 +0000" stop="20260911132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260911132000 +0000" stop="20260911134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260911134500 +0000" stop="20260911141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260911141000 +0000" stop="20260911143500 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260911143500 +0000" stop="20260911150000 +0000" channel="eel-channel"><title lang="en">Modern Toss</title></programme>
+<programme start="20260911150000 +0000" stop="20260911152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260911152500 +0000" stop="20260911155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260911155000 +0000" stop="20260911161500 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260911161500 +0000" stop="20260911164000 +0000" channel="eel-channel"><title lang="en">The Kids in the Hall</title></programme>
+<programme start="20260911164000 +0000" stop="20260911170500 +0000" channel="eel-channel"><title lang="en">The Whitest Kids U'Know</title></programme>
+<programme start="20260911170500 +0000" stop="20260911183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260911183000 +0000" stop="20260911185500 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260911185500 +0000" stop="20260911192000 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260911192000 +0000" stop="20260911194500 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260911194500 +0000" stop="20260911200500 +0000" channel="eel-channel"><title lang="en">Chappelle's Show</title></programme>
+<programme start="20260911200500 +0000" stop="20260911203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260911203000 +0000" stop="20260911205500 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260911205500 +0000" stop="20260911212000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260911212000 +0000" stop="20260911214500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260911214500 +0000" stop="20260911221000 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260911221000 +0000" stop="20260911223000 +0000" channel="eel-channel"><title lang="en">Viva La Bam</title></programme>
+<programme start="20260911223000 +0000" stop="20260911225500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260911225500 +0000" stop="20260911232000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260911232000 +0000" stop="20260912003000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260912003000 +0000" stop="20260912005500 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912005500 +0000" stop="20260912012000 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912012000 +0000" stop="20260912014500 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912014500 +0000" stop="20260912021000 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912021000 +0000" stop="20260912023500 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912023500 +0000" stop="20260912030000 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912030000 +0000" stop="20260912032500 +0000" channel="eel-channel"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260912032500 +0000" stop="20260912035000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260912035000 +0000" stop="20260912040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260912040500 +0000" stop="20260912043500 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260912043500 +0000" stop="20260912050500 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260912050500 +0000" stop="20260912053000 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260912053000 +0000" stop="20260912055500 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260912055500 +0000" stop="20260912062000 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260912062000 +0000" stop="20260912065000 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260912065000 +0000" stop="20260912071500 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260912071500 +0000" stop="20260912074500 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260912074500 +0000" stop="20260912081000 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260912081000 +0000" stop="20260912083500 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260912083500 +0000" stop="20260912100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260912100000 +0000" stop="20260912102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260912102500 +0000" stop="20260912105000 +0000" channel="eel-channel"><title lang="en">Mr. Bean</title></programme>
+<programme start="20260912105000 +0000" stop="20260912111500 +0000" channel="eel-channel"><title lang="en">Trigger Happy TV</title></programme>
+<programme start="20260912111500 +0000" stop="20260912114000 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260912114000 +0000" stop="20260912120500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260912120500 +0000" stop="20260912123000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260912123000 +0000" stop="20260912125500 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260912125500 +0000" stop="20260912132000 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260912132000 +0000" stop="20260912134500 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260912134500 +0000" stop="20260912141000 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260912141000 +0000" stop="20260912143500 +0000" channel="eel-channel"><title lang="en">Liquid Television</title></programme>
+<programme start="20260912143500 +0000" stop="20260912150000 +0000" channel="eel-channel"><title lang="en">Liquid Television</title></programme>
+<programme start="20260912150000 +0000" stop="20260912152500 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260912152500 +0000" stop="20260912155000 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260912155000 +0000" stop="20260912161500 +0000" channel="eel-channel"><title lang="en">The Tom Green Show</title></programme>
+<programme start="20260912161500 +0000" stop="20260912164500 +0000" channel="eel-channel"><title lang="en">Da Ali G Show</title></programme>
+<programme start="20260912164500 +0000" stop="20260912171000 +0000" channel="eel-channel"><title lang="en">The Adam and Joe Show</title></programme>
+<programme start="20260912171000 +0000" stop="20260912183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260912183000 +0000" stop="20260912185000 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260912185000 +0000" stop="20260912191500 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260912191500 +0000" stop="20260912194000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260912194000 +0000" stop="20260912200500 +0000" channel="eel-channel"><title lang="en">The Andy Milonakis Show</title></programme>
+<programme start="20260912200500 +0000" stop="20260912203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260912203000 +0000" stop="20260912210000 +0000" channel="eel-channel"><title lang="en">16 Storeys High</title></programme>
+<programme start="20260912210000 +0000" stop="20260912212500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260912212500 +0000" stop="20260912215000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260912215000 +0000" stop="20260912221500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260912221500 +0000" stop="20260912224000 +0000" channel="eel-channel"><title lang="en">Wildboyz</title></programme>
+<programme start="20260912224000 +0000" stop="20260912230500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260912230500 +0000" stop="20260912233000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260912233000 +0000" stop="20260913020000 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260913020000 +0000" stop="20260913022500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260913022500 +0000" stop="20260913025000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260913025000 +0000" stop="20260913031500 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260913031500 +0000" stop="20260913034000 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260913034000 +0000" stop="20260913040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260913040000 +0000" stop="20260913043000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
+<programme start="20260913043000 +0000" stop="20260913050000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
+<programme start="20260913050000 +0000" stop="20260913052500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
+<programme start="20260913052500 +0000" stop="20260913055000 +0000" channel="eel-channel"><title lang="en">The Boondocks</title></programme>
+<programme start="20260913055000 +0000" stop="20260913061500 +0000" channel="eel-channel"><title lang="en">Home Movies</title></programme>
+<programme start="20260913061500 +0000" stop="20260913064500 +0000" channel="eel-channel"><title lang="en">Space Ghost Coast to Coast</title></programme>
+<programme start="20260913064500 +0000" stop="20260913070500 +0000" channel="eel-channel"><title lang="en">Super Milk Chan USA</title></programme>
+<programme start="20260913070500 +0000" stop="20260913073500 +0000" channel="eel-channel"><title lang="en">Cromartie High School</title></programme>
+<programme start="20260913073500 +0000" stop="20260913080000 +0000" channel="eel-channel"><title lang="en">Serial Experiments Lain</title></programme>
+<programme start="20260913080000 +0000" stop="20260913082500 +0000" channel="eel-channel"><title lang="en">Michiko &amp; Hatchin</title></programme>
+<programme start="20260913082500 +0000" stop="20260913100000 +0000" channel="eel-channel"><title lang="en">The Late Shift</title></programme>
+<programme start="20260913100000 +0000" stop="20260913102500 +0000" channel="eel-channel"><title lang="en">Kevin Spencer</title></programme>
+<programme start="20260913102500 +0000" stop="20260913105000 +0000" channel="eel-channel"><title lang="en">The Ben Stiller Show</title></programme>
+<programme start="20260913105000 +0000" stop="20260913112000 +0000" channel="eel-channel"><title lang="en">World Shut Your Mouth</title></programme>
+<programme start="20260913112000 +0000" stop="20260913114500 +0000" channel="eel-channel"><title lang="en">Lupin the Third Part II</title></programme>
+<programme start="20260913114500 +0000" stop="20260913121000 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260913121000 +0000" stop="20260913123500 +0000" channel="eel-channel"><title lang="en">Dragon Ball</title></programme>
+<programme start="20260913123500 +0000" stop="20260913130000 +0000" channel="eel-channel"><title lang="en">Tenchi Muyo! GXP</title></programme>
+<programme start="20260913130000 +0000" stop="20260913132500 +0000" channel="eel-channel"><title lang="en">Hajime no Ippo</title></programme>
+<programme start="20260913132500 +0000" stop="20260913135000 +0000" channel="eel-channel"><title lang="en">Duckman</title></programme>
+<programme start="20260913135000 +0000" stop="20260913141500 +0000" channel="eel-channel"><title lang="en">The PJs</title></programme>
+<programme start="20260913141500 +0000" stop="20260913144000 +0000" channel="eel-channel"><title lang="en">The Ricky Gervais Show</title></programme>
+<programme start="20260913144000 +0000" stop="20260913150500 +0000" channel="eel-channel"><title lang="en">Nirvanna the Band the Show</title></programme>
+<programme start="20260913150500 +0000" stop="20260913153000 +0000" channel="eel-channel"><title lang="en">Trailer Park Boys</title></programme>
+<programme start="20260913153000 +0000" stop="20260913155500 +0000" channel="eel-channel"><title lang="en">Kenny vs. Spenny</title></programme>
+<programme start="20260913155500 +0000" stop="20260913162000 +0000" channel="eel-channel"><title lang="en">The Tom Green Show</title></programme>
+<programme start="20260913162000 +0000" stop="20260913165000 +0000" channel="eel-channel"><title lang="en">Da Ali G Show</title></programme>
+<programme start="20260913165000 +0000" stop="20260913171500 +0000" channel="eel-channel"><title lang="en">The Adam and Joe Show</title></programme>
+<programme start="20260913171500 +0000" stop="20260913183000 +0000" channel="eel-channel"><title lang="en">Music Videos</title></programme>
+<programme start="20260913183000 +0000" stop="20260913185000 +0000" channel="eel-channel"><title lang="en">Everybody Hates Chris</title></programme>
+<programme start="20260913185000 +0000" stop="20260913191500 +0000" channel="eel-channel"><title lang="en">RENO 911!</title></programme>
+<programme start="20260913191500 +0000" stop="20260913194000 +0000" channel="eel-channel"><title lang="en">The Sifl &amp; Olly Show</title></programme>
+<programme start="20260913194000 +0000" stop="20260913200500 +0000" channel="eel-channel"><title lang="en">The Andy Milonakis Show</title></programme>
+<programme start="20260913200500 +0000" stop="20260913203000 +0000" channel="eel-channel"><title lang="en">In Living Color</title></programme>
+<programme start="20260913203000 +0000" stop="20260913205000 +0000" channel="eel-channel"><title lang="en">Homeless in Denton</title></programme>
+<programme start="20260913205000 +0000" stop="20260913211500 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260913211500 +0000" stop="20260913214000 +0000" channel="eel-channel"><title lang="en">Malcolm in the Middle</title></programme>
+<programme start="20260913214000 +0000" stop="20260913220500 +0000" channel="eel-channel"><title lang="en">Workaholics</title></programme>
+<programme start="20260913220500 +0000" stop="20260913223000 +0000" channel="eel-channel"><title lang="en">Jackass</title></programme>
+<programme start="20260913223000 +0000" stop="20260913225500 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260913225500 +0000" stop="20260913232000 +0000" channel="eel-channel"><title lang="en">Dragon Ball Z</title></programme>
+<programme start="20260913232000 +0000" stop="20260914015500 +0000" channel="eel-channel"><title lang="en">Classic Wrestling</title></programme>
+<programme start="20260914015500 +0000" stop="20260914022000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260914022000 +0000" stop="20260914024500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260914024500 +0000" stop="20260914031000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260914031000 +0000" stop="20260914033500 +0000" channel="eel-channel"><title lang="en">It's Always Sunny in Philadelphia</title></programme>
+<programme start="20260914033500 +0000" stop="20260914040000 +0000" channel="eel-channel"><title lang="en">South Park</title></programme>
+<programme start="20260907042000 +0000" stop="20260907044500 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260907044500 +0000" stop="20260907051000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260907051000 +0000" stop="20260907053500 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
+<programme start="20260907053500 +0000" stop="20260907060000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260907060000 +0000" stop="20260907062500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260907062500 +0000" stop="20260907065000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260907065000 +0000" stop="20260907071500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260907071500 +0000" stop="20260907074000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
+<programme start="20260907074000 +0000" stop="20260907080500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
+<programme start="20260907080500 +0000" stop="20260907083000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
+<programme start="20260907083000 +0000" stop="20260907093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260907093500 +0000" stop="20260907100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
+<programme start="20260907100000 +0000" stop="20260907102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
+<programme start="20260907102500 +0000" stop="20260907105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
+<programme start="20260907105000 +0000" stop="20260907111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
+<programme start="20260907111500 +0000" stop="20260907114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
+<programme start="20260907114000 +0000" stop="20260907120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
+<programme start="20260907120500 +0000" stop="20260907123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
+<programme start="20260907123000 +0000" stop="20260907125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
+<programme start="20260907125500 +0000" stop="20260907132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
+<programme start="20260907132000 +0000" stop="20260907134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
+<programme start="20260907134500 +0000" stop="20260907141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
+<programme start="20260907141500 +0000" stop="20260907144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
+<programme start="20260907144000 +0000" stop="20260907151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
+<programme start="20260907151000 +0000" stop="20260907153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
+<programme start="20260907153500 +0000" stop="20260907160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
+<programme start="20260907160000 +0000" stop="20260907162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
+<programme start="20260907162500 +0000" stop="20260907165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
+<programme start="20260907165000 +0000" stop="20260907171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
+<programme start="20260907171500 +0000" stop="20260907174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
+<programme start="20260907174000 +0000" stop="20260907180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
+<programme start="20260907180500 +0000" stop="20260907183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
+<programme start="20260907183000 +0000" stop="20260907185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
+<programme start="20260907185500 +0000" stop="20260907192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
+<programme start="20260907192000 +0000" stop="20260907194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
+<programme start="20260907194500 +0000" stop="20260907201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
+<programme start="20260907201000 +0000" stop="20260907203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
+<programme start="20260907203500 +0000" stop="20260907213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260907213500 +0000" stop="20260907220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260907220000 +0000" stop="20260907222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260907222500 +0000" stop="20260907225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
+<programme start="20260907225000 +0000" stop="20260907231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
+<programme start="20260907231500 +0000" stop="20260907234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
+<programme start="20260907234000 +0000" stop="20260908000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
+<programme start="20260908000500 +0000" stop="20260908020000 +0000" channel="toon-disney"><title lang="en">Ratatouille (2007)</title></programme>
+<programme start="20260908020000 +0000" stop="20260908022500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908022500 +0000" stop="20260908024500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908024500 +0000" stop="20260908030500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908030500 +0000" stop="20260908033000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908033000 +0000" stop="20260908035500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908035500 +0000" stop="20260908040000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260908040500 +0000" stop="20260908043000 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260908043000 +0000" stop="20260908045500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260908045500 +0000" stop="20260908052000 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
+<programme start="20260908052000 +0000" stop="20260908054500 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260908054500 +0000" stop="20260908061000 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260908061000 +0000" stop="20260908063500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260908063500 +0000" stop="20260908070000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260908070000 +0000" stop="20260908072500 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
+<programme start="20260908072500 +0000" stop="20260908075000 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
+<programme start="20260908075000 +0000" stop="20260908081500 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
+<programme start="20260908081500 +0000" stop="20260908093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260908093500 +0000" stop="20260908100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
+<programme start="20260908100000 +0000" stop="20260908102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
+<programme start="20260908102500 +0000" stop="20260908105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
+<programme start="20260908105000 +0000" stop="20260908111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
+<programme start="20260908111500 +0000" stop="20260908114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
+<programme start="20260908114000 +0000" stop="20260908120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
+<programme start="20260908120500 +0000" stop="20260908123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
+<programme start="20260908123000 +0000" stop="20260908125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
+<programme start="20260908125500 +0000" stop="20260908132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
+<programme start="20260908132000 +0000" stop="20260908134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
+<programme start="20260908134500 +0000" stop="20260908141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
+<programme start="20260908141500 +0000" stop="20260908144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
+<programme start="20260908144000 +0000" stop="20260908151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
+<programme start="20260908151000 +0000" stop="20260908153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
+<programme start="20260908153500 +0000" stop="20260908160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
+<programme start="20260908160000 +0000" stop="20260908162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
+<programme start="20260908162500 +0000" stop="20260908165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
+<programme start="20260908165000 +0000" stop="20260908171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
+<programme start="20260908171500 +0000" stop="20260908174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
+<programme start="20260908174000 +0000" stop="20260908180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
+<programme start="20260908180500 +0000" stop="20260908183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
+<programme start="20260908183000 +0000" stop="20260908185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
+<programme start="20260908185500 +0000" stop="20260908192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
+<programme start="20260908192000 +0000" stop="20260908194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
+<programme start="20260908194500 +0000" stop="20260908201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
+<programme start="20260908201000 +0000" stop="20260908203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
+<programme start="20260908203500 +0000" stop="20260908213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260908213500 +0000" stop="20260908220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260908220000 +0000" stop="20260908222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260908222500 +0000" stop="20260908225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
+<programme start="20260908225000 +0000" stop="20260908231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
+<programme start="20260908231500 +0000" stop="20260908234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
+<programme start="20260908234000 +0000" stop="20260909000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
+<programme start="20260909000500 +0000" stop="20260909013500 +0000" channel="toon-disney"><title lang="en">My Neighbor Totoro (1988)</title></programme>
+<programme start="20260909013500 +0000" stop="20260909020000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909020000 +0000" stop="20260909022500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909022500 +0000" stop="20260909025000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909025000 +0000" stop="20260909031500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909031500 +0000" stop="20260909034000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909034000 +0000" stop="20260909040000 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260909040000 +0000" stop="20260909042500 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260909042500 +0000" stop="20260909045000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260909045000 +0000" stop="20260909051500 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
+<programme start="20260909051500 +0000" stop="20260909054000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260909054000 +0000" stop="20260909060500 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260909060500 +0000" stop="20260909063000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260909063000 +0000" stop="20260909065500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260909065500 +0000" stop="20260909072000 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
+<programme start="20260909072000 +0000" stop="20260909074500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
+<programme start="20260909074500 +0000" stop="20260909081000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
+<programme start="20260909081000 +0000" stop="20260909093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260909093500 +0000" stop="20260909100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
+<programme start="20260909100000 +0000" stop="20260909102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
+<programme start="20260909102500 +0000" stop="20260909105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
+<programme start="20260909105000 +0000" stop="20260909111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
+<programme start="20260909111500 +0000" stop="20260909114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
+<programme start="20260909114000 +0000" stop="20260909120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
+<programme start="20260909120500 +0000" stop="20260909123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
+<programme start="20260909123000 +0000" stop="20260909125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
+<programme start="20260909125500 +0000" stop="20260909132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
+<programme start="20260909132000 +0000" stop="20260909134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
+<programme start="20260909134500 +0000" stop="20260909141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
+<programme start="20260909141500 +0000" stop="20260909144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
+<programme start="20260909144000 +0000" stop="20260909151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
+<programme start="20260909151000 +0000" stop="20260909153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
+<programme start="20260909153500 +0000" stop="20260909160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
+<programme start="20260909160000 +0000" stop="20260909162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
+<programme start="20260909162500 +0000" stop="20260909165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
+<programme start="20260909165000 +0000" stop="20260909171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
+<programme start="20260909171500 +0000" stop="20260909174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
+<programme start="20260909174000 +0000" stop="20260909180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
+<programme start="20260909180500 +0000" stop="20260909183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
+<programme start="20260909183000 +0000" stop="20260909185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
+<programme start="20260909185500 +0000" stop="20260909192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
+<programme start="20260909192000 +0000" stop="20260909194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
+<programme start="20260909194500 +0000" stop="20260909201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
+<programme start="20260909201000 +0000" stop="20260909203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
+<programme start="20260909203500 +0000" stop="20260909213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260909213500 +0000" stop="20260909220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260909220000 +0000" stop="20260909222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260909222500 +0000" stop="20260909225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
+<programme start="20260909225000 +0000" stop="20260909231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
+<programme start="20260909231500 +0000" stop="20260909234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
+<programme start="20260909234000 +0000" stop="20260910000500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
+<programme start="20260910000500 +0000" stop="20260910020500 +0000" channel="toon-disney"><title lang="en">Incredibles 2 (2018)</title></programme>
+<programme start="20260910020500 +0000" stop="20260910023000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260910023000 +0000" stop="20260910025000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260910025000 +0000" stop="20260910031500 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260910031500 +0000" stop="20260910034000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260910034000 +0000" stop="20260910040000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260910041500 +0000" stop="20260910044000 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260910044000 +0000" stop="20260910050500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260910050500 +0000" stop="20260910053000 +0000" channel="toon-disney"><title lang="en">Pucca</title></programme>
+<programme start="20260910053000 +0000" stop="20260910055500 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260910055500 +0000" stop="20260910062000 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260910062000 +0000" stop="20260910064500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260910064500 +0000" stop="20260910071000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260910071000 +0000" stop="20260910073500 +0000" channel="toon-disney"><title lang="en">Chaotic</title></programme>
+<programme start="20260910073500 +0000" stop="20260910080000 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
+<programme start="20260910080000 +0000" stop="20260910082500 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
+<programme start="20260910082500 +0000" stop="20260910093500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260910093500 +0000" stop="20260910100000 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
+<programme start="20260910100000 +0000" stop="20260910102500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
+<programme start="20260910102500 +0000" stop="20260910105000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
+<programme start="20260910105000 +0000" stop="20260910111500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
+<programme start="20260910111500 +0000" stop="20260910114000 +0000" channel="toon-disney"><title lang="en">Lilo &amp; Stitch: The Series</title></programme>
+<programme start="20260910114000 +0000" stop="20260910120500 +0000" channel="toon-disney"><title lang="en">The Emperor's New School</title></programme>
+<programme start="20260910120500 +0000" stop="20260910123000 +0000" channel="toon-disney"><title lang="en">The Replacements</title></programme>
+<programme start="20260910123000 +0000" stop="20260910125500 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
+<programme start="20260910125500 +0000" stop="20260910132000 +0000" channel="toon-disney"><title lang="en">Fish Hooks</title></programme>
+<programme start="20260910132000 +0000" stop="20260910134500 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
+<programme start="20260910134500 +0000" stop="20260910141500 +0000" channel="toon-disney"><title lang="en">Charlie Brown</title></programme>
+<programme start="20260910141500 +0000" stop="20260910144000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
+<programme start="20260910144000 +0000" stop="20260910151000 +0000" channel="toon-disney"><title lang="en">Shaun the Sheep</title></programme>
+<programme start="20260910151000 +0000" stop="20260910153500 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
+<programme start="20260910153500 +0000" stop="20260910160000 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
+<programme start="20260910160000 +0000" stop="20260910162500 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
+<programme start="20260910162500 +0000" stop="20260910165000 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
+<programme start="20260910165000 +0000" stop="20260910171500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
+<programme start="20260910171500 +0000" stop="20260910174000 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
+<programme start="20260910174000 +0000" stop="20260910180500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
+<programme start="20260910180500 +0000" stop="20260910183000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
+<programme start="20260910183000 +0000" stop="20260910185500 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
+<programme start="20260910185500 +0000" stop="20260910192000 +0000" channel="toon-disney"><title lang="en">Kim Possible</title></programme>
+<programme start="20260910192000 +0000" stop="20260910194500 +0000" channel="toon-disney"><title lang="en">American Dragon: Jake Long</title></programme>
+<programme start="20260910194500 +0000" stop="20260910201000 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
+<programme start="20260910201000 +0000" stop="20260910203500 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
+<programme start="20260910203500 +0000" stop="20260910213500 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260910213500 +0000" stop="20260910220000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260910220000 +0000" stop="20260910222500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260910222500 +0000" stop="20260910225000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
+<programme start="20260910225000 +0000" stop="20260910231500 +0000" channel="toon-disney"><title lang="en">The Proud Family</title></programme>
+<programme start="20260910231500 +0000" stop="20260910234000 +0000" channel="toon-disney"><title lang="en">Kick Buttowski</title></programme>
+<programme start="20260910234000 +0000" stop="20260911014500 +0000" channel="toon-disney"><title lang="en">Wander Over Yonder</title></programme>
+<programme start="20260911014500 +0000" stop="20260911021000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911021000 +0000" stop="20260911023500 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911023500 +0000" stop="20260911030000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911030000 +0000" stop="20260911032500 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911032500 +0000" stop="20260911035000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911035000 +0000" stop="20260911040000 +0000" channel="toon-disney"><title lang="en">W.I.T.C.H.</title></programme>
+<programme start="20260911045500 +0000" stop="20260911060000 +0000" channel="toon-disney"><title lang="en">Dumbo (1941)</title></programme>
+<programme start="20260911060000 +0000" stop="20260911072000 +0000" channel="toon-disney"><title lang="en">A Goofy Movie (1995)</title></programme>
+<programme start="20260911072000 +0000" stop="20260911100000 +0000" channel="toon-disney"><title lang="en">Magical World of Toons</title></programme>
+<programme start="20260911100000 +0000" stop="20260911102500 +0000" channel="toon-disney"><title lang="en">Dungeons &amp; Dragons</title></programme>
+<programme start="20260911102500 +0000" stop="20260911105000 +0000" channel="toon-disney"><title lang="en">Charlie Brown &amp; Snoopy</title></programme>
+<programme start="20260911105000 +0000" stop="20260911111500 +0000" channel="toon-disney"><title lang="en">The Raccoons</title></programme>
+<programme start="20260911111500 +0000" stop="20260911114000 +0000" channel="toon-disney"><title lang="en">DuckTales</title></programme>
+<programme start="20260911114000 +0000" stop="20260911120500 +0000" channel="toon-disney"><title lang="en">New Adventures of Winnie</title></programme>
+<programme start="20260911120500 +0000" stop="20260911123000 +0000" channel="toon-disney"><title lang="en">Garfield and Friends</title></programme>
+<programme start="20260911123000 +0000" stop="20260911125500 +0000" channel="toon-disney"><title lang="en">Chip 'n Dale Rescue Rangers</title></programme>
+<programme start="20260911125500 +0000" stop="20260911132000 +0000" channel="toon-disney"><title lang="en">TaleSpin</title></programme>
+<programme start="20260911132000 +0000" stop="20260911134500 +0000" channel="toon-disney"><title lang="en">Darkwing Duck</title></programme>
+<programme start="20260911134500 +0000" stop="20260911141000 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260911141000 +0000" stop="20260911143500 +0000" channel="toon-disney"><title lang="en">Goof Troop</title></programme>
+<programme start="20260911143500 +0000" stop="20260911150000 +0000" channel="toon-disney"><title lang="en">Eek! The Cat</title></programme>
+<programme start="20260911150000 +0000" stop="20260911152500 +0000" channel="toon-disney"><title lang="en">Bonkers</title></programme>
+<programme start="20260911152500 +0000" stop="20260911155000 +0000" channel="toon-disney"><title lang="en">Adventures of Sonic</title></programme>
+<programme start="20260911155000 +0000" stop="20260911161500 +0000" channel="toon-disney"><title lang="en">Aladdin: The Series</title></programme>
+<programme start="20260911161500 +0000" stop="20260911164000 +0000" channel="toon-disney"><title lang="en">Bump in the Night</title></programme>
+<programme start="20260911164000 +0000" stop="20260911170500 +0000" channel="toon-disney"><title lang="en">Gargoyles</title></programme>
+<programme start="20260911170500 +0000" stop="20260911173000 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260911173000 +0000" stop="20260911175500 +0000" channel="toon-disney"><title lang="en">Timon &amp; Pumbaa</title></programme>
+<programme start="20260911175500 +0000" stop="20260911182000 +0000" channel="toon-disney"><title lang="en">Quack Pack</title></programme>
+<programme start="20260911182000 +0000" stop="20260911184500 +0000" channel="toon-disney"><title lang="en">Disney's Doug</title></programme>
+<programme start="20260911184500 +0000" stop="20260911191000 +0000" channel="toon-disney"><title lang="en">The Mouse and the Monster</title></programme>
+<programme start="20260911191000 +0000" stop="20260911193500 +0000" channel="toon-disney"><title lang="en">Nightmare Ned</title></programme>
+<programme start="20260911193500 +0000" stop="20260911200000 +0000" channel="toon-disney"><title lang="en">Recess</title></programme>
+<programme start="20260911200000 +0000" stop="20260911202500 +0000" channel="toon-disney"><title lang="en">Pepper Ann</title></programme>
+<programme start="20260911202500 +0000" stop="20260911205000 +0000" channel="toon-disney"><title lang="en">Hercules: The Series</title></programme>
+<programme start="20260911205000 +0000" stop="20260911211500 +0000" channel="toon-disney"><title lang="en">Sabrina Animated</title></programme>
+<programme start="20260911211500 +0000" stop="20260911214000 +0000" channel="toon-disney"><title lang="en">The Weekenders</title></programme>
+<programme start="20260911214000 +0000" stop="20260911220500 +0000" channel="toon-disney"><title lang="en">Teacher's Pet</title></programme>
+<programme start="20260911220500 +0000" stop="20260911223000 +0000" channel="toon-disney"><title lang="en">Buzz Lightyear of Star Command</title></programme>
+<programme start="20260911223000 +0000" stop="20260911225500 +0000" channel="toon-disney"><title lang="en">Fillmore!</title></programme>
+<programme start="20260911225500 +0000" stop="20260911232000 +0000" channel="toon-disney"><title lang="en">Is This Goodbye, Charlie Brown?</title></programme>
+<programme start="20260911232000 +0000" stop="20260912004500 +0000" channel="toon-disney"><title lang="en">Toy Story (1995)</title></programme>
+<programme start="20260912004500 +0000" stop="20260912040000 +0000" channel="toon-disney"><title lang="en">Toy Story 2 (1999)</title></programme>
+<programme start="20260912040100 +0000" stop="20260912042500 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260912042500 +0000" stop="20260912045000 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260912045000 +0000" stop="20260912051500 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260912051500 +0000" stop="20260912054000 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
+<programme start="20260912054000 +0000" stop="20260912060500 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260912060500 +0000" stop="20260912063000 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
+<programme start="20260912063000 +0000" stop="20260912065500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260912065500 +0000" stop="20260912072000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260912072000 +0000" stop="20260912074500 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260912074500 +0000" stop="20260912091000 +0000" channel="toon-disney"><title lang="en">Late Night Mix</title></programme>
+<programme start="20260912091000 +0000" stop="20260912093500 +0000" channel="toon-disney"><title lang="en">Radio Free Roscoe</title></programme>
+<programme start="20260912093500 +0000" stop="20260912100000 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
+<programme start="20260912100000 +0000" stop="20260912102500 +0000" channel="toon-disney"><title lang="en">The Adventures of Pete &amp; Pete</title></programme>
+<programme start="20260912102500 +0000" stop="20260912105000 +0000" channel="toon-disney"><title lang="en">Bill Nye The Science Guy</title></programme>
+<programme start="20260912105000 +0000" stop="20260912111500 +0000" channel="toon-disney"><title lang="en">Bill Nye The Science Guy</title></programme>
+<programme start="20260912111500 +0000" stop="20260912114000 +0000" channel="toon-disney"><title lang="en">Courage The Cowardly Dog</title></programme>
+<programme start="20260912114000 +0000" stop="20260912120500 +0000" channel="toon-disney"><title lang="en">Courage The Cowardly Dog</title></programme>
+<programme start="20260912120500 +0000" stop="20260912123000 +0000" channel="toon-disney"><title lang="en">Dexter's Laboratory</title></programme>
+<programme start="20260912123000 +0000" stop="20260912125500 +0000" channel="toon-disney"><title lang="en">Dexter's Laboratory</title></programme>
+<programme start="20260912125500 +0000" stop="20260912132000 +0000" channel="toon-disney"><title lang="en">Goosebumps</title></programme>
+<programme start="20260912132000 +0000" stop="20260912134500 +0000" channel="toon-disney"><title lang="en">Goosebumps</title></programme>
+<programme start="20260912134500 +0000" stop="20260912141000 +0000" channel="toon-disney"><title lang="en">KaBlam!</title></programme>
+<programme start="20260912141000 +0000" stop="20260912143500 +0000" channel="toon-disney"><title lang="en">KaBlam!</title></programme>
+<programme start="20260912143500 +0000" stop="20260912150000 +0000" channel="toon-disney"><title lang="en">Mighty Mouse '87</title></programme>
+<programme start="20260912150000 +0000" stop="20260912152500 +0000" channel="toon-disney"><title lang="en">Nickelodeon GUTS</title></programme>
+<programme start="20260912152500 +0000" stop="20260912155000 +0000" channel="toon-disney"><title lang="en">Nickelodeon GUTS</title></programme>
+<programme start="20260912155000 +0000" stop="20260912161500 +0000" channel="toon-disney"><title lang="en">Pee-Wee's Playhouse</title></programme>
+<programme start="20260912161500 +0000" stop="20260912164000 +0000" channel="toon-disney"><title lang="en">The Ren &amp; Stimpy Show</title></programme>
+<programme start="20260912164000 +0000" stop="20260912170500 +0000" channel="toon-disney"><title lang="en">Rocko’s Modern Life</title></programme>
+<programme start="20260912170500 +0000" stop="20260912173000 +0000" channel="toon-disney"><title lang="en">Saved by the Bell</title></programme>
+<programme start="20260912173000 +0000" stop="20260912175500 +0000" channel="toon-disney"><title lang="en">Saved by the Bell</title></programme>
+<programme start="20260912175500 +0000" stop="20260912182000 +0000" channel="toon-disney"><title lang="en">Space Goofs</title></programme>
+<programme start="20260912182000 +0000" stop="20260912184500 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
+<programme start="20260912184500 +0000" stop="20260912191000 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
+<programme start="20260912191000 +0000" stop="20260912193500 +0000" channel="toon-disney"><title lang="en">The Weird Al Show</title></programme>
+<programme start="20260912193500 +0000" stop="20260912200000 +0000" channel="toon-disney"><title lang="en">Boy Meets World</title></programme>
+<programme start="20260912200000 +0000" stop="20260912202500 +0000" channel="toon-disney"><title lang="en">Boy Meets World</title></programme>
+<programme start="20260912202500 +0000" stop="20260912205000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
+<programme start="20260912205000 +0000" stop="20260912211500 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
+<programme start="20260912211500 +0000" stop="20260912214000 +0000" channel="toon-disney"><title lang="en">Eerie, Indiana</title></programme>
+<programme start="20260912214000 +0000" stop="20260912220500 +0000" channel="toon-disney"><title lang="en">The Grim Adv. of Billy &amp; Mandy</title></programme>
+<programme start="20260912220500 +0000" stop="20260912223000 +0000" channel="toon-disney"><title lang="en">The Grim Adv. of Billy &amp; Mandy</title></programme>
+<programme start="20260912223000 +0000" stop="20260912225500 +0000" channel="toon-disney"><title lang="en">Ned's Declassified</title></programme>
+<programme start="20260912225500 +0000" stop="20260912232000 +0000" channel="toon-disney"><title lang="en">Sabrina the Teenage Witch</title></programme>
+<programme start="20260912232000 +0000" stop="20260912234500 +0000" channel="toon-disney"><title lang="en">Sabrina the Teenage Witch</title></programme>
+<programme start="20260912234500 +0000" stop="20260913001000 +0000" channel="toon-disney"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260913001000 +0000" stop="20260913003500 +0000" channel="toon-disney"><title lang="en">SpongeBob SquarePants</title></programme>
+<programme start="20260913003500 +0000" stop="20260913010000 +0000" channel="toon-disney"><title lang="en">Teen Titans</title></programme>
+<programme start="20260913010000 +0000" stop="20260913012500 +0000" channel="toon-disney"><title lang="en">Teen Titans</title></programme>
+<programme start="20260913012500 +0000" stop="20260913015000 +0000" channel="toon-disney"><title lang="en">Totally Spies!</title></programme>
+<programme start="20260913015000 +0000" stop="20260913040000 +0000" channel="toon-disney"><title lang="en">Totally Spies!</title></programme>
+<programme start="20260913040500 +0000" stop="20260913043000 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260913043000 +0000" stop="20260913045500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260913045500 +0000" stop="20260913052000 +0000" channel="toon-disney"><title lang="en">X-Men</title></programme>
+<programme start="20260913052000 +0000" stop="20260913054500 +0000" channel="toon-disney"><title lang="en">Superman Animated</title></programme>
+<programme start="20260913054500 +0000" stop="20260913061000 +0000" channel="toon-disney"><title lang="en">Spider-Man</title></programme>
+<programme start="20260913061000 +0000" stop="20260913063500 +0000" channel="toon-disney"><title lang="en">SRMTHFG!</title></programme>
+<programme start="20260913063500 +0000" stop="20260913070000 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260913070000 +0000" stop="20260913072500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260913072500 +0000" stop="20260913075000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260913075000 +0000" stop="20260913091000 +0000" channel="toon-disney"><title lang="en">Late Night Mix</title></programme>
+<programme start="20260913091000 +0000" stop="20260913093500 +0000" channel="toon-disney"><title lang="en">Radio Free Roscoe</title></programme>
+<programme start="20260913093500 +0000" stop="20260913100000 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
+<programme start="20260913100000 +0000" stop="20260913102500 +0000" channel="toon-disney"><title lang="en">Shin-Chan</title></programme>
+<programme start="20260913102500 +0000" stop="20260913105000 +0000" channel="toon-disney"><title lang="en">Bill Nye The Science Guy</title></programme>
+<programme start="20260913105000 +0000" stop="20260913111500 +0000" channel="toon-disney"><title lang="en">Saved by the Bell</title></programme>
+<programme start="20260913111500 +0000" stop="20260913114000 +0000" channel="toon-disney"><title lang="en">Brandy &amp; Mr. Whiskers</title></programme>
+<programme start="20260913114000 +0000" stop="20260913120500 +0000" channel="toon-disney"><title lang="en">Eerie, Indiana: Other</title></programme>
+<programme start="20260913120500 +0000" stop="20260913123000 +0000" channel="toon-disney"><title lang="en">Phineas and Ferb</title></programme>
+<programme start="20260913123000 +0000" stop="20260913125500 +0000" channel="toon-disney"><title lang="en">Dude, What Would Happen</title></programme>
+<programme start="20260913125500 +0000" stop="20260913132000 +0000" channel="toon-disney"><title lang="en">Dude, What Would Happen</title></programme>
+<programme start="20260913132000 +0000" stop="20260913134500 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260913134500 +0000" stop="20260913141000 +0000" channel="toon-disney"><title lang="en">The Tick</title></programme>
+<programme start="20260913141000 +0000" stop="20260913143000 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260913143000 +0000" stop="20260913150000 +0000" channel="toon-disney"><title lang="en">Digimon</title></programme>
+<programme start="20260913150000 +0000" stop="20260913152500 +0000" channel="toon-disney"><title lang="en">The Ripping Friends</title></programme>
+<programme start="20260913152500 +0000" stop="20260913155000 +0000" channel="toon-disney"><title lang="en">Time Squad</title></programme>
+<programme start="20260913155000 +0000" stop="20260913161500 +0000" channel="toon-disney"><title lang="en">Time Squad</title></programme>
+<programme start="20260913161500 +0000" stop="20260913164000 +0000" channel="toon-disney"><title lang="en">Nickelodeon GUTS</title></programme>
+<programme start="20260913164000 +0000" stop="20260913170500 +0000" channel="toon-disney"><title lang="en">Cartoon Planet</title></programme>
+<programme start="20260913170500 +0000" stop="20260913173000 +0000" channel="toon-disney"><title lang="en">The Amanda Show</title></programme>
+<programme start="20260913173000 +0000" stop="20260913175500 +0000" channel="toon-disney"><title lang="en">The Amanda Show</title></programme>
+<programme start="20260913175500 +0000" stop="20260913182000 +0000" channel="toon-disney"><title lang="en">Secret World of Alex Mack</title></programme>
+<programme start="20260913182000 +0000" stop="20260913185000 +0000" channel="toon-disney"><title lang="en">So Weird</title></programme>
+<programme start="20260913185000 +0000" stop="20260913191500 +0000" channel="toon-disney"><title lang="en">Totally Spies!</title></programme>
+<programme start="20260913191500 +0000" stop="20260913194000 +0000" channel="toon-disney"><title lang="en">Ōban Star-Racers</title></programme>
+<programme start="20260913194000 +0000" stop="20260913200500 +0000" channel="toon-disney"><title lang="en">Sabrina the Teenage Witch</title></programme>
+<programme start="20260913200500 +0000" stop="20260913203000 +0000" channel="toon-disney"><title lang="en">Sabrina the Teenage Witch</title></programme>
+<programme start="20260913203000 +0000" stop="20260913205500 +0000" channel="toon-disney"><title lang="en">Goosebumps</title></programme>
+<programme start="20260913205500 +0000" stop="20260913212000 +0000" channel="toon-disney"><title lang="en">Dave the Barbarian</title></programme>
+<programme start="20260913212000 +0000" stop="20260913214500 +0000" channel="toon-disney"><title lang="en">Invader Zim</title></programme>
+<programme start="20260913214500 +0000" stop="20260913221000 +0000" channel="toon-disney"><title lang="en">Invader Zim</title></programme>
+<programme start="20260913221000 +0000" stop="20260913223500 +0000" channel="toon-disney"><title lang="en">Dexter's Laboratory</title></programme>
+<programme start="20260913223500 +0000" stop="20260913230000 +0000" channel="toon-disney"><title lang="en">Boy Meets World</title></programme>
+<programme start="20260913230000 +0000" stop="20260913232500 +0000" channel="toon-disney"><title lang="en">Boy Meets World</title></programme>
+<programme start="20260913232500 +0000" stop="20260913235000 +0000" channel="toon-disney"><title lang="en">Teen Titans</title></programme>
+<programme start="20260913235000 +0000" stop="20260914013500 +0000" channel="toon-disney"><title lang="en">The Sandlot (1993)</title></programme>
+<programme start="20260914013500 +0000" stop="20260914020000 +0000" channel="toon-disney"><title lang="en">The Ren &amp; Stimpy Show</title></programme>
+<programme start="20260914020000 +0000" stop="20260914022500 +0000" channel="toon-disney"><title lang="en">Courage The Cowardly Dog</title></programme>
+<programme start="20260914022500 +0000" stop="20260914025000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
+<programme start="20260914025000 +0000" stop="20260914031500 +0000" channel="toon-disney"><title lang="en">Rocko’s Modern Life</title></programme>
+<programme start="20260914031500 +0000" stop="20260914034000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
+<programme start="20260914034000 +0000" stop="20260914040000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
 </tv>
