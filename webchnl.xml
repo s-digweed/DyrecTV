@@ -2,6 +2,7 @@
 <tv generator-info-name="webchnl-grabber">
 <channel id="eel-channel"><display-name>Eel Channel</display-name><icon src="https://i.imgur.com/YBZUFXs.png" /></channel>
 <channel id="toon-disney"><display-name>Toon Disney</display-name><icon src="https://i.imgur.com/SVE5ykU.png" /></channel>
+
 <programme start="20260907041000 +0000" stop="20260907044000 +0000" channel="eel-channel"><title lang="en">Beavis and Butt-Head</title></programme>
 <programme start="20260907044000 +0000" stop="20260907051000 +0000" channel="eel-channel"><title lang="en">Aqua Teen Hunger Force</title></programme>
 <programme start="20260907051000 +0000" stop="20260907053500 +0000" channel="eel-channel"><title lang="en">Neon Genesis Evangelion</title></programme>
@@ -672,18 +673,17 @@
 <programme start="20260913230000 +0000" stop="20260913232500 +0000" channel="toon-disney"><title lang="en">Boy Meets World</title></programme>
 <programme start="20260913232500 +0000" stop="20260913235000 +0000" channel="toon-disney"><title lang="en">Teen Titans</title></programme>
 <programme start="20260913235000 +0000" stop="20260914013500 +0000" channel="toon-disney"><title lang="en">The Sandlot (1993)</title></programme>
-<programme start="20260914013500 +0000" stop="20260914020000 +0000" channel="toon-disney"><title lang="en">The Ren &amp; Stimpy Show</title></programme>
-<programme start="20260914013500 +0000" stop="20260914020000 +0000" channel="toon-disney"><title lang="en">The Ren &amp; Stimpy Show</title></programme>
-<programme start="20260914020000 +0000" stop="20260914022500 +0000" channel="toon-disney"><title lang="en">Courage The Cowardly Dog</title></programme>
-<programme start="20260914020000 +0000" stop="20260914022500 +0000" channel="toon-disney"><title lang="en">Courage The Cowardly Dog</title></programme>
-<programme start="20260914022500 +0000" stop="20260914025000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
-<programme start="20260914022500 +0000" stop="20260914025000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
-<programme start="20260914025000 +0000" stop="20260914031500 +0000" channel="toon-disney"><title lang="en">Rocko’s Modern Life</title></programme>
-<programme start="20260914025000 +0000" stop="20260914031500 +0000" channel="toon-disney"><title lang="en">Rocko’s Modern Life</title></programme>
-<programme start="20260914031500 +0000" stop="20260914034000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
-<programme start="20260914031500 +0000" stop="20260914034000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
-<programme start="20260914034000 +0000" stop="20260914040000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
-<programme start="20260914034000 +0000" stop="20260914040000 +0000" channel="toon-disney"><title lang="en">Ed, Edd n Eddy</title></programme>
+<programme start="20260914040500 +0000" stop="20260914043000 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
+<programme start="20260914043000 +0000" stop="20260914045500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
+<programme start="20260914045500 +0000" stop="20260914052000 +0000" channel="toon-disney"><title lang="en">X-Men: The Animated Series</title></programme>
+<programme start="20260914052000 +0000" stop="20260914054500 +0000" channel="toon-disney"><title lang="en">Superman: The Animated Series</title></programme>
+<programme start="20260914054500 +0000" stop="20260914061000 +0000" channel="toon-disney"><title lang="en">Spider-Man: The Animated Series</title></programme>
+<programme start="20260914061000 +0000" stop="20260914063500 +0000" channel="toon-disney"><title lang="en">Super Robot Monkey Team Hyperforce Go!</title></programme>
+<programme start="20260914063500 +0000" stop="20260914072500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
+<programme start="20260914072500 +0000" stop="20260914075000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
+<programme start="20260914075000 +0000" stop="20260914091000 +0000" channel="toon-disney"><title lang="en">Late Night Mix</title><desc lang="en">some more Looney Tunes, MGM, Walter Lantz, Zagreb Film, Music Videos</desc></programme>
+<programme start="20260914091000 +0000" stop="20260914093500 +0000" channel="toon-disney"><title lang="en">Radio Free Roscoe</title></programme>
+<programme start="20260914093500 +0000" stop="20260914100000 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
 <programme start="20260914100000 +0000" stop="20260914102500 +0000" channel="toon-disney"><title lang="en">Pee-Wee's Playhouse</title></programme>
 <programme start="20260914102500 +0000" stop="20260914105000 +0000" channel="toon-disney"><title lang="en">Bill Nye The Science Guy</title></programme>
 <programme start="20260914105000 +0000" stop="20260914111500 +0000" channel="toon-disney"><title lang="en">Saved by the Bell</title></programme>
@@ -984,15 +984,4 @@
 <programme start="20260920232000 +0000" stop="20260920234500 +0000" channel="toon-disney"><title lang="en">Teen Titans</title></programme>
 <programme start="20260920234500 +0000" stop="20260921013500 +0000" channel="toon-disney"><title lang="en">Sunday Night Movie</title></programme>
 <programme start="20260921013500 +0000" stop="20260921040500 +0000" channel="toon-disney"><title lang="en">Primetime Shuffle</title><desc lang="en">Ren, Rocko, Eds, Courage</desc></programme>
-<programme start="20260921040500 +0000" stop="20260921043000 +0000" channel="toon-disney"><title lang="en">Batman: The Animated Series</title></programme>
-<programme start="20260921043000 +0000" stop="20260921045500 +0000" channel="toon-disney"><title lang="en">Jackie Chan Adventures</title></programme>
-<programme start="20260921045500 +0000" stop="20260921052000 +0000" channel="toon-disney"><title lang="en">X-Men: The Animated Series</title></programme>
-<programme start="20260921052000 +0000" stop="20260921054500 +0000" channel="toon-disney"><title lang="en">Superman: The Animated Series</title></programme>
-<programme start="20260921054500 +0000" stop="20260921061000 +0000" channel="toon-disney"><title lang="en">Spider-Man: The Animated Series</title></programme>
-<programme start="20260921061000 +0000" stop="20260921063500 +0000" channel="toon-disney"><title lang="en">Super Robot Monkey Team Hyperforce Go!</title></programme>
-<programme start="20260921063500 +0000" stop="20260921072500 +0000" channel="toon-disney"><title lang="en">Beyblade</title></programme>
-<programme start="20260921072500 +0000" stop="20260921075000 +0000" channel="toon-disney"><title lang="en">Storm Hawks</title></programme>
-<programme start="20260921075000 +0000" stop="20260921091000 +0000" channel="toon-disney"><title lang="en">Late Night Mix</title><desc lang="en">some more Looney Tunes, MGM, Walter Lantz, Zagreb Film, Music Videos</desc></programme>
-<programme start="20260921091000 +0000" stop="20260921093500 +0000" channel="toon-disney"><title lang="en">Radio Free Roscoe</title></programme>
-<programme start="20260921093500 +0000" stop="20260921100000 +0000" channel="toon-disney"><title lang="en">Starcade</title></programme>
 </tv>
