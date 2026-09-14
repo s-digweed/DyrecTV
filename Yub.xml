@@ -1,594 +1,592 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="chnl.xml">
   <channel id="yub">
     <display-name>Yub Network</display-name>
   </channel>
-
   <programme start="20260901060000 -0400" stop="20260901120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260901120000 -0400" stop="20260901180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260901180000 -0400" stop="20260902000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260902000000 -0400" stop="20260902060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260902060000 -0400" stop="20260902120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260902120000 -0400" stop="20260902180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260902180000 -0400" stop="20260903000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260903000000 -0400" stop="20260903060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260903060000 -0400" stop="20260903120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260903120000 -0400" stop="20260903180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260903180000 -0400" stop="20260904000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260904000000 -0400" stop="20260904060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260904060000 -0400" stop="20260904120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260904120000 -0400" stop="20260904180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260904180000 -0400" stop="20260905000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260905000000 -0400" stop="20260905060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260905060000 -0400" stop="20260905120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260905120000 -0400" stop="20260905180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260905180000 -0400" stop="20260906000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260906000000 -0400" stop="20260906060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260906060000 -0400" stop="20260906120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260906120000 -0400" stop="20260906180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260906180000 -0400" stop="20260907000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260907000000 -0400" stop="20260907060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260907060000 -0400" stop="20260907120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260907120000 -0400" stop="20260907180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260907180000 -0400" stop="20260908000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260908000000 -0400" stop="20260908060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260908060000 -0400" stop="20260908120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260908120000 -0400" stop="20260908180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260908180000 -0400" stop="20260909000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260909000000 -0400" stop="20260909060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260909060000 -0400" stop="20260909120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260909120000 -0400" stop="20260909180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260909180000 -0400" stop="20260910000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260910000000 -0400" stop="20260910060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260910060000 -0400" stop="20260910120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260910120000 -0400" stop="20260910180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260910180000 -0400" stop="20260911000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260911000000 -0400" stop="20260911060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260911060000 -0400" stop="20260911120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260911120000 -0400" stop="20260911180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260911180000 -0400" stop="20260912000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260912000000 -0400" stop="20260912060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260912060000 -0400" stop="20260912120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260912120000 -0400" stop="20260912180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260912180000 -0400" stop="20260913000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260913000000 -0400" stop="20260913060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260913060000 -0400" stop="20260913120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260913120000 -0400" stop="20260913180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260913180000 -0400" stop="20260914000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260914000000 -0400" stop="20260914060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260914060000 -0400" stop="20260914120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260914120000 -0400" stop="20260914180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260914180000 -0400" stop="20260915000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260915000000 -0400" stop="20260915060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260915060000 -0400" stop="20260915120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260915120000 -0400" stop="20260915180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260915180000 -0400" stop="20260916000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260916000000 -0400" stop="20260916060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260916060000 -0400" stop="20260916120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260916120000 -0400" stop="20260916180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260916180000 -0400" stop="20260917000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260917000000 -0400" stop="20260917060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260917060000 -0400" stop="20260917120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260917120000 -0400" stop="20260917180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260917180000 -0400" stop="20260918000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260918000000 -0400" stop="20260918060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260918060000 -0400" stop="20260918120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260918120000 -0400" stop="20260918180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260918180000 -0400" stop="20260919000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260919000000 -0400" stop="20260919060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260919060000 -0400" stop="20260919120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260919120000 -0400" stop="20260919180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260919180000 -0400" stop="20260920000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260920000000 -0400" stop="20260920060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260920060000 -0400" stop="20260920120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260920120000 -0400" stop="20260920180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260920180000 -0400" stop="20260921000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260921000000 -0400" stop="20260921060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260921060000 -0400" stop="20260921120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260921120000 -0400" stop="20260921180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260921180000 -0400" stop="20260922000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260922000000 -0400" stop="20260922060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260922060000 -0400" stop="20260922120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260922120000 -0400" stop="20260922180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260922180000 -0400" stop="20260923000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260923000000 -0400" stop="20260923060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260923060000 -0400" stop="20260923120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260923120000 -0400" stop="20260923180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260923180000 -0400" stop="20260924000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260924000000 -0400" stop="20260924060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260924060000 -0400" stop="20260924120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260924120000 -0400" stop="20260924180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260924180000 -0400" stop="20260925000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260925000000 -0400" stop="20260925060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260925060000 -0400" stop="20260925120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260925120000 -0400" stop="20260925180000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260925180000 -0400" stop="20260926000000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260926000000 -0400" stop="20260926060000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260926060000 -0400" stop="20260926120000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260926120000 -0400" stop="20260926143000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260926143000 -0400" stop="20260926150000 -0400" channel="yub">
     <title lang="en">Wander Over Yonder</title>
     <sub-title lang="en">The Picnic / The Fugitives</sub-title>
-    <desc lang="en">Wander discovers the perfect spot for his celestial picnic - right next to Lord Hater&apos;s epic battlefield, making it extremely difficult for Hater to focus on his battle against archenemy Emperor Awesome for ultimate cosmic power. / Wander and Sylvia are trying to escape from Lord Hater&apos;s minions and get off the planet but Sylvia&apos;s plans can&apos;t overcome Wander&apos;s need to help others.</desc>
+    <desc lang="en">Wander discovers the perfect spot for his celestial picnic - right next to Lord Hater's epic battlefield, making it extremely difficult for Hater to focus on his battle against archenemy Emperor Awesome for ultimate cosmic power. / Wander and Sylvia are trying to escape from Lord Hater's minions and get off the planet but Sylvia's plans can't overcome Wander's need to help others.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
-	<rating>
+    <rating>
       <value>TV-Y7</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Family</category>
-	<category lang="en">Sci-Fi &amp; Fantasy</category>
-	<icon src="https://image.tmdb.org/t/p/original/ow88KmFUXMb6S4EKOWyTBy8ta7O.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <icon src="https://image.tmdb.org/t/p/original/ow88KmFUXMb6S4EKOWyTBy8ta7O.jpg" />
   </programme>
   <programme start="20260926150000 -0400" stop="20260926153000 -0400" channel="yub">
     <title lang="en">T.U.F.F. Puppy</title>
-    <sub-title lang="en">Cruisin&apos; for a Bruisin / Puppy Love</sub-title>
+    <sub-title lang="en">Cruisin' for a Bruisin / Puppy Love</sub-title>
     <desc lang="en">In the fictional city of Petropolis dog Dudley Puppy works as a spy for the organization T.U.F.F. (Turbo Undercover Fighting Force). Together with his partner, a cat named Kitty Katswell, Dudley works to protect Petropolis.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
-	<rating>
+    <rating>
       <value>TV-Y7</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Action &amp; Adventure</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Sci-Fi &amp; Fantasy</category>
-	<category lang="en">Kids</category>
-	<icon src="https://image.tmdb.org/t/p/original/xbdcQOCVMkfWTpopwoyjsjwpk6J.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Action &amp; Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <category lang="en">Kids</category>
+    <icon src="https://image.tmdb.org/t/p/original/xbdcQOCVMkfWTpopwoyjsjwpk6J.jpg" />
   </programme>
   <programme start="20260926153000 -0400" stop="20260926160000 -0400" channel="yub">
     <title lang="en">My Little Pony: Friendship Is Magic</title>
     <sub-title lang="en">Look Before You Sleep</sub-title>
-    <desc lang="en">When a thunderstorm forces Applejack and Rarity to seek shelter in her library, they&apos;re invited by Twilight Sparkle to have a slumber party. However, their clashing personalities and preferences may make it difficult for them to get along.</desc>
+    <desc lang="en">When a thunderstorm forces Applejack and Rarity to seek shelter in her library, they're invited by Twilight Sparkle to have a slumber party. However, their clashing personalities and preferences may make it difficult for them to get along.</desc>
     <episode-num system="xmltv_ns">0.7.</episode-num>
-	<rating>
+    <rating>
       <value>TV-Y</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Sci-Fi &amp; Fantasy</category>
-	<category lang="en">Kids</category>
-	<icon src="https://image.tmdb.org/t/p/original/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <category lang="en">Kids</category>
+    <icon src="https://image.tmdb.org/t/p/original/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg" />
   </programme>
   <programme start="20260926160000 -0400" stop="20260926163000 -0400" channel="yub">
     <title lang="en">Kid vs. Kat</title>
     <sub-title lang="en">Trespassers Will Be Persecuted / Me-Oh-Me-Oh Meow</sub-title>
-    <desc lang="en">Old Lady Munson lays down the law; Coop is not to set foot into her yard, but Kat makes sure he crosses the line again, again and again. / After meowing too much, Kat is forced to wear a special collar, but in the end Kat straps the collar onto Coop&apos;s foot.</desc>
+    <desc lang="en">Old Lady Munson lays down the law; Coop is not to set foot into her yard, but Kat makes sure he crosses the line again, again and again. / After meowing too much, Kat is forced to wear a special collar, but in the end Kat straps the collar onto Coop's foot.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
-	<rating>
+    <rating>
       <value>TV-Y7</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Action &amp; Adventure</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Sci-Fi &amp; Fantasy</category>
-	<category lang="en">Family</category>
-	<category lang="en">Kids</category>
-	<icon src="https://image.tmdb.org/t/p/original/gZoKC6Ltlia89f5Nrj4Or5duXPy.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Action &amp; Adventure</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Kids</category>
+    <icon src="https://image.tmdb.org/t/p/original/gZoKC6Ltlia89f5Nrj4Or5duXPy.jpg" />
   </programme>
   <programme start="20260926163000 -0400" stop="20260926170000 -0400" channel="yub">
     <title lang="en">The Aquabats! Super Show!</title>
     <sub-title lang="en">ManAnt!</sub-title>
-    <desc lang="en">While investigating a series of bizarre attacks on fast food restaurants, Crash is captured by the maniacal Manant, a half-man, half-ant creature that he had a genie create for him when he was a kid. Siphoning Crash&apos;s growth power to enlarge himself to human-size, Manant intends to use the extracted growth juice to create an army of giant ants to take over the world. Part One of the animated Aquabats have them crash landing on the moon and encounter space bees with Bat Commander being captured by Mooncheese, the pirate of the moon.</desc>
+    <desc lang="en">While investigating a series of bizarre attacks on fast food restaurants, Crash is captured by the maniacal Manant, a half-man, half-ant creature that he had a genie create for him when he was a kid. Siphoning Crash's growth power to enlarge himself to human-size, Manant intends to use the extracted growth juice to create an army of giant ants to take over the world. Part One of the animated Aquabats have them crash landing on the moon and encounter space bees with Bat Commander being captured by Mooncheese, the pirate of the moon.</desc>
     <episode-num system="xmltv_ns">0.0.</episode-num>
-	<rating>
+    <rating>
       <value>TV-PG</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Action &amp; Adventure</category>
-	<category lang="en">Family</category>
-	<icon src="https://image.tmdb.org/t/p/original/5y5POywoIkYw87Z41QH4TKpbdTB.jpg"/>
-	<new />
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Action &amp; Adventure</category>
+    <category lang="en">Family</category>
+    <icon src="https://image.tmdb.org/t/p/original/5y5POywoIkYw87Z41QH4TKpbdTB.jpg" />
+    <new />
   </programme>
   <programme start="20260926170000 -0400" stop="20260926173000 -0400" channel="yub">
     <title lang="en">Dan Vs.</title>
     <sub-title lang="en">The Lemonade Stand Gang</sub-title>
     <desc lang="en">Dan starts a crusade against a gang of thuggish children who are aggressively selling lemonade outside his apartment building.</desc>
     <episode-num system="xmltv_ns">0.21.</episode-num>
-	<rating>
+    <rating>
       <value>TV-PG</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Family</category>
-	<icon src="https://image.tmdb.org/t/p/original/wdoklBmmKaP8LtlBWvtDeihlLlD.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <icon src="https://image.tmdb.org/t/p/original/wdoklBmmKaP8LtlBWvtDeihlLlD.jpg" />
   </programme>
   <programme start="20260926173000 -0400" stop="20260926180000 -0400" channel="yub">
     <title lang="en">Transformers: Prime</title>
     <sub-title lang="en">Masters &amp; Students</sub-title>
     <desc lang="en">Starscream pursues other interests while Skyquake battles with Optimus Prime and Bumblebee.</desc>
     <episode-num system="xmltv_ns">0.5.</episode-num>
-	<rating>
+    <rating>
       <value>TV-Y7-FV</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Action &amp; Adventure</category>
-	<category lang="en">Kids</category>
-	<icon src="https://image.tmdb.org/t/p/original/ilOKsGRHYc78R2tSMusAd3xGJWq.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Action &amp; Adventure</category>
+    <category lang="en">Kids</category>
+    <icon src="https://image.tmdb.org/t/p/original/ilOKsGRHYc78R2tSMusAd3xGJWq.jpg" />
   </programme>
   <programme start="20260926180000 -0400" stop="20260926183000 -0400" channel="yub">
     <title lang="en">Hole in the Wall</title>
     <sub-title lang="en">The Super Supers vs Buff and Bro</sub-title>
-    <desc lang="en">Hole in the Wall, hosted by Teck Holmes is a &quot;twisted&quot; half-hour game show featuring two teams of families in competition as they face down a series of moving walls with ever-changing cut-out shapes. In Hole in the Wall, contortion is key as competitors must position their bodies in any way possible to clear the walls and avoid being thrust into a pool of water - all before a live-audience. As they successfully face down each wall, the patterns become more and more challenging. Who will be the last family standing to take home the coveted Hole in the Wall trophy and get the opportunity to conquer the nearly impossible &quot;Impossiwall?&quot;</desc>
+    <desc lang="en">Hole in the Wall, hosted by Teck Holmes is a "twisted" half-hour game show featuring two teams of families in competition as they face down a series of moving walls with ever-changing cut-out shapes. In Hole in the Wall, contortion is key as competitors must position their bodies in any way possible to clear the walls and avoid being thrust into a pool of water - all before a live-audience. As they successfully face down each wall, the patterns become more and more challenging. Who will be the last family standing to take home the coveted Hole in the Wall trophy and get the opportunity to conquer the nearly impossible "Impossiwall?"</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
-	<rating>
+    <rating>
       <value>TV-G</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Game Show</category>
-	<category lang="en">Family</category>
-	<icon src="https://image.tmdb.org/t/p/original/131PIUXpGpO599OpMbHf1heO0AO.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Game Show</category>
+    <category lang="en">Family</category>
+    <icon src="https://image.tmdb.org/t/p/original/131PIUXpGpO599OpMbHf1heO0AO.jpg" />
   </programme>
   <programme start="20260926183000 -0400" stop="20260926184500 -0400" channel="yub">
     <title lang="en">MAD</title>
-    <sub-title lang="en">Wall-E-Nator, Extreme Renovation: House Edition, Superman&apos;s Fortress of Solitude</sub-title>
+    <sub-title lang="en">Wall-E-Nator, Extreme Renovation: House Edition, Superman's Fortress of Solitude</sub-title>
     <desc lang="en">Parodies include WALL-E-NATOR (a crossover between Wall-E and The Terminator) and Extreme Renovation: House Edition (a crossover between Extreme Makeover: Home Edition and Superman).</desc>
     <episode-num system="xmltv_ns">0.4.</episode-num>
-	<rating>
+    <rating>
       <value>TV-PG</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<icon src="https://image.tmdb.org/t/p/original/jBRPgrwXGDAN0RCx1jkjbybOu0K.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://image.tmdb.org/t/p/original/jBRPgrwXGDAN0RCx1jkjbybOu0K.jpg" />
   </programme>
   <programme start="20260926184500 -0400" stop="20260926190000 -0400" channel="yub">
     <title lang="en">MAD</title>
     <sub-title lang="en">Snott Pilgrim vs The Wonderful World of Disney, Malcolm in the Middle Earth</sub-title>
     <desc lang="en">Snott Pilgrim has the perfect life, except that his girlfriend Snow White has seven tiny exes. Then, it's just a couple of hobbits trying to make it in this crazy middle world.</desc>
     <episode-num system="xmltv_ns">0.12.</episode-num>
-	<rating>
+    <rating>
       <value>TV-PG</value>
-	</rating>
-	<category lang="en">Series</category>
-	<category lang="en">Animation</category>
-	<category lang="en">Comedy</category>
-	<icon src="https://image.tmdb.org/t/p/original/jBRPgrwXGDAN0RCx1jkjbybOu0K.jpg"/>
+    </rating>
+    <category lang="en">Series</category>
+    <category lang="en">Animation</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://image.tmdb.org/t/p/original/jBRPgrwXGDAN0RCx1jkjbybOu0K.jpg" />
   </programme>
   <programme start="20260926190000 -0400" stop="20260926210000 -0400" channel="yub">
     <title lang="en">Elio (2025)</title>
     <desc lang="en">Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.</desc>
-	<rating>
+    <rating>
       <value>TV-PG</value>
-	</rating>
-	<category lang="en">Animation</category>
-	<category lang="en">Adventure</category>
-	<category lang="en">Sci-Fi</category>
-	<category lang="en">Comedy</category>
-	<category lang="en">Family</category>
-	<icon src="https://image.tmdb.org/t/p/original/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg"/>
+    </rating>
+    <category lang="en">Animation</category>
+    <category lang="en">Adventure</category>
+    <category lang="en">Sci-Fi</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <icon src="https://image.tmdb.org/t/p/original/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg" />
   </programme>
   <programme start="20260926210000 -0400" stop="20260926213000 -0400" channel="yub">
     <title lang="en">ALF</title>
     <sub-title lang="en">Strangers in the Night</sub-title>
     <desc lang="en">ALF decides to have some fun while a nervous Mrs. Ochmonek baby-sits Brian.</desc>
     <episode-num system="xmltv_ns">0.1.</episode-num>
-	<rating>
+    <rating>
       <value>TV-G</value>
-	</rating>
-	<category lang="en">Comedy</category>
-	<category lang="en">Family</category>
-	<category lang="en">Sci-Fi &amp; Fantasy</category>
-	<icon src="https://image.tmdb.org/t/p/original/VEM3pZUP0kXrNBpsIbtKsDbyOc.jpg"/>
+    </rating>
+    <category lang="en">Comedy</category>
+    <category lang="en">Family</category>
+    <category lang="en">Sci-Fi &amp; Fantasy</category>
+    <icon src="https://image.tmdb.org/t/p/original/VEM3pZUP0kXrNBpsIbtKsDbyOc.jpg" />
   </programme>
   <programme start="20260926213000 -0400" stop="20260927033000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
   <programme start="20260927033000 -0400" stop="20260927093000 -0400" channel="yub">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Station is off the air</desc>
+    <title lang="en">Yub Network</title>
+    <desc lang="en">Where everything comes together.</desc>
   </programme>
 </tv>
