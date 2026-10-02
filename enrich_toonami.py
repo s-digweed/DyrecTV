@@ -17,15 +17,23 @@ Usage:  python3 enrich_toonami.py <path-to-TOONAMIAM.xml>
 Leaves MTV97 and every other channel untouched.
 """
 
-import os, re, sys, json, time, html
+import os, re, sys, json, time, html, bisect
+from datetime import datetime, timezone, timedelta
+from urllib.parse import quote
 import requests
 import xml.etree.ElementTree as ET
 
-# ── channels we enrich (by xmltv channel id) ──
-TARGET_CHANNELS = {
-    "ToonamiAftermath.us@East", "ToonamiAftermath.us@West",
-    "Snickelodeon EST", "Snickelodeon EST+180",
+# ── channels we enrich: xmltv id -> (API scheduleName, stream delay minutes) ──
+# East/West share one scheduleName; West is just the East feed delayed 180 min.
+CH_MAP = {
+    "ToonamiAftermath.us@East": ("Toonami Aftermath EST", 0),
+    "ToonamiAftermath.us@West": ("Toonami Aftermath EST", 180),
+    "Snickelodeon EST":         ("Snickelodeon EST", 0),
+    "Snickelodeon EST+180":     ("Snickelodeon EST", 180),
 }
+TARGET_CHANNELS = set(CH_MAP)
+API_ENDPOINT = "https://api.toonamiaftermath.com"
+MATCH_TOL_S  = 120          # air-time match tolerance when recovering episodeNumber
 
 # ── on-screen title -> canonical series name for lookups ──
 ALIAS = {
@@ -394,6 +402,120 @@ def show_overview(show, cache):
     return ov
 
 
+# ── absolute-episode resolution (option B): number -> (season, ep, overview, name) ──
+def _tvmaze_eplist_se(tid, cache):
+    """Flat list of (season, number, overview, name) in air order (0 = ep 1)."""
+    key = "se:" + str(tid)
+    if key in cache["tvmaze_eplist"]:
+        return cache["tvmaze_eplist"][key]
+    data = _tvmaze_get(f"/shows/{tid}/episodes")
+    lst = []
+    if isinstance(data, list):
+        for e in data:
+            if e.get("season") and e.get("number"):
+                lst.append([e["season"], e["number"],
+                            html.unescape(_TAGS.sub("", e.get("summary") or "")).strip(),
+                            (e.get("name") or "").strip()])
+    cache["tvmaze_eplist"][key] = lst
+    return lst
+
+
+def _tmdb_seasons(sid, cache):
+    key = str(sid)
+    if key in cache["tmdb_seasons"]:
+        return cache["tmdb_seasons"][key]
+    data = _tmdb_get(f"/tv/{sid}")
+    seasons = []
+    if data:
+        for s in data.get("seasons", []):
+            if s.get("season_number", 0) >= 1 and s.get("episode_count"):
+                seasons.append([s["season_number"], s["episode_count"]])
+    seasons.sort()
+    cache["tmdb_seasons"][key] = seasons
+    return seasons
+
+
+def absolute_se(show, absN, cache):
+    """Map an ABSOLUTE episode number to (season, ep, overview, name)."""
+    if not absN or absN < 1:
+        return None, None, "", ""
+    # Prefer TMDB's season structure (deterministic), then pull that episode.
+    sid = _resolve_show_id(show, cache) if TMDB_KEY else None
+    if sid:
+        rem = absN
+        for snum, cnt in _tmdb_seasons(sid, cache):
+            if rem <= cnt:
+                ov, nm = _tmdb_meta(show, snum, rem, cache)
+                if ov or nm:
+                    return snum, rem, ov, nm
+                break
+            rem -= cnt
+    # Fallback: TVmaze flat air-order list already carries S/E + text.
+    tid = _resolve_tvmaze_id(show, cache)
+    if tid:
+        lst = _tvmaze_eplist_se(tid, cache)
+        if 1 <= absN <= len(lst):
+            s, n, o, nm = lst[absN - 1]
+            return s, n, o, nm
+    return None, None, "", ""
+
+
+# ── recover each programme's absolute episodeNumber from the live playlists ──
+def _api_get(path):
+    for _ in range(3):
+        try:
+            r = _sess.get(API_ENDPOINT + path, timeout=25)
+            if r.status_code == 200:
+                return r.json()
+            return None
+        except requests.RequestException:
+            time.sleep(1)
+    return None
+
+
+def _dt(s):
+    return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
+
+
+def build_epindex(base_sched, dates):
+    """{base_sched -> sorted [(epoch_seconds, episodeNumber)]} from the live feed."""
+    seen_pl, rows = set(), []
+    for d in sorted(dates):
+        lst = _api_get(f"/playlists?scheduleName={quote(base_sched)}"
+                       f"&startDate={d}T00:00:00.000Z&thisWeek=true&weekStartDay=monday")
+        if not isinstance(lst, list):
+            continue
+        for p in lst:
+            pid = p.get("_id")
+            if not pid or pid in seen_pl:
+                continue
+            seen_pl.add(pid)
+            content = _api_get(f"/playlist?id={pid}&addInfo=true")
+            pl = (content or {}).get("playlist") or {}
+            for b in pl.get("blocks", []):
+                for m in b.get("mediaList", []):
+                    st = m.get("startDate"); enum = m.get("episodeNumber")
+                    if st and isinstance(enum, int):
+                        rows.append((_dt(st).timestamp(), enum))
+    rows.sort()
+    return rows
+
+
+def lookup_epnum(rows, target_ts):
+    """Nearest episodeNumber to target_ts within MATCH_TOL_S, else None."""
+    if not rows:
+        return None
+    keys = [r[0] for r in rows]
+    i = bisect.bisect_left(keys, target_ts)
+    best = None
+    for j in (i - 1, i, i + 1):
+        if 0 <= j < len(rows):
+            d = abs(rows[j][0] - target_ts)
+            if d <= MATCH_TOL_S and (best is None or d < best[0]):
+                best = (d, rows[j][1])
+    return best[1] if best else None
+
+
 # ══════════════════════════════════════════════════════════════════════════
 # Enrichment
 # ══════════════════════════════════════════════════════════════════════════
@@ -418,26 +540,59 @@ def _reorder(prog):
         prog.append(k)
 
 
+def _prog_start_ts(prog):
+    s = (prog.get("start") or "").split()[0]
+    try:
+        return datetime.strptime(s, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).timestamp()
+    except ValueError:
+        return None
+
+
 def enrich(path):
     tree = ET.parse(path)
     root = tree.getroot()
     cache = load_cache()
+    progs = [p for p in root.findall("programme") if p.get("channel") in TARGET_CHANNELS]
 
-    stats = {"progs": 0, "ep_matched": 0, "show_level": 0, "no_desc": 0,
-             "ep_name_added": 0, "icons": 0}
-    for prog in root.findall("programme"):
-        if prog.get("channel") not in TARGET_CHANNELS:
+    # ── build the absolute-episodeNumber index from the live feed (per base) ──
+    # Collect, per base scheduleName, the set of local air-dates we need to cover
+    # (programme start minus the channel's stream delay), then pull those playlists.
+    want = {}   # base_sched -> set("YYYY-MM-DD")
+    for p in progs:
+        base, delay = CH_MAP[p.get("channel")]
+        ts = _prog_start_ts(p)
+        if ts is None:
             continue
+        d = datetime.fromtimestamp(ts - delay * 60, tz=timezone.utc).strftime("%Y-%m-%d")
+        want.setdefault(base, set()).add(d)
+    epindex = {}
+    for base, dates in want.items():
+        try:
+            epindex[base] = build_epindex(base, dates)
+            print(f"  episodeNumber index [{base}]: {len(epindex[base])} entries "
+                  f"across {len(dates)} day(s)")
+        except Exception as e:
+            print(f"  warn: could not build episode index for {base}: {e}")
+            epindex[base] = []
+
+    stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
+             "no_desc": 0, "ep_name_added": 0, "icons": 0}
+    for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
         if not raw:
             continue
         show = ALIAS.get(raw, raw)
         epname = (prog.findtext("sub-title") or "").strip()
+        base, delay = CH_MAP[prog.get("channel")]
+        ts = _prog_start_ts(prog)
+        absN = lookup_epnum(epindex.get(base, []), ts - delay * 60) if ts is not None else None
 
         desc = ""
         season = ep = None
+        source = None
         try:
+            # 1) episode NAME match (exact, best for Western cartoons)
             if epname:
                 cands = [epname]
                 for sep in (" / ", "/", " - "):
@@ -449,28 +604,34 @@ def enrich(path):
                         break
                 if season:
                     ov, nm = episode_meta(show, season, ep, cache)
-                    desc = ov or show_overview(show, cache)
-                    if nm and not epname:
-                        _set_child(prog, "sub-title", nm, {"lang": "en"})
-                        stats["ep_name_added"] += 1
-                    stats["ep_matched"] += 1
-                else:
-                    desc = show_overview(show, cache)
-                    stats["show_level"] += 1
+                    source = "name"
+            # 2) ABSOLUTE episodeNumber from the feed (rescues dubbed anime + Snick)
+            if season is None and absN:
+                s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
+                if s2:
+                    season, ep, ov, nm = s2, e2n, ov2, nm2
+                    source = "absolute"
+            # 3) description
+            if season is not None:
+                desc = (ov or show_overview(show, cache))
+                if nm and not epname:
+                    _set_child(prog, "sub-title", nm, {"lang": "en"})
+                    stats["ep_name_added"] += 1
+                stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
                 desc = show_overview(show, cache)
                 stats["show_level"] += 1
         except Exception as e:
             print(f"  warn: {raw!r}: {e}")
+            desc = desc or show_overview(show, cache)
 
         if desc:
             _set_child(prog, "desc", desc, {"lang": "en"})
         else:
             stats["no_desc"] += 1
-        if season:
+        if season is not None:
             _set_child(prog, "episode-num",
                        f"{season - 1}.{ep - 1}.", {"system": "xmltv_ns"})
-            # a second, human-readable episode-num for players that show it
             e2 = ET.SubElement(prog, "episode-num", {"system": "onscreen"})
             e2.text = f"S{season:02d}E{ep:02d}"
         # Rewrite the grabber's non-standard <image>URL</image> (which players
@@ -486,11 +647,12 @@ def enrich(path):
     save_cache(cache)
     tree.write(path, encoding="UTF-8", xml_declaration=True)
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
-    print(f"  episode-level match: {stats['ep_matched']}  "
+    print(f"  S/E by episode name    : {stats['by_name']}")
+    print(f"  S/E by absolute number : {stats['by_absolute']}  "
           f"(episode names backfilled: {stats['ep_name_added']})")
-    print(f"  show-level fallback: {stats['show_level']}")
-    print(f"  still no description: {stats['no_desc']}")
-    print(f"  posters rewritten <image> -> <icon>: {stats['icons']}")
+    print(f"  show-level fallback    : {stats['show_level']}")
+    print(f"  still no description   : {stats['no_desc']}")
+    print(f"  posters <image>-><icon>: {stats['icons']}")
 
 
 if __name__ == "__main__":
