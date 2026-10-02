@@ -64,6 +64,16 @@ jobs:
           npm run grab -- --sites=toonamiaftermath.com --output=TOONAMIAM.xml --days=5
         continue-on-error: true
 
+      # Merge the looping MTV97 guide into TOONAMIAM.xml (no separate file).
+      # mtv97_epg.py lives in the repo root; it inserts MTV97's <channel> + its
+      # programmes into the grabber's output, or writes a standalone file if the
+      # grab failed. Pure stdlib, so no extra installs.
+      - name: Merge MTV97 into Toonami guide
+        run: |
+          cd epg-src
+          python3 ../mtv97_epg.py TOONAMIAM.xml
+        continue-on-error: true
+
       - name: Move Toonami
         run: |
           if [ -f epg-src/TOONAMIAM.xml ]; then
