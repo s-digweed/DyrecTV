@@ -76,6 +76,34 @@ ALIAS = {
     "Car 54, Where Are You": "Car 54, Where Are You?",
     "Mr Wizard": "Mr. Wizard's World",
     "Rugrats": "Rugrats",
+    # movies / specials (resolved via the movie-search fallback in show_overview)
+    "Bugs Bunnys Halloween Hijinks": "Bugs Bunny's Halloween Hijinks",
+    "Interstella 5555": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
+    "Scooby-Doo and The Legend Of The Vampire": "Scooby-Doo! and the Legend of the Vampire",
+    "Rifftrax Shorts": "RiffTrax",
+}
+
+# Titles that embed their own metadata or are riff one-offs.
+_MST3K = re.compile(r'^\s*MST3K\s*-\s*S(\d+)E(\d+)\s*-\s*(.+)$', re.I)
+_RIFF  = re.compile(r'^\s*Rifftrax\s*-\s*(.+)$', re.I)
+
+def special_title(raw):
+    """Return {show, [season, ep], [sub]} for MST3K / RiffTrax titles, else None."""
+    m = _MST3K.match(raw)
+    if m:
+        return {"show": "Mystery Science Theater 3000",
+                "season": int(m.group(1)), "ep": int(m.group(2)), "sub": m.group(3).strip()}
+    m = _RIFF.match(raw)
+    if m:
+        return {"show": "RiffTrax", "sub": m.group(1).strip()}
+    return None
+
+# Clean up the ON-SCREEN title for these exact strings (display only).
+DISPLAY_RENAME = {
+    "Bugs Bunnys Halloween Hijinks": "Bugs Bunny's Halloween Hijinks",
+    "Interstella 5555": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
+    "Scooby-Doo and The Legend Of The Vampire": "Scooby-Doo! and the Legend of the Vampire",
+    "Rifftrax Shorts": "RiffTrax Shorts",
 }
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -398,6 +426,14 @@ def show_overview(show, cache):
         if tid:
             d = _tvdb_get(f"/series/{tid}") or {}
             ov = (d.get("overview") or "").strip()
+    if not ov and TMDB_KEY:                      # movie fallback (films / specials)
+        params = {"query": clean}
+        if year:
+            params["year"] = year
+        data = _tmdb_get("/search/movie", **params) or {}
+        for res in (data.get("results") or [])[:3]:
+            if res.get("overview"):
+                ov = res["overview"].strip(); break
     cache["show_syn"][show] = ov
     return ov
 
@@ -582,18 +618,33 @@ def enrich(path):
         raw = (prog.findtext("title") or "").strip()
         if not raw:
             continue
-        show = ALIAS.get(raw, raw)
-        epname = (prog.findtext("sub-title") or "").strip()
+        sp = special_title(raw)
+        show = sp["show"] if sp else ALIAS.get(raw, raw)
+        # on-screen title cleanup (MST3K/RiffTrax -> series name; exact-string fixes)
+        if sp and sp.get("season"):
+            disp_title = "Mystery Science Theater 3000"
+        elif sp:
+            disp_title = "RiffTrax"
+        else:
+            disp_title = DISPLAY_RENAME.get(raw)
+        orig_sub = (prog.findtext("sub-title") or "").strip()
+        epname = orig_sub or (sp.get("sub") if sp else "")
         base, delay = CH_MAP[prog.get("channel")]
         ts = _prog_start_ts(prog)
         absN = lookup_epnum(epindex.get(base, []), ts - delay * 60) if ts is not None else None
 
         desc = ""
         season = ep = None
+        ov = nm = ""
         source = None
         try:
+            # 0) MST3K titles carry their own S##E## -> authoritative
+            if sp and sp.get("season"):
+                season, ep = sp["season"], sp["ep"]
+                ov, nm = episode_meta(show, season, ep, cache)
+                source = "name"
             # 1) episode NAME match (exact, best for Western cartoons)
-            if epname:
+            if season is None and epname:
                 cands = [epname]
                 for sep in (" / ", "/", " - "):
                     if sep in epname:
@@ -614,9 +665,6 @@ def enrich(path):
             # 3) description
             if season is not None:
                 desc = (ov or show_overview(show, cache))
-                if nm and not epname:
-                    _set_child(prog, "sub-title", nm, {"lang": "en"})
-                    stats["ep_name_added"] += 1
                 stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
                 desc = show_overview(show, cache)
@@ -624,6 +672,19 @@ def enrich(path):
         except Exception as e:
             print(f"  warn: {raw!r}: {e}")
             desc = desc or show_overview(show, cache)
+
+        # backfill the on-screen sub-title when the source had none:
+        # prefer a parsed special sub (MST3K/RiffTrax), else the matched ep name
+        if not orig_sub:
+            fill = (sp.get("sub") if sp else "") or (nm if season is not None else "")
+            if fill:
+                _set_child(prog, "sub-title", fill, {"lang": "en"})
+                stats["ep_name_added"] += 1
+
+        if disp_title:
+            te = prog.find("title")
+            if te is not None:
+                te.text = disp_title
 
         if desc:
             _set_child(prog, "desc", desc, {"lang": "en"})
