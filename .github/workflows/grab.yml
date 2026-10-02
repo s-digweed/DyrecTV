@@ -64,6 +64,18 @@ jobs:
           npm run grab -- --sites=toonamiaftermath.com --output=TOONAMIAM.xml --days=5
         continue-on-error: true
 
+      # Enrich Toonami + Snickelodeon with real descriptions, season/episode
+      # numbers, and posters (<image> -> <icon>). Reads/writes a persistent
+      # toonami_desc_cache.json in the repo root so repeat runs are cheap.
+      - name: Enrich Toonami/Snick (descriptions, S/E, posters)
+        run: |
+          pip install -q requests
+          python3 enrich_toonami.py epg-src/TOONAMIAM.xml
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
+        continue-on-error: true
+
       # Merge the looping MTV97 guide into TOONAMIAM.xml (no separate file).
       # mtv97_epg.py lives in the repo root; it inserts MTV97's <channel> + its
       # programmes into the grabber's output, or writes a standalone file if the
@@ -141,7 +153,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz
+          git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz toonami_desc_cache.json
           git commit -m "Update EPG files" || echo "No changes"
           git pull --rebase origin main
           git push
