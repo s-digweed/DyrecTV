@@ -5,18 +5,3 @@
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
-    ("All That", "Episode #2.19"): (, ),
-    ("All That", "Episode #2.20"): (, ),
-    ("Fifteen", "Free Falling"): (, ),
-    ("Flipper", "Dolphin in Pursuit: Part 2"): (, ),
-    ("Flipper: The New Adventures", "Episode #3.21"): (, ),
-    ("Global Guts", "Rebecca - Cam - Oliver"): (, ),
-    ("Noozles", "Run Away from Home"): (, ),
-    ("The Adventures of Superman", "The Talking Clue"): (, ),
-    ("The Adventures of Superman", "Through the Time Barrier"): (, ),
-    ("The Rocky and Bullwinkle Show", "Hop Skip and Junk, or Bullwinkle's Big Tow/Bucks for Boris, or The Green Paper Caper"): (, ),
-    ("The Rocky and Bullwinkle Show", "Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter"): (, ),
-    ("The Rocky and Bullwinkle Show", "When Moose Meets Moose, or Two's a Crowd/The Midnight Chew-Chew, or This Gum for Hire"): (, ),
-    ("Tintin", "Land of Black Gold: Part 1"): (, ),
-    ("Tintin", "Land of Black Gold: Part 2"): (, ),
-    ("You Can't Do That on Television", "Episode #1.7"): (, ),
