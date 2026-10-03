@@ -1,183 +1,111 @@
 # ============================================================
-# NEEDS S/E: feed gave the real episode name but no confident
-# season/episode. Sub-title + description are correct; only the
-# Sxx Eyy is missing. Fill the number and paste into SE_PINS:
+# NEEDS S/E: we have the correct episode NAME (from the feed or
+# TAM) + description, but couldn't confidently resolve a season/
+# episode number. Only the Sxx Eyy is missing. To lock one in,
+# fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
-
-
-# ============================================================
-# UNVERIFIED (best-effort): the feed gave NO episode name (Snick/
-# Nick live-action -> number only), so the name + S/E below came
-# from a database by absolute number and MAY be wrong. To correct
-# one, add an SE_PINS line (right S/E) and, if the name is off, a
-# SUBTITLE_OVERRIDE line.
-# ============================================================
-#   Aaahh!!! Real Monsters | I Dream of Snorch With the Long Golden Hair
-#   Aaahh!!! Real Monsters | Krumm Gets the Dreaded Nolox
-#   Aaahh!!! Real Monsters | Mayberry UFO
-#   Alfred Hitchcock Presents | Murder Me Twice
-#   Alfred Hitchcock Presents | Safety for the Witness
-#   All That | IV Xample
-#   All That | Monifah
-#   All That | Shai
-#   All That | Silk
-#   Allegra's Window | My Own Monster
-#   Allegra's Window | The Imaginary Zoo
-#   Allegra's Window | The Zootabaga Caper
-#   Allegra's Window | Where's Godfrey?
-#   Alvin and the Chipmunks | A Chipmunk Reunion
-#   Alvin and the Chipmunks | The Secret Life of David Seville
-#   Angry Beavers | Tree of Hearts
-#   Animorphs | On the Run
-#   Animorphs | Underground
-#   Are You Afraid of the Dark? | The Tale of Station 109.1
-#   Are You Afraid of the Dark? | The Tale of the Dead Man's Float
-#   Are You Afraid of the Dark? | The Tale of the Jagged Sign
-#   Are You Afraid of the Dark? | The Tale of the Mystical Mirror
-#   Beetlejuice | Beetlebones
-#   Bewitched | Alias Darrin Stephens
-#   Captain Scarlet and the Mysterons | Seek and Destroy
-#   Car 54, Where Are You? | Toody's Paradise
-#   CatDog | Dog Ate it
-#   Clarissa Explains It All | Janet's Old Boyfriend
-#   Clarissa Explains It All | Poetic Justice
-#   Clarissa Explains It All | Sam's Swan Song
-#   Count Duckula | Sawdust Ring
-#   Cousin Skeeter | Mo' Skeeter Blues
-#   Doug | Doug Battles the Rulemeister
-#   Doug | Doug Saves Roger
-#   Doug | Doug's Derby Dilemma
-#   Doug | Doug's On His Own
-#   Doug | Doug's Worst Nightmare
-#   Doug | Doug's a Genius
-#   Dragnet | The Big .22 Rifle for Christmas
-#   Dragnet | The Big Cop
-#   F Troop | A Gift From the Chief
-#   F Troop | Honest Injun
-#   Fifteen | Series 1, Show 5
-#   Fifteen | Series 1, Show 7
-#   Fireball XL5 | Flying Zodiac
-#   Flipper | Dolphin in Pursuit (2)
-#   Flipper | Flipper's Hour of Peril
-#   Flipper | Junior Ranger
-#   Flipper | The Ditching (1)
-#   Flipper: The New Adventures | A Helping Hand
-#   Flipper: The New Adventures | Blind Faith
-#   Flipper: The New Adventures | Spring Break
-#   Flipper: The New Adventures | The Wish
-#   Garfield and Friends | The Bad Sport
-#   Garfield and Friends | Up a Tree
-#   Get Smart | A Tale of Two Tails
-#   Get Smart | The Return of the Ancient Mariner
-#   Global Guts | Irina - Rachael - Ricardo
-#   Green Acres | Lisa's First Day On the Farm
-#   Green Acres | Oliver Buys A Farm
-#   Grimm's Fairy Tale Classics | The Frog Prince
-#   Grimm's Fairy Tale Classics | The Frog Prince (2)
-#   Gullah Gullah Island | How You Sound
-#   Gullah Gullah Island | Shaina's Birthday
-#   Gullah Gullah Island | The Gullah Gullah Games
-#   Gullah Gullah Island | What's Up with Jobs?
-#   Gumby | Baker's Tour
-#   Gumby | Eager Beavers
-#   Gumby | In the Dough
-#   Gumby | Train Trouble
-#   Hey Arnold! | Abner Come Home
-#   Hey Arnold! | Olga Comes Home
-#   Hey Arnold! | Sally's Comet
-#   Hey Dude! | Ghost Stories
-#   I Dream of Jeannie | Jeannie, the Governor's Wife
-#   I Love Lucy | The Million Dollar Idea
-#   I Spy | The Tiger
-#   Inspector Gadget | Fang the Wonder Dog
-#   Inspector Gadget | Gadget in Winterland
-#   Inspector Gadget | Monster Lake
-#   Inspector Gadget | School for Pickpockets
-#   Joe 90 | Splashdown
-#   KaBlam! | Won't Stick to Most Dental Work
-#   Kenan & Kel | Fenced In
-#   Lassie | Champion
-#   Lassie | Goodbye Forever
-#   Lassie | Superstition
-#   Lassie | Vigil
-#   Legends of the Hidden Temple | Galileo's Cannonball
-#   Little Bear | Emily's Visit
-#   Little Bear | Father's Flying Flapjacks
-#   Little Bear | Little Bear's New Friend
-#   Little Bear | Maracas
-#   Mister Ed | Little Boy
-#   Muppet Babies | Animal Fly Airplane
-#   Muppet Babies | Hatastrophe
-#   Muppet Babies | The Great Muppet Sport-A-Thon
-#   Muppet Babies | You Say Potato, I Say Best Friend
-#   My Brother and Me | Secret Societies & Apologies to Nathan
-#   My Brother and Me | Teens & Your Least Favorite Soda
-#   My Three Sons | Lady Engineer
-#   Nickelodeon Guts | Susan - Bryan - Terrar
-#   Noozles | Sandy Runs Away From Home
-#   Noozles | Travelling Back In Time
-#   Rhoda | Bump in the Night
-#   Rocko's Modern Life | Down the Hatch
-#   Rocko's Modern Life | She's the Toad
-#   Rugrats | Down The Drain
-#   Rugrats | Feeding Hubert
-#   Rugrats | Let Them Eat Cake
-#   Rugrats | My Friend Barney
-#   Rugrats | Spike The Wonder Dog
-#   Rugrats | The Seven Voyages Of Cynthia
-#   Salute Your Shorts | Dina and the Rock Star
-#   Sgt. Bilko | Bilko Joins the Navy
-#   Space Ghost Coast to Coast | Eat a Peach
-#   Space Ghost Coast to Coast | In Memory of Elizabeth Reed
-#   Space Ghost Coast to Coast | Whipping Post
-#   Space: 1999 | The Full Circle
-#   Stingray | That Terrible Swift Sword
-#   Taxi | Elaine's Old Friend
-#   The Adventures of Pete & Pete | 35 Hours
-#   The Adventures of Pete & Pete | The Good, the Bad, and the Lucky
-#   The Adventures of Pete & Pete | The Trouble with Teddy
-#   The Adventures of Superman | Home Is Where the Hurt Is
-#   The Adventures of Superman | Virtually Destroyed
-#   The Bob Newhart Show | Death Be My Destiny
-#   The Brady Bunch | A Room at the Top
-#   The Brady Bunch | Adios, Johnny Bravo
-#   The Busy World of Richard Scarry | Good Luck in Rome
-#   The Busy World of Richard Scarry | Professor Dig and His Egyptian Mummy
-#   The Busy World of Richard Scarry | The Accident
-#   The Busy World of Richard Scarry | The Treasure Hunt
-#   The Dick Van Dyke Show | The Unwelcome Houseguest
-#   The Littl' Bits | The Snow Woman
-#   The Littl' Bits | Winter Strawberries
-#   The Lucy Show | Lucy Dates Dean Martin
-#   The Lucy Show | Lucy and Bob Crane
-#   The Many Loves of Dobie Gillis | Dobie Spreads a Rumor
-#   The Many Loves of Dobie Gillis | Love is a Fallacy
-#   The Mary Tyler Moore Show | Chuckles Bites the Dust
-#   The Munsters | Movie Star Munster
-#   The Munsters | Munsters on the Move
-#   The Mysterious Cities of Gold | Revolt of the Mayas
-#   The Mysterious Cities of Gold | The Olmec Machine
-#   The Patty Duke Show | Every Girl Should Be Married
-#   The Patty Duke Show | The Perfect Hostess
-#   The Ren & Stimpy Show | Ren's Pecs
-#   The Rocky and Bullwinkle Show | Fractured Fairy Tales - Dick Whittington's Cat
-#   The Rocky and Bullwinkle Show | Mr. Know-It-All - How to Tame Lions and Get a Little Scratch on the Side of Your Head
-#   The Rocky and Bullwinkle Show | Rocky & Bullwinkle - Jet Fuel (26) - Three on an Island or Tell It to the Maroons
-#   The Rocky and Bullwinkle Show | Rocky & Bullwinkle - Jet Fuel (27) - Dancing on Air or The Pottsylvania Polka
-#   The Secret World of Alex Mack | BMX
-#   The Secret World of Alex Mack | Cheers
-#   The Secret World of Alex Mack | Nightmare in Paradise
-#   The Wild Thornberrys | Show Me the Bunny
-#   Tintin | Flight 714 (2)
-#   Tintin | Land of Black Gold (1)
-#   Tintin | Land of Black Gold (2)
-#   Tintin | The Red Sea Sharks (1)
-#   UFO | Destruction
-#   Weinerville | Missing Cartoon
-#   Weinerville | Zip in Space
-#   Welcome Back Kotter | Kotter and Son
-#   Welcome Back Kotter | Sweatgate Scandal
-#   What Would You Do? | October 12, 2012
-#   You Can't Do That on Television | Backstage
-#   You Can't Do That on Television | St. Patrick's Day
+    ("Aaahh!!! Real Monsters", "Episode #2.20"): (, ),
+    ("Alfred Hitchcock Presents", "A Tale of Two Tails"): (, ),
+    ("Alfred Hitchcock Presents", "Free Falling"): (, ),
+    ("Alfred Hitchcock Presents", "Lady Engineer"): (, ),
+    ("All That", "Episode #2.19"): (, ),
+    ("All That", "Episode #2.20"): (, ),
+    ("All That", "Psychoanalyst Show"): (, ),
+    ("All That", "Splashdown"): (, ),
+    ("All That", "The Bank Jobs"): (, ),
+    ("Allegra's Window", "Missing Cartoon"): (, ),
+    ("Allegra's Window", "Zip In Space"): (, ),
+    ("Angry Beavers", "Art+Science=Fun"): (, ),
+    ("Animorphs", "Raptures of the Deep"): (, ),
+    ("Animorphs", "Safety for the Witness"): (, ),
+    ("Are You Afraid of the Dark?", "Seek and Destroy"): (, ),
+    ("Are You Afraid of the Dark?", "The Talking Clue"): (, ),
+    ("Are You Afraid of the Dark?", "Through the Time Barrier"): (, ),
+    ("Bewitched", "Lisa's First Day on the Farm"): (, ),
+    ("Captain Scarlet and the Mysterons", "Wreck of the Zephyr"): (, ),
+    ("CatDog", "Episode #2.19"): (, ),
+    ("Clarissa Explains It All", "Double Header/The Scotsman in Space"): (, ),
+    ("Doug", "Flying Zodiac"): (, ),
+    ("Doug", "Hop Skip and Junk, or Bullwinkle's Big Tow/Bucks for Boris, or The Green Paper Caper"): (, ),
+    ("Doug", "Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter"): (, ),
+    ("Doug", "When Moose Meets Moose, or Two's a Crowd/The Midnight Chew-Chew, or This Gum for Hire"): (, ),
+    ("Dragnet", "The Power of Positive Thinking"): (, ),
+    ("F Troop", "Death Be My Destiny"): (, ),
+    ("F Troop", "Revolt of the Mayas"): (, ),
+    ("F Troop", "Seek and Destroy"): (, ),
+    ("Fifteen", "Ambulance Cake/The Supermarket Mystery/Big Trouble for Bananas Gorilla"): (, ),
+    ("Fifteen", "Free Falling"): (, ),
+    ("Fireball XL5", "Destruction"): (, ),
+    ("Flipper", "Dolphin in Pursuit: Part 2"): (, ),
+    ("Flipper: The New Adventures", "Episode #3.21"): (, ),
+    ("Flipper: The New Adventures", "My Own Monster"): (, ),
+    ("Get Smart", "Patty, the Witness"): (, ),
+    ("Global Guts", "Kid TV/The Sky Is Falling"): (, ),
+    ("Global Guts", "Rebecca - Cam - Oliver"): (, ),
+    ("Green Acres", "The Talking Clue"): (, ),
+    ("Green Acres", "Through the Time Barrier"): (, ),
+    ("Gullah Gullah Island", "Just One of the Girls/Goin' Down to Dixie"): (, ),
+    ("Gullah Gullah Island", "The Sludge Monster/U.S. Acres: Fortune Kooky/Heatwave Holiday"): (, ),
+    ("Gumby", "Silents, Please!/Gorilla My Dreams"): (, ),
+    ("Joe 90", "Future Boy"): (, ),
+    ("Joe 90", "Sweatgate Scandal"): (, ),
+    ("Lassie", "Featuring Ciara Bravo"): (, ),
+    ("Lassie", "Rebecca - Cam - Oliver"): (, ),
+    ("Little Bear", "Fang the Wonder Dog"): (, ),
+    ("Mister Ed", "Dobie Spreads a Rumor"): (, ),
+    ("My Brother and Me", "The Tale of the Dead Man's Float"): (, ),
+    ("My Three Sons", "Every Girl Should Be Married"): (, ),
+    ("Noozles", "Run Away from Home"): (, ),
+    ("Rhoda", "Bilko Joins the Navy"): (, ),
+    ("Rocko's Modern Life", "Nightmare in Paradise"): (, ),
+    ("Rugrats", "Alias Darrin Stephens"): (, ),
+    ("Rugrats", "Movie Star Munster"): (, ),
+    ("Rugrats", "Munsters on the Move"): (, ),
+    ("Rugrats", "The Full Circle"): (, ),
+    ("Sgt. Bilko", "A Room at the Top"): (, ),
+    ("Sgt. Bilko", "Waiting in the Wings"): (, ),
+    ("Stingray", "The Full Circle"): (, ),
+    ("Taxi", "Bump in the Night"): (, ),
+    ("Taxi", "Hae no tamago soodoo"): (, ),
+    ("The Adventures of Pete & Pete", "The Tale of Station 109.1"): (, ),
+    ("The Adventures of Pete & Pete", "The Tale of the Jagged Sign"): (, ),
+    ("The Adventures of Superman", "Episode #1.7"): (, ),
+    ("The Adventures of Superman", "Psychoanalyst Show"): (, ),
+    ("The Adventures of Superman", "The Bank Jobs"): (, ),
+    ("The Adventures of Superman", "The Talking Clue"): (, ),
+    ("The Adventures of Superman", "Through the Time Barrier"): (, ),
+    ("The Bob Newhart Show", "Adios, Johnny Bravo"): (, ),
+    ("The Brady Bunch", "Elaine's Old Friend"): (, ),
+    ("The Brady Bunch", "Kotter and Son"): (, ),
+    ("The Busy World of Richard Scarry", "Dolphin in Pursuit: Part 2"): (, ),
+    ("The Busy World of Richard Scarry", "Flipper's Hour of Peril"): (, ),
+    ("The Lucy Show", "Murder Me Twice"): (, ),
+    ("The Lucy Show", "Safety for the Witness"): (, ),
+    ("The Many Loves of Dobie Gillis", "Lisa's First Day on the Farm"): (, ),
+    ("The Many Loves of Dobie Gillis", "Oliver Buys a Farm"): (, ),
+    ("The Munsters", "Honest Injun"): (, ),
+    ("The Munsters", "Oliver Buys a Farm"): (, ),
+    ("The Patty Duke Show", "Lucy Dates Dean Martin"): (, ),
+    ("The Patty Duke Show", "Lucy and Bob Crane"): (, ),
+    ("The Patty Duke Show", "Run Away from Home"): (, ),
+    ("The Ren & Stimpy Show", "Murder Me Twice"): (, ),
+    ("The Rocky and Bullwinkle Show", "Bump in the Night"): (, ),
+    ("The Rocky and Bullwinkle Show", "Hop Skip and Junk, or Bullwinkle's Big Tow/Bucks for Boris, or The Green Paper Caper"): (, ),
+    ("The Rocky and Bullwinkle Show", "Lucy Dates Dean Martin"): (, ),
+    ("The Rocky and Bullwinkle Show", "Lucy and Bob Crane"): (, ),
+    ("The Rocky and Bullwinkle Show", "Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter"): (, ),
+    ("The Rocky and Bullwinkle Show", "When Moose Meets Moose, or Two's a Crowd/The Midnight Chew-Chew, or This Gum for Hire"): (, ),
+    ("The Secret World of Alex Mack", "A Tale of Two Tails"): (, ),
+    ("The Secret World of Alex Mack", "Lady Engineer"): (, ),
+    ("Tintin", "35 Hours"): (, ),
+    ("Tintin", "Land of Black Gold: Part 1"): (, ),
+    ("Tintin", "Land of Black Gold: Part 2"): (, ),
+    ("UFO", "Splashdown"): (, ),
+    ("Weinerville", "The Legend of Kid Friendly/Silent But Deadly"): (, ),
+    ("Weinerville", "Two's Company"): (, ),
+    ("Welcome Back Kotter", "Destruction"): (, ),
+    ("Welcome Back Kotter", "Honest Injun"): (, ),
+    ("Welcome Back Kotter", "Sergeant Murphy's Deputy/Couscous in the Sahara/New Friend on the Block"): (, ),
+    ("What Would You Do?", "Doug's Shock Therapy/Doug Is Hamburger Boy"): (, ),
+    ("You Can't Do That on Television", "Episode #1.7"): (, ),
