@@ -145,6 +145,23 @@ EPISODE_SE_OVERRIDE = {
     ("Spider-Man: The Animated Series", "six forgotten warriors chapter 4 the six fight again"): (5, 5),
 }
 
+# ── MANUAL S/E PINS ─────────────────────────────────────────────────────────
+# Fill S/E for a specific (show, episode-name) that the matcher can't resolve
+# confidently (old live-action with messy DB numbering, etc). These ALWAYS win.
+# Key = (lookup show name, episode sub-title); matched case/punctuation-insensitively.
+# Grab the names to add here from the generated `missing_se.txt` report.
+#   e.g. ("Dragnet", "The Bank Jobs"): (2, 7),
+SE_PINS = {
+}
+def _se_pin(show, epname):
+    if not epname:
+        return None
+    want = _norm(epname)
+    for (s, sub), se in SE_PINS.items():
+        if s == show and _norm(sub) == want:
+            return se
+    return None
+
 # pinned show-level descriptions (consulted first in show_overview)
 SHOW_DESC_OVERRIDE = {
     "RiffTrax": "Feature films and short subjects presented with comedic running commentary -- "
@@ -915,8 +932,26 @@ def _dt(s):
     return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
+def _as_int(v):
+    """episodeNumber arrives as int or str; coerce, else None."""
+    try:
+        return int(str(v).strip())
+    except (TypeError, ValueError):
+        return None
+
 def build_epindex(base_sched, dates):
-    """{base_sched -> sorted [(epoch_seconds, episodeNumber)]} from the live feed."""
+    """{base_sched -> sorted [(epoch_seconds, info_dict)]} from the live feed.
+
+    info_dict carries the feed's OWN metadata for that air-time:
+      num      -> absolute episodeNumber (int or None)
+      episode  -> the real episode sub-title  (info.episode)  <-- ground truth
+      fullname -> canonical show display name (info.fullname)
+      image    -> poster URL                  (info.image)
+      year     -> release year                (info.year)
+      name     -> the feed's show slug/name   (top-level 'name')
+    Using the feed's own info.episode as the sub-title is what keeps us honest:
+    it's the same source the official site/TAM shows, so we never have to GUESS
+    an episode name from an absolute-number lookup (that was the Dragnet bug)."""
     seen_pl, rows = set(), []
     for d in sorted(dates):
         lst = _api_get(f"/playlists?scheduleName={quote(base_sched)}"
@@ -932,15 +967,27 @@ def build_epindex(base_sched, dates):
             pl = (content or {}).get("playlist") or {}
             for b in pl.get("blocks", []):
                 for m in b.get("mediaList", []):
-                    st = m.get("startDate"); enum = m.get("episodeNumber")
-                    if st and isinstance(enum, int):
-                        rows.append((_dt(st).timestamp(), enum))
-    rows.sort()
+                    st = m.get("startDate")
+                    if not st:
+                        continue
+                    info = m.get("info") or {}
+                    episode  = info.get("episode")  or info.get("episodeName") or info.get("subtitle") or ""
+                    fullname = info.get("fullname") or info.get("fullName")    or info.get("showName") or ""
+                    image    = info.get("image")    or info.get("img")         or ""
+                    rows.append((_dt(st).timestamp(), {
+                        "num":      _as_int(m.get("episodeNumber")),
+                        "episode":  str(episode).strip(),
+                        "fullname": str(fullname).strip(),
+                        "image":    str(image).strip(),
+                        "year":     (str(info.get("year")).strip() if info.get("year") else ""),
+                        "name":     (m.get("name") or "").strip(),
+                    }))
+    rows.sort(key=lambda r: r[0])
     return rows
 
 
-def lookup_epnum(rows, target_ts):
-    """Nearest episodeNumber to target_ts within MATCH_TOL_S, else None."""
+def lookup_epinfo(rows, target_ts):
+    """Nearest feed info_dict to target_ts within MATCH_TOL_S, else None."""
     if not rows:
         return None
     keys = [r[0] for r in rows]
@@ -1014,7 +1061,9 @@ def enrich(path):
             epindex[base] = []
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
-             "no_desc": 0, "ep_name_added": 0, "icons": 0}
+             "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
+             "se_pinned": 0}
+    dropped_se = set()   # (display_show, episode) where we withheld a guessed S/E
     for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
@@ -1067,13 +1116,22 @@ def enrich(path):
             year = None
             no_se = False
 
-        orig_sub = (prog.findtext("sub-title") or "").strip()
-        clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
-        epname = clean_sub or (sp.get("sub") if sp else "")
         is_curated = show in CURATED_SHOWS         # '60s cartoons: pins only, never guess S/E
         base, delay = CH_MAP[prog.get("channel")]
         ts = _prog_start_ts(prog)
-        absN = lookup_epnum(epindex.get(base, []), ts - delay * 60) if ts is not None else None
+
+        # ── pull the feed's OWN metadata for this air-time (ground truth) ──
+        feed = lookup_epinfo(epindex.get(base, []), ts - delay * 60) if ts is not None else None
+        feed_ep   = (feed or {}).get("episode", "")   # the real episode sub-title
+        feed_num  = (feed or {}).get("num")           # absolute episodeNumber
+        feed_img  = (feed or {}).get("image", "")     # poster
+        # The authoritative episode name is the feed's info.episode; fall back to
+        # whatever the grabber captured only when the feed has none.
+        grab_sub = (prog.findtext("sub-title") or "").strip()
+        orig_sub = feed_ep or grab_sub
+        clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
+        epname = clean_sub or (sp.get("sub") if sp else "")
+        absN = feed_num
 
         desc = ""
         season = ep = None
@@ -1101,7 +1159,16 @@ def enrich(path):
                     seg_syn = birdman_syn_lookup(epname)
                     if seg_syn:
                         pinned_syn = seg_syn
-                # 0a) explicit episode pin: (lookup show, normalized episode name)
+                # 0a) MANUAL S/E pins (always win) — you fill these from missing_se.txt
+                #     keyed by the DISPLAY name (what the report logs / you see).
+                if season is None and not is_curated:
+                    mp = _se_pin(disp_title or show, epname)
+                    if mp:
+                        season, ep = mp
+                        ov, nm = episode_meta(show, season, ep, cache)
+                        source = "name"
+                        stats["se_pinned"] += 1
+                # 0b) explicit episode pin: (lookup show, normalized episode name)
                 pin = EPISODE_SE_OVERRIDE.get((show, _norm(epname))) if (epname and season is None) else None
                 if pin:
                     season, ep = pin
@@ -1130,14 +1197,29 @@ def enrich(path):
                         # if we matched a HALF of a paired DB title, show the full pair
                         if nm and "/" in nm and _norm(epname) in _segments(nm):
                             seg_fullname = nm
-                # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick)
-                #    Never for pinned segment cartoons (their feed number counts
-                #    segments, not episodes -> that was the Spider-Man '67 bug).
+                # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick).
+                #    GUARD: the feed numbers episodes sequentially, but DB season
+                #    layouts (esp. old live-action with several same-named series)
+                #    often disagree, so a blind map invents a WRONG episode (the
+                #    Dragnet bug). We only TRUST the absolute match when the episode
+                #    NAME it lands on agrees with the feed's own episode name. If it
+                #    disagrees, we keep the feed sub-title and WITHHOLD S/E, logging
+                #    it to missing_se.txt so you can pin it by hand via SE_PINS.
+                #    Never for pinned segment cartoons.
                 if season is None and absN and not is_curated:
                     s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
                     if s2:
-                        season, ep, ov, nm = s2, e2n, ov2, nm2
-                        source = "absolute"
+                        agree = bool(nm2) and bool(epname) and (
+                            _norm(nm2) == _norm(epname)
+                            or _segkey(nm2) == _segkey(epname)
+                            or bool(set(_segments(nm2)) & set(_segments(epname)))
+                        )
+                        if agree:
+                            season, ep, ov, nm = s2, e2n, ov2, nm2
+                            source = "absolute"
+                        elif epname:
+                            dropped_se.add((disp_title or show, epname))
+                            stats["se_dropped"] += 1
             # 3) description
             #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
             #    the fixed series blurb (never the metadata API -> no wrong series).
@@ -1158,28 +1240,26 @@ def enrich(path):
             print(f"  warn: {raw!r}: {e}")
             desc = desc or forced_desc or show_overview(show, cache)
 
-        # sub-title: RiffTrax feature/shorts carry everything in the title -> no sub;
-        # else upgrade a half-title to the full pair, apply chapter cleanup, or backfill
+        # sub-title: the feed's own info.episode (via orig_sub) is authoritative, so
+        # we SET it rather than only patch the grabber's value (the grabber often
+        # dropped it). RiffTrax carries everything in the title -> no sub.
         if force_no_sub:
             for e in prog.findall("sub-title"):
                 prog.remove(e)
-        elif pinned_full:
-            _set_child(prog, "sub-title", pinned_full, {"lang": "en"})
-        elif is_curated and orig_sub:
-            # curated cartoon, segment not in a pin (Birdman, or a segment we don't
-            # have): keep the real feed segment name(s), standardize to " / ".
-            joined = " / ".join(_split_segments(orig_sub))
-            if joined != orig_sub:
-                _set_child(prog, "sub-title", joined, {"lang": "en"})
-        elif seg_fullname and _norm(seg_fullname) != _norm(orig_sub):
-            _set_child(prog, "sub-title", seg_fullname, {"lang": "en"})
-        elif orig_sub and clean_sub != orig_sub:
-            _set_child(prog, "sub-title", clean_sub, {"lang": "en"})
-        elif not orig_sub:
-            fill = (sp.get("sub") if sp else "") or (nm if season is not None else "")
-            if fill:
-                _set_child(prog, "sub-title", fill, {"lang": "en"})
-                stats["ep_name_added"] += 1
+        else:
+            if pinned_full:                                  # curated cartoon full pair/triplet
+                sub_text = pinned_full
+            elif orig_sub:
+                # feed/grabber episode name. Standardize ONLY the '/' separator
+                # (" / ") — never split on commas, which are part of real titles
+                # like "Patty, the Witness" or "Monkey See, Doggie Do / ...".
+                sub_text = " / ".join(s.strip() for s in re.split(r"\s*/\s*", clean_sub) if s.strip())
+            else:                                            # last-ditch backfill
+                sub_text = (sp.get("sub") if sp else "") or (nm if season is not None else "")
+                if sub_text:
+                    stats["ep_name_added"] += 1
+            if sub_text:
+                _set_child(prog, "sub-title", sub_text, {"lang": "en"})
 
         if disp_title:
             te = prog.find("title")
@@ -1205,6 +1285,10 @@ def enrich(path):
             if src and prog.find("icon") is None:
                 ET.SubElement(prog, "icon", {"src": src})
                 stats["icons"] += 1
+        # feed poster fallback (info.image) when the grab carried none
+        if feed_img and prog.find("icon") is None:
+            ET.SubElement(prog, "icon", {"src": feed_img})
+            stats["icons"] += 1
         _reorder(prog)
 
     # ── close the 1-2 min gaps between programmes: per channel, each show's
@@ -1224,13 +1308,31 @@ def enrich(path):
 
     save_cache(cache)
     tree.write(path, encoding="UTF-8", xml_declaration=True)
+
+    # ── gap report: every (show, episode) where we WITHHELD an S/E because the
+    #    absolute-number guess didn't agree with the feed's episode name. This is
+    #    your worklist: drop any you care about into SE_PINS to lock the S/E in. ──
+    report = os.path.join(os.path.dirname(os.path.abspath(path)), "missing_se.txt")
+    try:
+        with open(report, "w", encoding="utf-8") as fh:
+            fh.write("# Episodes with no confident S/E (sub-title + description are still correct).\n")
+            fh.write("# To add a number, copy a line into SE_PINS in enrich_toonami.py as:\n")
+            fh.write('#   ("<show>", "<episode>"): (season, episode),\n\n')
+            for show, epi in sorted(dropped_se):
+                fh.write(f'    ("{show}", "{epi}"): (, ),\n')
+        print(f"  S/E withheld (no match): {stats['se_dropped']}  -> {report} "
+              f"({len(dropped_se)} distinct)")
+    except Exception as e:
+        print(f"  warn: could not write {report}: {e}")
+
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
-    print(f"  S/E by episode name    : {stats['by_name']}")
+    print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}  "
           f"(episode names backfilled: {stats['ep_name_added']})")
+    print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
-    print(f"  posters <image>-><icon>: {stats['icons']}")
+    print(f"  posters -> icon        : {stats['icons']}")
     print(f"  gaps/overlaps closed   : {gaps_closed}")
 
 
