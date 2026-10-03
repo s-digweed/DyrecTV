@@ -1132,7 +1132,9 @@ def _xmltv_ts(start):
         return None
 
 def load_tam_index():
-    """{TAM channel id -> sorted [(ts, sub-title)]} from TAM's published index.xml."""
+    """{TAM channel id -> sorted [(ts, title, sub-title)]} from TAM's index.xml.
+    We keep the show TITLE so a name is only adopted when TAM has the SAME show
+    at that air-time (the two schedules can differ at the same timestamp)."""
     out = {}
     try:
         r = _sess.get(TAM_INDEX_URL, timeout=30)
@@ -1144,30 +1146,47 @@ def load_tam_index():
         print(f"  TAM index: fetch/parse failed ({e}); Snick names will fall back")
         return out
     for p in root.findall("programme"):
-        cid = p.get("channel"); sub = (p.findtext("sub-title") or "").strip()
+        cid = p.get("channel")
+        title = (p.findtext("title") or "").strip()
+        sub = (p.findtext("sub-title") or "").strip()
         ts = _xmltv_ts(p.get("start"))
-        if cid and sub and ts is not None:
-            out.setdefault(cid, []).append((ts, sub))
+        if cid and title and sub and ts is not None:
+            out.setdefault(cid, []).append((ts, title, sub))
     for cid in out:
         out[cid].sort(key=lambda r: r[0])
     n = sum(len(v) for v in out.values())
     print(f"  TAM index: {n} named programmes across channels {sorted(out)}")
     return out
 
-def tam_name_for(tam_index, our_channel, target_ts):
-    """Nearest TAM sub-title for a Snick air-time, or '' if none."""
+def _title_matches(a, b):
+    """True if two show titles refer to the same show (case/punct-insensitive,
+    substring either way, or a strong fuzzy ratio)."""
+    na, nb = _norm(a), _norm(b)
+    if not na or not nb:
+        return False
+    if na == nb or na in nb or nb in na:
+        return True
+    return difflib.SequenceMatcher(None, na, nb).ratio() >= 0.80
+
+def tam_name_for(tam_index, our_channel, target_ts, our_titles):
+    """Nearest TAM sub-title for a Snick air-time whose TAM title matches our
+    show, or '' if TAM has a different (or no) show at that time."""
     cid = TAM_CH_FOR.get(our_channel)
     rows = tam_index.get(cid) if cid else None
     if not rows or target_ts is None:
         return ""
+    cands = [t for t in our_titles if t]
     keys = [r[0] for r in rows]
     i = bisect.bisect_left(keys, target_ts)
     best = None
-    for j in (i - 1, i, i + 1):
+    # expand outward while within tolerance, keep only same-show rows
+    for j in range(i - 4, i + 5):
         if 0 <= j < len(rows):
-            d = abs(rows[j][0] - target_ts)
-            if d <= TAM_TOL_S and (best is None or d < best[0]):
-                best = (d, rows[j][1])
+            ts_j, title_j, sub_j = rows[j]
+            d = abs(ts_j - target_ts)
+            if d <= TAM_TOL_S and any(_title_matches(title_j, c) for c in cands):
+                if best is None or d < best[0]:
+                    best = (d, sub_j)
     return best[1] if best else ""
 
 
@@ -1301,7 +1320,8 @@ def enrich(path):
         # Episode-name precedence: the Toonami feed's own info.episode, else the
         # TAM feed's name for Snick (the feed itself has none), else the grabber's.
         grab_sub = (prog.findtext("sub-title") or "").strip()
-        tam_ep = tam_name_for(tam_index, prog.get("channel"), ts) if not feed_ep else ""
+        tam_ep = (tam_name_for(tam_index, prog.get("channel"), ts, [raw, disp_title or show])
+                  if not feed_ep else "")
         if tam_ep:
             stats["from_tam"] += 1
         orig_sub = feed_ep or tam_ep or grab_sub
