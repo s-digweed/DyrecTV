@@ -167,8 +167,51 @@ def special_title(raw):
     if m:
         return {"show": "RiffTrax", "sub": m.group(1).strip()}
     if raw.strip().lower() == "rifftrax shorts":
-        return {"show": "RiffTrax", "display": "RiffTrax Shorts"}
+        return {"show": "RiffTrax", "shorts": True}
     return None
+
+# RiffTrax feature riffs: normalized feed sub -> (display title, year, description)
+RIFFTRAX_SHORTS_DESC = ("The stars of Mystery Science Theater 3000 (1988) riff on weird and "
+                        "oddball educational shorts.")
+RIFFTRAX_MAP = {
+    "house on haunted hill": (
+        "RiffTrax Live: House on Haunted Hill (2010)", "2010",
+        "Hosted from Nashville on October 28th, 2010, the RiffTrax guys riff on \"House on "
+        "Haunted Hill (1959)\" while also watching the short subjects \"Paper and I (1960)\" and "
+        "\"Magical Disappearing Money (1972)\". Comedian, actor, and writer Paul F. Tompkins guest stars."),
+    "drag me to hell": (
+        "RiffTrax: Drag Me to Hell (2009)", "2009",
+        "Join Mike and Bill on this sentimental excursion down Hell Lane. Just watch out for "
+        "falling anvils and, really, just copious amounts of eyeball splatter."),
+    "island of dr moreau": (
+        "RiffTrax: The Island of Dr. Moreau (2006)", "2006",
+        "And the people cried out with one voice, \"Maketh us a movie in which Marlon Brando can "
+        "don a muumuu, false teeth, clown white make-up and a really gay bonnet. See that it also "
+        "stareth Val Kilmer at his scenery-chewing best. And, yea, putteth the extras in hot, "
+        "smelly animal suits and maketh you the plot absurd.\" And, lo, did John Frankenheimer "
+        "deliver unto us The Island of Dr. Moreau. And it was good. Truly, you must see it to "
+        "believe it. But you must only see it accompanied by this RiffTrax, for which Mike "
+        "enlisted the talents of Kevin Murphy, or else you WILL die."),
+    "twilight 4 breaking dawn": (
+        "RiffTrax: The Twilight Saga: Breaking Dawn, Part 1 (2012)", "2012",
+        "When word leaked that the final Twilight movie would be split into two parts, most "
+        "people assumed that this was done by the studio as a cynical cash grab. Not so. The last "
+        "chapter in the Twilight saga is so vast, so detailed, that it demanded the lush, "
+        "panoramic two movie treatment.\n\n"
+        "Okay, maybe they could have trimmed some of that twenty minute wedding because it was "
+        "very straightforward and didn't impact the story in any way and essentially could have "
+        "been a wedding from a Reese Witherspoon movie. And we probably didn't need every single "
+        "one of the scenes where Jacob visits the Cullen's house and shouts at someone. And dear "
+        "god, they are showing them playing chess on their honeymoon AGAIN!\n\n"
+        "Fortunately, the remaining twelve minutes of the movie that advances the \"plot\" in "
+        "some fashion makes up for the slow pace of the rest of the movie by being disgusting and "
+        "incoherent. The birth of Bella and Edward's horrible mutant spawn is repellent, nasty "
+        "and vile, and yes, we are just referring to the decision to name it Renesmee.*\n\n"
+        "Also, this time the wolves go to a logging plant and communicate via telepathy.\n\n"
+        "Mike, Kevin and Bill love to hang out at the logging plant too, or at least they did "
+        "until that lame foreman called their parents and ruined all their fun.\n\n"
+        "*DO NOT NAME YOUR CHILD THIS OR ALLOW ANYONE YOU KNOW TO NAME THEIR CHILD THIS"),
+}
 
 # ══════════════════════════════════════════════════════════════════════════
 # Metadata engine (TMDB -> TVmaze -> TVDB), lifted from the Whiplash generator
@@ -713,6 +756,7 @@ def enrich(path):
             continue
         sp = special_title(raw)
         ovr = TITLE_OVERRIDES.get(raw)
+        force_no_sub = False
         # resolve lookup show, on-screen title, pinned desc/date, and no-S/E flag
         if ovr:
             show = ovr.get("lookup", raw)
@@ -720,13 +764,30 @@ def enrich(path):
             forced_desc = ovr.get("desc")
             year = ovr.get("date")
             no_se = ovr.get("no_se", False)
-        elif sp:
+        elif sp and sp.get("season"):              # MST3K (keeps S/E)
             show = sp["show"]
-            disp_title = sp.get("display") or ("Mystery Science Theater 3000"
-                                               if sp.get("season") else "RiffTrax")
+            disp_title = "Mystery Science Theater 3000"
             forced_desc = None
             year = None
-            no_se = not sp.get("season")          # RiffTrax riffs/shorts: no S/E
+            no_se = False
+        elif sp and sp.get("shorts"):              # RiffTrax Shorts
+            show = "RiffTrax"
+            disp_title = "RiffTrax Shorts (2007)"
+            forced_desc = RIFFTRAX_SHORTS_DESC
+            year = "2007"
+            no_se = True
+            force_no_sub = True
+        elif sp:                                   # RiffTrax feature riff
+            show = "RiffTrax"
+            no_se = True
+            rt = RIFFTRAX_MAP.get(_norm(sp.get("sub", "")))
+            if rt:
+                disp_title, year, forced_desc = rt
+                force_no_sub = True                # the title already carries the film + year
+            else:
+                disp_title = "RiffTrax"
+                year = None
+                forced_desc = SHOW_DESC_OVERRIDE["RiffTrax"]
         else:
             show = ALIAS.get(raw, raw)
             disp_title = None
@@ -797,9 +858,12 @@ def enrich(path):
             print(f"  warn: {raw!r}: {e}")
             desc = desc or forced_desc or show_overview(show, cache)
 
-        # sub-title: upgrade a half-title to the full pair; apply the chapter
-        # cleanup to the displayed title; else backfill if empty
-        if seg_fullname and _norm(seg_fullname) != _norm(orig_sub):
+        # sub-title: RiffTrax feature/shorts carry everything in the title -> no sub;
+        # else upgrade a half-title to the full pair, apply chapter cleanup, or backfill
+        if force_no_sub:
+            for e in prog.findall("sub-title"):
+                prog.remove(e)
+        elif seg_fullname and _norm(seg_fullname) != _norm(orig_sub):
             _set_child(prog, "sub-title", seg_fullname, {"lang": "en"})
         elif orig_sub and clean_sub != orig_sub:
             _set_child(prog, "sub-title", clean_sub, {"lang": "en"})
