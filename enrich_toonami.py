@@ -54,7 +54,7 @@ ALIAS = {
     "Tick": "The Tick",
     "Batman": "Batman: The Animated Series",
     "Superman": "Superman: The Animated Series",
-    "Spiderman": "Spider-Man: The Animated Series",
+    "Spiderman": "Spider-Man (1967)",
     "Spider-Man": "Spider-Man: The Animated Series",
     "X-Men": "X-Men: The Animated Series",
     "Hulk": "The Incredible Hulk (1996)",
@@ -76,11 +76,81 @@ ALIAS = {
     "Car 54, Where Are You": "Car 54, Where Are You?",
     "Mr Wizard": "Mr. Wizard's World",
     "Rugrats": "Rugrats",
-    # movies / specials (resolved via the movie-search fallback in show_overview)
-    "Bugs Bunnys Halloween Hijinks": "Bugs Bunny's Halloween Hijinks",
-    "Interstella 5555": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
-    "Scooby-Doo and The Legend Of The Vampire": "Scooby-Doo! and the Legend of the Vampire",
-    "Rifftrax Shorts": "RiffTrax",
+    "Spider-Man (1967)": "Spider-Man (1967)",   # identity (used as a lookup key)
+}
+
+# ── per-title overrides: display name, lookup name, fixed desc, year field ──
+# "display": on-screen <title>  |  "lookup": name used for metadata search
+# "desc": pinned description (skips lookup)  |  "date": year -> <date> (movies/specials)
+# "no_se": never attach season/episode (movies, or series we have no S/E for)
+_D = "Dante journeys through the nine circles of Hell -- limbo, lust, gluttony, greed, anger, heresy, violence, fraud and treachery -- in search of his true love, Beatrice."
+TITLE_OVERRIDES = {
+    # ── movies / long specials (get a <date> year) ──
+    "Little Giants": {
+        "display": "Little Giants (1993)", "lookup": "Little Giants (1993)", "date": "1993",
+        "no_se": True,
+        "desc": "Misfits form their own opposing team to an elite peewee football team, "
+                "coached by the elite team coach's brother."},
+    "Dantes Inferno": {
+        "display": "Dante's Inferno: An Animated Epic (2010)",
+        "lookup": "Dante's Inferno: An Animated Epic", "date": "2010", "no_se": True, "desc": _D},
+    "Scooby-Doo and The Legend Of The Vampire": {
+        "display": "Scooby-Doo! and the Legend of the Vampire (2003)",
+        "lookup": "Scooby-Doo! and the Legend of the Vampire", "date": "2003", "no_se": True,
+        "desc": "The Mystery Gang travels to Australia for a vacation and attends a massive rock "
+                "music festival near Vampire Rock. A legendary vampire creature known as the Yowie "
+                "Yahoo begins kidnapping musical performers, prompting Scooby and the crew to solve "
+                "the mystery."},
+    "Bugs Bunnys Halloween Hijinks": {
+        "display": "Bugs Bunny's Halloween Hijinks (2000)",
+        "lookup": "Bugs Bunny's Halloween Hijinks", "date": "2000", "no_se": True},
+    "The Dark Crystal": {
+        "display": "The Dark Crystal (1984)", "lookup": "The Dark Crystal", "date": "1984",
+        "no_se": True,
+        "desc": "On another planet in the distant past, the last of the Gelfling race embarks on a "
+                "quest to find the missing shard of a magical crystal and to restore order to his world."},
+    "Interstella 5555": {
+        "display": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)",
+        "lookup": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem", "date": "2003",
+        "no_se": True},
+    # ── series (year in the title for distinction; no <date>) ──
+    "Land of the Lost 1991": {
+        "display": "Land of the Lost (1991)", "lookup": "Land of the Lost (1991)", "no_se": True,
+        "desc": "Tom and his two teen children, Kevin and younger sister Annie, find themselves "
+                "trapped in a parallel universe when their jeep falls into the time portal while "
+                "exploring the countryside; together, they must learn to survive."},
+    "The Tomorrow People": {
+        "display": "The Tomorrow People (1992)", "lookup": "The Tomorrow People (1992)", "no_se": True,
+        "desc": "The Tomorrow People are the next evolutionary stage of humans with abilities like "
+                "teleportation, telepathy, and healing. Aided by an ancient spacecraft, they use "
+                "their powers to protect the world while keeping their existence secret."},
+    "Fist Of The North Star": {
+        "display": "Fist of the North Star", "lookup": "Fist of the North Star (1984)", "no_se": True,
+        "desc": "After a nuclear war turns Earth into a lawless wasteland, Kenshiro, a practitioner "
+                "of the deadly master art \"Hokuto Shinken\", fights a succession of tyrannical "
+                "warriors to restore order."},
+    "Super Sloppy Double Dare": {
+        "display": "Super Sloppy Double Dare", "lookup": "Super Sloppy Double Dare", "no_se": True,
+        "desc": "On your mark, get set, go! Join four contestants as they answer questions and take "
+                "on messy physical challenges (like running in a giant hamster wheel, popping "
+                "balloons filled with shaving cream, and more) for the chance to win Super Sloppy "
+                "Double Dare!"},
+    # ── series with S/E kept, just display/lookup fixes ──
+    "Spiderman":  {"display": "Spider-Man (1967)", "lookup": "Spider-Man (1967)"},
+    "Spider-Man": {"display": "Spider-Man: The Animated Series",
+                   "lookup": "Spider-Man: The Animated Series"},
+}
+
+# pinned season/episode for specific (lookup-show, normalized episode name) pairs
+EPISODE_SE_OVERRIDE = {
+    ("Spider-Man: The Animated Series", "six forgotten warriors chapter 2 unclaimed legacy"): (5, 3),
+    ("Spider-Man: The Animated Series", "six forgotten warriors chapter 4 the six fight again"): (5, 5),
+}
+
+# pinned show-level descriptions (consulted first in show_overview)
+SHOW_DESC_OVERRIDE = {
+    "RiffTrax": "Feature films and short subjects presented with comedic running commentary -- "
+                "packed with jokes, asides, and relentless riffing from start to finish.",
 }
 
 # Titles that embed their own metadata or are riff one-offs.
@@ -96,15 +166,9 @@ def special_title(raw):
     m = _RIFF.match(raw)
     if m:
         return {"show": "RiffTrax", "sub": m.group(1).strip()}
+    if raw.strip().lower() == "rifftrax shorts":
+        return {"show": "RiffTrax", "display": "RiffTrax Shorts"}
     return None
-
-# Clean up the ON-SCREEN title for these exact strings (display only).
-DISPLAY_RENAME = {
-    "Bugs Bunnys Halloween Hijinks": "Bugs Bunny's Halloween Hijinks",
-    "Interstella 5555": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
-    "Scooby-Doo and The Legend Of The Vampire": "Scooby-Doo! and the Legend of the Vampire",
-    "Rifftrax Shorts": "RiffTrax Shorts",
-}
 
 # ══════════════════════════════════════════════════════════════════════════
 # Metadata engine (TMDB -> TVmaze -> TVDB), lifted from the Whiplash generator
@@ -239,7 +303,10 @@ TVDB_KEY = os.environ.get("TVDB_API_KEY", "").strip()
 TVDB_BASE = "https://api4.thetvdb.com/v4"
 ENABLE_TVDB = bool(TVDB_KEY)
 _TVDB_TOKEN = None
-SHOW_TVDB_OVERRIDES = {"Spider-Man: The Animated Series": "spider-man-1994"}
+SHOW_TVDB_OVERRIDES = {
+    "Spider-Man: The Animated Series": "spider-man-1994",
+    "Spider-Man (1967)": "spider-man-1967",
+}
 
 
 def _tvdb_login():
@@ -331,6 +398,26 @@ def _tvdb_meta(show, season, ep, cache):
 def _norm(name):
     return re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()
 
+def _segments(name):
+    """Normalized halves of a paired episode title like 'A / B' (for segment matching)."""
+    if not name or "/" not in name:
+        return []
+    return [s for s in (_norm(p) for p in name.split("/")) if s]
+
+_ROMAN = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8,
+          "ix": 9, "x": 10, "xi": 11, "xii": 12, "xiii": 13, "xiv": 14, "xv": 15}
+
+def clean_chapter(s):
+    """House rule: 'Foo, Chapter IV: Bar' -> 'Foo Chapter 4: Bar' (drop the comma
+    before Chapter, roman numeral -> arabic)."""
+    if not s:
+        return s
+    s = re.sub(r",\s*(Chapter)\b", r" \1", s, flags=re.I)
+    def repl(m):
+        return "Chapter " + str(_ROMAN.get(m.group(1).lower(), m.group(1)))
+    s = re.sub(r"\bChapter\s+([IVXLCDM]+)\b", repl, s)
+    return re.sub(r"\s{2,}", " ", s).strip()
+
 
 def _tvmaze_namemap(tid, cache):
     key = str(tid)
@@ -343,6 +430,8 @@ def _tvmaze_namemap(tid, cache):
             nm = _norm(e.get("name")); sn = e.get("season"); num = e.get("number")
             if nm and sn and num:
                 m.setdefault(nm, [sn, num])
+                for seg in _segments(e.get("name")):   # "A / B" pairs -> index each half
+                    m.setdefault(seg, [sn, num])
     cache["tvmaze_namemap"][key] = m
     return m
 
@@ -361,6 +450,8 @@ def _tvdb_namemap(tid, cache):
             nm = _norm(e.get("name")); sn = e.get("seasonNumber"); num = e.get("number")
             if nm and sn and num:
                 m.setdefault(nm, [sn, num])
+                for seg in _segments(e.get("name")):
+                    m.setdefault(seg, [sn, num])
         if len(eps) < 100:
             break
     cache["tvdb_namemap"][key] = m
@@ -403,6 +494,8 @@ def episode_meta(show, season, ep, cache):
 
 
 def show_overview(show, cache):
+    if show in SHOW_DESC_OVERRIDE:
+        return SHOW_DESC_OVERRIDE[show]
     if show in cache["show_syn"] and cache["show_syn"][show]:
         return cache["show_syn"][show]
     ym = _QYEAR.search(show)
@@ -567,8 +660,8 @@ def _set_child(prog, tag, text, attrib=None):
 
 
 def _reorder(prog):
-    """Keep XMLTV child order valid: title, sub-title, desc, episode-num, icon."""
-    order = {"title": 0, "sub-title": 1, "desc": 2, "episode-num": 3, "icon": 4}
+    """Keep XMLTV child order valid: title, sub-title, desc, date, episode-num, icon."""
+    order = {"title": 0, "sub-title": 1, "desc": 2, "date": 3, "episode-num": 4, "icon": 5}
     kids = list(prog)
     for k in kids:
         prog.remove(k)
@@ -619,16 +712,31 @@ def enrich(path):
         if not raw:
             continue
         sp = special_title(raw)
-        show = sp["show"] if sp else ALIAS.get(raw, raw)
-        # on-screen title cleanup (MST3K/RiffTrax -> series name; exact-string fixes)
-        if sp and sp.get("season"):
-            disp_title = "Mystery Science Theater 3000"
+        ovr = TITLE_OVERRIDES.get(raw)
+        # resolve lookup show, on-screen title, pinned desc/date, and no-S/E flag
+        if ovr:
+            show = ovr.get("lookup", raw)
+            disp_title = ovr.get("display")
+            forced_desc = ovr.get("desc")
+            year = ovr.get("date")
+            no_se = ovr.get("no_se", False)
         elif sp:
-            disp_title = "RiffTrax"
+            show = sp["show"]
+            disp_title = sp.get("display") or ("Mystery Science Theater 3000"
+                                               if sp.get("season") else "RiffTrax")
+            forced_desc = None
+            year = None
+            no_se = not sp.get("season")          # RiffTrax riffs/shorts: no S/E
         else:
-            disp_title = DISPLAY_RENAME.get(raw)
+            show = ALIAS.get(raw, raw)
+            disp_title = None
+            forced_desc = None
+            year = None
+            no_se = False
+
         orig_sub = (prog.findtext("sub-title") or "").strip()
-        epname = orig_sub or (sp.get("sub") if sp else "")
+        clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
+        epname = clean_sub or (sp.get("sub") if sp else "")
         base, delay = CH_MAP[prog.get("channel")]
         ts = _prog_start_ts(prog)
         absN = lookup_epnum(epindex.get(base, []), ts - delay * 60) if ts is not None else None
@@ -637,45 +745,65 @@ def enrich(path):
         season = ep = None
         ov = nm = ""
         source = None
+        seg_fullname = ""
         try:
-            # 0) MST3K titles carry their own S##E## -> authoritative
-            if sp and sp.get("season"):
-                season, ep = sp["season"], sp["ep"]
-                ov, nm = episode_meta(show, season, ep, cache)
-                source = "name"
-            # 1) episode NAME match (exact, best for Western cartoons)
-            if season is None and epname:
-                cands = [epname]
-                for sep in (" / ", "/", " - "):
-                    if sep in epname:
-                        cands.append(epname.split(sep)[0].strip())
-                for cand in cands:
-                    season, ep = _name_to_se(show, cand, cache)
-                    if season:
-                        break
-                if season:
+            if not no_se:
+                # 0a) explicit episode pin: (lookup show, normalized episode name)
+                pin = EPISODE_SE_OVERRIDE.get((show, _norm(epname))) if epname else None
+                if pin:
+                    season, ep = pin
                     ov, nm = episode_meta(show, season, ep, cache)
                     source = "name"
-            # 2) ABSOLUTE episodeNumber from the feed (rescues dubbed anime + Snick)
-            if season is None and absN:
-                s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
-                if s2:
-                    season, ep, ov, nm = s2, e2n, ov2, nm2
-                    source = "absolute"
+                # 0b) MST3K titles carry their own S##E##
+                if season is None and sp and sp.get("season"):
+                    season, ep = sp["season"], sp["ep"]
+                    ov, nm = episode_meta(show, season, ep, cache)
+                    source = "name"
+                # 1) episode NAME match (exact / segment, best for Western cartoons)
+                if season is None and epname:
+                    cands = [epname]
+                    for sep in (" / ", "/", " - "):
+                        if sep in epname:
+                            cands.append(epname.split(sep)[0].strip())
+                    for cand in cands:
+                        season, ep = _name_to_se(show, cand, cache)
+                        if season:
+                            break
+                    if season:
+                        ov, nm = episode_meta(show, season, ep, cache)
+                        source = "name"
+                        # if we matched a HALF of a paired DB title, show the full pair
+                        if nm and "/" in nm and _norm(epname) in _segments(nm):
+                            seg_fullname = nm
+                # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick)
+                if season is None and absN:
+                    s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
+                    if s2:
+                        season, ep, ov, nm = s2, e2n, ov2, nm2
+                        source = "absolute"
             # 3) description
-            if season is not None:
+            if forced_desc:
+                desc = forced_desc
+            elif season is not None:
                 desc = (ov or show_overview(show, cache))
-                stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
                 desc = show_overview(show, cache)
+            # tally how S/E was resolved
+            if season is not None:
+                stats["by_name" if source == "name" else "by_absolute"] += 1
+            else:
                 stats["show_level"] += 1
         except Exception as e:
             print(f"  warn: {raw!r}: {e}")
-            desc = desc or show_overview(show, cache)
+            desc = desc or forced_desc or show_overview(show, cache)
 
-        # backfill the on-screen sub-title when the source had none:
-        # prefer a parsed special sub (MST3K/RiffTrax), else the matched ep name
-        if not orig_sub:
+        # sub-title: upgrade a half-title to the full pair; apply the chapter
+        # cleanup to the displayed title; else backfill if empty
+        if seg_fullname and _norm(seg_fullname) != _norm(orig_sub):
+            _set_child(prog, "sub-title", seg_fullname, {"lang": "en"})
+        elif orig_sub and clean_sub != orig_sub:
+            _set_child(prog, "sub-title", clean_sub, {"lang": "en"})
+        elif not orig_sub:
             fill = (sp.get("sub") if sp else "") or (nm if season is not None else "")
             if fill:
                 _set_child(prog, "sub-title", fill, {"lang": "en"})
@@ -690,11 +818,13 @@ def enrich(path):
             _set_child(prog, "desc", desc, {"lang": "en"})
         else:
             stats["no_desc"] += 1
+        if year:                                   # year field for movies / long specials
+            _set_child(prog, "date", str(year))
         if season is not None:
             _set_child(prog, "episode-num",
                        f"{season - 1}.{ep - 1}.", {"system": "xmltv_ns"})
             e2 = ET.SubElement(prog, "episode-num", {"system": "onscreen"})
-            e2.text = f"S{season:02d}E{ep:02d}"
+            e2.text = f"S{season:02d} E{ep:02d}"
         # Rewrite the grabber's non-standard <image>URL</image> (which players
         # ignore) into a proper <icon src="URL"/> so posters actually show.
         for im in prog.findall("image"):
