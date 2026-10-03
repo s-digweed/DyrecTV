@@ -772,6 +772,10 @@
 "n": "I Dream of Snorch With the Long Golden Hair",
 "o": "Ickis and Krumm are debating over who's the \"\"most fearless\"\" monster. Oblina is sick of listening to Krumm and Ickis and dares them to sneak into Snorch's room while he's sleeping and pluck a golden hair out of his nose. When the Snorch awakes and notices his prized possession missing, he gets into a horrible mood. He takes it out on everyone in the Academy including his best friend, Zimbo. Zimbo takes it upon himself to find out \"\"who done it.\"\""
 },
+"2429|3|1": {
+"n": "Festival of the Festering Moon",
+"o": "The festival celebrates the shedding of skins that each monster must undergo as he or she moves from childhood to adolescence. As the festival approaches, Krumm is chosen to form a band and Oblina is chosen to perform the festival's ceremonial dance. Ickis, who shows no signs of shedding, feels left out."
+},
 "24710|1|1": {
 "n": "Girl at the Eiffel Tower",
 "o": "Jean, a 14-year-old orphan, sailing into Paris to help his uncle design an airplane for the Paris Exposition's flight competition meets a pretty young girl named Nadia and her pet lion cub, King. He ends up rescuing her from a woman named Grandis who is trying to get Nadia's jewel, the Blue Water. Nadia leaves the only home she ever knew - a circus - as Jean has offered to help her search for her place of origin, starting with the random choice of Africa..."
@@ -1019,6 +1023,10 @@
 "3022|3|45": {
 "n": "KidTV",
 "o": "After being disgusted by a competitor's toy commercial on TV (a \"\"Transformer\"\"-type flying bird that flies, goes in space, does your homework, etc.), Stu throws his invention (similar to what's on the commercial, except it doesn't do anything) at the TV, breaking the TV and the bird (the latter already broken to begin with). Afterwards, the Rugrats use a box (a \"\"Cheese of the Month\"\" box that was to be used to ship the TV back to Japan) to make their own shows, all making a rather colorful lineup."
+},
+"3022|3|47": {
+"n": "I Remember Melville",
+"o": "Melville, Chuckie's pet bug, died while in the other Rugrats' care. They try to find ways to avoid passing that fact to Chuckie."
 },
 "3043|1|2": {
 "n": "Signals",
@@ -1351,6 +1359,10 @@
 "384|3|21": {
 "n": "Doug's Shock Therapy",
 "o": "Mr. Bone is in the hospital and Doug unwittingly volunteers to take get well soon cards to him from Mrs. Wingo's class. But when Doug gets there, Mr. Bone thinks he's getting Doug's prized skateboard instead. What's more, the skateboard brings childhood memories to Mr. \"\"T- Bone\"\"."
+},
+"384|3|23": {
+"n": "Doug and the Yard of Doom",
+"o": "Doug and Skeeter are playing with Patti's new Wacky-Wizzer frisbee and accidentally toss into a fenced-in yard. Going in after it, Doug has a near-death experience when he encounters a huge guard dog named Lady."
 },
 "4035|1|1": {
 "n": "Monster Lake",
@@ -1904,6 +1916,10 @@
 "n": "Down the Hatch",
 "o": "Rocko must take Spunky to the vet after he eats a vitamin that can cause pets to explode."
 },
+"657|3|9": {
+"n": "Nothing to Sneeze At",
+"o": "A mistake at the hospital endows Beverly with a nose, but the stench of her husband Ed is making her sick."
+},
 "6592|1|4": {
 "n": "Day of the Fish",
 "o": "The League of Superheroes runs out of sugar, so Jim flies of to La Planeta de Agua to get some. Bob the Killer Goldfish takes advantage of Jim and steals his super suit so he can conquer the Earth"
@@ -2421,6 +2437,7 @@
 "zoids: new century": 29540
 },
 "simkl_id": {
+"aaahh real monsters": null,
 "alvin and the chipmunks": null,
 "angry beavers": null,
 "animaniacs": null,
@@ -2438,6 +2455,7 @@
 "nadia the secret of blue water": null,
 "patlabor": null,
 "ranma": null,
+"rocko s modern life": null,
 "rugrats": null,
 "spider man the animated series": null,
 "the busy world of richard scarry": null,
