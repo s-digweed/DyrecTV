@@ -210,6 +210,18 @@ SE_PINS = {
     ('Zoids: New Century', 'The Brave Wild Eagle - The Raynos vs. The Zabat'): (1, 13),
     ('Zoids: New Century', 'The Sensational Three - Rematch with Jack Sisco'): (1, 11),
     ('Zoids: New Century', 'Zero is Stolen - The Fiery Battle'): (1, 12),
+    # --- batch 2 (user corrections) ---
+    ('Fifteen', 'Free Falling'): (1, 5),
+    ('Flipper', 'Dolphin in Pursuit: Part 2'): (2, 3),
+    ('Nickelodeon GUTS', 'Rebecca - Cam - Oliver'): (1, 38),
+    ('Noozles', 'Run Away from Home'): (1, 21),
+    ('The Adventures of Superman', 'The Talking Clue'): (3, 2),
+    ('The Adventures of Superman', 'Through the Time Barrier'): (3, 1),
+    ('The Rocky and Bullwinkle Show', 'Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter'): (2, 39),
+    ('The Rocky and Bullwinkle Show', 'Hop Skip and Junk, or Bullwinkle\'s Big Tow/Bucks for Boris, or The Green Paper Caper'): (2, 40),
+    ('The Rocky and Bullwinkle Show', 'When Moose Meets Moose, or Two\'s a Crowd/The Midnight Chew-Chew, or This Gum for Hire'): (2, 41),
+    ('The Adventures of Tintin', 'Land of Black Gold: Part 1'): (2, 10),
+    ('The Adventures of Tintin', 'Land of Black Gold: Part 2'): (2, 11),
 }
 
 # Episode sub-title corrections (accents, split-separators, alternate names).
@@ -224,6 +236,11 @@ SUBTITLE_OVERRIDE = {
         "Crash! The Lethal Punch, Futae No Kiwami: The Fist of Sonosuke Screams!",
     ("Zoids: New Century", "The Sensational Three - Rematch with Jack Sisco"):
         "The Sensational Three: Rematch with Jack Cisco",
+    # --- batch 2: give placeholder "Episode #x.y" slots their real names ---
+    ("All That", "Episode #2.19"): "Shai",
+    ("All That", "Episode #2.20"): "IV Xample",
+    ("Flipper", "Episode #3.21"): "The Wish",
+    ("You Can't Do That on Television", "Episode #1.7"): "St. Patrick's Day",
 }
 def _subtitle_override(show, sub):
     if not sub:
@@ -233,6 +250,33 @@ def _subtitle_override(show, sub):
         if s == show and _norm(fsub) == want:
             return repl
     return None
+
+# Per-episode description overrides (hand-supplied), keyed by (show, feed sub).
+# Wins over DB/show-level descriptions. Use for episodes the DBs lack.
+DESC_OVERRIDE = {
+    ("All That", "Episode #2.19"): "The cast plays a card trick on Josh; when a rabid elephant "
+        "is on the loose, Ed is hit with a tranquilizer while elephant hunters are searching Good Burger.",
+    ("All That", "Episode #2.20"): "Cold Bear Open; Good Booo-ger; Vital Information; Earboy on "
+        "Trial; Did You Hear...; Peter & Flem.",
+    ("Flipper", "Episode #3.21"): "A dying girl's one wish is to swim with a dolphin.",
+    ("You Can't Do That on Television", "Episode #1.7"): "On St. Patrick's Day, amid disco-dancing "
+        "finalists, call-in contests, and community announcements, Lisa sets out to get Bradfield "
+        "wearin' green--slime, that is.",
+}
+def _desc_override(show, sub):
+    if not sub:
+        return None
+    want = _norm(sub)
+    for (s, fsub), repl in DESC_OVERRIDE.items():
+        if s == show and _norm(fsub) == want:
+            return repl
+    return None
+
+# "Episode #2.19" / "Episode 2x19" placeholders encode the season/episode -> decode it.
+_EP_PLACEHOLDER = re.compile(r"^\s*episode\s*#?\s*(\d+)\s*[.x]\s*(\d+)\s*$", re.I)
+def _decode_placeholder_se(name):
+    m = _EP_PLACEHOLDER.match(name or "")
+    return (int(m.group(1)), int(m.group(2))) if m else None
 def _se_pin(show, epname):
     if not epname:
         return None
@@ -287,6 +331,9 @@ DISPLAY_CANON = {
     "Gundam Wing": "Mobile Suit Gundam Wing",
     "Initial D": "Initial D: First Stage",
     "Zoids": "Zoids: New Century",
+    "Flipper: The New Adventures": "Flipper",
+    "Global Guts": "Nickelodeon GUTS",
+    "Tintin": "The Adventures of Tintin",
     "Space Ghost C2C": "Space Ghost Coast to Coast",
     "Thundercats": "ThunderCats",
     "Tick": "The Tick",
@@ -533,7 +580,7 @@ def load_cache():
         c = {}
     for k in ("shows", "episodes", "tvmaze_shows", "tvmaze_episodes", "tmdb_seasons",
               "tvmaze_eplist", "tvdb_shows", "tvdb_episodes", "tvmaze_namemap",
-              "tvdb_namemap", "show_syn"):
+              "tvdb_namemap", "show_syn", "simkl_id", "simkl_namemap"):
         c.setdefault(k, {})
     return c
 
@@ -869,6 +916,90 @@ def _tvdb_namemap(tid, cache):
     return m
 
 
+# ── SIMKL (optional 4th resolver) ──────────────────────────────────────────
+# Supplementary name->S/E source, gated on a SIMKL_CLIENT_ID secret. SIMKL is
+# AniDB/TMDB/TVDB-backed with good anime + absolute coverage, so it can resolve
+# episode names the other three miss. Best-effort: any failure just no-ops, and
+# (like the other name maps) it only ever yields an S/E when an episode NAME
+# matches, so it can't inject a wrong title.
+SIMKL_CLIENT_ID = os.environ.get("SIMKL_CLIENT_ID", "").strip()
+ENABLE_SIMKL = bool(SIMKL_CLIENT_ID)
+SIMKL_BASE = "https://api.simkl.com"
+_SIMKL_HITS = 0
+
+def _simkl_get(path, **params):
+    params.setdefault("client_id", SIMKL_CLIENT_ID)
+    headers = {"simkl-api-key": SIMKL_CLIENT_ID, "Accept": "application/json"}
+    for _ in range(2):
+        try:
+            r = _sess.get(SIMKL_BASE + path, params=params, headers=headers, timeout=20)
+            if r.status_code == 200:
+                return r.json()
+            if r.status_code in (429, 502, 503):
+                time.sleep(1); continue
+            return None
+        except requests.RequestException:
+            time.sleep(1)
+    return None
+
+def _resolve_simkl_id(show, cache):
+    key = _norm(show)
+    if key in cache["simkl_id"]:
+        return cache["simkl_id"][key]
+    sid = None
+    for ep in ("/search/tv", "/search/anime"):
+        data = _simkl_get(ep, q=show)
+        if isinstance(data, list) and data:
+            ids = (data[0] or {}).get("ids") or {}
+            sid = ids.get("simkl") or ids.get("simkl_id")
+            if sid:
+                break
+    cache["simkl_id"][key] = sid
+    return sid
+
+def _simkl_namemap(sid, cache):
+    key = str(sid)
+    if key in cache["simkl_namemap"]:
+        return cache["simkl_namemap"][key]
+    m = {}
+    data = _simkl_get(f"/tv/episodes/{sid}", extended="full")
+    if isinstance(data, list):
+        for e in data:
+            nm = _norm(e.get("title"))
+            sn = e.get("season"); num = e.get("episode")
+            if nm and sn and num:
+                m.setdefault(nm, [sn, num])
+                for seg in _segments(e.get("title")):
+                    m.setdefault(seg, [sn, num])
+    cache["simkl_namemap"][key] = m
+    return m
+
+def _simkl_name_to_se(show, name, cache):
+    if not ENABLE_SIMKL:
+        return None, None
+    try:
+        target = _norm(name)
+        if not target:
+            return None, None
+        sid = _resolve_simkl_id(show, cache)
+        if not sid:
+            return None, None
+        m = _simkl_namemap(sid, cache)
+        global _SIMKL_HITS
+        se = m.get(target)
+        if se:
+            _SIMKL_HITS += 1
+            return se[0], se[1]
+        hit = difflib.get_close_matches(target, list(m.keys()), n=1, cutoff=0.90)
+        if hit:
+            _SIMKL_HITS += 1
+            se = m[hit[0]]
+            return se[0], se[1]
+    except Exception:
+        pass
+    return None, None
+
+
 def _name_to_se(show, name, cache):
     target = _norm(name)
     if not target:
@@ -885,6 +1016,10 @@ def _name_to_se(show, name, cache):
             se = _tvdb_namemap(tid, cache).get(target)
             if se:
                 return se[0], se[1]
+    if ENABLE_SIMKL:                       # supplementary 4th source (exact + fuzzy)
+        s, e = _simkl_name_to_se(show, name, cache)
+        if s:
+            return s, e
     return None, None
 
 
@@ -1375,6 +1510,14 @@ def enrich(path):
                     season, ep = sp["season"], sp["ep"]
                     ov, nm = episode_meta(show, season, ep, cache)
                     source = "name"
+                # 0c) "Episode #S.E" placeholder names ENCODE the S/E -> decode it
+                #     (reliable, not a guess: the number is literally in the name).
+                if season is None and not is_curated:
+                    dec = _decode_placeholder_se(epname)
+                    if dec:
+                        season, ep = dec
+                        ov, nm = episode_meta(show, season, ep, cache)
+                        source = "name"
                 # 1) episode NAME match (exact / segment, best for Western cartoons)
                 #    Skipped for pinned segment cartoons: if a segment isn't in the
                 #    pinned list (e.g. a season we don't have), we do NOT guess S/E.
@@ -1426,7 +1569,10 @@ def enrich(path):
             # 3) description
             #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
             #    the fixed series blurb (never the metadata API -> no wrong series).
-            if forced_desc:
+            dov = _desc_override(disp_title or show, epname)
+            if dov:                              # hand-supplied episode description wins
+                desc = dov
+            elif forced_desc:
                 desc = forced_desc
             elif is_curated:
                 desc = pinned_syn or show_overview(show, cache)
@@ -1455,6 +1601,11 @@ def enrich(path):
                 sub_text = pinned_full
             elif ov_sub:                                     # explicit correction (accent/split/alt-name)
                 sub_text = ov_sub
+            elif _decode_placeholder_se(orig_sub):
+                # bare "Episode #2.19" placeholder with no real name supplied:
+                # the S/E is already decoded onto the badge, so don't show the ugly
+                # placeholder as the episode title -> leave it blank.
+                sub_text = ""
             elif orig_sub:
                 # feed/grabber episode name. Standardize ONLY the '/' separator
                 # (" / ") — never split on commas, which are part of real titles
@@ -1468,6 +1619,9 @@ def enrich(path):
                     stats["ep_name_added"] += 1
             if sub_text:
                 _set_child(prog, "sub-title", sub_text, {"lang": "en"})
+            elif _decode_placeholder_se(orig_sub):
+                for e in prog.findall("sub-title"):   # drop a stale "Episode #x.y"
+                    prog.remove(e)
 
         if disp_title:
             te = prog.find("title")
@@ -1540,6 +1694,8 @@ def enrich(path):
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  Snick names from TAM    : {stats['from_tam']}")
+    print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
+          f"{f', {_SIMKL_HITS} extra S/E' if ENABLE_SIMKL else ''}")
     print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
