@@ -152,7 +152,87 @@ EPISODE_SE_OVERRIDE = {
 # Grab the names to add here from the generated `missing_se.txt` report.
 #   e.g. ("Dragnet", "The Bank Jobs"): (2, 7),
 SE_PINS = {
+    ('Android Kikaider', 'The End of the Dream (Finale)'): (1, 13),
+    ('Batman: The Animated Series', "The Joker's Favor"): (1, 7),
+    ('Digimon Adventure', 'City Under Siege'): (1, 36),
+    ('Digimon Adventure', 'Flower Power'): (1, 35),
+    ('Dragon Ball Z', 'A Heavy Burden'): (2, 18),
+    ('Dragon Ball Z', 'Arrival of The Ginyu Force'): (2, 22),
+    ('Dragon Ball Z', 'Big Trouble for Bulma'): (2, 20),
+    ('Dragon Ball Z', 'Elite Fighters of The Universe..'): (2, 23),
+    ('Dragon Ball Z', 'Enter Goku'): (2, 26),
+    ('Dragon Ball Z', 'Get Vegeta!!'): (2, 16),
+    ('Dragon Ball Z', 'Goku... Super Saiyan?'): (2, 27),
+    ('Dragon Ball Z', 'Immortality Denied'): (2, 19),
+    ('Dragon Ball Z', 'No Refuge from Recoome'): (2, 25),
+    ('Dragon Ball Z', 'Scramble for the Dragon Balls'): (2, 21),
+    ('Dragon Ball Z', 'Time Tricks and Body Binds'): (2, 24),
+    ('Dragon Ball Z', 'Vegeta Revived'): (2, 17),
+    ('Fantastic Four', 'Danger In The Depths'): (1, 12),
+    ('Fighting Spirit', 'A Step Further (Finale)'): (1, 75),
+    ('Fullmetal Alchemist', 'A Rotted Heart'): (1, 45),
+    ('Mobile Suit Gundam Wing', 'Passing Destinies (Recap)'): (1, 28),
+    ('Mobile Suit Gundam Wing', 'The Locus of Victory and Defeat (Recap)'): (1, 27),
+    ('I Am Weasel', 'I Am Cliched'): (4, 2),
+    ('Initial D: First Stage', 'Conclusion! Dogfight!'): (1, 5),
+    ('Lupin the Third: Part II', 'Cursed Case Scenario'): (1, 7),
+    ('Lupin the Third: Part II', 'Disorient Express'): (1, 8),
+    ('Lupin the Third: Part II', "Now Museum, Now You Don't"): (1, 9),
+    ('Nadia: The Secret of Blue Water', 'The Little Fugitives'): (1, 2),
+    ('Neon Genesis Evangelion', 'At Least, Be Human'): (1, 22),
+    ('Neon Genesis Evangelion', 'The Birth of NERV'): (1, 21),
+    ('Pokémon', 'Ash Catches a Pokemon'): (1, 3),
+    ('Pokémon', 'Pokemon Emergency!'): (1, 2),
+    ('Rurouni Kenshin', 'Crash! The Lethal Punch: The Fist of Sonosuke Screams!'): (2, 20),
+    ('Sailor Moon', 'Bad Harmony'): (3, 4),
+    ('Sailor Moon', 'Crystal Clear Again'): (3, 2),
+    ('Sailor Moon', 'Diamond In The Rough'): (2, 40),
+    ('Sailor Moon', 'Driving Dangerously'): (3, 3),
+    ('Sailor Moon', 'Final Battle'): (2, 41),
+    ('Sailor Moon', 'Follow The Leader'): (2, 42),
+    ('Sailor Moon', 'Star Struck, Bad Luck'): (3, 1),
+    ('Saint Seiya', 'Dragon! Victory of Self-Sacrifice'): (1, 28),
+    ('Saint Seiya', 'Stone Seiya! Shield of Medusa'): (1, 27),
+    ('Scooby Doo, Where Are You!', 'A Tiki Scare is No Fair'): (2, 6),
+    ('Scooby Doo, Where Are You!', "Don't Fool with a Phantom"): (2, 8),
+    ('Scooby Doo, Where Are You!', 'Haunted House Hang-Up'): (2, 5),
+    ('Scooby Doo, Where Are You!', "Who's Afraid of the Big Bad Werewolf?"): (2, 7),
+    ('Static Shock', 'She-Bang'): (3, 4),
+    ('Superman: The Animated Series', 'Little Girl Lost (Part 2)'): (2, 28),
+    ('The Mighty Thor', 'The Grey Gargoyle, The Wrath of Odin, Triumph in Stone'): (1, 7),
+    ('The Real Adventures of Jonny Quest', 'In the Wake of the Mary Celeste'): (1, 14),
+    ('The Tick', 'Evil Sits Down for a Moment'): (2, 7),
+    ('The Tick', 'Heroes'): (2, 8),
+    ('X-Men: The Animated Series', 'Sanctuary (Part 1)'): (4, 6),
+    ('X-Men: The Animated Series', 'Sanctuary (Part 2)'): (4, 7),
+    ('Yu-Gi-Oh!', 'The Dark Spirit Revealed (Part 1)'): (2, 33),
+    ('Yu-Gi-Oh!', 'The Dark Spirit Revealed (Part 2)'): (2, 34),
+    ('Zoids: New Century', 'The Brave Wild Eagle - The Raynos vs. The Zabat'): (1, 13),
+    ('Zoids: New Century', 'The Sensational Three - Rematch with Jack Sisco'): (1, 11),
+    ('Zoids: New Century', 'Zero is Stolen - The Fiery Battle'): (1, 12),
 }
+
+# Episode sub-title corrections (accents, split-separators, alternate names).
+# Keyed by (display show, feed sub-title); applied to the shown <sub-title>.
+SUBTITLE_OVERRIDE = {
+    ("I Am Weasel", "I Am Cliched"): "I Am Clichéd",
+    ("Pokémon", "Pokemon Emergency!"): "Pokémon Emergency!",
+    ("The Mighty Thor", "The Grey Gargoyle, The Wrath of Odin, Triumph in Stone"):
+        "The Grey Gargoyle / The Wrath of Odin / Triumph in Stone",
+    ("Neon Genesis Evangelion", "At Least, Be Human"): "At Least, Be Human (Don't Be)",
+    ("Rurouni Kenshin", "Crash! The Lethal Punch: The Fist of Sonosuke Screams!"):
+        "Crash! The Lethal Punch, Futae No Kiwami: The Fist of Sonosuke Screams!",
+    ("Zoids: New Century", "The Sensational Three - Rematch with Jack Sisco"):
+        "The Sensational Three: Rematch with Jack Cisco",
+}
+def _subtitle_override(show, sub):
+    if not sub:
+        return None
+    want = _norm(sub)
+    for (s, fsub), repl in SUBTITLE_OVERRIDE.items():
+        if s == show and _norm(fsub) == want:
+            return repl
+    return None
 def _se_pin(show, epname):
     if not epname:
         return None
@@ -201,7 +281,12 @@ DISPLAY_CANON = {
     "Ranma": "Ranma ½",
     "Reboot": "ReBoot",
     "Record of Lodoss War TV": "Record of Lodoss War",
-    "Scooby Doo": "Scooby-Doo",
+    "Scooby Doo": "Scooby Doo, Where Are You!",
+    "Scooby-Doo": "Scooby Doo, Where Are You!",
+    "Digimon": "Digimon Adventure",
+    "Gundam Wing": "Mobile Suit Gundam Wing",
+    "Initial D": "Initial D: First Stage",
+    "Zoids": "Zoids: New Century",
     "Space Ghost C2C": "Space Ghost Coast to Coast",
     "Thundercats": "ThunderCats",
     "Tick": "The Tick",
@@ -803,6 +888,31 @@ def _name_to_se(show, name, cache):
     return None, None
 
 
+def _name_to_se_fuzzy(show, name, cache, cutoff=0.90):
+    """Exact name lookup missed, but the feed's English episode name is usually
+    only a spelling/punctuation hair off the DB's. A HIGH-cutoff fuzzy match (by
+    name, so still reliable) recovers those without guessing from a raw number."""
+    target = _norm(name)
+    if not target or len(target) < 6:
+        return None, None
+    for enabled, resolve, namemap in (
+            (ENABLE_TVMAZE, _resolve_tvmaze_id, _tvmaze_namemap),
+            (ENABLE_TVDB,   _resolve_tvdb_id,   _tvdb_namemap)):
+        if not enabled:
+            continue
+        tid = resolve(show, cache)
+        if not tid:
+            continue
+        m = namemap(tid, cache)
+        if not m:
+            continue
+        hit = difflib.get_close_matches(target, list(m.keys()), n=1, cutoff=cutoff)
+        if hit:
+            se = m[hit[0]]
+            return se[0], se[1]
+    return None, None
+
+
 def episode_meta(show, season, ep, cache):
     if season is None:
         return None, None
@@ -1062,8 +1172,9 @@ def enrich(path):
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0}
-    dropped_se = set()   # (display_show, episode) where we withheld a guessed S/E
+             "se_pinned": 0, "se_unverified": 0}
+    dropped_se = set()   # (show, episode) feed name present but S/E withheld -> pin it
+    unverified = set()   # (show, db-name) no feed name; S/E+name are best-effort
     for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
@@ -1197,29 +1308,45 @@ def enrich(path):
                         # if we matched a HALF of a paired DB title, show the full pair
                         if nm and "/" in nm and _norm(epname) in _segments(nm):
                             seg_fullname = nm
+                # 1b) FUZZY episode-name match — the feed's English name is usually
+                #     only a spelling hair off the DB's; a high-cutoff fuzzy match
+                #     (still NAME-based, so reliable) recovers those automatically.
+                if season is None and epname and not is_curated:
+                    s15, e15 = _name_to_se_fuzzy(show, epname, cache)
+                    if s15:
+                        season, ep = s15, e15
+                        ov, nm = episode_meta(show, season, ep, cache)
+                        source = "name"
                 # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick).
-                #    GUARD: the feed numbers episodes sequentially, but DB season
-                #    layouts (esp. old live-action with several same-named series)
-                #    often disagree, so a blind map invents a WRONG episode (the
-                #    Dragnet bug). We only TRUST the absolute match when the episode
-                #    NAME it lands on agrees with the feed's own episode name. If it
-                #    disagrees, we keep the feed sub-title and WITHHOLD S/E, logging
-                #    it to missing_se.txt so you can pin it by hand via SE_PINS.
-                #    Never for pinned segment cartoons.
                 if season is None and absN and not is_curated:
                     s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
                     if s2:
-                        agree = bool(nm2) and bool(epname) and (
-                            _norm(nm2) == _norm(epname)
-                            or _segkey(nm2) == _segkey(epname)
-                            or bool(set(_segments(nm2)) & set(_segments(epname)))
-                        )
-                        if agree:
+                        if epname:
+                            # We HAVE the feed's own episode name -> only TRUST the
+                            # absolute map when the episode it lands on agrees with
+                            # it; otherwise keep the feed name and WITHHOLD S/E (the
+                            # Dragnet guard). Logged to missing_se.txt for SE_PINS.
+                            agree = bool(nm2) and (
+                                _norm(nm2) == _norm(epname)
+                                or _segkey(nm2) == _segkey(epname)
+                                or bool(set(_segments(nm2)) & set(_segments(epname)))
+                            )
+                            if agree:
+                                season, ep, ov, nm = s2, e2n, ov2, nm2
+                                source = "absolute"
+                            else:
+                                dropped_se.add((disp_title or show, epname))
+                                stats["se_dropped"] += 1
+                        else:
+                            # No feed episode name at all (Snick/Nick live-action:
+                            # the feed gives only a number). Nothing to protect, so
+                            # take the DB's name + S/E as BEST-EFFORT (TAM-parity)
+                            # rather than leave it blank. Logged as UNVERIFIED.
                             season, ep, ov, nm = s2, e2n, ov2, nm2
                             source = "absolute"
-                        elif epname:
-                            dropped_se.add((disp_title or show, epname))
-                            stats["se_dropped"] += 1
+                            if nm2:
+                                unverified.add((disp_title or show, nm2))
+                                stats["se_unverified"] += 1
             # 3) description
             #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
             #    the fixed series blurb (never the metadata API -> no wrong series).
@@ -1247,14 +1374,19 @@ def enrich(path):
             for e in prog.findall("sub-title"):
                 prog.remove(e)
         else:
+            ov_sub = _subtitle_override(disp_title or show, orig_sub)
             if pinned_full:                                  # curated cartoon full pair/triplet
                 sub_text = pinned_full
+            elif ov_sub:                                     # explicit correction (accent/split/alt-name)
+                sub_text = ov_sub
             elif orig_sub:
                 # feed/grabber episode name. Standardize ONLY the '/' separator
                 # (" / ") — never split on commas, which are part of real titles
                 # like "Patty, the Witness" or "Monkey See, Doggie Do / ...".
                 sub_text = " / ".join(s.strip() for s in re.split(r"\s*/\s*", clean_sub) if s.strip())
-            else:                                            # last-ditch backfill
+                # normalize "(Part N)" -> ": Part N" (keeps "(Finale)" etc. as-is)
+                sub_text = re.sub(r"\s*\(Part\s+(\d+)\)", r": Part \1", sub_text)
+            else:                                            # last-ditch backfill (e.g. Snick best-effort)
                 sub_text = (sp.get("sub") if sp else "") or (nm if season is not None else "")
                 if sub_text:
                     stats["ep_name_added"] += 1
@@ -1315,20 +1447,31 @@ def enrich(path):
     report = os.path.join(os.path.dirname(os.path.abspath(path)), "missing_se.txt")
     try:
         with open(report, "w", encoding="utf-8") as fh:
-            fh.write("# Episodes with no confident S/E (sub-title + description are still correct).\n")
-            fh.write("# To add a number, copy a line into SE_PINS in enrich_toonami.py as:\n")
-            fh.write('#   ("<show>", "<episode>"): (season, episode),\n\n')
+            fh.write("# ============================================================\n")
+            fh.write("# NEEDS S/E: feed gave the real episode name but no confident\n")
+            fh.write("# season/episode. Sub-title + description are correct; only the\n")
+            fh.write("# Sxx Eyy is missing. Fill the number and paste into SE_PINS:\n")
+            fh.write('#   ("<show>", "<episode>"): (season, episode),\n')
+            fh.write("# ============================================================\n")
             for show, epi in sorted(dropped_se):
                 fh.write(f'    ("{show}", "{epi}"): (, ),\n')
-        print(f"  S/E withheld (no match): {stats['se_dropped']}  -> {report} "
-              f"({len(dropped_se)} distinct)")
+            fh.write("\n\n# ============================================================\n")
+            fh.write("# UNVERIFIED (best-effort): the feed gave NO episode name (Snick/\n")
+            fh.write("# Nick live-action -> number only), so the name + S/E below came\n")
+            fh.write("# from a database by absolute number and MAY be wrong. To correct\n")
+            fh.write("# one, add an SE_PINS line (right S/E) and, if the name is off, a\n")
+            fh.write("# SUBTITLE_OVERRIDE line.\n")
+            fh.write("# ============================================================\n")
+            for show, epi in sorted(unverified):
+                fh.write(f'#   {show} | {epi}\n')
+        print(f"  -> {report}: {len(dropped_se)} need-S/E, {len(unverified)} unverified")
     except Exception as e:
         print(f"  warn: could not write {report}: {e}")
 
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}  "
-          f"(episode names backfilled: {stats['ep_name_added']})")
+          f"(unverified best-effort: {stats['se_unverified']})")
     print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
