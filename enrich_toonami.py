@@ -1111,6 +1111,66 @@ def lookup_epinfo(rows, target_ts):
     return best[1] if best else None
 
 
+# ── TAM episode-name source for Snick/Nick ─────────────────────────────────
+# The feed gives Snick programmes only an episodeNumber, no name. The user's own
+# TAM repo (toonamiaftermath-cli) resolves those names and publishes them in its
+# index.xml; we treat THAT as the authoritative Snick episode name, then derive
+# S/E + descriptions from the normal name-match (DB) path. No manual work.
+TAM_INDEX_URL = os.environ.get(
+    "TAM_INDEX_URL", "https://raw.githubusercontent.com/s-digweed/TAM/main/index.xml")
+TAM_CH_FOR = {              # our channel id -> TAM index channel id
+    "Snickelodeon EST": "3",
+    "Snickelodeon EST+180": "4",
+}
+TAM_TOL_S = 300             # cross-source air-time tolerance (feeds drift a little)
+
+def _xmltv_ts(start):
+    s = (start or "").split()[0]
+    try:
+        return datetime.strptime(s, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).timestamp()
+    except ValueError:
+        return None
+
+def load_tam_index():
+    """{TAM channel id -> sorted [(ts, sub-title)]} from TAM's published index.xml."""
+    out = {}
+    try:
+        r = _sess.get(TAM_INDEX_URL, timeout=30)
+        if r.status_code != 200:
+            print(f"  TAM index: HTTP {r.status_code}; Snick names will fall back")
+            return out
+        root = ET.fromstring(r.content)
+    except Exception as e:
+        print(f"  TAM index: fetch/parse failed ({e}); Snick names will fall back")
+        return out
+    for p in root.findall("programme"):
+        cid = p.get("channel"); sub = (p.findtext("sub-title") or "").strip()
+        ts = _xmltv_ts(p.get("start"))
+        if cid and sub and ts is not None:
+            out.setdefault(cid, []).append((ts, sub))
+    for cid in out:
+        out[cid].sort(key=lambda r: r[0])
+    n = sum(len(v) for v in out.values())
+    print(f"  TAM index: {n} named programmes across channels {sorted(out)}")
+    return out
+
+def tam_name_for(tam_index, our_channel, target_ts):
+    """Nearest TAM sub-title for a Snick air-time, or '' if none."""
+    cid = TAM_CH_FOR.get(our_channel)
+    rows = tam_index.get(cid) if cid else None
+    if not rows or target_ts is None:
+        return ""
+    keys = [r[0] for r in rows]
+    i = bisect.bisect_left(keys, target_ts)
+    best = None
+    for j in (i - 1, i, i + 1):
+        if 0 <= j < len(rows):
+            d = abs(rows[j][0] - target_ts)
+            if d <= TAM_TOL_S and (best is None or d < best[0]):
+                best = (d, rows[j][1])
+    return best[1] if best else ""
+
+
 # ══════════════════════════════════════════════════════════════════════════
 # Enrichment
 # ══════════════════════════════════════════════════════════════════════════
@@ -1170,11 +1230,13 @@ def enrich(path):
             print(f"  warn: could not build episode index for {base}: {e}")
             epindex[base] = []
 
+    # Snick episode names come from the TAM feed (the feed itself has none).
+    tam_index = load_tam_index() if any(c in TAM_CH_FOR for c in TARGET_CHANNELS) else {}
+
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0, "se_unverified": 0}
-    dropped_se = set()   # (show, episode) feed name present but S/E withheld -> pin it
-    unverified = set()   # (show, db-name) no feed name; S/E+name are best-effort
+             "se_pinned": 0, "from_tam": 0}
+    dropped_se = set()   # (show, episode) name present but S/E withheld -> pin it
     for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
@@ -1236,10 +1298,13 @@ def enrich(path):
         feed_ep   = (feed or {}).get("episode", "")   # the real episode sub-title
         feed_num  = (feed or {}).get("num")           # absolute episodeNumber
         feed_img  = (feed or {}).get("image", "")     # poster
-        # The authoritative episode name is the feed's info.episode; fall back to
-        # whatever the grabber captured only when the feed has none.
+        # Episode-name precedence: the Toonami feed's own info.episode, else the
+        # TAM feed's name for Snick (the feed itself has none), else the grabber's.
         grab_sub = (prog.findtext("sub-title") or "").strip()
-        orig_sub = feed_ep or grab_sub
+        tam_ep = tam_name_for(tam_index, prog.get("channel"), ts) if not feed_ep else ""
+        if tam_ep:
+            stats["from_tam"] += 1
+        orig_sub = feed_ep or tam_ep or grab_sub
         clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
         epname = clean_sub or (sp.get("sub") if sp else "")
         absN = feed_num
@@ -1317,36 +1382,27 @@ def enrich(path):
                         season, ep = s15, e15
                         ov, nm = episode_meta(show, season, ep, cache)
                         source = "name"
-                # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick).
-                if season is None and absN and not is_curated:
+                # 2) ABSOLUTE episodeNumber from the feed, as corroboration only.
+                #    The feed numbers sequentially but DB season layouts often
+                #    disagree (the Dragnet bug), so we TRUST the absolute map only
+                #    when the episode it lands on AGREES with the episode name we
+                #    already have (from the feed or TAM). Otherwise keep the name
+                #    and WITHHOLD S/E, logging it for an optional SE_PINS entry.
+                #    If we have no name at all, we do NOT invent one.
+                if season is None and absN and epname and not is_curated:
                     s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
                     if s2:
-                        if epname:
-                            # We HAVE the feed's own episode name -> only TRUST the
-                            # absolute map when the episode it lands on agrees with
-                            # it; otherwise keep the feed name and WITHHOLD S/E (the
-                            # Dragnet guard). Logged to missing_se.txt for SE_PINS.
-                            agree = bool(nm2) and (
-                                _norm(nm2) == _norm(epname)
-                                or _segkey(nm2) == _segkey(epname)
-                                or bool(set(_segments(nm2)) & set(_segments(epname)))
-                            )
-                            if agree:
-                                season, ep, ov, nm = s2, e2n, ov2, nm2
-                                source = "absolute"
-                            else:
-                                dropped_se.add((disp_title or show, epname))
-                                stats["se_dropped"] += 1
-                        else:
-                            # No feed episode name at all (Snick/Nick live-action:
-                            # the feed gives only a number). Nothing to protect, so
-                            # take the DB's name + S/E as BEST-EFFORT (TAM-parity)
-                            # rather than leave it blank. Logged as UNVERIFIED.
+                        agree = bool(nm2) and (
+                            _norm(nm2) == _norm(epname)
+                            or _segkey(nm2) == _segkey(epname)
+                            or bool(set(_segments(nm2)) & set(_segments(epname)))
+                        )
+                        if agree:
                             season, ep, ov, nm = s2, e2n, ov2, nm2
                             source = "absolute"
-                            if nm2:
-                                unverified.add((disp_title or show, nm2))
-                                stats["se_unverified"] += 1
+                        else:
+                            dropped_se.add((disp_title or show, epname))
+                            stats["se_dropped"] += 1
             # 3) description
             #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
             #    the fixed series blurb (never the metadata API -> no wrong series).
@@ -1448,30 +1504,22 @@ def enrich(path):
     try:
         with open(report, "w", encoding="utf-8") as fh:
             fh.write("# ============================================================\n")
-            fh.write("# NEEDS S/E: feed gave the real episode name but no confident\n")
-            fh.write("# season/episode. Sub-title + description are correct; only the\n")
-            fh.write("# Sxx Eyy is missing. Fill the number and paste into SE_PINS:\n")
+            fh.write("# NEEDS S/E: we have the correct episode NAME (from the feed or\n")
+            fh.write("# TAM) + description, but couldn't confidently resolve a season/\n")
+            fh.write("# episode number. Only the Sxx Eyy is missing. To lock one in,\n")
+            fh.write("# fill the number and paste the line into SE_PINS:\n")
             fh.write('#   ("<show>", "<episode>"): (season, episode),\n')
             fh.write("# ============================================================\n")
             for show, epi in sorted(dropped_se):
                 fh.write(f'    ("{show}", "{epi}"): (, ),\n')
-            fh.write("\n\n# ============================================================\n")
-            fh.write("# UNVERIFIED (best-effort): the feed gave NO episode name (Snick/\n")
-            fh.write("# Nick live-action -> number only), so the name + S/E below came\n")
-            fh.write("# from a database by absolute number and MAY be wrong. To correct\n")
-            fh.write("# one, add an SE_PINS line (right S/E) and, if the name is off, a\n")
-            fh.write("# SUBTITLE_OVERRIDE line.\n")
-            fh.write("# ============================================================\n")
-            for show, epi in sorted(unverified):
-                fh.write(f'#   {show} | {epi}\n')
-        print(f"  -> {report}: {len(dropped_se)} need-S/E, {len(unverified)} unverified")
+        print(f"  -> {report}: {len(dropped_se)} need S/E (names + descriptions are set)")
     except Exception as e:
         print(f"  warn: could not write {report}: {e}")
 
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
-    print(f"  S/E by absolute number : {stats['by_absolute']}  "
-          f"(unverified best-effort: {stats['se_unverified']})")
+    print(f"  S/E by absolute number : {stats['by_absolute']}")
+    print(f"  Snick names from TAM    : {stats['from_tam']}")
     print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
