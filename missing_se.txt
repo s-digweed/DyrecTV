@@ -1,62 +1,183 @@
-# Episodes with no confident S/E (sub-title + description are still correct).
-# To add a number, copy a line into SE_PINS in enrich_toonami.py as:
+# ============================================================
+# NEEDS S/E: feed gave the real episode name but no confident
+# season/episode. Sub-title + description are correct; only the
+# Sxx Eyy is missing. Fill the number and paste into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
+# ============================================================
 
-    ("Android Kikaider", "The End of the Dream (Finale)"): (, ),
-    ("Batman: The Animated Series", "The Joker's Favor"): (, ),
-    ("Digimon", "City Under Siege"): (, ),
-    ("Digimon", "Flower Power"): (, ),
-    ("Dragon Ball Z", "A Heavy Burden"): (, ),
-    ("Dragon Ball Z", "Arrival of The Ginyu Force"): (, ),
-    ("Dragon Ball Z", "Big Trouble for Bulma"): (, ),
-    ("Dragon Ball Z", "Elite Fighters of The Universe.."): (, ),
-    ("Dragon Ball Z", "Enter Goku"): (, ),
-    ("Dragon Ball Z", "Get Vegeta!!"): (, ),
-    ("Dragon Ball Z", "Goku... Super Saiyan?"): (, ),
-    ("Dragon Ball Z", "Immortality Denied"): (, ),
-    ("Dragon Ball Z", "No Refuge from Recoome"): (, ),
-    ("Dragon Ball Z", "Scramble for the Dragon Balls"): (, ),
-    ("Dragon Ball Z", "Time Tricks and Body Binds"): (, ),
-    ("Dragon Ball Z", "Vegeta Revived"): (, ),
-    ("Fantastic Four", "Danger In The Depths"): (, ),
-    ("Fighting Spirit", "A Step Further (Finale)"): (, ),
-    ("Fullmetal Alchemist", "A Rotted Heart"): (, ),
-    ("Gundam Wing", "Passing Destinies (Recap)"): (, ),
-    ("Gundam Wing", "The Locus of Victory and Defeat (Recap)"): (, ),
-    ("I Am Weasel", "I Am Cliched"): (, ),
-    ("Initial D", "Conclusion! Dogfight!"): (, ),
-    ("Lupin the Third: Part II", "Cursed Case Scenario"): (, ),
-    ("Lupin the Third: Part II", "Disorient Express"): (, ),
-    ("Lupin the Third: Part II", "Now Museum, Now You Don't"): (, ),
-    ("Nadia: The Secret of Blue Water", "The Little Fugitives"): (, ),
-    ("Neon Genesis Evangelion", "At Least, Be Human"): (, ),
-    ("Neon Genesis Evangelion", "The Birth of NERV"): (, ),
-    ("Pokémon", "Ash Catches a Pokemon"): (, ),
-    ("Pokémon", "Pokemon Emergency!"): (, ),
-    ("Rurouni Kenshin", "Crash! The Lethal Punch: The Fist of Sonosuke Screams!"): (, ),
-    ("Sailor Moon", "Bad Harmony"): (, ),
-    ("Sailor Moon", "Crystal Clear Again"): (, ),
-    ("Sailor Moon", "Diamond In The Rough"): (, ),
-    ("Sailor Moon", "Driving Dangerously"): (, ),
-    ("Sailor Moon", "Final Battle"): (, ),
-    ("Sailor Moon", "Follow The Leader"): (, ),
-    ("Sailor Moon", "Star Struck, Bad Luck"): (, ),
-    ("Saint Seiya", "Dragon! Victory of Self-Sacrifice"): (, ),
-    ("Saint Seiya", "Stone Seiya! Shield of Medusa"): (, ),
-    ("Scooby-Doo", "A Tiki Scare is No Fair"): (, ),
-    ("Scooby-Doo", "Don't Fool with a Phantom"): (, ),
-    ("Scooby-Doo", "Haunted House Hang-Up"): (, ),
-    ("Scooby-Doo", "Who's Afraid of the Big Bad Werewolf?"): (, ),
-    ("Static Shock", "She-Bang"): (, ),
-    ("Superman: The Animated Series", "Little Girl Lost (Part 2)"): (, ),
-    ("The Mighty Thor", "The Grey Gargoyle, The Wrath of Odin, Triumph in Stone"): (, ),
-    ("The Real Adventures of Jonny Quest", "In the Wake of the Mary Celeste"): (, ),
-    ("The Tick", "Evil Sits Down for a Moment"): (, ),
-    ("The Tick", "Heroes"): (, ),
-    ("X-Men: The Animated Series", "Sanctuary (Part 1)"): (, ),
-    ("X-Men: The Animated Series", "Sanctuary (Part 2)"): (, ),
-    ("Yu-Gi-Oh!", "The Dark Spirit Revealed (Part 1)"): (, ),
-    ("Yu-Gi-Oh!", "The Dark Spirit Revealed (Part 2)"): (, ),
-    ("Zoids", "The Brave Wild Eagle - The Raynos vs. The Zabat"): (, ),
-    ("Zoids", "The Sensational Three - Rematch with Jack Sisco"): (, ),
-    ("Zoids", "Zero is Stolen - The Fiery Battle"): (, ),
+
+# ============================================================
+# UNVERIFIED (best-effort): the feed gave NO episode name (Snick/
+# Nick live-action -> number only), so the name + S/E below came
+# from a database by absolute number and MAY be wrong. To correct
+# one, add an SE_PINS line (right S/E) and, if the name is off, a
+# SUBTITLE_OVERRIDE line.
+# ============================================================
+#   Aaahh!!! Real Monsters | I Dream of Snorch With the Long Golden Hair
+#   Aaahh!!! Real Monsters | Krumm Gets the Dreaded Nolox
+#   Aaahh!!! Real Monsters | Mayberry UFO
+#   Alfred Hitchcock Presents | Murder Me Twice
+#   Alfred Hitchcock Presents | Safety for the Witness
+#   All That | IV Xample
+#   All That | Monifah
+#   All That | Shai
+#   All That | Silk
+#   Allegra's Window | My Own Monster
+#   Allegra's Window | The Imaginary Zoo
+#   Allegra's Window | The Zootabaga Caper
+#   Allegra's Window | Where's Godfrey?
+#   Alvin and the Chipmunks | A Chipmunk Reunion
+#   Alvin and the Chipmunks | The Secret Life of David Seville
+#   Angry Beavers | Tree of Hearts
+#   Animorphs | On the Run
+#   Animorphs | Underground
+#   Are You Afraid of the Dark? | The Tale of Station 109.1
+#   Are You Afraid of the Dark? | The Tale of the Dead Man's Float
+#   Are You Afraid of the Dark? | The Tale of the Jagged Sign
+#   Are You Afraid of the Dark? | The Tale of the Mystical Mirror
+#   Beetlejuice | Beetlebones
+#   Bewitched | Alias Darrin Stephens
+#   Captain Scarlet and the Mysterons | Seek and Destroy
+#   Car 54, Where Are You? | Toody's Paradise
+#   CatDog | Dog Ate it
+#   Clarissa Explains It All | Janet's Old Boyfriend
+#   Clarissa Explains It All | Poetic Justice
+#   Clarissa Explains It All | Sam's Swan Song
+#   Count Duckula | Sawdust Ring
+#   Cousin Skeeter | Mo' Skeeter Blues
+#   Doug | Doug Battles the Rulemeister
+#   Doug | Doug Saves Roger
+#   Doug | Doug's Derby Dilemma
+#   Doug | Doug's On His Own
+#   Doug | Doug's Worst Nightmare
+#   Doug | Doug's a Genius
+#   Dragnet | The Big .22 Rifle for Christmas
+#   Dragnet | The Big Cop
+#   F Troop | A Gift From the Chief
+#   F Troop | Honest Injun
+#   Fifteen | Series 1, Show 5
+#   Fifteen | Series 1, Show 7
+#   Fireball XL5 | Flying Zodiac
+#   Flipper | Dolphin in Pursuit (2)
+#   Flipper | Flipper's Hour of Peril
+#   Flipper | Junior Ranger
+#   Flipper | The Ditching (1)
+#   Flipper: The New Adventures | A Helping Hand
+#   Flipper: The New Adventures | Blind Faith
+#   Flipper: The New Adventures | Spring Break
+#   Flipper: The New Adventures | The Wish
+#   Garfield and Friends | The Bad Sport
+#   Garfield and Friends | Up a Tree
+#   Get Smart | A Tale of Two Tails
+#   Get Smart | The Return of the Ancient Mariner
+#   Global Guts | Irina - Rachael - Ricardo
+#   Green Acres | Lisa's First Day On the Farm
+#   Green Acres | Oliver Buys A Farm
+#   Grimm's Fairy Tale Classics | The Frog Prince
+#   Grimm's Fairy Tale Classics | The Frog Prince (2)
+#   Gullah Gullah Island | How You Sound
+#   Gullah Gullah Island | Shaina's Birthday
+#   Gullah Gullah Island | The Gullah Gullah Games
+#   Gullah Gullah Island | What's Up with Jobs?
+#   Gumby | Baker's Tour
+#   Gumby | Eager Beavers
+#   Gumby | In the Dough
+#   Gumby | Train Trouble
+#   Hey Arnold! | Abner Come Home
+#   Hey Arnold! | Olga Comes Home
+#   Hey Arnold! | Sally's Comet
+#   Hey Dude! | Ghost Stories
+#   I Dream of Jeannie | Jeannie, the Governor's Wife
+#   I Love Lucy | The Million Dollar Idea
+#   I Spy | The Tiger
+#   Inspector Gadget | Fang the Wonder Dog
+#   Inspector Gadget | Gadget in Winterland
+#   Inspector Gadget | Monster Lake
+#   Inspector Gadget | School for Pickpockets
+#   Joe 90 | Splashdown
+#   KaBlam! | Won't Stick to Most Dental Work
+#   Kenan & Kel | Fenced In
+#   Lassie | Champion
+#   Lassie | Goodbye Forever
+#   Lassie | Superstition
+#   Lassie | Vigil
+#   Legends of the Hidden Temple | Galileo's Cannonball
+#   Little Bear | Emily's Visit
+#   Little Bear | Father's Flying Flapjacks
+#   Little Bear | Little Bear's New Friend
+#   Little Bear | Maracas
+#   Mister Ed | Little Boy
+#   Muppet Babies | Animal Fly Airplane
+#   Muppet Babies | Hatastrophe
+#   Muppet Babies | The Great Muppet Sport-A-Thon
+#   Muppet Babies | You Say Potato, I Say Best Friend
+#   My Brother and Me | Secret Societies & Apologies to Nathan
+#   My Brother and Me | Teens & Your Least Favorite Soda
+#   My Three Sons | Lady Engineer
+#   Nickelodeon Guts | Susan - Bryan - Terrar
+#   Noozles | Sandy Runs Away From Home
+#   Noozles | Travelling Back In Time
+#   Rhoda | Bump in the Night
+#   Rocko's Modern Life | Down the Hatch
+#   Rocko's Modern Life | She's the Toad
+#   Rugrats | Down The Drain
+#   Rugrats | Feeding Hubert
+#   Rugrats | Let Them Eat Cake
+#   Rugrats | My Friend Barney
+#   Rugrats | Spike The Wonder Dog
+#   Rugrats | The Seven Voyages Of Cynthia
+#   Salute Your Shorts | Dina and the Rock Star
+#   Sgt. Bilko | Bilko Joins the Navy
+#   Space Ghost Coast to Coast | Eat a Peach
+#   Space Ghost Coast to Coast | In Memory of Elizabeth Reed
+#   Space Ghost Coast to Coast | Whipping Post
+#   Space: 1999 | The Full Circle
+#   Stingray | That Terrible Swift Sword
+#   Taxi | Elaine's Old Friend
+#   The Adventures of Pete & Pete | 35 Hours
+#   The Adventures of Pete & Pete | The Good, the Bad, and the Lucky
+#   The Adventures of Pete & Pete | The Trouble with Teddy
+#   The Adventures of Superman | Home Is Where the Hurt Is
+#   The Adventures of Superman | Virtually Destroyed
+#   The Bob Newhart Show | Death Be My Destiny
+#   The Brady Bunch | A Room at the Top
+#   The Brady Bunch | Adios, Johnny Bravo
+#   The Busy World of Richard Scarry | Good Luck in Rome
+#   The Busy World of Richard Scarry | Professor Dig and His Egyptian Mummy
+#   The Busy World of Richard Scarry | The Accident
+#   The Busy World of Richard Scarry | The Treasure Hunt
+#   The Dick Van Dyke Show | The Unwelcome Houseguest
+#   The Littl' Bits | The Snow Woman
+#   The Littl' Bits | Winter Strawberries
+#   The Lucy Show | Lucy Dates Dean Martin
+#   The Lucy Show | Lucy and Bob Crane
+#   The Many Loves of Dobie Gillis | Dobie Spreads a Rumor
+#   The Many Loves of Dobie Gillis | Love is a Fallacy
+#   The Mary Tyler Moore Show | Chuckles Bites the Dust
+#   The Munsters | Movie Star Munster
+#   The Munsters | Munsters on the Move
+#   The Mysterious Cities of Gold | Revolt of the Mayas
+#   The Mysterious Cities of Gold | The Olmec Machine
+#   The Patty Duke Show | Every Girl Should Be Married
+#   The Patty Duke Show | The Perfect Hostess
+#   The Ren & Stimpy Show | Ren's Pecs
+#   The Rocky and Bullwinkle Show | Fractured Fairy Tales - Dick Whittington's Cat
+#   The Rocky and Bullwinkle Show | Mr. Know-It-All - How to Tame Lions and Get a Little Scratch on the Side of Your Head
+#   The Rocky and Bullwinkle Show | Rocky & Bullwinkle - Jet Fuel (26) - Three on an Island or Tell It to the Maroons
+#   The Rocky and Bullwinkle Show | Rocky & Bullwinkle - Jet Fuel (27) - Dancing on Air or The Pottsylvania Polka
+#   The Secret World of Alex Mack | BMX
+#   The Secret World of Alex Mack | Cheers
+#   The Secret World of Alex Mack | Nightmare in Paradise
+#   The Wild Thornberrys | Show Me the Bunny
+#   Tintin | Flight 714 (2)
+#   Tintin | Land of Black Gold (1)
+#   Tintin | Land of Black Gold (2)
+#   Tintin | The Red Sea Sharks (1)
+#   UFO | Destruction
+#   Weinerville | Missing Cartoon
+#   Weinerville | Zip in Space
+#   Welcome Back Kotter | Kotter and Son
+#   Welcome Back Kotter | Sweatgate Scandal
+#   What Would You Do? | October 12, 2012
+#   You Can't Do That on Television | Backstage
+#   You Can't Do That on Television | St. Patrick's Day
