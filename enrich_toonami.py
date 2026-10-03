@@ -1260,11 +1260,24 @@ TAM_CH_FOR = {              # our channel id -> TAM index channel id
 TAM_TOL_S = 300             # cross-source air-time tolerance (feeds drift a little)
 
 def _xmltv_ts(start):
-    s = (start or "").split()[0]
+    """Parse 'YYYYmmddHHMMSS ±HHMM' to a true UTC epoch. Honoring the offset is
+    essential: TAM's West channel is published at -0300, so ignoring it put West
+    three hours off and it matched nothing."""
+    parts = (start or "").split()
+    if not parts:
+        return None
     try:
-        return datetime.strptime(s, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).timestamp()
+        dt = datetime.strptime(parts[0], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
     except ValueError:
         return None
+    off = 0
+    if len(parts) > 1 and len(parts[1]) == 5 and parts[1][0] in "+-":
+        try:
+            off = (1 if parts[1][0] == "+" else -1) * (
+                int(parts[1][1:3]) * 3600 + int(parts[1][3:5]) * 60)
+        except ValueError:
+            off = 0
+    return dt.timestamp() - off   # local wall-clock - offset = UTC
 
 def load_tam_index():
     """{TAM channel id -> sorted [(ts, title, sub-title)]} from TAM's index.xml.
