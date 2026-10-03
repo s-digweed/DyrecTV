@@ -1688,8 +1688,21 @@ def enrich(path):
     #    absolute-number guess didn't agree with the feed's episode name. This is
     #    your worklist: drop any you care about into SE_PINS to lock the S/E in. ──
     report = os.path.join(os.path.dirname(os.path.abspath(path)), "missing_se.txt")
+    simkl_status = ("ON" if ENABLE_SIMKL else "OFF (no SIMKL_CLIENT_ID secret)")
+    if ENABLE_SIMKL:
+        simkl_status += f" — {_SIMKL_HITS} extra S/E this run"
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     try:
         with open(report, "w", encoding="utf-8") as fh:
+            # ── run status (visible here so you don't have to open the Actions log) ──
+            fh.write("# ============================================================\n")
+            fh.write(f"# RUN STATUS  ({now})\n")
+            fh.write(f"#   SIMKL resolver   : {simkl_status}\n")
+            fh.write(f"#   TAM index        : {'loaded' if tam_index else 'EMPTY (fetch failed?)'}\n")
+            fh.write(f"#   S/E by name      : {stats['by_name']}  (manual pins: {stats['se_pinned']})\n")
+            fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
+            fh.write(f"#   Snick names/TAM  : {stats['from_tam']}\n")
+            fh.write(f"#   S/E withheld     : {stats['se_dropped']}  (listed below)\n")
             fh.write("# ============================================================\n")
             fh.write("# NEEDS S/E: we have the correct episode NAME (from the feed or\n")
             fh.write("# TAM) + description, but couldn't confidently resolve a season/\n")
