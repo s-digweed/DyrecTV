@@ -1,4 +1,12 @@
 # ============================================================
+# RUN STATUS  (2026-10-03 23:37 UTC)
+#   SIMKL resolver   : ON — 0 extra S/E this run
+#   TAM index        : loaded
+#   S/E by name      : 680  (manual pins: 179)
+#   S/E by absolute  : 31
+#   Snick names/TAM  : 244
+#   S/E withheld     : 0  (listed below)
+# ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
 # episode number. Only the Sxx Eyy is missing. To lock one in,
