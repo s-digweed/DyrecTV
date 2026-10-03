@@ -17,7 +17,7 @@ Usage:  python3 enrich_toonami.py <path-to-TOONAMIAM.xml>
 Leaves MTV97 and every other channel untouched.
 """
 
-import os, re, sys, json, time, html, bisect
+import os, re, sys, json, time, html, bisect, difflib
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 import requests
@@ -57,10 +57,8 @@ ALIAS = {
     "Spiderman": "Spider-Man (1967)",
     "Spider-Man": "Spider-Man: The Animated Series",
     "X-Men": "X-Men: The Animated Series",
-    "Hulk": "The Incredible Hulk (1996)",
     "Men in Black": "Men in Black: The Series",
     "Pokemon": "Pokémon",
-    "Birdman": "Birdman and the Galaxy Trio",
     "Nadia - Secret of Blue Water": "Nadia: The Secret of Blue Water",
     "Record of Lodoss War TV": "Record of Lodoss War",
     "Yu Yu Hakusho": "Yu Yu Hakusho",
@@ -151,6 +149,205 @@ EPISODE_SE_OVERRIDE = {
 SHOW_DESC_OVERRIDE = {
     "RiffTrax": "Feature films and short subjects presented with comedic running commentary -- "
                 "packed with jokes, asides, and relentless riffing from start to finish.",
+    # Pinned '60s cartoons: episode synopses aren't reliably available and a bare
+    # name lookup risks the wrong same-named series, so use a fixed series blurb.
+    "Spider-Man (1967)": "The classic 1967 animated series following Peter Parker, a teenage "
+        "photographer who battles a rogues' gallery of super-villains as the web-slinging hero "
+        "Spider-Man.",
+    "Hulk": "Animated adventures of Dr. Bruce Banner, who becomes the raging, super-strong Hulk "
+        "whenever his temper flares -- from the 1966 Marvel Super Heroes cartoon.",
+    "Birdman and the Galaxy Trio": "Hanna-Barbera's 1967 superhero cartoon: solar-powered Birdman "
+        "fights evil for the agency Inter-Nation Security, paired with the space-faring Galaxy Trio.",
+}
+
+# ── on-screen DISPLAY name fixes (feed title -> canonical). Used for both the
+#    shown <title> and the metadata lookup; S/E handling is unchanged. ──
+DISPLAY_CANON = {
+    # Toonami
+    "Batman": "Batman: The Animated Series",
+    "Superman": "Superman: The Animated Series",
+    "X-Men": "X-Men: The Animated Series",
+    "Men in Black": "Men in Black: The Series",
+    "DBZ": "Dragon Ball Z",
+    "DBZ Abridged": "Dragon Ball Z Abridged",
+    "DBZ Abridged - Celloween": "Dragon Ball Z Abridged: Celloween",
+    "Dragonball": "Dragon Ball",
+    "Dr Katz": "Dr. Katz, Professional Therapist",
+    "Ed Edd Eddy": "Ed, Edd n Eddy",
+    "Full Metal Alchemist": "Fullmetal Alchemist",
+    "Gundam 08th MS Team": "Mobile Suit Gundam: The 08th MS Team",
+    "Jonny Quest Real Adventures": "The Real Adventures of Jonny Quest",
+    "Lupin III": "Lupin the Third: Part II",
+    "Nadia - Secret of Blue Water": "Nadia: The Secret of Blue Water",
+    "Pokemon": "Pokémon",
+    "Powerpuff Girls": "The Powerpuff Girls",
+    "Ranma": "Ranma ½",
+    "Reboot": "ReBoot",
+    "Record of Lodoss War TV": "Record of Lodoss War",
+    "Scooby Doo": "Scooby-Doo",
+    "Space Ghost C2C": "Space Ghost Coast to Coast",
+    "Thundercats": "ThunderCats",
+    "Tick": "The Tick",
+    "Yu Yu Hakusho": "YuYu Hakusho",
+    "Birdman": "Birdman and the Galaxy Trio",
+    # Snickelodeon
+    "Allegras Window": "Allegra's Window",
+    "Are You Afraid Of The Dark": "Are You Afraid of the Dark?",
+    "BeetleJuice": "Beetlejuice",
+    "Busy World of Richard Scarry": "The Busy World of Richard Scarry",
+    "Car 54, Where Are You": "Car 54, Where Are You?",
+    "Figure it Out Wild Style": "Figure It Out: Wild Style",
+    "Flipper The New Adventures": "Flipper: The New Adventures",
+    "Grimms Fairy Tale Classics": "Grimm's Fairy Tale Classics",
+    "I Dream Of Jeannie": "I Dream of Jeannie",
+    "Make The Grade": "Make the Grade",
+    "Mysterious Cities of Gold": "The Mysterious Cities of Gold",
+    "Pete and Pete": "The Adventures of Pete & Pete",
+    "Ren and Stimpy": "The Ren & Stimpy Show",
+    "Rockos Modern Life": "Rocko's Modern Life",
+    "Rocky and Bullwinkle": "The Rocky and Bullwinkle Show",
+    "Secret World Of Alex Mack": "The Secret World of Alex Mack",
+    "Space 1999": "Space: 1999",
+    "The Littl Bits": "The Littl' Bits",
+    "What Would You Do": "What Would You Do?",
+}
+
+# ── episode PINS from IMDb for segment-based '66/'67 cartoons. The feed numbers
+#    each SEGMENT sequentially, which is wrong; these are the real broadcast
+#    episodes (2-3 segments each), matched fuzzily by segment name. Each pin now
+#    also carries the IMDb synopsis ('' when IMDb had none -> series blurb). ──
+#
+# CURATED_SHOWS never get a metadata-API / absolute-number S/E guess: their S/E
+# comes only from PINNED_RAW and their description only from the pin's synopsis
+# or the fixed series blurb. (A per-(show,S,E) API lookup matches the WRONG
+# same-named series -- the 1994 Spider-Man, the 1978/1996 Hulk -- and attaches a
+# wrong-series synopsis; that was the original Spider-Man '67 bug.)
+CURATED_SHOWS = {"Spider-Man (1967)", "Hulk", "Birdman and the Galaxy Trio"}
+# ====================================================================
+# AUTO-GENERATED from the user's IMDb .mht files (gen_pins.py / gen_birdman.py).
+# PINNED_RAW: (season, episode, 'segment/segment', 'synopsis') per show.
+#   Spider-Man (1967): broadcast episodes, 3 seasons (S1 20, S2 19, S3 13).
+#   Hulk: 13 broadcast triples (the feed airs 3 comma-separated segments).
+#   Birdman and the Galaxy Trio: S1 broadcast triplets E1-E20 (organized).
+# BIRDMAN_SEG_SYN (below) holds per-SEGMENT synopses for Birdman's individual
+# segments; since the Birdman feed airs one segment at a time, that segment's own
+# synopsis is preferred over the triplet's. A segment not in any triplet gets no
+# S/E (the "unknowns"); a segment with no synopsis anywhere gets the series blurb.
+# ====================================================================
+PINNED_RAW = {
+    "Spider-Man (1967)": [
+        (1, 1, 'The Power of Dr. Octopus/Sub-Zero for Spidey', 'Out in the countryside, Peter escapes an accident with the help of his Spider-Man disguise, but discovers a cave, with Dr.Octopus in charge of some power machines due to rule the World. Doc Ock captures Spidey, then Miss Brant who happened to be in the area. The villain is keeping both prisoners as witnesses for his demonstration of power.'),
+        (1, 2, 'Where Crawls the Lizard/Electro the Human Lightning Bolt', 'Spider-Man faces Electro, a man capable to shoot lightning rods with his hand and traveling on electric lines to go to his next heist.'),
+        (1, 3, 'The Menace of Mysterio', 'After framing Spider-Man, Mysterio offers to kill the superhero for J. Jonah Jameson for a fee.'),
+        (1, 4, 'The Sky Is Falling/Captured by J. Jonah Jameson', 'Spider-Man fights the Vulture who is controlling a massive flock of birds. In the second segment, the Daily Bugle publisher hunts Spider-Man with a remote-controlled robot.'),
+        (1, 5, 'Never Step on a Scorpion/Sands of Crime', "The Scorpion, a super-human creation designed to vanquish Spider-Man, has a lethal sting in his tail and he's ready to sting J. Jonah Jameson. The Sandman heists the priceless Goliath Diamond and Spider-Man is the fall guy for the crime."),
+        (1, 6, 'Diet of Destruction/The Witching Hour', "The Green Goblin tries to make a pact with J.Jonah Jameson in order to catch Spider-Man. However, Spidey must beware of his foe's witching powers."),
+        (1, 7, 'The Kilowatt Kaper/The Peril of Parafino', 'Escaped from jail, Electro is trying to find, then trap Spiderman for revenge.'),
+        (1, 8, 'Horn of the Rhino', "A bad case of the common cold complicates Spider-Man's efforts to stop The Rhino from stealing the components of a secret weapon."),
+        (1, 9, 'The One-Eyed Idol/Fifth Avenue Phantom', 'An exotic African idol is used to hypnotize Jameson into embezzling for a villain. A mysterious hooded figure is using robotic store mannequins to commit robberies.'),
+        (1, 10, 'The Revenge of Dr. Magneto/The Sinister Prime Minister', 'Spider-Man must stop a magnetism wielding mad scientist. Spidey must rescue a foreign prime minister that only he knows is kidnapped by an imposter.'),
+        (1, 11, 'The Night of the Villains/Here Comes Trubble', 'A series of heists are made by mythical creatures, ruled by a woman who holds a library. Spider-Man must put a stop to this before it goes too far.'),
+        (1, 12, 'Spider-Man Meets Dr. Noah Boddy/The Fantastic Fakir', 'A fakir is giving a hard time to Spider-Man, especially that he is a clever magician who can send spells to animals to attack the hero.'),
+        (1, 13, 'Return of the Flying Dutchman/Farewell Performance', 'Trying to foil a mystery keeping the demolition of a playhouse, Spider-Man meets Blackwell the Magician who, behind his mischievous tricks, has a message to say to him.'),
+        (1, 14, 'The Golden Rhino/Blueprint for Crime', "The Rhino sets a gold standard for his crime spree - by creating a statue of himself. Then, a mastermind uses a cow-boy and a thug to find blueprints to destroy New York. It's up to Spider-Man to foil and neutralize their evil plan."),
+        (1, 15, 'The Spider and the Fly/The Slippery Dr. Von Schlick', 'Spider-Man must stop a couple of former clever circus acrobats, dressed in dark, specialized in robbing big bank safes.'),
+        (1, 16, "The Vulture's Prey/The Dark Terrors", "In order to do a final battle with Spider-Man, the Vulture abducts J.Jonah Jameson and puts him next to a revolving pendulum. It's up to Spidey to stop the Vulture, otherwise his other nemesis Jamieson ends up in two halves."),
+        (1, 17, 'The Terrible Triumph of Dr. Octopus/Magic Malice', 'Doc Ock steals a device in order to rule the world. Spider-Man must do something to keep this evil mastermind to achieve his dreadful threat.'),
+        (1, 18, 'Fountain of Terror/Fiddler on the Loose', 'Spider-Man is back in Florida, where he must find the secret behind an old Spanish Fort, guarded by some would-be Conquistadors.'),
+        (1, 19, 'To Catch a Spider/Double Identity', 'Dr Noah Boddy releases Electro, the Green Goblin and the Vulture to confront Spider-Man in a series of showdowns. Then, a Chameleon-like criminal eludes police and Spider-Man alike.'),
+        (1, 20, 'Sting of the Scorpion/Trick or Treachery', "The Flys, a.k.a. the Patterson Twins, are paroled and freed. However, Spider-Man does not believe this and for a reason: they are framing him for all the heists they've done. It's up to Spidey to catch them in their act."),
+        (2, 1, 'The Origin of Spiderman', 'Meek Peter Parker is bitten by a radioactive spider and acquires super-powers. He decides to use his new powers to get rich, but when tragedy strikes close to home, he learns a valuable lesson and vows to fight crime instead.'),
+        (2, 2, 'King Pinned', 'Peter Parker overhears talk of a laboratory producing imitation pharmaceuticals, investigation as Spider-Man lead him to find out the whole plot has been engineered by a rotund mobster called the Kingpin.'),
+        (2, 3, 'Swing City', "A new nuclear reactor has been built in the heart of Manhattan, and Peter Parker's science class is researching it. Peter is asked by his attractive classmate, Sonya, to help her that night with research about the reactor. As Spidey is making his way to Sonya's home, trouble is brewing. A demented radiation specialist breaks into the new reactor and threatens the city with ransom; unless he is paid $10 million, given amnesty from prosecution, and given permission to build his own reactor, he will use anti-gravity rays on Manhattan to lift it into the sky."),
+        (2, 4, 'Criminals in the Clouds', 'The Sky-Master plots to wreak havoc on New York from his dirigible, so Spider-Man hitches a ride to burst his balloon.'),
+        (2, 5, 'Menace from the Bottom of the World', 'When a city bank mysteriously vanishes into the street, J. Jonah Jameson sends a reporter named Hammond to investigate, while sending Peter to visit a scientist who has recorded voices supposedly from the center of the earth. Peter visits the scientist, and when a recording is played for him, he discovers it is the men - or beasts - who made the bank disappear, and they are plotting another one. Realizing it is only a few minutes until the plot is carried out, Peter becomes Spidey & heads for the bank. Sure enough, the bank disappears into the earth!'),
+        (2, 6, 'Diamond Dust', 'After years of being dismissed as a bookworm, Peter Parker is trying to win a spot as a relief pitcher on his college baseball team.'),
+        (2, 7, 'Spiderman Battles the Molemen', 'The Molemen from "Menace From the Bottom of the World" are stealing buildings again, taking back the sun, wealth and land that they feel should rightfully belong to them.'),
+        (2, 8, 'Phantom from the Depths of Time', "One of the enslaved inhabitance from a small Island manages to send a distress call on the same frequency as spider-man's spidersense. He arrives to find the evil Dr Mantra using giant beetles to force the humans to work in the ore mines."),
+        (2, 9, 'The Evil Sorcerer', 'Thousands of years before the dawn of civilization, evil magicians were fighting for supremacy - and Kotep, the Scarlet Sorcerer, was the most aggressive of these. When he loses a battle with an opponent, his own demons turn against him and place him in a time suspension. Six thousand years later, he is an exhibition at the museum where Peter is taking a course. The professor teaching it has found a spell that can supposedly revive the sorcerer, and when it is tested, Kotep does indeed come back to life - and turns on the professor.'),
+        (2, 10, 'Vine', 'Spider-Man comes back again against the new evil villain Vine.'),
+        (2, 11, 'Pardo Presents', "In the dead of night, a menacing giant cat is stalking across Manhattan & stealing valuables - furs, jewelry, cash - and bringing it back to a tiny apartment. The cat is the product of a demented sorcerer named Pardo, who is planning a vile scheme - to rob Manhattan's wealthiest citizens and then sap the souls out of their bodies. At a movie theater the following night, Peter attends a premiere of a strange film called 'My...Pet' with his girlfriend, Polly. When the film starts, the giant cat appears, and begins gassing the audience with a noxious gas that puts them into a trance."),
+        (2, 12, 'Cloud City of Gold', "Peter Parker is on assignment in South America with some wealthy businessmen. Their plane crashes in the jungle and their only salvation is a frail boat on the river. However, the river ends as a whirlpool and all are caught in an eerie cave full of bats and unusual creatures. The businessmen are captured by the henchmen of a Conquistador, who uses a fire pit to terrorize and rule over this strange world. It's up to Spider-Man to free the menaced innocents and neutralize this paranoid tyrant."),
+        (2, 13, "Neptune's Nose Cone", 'Peter Parker travels with Penny Jones in the Daily Bugle plane to the Antarctic to photograph a downed space capsule. After a crash landing on an island, Spider-Man must rescue Penny from a primitive tribe bent on human sacrifice.'),
+        (2, 14, 'Home', 'Spider-Man stumbles upon a robbery perpetrated by a woman with the same spider powers he has. Spider-Man follows her and discovers that she is from a distant civilization that crash landed one Earth long ago.'),
+        (2, 15, 'Blotto', "A demented movie producer named Clive has created a device called the Spirit-Scope, which he uses to set his darkest creation, called Blotto - a black, blob-like creature - loose from the screen. Blotto is released into Manhattan's streets, extending a dark tentacle over anything and when the tentacle retracts, the object is gone. Nothing is too small, or big, for him to consume - cars, lamp posts, mailboxes, even buildings. Peter is out driving with a celebrity when his car runs out of gas, just as Blotto moves in."),
+        (2, 16, 'Thunder Rumble', 'Volton, The Martian God of Thunder, teams up with two crooks and rampages through the city, Luckily Spider-man and his team of teenage car driving helpers is on hand to trap, tie up and defeat Volton and save the day.'),
+        (2, 17, 'Spiderman Meets Skyboy', "Jan Caldwell, the son of famed a scientist dons his father's powerful astro-helmet and joins forces with Spider-Man to combat the crazed Doctor Zap."),
+        (2, 18, 'Cold Storage', 'Two jewel thieves are caught in the act by Spidey after robbing a jewelry store at midnight. They are trying to mix the jewels with ice & then smuggle them out of the country. One of the thieves - known as Dr. Cool - manipulates his trick cane, rendering Spidey unconscious. The henchman ties Spidey up & places him in a deep freeze, then turns the temperature to absolute zero! Spidey is unable to free himself before the cold takes over, and he awakes to find the city in ruins & inhabited by cavemen, who attack him.'),
+        (2, 19, 'To Cage a Spider', 'Spider-man is in Jail. He agrees to help a group of inmates stage a prison breakout. While escaping things are not going to plan around them and the numbers start to dwindle.'),
+        (3, 1, "The Winged Thing/Conner's Reptiles", 'The Vulture warns people to stay off the streets, then escapes from Spider-Man on a building site.'),
+        (3, 2, 'Trouble with Snow/Spiderman vs. Desparado', "Electricity, when used responsibly, it is man's best friend, when not kept under control it gives life to evil city destroying snowmen! Desperado, a lasso wielding cowboy, uses his electronic horse to go on a one man crime-wave."),
+        (3, 3, 'Sky Harbor/The Big Brainwasher', "Peter hears that his friend Mary Jane Watson has a new job as a dancer in a hip night club in Greenwich Village. However, he discovers that this is a front for the criminal activities of the Kingpin, a notorious gangster. It's up to Spider-Man to foil this plot, in the risk of being drowned in some water tank which the Kingpin installed in the backstage of the club to get rid of his enemies."),
+        (3, 4, 'The Vanishing Dr. Vespasian/Scourge of the Scarf', "A series of bank robberies are taking place, with no evidence left behind. The robberies are the work of a group of thieves led by a chemist named Dr. Vespasian, who has created an invisibility formula called 'Invisoscine'. When Spidey investigates the robberies, Vespasian's dog, Brutus - who is also invisible - attacks Spidey. Brutus is thrown against a container of flour, which coats him & reveals him to Spidey. Spidey throws Brutus into a garbage can & traps him, but when police find signs of a struggle & pieces of Spidey's uniform, it is suspected that Spidey is dead."),
+        (3, 5, 'Super Swami/The Birth of Micro Man', 'Koga, a Chinese magician, wreaks havoc on the city. Peter Parker picks up Professor Pretoris who is precariously persuade at pace by a party of pouncing police.'),
+        (3, 6, 'Knight Must Fall/The Devious Dr. Dumpty', 'Peter is assigned to cover a parade for the Daily Bugle, and disguised as Spidey, he sits atop a building taking pictures. Among the floats is a movie star with a fortune in jewels on her - and in the crowd is a group of thieves. When a gas-filled balloon released by the thieves explodes, it knocks everyone out, except Spidey, who goes into action. The thieves escape in a hot-air balloon, but Spidey discovers their identities. They are led by a huge man named Dr. Humperdinck Dumpty, who has his thugs rain sandbags on Spidey, knocking him off the balloon.'),
+        (3, 7, 'Up from Nowhere', "In New York harbor, a mysterious machine pops up out of the depths. This is the lab of Dr. Atlantian, a demented scientist from the lost continent of Atlantis. At the same time as Atlantian is planning to subjugate the world, Peter is learning about Atlantis - and its apparently highly advanced technology, some of which draws its power from the moon. Unknown to anyone, Atlantian deploys the moonbeam to create an earthquake, which draws attention from the armed forces. The army turns its tanks on Atlantian's reactor, now at the surface of the water."),
+        (3, 8, 'Rollarama', 'Peter & his girlfriend Sue are at an old house going through its attic, when one of them discovers a large seed that responds quickly to sunlight. Putting it aside when Sue discovers a large machine - the Glutz Machine - in the attic, Peter turns his attention to the story of the professor who has gone back to 3 million B.C. While he & Sue are investigating, the seed suddenly grows hundredfold in size & rolls through the side of the house and into the street, smashing everything in its way.'),
+        (3, 9, 'Rhino/The Madness of Mysterio', 'The Rhino, loving repeat performances, once again steals gold shipments with which to build a 14 karat statue of himself. Hopefully the city learn their lesson this time and beefs up security. Mysterio traps Spider-man in a deadly amusement park.'),
+        (3, 10, 'Revolt in the Fifth Dimension', 'Luck, Suggestion and Determination must guide Spider-man through this trip into the 5th dimension. Spider-man finds himself face to face with The Skeletal Infinata, how can he defeat something that is completely of the mind?'),
+        (3, 11, 'Specialists and Slaves', "Spidey's old enemy from 'Swing City' - the Radiation Specialist - is back! This time, he is much darker - even psychopathic. Following his release from jail, the specialist promptly revisits Manhattan's nuclear reactor, stuns the outdoor soldiers guarding it, and again commandeers the reactor. Realizing Spidey still poses a threat to him, the specialist contrives a scheme using a remote-controlled car to get Spidey off the island. Spidey soon finds out about the specialist's plans and gets back into Manhattan, even as the specialist lifts Manhattan into the sky once again."),
+        (3, 12, 'Down to Earth', "Basically, this is Neptune's Nose Cone with the action taking place in the North Pole this time."),
+        (3, 13, 'Trip to Tomorrow', 'Spider-man recounts an anthology of tales to Tom, a young wannabe hero running away from home.'),
+    ],
+    "Hulk": [
+        (1, 1, 'Origin of the Hulk/Enter the Gorgon/To Be a Man', 'Bruce Banner becomes the Hulk by saving Rick Jones from a gamma bomb explosion.'),
+        (1, 2, 'The Terror of the Toadmen/Bruce Banner Wanted for Treason!/Hulk Runs Amok', 'The Gorgon comes to America and fights the Hulk, only to be cured of his ugly disease by Hulk.'),
+        (1, 3, 'A Titan Rides the Train!/The Horde of Humanoids!/On the Rampage!', 'The Gorgon takes Bruce Banner and Rick Jones hostage. Banner actually agrees to help Gorgon to cure him of his hideous disease.'),
+        (1, 4, 'The Power of Doctor Banner!/Where Strides the Behemoth/Back from the Dead!', "After the army shoots down their UFO, the evil Toadmen seek refuge in an underground tunnel and magnetically pull the moon toward earth, causing great disasters. Banner escapes imprisonment, confronts the Toadmen's attack and saves earth."),
+        (1, 5, 'Micro-Monsters/The Lair of the Leader/To Live Again', "The Leader plots to destroy the Hulk using a swarm of tiny, genetically engineered creatures and his loyal, mindless Humanoids. Bruce Banner then goes on the offensive to track down the Leader's primary subterranean stronghold, and the Hulk must overpower the Leader's traps to escape."),
+        (1, 6, 'Brawn Against Brain/Captured at Last!/Enter...the Chameleon!', "Bruce Banner's indestructible robot is stolen, leading to a clash where the Hulk confronts the machine and the military tries to capture him. The Hulk is subdued and chained, reverting to Banner, and the Leader dispatches the Chameleon to infiltrate the army base and steal Banner's technology in disguise."),
+        (1, 7, 'Within the Monster Dwells a Man!/Another World, Another Foe!/The Wisdom of the Watcher!', "The Leader, a mutated super villain, learns that Doctor Banner's newest nuclear device is being transported to another military base by a train, and sends one of his Humanoids to attack the train and steal the invention."),
+        (1, 8, 'The Space Phantom/Sting of the Wasp/Exit the Hulk', 'While Banner is in custody of Glenn Talbot, the Leader prepares his invasion of the island with a horde of Humanoids.'),
+        (1, 9, 'The Incredible Hulk vs The Metal Master/The Master Tests His Metal/Mind Over Metal', "In the midst of the epic battle against the Leader's Humanoids, the Hulk suddenly transforms back into Bruce Banner."),
+        (1, 10, 'The Ringmaster/Captive of the Circus/The Grand Finale', 'Bruce Banner is hunted by the military for a crime he did not commit and The Hulk must fight for his justice.'),
+        (1, 11, 'Enter Tyrannus/Beauty and the Beast/They Dwell in the Depths', 'Hulks faces a tank army of General Ross and escapes to the Himalayas - where he is promptly taken hostage as Bruce Banner.'),
+        (1, 12, 'The Terror of the T Gun/I Against a World/Bruce Banner Is the Hulk!', 'Bruce Banner has a chance to save Glenn Talbot - and to get rid of the Hulk once and for all.'),
+        (1, 13, 'The Man Called Boomerang!/The Hulk Intervenes/Less than Monster, More than Man!', 'Banner is in custody and gets word to Rick Jones, who shows up in the army to save Banner. Rick is wounded in battle, but the Hulk saves his life.'),
+    ],
+    "Birdman and the Galaxy Trio": [
+        (1, 1, 'X the Eliminator/Revolt of the Robots/Morto the Marauder', 'F.E.A.R. hires X The Eliminator to destroy Birdman.'),
+        (1, 2, 'The Ruthless Ringmaster/The Battle of the Aquatrons/Birdman Versus the Mummer', "An evil circus heists secret weapons for F.E.A.R. Birdman matches wits with a master of disguise. The Galaxy Trio must stop an alien dictator from melting earth's polar ice caps."),
+        (1, 3, 'The Quake Threat/The Galaxy Trio Versus the Moltens of Meteorus/Avenger for Ransom', 'An evil genius has developed a device that enables him to cause earthquakes and he wants to sell it to the highest bidder.'),
+        (1, 4, 'Birdman Versus Cumulus, the Storm King/The Galaxy Trio and the Sleeping Planet/Serpents of the Deep', 'Cumulus controls the weather in Central City and tries to black mail the government.'),
+        (1, 5, 'Nitron the Human Bomb/The Galaxy Trio and the Peril of the Prison Planet/Mentok, the Mind Taker', 'A radioactive villain wants to join F.E.A.R but he also wants half control of the organization.'),
+        (1, 6, 'The Purple Moss/Drackmore the Despot/The Deadly Trio', 'During an important peace treaty signing, a master of disguise kidnaps and impersonates the King Of Salaman.'),
+        (1, 7, 'The Brain Thief/Titan, the Titanium Man/Birdman Versus the Constrictor', "Scientists are disappearing at the World's Fair and Birdman must find out where they are going."),
+        (1, 8, 'Number One/The Duplitrons/Birdman Meets Birdgirl', "Birdman's number one enemy schemes to steal away his energy for use in a pirate satellite."),
+        (1, 9, 'Birdman Meets Reducto/Computron Lives/Vulturo, Prince of Darkness', 'A mad scientist threatens to use his shrink ray on everyone unless Birdman is sent to him.'),
+        (1, 10, 'The Chameleon/The Eye of Time/The Incredible Magnatroid', 'A shape shifting villain goes on a robbery spree.'),
+        (1, 11, 'Hannibal the Hunter/The Cavemen of Primevia/The Empress of Evil', 'The Constrictor steals tops secret missile plans and will only return them if Birdman gives him Avenger.'),
+        (1, 12, 'The Wings of Fear/The Demon Raiders/Birdman Meets Birdboy', 'An evil scientist creates a female version of Birdman to help him steal hydrogen bombs.'),
+        (1, 13, 'The Menace of Dr. Millenium/The Rock Men/Birdman Versus Dr. Freezoids', 'A mad scientist reanimates prehistoric animals to steal a top secret missile plan.'),
+        (1, 14, 'The Deadly Duplicator/Space Fugitives/Professor Nightshade', 'Using special glasses, a mad scientist is duplicating people to have them do his work.'),
+        (1, 15, 'Train Trek/Space Slaves/Birdman Meets Moray of the Deep', 'Spyro hi-jacks a train so he can get into Atomic City and steal a new government rocket ship.'),
+        (1, 16, 'Birdman and the Monster of the Mountain/Galaxy Trio Versus Growliath/The Return of Vulturo', 'Fed by rays from a hovering metal sphere, a suffocating purple moss is spreading over the countryside.'),
+        (1, 17, 'Revenge of Dr. Millenium/Return to Aqueous/The Ant Ape', 'A giant magnetic robot steals an important shipment of titanium.'),
+        (1, 18, 'Birdman Versus the Speed Demon/Invasion of the Sporoids/The Wild Weird West', ''),
+        (1, 19, 'The Pirate Plot/Gralik of Gravitas/Skon of Space', 'Winged agents of F.E.A.R. are abducting foreign ambassadors.'),
+        (1, 20, 'Murro the Marauder/Plastus the Pirate Planet/Morto Rides Again', 'A mysterious member of F.E.A.R. is trying to freeze the city with his freeze ray.'),
+    ],
+}
+
+BIRDMAN_SEG_SYN = {
+    'Avenger for Ransom': "Zardo has bird-napped Avenger and threatens to kill him if Birdman won't reveal military secrets.",
+    'Birdman Meets Birdboy': 'Birdman finds a boy floating on a raft and accidentally gives him super powers.',
+    'Birdman Versus the Speed Demon': 'An accident in a prison lab gives a prisoner lightning speed that enables him to escape.',
+    'Birdman and the Monster of the Mountain': 'A monster is terrorizing a Himalayan village and Birdman must save the day.',
+    'Galaxy Trio Versus Growliath': 'When a village in Tibet is regularly terrorized by a monster, Birdman and his friends follow the tracks and encounter him.',
+    'Galaxy Trio Versus the Moltens of Meteorus': 'Birdman tracks Kyrov, who has been engineering earthquakes.',
+    'Hannibal the Hunter': 'An evil big game hunter wants to add Birdman to his collection.',
+    'Morto Rides Again': 'Morto breaks out of prison again and demands control of the country.',
+    'Morto the Marauder': 'Morto the Marauder creates a suit of armor to break out of prison and get his revenge on Birdman.',
+    'Murro the Marauder': 'A mysterious villain shows up at F.E.A.R. headquarters offering them military secrets and the ultimate defeat of Birdman. In return he wants absolute control of F.E.A.R.',
+    'Professor Nightshade': 'An agent of F.E.A.R. steals a new device that can make entire cities disappear.',
+    'Serpents of the Deep': "The government develops a device that can dig up gold from the ocean floor but it's stolen by an underwater villain.",
+    'Skon of Space': 'An alien invasion fleet sends an advance scout to Earth to determine if it can be conquered.',
+    'The Ant Ape': 'Professor Claw creates a robot to destroy Birdman.',
+    'The Deadly Trio': 'Three evil scientists join forces to defeat Birdman.',
+    'The Empress of Evil': 'The son of The Maharaja of Ramadan has been kidnapped by Medusa and Birdman must rescue him.',
+    'The Pirate Plot': 'Captain Kidd has returned from the dead to raid the high seas.',
+    'The Return of Vulturo': 'Vulturo creates a robotic Avenger clone and uses it to capture Birdboy.',
+    'The Wild Weird West': 'Descendants of Jesse James uses space technology to finish what he started.',
 }
 
 # Titles that embed their own metadata or are riff one-offs.
@@ -460,6 +657,75 @@ def clean_chapter(s):
         return "Chapter " + str(_ROMAN.get(m.group(1).lower(), m.group(1)))
     s = re.sub(r"\bChapter\s+([IVXLCDM]+)\b", repl, s)
     return re.sub(r"\s{2,}", " ", s).strip()
+
+
+# ── pinned-episode matching for segment-based cartoons ──
+def _segkey(s):
+    """Aggressive normalize for fuzzy segment matching: lowercase, drop 'Part N',
+    strip punctuation and a leading 'the'."""
+    s = (s or "").lower()
+    s = re.sub(r"\bpart\s+\d+\b", " ", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    s = re.sub(r"^the\s+", "", s)
+    return s.strip()
+
+def _split_segments(sub):
+    """Feed sub-title -> list of segment strings (handles ' / ', '/', and commas)."""
+    parts = re.split(r"\s*/\s*|\s*,\s*", sub or "")
+    return [p.strip() for p in parts if p.strip()]
+
+def _build_pinned_index():
+    """{show: (keys_list, {key:(S,E,full_title,synopsis)})} from PINNED_RAW.
+    PINNED_RAW rows are (season, episode, 'seg/seg', synopsis)."""
+    idx = {}
+    for show, eps in PINNED_RAW.items():
+        kmap = {}
+        for s, e, raw, syn in eps:
+            segs = [p.strip() for p in raw.split("/") if p.strip()]
+            full = " / ".join(segs)
+            for seg in segs:
+                kmap.setdefault(_segkey(seg), (s, e, full, syn))
+        idx[show] = (list(kmap.keys()), kmap)
+    return idx
+
+PINNED_INDEX = _build_pinned_index()
+
+# Birdman airs ONE segment per slot, so even though we show the organized triplet
+# (S/E + full title), the aired segment's own synopsis is more accurate than the
+# triplet's -- match the feed segment name to its IMDb synopsis when we have one.
+_BIRDMAN_SYN_INDEX = {_segkey(k): v for k, v in BIRDMAN_SEG_SYN.items()}
+_BIRDMAN_SYN_KEYS = list(_BIRDMAN_SYN_INDEX.keys())
+
+def pinned_lookup(show, sub):
+    """Match a feed sub-title's segment to a pinned broadcast episode.
+    Returns (season, ep, full_title, synopsis) or None."""
+    entry = PINNED_INDEX.get(show)
+    if not entry or not sub:
+        return None
+    keys, kmap = entry
+    for seg in _split_segments(sub):
+        k = _segkey(seg)
+        if not k:
+            continue
+        if k in kmap:
+            return kmap[k]
+        hit = difflib.get_close_matches(k, keys, n=1, cutoff=0.82)
+        if hit:
+            return kmap[hit[0]]
+    return None
+
+def birdman_syn_lookup(sub):
+    """Birdman segment name -> IMDb synopsis ('' if none known)."""
+    for seg in _split_segments(sub or ""):
+        k = _segkey(seg)
+        if not k:
+            continue
+        if k in _BIRDMAN_SYN_INDEX:
+            return _BIRDMAN_SYN_INDEX[k]
+        hit = difflib.get_close_matches(k, _BIRDMAN_SYN_KEYS, n=1, cutoff=0.82)
+        if hit:
+            return _BIRDMAN_SYN_INDEX[hit[0]]
+    return ""
 
 
 def _tvmaze_namemap(tid, cache):
@@ -788,6 +1054,12 @@ def enrich(path):
                 disp_title = "RiffTrax"
                 year = None
                 forced_desc = SHOW_DESC_OVERRIDE["RiffTrax"]
+        elif raw in DISPLAY_CANON:                 # display-name fix (keep S/E)
+            show = DISPLAY_CANON[raw]
+            disp_title = DISPLAY_CANON[raw]
+            forced_desc = None
+            year = None
+            no_se = False
         else:
             show = ALIAS.get(raw, raw)
             disp_title = None
@@ -798,6 +1070,7 @@ def enrich(path):
         orig_sub = (prog.findtext("sub-title") or "").strip()
         clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
         epname = clean_sub or (sp.get("sub") if sp else "")
+        is_curated = show in CURATED_SHOWS         # '60s cartoons: pins only, never guess S/E
         base, delay = CH_MAP[prog.get("channel")]
         ts = _prog_start_ts(prog)
         absN = lookup_epnum(epindex.get(base, []), ts - delay * 60) if ts is not None else None
@@ -807,10 +1080,29 @@ def enrich(path):
         ov = nm = ""
         source = None
         seg_fullname = ""
+        pinned_full = ""
+        pinned_syn = ""
         try:
             if not no_se:
+                # 0) PINNED IMDb broadcast episodes for segment-based cartoons
+                #    (Spider-Man '67, Hulk '66) -> correct S/E + full title + the
+                #    IMDb synopsis for that episode (may be '' -> series blurb).
+                #    We never call episode_meta() for curated shows: a per-(show,
+                #    S,E) metadata lookup matches a WRONG same-named series (1994
+                #    Spider-Man, 1978/1996 Hulk) and attaches a wrong synopsis.
+                ps = pinned_lookup(show, epname) if (epname and is_curated) else None
+                if ps:
+                    season, ep, pinned_full, pinned_syn = ps
+                    source = "name"
+                # Birdman airs one segment per slot: prefer that segment's own IMDb
+                # synopsis over the triplet's (more accurate for the aired short).
+                # A segment with no triplet match still has no S/E (the "unknowns").
+                if is_curated and show == "Birdman and the Galaxy Trio" and epname:
+                    seg_syn = birdman_syn_lookup(epname)
+                    if seg_syn:
+                        pinned_syn = seg_syn
                 # 0a) explicit episode pin: (lookup show, normalized episode name)
-                pin = EPISODE_SE_OVERRIDE.get((show, _norm(epname))) if epname else None
+                pin = EPISODE_SE_OVERRIDE.get((show, _norm(epname))) if (epname and season is None) else None
                 if pin:
                     season, ep = pin
                     ov, nm = episode_meta(show, season, ep, cache)
@@ -821,7 +1113,9 @@ def enrich(path):
                     ov, nm = episode_meta(show, season, ep, cache)
                     source = "name"
                 # 1) episode NAME match (exact / segment, best for Western cartoons)
-                if season is None and epname:
+                #    Skipped for pinned segment cartoons: if a segment isn't in the
+                #    pinned list (e.g. a season we don't have), we do NOT guess S/E.
+                if season is None and epname and not is_curated:
                     cands = [epname]
                     for sep in (" / ", "/", " - "):
                         if sep in epname:
@@ -837,14 +1131,20 @@ def enrich(path):
                         if nm and "/" in nm and _norm(epname) in _segments(nm):
                             seg_fullname = nm
                 # 2) ABSOLUTE episodeNumber from the feed (dubbed anime + Snick)
-                if season is None and absN:
+                #    Never for pinned segment cartoons (their feed number counts
+                #    segments, not episodes -> that was the Spider-Man '67 bug).
+                if season is None and absN and not is_curated:
                     s2, e2n, ov2, nm2 = absolute_se(show, absN, cache)
                     if s2:
                         season, ep, ov, nm = s2, e2n, ov2, nm2
                         source = "absolute"
             # 3) description
+            #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
+            #    the fixed series blurb (never the metadata API -> no wrong series).
             if forced_desc:
                 desc = forced_desc
+            elif is_curated:
+                desc = pinned_syn or show_overview(show, cache)
             elif season is not None:
                 desc = (ov or show_overview(show, cache))
             else:
@@ -863,6 +1163,14 @@ def enrich(path):
         if force_no_sub:
             for e in prog.findall("sub-title"):
                 prog.remove(e)
+        elif pinned_full:
+            _set_child(prog, "sub-title", pinned_full, {"lang": "en"})
+        elif is_curated and orig_sub:
+            # curated cartoon, segment not in a pin (Birdman, or a segment we don't
+            # have): keep the real feed segment name(s), standardize to " / ".
+            joined = " / ".join(_split_segments(orig_sub))
+            if joined != orig_sub:
+                _set_child(prog, "sub-title", joined, {"lang": "en"})
         elif seg_fullname and _norm(seg_fullname) != _norm(orig_sub):
             _set_child(prog, "sub-title", seg_fullname, {"lang": "en"})
         elif orig_sub and clean_sub != orig_sub:
@@ -899,6 +1207,21 @@ def enrich(path):
                 stats["icons"] += 1
         _reorder(prog)
 
+    # ── close the 1-2 min gaps between programmes: per channel, each show's
+    #    stop is stretched (or trimmed) to meet the next show's start, so the
+    #    timeline is fully contiguous with no blank slots. ──
+    from collections import defaultdict
+    bych = defaultdict(list)
+    for p in root.findall("programme"):
+        bych[p.get("channel")].append(p)
+    gaps_closed = 0
+    for cid, plist in bych.items():
+        plist.sort(key=lambda p: p.get("start") or "")
+        for a, b in zip(plist, plist[1:]):
+            if a.get("stop") != b.get("start"):
+                a.set("stop", b.get("start"))
+                gaps_closed += 1
+
     save_cache(cache)
     tree.write(path, encoding="UTF-8", xml_declaration=True)
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
@@ -908,6 +1231,7 @@ def enrich(path):
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
     print(f"  posters <image>-><icon>: {stats['icons']}")
+    print(f"  gaps/overlaps closed   : {gaps_closed}")
 
 
 if __name__ == "__main__":
