@@ -1470,10 +1470,12 @@ def enrich(path):
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0, "from_tam": 0, "by_tam": 0,
+             "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0,
              "desc_episode": 0, "desc_generic": 0, "desc_none": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
     generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
+    records = []          # per-programme resolution, for repeat-fill + the desc report
+    numfill = {}          # (norm show, feed episodeNumber) -> (name, (S,E), episode desc)
     for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
@@ -1567,6 +1569,7 @@ def enrich(path):
         seg_fullname = ""
         pinned_full = ""
         pinned_syn = ""
+        desc_kind = "episode"; desc_reason = ""
         try:
             if not no_se:
                 # 0) PINNED IMDb broadcast episodes for segment-based cartoons
@@ -1709,12 +1712,8 @@ def enrich(path):
                 desc_kind, desc_reason = "generic", "no S/E resolved -> show-level blurb"
             if not desc:
                 desc_kind, desc_reason = "none", "no description found anywhere"
-            if desc_kind != "episode":
-                label = epname or (sp.get("sub") if sp else "") or "(no episode name)"
-                generic_desc.add((disp_title or show, label, desc_reason))
-                stats["desc_generic" if desc_kind == "generic" else "desc_none"] += 1
-            else:
-                stats["desc_episode"] += 1
+            # (description classification + the generic_desc report are tallied
+            #  AFTER the repeat-fill pass below, from the per-programme records.)
             # tally how S/E was resolved
             if season is not None:
                 if source == "tam":
@@ -1791,6 +1790,57 @@ def enrich(path):
             stats["icons"] += 1
         _reorder(prog)
 
+        # record this programme for the repeat-fill pass + the description report.
+        final_sub = (prog.findtext("sub-title") or "").strip()
+        rec = {"prog": prog, "show": disp_title or show, "absN": absN,
+               "se": (season, ep) if season is not None else None, "desc": desc,
+               "kind": desc_kind, "reason": desc_reason, "epname": epname,
+               "sp_sub": (sp.get("sub") if sp else ""),
+               "curated": is_curated, "no_sub": force_no_sub}
+        records.append(rec)
+        # seed the (show, feed episodeNumber) -> full resolution map from airings we
+        # fully resolved (name + S/E + a real episode synopsis).
+        if (desc_kind == "episode" and final_sub and rec["se"] and absN is not None
+                and not is_curated and not force_no_sub):
+            numfill.setdefault((_norm(disp_title or show), absN),
+                               (final_sub, rec["se"], desc))
+
+    # ── REPEAT-FILL: Toonami Aftermath loops its schedule and the feed stamps
+    #    every airing with an episodeNumber. An episode we FULLY resolved at one
+    #    airing (name + S/E + a real synopsis) can therefore backfill its OTHER
+    #    airings that arrived with no name — matched by (show, episodeNumber).
+    #    Same show + same feed number = same episode, so it's reliable and needs
+    #    no external source. Manual pins/overrides and TAM already won in pass 1;
+    #    this only touches airings still lacking an episode-specific description,
+    #    and only copies from a sibling that has the full set. ──
+    for rec in records:
+        if rec["kind"] == "episode" or rec["curated"] or rec["no_sub"]:
+            continue
+        if rec["absN"] is None:
+            continue
+        hit = numfill.get((_norm(rec["show"]), rec["absN"]))
+        if not hit:
+            continue
+        sub_text, (s, e), dsc = hit
+        prog = rec["prog"]
+        _set_child(prog, "sub-title", sub_text, {"lang": "en"})
+        _set_child(prog, "episode-num", f"{s - 1}.{e - 1}.", {"system": "xmltv_ns"})
+        e2 = ET.SubElement(prog, "episode-num", {"system": "onscreen"})
+        e2.text = f"S{s:02d} E{e:02d}"
+        _set_child(prog, "desc", dsc, {"lang": "en"})
+        _reorder(prog)
+        rec.update(kind="episode", reason="", se=(s, e), desc=dsc)
+        stats["by_repeat"] += 1
+
+    # ── classify every programme's <desc> (AFTER repeat-fill) for the report ──
+    for rec in records:
+        if rec["kind"] == "episode":
+            stats["desc_episode"] += 1
+        else:
+            label = rec["epname"] or rec["sp_sub"] or "(no episode name)"
+            generic_desc.add((rec["show"], label, rec["reason"]))
+            stats["desc_generic" if rec["kind"] == "generic" else "desc_none"] += 1
+
     # ── close the 1-2 min gaps between programmes: per channel, each show's
     #    stop is stretched (or trimmed) to meet the next show's start, so the
     #    timeline is fully contiguous with no blank slots. ──
@@ -1831,6 +1881,7 @@ def enrich(path):
             fh.write(f"#   S/E by name      : {stats['by_name']}  (manual pins: {stats['se_pinned']})\n")
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
             fh.write(f"#   S/E + desc / TAM : {stats['by_tam']}  (name+S/E+synopsis taken straight from TAM)\n")
+            fh.write(f"#   repeat-fill      : {stats['by_repeat']}  (re-airings backfilled from a named sibling by episodeNumber)\n")
             fh.write(f"#   names from TAM   : {stats['from_tam']}\n")
             fh.write(f"#   S/E withheld     : {stats['se_dropped']}  (listed below)\n")
             fh.write("# ============================================================\n")
@@ -1874,6 +1925,7 @@ def enrich(path):
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  S/E + desc from TAM     : {stats['by_tam']}")
+    print(f"  repeat-fill (by number) : {stats['by_repeat']}")
     print(f"  names from TAM          : {stats['from_tam']}")
     print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
           f"{f', {_SIMKL_HITS} extra S/E' if ENABLE_SIMKL else ''}")
