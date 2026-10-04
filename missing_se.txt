@@ -1,13 +1,14 @@
 # ============================================================
-# RUN STATUS  (2026-10-04 18:17 UTC)
+# RUN STATUS  (2026-10-04 19:05 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 722 episode-specific, 239 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 748 episode-specific, 213 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 657  (manual pins: 141)
-#   S/E by absolute  : 23
-#   Snick names/TAM  : 224
-#   S/E withheld     : 29  (listed below)
+#   S/E by name      : 667  (manual pins: 141)
+#   S/E by absolute  : 7
+#   S/E + desc / TAM : 24  (name+S/E+synopsis taken straight from TAM)
+#   names from TAM   : 234
+#   S/E withheld     : 21  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -20,11 +21,7 @@
     ("Dragon Ball", "What the...?! No Balls!"): (, ),
     ("Fullmetal Alchemist", "Sealing the Homunculus"): (, ),
     ("Lupin the Third: Part II", "ZenigataCon"): (, ),
-    ("Nickelodeon Guts", "Dana vs. Anderson vs. Ron"): (, ),
-    ("Noozles", "Propose"): (, ),
     ("Sailor Moon", "Blinded By Love's Light"): (, ),
     ("Sailor Moon", "Swept Off Her Feet"): (, ),
     ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): (, ),
-    ("The Adventures of Tintin", "Flight 714: Part 2"): (, ),
-    ("The Rocky and Bullwinkle Show", "Boris Badenov and His Friends?/Bars of Steal, or The Hard Cell"): (, ),
     ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): (, ),

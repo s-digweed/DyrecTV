@@ -1,7 +1,7 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-04 18:17 UTC)
-#   episode-specific: 722
-#   generic (blurb) : 239
+# DESCRIPTION REPORT  (2026-10-04 19:05 UTC)
+#   episode-specific: 748
+#   generic (blurb) : 213
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line. To set a real one, paste into
@@ -13,7 +13,6 @@
     ("Alfred Hitchcock Presents", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("All That", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Allegra's Window", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Allegra's Window", "The Imaginary Zoo"): "",   # S/E set but no DB/OMDb episode overview
     ("Alvin and the Chipmunks", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Angry Beavers", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Animorphs", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -59,9 +58,6 @@
     ("Muppet Babies", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("My Three Sons", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Nickelodeon GUTS", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Nickelodeon GUTS", "Rebecca - Cam - Oliver"): "",   # S/E set but no DB/OMDb episode overview
-    ("Nickelodeon Guts", "Dana vs. Anderson vs. Ron"): "",   # no S/E resolved -> show-level blurb
-    ("Noozles", "Propose"): "",   # no S/E resolved -> show-level blurb
     ("Rocko's Modern Life", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Rugrats", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Sailor Moon", "Blinded By Love's Light"): "",   # no S/E resolved -> show-level blurb
@@ -74,7 +70,6 @@
     ("The Adventures of Pete & Pete", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Adventures of Superman", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Adventures of Tintin", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Adventures of Tintin", "Flight 714: Part 2"): "",   # no S/E resolved -> show-level blurb
     ("The Busy World of Richard Scarry", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Flintstones Meet Rockula And Frankenstone", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Littl' Bits", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -83,9 +78,6 @@
     ("The Mysterious Cities of Gold", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Patty Duke Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Rocky and Bullwinkle Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Rocky and Bullwinkle Show", "Boris Badenov and His Friends?/Bars of Steal, or The Hard Cell"): "",   # no S/E resolved -> show-level blurb
-    ("The Rocky and Bullwinkle Show", "Hop Skip and Junk, or Bullwinkle's Big Tow/Bucks for Boris, or The Green Paper Caper"): "",   # S/E set but no DB/OMDb episode overview
-    ("The Rocky and Bullwinkle Show", "When Moose Meets Moose, or Two's a Crowd/The Midnight Chew-Chew, or This Gum for Hire"): "",   # S/E set but no DB/OMDb episode overview
     ("UFO", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("What Would You Do?", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Wild and Crazy Kids", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
