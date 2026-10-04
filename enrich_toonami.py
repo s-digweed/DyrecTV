@@ -1301,8 +1301,20 @@ TAM_INDEX_URL = os.environ.get(
 TAM_CH_FOR = {              # our channel id -> TAM index channel id
     "Snickelodeon EST": "3",
     "Snickelodeon EST+180": "4",
+    "ToonamiAftermath.us@East": "1",   # TAM also carries S/E + synopsis for the
+    "ToonamiAftermath.us@West": "2",   # Toonami anime the databases don't index
 }
 TAM_TOL_S = 300             # cross-source air-time tolerance (feeds drift a little)
+
+def _decode_xmltv_ns(text):
+    """XMLTV 'season.episode.part' (zero-based) -> (season, episode) 1-based.
+    '1.14.0/1' -> (2, 15).  None if it has no season or episode number."""
+    if not text:
+        return None
+    m = re.match(r"\s*(\d+)?\s*\.\s*(\d+)?\s*\.", text)
+    if not m or m.group(1) is None or m.group(2) is None:
+        return None
+    return (int(m.group(1)) + 1, int(m.group(2)) + 1)
 
 def _xmltv_ts(start):
     """Parse 'YYYYmmddHHMMSS ±HHMM' to a true UTC epoch. Honoring the offset is
@@ -1325,30 +1337,40 @@ def _xmltv_ts(start):
     return dt.timestamp() - off   # local wall-clock - offset = UTC
 
 def load_tam_index():
-    """{TAM channel id -> sorted [(ts, title, sub-title)]} from TAM's index.xml.
-    We keep the show TITLE so a name is only adopted when TAM has the SAME show
-    at that air-time (the two schedules can differ at the same timestamp)."""
+    """{TAM channel id -> sorted [(ts, title, sub, se, desc)]} from TAM's index.xml.
+    TAM is a FULL metadata source, not just a name bank: each programme carries the
+    episode name (<sub-title>), the S/E (as xmltv_ns <episode-num>) AND a real
+    episode synopsis (<desc>). We keep the show TITLE so data is only adopted when
+    TAM has the SAME show at that air-time (schedules can differ at a timestamp)."""
     out = {}
     try:
         r = _sess.get(TAM_INDEX_URL, timeout=30)
         if r.status_code != 200:
-            print(f"  TAM index: HTTP {r.status_code}; Snick names will fall back")
+            print(f"  TAM index: HTTP {r.status_code}; TAM enrichment will fall back")
             return out
         root = ET.fromstring(r.content)
     except Exception as e:
-        print(f"  TAM index: fetch/parse failed ({e}); Snick names will fall back")
+        print(f"  TAM index: fetch/parse failed ({e}); TAM enrichment will fall back")
         return out
     for p in root.findall("programme"):
         cid = p.get("channel")
         title = (p.findtext("title") or "").strip()
         sub = (p.findtext("sub-title") or "").strip()
+        desc = (p.findtext("desc") or "").strip()
+        se = None
+        for en in p.findall("episode-num"):
+            if (en.get("system") or "").lower() in ("xmltv_ns", ""):
+                se = _decode_xmltv_ns(en.text)
+                if se:
+                    break
         ts = _xmltv_ts(p.get("start"))
-        if cid and title and sub and ts is not None:
-            out.setdefault(cid, []).append((ts, title, sub))
+        # keep any row that carries at least one useful field for this slot
+        if cid and title and ts is not None and (sub or se or desc):
+            out.setdefault(cid, []).append((ts, title, sub, se, desc))
     for cid in out:
         out[cid].sort(key=lambda r: r[0])
     n = sum(len(v) for v in out.values())
-    print(f"  TAM index: {n} named programmes across channels {sorted(out)}")
+    print(f"  TAM index: {n} programmes across channels {sorted(out)}")
     return out
 
 def _title_matches(a, b):
@@ -1361,26 +1383,27 @@ def _title_matches(a, b):
         return True
     return difflib.SequenceMatcher(None, na, nb).ratio() >= 0.80
 
-def tam_name_for(tam_index, our_channel, target_ts, our_titles):
-    """Nearest TAM sub-title for a Snick air-time whose TAM title matches our
-    show, or '' if TAM has a different (or no) show at that time."""
+def tam_lookup(tam_index, our_channel, target_ts, our_titles):
+    """Nearest TAM row {name, se, desc} for an air-time whose TAM title matches
+    our show, or None if TAM has a different (or no) show at that time. TAM pairs
+    the episode name with its S/E and a real synopsis, so this is a full source."""
     cid = TAM_CH_FOR.get(our_channel)
     rows = tam_index.get(cid) if cid else None
     if not rows or target_ts is None:
-        return ""
+        return None
     cands = [t for t in our_titles if t]
     keys = [r[0] for r in rows]
     i = bisect.bisect_left(keys, target_ts)
     best = None
-    # expand outward while within tolerance, keep only same-show rows
+    # expand outward while within tolerance, keep only same-show rows, nearest wins
     for j in range(i - 4, i + 5):
         if 0 <= j < len(rows):
-            ts_j, title_j, sub_j = rows[j]
+            ts_j, title_j, sub_j, se_j, desc_j = rows[j]
             d = abs(ts_j - target_ts)
             if d <= TAM_TOL_S and any(_title_matches(title_j, c) for c in cands):
                 if best is None or d < best[0]:
-                    best = (d, sub_j)
-    return best[1] if best else ""
+                    best = (d, {"name": sub_j, "se": se_j, "desc": desc_j})
+    return best[1] if best else None
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -1447,7 +1470,7 @@ def enrich(path):
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0, "from_tam": 0,
+             "se_pinned": 0, "from_tam": 0, "by_tam": 0,
              "desc_episode": 0, "desc_generic": 0, "desc_none": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
     generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
@@ -1515,14 +1538,27 @@ def enrich(path):
         # Episode-name precedence: the Toonami feed's own info.episode, else the
         # TAM feed's name for Snick (the feed itself has none), else the grabber's.
         grab_sub = (prog.findtext("sub-title") or "").strip()
-        tam_ep = (tam_name_for(tam_index, prog.get("channel"), ts, [raw, disp_title or show])
-                  if not feed_ep else "")
+        # TAM's row for this exact slot (name + S/E + synopsis). Never for the
+        # curated '60s cartoons — those use hand-pinned data only.
+        tam_row = (tam_lookup(tam_index, prog.get("channel"), ts, [raw, disp_title or show])
+                   if not is_curated else None)
+        tam_ep = (tam_row["name"] if (tam_row and not feed_ep) else "")
         if tam_ep:
             stats["from_tam"] += 1
         orig_sub = feed_ep or tam_ep or grab_sub
         clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
         epname = clean_sub or (sp.get("sub") if sp else "")
         absN = feed_num
+        # TAM's S/E + synopsis describe the SAME episode we're showing only when
+        # the identity agrees: the name came from TAM (Snick has no feed name), or
+        # our episode name matches TAM's. Otherwise it's a different episode -> skip.
+        tam_trust = bool(tam_row and epname and (
+            (not feed_ep)
+            or _norm(epname) == _norm(tam_row["name"])
+            or _segkey(epname) == _segkey(tam_row["name"])
+            or bool(set(_segments(epname)) & set(_segments(tam_row["name"])))
+        ))
+        tam_desc_use = tam_row["desc"] if (tam_row and tam_row["desc"] and tam_trust) else ""
 
         desc = ""
         season = ep = None
@@ -1605,6 +1641,22 @@ def enrich(path):
                         season, ep = s15, e15
                         ov, nm = episode_meta(show, season, ep, cache)
                         source = "name"
+                # 1c) TAM-DIRECT — only as a GAP-FILLER, after the existing name/DB
+                #     matches and BEFORE the risky absolute guess. TAM pairs the
+                #     episode name with its S/E (xmltv_ns) + a real synopsis, so when
+                #     TAM's slot is the same episode we're showing (tam_trust) we take
+                #     them straight. Gated on `season is None`, so it NEVER overrides a
+                #     manual pin/override or anything name/DB already resolved — it only
+                #     fills what would otherwise have fallen to a generic blurb. Being
+                #     reliable (name-paired), it also pre-empts the absolute tier, which
+                #     cuts down on withheld S/E.
+                if season is None and not is_curated and tam_row and tam_row["se"] and tam_trust:
+                    season, ep = tam_row["se"]
+                    if tam_desc_use:
+                        ov = tam_desc_use
+                    nm = nm or tam_row["name"]
+                    source = "tam"
+                    stats["by_tam"] += 1
                 # 2) ABSOLUTE episodeNumber from the feed, as corroboration only.
                 #    The feed numbers sequentially but DB season layouts often
                 #    disagree (the Dragnet bug), so we TRUST the absolute map only
@@ -1645,9 +1697,13 @@ def enrich(path):
             elif season is not None:
                 if ov:
                     desc = ov
+                elif tam_desc_use:                 # TAM's own episode synopsis
+                    desc = tam_desc_use
                 else:
                     desc = show_overview(show, cache)
-                    desc_kind, desc_reason = "generic", "S/E set but no DB/OMDb episode overview"
+                    desc_kind, desc_reason = "generic", "S/E set but no DB/OMDb/TAM episode overview"
+            elif tam_desc_use:                     # no S/E, but TAM gave a real synopsis
+                desc = tam_desc_use
             else:
                 desc = show_overview(show, cache)
                 desc_kind, desc_reason = "generic", "no S/E resolved -> show-level blurb"
@@ -1661,7 +1717,10 @@ def enrich(path):
                 stats["desc_episode"] += 1
             # tally how S/E was resolved
             if season is not None:
-                stats["by_name" if source == "name" else "by_absolute"] += 1
+                if source == "tam":
+                    pass                      # already counted in stats["by_tam"]
+                else:
+                    stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
                 stats["show_level"] += 1
         except Exception as e:
@@ -1771,7 +1830,8 @@ def enrich(path):
             fh.write(f"#   TAM index        : {'loaded' if tam_index else 'EMPTY (fetch failed?)'}\n")
             fh.write(f"#   S/E by name      : {stats['by_name']}  (manual pins: {stats['se_pinned']})\n")
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
-            fh.write(f"#   Snick names/TAM  : {stats['from_tam']}\n")
+            fh.write(f"#   S/E + desc / TAM : {stats['by_tam']}  (name+S/E+synopsis taken straight from TAM)\n")
+            fh.write(f"#   names from TAM   : {stats['from_tam']}\n")
             fh.write(f"#   S/E withheld     : {stats['se_dropped']}  (listed below)\n")
             fh.write("# ============================================================\n")
             fh.write("# NEEDS S/E: we have the correct episode NAME (from the feed or\n")
@@ -1813,7 +1873,8 @@ def enrich(path):
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
-    print(f"  Snick names from TAM    : {stats['from_tam']}")
+    print(f"  S/E + desc from TAM     : {stats['by_tam']}")
+    print(f"  names from TAM          : {stats['from_tam']}")
     print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
           f"{f', {_SIMKL_HITS} extra S/E' if ENABLE_SIMKL else ''}")
     print(f"  OMDb descriptions       : {'on' if ENABLE_OMDB else 'off'}")
