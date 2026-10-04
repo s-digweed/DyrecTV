@@ -1,7 +1,7 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-04 19:05 UTC)
-#   episode-specific: 748
-#   generic (blurb) : 213
+# DESCRIPTION REPORT  (2026-10-04 19:29 UTC)
+#   episode-specific: 760
+#   generic (blurb) : 201
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line. To set a real one, paste into
@@ -19,7 +19,6 @@
     ("Are You Afraid of the Dark?", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Beetlejuice", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Bewitched", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Captain Scarlet and the Mysterons", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("CatDog", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Clarissa Explains It All", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Count Duckula", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -29,7 +28,6 @@
     ("Dragon Ball", "What the...?! No Balls!"): "",   # no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "Arrival of Fear!! Salute, Ginyu Special Squadron!!"): "",   # no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged: Celloween", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("F Troop", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Fifteen", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Fireball XL5", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Flipper", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -44,7 +42,6 @@
     ("Hey Dude!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Inspector Gadget", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Joe 90", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("KaBlam!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Kenan & Kel", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Lassie", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -65,8 +62,6 @@
     ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): "",   # no S/E resolved -> show-level blurb
     ("Salute Your Shorts", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Space Ghost Coast to Coast", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Space: 1999", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Stingray", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Adventures of Pete & Pete", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Adventures of Superman", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Adventures of Tintin", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
@@ -78,7 +73,6 @@
     ("The Mysterious Cities of Gold", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Patty Duke Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("The Rocky and Bullwinkle Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("UFO", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("What Would You Do?", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Wild and Crazy Kids", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): "",   # no S/E resolved -> show-level blurb
