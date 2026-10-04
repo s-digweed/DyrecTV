@@ -1,11 +1,11 @@
 # ============================================================
-# RUN STATUS  (2026-10-03 23:37 UTC)
+# RUN STATUS  (2026-10-04 09:20 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   TAM index        : loaded
-#   S/E by name      : 680  (manual pins: 179)
-#   S/E by absolute  : 31
-#   Snick names/TAM  : 244
-#   S/E withheld     : 0  (listed below)
+#   S/E by name      : 612  (manual pins: 141)
+#   S/E by absolute  : 23
+#   Snick names/TAM  : 170
+#   S/E withheld     : 21  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -13,3 +13,12 @@
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
+    ("2 Stupid Dogs", "Scirocco Mole"): (, ),
+    ("Dragon Ball", "Bulma and Son Goku"): (, ),
+    ("Dragon Ball", "What the...?! No Balls!"): (, ),
+    ("Fullmetal Alchemist", "Sealing the Homunculus"): (, ),
+    ("Lupin the Third: Part II", "ZenigataCon"): (, ),
+    ("Sailor Moon", "Blinded By Love's Light"): (, ),
+    ("Sailor Moon", "Swept Off Her Feet"): (, ),
+    ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): (, ),
+    ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): (, ),
