@@ -1,0 +1,92 @@
+# ============================================================
+# DESCRIPTION REPORT  (2026-10-04 18:17 UTC)
+#   episode-specific: 722
+#   generic (blurb) : 239
+#   none            : 0
+# These programmes do NOT have an episode-specific description.
+# Reason is given after each line. To set a real one, paste into
+# DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
+#   ("<show>", "<episode>"): "the real episode description",
+# ============================================================
+    ("2 Stupid Dogs", "Scirocco Mole"): "",   # no S/E resolved -> show-level blurb
+    ("Aaahh!!! Real Monsters", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Alfred Hitchcock Presents", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("All That", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Allegra's Window", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Allegra's Window", "The Imaginary Zoo"): "",   # S/E set but no DB/OMDb episode overview
+    ("Alvin and the Chipmunks", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Angry Beavers", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Animorphs", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Are You Afraid of the Dark?", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Beetlejuice", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Bewitched", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Captain Scarlet and the Mysterons", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("CatDog", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Clarissa Explains It All", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Count Duckula", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("David The Gnome", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Doug", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Dragon Ball", "Bulma and Son Goku"): "",   # no S/E resolved -> show-level blurb
+    ("Dragon Ball", "What the...?! No Balls!"): "",   # no S/E resolved -> show-level blurb
+    ("Dragon Ball Z Abridged", "Arrival of Fear!! Salute, Ginyu Special Squadron!!"): "",   # no S/E resolved -> show-level blurb
+    ("Dragon Ball Z Abridged: Celloween", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("F Troop", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Fifteen", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Fireball XL5", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Flipper", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Flipper: The New Adventures", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Fullmetal Alchemist", "Sealing the Homunculus"): "",   # no S/E resolved -> show-level blurb
+    ("Garfield and Friends", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Green Acres", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Grimm's Fairy Tale Classics", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Gullah Gullah Island", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Gumby", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Hey Arnold!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Hey Dude!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Inspector Gadget", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Joe 90", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("KaBlam!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Kenan & Kel", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Lassie", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Legends of the Hidden Temple", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Little Bear", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "ZenigataCon"): "",   # no S/E resolved -> show-level blurb
+    ("Make the Grade", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Maya the Bee", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Mister Ed", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Mr. Wizard's World", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Muppet Babies", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("My Three Sons", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Nickelodeon GUTS", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Nickelodeon GUTS", "Rebecca - Cam - Oliver"): "",   # S/E set but no DB/OMDb episode overview
+    ("Nickelodeon Guts", "Dana vs. Anderson vs. Ron"): "",   # no S/E resolved -> show-level blurb
+    ("Noozles", "Propose"): "",   # no S/E resolved -> show-level blurb
+    ("Rocko's Modern Life", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Rugrats", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Blinded By Love's Light"): "",   # no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Swept Off Her Feet"): "",   # no S/E resolved -> show-level blurb
+    ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): "",   # no S/E resolved -> show-level blurb
+    ("Salute Your Shorts", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Space Ghost Coast to Coast", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Space: 1999", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Stingray", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Adventures of Pete & Pete", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Adventures of Superman", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Adventures of Tintin", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Adventures of Tintin", "Flight 714: Part 2"): "",   # no S/E resolved -> show-level blurb
+    ("The Busy World of Richard Scarry", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Flintstones Meet Rockula And Frankenstone", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Littl' Bits", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Lucy Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Many Loves of Dobie Gillis", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Mysterious Cities of Gold", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Patty Duke Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Rocky and Bullwinkle Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("The Rocky and Bullwinkle Show", "Boris Badenov and His Friends?/Bars of Steal, or The Hard Cell"): "",   # no S/E resolved -> show-level blurb
+    ("The Rocky and Bullwinkle Show", "Hop Skip and Junk, or Bullwinkle's Big Tow/Bucks for Boris, or The Green Paper Caper"): "",   # S/E set but no DB/OMDb episode overview
+    ("The Rocky and Bullwinkle Show", "When Moose Meets Moose, or Two's a Crowd/The Midnight Chew-Chew, or This Gum for Hire"): "",   # S/E set but no DB/OMDb episode overview
+    ("UFO", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("What Would You Do?", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Wild and Crazy Kids", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): "",   # no S/E resolved -> show-level blurb

@@ -1,11 +1,13 @@
 # ============================================================
-# RUN STATUS  (2026-10-04 09:20 UTC)
+# RUN STATUS  (2026-10-04 18:17 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
+#   OMDb descriptions: ON
+#   descriptions     : 722 episode-specific, 239 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 612  (manual pins: 141)
+#   S/E by name      : 657  (manual pins: 141)
 #   S/E by absolute  : 23
-#   Snick names/TAM  : 170
-#   S/E withheld     : 21  (listed below)
+#   Snick names/TAM  : 224
+#   S/E withheld     : 29  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -18,7 +20,11 @@
     ("Dragon Ball", "What the...?! No Balls!"): (, ),
     ("Fullmetal Alchemist", "Sealing the Homunculus"): (, ),
     ("Lupin the Third: Part II", "ZenigataCon"): (, ),
+    ("Nickelodeon Guts", "Dana vs. Anderson vs. Ron"): (, ),
+    ("Noozles", "Propose"): (, ),
     ("Sailor Moon", "Blinded By Love's Light"): (, ),
     ("Sailor Moon", "Swept Off Her Feet"): (, ),
     ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): (, ),
+    ("The Adventures of Tintin", "Flight 714: Part 2"): (, ),
+    ("The Rocky and Bullwinkle Show", "Boris Badenov and His Friends?/Bars of Steal, or The Hard Cell"): (, ),
     ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): (, ),
