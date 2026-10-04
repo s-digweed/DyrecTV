@@ -580,7 +580,7 @@ def load_cache():
         c = {}
     for k in ("shows", "episodes", "tvmaze_shows", "tvmaze_episodes", "tmdb_seasons",
               "tvmaze_eplist", "tvdb_shows", "tvdb_episodes", "tvmaze_namemap",
-              "tvdb_namemap", "show_syn", "simkl_id", "simkl_namemap"):
+              "tvdb_namemap", "show_syn", "simkl_id", "simkl_namemap", "omdb_ep"):
         c.setdefault(k, {})
     return c
 
@@ -1048,6 +1048,50 @@ def _name_to_se_fuzzy(show, name, cache, cutoff=0.90):
     return None, None
 
 
+# ── OMDb (optional episode-plot source; IMDb-backed) ──────────────────────
+# OMDb carries IMDb episode plots for old/obscure shows that TMDB/TVmaze/TVDB
+# leave blank, so it's a strong LAST resort for the <desc>. Gated on OMDB_API_KEY.
+# Episode lookup: ?t=<show>&Season=<s>&Episode=<e>&plot=full -> {Title, Plot}.
+OMDB_API_KEY = os.environ.get("OMDB_API_KEY", "").strip()
+ENABLE_OMDB = bool(OMDB_API_KEY)
+OMDB_BASE = "https://www.omdbapi.com/"
+
+def _omdb_meta(show, season, ep, cache):
+    """IMDb episode (overview, name) via OMDb, cached. '' on any miss/failure."""
+    if not ENABLE_OMDB:
+        return "", ""
+    key = f"{_norm(show)}|{season}|{ep}"
+    if key in cache["omdb_ep"]:
+        c = cache["omdb_ep"][key]
+        return c.get("ov", ""), c.get("nm", "")
+    ov = nm = ""
+    # strip a trailing "(YYYY)" to a year hint OMDb can use
+    ym = _QYEAR.search(show); clean = (show[:ym.start()].strip() if ym else show)
+    params = {"apikey": OMDB_API_KEY, "t": clean, "Season": season, "Episode": ep, "plot": "full"}
+    if ym:
+        params["y"] = ym.group(1)
+    try:
+        for _ in range(2):
+            r = _sess.get(OMDB_BASE, params=params, timeout=20)
+            if r.status_code == 200:
+                d = r.json()
+                if isinstance(d, dict) and d.get("Response") == "True":
+                    p = (d.get("Plot") or "").strip()
+                    if p and p.upper() != "N/A":
+                        ov = p
+                    t = (d.get("Title") or "").strip()
+                    if t and t.upper() != "N/A":
+                        nm = t
+                break
+            if r.status_code in (429, 503):
+                time.sleep(1); continue
+            break
+    except requests.RequestException:
+        pass
+    cache["omdb_ep"][key] = {"ov": ov, "nm": nm}
+    return ov, nm
+
+
 def episode_meta(show, season, ep, cache):
     if season is None:
         return None, None
@@ -1061,6 +1105,7 @@ def episode_meta(show, season, ep, cache):
     if take(_tmdb_meta(show, season, ep, cache)):                     return ov, nm
     if ENABLE_TVMAZE and take(_tvmaze_meta(show, season, ep, cache)): return ov, nm
     if ENABLE_TVDB and take(_tvdb_meta(show, season, ep, cache)):     return ov, nm
+    if ENABLE_OMDB and take(_omdb_meta(show, season, ep, cache)):     return ov, nm
     return (ov or None), (nm or None)
 
 
@@ -1402,8 +1447,10 @@ def enrich(path):
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0, "from_tam": 0}
-    dropped_se = set()   # (show, episode) name present but S/E withheld -> pin it
+             "se_pinned": 0, "from_tam": 0,
+             "desc_episode": 0, "desc_generic": 0, "desc_none": 0}
+    dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
+    generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
     for prog in progs:
         stats["progs"] += 1
         raw = (prog.findtext("title") or "").strip()
@@ -1579,20 +1626,39 @@ def enrich(path):
                         else:
                             dropped_se.add((disp_title or show, epname))
                             stats["se_dropped"] += 1
-            # 3) description
-            #    curated '60s cartoons: pinned IMDb synopsis if we have one, else
-            #    the fixed series blurb (never the metadata API -> no wrong series).
+            # 3) description — also classify it (episode-specific vs generic vs none)
+            #    so we can report what still needs a real episode synopsis.
             dov = _desc_override(disp_title or show, epname)
+            desc_kind = "episode"; desc_reason = ""
             if dov:                              # hand-supplied episode description wins
                 desc = dov
             elif forced_desc:
                 desc = forced_desc
+                if forced_desc == SHOW_DESC_OVERRIDE.get("RiffTrax"):
+                    desc_kind, desc_reason = "generic", "RiffTrax house blurb (no per-riff synopsis)"
             elif is_curated:
-                desc = pinned_syn or show_overview(show, cache)
+                if pinned_syn:
+                    desc = pinned_syn
+                else:
+                    desc = show_overview(show, cache)
+                    desc_kind, desc_reason = "generic", "pinned cartoon: no synopsis supplied for this segment"
             elif season is not None:
-                desc = (ov or show_overview(show, cache))
+                if ov:
+                    desc = ov
+                else:
+                    desc = show_overview(show, cache)
+                    desc_kind, desc_reason = "generic", "S/E set but no DB/OMDb episode overview"
             else:
                 desc = show_overview(show, cache)
+                desc_kind, desc_reason = "generic", "no S/E resolved -> show-level blurb"
+            if not desc:
+                desc_kind, desc_reason = "none", "no description found anywhere"
+            if desc_kind != "episode":
+                label = epname or (sp.get("sub") if sp else "") or "(no episode name)"
+                generic_desc.add((disp_title or show, label, desc_reason))
+                stats["desc_generic" if desc_kind == "generic" else "desc_none"] += 1
+            else:
+                stats["desc_episode"] += 1
             # tally how S/E was resolved
             if season is not None:
                 stats["by_name" if source == "name" else "by_absolute"] += 1
@@ -1698,6 +1764,10 @@ def enrich(path):
             fh.write("# ============================================================\n")
             fh.write(f"# RUN STATUS  ({now})\n")
             fh.write(f"#   SIMKL resolver   : {simkl_status}\n")
+            fh.write(f"#   OMDb descriptions: {'ON' if ENABLE_OMDB else 'OFF (no OMDB_API_KEY secret)'}\n")
+            fh.write(f"#   descriptions     : {stats['desc_episode']} episode-specific, "
+                     f"{stats['desc_generic']} generic, {stats['desc_none']} none "
+                     f"(see generic_desc.txt)\n")
             fh.write(f"#   TAM index        : {'loaded' if tam_index else 'EMPTY (fetch failed?)'}\n")
             fh.write(f"#   S/E by name      : {stats['by_name']}  (manual pins: {stats['se_pinned']})\n")
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
@@ -1716,12 +1786,39 @@ def enrich(path):
     except Exception as e:
         print(f"  warn: could not write {report}: {e}")
 
+    # ── description report: every programme whose <desc> is NOT episode-specific
+    #    (generic show/series blurb, house blurb, or nothing). Each line carries a
+    #    reason. To hard-set one, paste into DESC_OVERRIDE in enrich_toonami.py:
+    #      ("<show>", "<episode>"): "the real episode description",
+    #    (S/E, sub-title and title are untouched — desc is its own field.) ──
+    dreport = os.path.join(os.path.dirname(os.path.abspath(path)), "generic_desc.txt")
+    try:
+        with open(dreport, "w", encoding="utf-8") as fh:
+            fh.write("# ============================================================\n")
+            fh.write(f"# DESCRIPTION REPORT  ({now})\n")
+            fh.write(f"#   episode-specific: {stats['desc_episode']}\n")
+            fh.write(f"#   generic (blurb) : {stats['desc_generic']}\n")
+            fh.write(f"#   none            : {stats['desc_none']}\n")
+            fh.write("# These programmes do NOT have an episode-specific description.\n")
+            fh.write("# Reason is given after each line. To set a real one, paste into\n")
+            fh.write("# DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):\n")
+            fh.write('#   ("<show>", "<episode>"): "the real episode description",\n')
+            fh.write("# ============================================================\n")
+            for show, epi, reason in sorted(generic_desc):
+                fh.write(f'    ("{show}", "{epi}"): "",   # {reason}\n')
+        print(f"  -> {dreport}: {len(generic_desc)} without an episode description")
+    except Exception as e:
+        print(f"  warn: could not write {dreport}: {e}")
+
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  Snick names from TAM    : {stats['from_tam']}")
     print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
           f"{f', {_SIMKL_HITS} extra S/E' if ENABLE_SIMKL else ''}")
+    print(f"  OMDb descriptions       : {'on' if ENABLE_OMDB else 'off'}")
+    print(f"  descriptions           : {stats['desc_episode']} episode / "
+          f"{stats['desc_generic']} generic / {stats['desc_none']} none")
     print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
     print(f"  still no description   : {stats['no_desc']}")
