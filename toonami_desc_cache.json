@@ -80,6 +80,10 @@
 "n": "Layer:01 – WEIRD",
 "o": "Lain Iwakura, a shy, 13-year-old schoolgirl, receives an email from a schoolmate after her suicide. Is it a prank? Lain doesn't feel horror, but curiosity."
 },
+"1087|1|2": {
+"n": "Layer:02 – GIRLS",
+"o": "Classmates Alice, Julie, and Reika wonder if that was Lain they saw at the nightclub Cyberia. To find out, they invite Lain to go with them to the club."
+},
 "11285|1|34": {
 "n": "Revolt of the Mayas",
 "o": "The Mayan people arm themselves and attack the Olmecs, who have been tyrannising them for years. A fierce battle takes place near the entrance to the Olmec base. From the Golden Condor, Esteban and the other children bombard the Olmecs with stones, turning the tide of the battle in favour of the Mayas."
@@ -103,6 +107,10 @@
 "1153|4|2": {
 "n": "The Spectacle Syndrome",
 "o": "Jay and Kay have to rescue the worms from an alien world similar to Ancient Rome."
+},
+"1153|4|3": {
+"n": "The Back to School Syndrome",
+"o": "Jay poses as a high school student to protect an alien prince from alien terrorists."
 },
 "1168|1|11": {
 "n": "Return of the Anasazi",
@@ -135,6 +143,10 @@
 "12260|1|26": {
 "n": "Suda!! Cromartie Girls Highschool | The Four Lords of Cromartie",
 "o": "It’s Cromartie Girls High School and everyone is a princess! It’s Ms. Kamiyama’s first day and “she” walks around the school meeting all the princesses. Back at Cromartie High, Kamiyama, Hayashida, and Maeda talk about their future and how normal everything is."
+},
+"12260|1|3": {
+"n": "Cromartie High (Co-Ed)",
+"o": "Shinjiro Hayashida hears Shinichi Mechazawa humming a song in the bathroom. Later that day, he starts humming the same tune, but can’t remember the name or artist. He asks Kamiyama, but he can’t remember it either. Pretty soon, the whole school is humming the song thinking of what its called. At the end of the day, nobody figured it out. As Kamiyama heads out, he hears Mechazawa humming the song! He asks him about it, but accidentally says that he knows it. Now, he can’t ask the only person who knows the song’s name, or else he’ll look like a “tool”."
 },
 "12406|1|13": {
 "n": "Apprenticed by Mojo! The Amoeba Boys / The Camera Monster's Counterattack!",
@@ -180,6 +192,10 @@
 "n": "Reunions",
 "o": "Goku and Gohan attend a reunion on Roshi’s island, where Goku introduces his son to all of his old friends. The smiles quickly fade, however, as an unexpected visitor - Raditz - lands on the island."
 },
+"12971|1|3": {
+"n": "Unlikely Alliance",
+"o": "Raditz has kidnapped Gohan, and unless Goku agrees to join the sinister Saiyan, he may never see his son again! All hope is not lost, however, as a second visitor arrives, and Goku forges an unlikely alliance!"
+},
 "12971|1|38": {
 "n": "Nursing Wounds",
 "o": "Goku, Krillin, and Gohan prepare for the return of the Saiyans. Meanwhile, Bulma and Mr. Popo search for a second spaceship capable of transporting her to Planet Namek."
@@ -187,6 +203,10 @@
 "12971|1|39": {
 "n": "Friends or Foes?",
 "o": "Gohan, Bulma, and Krillin blast off for Planet Namek in search of the magic Dragon Balls, but their journey quickly turns chaotic when they encounter a bizarre situation in the vacuum of space!"
+},
+"12971|1|4": {
+"n": "Piccolo's Plan",
+"o": "Piccolo may have a way to stop Raditz - the Makankosappo! There’s only one problem. He needs time to gather energy for the blast, which means Goku must fight Raditz alone!"
 },
 "12971|2|1": {
 "n": "Held Captive",
@@ -292,6 +312,10 @@
 "n": "Gohan, Defeat Your Dad!",
 "o": "After taking control of Goku’s body, Captain Ginyu turns his attention to Gohan and Krillin! With Goku trapped in the Captain’s broken body, it’s up to Gohan to stop the rampaging Ginyu!"
 },
+"12971|2|35": {
+"n": "Captain Ginyu... The Frog",
+"o": "As the bout between Captain Ginyu and Vegeta heats up, Goku summons the last of his strength and tricks his foe into reversing the Body Switch Technique. Now, Goku, Krillin, and Gohan must join forces with Vegeta for the battle with Frieza."
+},
 "12971|2|4": {
 "n": "A Friendly Surprise",
 "o": "As Bulma, Krillin, and Gohan close in on the last of the Dragon Balls, they uncover a shocking secret about their Namekian friends. Meanwhile, Goku works to build up his strength, and Vegeta sets his sights on revenge!"
@@ -315,6 +339,18 @@
 "12971|2|9": {
 "n": "The Hunted",
 "o": "Gohan risks his life to rescue a Namek boy from the clutches of Frieza’s evil henchmen. Now Gohan and Krillin have an even bigger problem on their hands: Dodoria is chasing them, and he won’t stop until he has his revenge!"
+},
+"12971|3|1": {
+"n": "Password Is Porunga",
+"o": "Having acquired all seven Namekian Dragon Balls, Krillin and Gohan are ready to summon the dragon and make their wish. There’s just one problem: they don’t know the password!"
+},
+"12971|3|2": {
+"n": "Piccolo's Return",
+"o": "With the help of young Dende, Krillin and Gohan learn they will be granted three wishes! But even as Krillin and Gohan call upon the dragon, Vegeta races to the scene on a mission to wish for mortality!"
+},
+"12971|3|3": {
+"n": "The Fusion",
+"o": "With the Dragon Balls gone and his plan in ruins, Frieza unleashes his fury upon Vegeta, Gohan, and Krillin. Elsewhere, the newly-revived Piccolo finds himself on Planet Namek. Will his arrival be enough to turn the tide?"
 },
 "12971|5|23": {
 "n": "Trunks Ascends",
@@ -363,6 +399,10 @@
 "1323|2|12": {
 "n": "Bad Day at Peril Park",
 "o": "Dr. Wily's amusement park, Fun World, is really a front to hyponotize the visitors."
+},
+"1323|2|13": {
+"n": "Mega X",
+"o": "The evil Vile has arrived from the future, with Mega Man X in hot pursuit."
 },
 "1323|2|8": {
 "n": "The Day the Moon Fell",
@@ -456,6 +496,10 @@
 "n": "",
 "o": ""
 },
+"1584|1997|5": {
+"n": "",
+"o": ""
+},
 "1618|5|10": {
 "n": "",
 "o": ""
@@ -508,6 +552,10 @@
 "n": "",
 "o": ""
 },
+"1664|5|8": {
+"n": "",
+"o": ""
+},
 "1712|1|27": {
 "n": "Munsters on the Move",
 "o": "In order to accept a promotion, Herman has to shuffle his family off to Buffalo. Eddie, who happens to be doing great on the baseball team, throws a temper tantrum. Since Grandpa has already sold the house to a wrecking company, the Munsters have no choice but to wage war."
@@ -519,6 +567,10 @@
 "177|4|2": {
 "n": "I Am Clichéd",
 "o": "The director of Weasel and I.R.'s cartoons does nothing but stealing old clichés from classic cartoons."
+},
+"177|4|3": {
+"n": "I Are Gladiator",
+"o": "Back in Roman times, Weasel and I.R. battle each other as gladiators."
 },
 "1835|2|13": {
 "n": "Bye-Bye Kenan (2)",
@@ -539,6 +591,10 @@
 "1890|1|2": {
 "n": "Plasma Bugs of Navarone",
 "o": "When the Roughnecks pick up a distress call from pilots Ibanez and Barcalow, who are under attack at a research outpost, Rico risks the safety of his own squad to save Carmen."
+},
+"1916|1|23": {
+"n": "Agent Penny",
+"o": "Budget cuts cause Secret to be fired and Penny to become the Chief's new top secret agent."
 },
 "1916|1|26": {
 "n": "Scirocco Mole",
@@ -567,6 +623,10 @@
 "1988|1|6": {
 "n": "The Terror of Hammerhand",
 "o": "When Snarf and a young unicorn are captured by the pirate Hammerhand and his crew of Berserkers, Lion-O goes to rescue them."
+},
+"1988|1|7": {
+"n": "Trouble with Time",
+"o": "With their supply of Thundrillium running low, the Thundercats set off in search of a fresh supply. Tygra detects a large deposit in a cave and goes to investigate - unfortunately, he has entered the Cave of Time and anyone who ventures in there will age rapidly until they die. His only hope is that Cheetara's speed will be fast enough to allow her to escape the Cave's effects."
 },
 "20101|1|10": {
 "n": "Frozen Bonds",
@@ -599,6 +659,10 @@
 "20111|1|38": {
 "n": "Decisive Fire",
 "o": "To get a hold of Orb's mass driver, the Earth Alliance demands Orb to concede with them or be attacked for siding with ZAFT. Murrue decides the Archangel will support Orb and its crew members are discharged if they no longer wish to fight. Muruta Azrael, leader of Blue Cosmos, attacks Orb with three new mobile suits, the Forbidden, Raider, and Calamity. When Kira starts to have trouble with them, Athrun in the Justice arrives to help."
+},
+"20111|1|39": {
+"n": "Athrun",
+"o": "Athrun in the Justice assists Kira fight against the Forbidden, Raider, and Calamity. As the fight continues, the three Earth Alliance pilots argue with one another, but they are interrupted when they are struck by intense pain. The Earth Alliance are forced to retreat and regroup. The two friends reunite and Athrun must make a decision regarding whether he should continue obeying his father's orders or fight for what he believes in."
 },
 "2020|2|5": {
 "n": "Crash Landing",
@@ -668,6 +732,10 @@
 "n": "",
 "o": ""
 },
+"2121|3|10": {
+"n": "The Edge of Beyond",
+"o": "The crew of the Saucy Mare enter the web looking for Bob but when a web creature sucks away half of AndrAIa's energy, leaving her in a dying state, Matrix must find the creature so he can save her life."
+},
 "2121|3|5": {
 "n": "Icons",
 "o": "After getting stuck in a game, Matrix, the hardened and cynical warrior once known as Enzo, and AndrAIa have been wandering the net for a very long time, moving from system to system through the games, searching for a way back to Mainframe. This time they arrive in a barely functioning system, devastated by virals and constant lost games."
@@ -736,6 +804,10 @@
 "n": "Love That Brak!",
 "o": "Saturday Morning Theme: The Cartoon Planet Story\n\nSkit 1: Babies\n\nSkit 2: Zorak's Nuggets of Joy: Demolished\n\nSkit 3: Crazy Lovesick Fool\n\nSkit 4: Zorak's Horrorscopes: Cancer\n\nSkit 5: Learnin' to Talk Italian, Lesson One (In the Restaurant)\n\nSkit 6: Brak's School Daze: Cheese Bust\n\nSkit 7: Did You Know?\n\nSkit 8: Where Am I?\n\nSkit 9: Highway 40 Revisited\n\nSkit 10: Mail Bag Day: The Mad Cow\n\nSkit 11: The Cartoon Planet Storybook: Close, But No Cigar\n\nSkit 12: Rock My Baby\n\nSkit 13: Zorak the Love Bug: Onion Burgers\n\nSkit 14: Brak's Comedy Gold #3 \n\nSkit 15: An Ordinary Day on Cartoon Planet\n\nSkit 16: Mail Bag Day: Yoko Kimono\n\nSkit 17: Poet's Corner Theme\n\nSkit 18: Poet's Corner: Life (Chubby Chubby Choo-Choo)\n\nClosing Theme"
 },
+"2166|1|4": {
+"n": "My Space Ghost the Car",
+"o": "Cold Open: Ed McMantis\n\nOpening: Living Ghost\n\nSkit 1: Complete Control\n\nSkit 2: Cooking With Brak 3 (Tortel-weenies)\n\nSkit 3: What Day is It?\n\nSkit 4: Brak's School Daze: Edward\n\nSkit 5: Zorak's Nuggets of Joy: Devoured\n\nSkit 6: Mailbag Editorial\n\nSkit 7: Poet's Corner Theme\n\nSkit 8: Poet's Corner: Stone Walls (To Althea, From Prison)\n\nSkit 9: I Love You Baby\n\nSkit 10: Cartoon Planet Storybook: Easy Rider\n\nSkit 11: Messages from Outer Space: Barnacle Boy\n\nSkit 12: Zorak's Helpful Hints Theme\n\nSkit 13: Zorak's Helpful Hints: Chuckie\n\nSkit 14: Geography: Iowa\n\nSkit 15: Mail Bag Day: Mad Dude\n\nSkit 16: Something that Rhymes With Bones\n\nSkit 17: Talkin' in My Sleep (Innermost Fears and Weaknesses)\n\nClosing Theme"
+},
 "21730|1|26": {
 "n": "The Eternal Flame of the Shooting Stars",
 "o": "Treize is freed by OZ soldiers loyal to him, but the trouble is only beginning. Romefeller is out to eliminate the Gundams and Treize, since they are symbols of hipe. Operation NOVA commences, and all of the Earth is in danger."
@@ -755,6 +827,10 @@
 "21730|1|30": {
 "n": "The Reunion with Relena",
 "o": "Quatre isn't convinced that Heero's mercenary path is the correct one. However, having witnessed the horrors of war, he cannot stand by and do nothing. When Relena declares the Sanc Kingdom's neutrality, Quatre and Heero take refuge."
+},
+"21730|1|31": {
+"n": "The Glass Kingdom",
+"o": "Heero and Quatre decide to stay in the Sanc Kingdom and help Relena promote pacifism. But when the Romefeller Foundation attacks, Heero, Quatre and Noin go into battle."
 },
 "21736|1|40": {
 "n": "Shore Watch Out Order",
@@ -780,6 +856,10 @@
 "n": "Crisis Point",
 "o": "Outright rebellion becomes the first order of the day, as Musica and Zor reject the teachings of the Robotech Masters and turn to aid the human captives. It is a fantastic journey in ultimate truths for Zor, as his originator's memory comes back to haunt him."
 },
+"2192|2|21": {
+"n": "Daydreamer",
+"o": "The survivors of a critical battle against the armada of the Robotech Masters, return to Earth. Bowie gets his friends in the 15th Squad to help him smuggle his newfound love, Musica, past the Military Police, but the plan backfires, requiring Bowie & Musica to flee for their lives!"
+},
 "221|1|20": {
 "n": "The Power of Positive Thinking",
 "o": "In order to win Thaila from Chatsworth, Dobie reads a book on mental power so he can be the dominating man Thalia wants."
@@ -799,6 +879,10 @@
 "2274|2|10": {
 "n": "History",
 "o": "Mr. Lynch is tutoring Brendon, who is failing History. His lack of historical perspective is evident through his movies, which star the evil George Washington, the evil Picasso and the evil Annie Oakley."
+},
+"2274|2|11": {
+"n": "Writer's Block",
+"o": "The school writing fair is one week away and Brendon is suffering a bad case of writer's block! Melissa and Jason put pressure on him to no avail, but they end up being a hit anyway. Paula is inspired by the pep talk she gives Brendon and gets back to her writing roots."
 },
 "2274|2|6": {
 "n": "Impressions",
@@ -879,6 +963,10 @@
 "24710|1|4": {
 "n": "Nautilus, The Fantastic Submarine",
 "o": "Jean, Nadia, and King are rescued by another vessel--an impressive and mysterious submarine known as the Nautilus (and yes, the captain's name is Nemo).  Here, they learn from Nemo's pretty first officer, a young woman named Electra, that the vessel is in pursuit of a sinister enemy.  After an unsuccessful attack against the deadly submarine Garfish, the Nautilus repairs Jean's sea plane, and the children take off for another adventure."
+},
+"24710|1|5": {
+"n": "Marie's Island",
+"o": "Jean, Nadia, and King are shot down over a strange island where they find themselves outrunning a squadron of sinister masked soldiers.  In their struggle to survive, they find an orphan girl, Marie, who lost her parents to the soldiers."
 },
 "24786|1|3": {
 "n": "Episode 3",
@@ -1088,6 +1176,10 @@
 "n": "Fright Day The 13th",
 "o": "Lenna gets challenged by the \"Chainsaw\" man in this classic Halloween spoof. Does she stand any chance against the mysterious Zoid that cuts everything up, or will her teammates even stand by her?"
 },
+"29540|1|15": {
+"n": "Layon Returns: Anti-Gravity Catastrophe!",
+"o": "Dr. Layon decides to get revenge on Dr. Toros by kidnapping Lenna and forcing the Blitz Team into a gravity free battle. Can Liger Zero and the Command Wolf defeat Layon when they can't get a firm grip on the ground?"
+},
 "2962|6|6": {
 "n": "Mary's Aunt",
 "o": "Mary's high-flying journalist aunt comes for a visit, and Lou finds that he has a rival in her."
@@ -1144,6 +1236,10 @@
 "n": "Signals",
 "o": "Mouse meets the magical Golden Joe. With the money The Eye gave him, they go buy a tank. Skillet explodes."
 },
+"3043|1|3": {
+"n": "Rooster",
+"o": "Fitz starts to have flashbacks about his past, when he had a wife and a kid. He also meets Rooster, who lives in a corndog field. Meanwhile, Shark begins to scheme something . Skillet is kidnapped and tortured."
+},
 "30623|1|1": {
 "n": "Running an Errand",
 "o": "Misae sends Shin-Chan to the market on an errand"
@@ -1155,6 +1251,10 @@
 "30669|3|10": {
 "n": "Kuwabara: Awakening",
 "o": "Kuwabara's battle with Seaman continues."
+},
+"30669|3|11": {
+"n": "Sensui's Fall",
+"o": "Shinobu Sensui, the former Spirit Detective, is revealed to be the mastermind behind the plot to remove the barrier to Makai. Koemna discusses his fall into insanity with Yusuke's group."
 },
 "30669|3|6": {
 "n": "The Reader",
@@ -1236,6 +1336,10 @@
 "n": "Hunt Down the Counterfeiter!",
 "o": "Lupin and Baron Ukraine are both after the world's most skilled counterfeiter. Lupin would have no problem beating the Baron, but the Baron has hired a man called Flinch along with Fujiko and gave them instructions to kill Lupin."
 },
+"31572|1|11": {
+"n": "When the Seventh Bridge Falls",
+"o": "Someone is posing as Lupin and blowing up bridges, causing a lot of damage and injuries. Lupin and Jigen discover that the bomber is trying to force an armored car to travel along a route of his choosing. They track down the bomber, but he forces Lupin and Jigen to attempt to rob the armored car. He threatens to kill a girl he kidnapped named Lisa unless Lupin and Jigen perform the job."
+},
 "31572|1|7": {
 "n": "A Wolf Calls a Wolf",
 "o": "Three scrolls contain the secret of creating a blade like the Zantetsuken. Lupin wants to steal them as a matter of family pride because his grandfather, Arsene Lupin, stole them back in the 19th century. Lupin's father stole a dagger from a swordsman that was forged using the same process. The swordsman challenged Lupin II to a duel and lost. But, he managed to steal the scrolls for himself. Now, Lupin plans to steal the scrolls back, but to do so, he must face Goemon and Fujiko, who have their own plans for acquiring the scrolls."
@@ -1264,6 +1368,10 @@
 "n": "Fight to the Finish: Round Four",
 "o": "Finally free from Bison's control, Ryu ends his fight with Ken and the two resolve to save Chun Li, who is still under Bison's control. Guile regains his senses and confronts again Bison, who then orders Chun Li to fight the commando and Zoltar to evacuate the base before Interpol can get on the island. Bison then teleports himself, Guile and Chun Li in the sanctuary area of the base, where they are met by Ryu and Ken. The meeting is short-lived, as Chun Li and Guile are teleported out of the base to continue their fight, while the base itself self-destructs."
 },
+"31713|1|29": {
+"n": "Fight to the Finish: Final Round",
+"o": "Ryu, Ken and Bison are sent to a mysterious dimension, which seems to be the origin of both Bison's psychic powers and Hadou. Here Bison asks the two boys to join Shadowlaw, which of course refuse. A battle between the three ensues, where Bison seems to continue having the upper hand. Meanwhile, Guile keeps fighting against Chun Li, unable to overpower the girl until the chip falls off her forehead. Ken manages to weaken Bison with his Hadou-Shoryuken, allowing Ryu to finish him off with a combination of Hadou moves. With Bison finally defeated, Ken decides to go back home in America, while Ryu decides to sail away and keep explore his true self."
+},
 "31911|1|43": {
 "n": "Bite of the Ant",
 "o": "In the snowy north, the soldiers of Fort Briggs engage an invading army, and Marcoh leads an attack against monstrous Envy. In Central, an ominous and shocking secret is revealed to Olivier Armstrong."
@@ -1283,6 +1391,10 @@
 "31911|1|47": {
 "n": "Emissary of Darkness",
 "o": "A sinister voice rings out from the shell of Al's armor, and Ed and Greed find themselves under attack. As the Homunculi use the darkness to their advantage, a face from the past arrives to join the battle."
+},
+"31911|1|48": {
+"n": "The Oath in the Tunnel",
+"o": "After investigating the twisted roots of the Bradley family tree, Mustang gathers his most loyal troops. Meanwhile, Ed and his allies continue fighting Selim, who shocks everyone by turning on his own kind."
 },
 "334|4|10": {
 "n": "Sharko's Machine",
@@ -1356,6 +1468,10 @@
 "n": "Final Battle",
 "o": "Sailor Moon faces Black Lady, as Wiseman prepares to fire the power of the Evil Black Crystal through the Dark Gate and destroy the Earth."
 },
+"3570|2|43": {
+"n": "Follow the Leader",
+"o": "The Sailor Team present a preview of the forthcoming season, and debate the prospect of selecting a new leader."
+},
 "3570|3|1": {
 "n": "Star Struck, Bad Luck",
 "o": "After she experiences apocalyptic visions, Rei is attacked by an extremely powerful monster that Sailor Moon cannot fight."
@@ -1391,6 +1507,10 @@
 "3611|1|22": {
 "n": "Orthodontic Police",
 "o": "Dad is pulled over by a cop, who discovers Cow and Chicken have crooked teeth and slaps braces on them."
+},
+"3611|1|23": {
+"n": "The Cow with Four Eyes!",
+"o": "Chicken misreads the eye chart and gets a thick pair of glasses."
 },
 "363|1|18": {
 "n": "Galileo's Cannonball",
@@ -1556,6 +1676,10 @@
 "n": "Framed",
 "o": "After Dexter breaks his glasses, he starts a new fashion at school."
 },
+"4229|2|87": {
+"n": "That's Using Your Head",
+"o": "Dexter meets a bum at an appliance store with a strange device on his head."
+},
 "42444|1|25": {
 "n": "Fight! The Rise of Athena!",
 "o": "After finding out Marin is indeed his long lost sister. Seiya must fight off yet another Silver saint in Asterion to save Marin. Will Seiya be able to both defeat Asterion and save Marin in time?"
@@ -1571,6 +1695,10 @@
 "42444|1|29": {
 "n": "Kidnap! Crows Legion Seize Saori",
 "o": "Division in the camp as Shiryu heads back home after being declared blind. Will the Bronze saints rally together or fall apart?"
+},
+"42444|1|30": {
+"n": "Burn! Cosmo of Love",
+"o": "Seiya and Saori are in a dangerous predicament. Literally trapped between a rock and a hard place. What will become of them?"
 },
 "42705|1|72": {
 "n": "Lollapalooza",
@@ -1605,6 +1733,10 @@
 "o": ""
 },
 "42713|2|16": {
+"n": "",
+"o": ""
+},
+"42713|2|17": {
 "n": "",
 "o": ""
 },
@@ -1711,6 +1843,10 @@
 "45140|1|7": {
 "n": "Dude Relax!",
 "o": "The gang try to teach Robin to relax after his high-strung nature begins affecting the team. Later, chores pile up while the team bicker, and soon their dirty uniforms go on the offensive."
+},
+"45140|1|8": {
+"n": "Laundry Day",
+"o": "Later, chores pile up while the team bicker, and soon their dirty uniforms go on the offensive."
 },
 "4515|3|1": {
 "n": "We Have a Lot to Talk About",
@@ -1952,6 +2088,10 @@
 "n": "A Tear in a Girl-Delinquent's Eye? The End of the Martial Arts Rhythmic Gymnastics Challenge!",
 "o": "Ranma faces Kodachi in the ring, with the Black Rose's love on the line."
 },
+"57706|1|14": {
+"n": "Pelvic Fortune-Telling? Ranma is the No. One Bride in Japan",
+"o": "Dr. Tofu's mother comes to visit, determined to find her son a bride. Nabiki, Akane and Ranma all find themselves volunteering to help him get her of his back."
+},
 "57706|1|9": {
 "n": "True Confessions! A Girl's Hair is Her Life!",
 "o": "Akane's accidental haircut brings a temporary reprieve in Ranma and Ryoga's fighting. Stunned, she wanders off alone, thinking about the loss of the one thing that wasn't 'tomboyish' about her."
@@ -1980,6 +2120,10 @@
 "n": "Clefairy and the Moon Stone",
 "o": "Will Team Rocket steal the Moon Stone? Are there other Clefairy lurking about, and do they carry Moon Stones, too? And is the legend of the Moon Stone true?"
 },
+"60572|1|7": {
+"n": "The Water Flowers of Cerulean City",
+"o": "Ash seeks the Cascade badge in Cerulean City—but for some reason, Misty doesn't want to join them. When Ash and Brock show up, the city is buzzing about a break-in that just took place—and are initially accused of the crime!"
+},
 "606|1|13": {
 "n": "Look Into My Eds",
 "o": "Edd receives a hypnotizing pinwheel in the mail. Eddy then hypnotizes the kids."
@@ -1991,6 +2135,10 @@
 "606|1|6": {
 "n": "A Pinch to Grow an Ed",
 "o": "Eddy is unhappy because he thinks he's short. Edd makes him a pair of hydraulic, platform shoes."
+},
+"606|1|8": {
+"n": "Virt-Ed-Go",
+"o": "The Eds attempt to construct a club house in a neighborhood tree to solicit memberships from their friends, but not before the Kanker Sisters take it over."
 },
 "607|1|1": {
 "n": "Monkey See, Doggie Do",
@@ -2349,7 +2497,9 @@
 "Fifteen": "Fifteen contestants compete in this quiz show with three lives until one winner is left.",
 "Fighting Spirit": "Makunouchi Ippo is an ordinary high school student in Japan. Since he spends most of his time away from school helping his mother run the family business, he doesn't get to enjoy his younger years like most teenagers. Always a target for bullying at school (the family fishing business grants him a distinct odor), Ippo's life is one of hardship. One of these after-school bullying sessions turns Ippo's life around for the better, as he is saved by a boxer named Takamura. He decides to follow in Takamura's footsteps and train to become a boxer, giving his life direction and purpose. Ippo's path to perfecting his pugilistic prowess is just beginning...",
 "Figure It Out: Wild Style": "Figure It Out debuted on Nickelodeon in 1997, and became a big hit. Panelists included Amanda Bynes (What I Like About You, The Amanda Show, All That), Lori Beth Denberg (All That, The Steve Harvey Show), and many other popular celebrities. The way the show would work was there would be four panelists and they would ask yes or no questions and have three one minute rounds to figure out what was on Billy the Answer Head. Many of the All That Cast Members were regular panelists on the show! Broadcast History Figure It Out aired on Nickelodeon in the US. Although canceled, Figure It Out airs on Nickelodeon Games & Sports (Gas) Sundays-Fridays at 7:00pm and Saturdays at 9:30pm EST. Check the Nick Gas website for additional air times.",
+"Figure it Out": "A group of four different panelists popular on Nickelodeon programs try to figure out the talents of different guests. They are given clues that they can feel, see, taste, and also given to them through charades.",
 "Figure it Out Wild Style": "",
+"Finders Keepers": "Keen detectorist Martin and his wheeler dealer soon to be son-in-law Ashley who, while on a boys bonding trip in the idyllic fields of rural Somerset, discover a hoard of buried Saxon treasure worth millions.",
 "Fireball XL5": "Fireball XL5 is a science fiction-themed children's television show following the missions of spaceship Fireball XL5, commanded by Colonel Steve Zodiac of the World Space Patrol. The show was produced in 1962 by husband and wife team Gerry and Sylvia Anderson through their company APF, in association with ATV for ITC Entertainment. While developing his new show, Anderson thought a brand of motor oil—Castrol XL—had an interesting sound. A phonetic change created the name \"Fireball XL\", with the \"-5\" added as the title seemed a bit flat without the numeral.\n\nThe show featured the Andersons' Supermarionation, a form of puppetry first introduced in Four Feather Falls and Supercar and used again in their subsequent productions such as Stingray and Captain Scarlet. Thirty-nine black and white half-hour episodes of Fireball XL5 were made on 35mm film: all future Anderson series were produced in colour.\n\nSeveral Anderson series have been shown in syndication in the US, but Fireball XL5 is the only Anderson series to have run on a US network. NBC ran the series in its Saturday morning children's block from 1963 through to September 1965.\n\nA similar programme often confused with Fireball XL5 is Space Patrol, produced by Gerry Anderson's ex business partner and co-founder of AP Films, Arthur Provis due to a number of similarities and settings.",
 "Fist Of The North Star": "It's the year 199x, and Earth burns with the fires of a nuclear holocaust. On the charred remains of the planet's surface, humans struggle desperately to survive a fearful world. The young wanderer Kenshiro rises to stand against the violent reality. Upon his chest are seven scars in the shape of the North Star!",
 "Flipper": "Flipper, from Ivan Tors Films in association with Metro-Goldwyn-Mayer Television, is an American television program first broadcast on NBC from September 19, 1964, until April 15, 1967. Flipper, a bottlenose dolphin, is the companion animal of Porter Ricks, Chief Warden at fictional Coral Key Park and Marine Preserve in southern Florida, and his two young sons, Sandy and Bud. The show has been dubbed an \"aquatic Lassie\", and a considerable amount of juvenile merchandise inspired by the show was produced during its first-run.",
@@ -2360,6 +2510,8 @@
 "Garfield and Friends": "The animated stories of Garfield the cat, Odie the dog, their owner Jon and the trouble they get into. And also Orson the Pig and his adventures on a farm with his fellow farm animals.",
 "Get Smart": "Maxwell Smart, a hilariously inept and maladroit secret agent for CONTROL, battles the nefarious—though equally incompetent—KAOS.",
 "Global Guts": "Global Guts, featuring competitors from various countries, namely the United States of America (USA), Mexico, Great Britain, Israel, Germany, Spain, Portugal, and the Commonwealth of Independent States. Although the countries had multiple contestants, no country was ever represented twice in a single episode, except for the Special Olympic special, where it had 2 U.S. players. Each country had its own team of broadcasters; e.g. O'Malley retained this role for the US broadcast. The format remained identical to the original version, but the Mega Crag was upgraded to the Super Aggro Crag. In the \"Spill Your GUTS\" segments, non-English-speaking contestants spoke in their own language, with an interpreter speaking over their lines.",
+"Goku Midnight Eye P1": "",
+"Goku Midnight Eye P2": "",
 "Green Acres": "Green Acres is an American sitcom starring Eddie Albert and Eva Gabor as a couple who move from New York City to a rural country farm. Produced by Filmways as a sister show to Petticoat Junction, the series was first broadcast on CBS, from September 15, 1965 to April 27, 1971.\n\nReceiving solid ratings during its six-year run, Green Acres was cancelled in 1971 as part of the \"rural purge\" by CBS. The sitcom has been in syndication and is available in DVD and VHS releases. In 1997, the two-part episode \"A Star Named Arnold is Born\" was ranked #59 on TV Guide's 100 Greatest Episodes of All Time.",
 "Grimm's Fairy Tale Classics": "Grimm's Fairy Tale Classics is a Japanese animated anthology series by Nippon Animation. The episodes are adaptations of a variety of folk and fairy tales, and not limited to Grimm's Fairy Tales.",
 "Gullah Gullah Island": "Ron and Natalie live on an island off the coast of South Carolina with their three children, James, Vanessa and Simeon; their niece, Shaina; and a giant tadpole named Binyah Binyah Poliiwog. Together they learn about life and culture and getting along with others.",
@@ -2702,6 +2854,7 @@
 "ranma": null,
 "rocko s modern life": null,
 "rugrats": null,
+"rurouni kenshin": null,
 "sailor moon": null,
 "saint seiya": null,
 "spider man the animated series": null,
@@ -5152,6 +5305,10 @@
 "n": "Boo Boo Runs Wild",
 "o": "A 1999 stand-alone special, and a parody of The Yogi Bear Show made by The Ren & Stimpy Show creator John K"
 },
+"73380|1997|5": {
+"n": "Boo Boo Runs Wild",
+"o": "A 1999 stand-alone special, and a parody of The Yogi Bear Show made by The Ren & Stimpy Show creator John K"
+},
 "73750|5|5": {
 "n": "Six Forgotten Warriors (4): The Six Fight Again",
 "o": "Spider-Man and the Warriors join forces to stop the Kingpin from activating the doomsday device."
@@ -5163,6 +5320,10 @@
 "73750|5|7": {
 "n": "The Return of Hydro-Man (1)",
 "o": "Mary Jane and Peter arrive in Niagara Falls for their postponed honeymoon, but it is soon interrupted when Hydro-Man returns and kidnaps MJ!"
+},
+"73750|5|8": {
+"n": "The Return of Hydro-Man (2)",
+"o": "Peter is shocked by MJ's new powers so they seek Curt Conners' help in figuring everything out. MJ tells them about a dream she's been having, which may be a clue to her disappearance. But Hydro-Man finds them and kidnaps MJ again. Will Spidey be able to find her by following the clues from her dream?"
 },
 "75208|2|22": {
 "n": "Good Burger Special",
@@ -5239,6 +5400,10 @@
 "78777|2|16": {
 "n": "The Holy City... Pursuing a Clue",
 "o": "Spark’s group finally arrives in Valis only to be ordered back to Flaim. But a last-ditch effort to find the crystal ball has them running from their own allies!"
+},
+"78777|2|17": {
+"n": "Decision... An Option Compelled",
+"o": "While other heroes wage battles throughout Lodoss, Spark weighs an important decision that puts everyone at risk. Neese gives him a word of advice, but it may not be enough to help."
 }
 },
 "tvdb_namemap": {
@@ -53979,6 +54144,512 @@
 22
 ]
 },
+"77466": {
+"3 squares and an ed": [
+3,
+6
+],
+"a boy and his ed": [
+1,
+16
+],
+"a case of ed": [
+4,
+18
+],
+"a fistful of ed": [
+5,
+22
+],
+"a glass of warm ed": [
+1,
+19
+],
+"a pinch to grow an ed": [
+1,
+6
+],
+"a town called ed": [
+5,
+21
+],
+"a twist of ed": [
+4,
+12
+],
+"all eds are off": [
+5,
+18
+],
+"an ed in the bush": [
+4,
+1
+],
+"an ed is born": [
+4,
+4
+],
+"an ed too many": [
+1,
+11
+],
+"avast ye eds": [
+1,
+26
+],
+"boom boom out goes the ed": [
+5,
+3
+],
+"boys will be eds": [
+3,
+13
+],
+"brother can you spare an ed": [
+3,
+21
+],
+"button yer ed": [
+1,
+25
+],
+"cleanliness is next to edness": [
+5,
+4
+],
+"cool hand ed": [
+5,
+8
+],
+"cry ed": [
+2,
+26
+],
+"dawn of the eds": [
+1,
+7
+],
+"dear ed": [
+2,
+2
+],
+"dim lit ed": [
+3,
+8
+],
+"don t rain on my ed": [
+3,
+24
+],
+"dueling eds": [
+3,
+7
+],
+"ed ed and away": [
+3,
+10
+],
+"ed in a halfshell": [
+2,
+21
+],
+"ed n seek": [
+1,
+12
+],
+"ed or tails": [
+3,
+14
+],
+"ed overboard": [
+4,
+7
+],
+"ed pass it on": [
+3,
+20
+],
+"eds aggerate": [
+1,
+23
+],
+"eeny meeny miney ed": [
+2,
+5
+],
+"every which way but ed": [
+5,
+2
+],
+"fa la la la ed": [
+2,
+25
+],
+"flea bitten ed": [
+1,
+20
+],
+"floss your ed": [
+2,
+8
+],
+"fool on the ed": [
+1,
+15
+],
+"for the ed by the ed": [
+4,
+10
+],
+"for your ed only": [
+3,
+4
+],
+"from here to ed": [
+3,
+12
+],
+"gimme gimme never ed": [
+3,
+15
+],
+"hand me down ed": [
+4,
+20
+],
+"hands across ed": [
+2,
+7
+],
+"here s mud in your ed": [
+4,
+22
+],
+"high heeled ed": [
+2,
+24
+],
+"home cooked eds": [
+2,
+11
+],
+"honor thy ed": [
+2,
+17
+],
+"hot buttered ed": [
+2,
+23
+],
+"i am curious ed": [
+5,
+6
+],
+"if it smells like an ed": [
+3,
+23
+],
+"in like ed": [
+2,
+9
+],
+"is there an ed in the house": [
+4,
+3
+],
+"it came from outer ed": [
+3,
+5
+],
+"it s way ed": [
+1,
+17
+],
+"keeping up with the eds": [
+1,
+22
+],
+"key to my ed": [
+2,
+14
+],
+"knock knock who s ed": [
+2,
+3
+],
+"know it all ed": [
+2,
+1
+],
+"laugh ed laugh": [
+1,
+18
+],
+"little ed blue": [
+4,
+11
+],
+"look before you ed": [
+6,
+2
+],
+"look into my eds": [
+1,
+13
+],
+"may i have this ed": [
+6,
+1
+],
+"mirror mirror on the ed": [
+2,
+22
+],
+"mission ed possible": [
+5,
+1
+],
+"momma s little ed": [
+3,
+2
+],
+"my fair ed": [
+3,
+16
+],
+"nagged to ed": [
+1,
+2
+],
+"no speak da ed": [
+5,
+7
+],
+"o ed eleven": [
+3,
+18
+],
+"oath to an ed": [
+1,
+24
+],
+"once bitten twice ed": [
+3,
+25
+],
+"once upon an ed": [
+3,
+3
+],
+"one of those eds": [
+4,
+8
+],
+"one one ed": [
+2,
+4
+],
+"one size fits ed": [
+4,
+5
+],
+"out with the old in with the ed": [
+5,
+5
+],
+"over your ed": [
+1,
+4
+],
+"pain in the ed": [
+4,
+6
+],
+"pick an ed": [
+5,
+11
+],
+"pop goes the ed": [
+1,
+3
+],
+"postcards from the ed": [
+4,
+24
+],
+"quick shot ed": [
+1,
+10
+],
+"rambling ed": [
+2,
+12
+],
+"read all about ed": [
+1,
+9
+],
+"ready set ed": [
+2,
+6
+],
+"rent a ed": [
+2,
+19
+],
+"robbin ed": [
+4,
+17
+],
+"rock a bye ed": [
+3,
+17
+],
+"run ed run": [
+5,
+20
+],
+"run for your ed": [
+4,
+19
+],
+"scrambled ed": [
+2,
+18
+],
+"see no ed": [
+4,
+2
+],
+"shoo ed": [
+2,
+20
+],
+"sir ed a lot": [
+1,
+5
+],
+"smile for the ed": [
+5,
+19
+],
+"sorry wrong ed": [
+4,
+16
+],
+"stiff upper ed": [
+4,
+21
+],
+"stop look and ed": [
+2,
+16
+],
+"stuck in ed": [
+4,
+23
+],
+"tag yer ed": [
+1,
+14
+],
+"take this ed and shove it": [
+4,
+25
+],
+"the day the ed stood still": [
+3,
+22
+],
+"the ed touchables": [
+1,
+1
+],
+"the good ol ed": [
+4,
+14
+],
+"the good the bad and the ed": [
+5,
+15
+],
+"the luck of the ed": [
+3,
+19
+],
+"they call him mr ed": [
+4,
+9
+],
+"thick as an ed": [
+4,
+15
+],
+"this won t hurt an ed": [
+5,
+13
+],
+"tight end ed": [
+5,
+16
+],
+"tinker ed": [
+5,
+14
+],
+"to sir with ed": [
+2,
+13
+],
+"too smart for his own ed": [
+5,
+9
+],
+"truth or ed": [
+5,
+12
+],
+"tween a rock and an ed place": [
+5,
+17
+],
+"urban ed": [
+2,
+15
+],
+"virt ed go": [
+1,
+8
+],
+"who let the ed in": [
+2,
+10
+],
+"who s minding the ed": [
+5,
+10
+],
+"who what where ed": [
+1,
+21
+],
+"will work for ed": [
+3,
+9
+],
+"wish you were ed": [
+3,
+1
+],
+"x marks the ed": [
+3,
+11
+],
+"your ed here": [
+4,
+13
+]
+},
 "77570": {
 "a i d the weekend": [
 4,
@@ -61353,6 +62024,7 @@
 "dragon ball z": "248580",
 "dragon ball z abridged": "248580",
 "dragon ball z abridged: celloween": "248580",
+"ed, edd n eddy": "77466",
 "f troop": "73154",
 "fantastic four": "76299",
 "fifteen": "423111",
@@ -61367,6 +62039,8 @@
 "garfield and friends": "77054",
 "get smart": "70386",
 "global guts": "198771",
+"goku midnight eye p1": null,
+"goku midnight eye p2": null,
 "green acres": "78101",
 "gullah gullah island": "258806",
 "gumby": "76218",
@@ -61487,6 +62161,10 @@
 "n": "",
 "o": ""
 },
+"17972|2|17": {
+"n": "",
+"o": ""
+},
 "18489|3|10": {
 "n": "",
 "o": ""
@@ -61517,6 +62195,10 @@
 },
 "19421|1997|4": {
 "n": "Snoot's New Squat",
+"o": ""
+},
+"19421|1997|5": {
+"n": "Larry and Steve",
 "o": ""
 },
 "19502|2|33": {
@@ -61592,6 +62274,10 @@
 "o": ""
 },
 "4458|5|7": {
+"n": "",
+"o": ""
+},
+"4458|5|8": {
 "n": "",
 "o": ""
 },
@@ -62451,6 +63137,578 @@
 26,
 "Prospector Pete has been telling lies about the Indians causing trouble amongst his people. The chief of the Indian tribe, Old Joe, is angry and seeking revenge. Gumby and Pokey spy on Old Joe to assess the situation, but discover he lies just as much as Prospector Pete. To settle issues, Joe and Pete enter a tall tale contest – whoever loses has to stop telling stories.",
 "Indian Challenge"
+]
+],
+"se:1906": [
+[
+1,
+1,
+"",
+"Handsome Swordsman of Legend"
+],
+[
+1,
+2,
+"",
+"The Bratty Samurai...Why Don't You Become My Student?"
+],
+[
+1,
+3,
+"",
+"The Swordsman in Sorrow. The Man That Cuts The Past"
+],
+[
+1,
+4,
+"",
+"One Word: Evil. The Fighter Sanosuke Appears"
+],
+[
+1,
+5,
+"",
+"Sakaba Sword vs. Zanba Sword. At the Battle's End!"
+],
+[
+1,
+6,
+"",
+"Visitor From The Darkness... The Kurogasa Appears"
+],
+[
+1,
+7,
+"",
+"Fight To The Death Under The Moon... Protect The Ones You Love!"
+],
+[
+1,
+8,
+"",
+"A New Battle! The Mysterious And Beautiful Woman Who Jumped In Suddenly"
+],
+[
+1,
+9,
+"",
+"The Ultimate Stealth Army... The Dreaded Oniwa Banshu!"
+],
+[
+1,
+10,
+"",
+"Aoshi... The Man So Scary As To Seem Almost Beautiful"
+],
+[
+1,
+11,
+"",
+"Farewell, The Ultimate Men! The Clash Of Light And Darkness"
+],
+[
+1,
+12,
+"",
+"The Birth Of A Junior Samurai! First Disciple, Yahiko's Battle"
+],
+[
+1,
+13,
+"",
+"You Can Do It! Toramaru's Dosukoi Journey"
+],
+[
+1,
+14,
+"",
+"To Save A Small Life! Challenge! Doctor Megumi!"
+],
+[
+1,
+15,
+"",
+"The Operation Starts! The Terrorist Group Jinpu Tai"
+],
+[
+1,
+16,
+"",
+"Take a Pledge! The Hidden Sword Technique, Shiden No Tachi!"
+],
+[
+1,
+17,
+"",
+"Blast To Your Dream. The Adventure Of Marimo The Flying Bullet"
+],
+[
+1,
+18,
+"",
+"Run! Yahiko, Bring The Sakabatou Back!"
+],
+[
+1,
+19,
+"",
+"Raijuuta's Desire. Vision Of A Forbidden Empire"
+],
+[
+1,
+20,
+"",
+"Shinko Ryu's Revived! Show Of Evil, Ultimate Killing Technique!"
+],
+[
+1,
+21,
+"",
+"The Nightmare Falls Apart! Raijuuta's Dream"
+],
+[
+1,
+22,
+"",
+"First Time! Crazy, Insane Steam Engine Train Trip"
+],
+[
+1,
+23,
+"",
+"Betrayed By Sanosuke?! Greetings Of Fate"
+],
+[
+1,
+24,
+"",
+"Midnight Fight! Sansuke VS Kenshin Again!"
+],
+[
+1,
+25,
+"",
+"Scarlet Pirate! Tear Up Kenshin And Kaoru"
+],
+[
+1,
+26,
+"",
+"An Incarnation Of Thunder Storm! The Mysterious Nobility Of The Female Pirate Shura"
+],
+[
+1,
+27,
+"",
+"Ferocious Fighting Island! Scarlet Pirate"
+],
+[
+1,
+28,
+"",
+"Prelude To A New Threat. The Shadow Of The Wolf Is Drawing Near"
+],
+[
+2,
+1,
+"",
+"The Ultimate Fatal Rival! The Waylay Of The Desperate Fangs"
+],
+[
+2,
+2,
+"",
+"Evil Monster Of Revenge... Shishio Makoto's Plot!"
+],
+[
+2,
+3,
+"",
+"Newer Reaching Feelings... Kenshin's Departure"
+],
+[
+2,
+4,
+"",
+"Changing Tears To Courage! The Path Chosen By Kamiya Kaoru"
+],
+[
+2,
+5,
+"",
+"Time To Be The Strongest Warrior! Aoshi's New Battle!"
+],
+[
+2,
+6,
+"",
+"The Little Thief... Makimachi Misao's Deceptive Looks!"
+],
+[
+2,
+7,
+"",
+"Occupied Village! Shishio's Evil Shadow, Ever Closer!"
+],
+[
+2,
+8,
+"",
+"After The End Of The Dynasty. First Meeting Of Kenshin And Shishio"
+],
+[
+2,
+9,
+"",
+"Shock! Sakabatou Broken... Soujirou \"The Heavenly Sword\" vs. Kenshin"
+],
+[
+2,
+10,
+"",
+"Sanosuke, The Secret Of Patience... Challenge The Hakai Priest, Anji"
+],
+[
+2,
+11,
+"",
+"The Man Who Makes Sakabatou... Arai Shatku's Masterpiece!"
+],
+[
+2,
+12,
+"",
+"Cold Blooded Samurai! Battle With Juppon Gatana Chou!"
+],
+[
+2,
+13,
+"",
+"A Hidden Technique Of Hiten Mitsurugi Ryu! Reunion With Master Hiko Seijuro!"
+],
+[
+2,
+14,
+"",
+"Alliance Agreed! The Day When Shishio And Aoshi Unite!"
+],
+[
+2,
+15,
+"",
+"Between Life And Death! Succession Technique, Mastered. Ama Kakeru Ryuu no Hirameki"
+],
+[
+2,
+16,
+"",
+"Battle Of Indignation, Gathering His Strongest, Juppon Gatana!"
+],
+[
+2,
+17,
+"",
+"Blown Away! The Battleship Rengoku, Stop Its Sails!"
+],
+[
+2,
+18,
+"",
+"Burning Rengoku! Shishio Makoto's Fortune"
+],
+[
+2,
+19,
+"",
+"Crush! Futae No Kiwami. Pain Of Sanosuke's Fist!"
+],
+[
+2,
+20,
+"",
+"The Focus Of His Gaze, Anji's New Reflection"
+],
+[
+2,
+21,
+"",
+"A Wolf Sees The Shin Gan. Explosive Zero Gatotsu!"
+],
+[
+2,
+22,
+"",
+"Time To Keep A Promise. Kenshin And Aoshi Battle Once Again!"
+],
+[
+2,
+23,
+"",
+"Now Is The Time To Awaken... True And Perfect Solution"
+],
+[
+2,
+24,
+"",
+"Miracle In The Making! The Battle At Aoiya Continues"
+],
+[
+2,
+25,
+"",
+"A Giant Versus Superman! Saving Grace At The Edge Of Despair"
+],
+[
+2,
+26,
+"",
+"Hiten Versus Shukuchi. Soujiro, God'd Gift To Nature"
+],
+[
+2,
+27,
+"",
+"Tragedy In The Storm. Soujiro's Past"
+],
+[
+2,
+28,
+"",
+"Fight To The Limit! Shun Ten Satsu Versus Ama Kakeru Ryuu No Hirameki"
+],
+[
+2,
+29,
+"",
+"Two Men Betting Their Lives On The End Of The Dynasty. Shishio Versus Kenshin, Final Battle!"
+],
+[
+2,
+30,
+"",
+"Will The Era Inherit Shishio? Kenshin's Most Critical Moment!"
+],
+[
+2,
+31,
+"",
+"Luck Hasn't Run Out Yet! Warrior Spirit Revived Again"
+],
+[
+2,
+32,
+"",
+"The One Who Permits Victory. Shishio versus Kenshin, Last Stage!"
+],
+[
+2,
+33,
+"",
+"Remaining Juppon Gatana. Choice Of Life!"
+],
+[
+2,
+34,
+"",
+"Kyoto... Engraved Memory. Starting With Fulfilled Feelings"
+],
+[
+3,
+1,
+"",
+"Legend Of The Wishing Fireflies. The Girl Who Waits For Her Sword Master"
+],
+[
+3,
+2,
+"",
+"Prince Yahiko's Born? Debut On High Society"
+],
+[
+3,
+3,
+"",
+"Find Out Missing Treasure! Great Treasure Hunting Dog, Notaro"
+],
+[
+3,
+4,
+"",
+"Happy Kaoru! Kenshin's Proposal!"
+],
+[
+3,
+5,
+"",
+"Shining Legendary Sword! Mysterious Swordmaster, Amakusa Shougo"
+],
+[
+3,
+6,
+"",
+"A Medallion Of Destiny. Sanosuke And Sayo Meet"
+],
+[
+3,
+7,
+"",
+"The Place Of Battle. Shimabara! Judgement Day of Who Is The Chosen"
+],
+[
+3,
+8,
+"",
+"The Impact Of The Rai Ryu Sen. Kenshin Is Sentenced To The Dark!"
+],
+[
+3,
+9,
+"",
+"Kaioh's Conspiracy. Shougo's Trapped!"
+],
+[
+3,
+10,
+"",
+"The Reminiscent Days... Shougo And Sayo's Painful Past"
+],
+[
+3,
+11,
+"",
+"Evil With A Sneer! Shouzo, Karyu's Damaged In The Explosion"
+],
+[
+3,
+12,
+"",
+"Sanosuke's Tears... Eternal Separation Between Them"
+],
+[
+3,
+13,
+"",
+"Final Holy Battle... Crash Together Two Ama Kakeru Ryuu No Hirameki!"
+],
+[
+3,
+14,
+"",
+"The Sea of Departure... Hope Will Surf Over the Sadness"
+],
+[
+3,
+15,
+"",
+"Himura Dojo in Shimonoseki? Another Battousai Appears"
+],
+[
+3,
+16,
+"",
+"The Girl Who Longs For Her Art Student... Love Shock In Hakone Hot Springs"
+],
+[
+3,
+17,
+"",
+"Katsu Kaishu And Kenshin... Fated Survivors From the End Of The Edo Dynasty"
+],
+[
+3,
+18,
+"",
+"The Never Ending Of Edo Dynasty... Kaishu's Mission Of Fate"
+],
+[
+3,
+19,
+"",
+"Ben Aoi's Trap... Ghosts Of The Edo Dynasty Haunt Kaishu!"
+],
+[
+3,
+20,
+"",
+"The Decision Of Katsu Kaishu. The Truth Beyond The Era"
+],
+[
+3,
+21,
+"",
+"Yutaro Returns. The Ambitions Of The Black Knights Hide In The Shadows"
+],
+[
+3,
+22,
+"",
+"Sanada Ninja And The Divine Medicine. Their Leader, Misanagi's Goal"
+],
+[
+3,
+23,
+"",
+"A Puzzling Journey. The Trap Of Holy Crossing Has Been Laid!"
+],
+[
+3,
+24,
+"",
+"Dancing Underground. Red Day Fly Cutthroat! Sanada Sasshin"
+],
+[
+3,
+25,
+"",
+"Schneider's Bet. The Collapse Of The Black Knights"
+],
+[
+3,
+26,
+"",
+"Two Other Directions. Yahiko And Yutaro's Eternal Promise"
+],
+[
+3,
+27,
+"",
+"To My Angel Misao... Special Delivery From Kyoto"
+],
+[
+3,
+28,
+"",
+"Fusui's Surprise Attack! The Mystery Of The Satanic Pentagram"
+],
+[
+3,
+29,
+"",
+"Resist The Fusui's Magical Power. Next Target: The Kamiya Dojo!"
+],
+[
+3,
+30,
+"",
+"Tokyo's Under Martial Law! Strike Of The Spiral Weapon, Ryu Myaku"
+],
+[
+3,
+31,
+"",
+"The Enemy Awaits In Senjo Gahara! Searching For The Hisui Crest"
+],
+[
+3,
+32,
+"",
+"The Elegy Of The Wind And The Water. Now They Make Desperate Efforts Here!"
+],
+[
+3,
+33,
+"",
+"End of Wanderings"
 ]
 ],
 "se:200": [

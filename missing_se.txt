@@ -1,15 +1,15 @@
 # ============================================================
-# RUN STATUS  (2026-10-04 21:36 UTC)
+# RUN STATUS  (2026-10-05 10:00 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 760 episode-specific, 201 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 683 episode-specific, 293 generic, 2 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 667  (manual pins: 141)
-#   S/E by absolute  : 7
-#   S/E + desc / TAM : 24  (name+S/E+synopsis taken straight from TAM)
-#   repeat-fill      : 12  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 234
-#   S/E withheld     : 21  (listed below)
+#   S/E by name      : 628  (manual pins: 116)
+#   S/E by absolute  : 10
+#   S/E + desc / TAM : 20  (name+S/E+synopsis taken straight from TAM)
+#   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
+#   names from TAM   : 183
+#   S/E withheld     : 41  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -20,9 +20,14 @@
     ("2 Stupid Dogs", "Scirocco Mole"): (, ),
     ("Dragon Ball", "Bulma and Son Goku"): (, ),
     ("Dragon Ball", "What the...?! No Balls!"): (, ),
+    ("Fullmetal Alchemist", "Goodbye"): (, ),
     ("Fullmetal Alchemist", "Sealing the Homunculus"): (, ),
+    ("Lupin the Third: Part II", "Who's Vroomin' Who?"): (, ),
     ("Lupin the Third: Part II", "ZenigataCon"): (, ),
+    ("Rurouni Kenshin", "The Wolf Destroys the Eye of the Heart"): (, ),
     ("Sailor Moon", "Blinded By Love's Light"): (, ),
+    ("Sailor Moon", "Damp Spirits"): (, ),
+    ("Sailor Moon", "Lita Borrows Trouble"): (, ),
     ("Sailor Moon", "Swept Off Her Feet"): (, ),
     ("Saint Seiya", "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): (, ),
     ("Zoids: New Century", "Frightday the 13th - Ready Ahhh"): (, ),
