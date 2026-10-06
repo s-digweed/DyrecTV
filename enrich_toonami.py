@@ -83,9 +83,12 @@ ALIAS = {
 # "no_se": never attach season/episode (movies, or series we have no S/E for)
 _D = "Dante journeys through the nine circles of Hell -- limbo, lust, gluttony, greed, anger, heresy, violence, fraud and treachery -- in search of his true love, Beatrice."
 TITLE_OVERRIDES = {
+    # display the classic series under its dub title, but keep the DB lookup on
+    # "Saint Seiya" so the synopsis doesn't come from the 2003 reboot.
+    "Saint Seiya": {"display": "Saint Seiya: Knights of the Zodiac", "lookup": "Saint Seiya"},
     # ── movies / long specials (get a <date> year) ──
     "Little Giants": {
-        "display": "Little Giants (1993)", "lookup": "Little Giants (1993)", "date": "1993",
+        "display": "Little Giants (1994)", "lookup": "Little Giants (1994)", "date": "1994",
         "no_se": True,
         "desc": "Misfits form their own opposing team to an elite peewee football team, "
                 "coached by the elite team coach's brother."},
@@ -103,7 +106,7 @@ TITLE_OVERRIDES = {
         "display": "Bugs Bunny's Halloween Hijinks (2000)",
         "lookup": "Bugs Bunny's Halloween Hijinks", "date": "2000", "no_se": True},
     "The Dark Crystal": {
-        "display": "The Dark Crystal (1984)", "lookup": "The Dark Crystal", "date": "1984",
+        "display": "The Dark Crystal (1982)", "lookup": "The Dark Crystal", "date": "1982",
         "no_se": True,
         "desc": "On another planet in the distant past, the last of the Gelfling race embarks on a "
                 "quest to find the missing shard of a magical crystal and to restore order to his world."},
@@ -125,7 +128,7 @@ TITLE_OVERRIDES = {
     "Fist Of The North Star": {
         "display": "Fist of the North Star", "lookup": "Fist of the North Star (1984)", "no_se": True,
         "desc": "After a nuclear war turns Earth into a lawless wasteland, Kenshiro, a practitioner "
-                "of the deadly master art \"Hokuto Shinken\", fights a succession of tyrannical "
+                "of the deadly martial art \"Hokuto Shinken\", fights a succession of tyrannical "
                 "warriors to restore order."},
     "Super Sloppy Double Dare": {
         "display": "Super Sloppy Double Dare", "lookup": "Super Sloppy Double Dare", "no_se": True,
@@ -152,6 +155,19 @@ EPISODE_SE_OVERRIDE = {
 # Grab the names to add here from the generated `missing_se.txt` report.
 #   e.g. ("Dragnet", "The Bank Jobs"): (2, 7),
 SE_PINS = {
+    # --- batch 3: from missing_se_5 (your fills) ---
+    ('2 Stupid Dogs', 'Scirocco Mole'): (1, 9),
+    ('Dragon Ball', 'Bulma and Son Goku'): (1, 1),
+    ('Dragon Ball', 'What the...?! No Balls!'): (1, 2),
+    ('Fullmetal Alchemist', 'Sealing the Homunculus'): (1, 47),
+    ('Lupin the Third: Part II', 'ZenigataCon'): (1, 10),
+    ('Sailor Moon', "Blinded By Love's Light"): (3, 6),
+    ('Sailor Moon', 'Swept Off Her Feet'): (3, 5),
+    ('Saint Seiya: Knights of the Zodiac',
+     "Kidnapped! Corvus' Army Calls Unexpectedly on Saori"): (1, 29),
+    ('Zoids: New Century', 'Frightday the 13th - Ready Ahhh'): (1, 14),
+    ('Dragon Ball Z Abridged',
+     'Arrival of Fear!! Salute, Ginyu Special Squadron!!'): (2, 9),
     ('Android Kikaider', 'The End of the Dream (Finale)'): (1, 13),
     ('Batman: The Animated Series', "The Joker's Favor"): (1, 7),
     ('Digimon Adventure', 'City Under Siege'): (1, 36),
@@ -211,7 +227,7 @@ SE_PINS = {
     ('Zoids: New Century', 'The Sensational Three - Rematch with Jack Sisco'): (1, 11),
     ('Zoids: New Century', 'Zero is Stolen - The Fiery Battle'): (1, 12),
     # --- batch 2 (user corrections) ---
-    ('Fifteen', 'Free Falling'): (1, 5),
+    ('Fifteen (Hillside)', 'Free Falling'): (1, 5),
     ('Flipper', 'Dolphin in Pursuit: Part 2'): (2, 3),
     ('Nickelodeon GUTS', 'Rebecca - Cam - Oliver'): (1, 38),
     ('Noozles', 'Run Away from Home'): (1, 21),
@@ -241,6 +257,9 @@ SUBTITLE_OVERRIDE = {
     ("All That", "Episode #2.20"): "IV Xample",
     ("Flipper", "Episode #3.21"): "The Wish",
     ("You Can't Do That on Television", "Episode #1.7"): "St. Patrick's Day",
+    # --- batch 3: segment triplet + alternate episode name ---
+    ("2 Stupid Dogs", "Scirocco Mole"): "Hollywood's Ark / Scirocco Mole / Trash Day",
+    ("Lupin the Third: Part II", "ZenigataCon"): "Steal File M123 (ZenigataCon)",
 }
 def _subtitle_override(show, sub):
     if not sub:
@@ -262,6 +281,15 @@ DESC_OVERRIDE = {
     ("You Can't Do That on Television", "Episode #1.7"): "On St. Patrick's Day, amid disco-dancing "
         "finalists, call-in contests, and community announcements, Lisa sets out to get Bradfield "
         "wearin' green--slime, that is.",
+    # --- batch 3 ---
+    ("2 Stupid Dogs", "Scirocco Mole"): "On a TV game show, Secret and Morocco recall how they "
+        "first met and challenged Sirocco Mole, Morocco's evil twin brother.",
+    # --- batch 4 ---
+    ("Dragon Ball Z Abridged", "Arrival of Fear!! Salute, Ginyu Special Squadron!!"):
+        "The newly formed team three-star race off to try to gather the dragon balls before the "
+        "Ginyu Force can find them. Unfortunately, their gambit does not pay off and they are "
+        "forced to fight The Ginyu's. Gohan and Krillin are faced with the formidable Guldo whose "
+        "psychic powers present a considerable threat -- can they take out this deadly foe?",
 }
 def _desc_override(show, sub):
     if not sub:
@@ -299,6 +327,53 @@ SHOW_DESC_OVERRIDE = {
         "whenever his temper flares -- from the 1966 Marvel Super Heroes cartoon.",
     "Birdman and the Galaxy Trio": "Hanna-Barbera's 1967 superhero cartoon: solar-powered Birdman "
         "fights evil for the agency Inter-Nation Security, paired with the space-faring Galaxy Trio.",
+    # --- batch 4: show-level blurbs you supplied (fallback when no episode synopsis) ---
+    # game / variety
+    "Make the Grade": "Kids attempt to test their knowledge in a matter of mixed learning.",
+    "What Would You Do?": "Ninety episodes of this Nickelodeon show were produced 1991 to 1993. "
+        "Audience members were asked to volunteer to perform funny stunts, e.g. kissing a "
+        "chimpanzee et cetera.",
+    "Fifteen (Hillside)": "Students at the fictional Hillside School deal with a variety of issues, "
+        "such as friendship, dating, divorce, and alcohol abuse.",
+    "Legends of the Hidden Temple (1993)": "Six teams compete for the chance to search for the "
+        "treasure inside the titular temple.",
+    "Mr. Wizard's World": "Mr. Wizard and his young friends conduct a variety of science experiments.",
+    "Wild & Crazy Kids": "Teams of kids compete against each other in a variety of physical "
+        "competitions and sports.",
+    # cartoons
+    "Gumby Adventures": "The continuous adventures of Gumby and his pals. This time, he runs a farm "
+        "which includes more pals such as a wooly mammoth, Denali, and a bee, Groobee.",
+    "Lassie (1994)": "When a family of 4 moves from Baltimore to a farm in rural Virginia, they "
+        "adopt an abandoned collie. The dog becomes the son's companion and protector, helping him "
+        "adapt to rural life.",
+    "KaBlam!": "An animated anthology show hosted by two kids who live in a comic book.",
+    "Alvin & the Chipmunks": "Three chipmunk brothers named Alvin, Simon, and Theodore have been "
+        "adopted by and are living with Dave (human). Each episode finds them getting into trouble "
+        "and new and unusual situations.",
+    "Animorphs": "Five teenagers and an alien with the ability to turn into any beast they touch "
+        "vs. an army of parasitic aliens who are slowly infiltrating Earth.",
+    "Beetlejuice (1989)": "Beetlejuice, a deceased con-man, travels along with his best friend "
+        "Lydia and embarks on adventures in both the Neitherworld and the real world.",
+    "David the Gnome": "The fantastic adventures of David and his wife Lisa traveling around the "
+        "world to save the animals and defeating the trolls.",
+    "Fireball XL5": "In 2062, Colonel Steve Zodiac of the World Space Patrol and the crew of his "
+        "spaceship, Fireball XL5, explore Sector 25 of the galaxy, encountering friendly and "
+        "hostile aliens along the way.",
+    "Grimm's Fairy Tale Classics": "An animated series retelling a different folk or fairy tale in "
+        "each episode.",
+    "Maya": "The story of a young bee named Maya and her adventures.",
+    "The Angry Beavers": "Brothers Daggett and Norbert Beaver have left home to gain independence "
+        "by living on their own. Their goal is to live a wild bachelor lifestyle but, as might be "
+        "expected from young brothers, they get into some weird situations.",
+    "CatDog": "The life and times of a cat and a dog with a unique twist: they're connected, "
+        "literally. Adding to their dilemma is Cat's annoyance with Dog, mainly caused by Dog's "
+        "stupidity and Cat's up-tight personality.",
+    "The Flintstones Meet Rockula and Frankenstone (1979)": "The Flintstones and Rubbles win a "
+        "trip on \"Make a Deal or Don't\" to Count Rockula's castle in Rocksylvania where they "
+        "have an unpleasant meeting with the Count and his servant Frankenstone.",
+    "Dragon Ball Z Abridged: Celloween": "Krillin dreams he saves a mother and child from a giant "
+        "Imperfect Cell in a parody-filled horror nightmare, only to wake up right before the "
+        "androids arrive.",
 }
 
 # ── on-screen DISPLAY name fixes (feed title -> canonical). Used for both the
@@ -342,7 +417,7 @@ DISPLAY_CANON = {
     # Snickelodeon
     "Allegras Window": "Allegra's Window",
     "Are You Afraid Of The Dark": "Are You Afraid of the Dark?",
-    "BeetleJuice": "Beetlejuice",
+    "BeetleJuice": "Beetlejuice (1989)",
     "Busy World of Richard Scarry": "The Busy World of Richard Scarry",
     "Car 54, Where Are You": "Car 54, Where Are You?",
     "Figure it Out Wild Style": "Figure It Out: Wild Style",
@@ -359,6 +434,19 @@ DISPLAY_CANON = {
     "Space 1999": "Space: 1999",
     "The Littl Bits": "The Littl' Bits",
     "What Would You Do": "What Would You Do?",
+    # --- batch 4: display renames you asked for ---
+    "Gumby": "Gumby Adventures",
+    "Lassie": "Lassie (1994)",
+    "Alvin and the Chipmunks": "Alvin & the Chipmunks",
+    "David The Gnome": "David the Gnome",
+    "Maya the Bee": "Maya",
+    "Angry Beavers": "The Angry Beavers",
+    "The Flintstones Meet Rockula And Frankenstone":
+        "The Flintstones Meet Rockula and Frankenstone (1979)",
+    "Fifteen": "Fifteen (Hillside)",
+    "Legends of the Hidden Temple": "Legends of the Hidden Temple (1993)",
+    "Mr Wizard": "Mr. Wizard's World",
+    "Wild and Crazy Kids": "Wild & Crazy Kids",
 }
 
 # ── episode PINS from IMDb for segment-based '66/'67 cartoons. The feed numbers
@@ -1471,7 +1559,7 @@ def enrich(path):
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
              "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0,
-             "desc_episode": 0, "desc_generic": 0, "desc_none": 0}
+             "desc_episode": 0, "desc_generic": 0, "desc_none": 0, "desc_show_fixed": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
     generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
     records = []          # per-programme resolution, for repeat-fill + the desc report
@@ -1710,6 +1798,13 @@ def enrich(path):
             else:
                 desc = show_overview(show, cache)
                 desc_kind, desc_reason = "generic", "no S/E resolved -> show-level blurb"
+            # A hand-supplied SHOW-LEVEL blurb (SHOW_DESC_OVERRIDE) is an intentional,
+            # final description for a show with no episode identity -> mark it resolved
+            # ("show") so it drops off the worklist. Curated '60s cartoons keep their
+            # "pinned cartoon: no synopsis" flag (handled above, is_curated).
+            if (desc_kind == "generic" and not is_curated
+                    and desc and desc == SHOW_DESC_OVERRIDE.get(disp_title or show)):
+                desc_kind, desc_reason = "show", ""
             if not desc:
                 desc_kind, desc_reason = "none", "no description found anywhere"
             # (description classification + the generic_desc report are tallied
@@ -1836,6 +1931,8 @@ def enrich(path):
     for rec in records:
         if rec["kind"] == "episode":
             stats["desc_episode"] += 1
+        elif rec["kind"] == "show":                 # intentional hand-supplied show blurb
+            stats["desc_show_fixed"] += 1           # resolved -> NOT on the worklist
         else:
             label = rec["epname"] or rec["sp_sub"] or "(no episode name)"
             generic_desc.add((rec["show"], label, rec["reason"]))
@@ -1875,6 +1972,7 @@ def enrich(path):
             fh.write(f"#   SIMKL resolver   : {simkl_status}\n")
             fh.write(f"#   OMDb descriptions: {'ON' if ENABLE_OMDB else 'OFF (no OMDB_API_KEY secret)'}\n")
             fh.write(f"#   descriptions     : {stats['desc_episode']} episode-specific, "
+                     f"{stats['desc_show_fixed']} fixed show-blurb, "
                      f"{stats['desc_generic']} generic, {stats['desc_none']} none "
                      f"(see generic_desc.txt)\n")
             fh.write(f"#   TAM index        : {'loaded' if tam_index else 'EMPTY (fetch failed?)'}\n")
@@ -1908,6 +2006,7 @@ def enrich(path):
             fh.write("# ============================================================\n")
             fh.write(f"# DESCRIPTION REPORT  ({now})\n")
             fh.write(f"#   episode-specific: {stats['desc_episode']}\n")
+            fh.write(f"#   fixed show-blurb: {stats['desc_show_fixed']}  (hand-supplied, intentional)\n")
             fh.write(f"#   generic (blurb) : {stats['desc_generic']}\n")
             fh.write(f"#   none            : {stats['desc_none']}\n")
             fh.write("# These programmes do NOT have an episode-specific description.\n")
@@ -1931,6 +2030,7 @@ def enrich(path):
           f"{f', {_SIMKL_HITS} extra S/E' if ENABLE_SIMKL else ''}")
     print(f"  OMDb descriptions       : {'on' if ENABLE_OMDB else 'off'}")
     print(f"  descriptions           : {stats['desc_episode']} episode / "
+          f"{stats['desc_show_fixed']} fixed-show / "
           f"{stats['desc_generic']} generic / {stats['desc_none']} none")
     print(f"  S/E withheld (logged)  : {stats['se_dropped']}")
     print(f"  show-level fallback    : {stats['show_level']}")
