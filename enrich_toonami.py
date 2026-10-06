@@ -174,6 +174,7 @@ SE_PINS = {
     # --- batch 5: from missing_se_7 ---
     ('The Brak Show', 'Fued'): (2, 6),
     ('Digimon Adventure', "Wizardmon's Gift by"): (1, 37),
+    ('Digimon Adventure', "Wizardmon's Gift"): (1, 37),
     ('Dragon Ball', 'Yamcha, The Strong Yet Cruel Desert Bandit'): (1, 5),
     ('Fullmetal Alchemist', 'Goodbye'): (1, 48),
     ('Initial D: First Stage', 'Battle to the Limit! Eight-Six Versus GT-R'): (1, 9),
@@ -1230,6 +1231,12 @@ OMDB_API_KEY = os.environ.get("OMDB_API_KEY", "").strip()
 ENABLE_OMDB = bool(OMDB_API_KEY)
 OMDB_BASE = "https://www.omdbapi.com/"
 
+# Path 1: auto-resolve S/E (+ DB name/synopsis) for nameless Snick/live-action
+# slots straight from the feed's absolute episodeNumber. Additive gap-filler —
+# see the "2b" tier in the enrich loop. Flip off to go back to leaving those
+# slots as "(no episode name)".
+ALLOW_ABS_SNICK = os.environ.get("ALLOW_ABS_SNICK", "1") != "0"
+
 def _omdb_meta(show, season, ep, cache):
     """IMDb episode (overview, name) via OMDb, cached. '' on any miss/failure."""
     if not ENABLE_OMDB:
@@ -1267,20 +1274,31 @@ def _omdb_meta(show, season, ep, cache):
 
 
 def episode_meta(show, season, ep, cache):
+    """Return (overview, episode_name) with PER-FIELD source preference:
+      - episode NAME  : TMDB -> TVmaze -> TVDB -> OMDb  (TMDB has the best English
+                        titles, esp. for anime)
+      - SYNOPSIS/overview: OMDb(IMDb) -> TMDB -> TVmaze -> TVDB  (you prefer IMDb)
+    Each source is queried at most once and cached, so the two different orders
+    don't multiply API calls across runs."""
     if season is None:
         return None, None
-    ov = nm = ""
-    def take(res):
-        nonlocal ov, nm
-        o, n = res
-        if o and not ov: ov = o
-        if n and not nm: nm = n
-        return bool(ov and nm)
-    # Source priority (your call): TMDB -> OMDb(IMDb) -> TVmaze -> TVDB.
-    if take(_tmdb_meta(show, season, ep, cache)):                     return ov, nm
-    if ENABLE_OMDB and take(_omdb_meta(show, season, ep, cache)):     return ov, nm
-    if ENABLE_TVMAZE and take(_tvmaze_meta(show, season, ep, cache)): return ov, nm
-    if ENABLE_TVDB and take(_tvdb_meta(show, season, ep, cache)):     return ov, nm
+    _fn = {"tmdb": _tmdb_meta, "omdb": _omdb_meta, "tvmaze": _tvmaze_meta, "tvdb": _tvdb_meta}
+    _on = {"tmdb": True, "omdb": ENABLE_OMDB, "tvmaze": ENABLE_TVMAZE, "tvdb": ENABLE_TVDB}
+    _got = {}
+    def get(src):
+        if src not in _got:
+            _got[src] = _fn[src](show, season, ep, cache) if _on[src] else ("", "")
+        return _got[src]
+    nm = ""
+    for src in ("tmdb", "tvmaze", "tvdb", "omdb"):
+        n = get(src)[1]
+        if n:
+            nm = n; break
+    ov = ""
+    for src in ("omdb", "tmdb", "tvmaze", "tvdb"):
+        o = get(src)[0]
+        if o:
+            ov = o; break
     return (ov or None), (nm or None)
 
 
@@ -1647,8 +1665,10 @@ def enrich(path):
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
              "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0, "by_master": 0,
+             "by_abs_snick": 0,
              "desc_episode": 0, "desc_generic": 0, "desc_none": 0, "desc_show_fixed": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
+    abs_snick = {}        # (disp_show, absN) -> (S, E, name) auto-resolved nameless Snick -> review worklist
     generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
     records = []          # per-programme resolution, for repeat-fill + the desc report
     numfill = {}          # (norm show, feed episodeNumber) -> (name, (S,E), episode desc)
@@ -1880,6 +1900,34 @@ def enrich(path):
                         else:
                             dropped_se.add((disp_title or show, epname))
                             stats["se_dropped"] += 1
+                # 2b) ABSOLUTE for NAMELESS slots (Path 1, user-requested) — the
+                #     Snick/live-action feed gives only an episodeNumber (no feed name,
+                #     and Snick isn't in TAM/master/pins for this airing), so there is
+                #     nothing to corroborate against. At your request we resolve S/E
+                #     straight from the absolute index and let the DBs supply BOTH an
+                #     episode name — TMDB first, so anime/kids shows get clean English
+                #     titles — and a synopsis (OMDb/IMDb first). Strictly additive:
+                #     gated on `not epname`, so it only touches slots that would
+                #     otherwise read "(no episode name)" + a show-level blurb; it never
+                #     overrides the master map, a pin, TAM, a name match, or the
+                #     corroborated absolute tier (all of which run above and set
+                #     season/epname). Every hit is logged to abs_snick.txt so you can
+                #     promote the good ones into the master map (which then wins here).
+                if (season is None and absN and not epname
+                        and not is_curated and ALLOW_ABS_SNICK):
+                    s3, e3, ov3, nm3 = absolute_se(show, absN, cache)
+                    if s3:
+                        season, ep = s3, e3
+                        ov2, nm2 = episode_meta(show, season, ep, cache)
+                        ov = ov2 or ov3
+                        nm = nm2 or nm3
+                        if nm:
+                            orig_sub = nm
+                            clean_sub = clean_chapter(orig_sub)
+                            epname = clean_sub
+                        source = "abs_snick"
+                        stats["by_abs_snick"] += 1
+                        abs_snick[(disp_title or show, absN)] = (season, ep, nm or "")
             # 3) description — also classify it (episode-specific vs generic vs none)
             #    so we can report what still needs a real episode synopsis.
             dov = _desc_override(disp_title or show, epname)
@@ -1922,8 +1970,8 @@ def enrich(path):
             #  AFTER the repeat-fill pass below, from the per-programme records.)
             # tally how S/E was resolved
             if season is not None:
-                if source in ("tam", "master"):
-                    pass                      # already counted in by_tam / by_master
+                if source in ("tam", "master", "abs_snick"):
+                    pass                      # already counted in by_tam / by_master / by_abs_snick
                 else:
                     stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
@@ -2100,6 +2148,7 @@ def enrich(path):
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
             fh.write(f"#   S/E + desc / TAM : {stats['by_tam']}  (name+S/E+synopsis taken straight from TAM)\n")
             fh.write(f"#   master map       : {stats['by_master']}  (S/E from your hand-verified sheet)\n")
+            fh.write(f"#   abs-resolve Snick: {stats['by_abs_snick']}  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)\n")
             fh.write(f"#   repeat-fill      : {stats['by_repeat']}  (re-airings backfilled from a named sibling by episodeNumber)\n")
             fh.write(f"#   names from TAM   : {stats['from_tam']}\n")
             fh.write(f"#   S/E withheld     : {stats['se_dropped']}  (listed below)\n")
@@ -2141,11 +2190,37 @@ def enrich(path):
     except Exception as e:
         print(f"  warn: could not write {dreport}: {e}")
 
+    # ── abs-resolve review worklist: every nameless Snick/live-action slot that
+    #    Path 1 auto-filled from the absolute episodeNumber. These are UN-corroborated
+    #    (there was no feed/TAM name to check against), so eyeball them. A good row ->
+    #    promote it into snick_master_map.tsv / the master map (keyed show|number),
+    #    which then wins here on every future run. A wrong one -> correct the S/E in
+    #    the master map, or set ALLOW_ABS_SNICK=0 to turn the whole tier off. ──
+    areport = os.path.join(os.path.dirname(os.path.abspath(path)), "abs_snick.txt")
+    try:
+        with open(areport, "w", encoding="utf-8") as fh:
+            fh.write("# ============================================================\n")
+            fh.write(f"# ABSOLUTE-RESOLVE REVIEW  ({now})\n")
+            fh.write(f"#   auto-filled nameless slots: {len(abs_snick)}\n")
+            fh.write("# The feed gave only an episodeNumber (no name) for these, so the\n")
+            fh.write("# S/E, episode name and synopsis below were resolved straight from\n")
+            fh.write("# that absolute index via the DBs -- NOT corroborated against a feed\n")
+            fh.write("# name. Verify, then lock good ones into the master map (keyed\n")
+            fh.write("# show|episodeNumber); the master map overrides this tier.\n")
+            fh.write("# ============================================================\n")
+            for (show, absN), (s, e, nm) in sorted(abs_snick.items(),
+                                                   key=lambda kv: (kv[0][0], kv[0][1])):
+                fh.write(f'    {show}  #{absN}  ->  S{s:02d}E{e:02d}  "{nm}"\n')
+        print(f"  -> {areport}: {len(abs_snick)} nameless slots auto-filled (review & promote)")
+    except Exception as e:
+        print(f"  warn: could not write {areport}: {e}")
+
     print(f"enriched {stats['progs']} programmes on {len(TARGET_CHANNELS)} channels")
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  S/E + desc from TAM     : {stats['by_tam']}")
     print(f"  master map (your sheet) : {stats['by_master']}")
+    print(f"  abs-resolve Snick (new) : {stats['by_abs_snick']}")
     print(f"  repeat-fill (by number) : {stats['by_repeat']}")
     print(f"  names from TAM          : {stats['from_tam']}")
     print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
