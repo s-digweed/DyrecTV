@@ -90,6 +90,14 @@ jobs:
           python3 ../mtv97_epg.py TOONAMIAM.xml
         continue-on-error: true
 
+      # Merge the looping 'Toonami Aftermath Radio' filler into TOONAMIAM.xml.
+      # radio_epg.py lives in the repo root; same mechanism as MTV97. Pure stdlib.
+      - name: Merge Radio into Toonami guide
+        run: |
+          cd epg-src
+          python3 ../radio_epg.py TOONAMIAM.xml
+        continue-on-error: true
+
       - name: Move Toonami
         run: |
           if [ -f epg-src/TOONAMIAM.xml ]; then
