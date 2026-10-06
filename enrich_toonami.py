@@ -86,6 +86,9 @@ TITLE_OVERRIDES = {
     # display the classic series under its dub title, but keep the DB lookup on
     # "Saint Seiya" so the synopsis doesn't come from the 2003 reboot.
     "Saint Seiya": {"display": "Saint Seiya: Knights of the Zodiac", "lookup": "Saint Seiya"},
+    # David the Gnome: show it under the short title, but query the DBs under its
+    # full catalogued name so episode lookups actually match.
+    "David The Gnome": {"display": "David the Gnome", "lookup": "The World of David the Gnome"},
     # ── movies / long specials (get a <date> year) ──
     "Little Giants": {
         "display": "Little Giants (1994)", "lookup": "Little Giants (1994)", "date": "1994",
@@ -168,6 +171,24 @@ SE_PINS = {
     ('Zoids: New Century', 'Frightday the 13th - Ready Ahhh'): (1, 14),
     ('Dragon Ball Z Abridged',
      'Arrival of Fear!! Salute, Ginyu Special Squadron!!'): (2, 9),
+    # --- batch 5: from missing_se_7 ---
+    ('The Brak Show', 'Fued'): (2, 6),
+    ('Digimon Adventure', "Wizardmon's Gift by"): (1, 37),
+    ('Dragon Ball', 'Yamcha, The Strong Yet Cruel Desert Bandit'): (1, 5),
+    ('Fullmetal Alchemist', 'Goodbye'): (1, 48),
+    ('Initial D: First Stage', 'Battle to the Limit! Eight-Six Versus GT-R'): (1, 9),
+    ('Iron Man', 'Ultimo, Ultimo Lives, Crescendo'): (1, 3),
+    ('Lupin the Third: Part II', 'The Sleight Before Christmas'): (1, 12),
+    ('Lupin the Third: Part II', "Who's Vroomin' Who?"): (1, 11),
+    ('Neon Genesis Evangelion', 'Tears'): (1, 23),
+    ('Rurouni Kenshin', 'The Wolf Destroys the Eye of the Heart'): (2, 22),
+    ('Sailor Moon', 'Damp Spirits'): (3, 8),
+    ('Sailor Moon', 'Friendly Foes'): (3, 9),
+    ('Sailor Moon', 'Lita Borrows Trouble'): (3, 7),
+    ('Saint Seiya: Knights of the Zodiac', 'Dragon! Victory of Self-Sacrifice'): (1, 28),
+    ('Saint Seiya: Knights of the Zodiac', 'Stone Seiya! Shield of Medusa'): (1, 27),
+    ('The Tick', 'Ants in Pants!'): (2, 9),
+    ('Yu-Gi-Oh!', 'The Dark Spirit Revealed (Part 3)'): (3, 35),
     ('Android Kikaider', 'The End of the Dream (Finale)'): (1, 13),
     ('Batman: The Animated Series', "The Joker's Favor"): (1, 7),
     ('Digimon Adventure', 'City Under Siege'): (1, 36),
@@ -228,14 +249,14 @@ SE_PINS = {
     ('Zoids: New Century', 'Zero is Stolen - The Fiery Battle'): (1, 12),
     # --- batch 2 (user corrections) ---
     ('Fifteen (Hillside)', 'Free Falling'): (1, 5),
-    ('Flipper', 'Dolphin in Pursuit: Part 2'): (2, 3),
+    ('Flipper (1995)', 'Dolphin in Pursuit: Part 2'): (2, 3),
     ('Nickelodeon GUTS', 'Rebecca - Cam - Oliver'): (1, 38),
     ('Noozles', 'Run Away from Home'): (1, 21),
-    ('The Adventures of Superman', 'The Talking Clue'): (3, 2),
-    ('The Adventures of Superman', 'Through the Time Barrier'): (3, 1),
-    ('The Rocky and Bullwinkle Show', 'Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter'): (2, 39),
-    ('The Rocky and Bullwinkle Show', 'Hop Skip and Junk, or Bullwinkle\'s Big Tow/Bucks for Boris, or The Green Paper Caper'): (2, 40),
-    ('The Rocky and Bullwinkle Show', 'When Moose Meets Moose, or Two\'s a Crowd/The Midnight Chew-Chew, or This Gum for Hire'): (2, 41),
+    ('Adventures of Superman', 'The Talking Clue'): (3, 2),
+    ('Adventures of Superman', 'Through the Time Barrier'): (3, 1),
+    ('The Adventures of Rocky and Bullwinkle and Friends', 'Many a Thousand Gone, or The Haul of Fame/Down to Earth, or Me and My Shatter'): (2, 39),
+    ('The Adventures of Rocky and Bullwinkle and Friends', 'Hop Skip and Junk, or Bullwinkle\'s Big Tow/Bucks for Boris, or The Green Paper Caper'): (2, 40),
+    ('The Adventures of Rocky and Bullwinkle and Friends', 'When Moose Meets Moose, or Two\'s a Crowd/The Midnight Chew-Chew, or This Gum for Hire'): (2, 41),
     ('The Adventures of Tintin', 'Land of Black Gold: Part 1'): (2, 10),
     ('The Adventures of Tintin', 'Land of Black Gold: Part 2'): (2, 11),
 }
@@ -255,11 +276,15 @@ SUBTITLE_OVERRIDE = {
     # --- batch 2: give placeholder "Episode #x.y" slots their real names ---
     ("All That", "Episode #2.19"): "Shai",
     ("All That", "Episode #2.20"): "IV Xample",
-    ("Flipper", "Episode #3.21"): "The Wish",
-    ("You Can't Do That on Television", "Episode #1.7"): "St. Patrick's Day",
+    ("Flipper (1995)", "Episode #3.21"): "The Wish",
+    ("You Can't Do That on Television (1979)", "Episode #1.7"): "St. Patrick's Day",
     # --- batch 3: segment triplet + alternate episode name ---
     ("2 Stupid Dogs", "Scirocco Mole"): "Hollywood's Ark / Scirocco Mole / Trash Day",
     ("Lupin the Third: Part II", "ZenigataCon"): "Steal File M123 (ZenigataCon)",
+    # --- batch 5 ---
+    ("Iron Man", "Ultimo, Ultimo Lives, Crescendo"): "Ultimo / Ultimo Lives / Crescendo",
+    ("Rurouni Kenshin", "The Wolf Destroys the Eye of the Heart"):
+        "The Wolf Destroys the Eye of the Heart: The Fierce Attack of the Zero Stance Gatotsu",
 }
 def _subtitle_override(show, sub):
     if not sub:
@@ -277,8 +302,8 @@ DESC_OVERRIDE = {
         "is on the loose, Ed is hit with a tranquilizer while elephant hunters are searching Good Burger.",
     ("All That", "Episode #2.20"): "Cold Bear Open; Good Booo-ger; Vital Information; Earboy on "
         "Trial; Did You Hear...; Peter & Flem.",
-    ("Flipper", "Episode #3.21"): "A dying girl's one wish is to swim with a dolphin.",
-    ("You Can't Do That on Television", "Episode #1.7"): "On St. Patrick's Day, amid disco-dancing "
+    ("Flipper (1995)", "Episode #3.21"): "A dying girl's one wish is to swim with a dolphin.",
+    ("You Can't Do That on Television (1979)", "Episode #1.7"): "On St. Patrick's Day, amid disco-dancing "
         "finalists, call-in contests, and community announcements, Lisa sets out to get Bradfield "
         "wearin' green--slime, that is.",
     # --- batch 3 ---
@@ -436,10 +461,9 @@ DISPLAY_CANON = {
     "What Would You Do": "What Would You Do?",
     # --- batch 4: display renames you asked for ---
     "Gumby": "Gumby Adventures",
-    "Lassie": "Lassie (1994)",
+    "Lassie": "Lassie (1954)",
     "Alvin and the Chipmunks": "Alvin & the Chipmunks",
-    "David The Gnome": "David the Gnome",
-    "Maya the Bee": "Maya",
+    "Maya the Bee": "Maya the Bee (1975)",
     "Angry Beavers": "The Angry Beavers",
     "The Flintstones Meet Rockula And Frankenstone":
         "The Flintstones Meet Rockula and Frankenstone (1979)",
@@ -447,6 +471,46 @@ DISPLAY_CANON = {
     "Legends of the Hidden Temple": "Legends of the Hidden Temple (1993)",
     "Mr Wizard": "Mr. Wizard's World",
     "Wild and Crazy Kids": "Wild & Crazy Kids",
+    # --- batch 5: from the filled master-map sheet + missing_se_7 ---
+    "Brak Show": "The Brak Show",
+    "BeetleJuice": "Beetlejuice",
+    "Are You Afraid Of The Dark": "Are You Afraid of the Dark? (1999)",
+    "Dragnet": "Dragnet (1967)",
+    "Figure it Out Wild Style": "Figure It Out",
+    "Finders Keepers": "Finders Keepers (1987)",
+    "Flipper": "Flipper (1964)",
+    "Flipper The New Adventures": "Flipper (1995)",
+    "Flipper: The New Adventures": "Flipper (1995)",
+    "Get Smart": "Get Smart (1965)",
+    "Get The Picture": "Get the Picture (1991)",
+    "Nickelodeon Guts": "Nickelodeon GUTS",
+    "Gullah Gullah Island": "Gullah, Gullah Island",
+    "Hey Dude!": "Hey Dude",
+    "I Spy": "I Spy (1965)",
+    "Muppet Babies": "Muppet Babies (1984)",
+    "Rocky and Bullwinkle": "The Adventures of Rocky and Bullwinkle and Friends",
+    "Sgt. Bilko": "The Phil Silvers Show",
+    "Stingray": "Stingray (1964)",
+    "The Adventures of Superman": "Adventures of Superman",
+    "Welcome Back Kotter": "Welcome Back, Kotter",
+    "What Would You Do": "What Would You Do? (1991)",
+    "You Can't Do That on Television": "You Can't Do That on Television (1979)",
+}
+
+# Segment anthologies: the feed lists 2-3 whole segment titles comma-separated,
+# so for THESE shows a ", " is a separator -> normalize it to " / " (we can't do
+# this globally because most shows have real commas inside a single title). Keyed
+# by the DISPLAY name. Add shows here as you hit more.
+SEGMENT_SHOWS = {
+    "Iron Man", "The Mighty Thor", "Hulk", "Captain America", "Fantastic Four",
+    "The Incredible Hulk", "Sub-Mariner", "The Marvel Super Heroes",
+    "Spider-Man (1967)", "Space Ghost",
+}
+
+# Shows whose seasons have their own names -> display "<show> - <season name>",
+# chosen by the episode's resolved season. Extend as needed.
+SEASON_TITLE = {
+    "Rurouni Kenshin": {1: "Wandering Samurai", 2: "Legend of Kyoto", 3: "Tales of Meiji"},
 }
 
 # ── episode PINS from IMDb for segment-based '66/'67 cartoons. The feed numbers
@@ -654,7 +718,29 @@ TMDB_KEY  = os.environ.get("TMDB_API_KEY", "").strip()
 TMDB_BASE = "https://api.themoviedb.org/3"
 TMDB_LANG = "en-US"
 DESC_CACHE_FILE = "toonami_desc_cache.json"
+# Hand-built master map (from the Snick week sheet), keyed by "<norm show>|<episodeNumber>"
+# -> {"se":[S,E] or null, "sub": episode name, "desc": synopsis}. Authoritative: a
+# manual sub/desc/S-E here wins over everything; an S/E-only entry lets the DBs fill
+# the name+desc by that S/E. Lives next to this script, committed to the repo.
+MASTER_MAP_FILE = "master_map.json"
 SHOW_TMDB_OVERRIDES = {}
+
+def load_master_map():
+    import os as _os
+    for base in (_os.path.dirname(_os.path.abspath(__file__)), _os.getcwd()):
+        p = _os.path.join(base, MASTER_MAP_FILE)
+        try:
+            with open(p, encoding="utf-8") as f:
+                m = json.load(f)
+            print(f"  master map: {len(m)} episodes loaded from {MASTER_MAP_FILE}")
+            return m
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            print(f"  master map: failed to parse {MASTER_MAP_FILE} ({e})")
+            return {}
+    print(f"  master map: {MASTER_MAP_FILE} not found; skipping")
+    return {}
 _QYEAR = re.compile(r'\s*\(((?:19|20)\d\d)\)\s*$')
 _TAGS  = re.compile(r"<[^>]+>")
 _sess  = requests.Session()
@@ -1190,10 +1276,11 @@ def episode_meta(show, season, ep, cache):
         if o and not ov: ov = o
         if n and not nm: nm = n
         return bool(ov and nm)
+    # Source priority (your call): TMDB -> OMDb(IMDb) -> TVmaze -> TVDB.
     if take(_tmdb_meta(show, season, ep, cache)):                     return ov, nm
+    if ENABLE_OMDB and take(_omdb_meta(show, season, ep, cache)):     return ov, nm
     if ENABLE_TVMAZE and take(_tvmaze_meta(show, season, ep, cache)): return ov, nm
     if ENABLE_TVDB and take(_tvdb_meta(show, season, ep, cache)):     return ov, nm
-    if ENABLE_OMDB and take(_omdb_meta(show, season, ep, cache)):     return ov, nm
     return (ov or None), (nm or None)
 
 
@@ -1555,10 +1642,11 @@ def enrich(path):
 
     # Snick episode names come from the TAM feed (the feed itself has none).
     tam_index = load_tam_index() if any(c in TAM_CH_FOR for c in TARGET_CHANNELS) else {}
+    MASTER_MAP = load_master_map()
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
-             "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0,
+             "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0, "by_master": 0,
              "desc_episode": 0, "desc_generic": 0, "desc_none": 0, "desc_show_fixed": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
     generic_desc = set()  # (show, episode, reason) desc is generic/none -> DESC_OVERRIDE worklist
@@ -1639,6 +1727,20 @@ def enrich(path):
         clean_sub = clean_chapter(orig_sub)        # roman->arabic, drop comma before Chapter
         epname = clean_sub or (sp.get("sub") if sp else "")
         absN = feed_num
+        # ── MASTER MAP (hand-verified Snick sheet, keyed by show + episodeNumber).
+        #    Authoritative: a manual name/desc/S-E wins over everything; an S/E-only
+        #    entry sets the badge and lets the DBs fill name+desc by that S/E.
+        mm_hit = (MASTER_MAP.get(f"{_norm(raw)}|{absN}")
+                  if (absN is not None and not is_curated) else None)
+        mm_se   = tuple(mm_hit["se"]) if (mm_hit and mm_hit.get("se")) else None
+        mm_sub  = (mm_hit.get("sub")  or "") if mm_hit else ""
+        mm_desc = (mm_hit.get("desc") or "") if mm_hit else ""
+        if mm_sub:                                  # manual episode name is the sub-title
+            orig_sub = mm_sub
+            clean_sub = clean_chapter(orig_sub)
+            epname = clean_sub
+        if mm_desc:                                 # manual synopsis wins (via forced_desc)
+            forced_desc = mm_desc
         # TAM's S/E + synopsis describe the SAME episode we're showing only when
         # the identity agrees: the name came from TAM (Snick has no feed name), or
         # our episode name matches TAM's. Otherwise it's a different episode -> skip.
@@ -1660,6 +1762,15 @@ def enrich(path):
         desc_kind = "episode"; desc_reason = ""
         try:
             if not no_se:
+                # 0*) MASTER MAP S/E — hand-verified, wins over every resolver below.
+                #     If you also supplied a synopsis it's already locked in via
+                #     forced_desc; an S/E-only entry fetches name+desc from the DBs.
+                if mm_se and season is None:
+                    season, ep = mm_se
+                    source = "master"
+                    stats["by_master"] += 1
+                    if not mm_desc:
+                        ov, nm = episode_meta(show, season, ep, cache)
                 # 0) PINNED IMDb broadcast episodes for segment-based cartoons
                 #    (Spider-Man '67, Hulk '66) -> correct S/E + full title + the
                 #    IMDb synopsis for that episode (may be '' -> series blurb).
@@ -1811,8 +1922,8 @@ def enrich(path):
             #  AFTER the repeat-fill pass below, from the per-programme records.)
             # tally how S/E was resolved
             if season is not None:
-                if source == "tam":
-                    pass                      # already counted in stats["by_tam"]
+                if source in ("tam", "master"):
+                    pass                      # already counted in by_tam / by_master
                 else:
                     stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
@@ -1839,9 +1950,13 @@ def enrich(path):
                 # placeholder as the episode title -> leave it blank.
                 sub_text = ""
             elif orig_sub:
-                # feed/grabber episode name. Standardize ONLY the '/' separator
-                # (" / ") — never split on commas, which are part of real titles
-                # like "Patty, the Witness" or "Monkey See, Doggie Do / ...".
+                # feed/grabber episode name. Standardize the '/' separator (" / ").
+                # Commas are normally part of a single title ("Patty, the Witness"),
+                # so we DON'T split on them -- EXCEPT for segment anthologies, where
+                # the feed comma-joins whole segment titles (Iron Man, Thor, Hulk...).
+                base_for_seg = disp_title or show
+                if base_for_seg in SEGMENT_SHOWS and "," in clean_sub and "/" not in clean_sub:
+                    clean_sub = " / ".join(s.strip() for s in clean_sub.split(",") if s.strip())
                 sub_text = " / ".join(s.strip() for s in re.split(r"\s*/\s*", clean_sub) if s.strip())
                 # normalize "(Part N)" -> ": Part N" (keeps "(Finale)" etc. as-is)
                 sub_text = re.sub(r"\s*\(Part\s+(\d+)\)", r": Part \1", sub_text)
@@ -1854,6 +1969,11 @@ def enrich(path):
             elif _decode_placeholder_se(orig_sub):
                 for e in prog.findall("sub-title"):   # drop a stale "Episode #x.y"
                     prog.remove(e)
+
+        # Season-named shows: display "<show> - <season name>" based on the resolved
+        # season (e.g. Rurouni Kenshin S2 -> "Rurouni Kenshin - Legend of Kyoto").
+        if season is not None and show in SEASON_TITLE and season in SEASON_TITLE[show]:
+            disp_title = f"{show} - {SEASON_TITLE[show][season]}"
 
         if disp_title:
             te = prog.find("title")
@@ -1979,6 +2099,7 @@ def enrich(path):
             fh.write(f"#   S/E by name      : {stats['by_name']}  (manual pins: {stats['se_pinned']})\n")
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
             fh.write(f"#   S/E + desc / TAM : {stats['by_tam']}  (name+S/E+synopsis taken straight from TAM)\n")
+            fh.write(f"#   master map       : {stats['by_master']}  (S/E from your hand-verified sheet)\n")
             fh.write(f"#   repeat-fill      : {stats['by_repeat']}  (re-airings backfilled from a named sibling by episodeNumber)\n")
             fh.write(f"#   names from TAM   : {stats['from_tam']}\n")
             fh.write(f"#   S/E withheld     : {stats['se_dropped']}  (listed below)\n")
@@ -2024,6 +2145,7 @@ def enrich(path):
     print(f"  S/E by episode name    : {stats['by_name']}  (manual pins: {stats['se_pinned']})")
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  S/E + desc from TAM     : {stats['by_tam']}")
+    print(f"  master map (your sheet) : {stats['by_master']}")
     print(f"  repeat-fill (by number) : {stats['by_repeat']}")
     print(f"  names from TAM          : {stats['from_tam']}")
     print(f"  SIMKL resolver          : {'on' if ENABLE_SIMKL else 'off'}"
