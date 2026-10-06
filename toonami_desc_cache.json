@@ -1,5 +1,9 @@
 {
 "episodes": {
+"1022|1|28": {
+"n": "Garrett - Craig - Kath",
+"o": ""
+},
 "1022|1|38": {
 "n": "Rebecca - Cam - Oliver",
 "o": ""
@@ -195,6 +199,14 @@
 "12504|1|58": {
 "n": "Small World",
 "o": "Hardware shrinks Automata in an attempt to take it past the Light Year Limit to change its function so as to make all the money the Mob wants. It is up to Hotwing, Flashback, Condor and Moonstryker to stop them."
+},
+"12662|3|2": {
+"n": "The Talking Clue",
+"o": "Sound and fury. Bank robbers have a sudden interest in a young audiophile's collection of recorded sounds."
+},
+"12662|3|3": {
+"n": "The Lucky Cat",
+"o": "Ladders, black cats, Friday the 13th. All harmless -- but someone intends real harm to an anti-superstition society."
 },
 "12971|1|1": {
 "n": "The New Threat",
@@ -576,6 +588,10 @@
 "n": "Jeannie, the Governor's Wife",
 "o": "Jeannie tries to convince Tony to run for governor, not only because she feels that this will finally convince him to marry her, but because she has an honest face.  Roger then decides to become Tony's campaign manager as well and he and Jeannie do everything he can to get elected.  Just one problem though, Tony is still on active duty and can't run for governor or else he will be kicked out of the astronaut program."
 },
+"1660|4|18": {
+"n": "Is There a Doctor in the House?",
+"o": "Tony's sudden sleeping sickness causes Jeannie to consult her mother for advice, not realizing that it was Jeannie's mother who caused it.  Jeannie pleads with her mother to come back with her to Cocoa Beach so that she can cure Tony.  After doing this, Mama lays her eyes on Dr. Bellows and it is love at first sight.  She now starts making plans to make him her own Master."
+},
 "1664|1|11": {
 "n": "Flash Memory",
 "o": "Peter's old rival, Flash Thompson, develops a super-intellect."
@@ -631,6 +647,10 @@
 "1835|3|2": {
 "n": "Skunkator vs. Moth Man",
 "o": "There's a big comic book convention in town and Kenan & Kel are dying to go. Too bad Kenan has to train Rigby's new employee, Sharla, that day. The guys decide to go anyway and things go downhill from there."
+},
+"1835|3|3": {
+"n": "The Raffle",
+"o": "The Rockmores get a brand new TV, and when Kel breaks the TV that Chris was planning to give away in the Rigby's raffle, Kenan pulls the old switcheroo. What are Kenan & Kel to do? Fix the raffle, of course!"
 },
 "1890|1|1": {
 "n": "Freefall",
@@ -728,6 +748,10 @@
 "n": "Ghost Stories",
 "o": "The kids tell ghost stories."
 },
+"2020|2|7": {
+"n": "Teacher's Pest",
+"o": "Ted's English teacher visits the Bar None Ranch."
+},
 "2085|1|2": {
 "n": "Cajun Granny Stew",
 "o": "A fox searches for the missing ingredient for his Cajun Granny Stew."
@@ -792,6 +816,10 @@
 "n": "",
 "o": ""
 },
+"210879|2|22": {
+"n": "",
+"o": ""
+},
 "210879|2|23": {
 "n": "",
 "o": ""
@@ -823,6 +851,10 @@
 "2126|5|1": {
 "n": "Adios, Johnny Bravo",
 "o": "As the Bradys are auditioning for a TV amateur show, a musical agent spies Greg and offers him the chance of becoming a solo star.  This begins to worry Mike and Carol who hoped he would go onto college and angers his siblings for deserting them, since they were a group."
+},
+"2132|1|10": {
+"n": "The Meershatz Pipe",
+"o": "Rob's not as impressed with Buddy's new Meershatz pipe as he is with the fact that it was a gift from Alan Brady. Not just impressed but envious as well. After all, he is the head writer of the show and begins to feel as if he isn't needed. Getting sick and having to miss work for several days doesn't help his insecurities."
 },
 "2132|1|8": {
 "n": "To Tell or Not to Tell",
@@ -1012,6 +1044,10 @@
 "n": "Sawdust Ring",
 "o": "Duckula decides to enter the circus. Unfortunately, the former circus workers come back to sabotage the performance."
 },
+"2416|1|25": {
+"n": "Duck and the Broccoli Stalk",
+"o": "Von Goosewing plans to use a growth formula to grow a huge clove of garlic next to the castle to kill Duckula. He spills some on Duckula's broccoli by accident and it grows, carrying castle Duckula and its inhabitants to a castle in the clouds that is owned by a giant."
+},
 "2423|1|11": {
 "n": "37th Annual Sci-Fi Fight Night",
 "o": "1. Celine Dion vs. Prodigy's Keith Flint  2. Nick Diamond vs. The Alien  3. David Duchovny & Gillian Anderson vs. Will Smith & Tommy Lee"
@@ -1043,6 +1079,10 @@
 "2429|3|3": {
 "n": "Who'll Stop the Brain?",
 "o": "Oblina, overstudying for an upcoming exam, sneezes her brain out of her head. While the brain has the time of its life in the city, Ickis and Krumm must take Oblina's body and find the brain."
+},
+"2429|3|5": {
+"n": "Ickis and the Red Zimbo",
+"o": "Ickis discovers a remote control helicopter in the dump and uses it to scare humans from long distance. Zimbo hates the helicopter because he feels there's only room for one flying monster in the Academy. Soon he and the \"Ickis Copter\" get into a dogfight!"
 },
 "24710|1|1": {
 "n": "Girl at the Eiffel Tower",
@@ -1128,6 +1168,10 @@
 "n": "Spanish Translation",
 "o": "After declaring his fondness for Mexican food, Space Ghost asks diet guru Susan Powter what super powers help \"stop the insanity.\" Comedian Kevin Meaney discusses the virtues of wearing tight pants and the Bee Gees stop by for a short, bizarre visit."
 },
+"2798|1|2": {
+"n": "Gilligan",
+"o": "Space Ghost interviews the cast of Gilligan's Island and tries to find out if the show is real."
+},
 "2798|8|1": {
 "n": "Baffler Meal",
 "o": "Space Ghost's talk show is invaded by three life-sized fast food items from a place called Burger Trench. They are known as the Aqua Teen Hunger Force. They soon proceed to throw the show into total chaos."
@@ -1167,6 +1211,10 @@
 "2849|1|21": {
 "n": "Airlift",
 "o": "David meets up with his friend Cosmo, who says he is worried about the bats in the forest. Cosmo says the humans are poisoning the insects the bats eat, and many of them are starving. The bats are currently hibernating in trees, which are in danger of being cut down. David calls on all the gnomes in the forest to make baskets from bullrushes, and then the bats are put into the baskets. A flock of geese transports the bats to a gnome-operated animal hospital when they can finish hibernating."
+},
+"2849|1|23": {
+"n": "Kangaroo Adventure",
+"o": "Susan is staying with David and Lisa and finds a gnome xray in an old trunk. It is an xray of the Australian Prince Rex, who just happens to be coming to visit David that day. David tells Susan about how he and Lisa went to Australia a long time ago. Rex was just a boy then, but he was a lot shorter than his twin brother. David found out Rex was allergic to his boomerang and told the prince to drink lots of fruit punch. At the end of David's story, an adult Prince Rex shows up. He is a lot taller than average gnomes, and David says it is because he kept drinking the fruit punch."
 },
 "286267|1|18": {
 "n": "Irina - Rachael - Ricardo",
@@ -1304,6 +1352,10 @@
 "n": "Chuckles Bites the Dust",
 "o": "Chuckles the Clown is crushed to death by a rogue elephant in a parade, which leaves all the newsroom staff in hysterics except Mary."
 },
+"2962|6|8": {
+"n": "Mary's Delinquent",
+"o": "Mary joins a Big Sisters scheme and tries to bring a teenage shoplifter to the side of good. Sue Ann, pursuing an award, decides to \"adopt\" a little sister as well but finds herself getting influenced."
+},
 "3022|2|35": {
 "n": "The Box",
 "o": "Stu throws out the box from what they just got, and all the Rugrats imagine what they could do with the box. Racing car, astronaut, anything. So, what will they do?"
@@ -1351,6 +1403,10 @@
 "3022|3|51": {
 "n": "",
 "o": ""
+},
+"3022|4|1": {
+"n": "Mother's Day",
+"o": "The children decide to find a new mom for Chuckie for Mother's Day."
 },
 "3043|1|2": {
 "n": "Signals",
@@ -1431,6 +1487,10 @@
 "3107|3|1": {
 "n": "What's Up with Jobs?",
 "o": "The kids learn about all different types of jobs."
+},
+"3107|3|14": {
+"n": "",
+"o": ""
 },
 "3107|3|16": {
 "n": "",
@@ -1640,6 +1700,18 @@
 "n": "Blinded by Love's Light",
 "o": "Naru and Umino enter an Affection Contest in order to prove their love for each other, but find themselves targeted by a Daimon."
 },
+"3570|3|7": {
+"n": "Lita Borrows Trouble",
+"o": "Makoto is targeted by a Daimon, but manages to evade it. Haruka befriends Makoto in order to get close to her and her pure heart crystal."
+},
+"3570|3|8": {
+"n": "Damp Spirits",
+"o": "Ami's desire to avoid competition leads to her offending Michiru during a swimming race. Meanwhile, a Daimon selects Ami as her target."
+},
+"3570|3|9": {
+"n": "Friendly Foes",
+"o": "After Sailor Neptune is captured and possibly killed by Kaolinite, Sailor Moon and Sailor Uranus find themselves shackled together and are forced to reassess their attitudes toward each tower."
+},
 "3579|2|7": {
 "n": "Tree of Hearts",
 "o": "When Treeflower re-enters Norbert's life, he expects their love to blossom once more. However, Norb didn't count on the lure that large trucks have for beaver women, and loses Treeflower to Dag's arch enemy: Truckee the truck driving shrew."
@@ -1696,6 +1768,10 @@
 "n": "Toody's Paradise",
 "o": "Toody is on an undercover detail in Brooklyn with a female cop as his wife and a small boy as his child. When Lucille's sister spots him there, the rumors start flying wildly."
 },
+"3727|1|20": {
+"n": "How High Is Up?",
+"o": "Muldoon discovers he's grown an inch to 6-foot-seven, putting him one inch over the police regulation and putting him over the edge with paranoia about his height."
+},
 "37419|1|11": {
 "n": "The Fog at Iselina",
 "o": "To get to the capital Van and his friends must cross the misty mountains of Iselina. While staying at a village they are attacked by the Desert Alcobolino Gang led by Leola, who used to live in the same village they are attacking."
@@ -1743,6 +1819,10 @@
 "3814|3|1": {
 "n": "Tia & Tamera Mowry / LL Cool J",
 "o": "Amanda's Welcome   Randy's Auditions   Vital Information   Double Good Burger   Pierre Escargot   The Gifted Class   Superdude introduces Musical Guest: LL Cool J (\"\"Who Do Ya Luv\"\")"
+},
+"3814|3|2": {
+"n": "Montell Jordan",
+"o": "Search For Kevin   Superdude vs. Yogurl   Repairman In Space   Pierre Escargot   Show & Tell   The Chicken Pox   Vital Intro   Musical Guest: Montell Jordan (\"\"Baby, I Like\"\")"
 },
 "384|2|10": {
 "n": "Doug's Worst Nightmare",
@@ -1792,9 +1872,17 @@
 "n": "Doug's Math Problem",
 "o": "Doug gets a letter from his school and panics when he sees it's addressed to his parents. Since he's doing poorly in math, Doug immediately assumes that it's a failing notice! So he does everything to find out what the letter says and avoid his parents from seeing it. If that wasn't enough, Patti is trying to tell Doug something and get her message to him."
 },
+"384|4|3": {
+"n": "Doug's Bum Rap",
+"o": "Doug is accused of cheating when he and Chalky score identical marks on a test. He is given one day to confess or he'll have to take a re-test. Doug knows he didn't cheat so he tries to talk about it with Chalky, but he keeps avoiding Doug."
+},
 "4035|1|1": {
 "n": "Monster Lake",
 "o": "Gadget looks for a missing scientist who vanished at a lake rumored to harbor a monster."
+},
+"4035|1|2": {
+"n": "Down on the Farm",
+"o": "M.A.D. tries to do Gadget in by locking him in a missile hidden in a farm's grain silo."
 },
 "4035|1|61": {
 "n": "So it is Written",
@@ -1952,6 +2040,10 @@
 "n": "Cheers",
 "o": "In a surprising move, Alex tries out for cheerleading...and makes the team! But while she enjoys her new popularity, she misses her carefree life. Louis accidentally switches diskettes with Annie so that she narrowly escapes getting in trouble with the evil Danielle Atron."
 },
+"4289|4|1": {
+"n": "Driving",
+"o": "Alex gets a job with Louis at his dad's distributing company so she can buy her own car."
+},
 "4303|2|28": {
 "n": "Little Girl Lost (2)",
 "o": "When Superman is captured by Granny Goodness and her Female Furies, Supergirl follows them to the planet Apokolips to rescue him."
@@ -2008,6 +2100,10 @@
 "n": "Dina and the Rock Star",
 "o": "Dina promises everyone that she will get Jamie Mallet Jr., a huge rock star, to perform at the camp dance. She finds out that Jamie is staying at a nearby camp to relax and get some rest from the celebrity lifestyle. Dina tricks him into thinking the camp he is at is too dangerous and to come and relax at Camp Anawanna. When he arrives, he is overrun by fans. Dina then gets angry when Jamie spends most of his time hanging out with Pinskey instead of her, because Pinskey isn't treating him like a celebrity. As revenge, she spreads lies about Jamie through the camp."
 },
+"440|2|5": {
+"n": "The Cursed Skull",
+"o": "The girls decide that they want to be away from each other, so they ask Ug to change the bunk assignments. Meanwhile, the boys find a buffalo skull in a cave near camp. After they bring it back bad things start to happen and Ug orders them to bring good luck back to camp by returning the skull. Budnick decides to start a \"\"caveman club\"\" for the boys. The girls decide to steal the skull from them and get caught in the cave during a storm."
+},
 "4455|4|6": {
 "n": "The Worst Best Man",
 "o": "Each time Smart picks a best man for his upcoming wedding to Agent 99, the man meets with a mysterious accident. The Chief deducts that there must be a link between all of the accidents and KAOS because all of Max's prospects are fellow agents. To prevent further loss of manpower a t CONTROL, Hymie is appointed best man. KAOS then reveals it's true interest in Max's choice of best man - nearly to the extinction of CONTROL."
@@ -2019,6 +2115,10 @@
 "4455|4|8": {
 "n": "The Return of the Ancient Mariner",
 "o": "With an attempt to kidnap Admiral Hardgrade in the works, Max has him stay in his apartment."
+},
+"4455|4|9": {
+"n": "With Love and Twitches",
+"o": "The big day arrives for Smart and Agent 99, but almost without Smart as he is sidetracked by a bizarre case. KAOS scientist Dr. Madre passes information on the location of the Melnick uranium mine to Max, in the form of a \"drinkable map\"."
 },
 "4482|2|1": {
 "n": "Alias Darrin Stephens",
@@ -2060,6 +2160,14 @@
 "n": "Ordinary People",
 "o": "As headless corpses begin turning up in Metropolis, Lois and Clark escape from the grisly headlines to a tropical island."
 },
+"45194|2|5": {
+"n": "The Big Neighbor",
+"o": "Bill invites Joe to dinner and a football game at his home in Eagle Rock.  The only problem: Gannon's neighbors keep interrupting the visit with petty, and not-so-petty, problems."
+},
+"45194|2|6": {
+"n": "The Big Frustration",
+"o": "Sgt. Carl Maxwell, a frustrated fellow detective, goes AWOL; Friday and Gannon have three days to track him down before Maxwell loses his badge for good."
+},
 "453|1|13": {
 "n": "Ed the Tout",
 "o": "With the help of Ed, Wilbur picks a winning racehorse for Carol and his neigbors. Unfortunatelly they end up betting on a horse that Wilbur has mistakenly circled."
@@ -2090,6 +2198,10 @@
 },
 "4567|1|6": {
 "n": "The Zootabaga Caper",
+"o": ""
+},
+"4567|1|7": {
+"n": "Secret Adventures",
 "o": ""
 },
 "4574|3|19": {
@@ -2136,6 +2248,10 @@
 "n": "",
 "o": ""
 },
+"45854|3|35": {
+"n": "",
+"o": ""
+},
 "45860|1|6": {
 "n": "Prison of Love",
 "o": "Fujiko is after the pendant belonging to a student in an all girls school. To get closer to her target, she impersonates herself as one of the teachers in the school."
@@ -2172,6 +2288,10 @@
 "n": "One Good Fern Deserves Another",
 "o": "After Garfield and Odie destroy all of Jon's ferns, he heads to a greenhouse to purchase a new one. The new fern tries to eat everyone in the house, and Garfield must get rid of it."
 },
+"4606|2|16": {
+"n": "The Legend of the Lake",
+"o": "Garfield, hosting a tour of the National Cat Museum, narrates a story about a prehistoric cat. The cat was determined to cross a giant lake to reach the fabled \"lasagna trees\" that grew on a faraway island."
+},
 "46512|1|1": {
 "n": "How Many Miles to the Battlefield?",
 "o": "On the colony of Side 6, 11-year-old Alfred Izuruha messes around in school with his friends during lunch. As Al walks home, he bumps into his old friend Christina MacKenzie, who had moved to Earth years before."
@@ -2191,6 +2311,10 @@
 "472|2|8": {
 "n": "Terminate Her",
 "o": "The Glorft, disguised as a motorcycle gang thanks to their latest Holo-Camouflages, comes to a rock concert. They're not there for entertainment, however - they want to eliminate Kiva's ancestor, which in turn would cause Kiva to cease to exist, which in turn would mean Megas would stay with the Glorft and never reach Coop, which would in turn doom Earth into extinction. Kiva and Jamie must protect the ancestor until Coop can get to Megas. To make matters worse, it seems that Jamie and has fallen for Kiva's ancestor and she has fallen for him."
+},
+"481|2|6": {
+"n": "Feud",
+"o": "Dad and Thundercleese are in the midst of a neighborhood feud. Weird Al Yankovic guest stars."
 },
 "481|2|7": {
 "n": "Runaway",
@@ -2215,6 +2339,10 @@
 "4899|1|15": {
 "n": "The Tiger",
 "o": "A definitive mission to Vietnam in order to rescue the daughter of a physician."
+},
+"4899|1|16": {
+"n": "The Barter",
+"o": "Russian defector for American girl: good business or not?"
 },
 "495|1|5": {
 "n": "Zip in Space",
@@ -2303,6 +2431,18 @@
 "5606|1|9": {
 "n": "That Terrible Swift Sword",
 "o": "When a series of brutal prostitute murders seem to follow a revival crusade around, Ray goes undercover as a minister and gets blamed for the latest murder."
+},
+"565|1|5": {
+"n": "Scooter's Hidden Talent",
+"o": "All of the babies are showing their talents, but Scooter can't seem to find his. By some inspiration, he learns his talent is being computer smart."
+},
+"565|1|6": {
+"n": "The Case of the Missing Chicken",
+"o": "Gonzo panics when he can't find his stuff baby chicken camella."
+},
+"565|1|7": {
+"n": "Eight Take-Away One Equals Panic",
+"o": "A Misunderstanding leads the kids to belive that Nanny is going to give one of them away."
 },
 "57706|1|10": {
 "n": "P-P-P-Chan! He's Good For Nothin'",
@@ -2420,6 +2560,10 @@
 "n": "The Wish",
 "o": "A dying girl's one wish is to swim with a dolphin..."
 },
+"6223|4|5": {
+"n": "Saving Tom",
+"o": "An emergency call comes through while Tom and Chris are diving and he ends up in hospital."
+},
 "6223|4|6": {
 "n": "Spring Break",
 "o": "Courtney learns about the perils of drinking."
@@ -2488,6 +2632,10 @@
 "n": "Grand Hotel",
 "o": "The Busytown Grand Hotel is introduced."
 },
+"6460|2|34": {
+"n": "Lowly Breaks His Leg",
+"o": "Lowly breaks his one leg and has to survive with being unable to use it."
+},
 "6510|1|7": {
 "n": "Mo' Skeeter Blues",
 "o": "Skeeter accidentally destroys the tape of a single Andre is supposed to play for his executives. Skeeter manages to get the artist to record another song and gets some friends to help make it a potential hit. Andre returns with the executives to find Skeeter, Bobby and the crew in the studio mixing up some tasty sounds."
@@ -2507,6 +2655,10 @@
 "657|3|11": {
 "n": "Manic Mechanic",
 "o": "Rocko's car breaks down, but Filburt can bring it back to life."
+},
+"657|3|13": {
+"n": "I See London, I See France",
+"o": "On a trip to France, Rocko falls in love."
 },
 "657|3|9": {
 "n": "Nothing to Sneeze At",
@@ -2734,13 +2886,137 @@
 "nm": "The Zootabaga Caper",
 "ov": "Allegra enjoys discovering new things at Daycare, until she's asked to sample a new food--fresh blue zootabagas! She stubbornly resists--any new food she hasn't tried has to be yucky! When she finally agrees to take a bite...she l..."
 },
+"allegra s window|1|7": {
+"nm": "I've Got a Secret!",
+"ov": "Allegra inadvertently slips up and reveals a big secret Lindi shared with her. Lindi is furious; the plan to surprise Riff with a newly refurbished guitar is ruined. After Reed explains the importance of keeping one's promise, All..."
+},
+"dragon ball z abridged|2|10": {
+"nm": "",
+"ov": ""
+},
+"dragon ball z abridged|2|11": {
+"nm": "",
+"ov": ""
+},
+"dragon ball z abridged|2|7": {
+"nm": "",
+"ov": ""
+},
+"dragon ball z abridged|2|8": {
+"nm": "",
+"ov": ""
+},
+"dragon ball z abridged|2|9": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|5|27": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|5|28": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|5|29": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|5|30": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|5|31": {
+"nm": "",
+"ov": ""
+},
+"freakazoid|1|30": {
+"nm": "",
+"ov": ""
+},
+"gullah gullah island|3|14": {
+"nm": "",
+"ov": ""
+},
+"gullah gullah island|3|16": {
+"nm": "",
+"ov": ""
+},
+"justice league|5|13": {
+"nm": "",
+"ov": ""
+},
 "legends of the hidden temple 1993|1|18": {
 "nm": "The Golden Cup of Belshazzar",
+"ov": ""
+},
+"nickelodeon guts|1|28": {
+"nm": "",
 "ov": ""
 },
 "nickelodeon guts|1|38": {
 "nm": "",
 "ov": ""
+},
+"record of lodoss war|2|14": {
+"nm": "",
+"ov": ""
+},
+"record of lodoss war|2|15": {
+"nm": "",
+"ov": ""
+},
+"record of lodoss war|2|16": {
+"nm": "",
+"ov": ""
+},
+"record of lodoss war|2|17": {
+"nm": "",
+"ov": ""
+},
+"record of lodoss war|2|18": {
+"nm": "",
+"ov": ""
+},
+"rugrats|3|51": {
+"nm": "",
+"ov": ""
+},
+"rurouni kenshin|2|19": {
+"nm": "Purgatory Bursts Into Flames: The Destiny of Makoto Shishio",
+"ov": "Kenshin and Sanosuke try stop Shishio's battleship Purgatory from destroying Kyoto."
+},
+"rurouni kenshin|2|20": {
+"nm": "",
+"ov": ""
+},
+"rurouni kenshin|2|21": {
+"nm": "",
+"ov": ""
+},
+"rurouni kenshin|2|22": {
+"nm": "The Wolf Destroys the Eye of the Heart: The Fierce Attack of the Zero Stance Gatotsu",
+"ov": "Usui confronts Saito while the others go to Shishio's mansion."
+},
+"rurouni kenshin|2|23": {
+"nm": "",
+"ov": ""
+},
+"spider man the animated series|5|5": {
+"nm": "Six Forgotten Warriors Chapter 4: The Six Fight Again",
+"ov": "Five of the Forgotten Six reunite and team up with Spider-Man to stop the Kingpin from activating the Dooms Day Weapon. But during the process of activating it, Captain America and Red Skull are returned."
+},
+"spider man the animated series|5|6": {
+"nm": "Six Forgotten Warriors Chapter 5: The Price of Heroism",
+"ov": "Red Skull uses the Dooms Day Device to transport power into his son and transforms him into Electro. As Electro begins to absorb more power, he becomes even too powerful for his father to handle."
+},
+"spider man the animated series|5|7": {
+"nm": "The Return of Hydro-Man: Part 1",
+"ov": "While on their honeymoon, Peter and Mary Jane are interrupted by Morrie Bench. Still obsessed with making Mary Jane his other half, Morrie kidnaps her."
+},
+"spider man the animated series|5|8": {
+"nm": "The Return of Hydro-Man: Part 2",
+"ov": "Mary Jane has discovered that she, too, has Hydro-Man's powers. She and Spider-Man find out that Mary Jane is actually a clone of the real MJ."
 },
 "the rocky and bullwinkle show|2|40": {
 "nm": "",
@@ -2749,11 +3025,20 @@
 "the rocky and bullwinkle show|2|41": {
 "nm": "",
 "ov": ""
+},
+"what a cartoon|1997|5": {
+"nm": "",
+"ov": ""
+},
+"yu gi oh|3|35": {
+"nm": "Clash in the Coliseum: Part 4",
+"ov": "The clash of the two Egyptian God Monsters releases mystical energies that show Yugi and Kaiba visions of the ancient Egyptian past! What new answers do these images unlock, and what prophecies do they make for the future?"
 }
 },
 "show_syn": {
 "2 Stupid Dogs": "“Two Stupid Dogs” follows the lives of two dogs: the overly excited Little Dog (the dachshund) and easy-paced Big Dog (the sheepdog). These crazy canines don't know how to fit in the world, and they definitely don't have any know-how. They often find themselves in commonplace situations (going to the drive-in, walking through the mall, working on the farm), some not so common situations (stuck on a space shuttle, a contestant on a game show, getting mistaken for the prime minister) and even in some familiar situations (little red riding hood, Noah's ark, and Hanzel and Gretel). But no matter the situation, their stupidity usually leads them to calamitous results.",
 "Aaahh!!! Real Monsters": "Three young monsters — Ickis, Oblina and Krumm — attends an institute for monsters under a city dump and learn to frighten humans.",
+"Adventures of Superman": "It's a bird! It's a plane! It's a syndicated TV adaptation of the beloved DC Comics superhero! You know the drill: When he isn't fighting for truth, justice and the American way, the man in tights dons a suit and glasses for his secret identity as Daily Planet newspaper reporter Clark Kent, who works alongside friends Lois Lane and Jimmy Olsen for gruff boss Perry White.",
 "Alfred Hitchcock Presents": "The New Alfred Hitchcock Presents is an American anthology series that aired on NBC from 1985 to 1986, and on the USA Network from 1987 to 1989. The series is an updated re-imagining of the classic 1955 series Alfred Hitchcock Presents.",
 "All That": "A zany sketch comedy featuring many wacky characters hosted for kids and by kids.",
 "Allegra's Window": "Allegra's Window is a children's television series that aired on Nick Jr. from October 24, 1994 to May 1, 1996, with reruns airing from May 2, 1996 to June 1998 and later airing on Noggin from February 2, 1999 to April 2003. The show deals with the daily life of a precocious, imaginative puppet named Allegra, and featured live actors, puppets and animation ala Sesame Street. The show was created by Jan Fleming, John Hoffman and Jim Jinkins.\n\nThe series also spawned a series of music videos aired during interstitials that aired on Nick Jr.",
@@ -2763,6 +3048,7 @@
 "Animorphs": "Five kids are given the power to morph into any creature they wish to help them fight villainous Visser Three and his fellow Yeerks, a breed of parasitic aliens threatening Earth.",
 "Are You Afraid Of The Dark": "This spooky anthology series for kids recounts ghost stories told by the young members of the Midnight Society as they gather around a campfire. Each episode opens with members of the Midnight Society at their secret spot in the woods, where they prepare their fire and the night's storyteller announces the title of the his or her offering. However, the cameras soon leave the storyteller and switch to the tale being told.",
 "Are You Afraid of the Dark?": "This spooky anthology series for kids recounts ghost stories told by the young members of the Midnight Society as they gather around a campfire. Each episode opens with members of the Midnight Society at their secret spot in the woods, where they prepare their fire and the night's storyteller announces the title of the his or her offering. However, the cameras soon leave the storyteller and switch to the tale being told.",
+"Are You Afraid of the Dark? (1999)": "A group of kids calling themselves the Midnight Society meet to tell terrifying horror stories. But their love of all things scary is put to the test when the real world starts to become as spooky as their tales.",
 "Batman: The Animated Series": "Vowing to avenge the murder of his parents, Bruce Wayne devotes his life to wiping out crime in Gotham City as the masked vigilante \"Batman\".",
 "Beetlejuice": "The adventures of preteen goth Lydia Deetz and her undead friend Beetlejuice as they explore The Neitherworld, a wacky afterlife realm inhabited by monsters, ghosts, ghouls and zombies.",
 "Bewitched": "Samantha Stephens is a seemingly normal suburban housewife who also happens to be a genuine witch, with all the requisite magical powers. Her husband Darrin insists that Samantha keep her witchcraft under wraps, but situations invariably require her to indulge her powers while keeping her bothersome mother Endora at bay.",
@@ -2786,6 +3072,7 @@
 "Double Dare": "The all-new Double Dare with Liza Koshy has all the trivia, physical challenges, and obstacles for the messiest game show on TV!",
 "Doug": "Doug Funnie experiences common predicaments while attending school in his new hometown of Bluffington, Virginia.",
 "Dragnet": "Follows the cases of a dedicated Los Angeles police detective, Sergeant Joe Friday, and his partners. The show takes its name from the police term \"dragnet\", meaning a system of coordinated measures for apprehending criminals or suspects.",
+"Dragnet (1967)": "Police Detective Sgt. Joe Friday and his partners investigate crimes in Los Angeles.",
 "Dragon Ball": "Now happily married and with a son, martial arts champion Goku must defend Earth from a series of extraterrestrial invaders bent on destruction.",
 "Dragon Ball Z": "Now happily married and with a son, martial arts champion Goku must defend Earth from a series of extraterrestrial invaders bent on destruction.",
 "Dragon Ball Z Abridged": "Dragon Ball Z Abridged is the title of TeamFourStar's abridged series based on the Dragon Ball Z anime. This abridged series is one of the most successful series created in '08-'09 and was featured on That Guy with The Glasses official website.\r\n\r\nDragon Ball Z Abridged is a direct parody with most characters and plot lines remaining relatively unchanged.",
@@ -2799,21 +3086,26 @@
 "Figure it Out": "A group of four different panelists popular on Nickelodeon programs try to figure out the talents of different guests. They are given clues that they can feel, see, taste, and also given to them through charades.",
 "Figure it Out Wild Style": "",
 "Finders Keepers": "Keen detectorist Martin and his wheeler dealer soon to be son-in-law Ashley who, while on a boys bonding trip in the idyllic fields of rural Somerset, discover a hoard of buried Saxon treasure worth millions.",
+"Finders Keepers (1987)": "Finders Keepers is a children's game show that debuted on Nickelodeon and later aired in first-run syndication. The show featured two teams of two children attempting to find hidden objects in different rooms of a house.\n\nThe Nickelodeon version premiered on November 2, 1987 and was hosted by Wesley Eure. Following this version's cancellation, Larry Toffler hosted a syndicated version that premiered on September 12, 1988.",
 "Fireball XL5": "Fireball XL5 is a science fiction-themed children's television show following the missions of spaceship Fireball XL5, commanded by Colonel Steve Zodiac of the World Space Patrol. The show was produced in 1962 by husband and wife team Gerry and Sylvia Anderson through their company APF, in association with ATV for ITC Entertainment. While developing his new show, Anderson thought a brand of motor oil—Castrol XL—had an interesting sound. A phonetic change created the name \"Fireball XL\", with the \"-5\" added as the title seemed a bit flat without the numeral.\n\nThe show featured the Andersons' Supermarionation, a form of puppetry first introduced in Four Feather Falls and Supercar and used again in their subsequent productions such as Stingray and Captain Scarlet. Thirty-nine black and white half-hour episodes of Fireball XL5 were made on 35mm film: all future Anderson series were produced in colour.\n\nSeveral Anderson series have been shown in syndication in the US, but Fireball XL5 is the only Anderson series to have run on a US network. NBC ran the series in its Saturday morning children's block from 1963 through to September 1965.\n\nA similar programme often confused with Fireball XL5 is Space Patrol, produced by Gerry Anderson's ex business partner and co-founder of AP Films, Arthur Provis due to a number of similarities and settings.",
 "Fist Of The North Star": "It's the year 199x, and Earth burns with the fires of a nuclear holocaust. On the charred remains of the planet's surface, humans struggle desperately to survive a fearful world. The young wanderer Kenshiro rises to stand against the violent reality. Upon his chest are seven scars in the shape of the North Star!",
 "Flipper": "Flipper, from Ivan Tors Films in association with Metro-Goldwyn-Mayer Television, is an American television program first broadcast on NBC from September 19, 1964, until April 15, 1967. Flipper, a bottlenose dolphin, is the companion animal of Porter Ricks, Chief Warden at fictional Coral Key Park and Marine Preserve in southern Florida, and his two young sons, Sandy and Bud. The show has been dubbed an \"aquatic Lassie\", and a considerable amount of juvenile merchandise inspired by the show was produced during its first-run.",
+"Flipper (1964)": "Flipper, from Ivan Tors Films in association with Metro-Goldwyn-Mayer Television, is an American television program first broadcast on NBC from September 19, 1964, until April 15, 1967. Flipper, a bottlenose dolphin, is the companion animal of Porter Ricks, Chief Warden at fictional Coral Key Park and Marine Preserve in southern Florida, and his two young sons, Sandy and Bud. The show has been dubbed an \"aquatic Lassie\", and a considerable amount of juvenile merchandise inspired by the show was produced during its first-run.",
+"Flipper (1995)": "Flipper is a 1995–2000 American family adventure drama series developed by E.F. Wallengren, Michael Nankin and Reuben Leder, a sequel to Jack Cowden's 1964–67 NBC series of the same name.\n\nIn and around the Bal Harbor Institute, a marine mammal research facility in beautiful Florida Keys, groundbreaking studies are being conducted on dolphin behavior and everyone's favorite dolphin finds adventure.",
 "Flipper The New Adventures": "Flipper is a 1995–2000 American family adventure drama series developed by E.F. Wallengren, Michael Nankin and Reuben Leder, a sequel to Jack Cowden's 1964–67 NBC series of the same name.\n\nIn and around the Bal Harbor Institute, a marine mammal research facility in beautiful Florida Keys, groundbreaking studies are being conducted on dolphin behavior and everyone's favorite dolphin finds adventure.",
 "Flipper: The New Adventures": "Flipper is a 1995–2000 American family adventure drama series developed by E.F. Wallengren, Michael Nankin and Reuben Leder, a sequel to Jack Cowden's 1964–67 NBC series of the same name.\n\nIn and around the Bal Harbor Institute, a marine mammal research facility in beautiful Florida Keys, groundbreaking studies are being conducted on dolphin behavior and everyone's favorite dolphin finds adventure.",
 "Freakazoid": "The adventures of  Freakazoid, a manic, insane superhero who battles with an array of super villains.",
 "Fullmetal Alchemist": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
 "Garfield and Friends": "The animated stories of Garfield the cat, Odie the dog, their owner Jon and the trouble they get into. And also Orson the Pig and his adventures on a farm with his fellow farm animals.",
 "Get Smart": "Maxwell Smart, a hilariously inept and maladroit secret agent for CONTROL, battles the nefarious—though equally incompetent—KAOS.",
+"Get Smart (1965)": "Maxwell Smart, a hilariously inept and maladroit secret agent for CONTROL, battles the nefarious—though equally incompetent—KAOS.",
 "Global Guts": "Global Guts, featuring competitors from various countries, namely the United States of America (USA), Mexico, Great Britain, Israel, Germany, Spain, Portugal, and the Commonwealth of Independent States. Although the countries had multiple contestants, no country was ever represented twice in a single episode, except for the Special Olympic special, where it had 2 U.S. players. Each country had its own team of broadcasters; e.g. O'Malley retained this role for the US broadcast. The format remained identical to the original version, but the Mega Crag was upgraded to the Super Aggro Crag. In the \"Spill Your GUTS\" segments, non-English-speaking contestants spoke in their own language, with an interpreter speaking over their lines.",
 "Goku Midnight Eye P1": "",
 "Goku Midnight Eye P2": "",
 "Green Acres": "Green Acres is an American sitcom starring Eddie Albert and Eva Gabor as a couple who move from New York City to a rural country farm. Produced by Filmways as a sister show to Petticoat Junction, the series was first broadcast on CBS, from September 15, 1965 to April 27, 1971.\n\nReceiving solid ratings during its six-year run, Green Acres was cancelled in 1971 as part of the \"rural purge\" by CBS. The sitcom has been in syndication and is available in DVD and VHS releases. In 1997, the two-part episode \"A Star Named Arnold is Born\" was ranked #59 on TV Guide's 100 Greatest Episodes of All Time.",
 "Grimm's Fairy Tale Classics": "Grimm's Fairy Tale Classics is a Japanese animated anthology series by Nippon Animation. The episodes are adaptations of a variety of folk and fairy tales, and not limited to Grimm's Fairy Tales.",
 "Gullah Gullah Island": "Ron and Natalie live on an island off the coast of South Carolina with their three children, James, Vanessa and Simeon; their niece, Shaina; and a giant tadpole named Binyah Binyah Poliiwog. Together they learn about life and culture and getting along with others.",
+"Gullah, Gullah Island": "Ron and Natalie live on an island off the coast of South Carolina with their three children, James, Vanessa and Simeon; their niece, Shaina; and a giant tadpole named Binyah Binyah Poliiwog. Together they learn about life and culture and getting along with others.",
 "Gumby": "The continuous adventures of Gumby and his pals. This time, he runs a farm which includes more pals such as a wooly mammoth, Denali, and a bee, Groobee.",
 "Gundam Wing": "After Colony (A.C.) 195. Mankind has moved into space. Thousands of people live on giant orbiting space colonies called \"Sides.\" However, the Earth Government, which rules the colonies, is unjust and cruel. A group of revolutionaries builds five robotic weapons called Gundams and plans to send them to Earth to begin their fight for independence. Piloted by five young men, these Gundams carry the hopes and dreams of freedom of the colonists with them as they descend to Earth to begin Operation Meteor!",
 "Hey Arnold!": "The daily life of Arnold--a fourth-grader with a wild imagination, street smarts and a head shaped like a football.",
@@ -2835,6 +3127,7 @@
 "Kenan & Kel": "Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.",
 "Land of the Lost 1991": "The Porter family, Tom, Kevin, and Annie get sucked into a prehistoric alternative world while taking a family vacation. The Porters build a tree house, hook up with a few locals, Tasha- orphaned, extra smart dinosaur, Stink-monkey man, and Christa-another human who has lived in the Land of the Lost since she was a little girl. The Porters must deal with living with dinosaurs and avoiding the evil advanced Sleestaks.",
 "Lassie": "Lassie is the pet of Jeff Miller, an 11-year-old farm boy. The two become best friends and enjoy family adventures in the American countryside, teaching each other about love, nature and commitment.",
+"Lassie (1954)": "Lassie is the pet of Jeff Miller, an 11-year-old farm boy. The two become best friends and enjoy family adventures in the American countryside, teaching each other about love, nature and commitment.",
 "Legends of the Hidden Temple": "In a Temple filled with lost treasures and protected by mysterious Mayan temple guards, six teams of two children compete to retrieve one of the historical artifacts in the Temple by performing physical stunts and answering questions based on history, mythology, and geography. After three elimination rounds, only one team remains, who then earns the right to go through the Temple to retrieve the artifact within three minutes and win a grand prize.",
 "Little Bear": "Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.",
 "Little Giants": "Shinichiro Kosaka is a detective of the major cases unit of the Tokyo Metropolitan Police and on the path to become captain of the unit when he makes a mistake during an investigation. Kosaka was subsequently demoted to precinct duty, where he finds his new colleagues taking on small cases tirelessly with a sense of justice untinged by workplace politics and internal disputes.",
@@ -2848,6 +3141,7 @@
 "Mister Ed": "Wilbur Post and his wife Carol move into a beautiful new home. When Wilbur takes a look in his new barn, he finds that the former owner left his horse behind. This horse is no ordinary horse . . . he can talk, but only to Wilbur, which leads to all sorts of misadventures for Wilbur and his trouble-making sidekick Mister Ed.",
 "Mr. Wizard's World": "With the help of his young assistants, Mr. Wizard starts each episode with a demonstration that at first glance should be impossible, but is actually based firmly on basic scientific principles. Mr. Wizard's explanations are aimed at kids, but are in-depth enough to be educational and interesting for anyone. His experiments are usually kept simple enough for parents and kids to re-create at home.",
 "Muppet Babies": "The reimagined playroom antics and wacky adventures of the young Kermit the Frog, Piggy, Fozzie Bear, Gonzo, Animal, Summer Penguin, and Miss Nanny.",
+"Muppet Babies (1984)": "The Muppet Babies (Kermit, Piggy, Gonzo, Fozzy and company) live in a large nursery watched over by Nanny. The babies have active imaginations, and often embark upon adventures into imaginary worlds.",
 "My Brother and Me": "The McElroy brothers are not experts, and their advice should never be followed. Justin, Travis, and Griffin are three brothers from Huntington, West Virginia who have turned their popular comedy podcast into an advice show that frequently spins out of control and barely offers any advice.",
 "My Three Sons": "A widower and aeronautical engineer named Steven Douglas raises three sons with the help of his father-in-law, and later the boys' great-uncle. An adopted son, a stepdaughter, wives, and another generation of sons join the loving family in later seasons.",
 "Mysterious Cities of Gold": "The adventures of a young Spanish boy named Esteban who joins a voyage to the New World in search of the lost Cities of Gold and his father.",
@@ -2889,6 +3183,7 @@
 "Superman: The Animated Series": "Superman, an incredibly powerful alien from the planet Krypton, defends Metropolis from supercriminals. Superman hides his identity behind the glasses of Clark Kent; a mild-mannered reporter for the newspaper the Daily Planet. At the Daily Planet Superman works with fellow reporter Lois Lane and photographer Jimmy Olsen.",
 "Taxi": "Louie De Palma is a cantankerous, acerbic taxi dispatcher in New York City. He tries to maintain order over a collection of varied and strange characters who drive for him. As he bullies and insults them from the safety of his “cage,” they form a special bond among themselves, becoming friends and supporting each other through the inevitable trials and tribulations of life.",
 "The Adventures of Pete & Pete": "Pete and Pete are two redheaded brothers living in the somewhat surreal town of Wellsville. Pete, the older of the two, narrates the stories about their adventures in everyday life.",
+"The Adventures of Rocky and Bullwinkle and Friends": "Rocky, a plucky flying squirrel and Bullwinkle, a bumbling but lovable moose, have a series of ongoing adventures.",
 "The Adventures of Superman": "A much more lavish version of the popular Superman television series which had first aired forty years earlier, Lois & Clark focused more on the Man of Steel's early adult years in Metropolis. With the unknowing help of Lois Lane, Clark Kent created Superman there in Metropolis after finding work at the world-famous Daily Planet newspaper, where he meets fellow reporter Lois Lane.",
 "The Adventures of Tintin": "Travel with Tintin, the young and intrepid Belgian reporter, and his faithful dog Snowy as they take you from Tibet to the Moon, or from Egypt to the depths of the sea -- solving mysteries, pursuing truth and justice, and gambling with their lives.",
 "The Bob Newhart Show": "The Bob Newhart Show is an American situation comedy produced by MTM Enterprises, which aired 142 original episodes on CBS from September 16, 1972, to April 1, 1978. Comedian Bob Newhart portrays a psychologist having to deal with his patients and fellow office workers. The show was filmed before a live audience.",
@@ -2919,9 +3214,11 @@
 "Welcome Back Kotter": "Welcome Back, Kotter is an American television sitcom starring Gabe Kaplan and featuring a young John Travolta. Videotaped in front of a live studio audience, it originally aired on the ABC network from September 9, 1975, to June 8, 1979.",
 "What Would You Do": "An American television news magazine and hidden camera show. Actors act out scenes of conflict or illegal activity in public settings while hidden cameras videotape the scene, and the focus is on whether or not bystanders intervene, and how. Variations are also usually included, such as changing the genders, the races or the clothing of the actors performing the scene, to see if bystanders react differently. Quiñones appears at the end to interview the bystanders about their reactions. As the experiment goes on, psychology professors, teachers, or club members watch and discuss the video with Quiñones, explaining and making inferences on the bystanders' reactions.",
 "What Would You Do?": "An American television news magazine and hidden camera show. Actors act out scenes of conflict or illegal activity in public settings while hidden cameras videotape the scene, and the focus is on whether or not bystanders intervene, and how. Variations are also usually included, such as changing the genders, the races or the clothing of the actors performing the scene, to see if bystanders react differently. Quiñones appears at the end to interview the bystanders about their reactions. As the experiment goes on, psychology professors, teachers, or club members watch and discuss the video with Quiñones, explaining and making inferences on the bystanders' reactions.",
+"What Would You Do? (1991)": "What Would You Do? was a 30-minute television show hosted by Marc Summers shown on Nickelodeon from 1991 to 1993. Robin Marrella acted as the on-camera stagehand for the show's first season. Both Summers and Marrella performed their respective duties on Double Dare, also on Nickelodeon. The show was produced in Nickelodeon Studios at Universal Studios in Florida; some early segments were produced at Universal Studios in Hollywood.",
 "Wild and Crazy Kids": "'Wild & Crazy Kids' is a television game show in which teams, usually consisting of children, participated in head-to-head physical challenges.",
 "X-Men: The Animated Series": "The X-Men are an elite team of mutants, genetically gifted human beings with superpowers, sworn to fight for mutant rights against hostile Government agencies, whilst at the same time protecting mankind from mutant supremacist Magneto who seeks to destroy the human race in return for the atrocities committed against mutant kind.",
 "You Can't Do That on Television": "You Can't Do That on Television is a Canadian television program that first aired locally in 1979 before airing internationally in 1981. It featured pre-teen and teenaged actors in a sketch comedy format. Each episode had a theme. The show was notable for launching the careers of many performers, including Alanis Morissette, and writer Bill Prady, who would write and produce shows like The Big Bang Theory, Gilmore Girls and Dharma and Greg.\n\nThe show was produced by and aired on Ottawa's CTV station CJOH-TV. After production ended in 1990, the show continued in reruns on Nickelodeon through 1994, when it was replaced with the similar All That. The show is synonymous with Nick, and was at that time extremely popular, with the highest ratings overall on the channel. The show is also well known for introducing the network's iconic slime.\n\nThe program is the subject of the 2004 feature-length documentary, You Can't Do That on Film, directed by David Dillehunt.",
+"You Can't Do That on Television (1979)": "You Can't Do That on Television is a Canadian television program that first aired locally in 1979 before airing internationally in 1981. It featured pre-teen and teenaged actors in a sketch comedy format. Each episode had a theme. The show was notable for launching the careers of many performers, including Alanis Morissette, and writer Bill Prady, who would write and produce shows like The Big Bang Theory, Gilmore Girls and Dharma and Greg.\n\nThe show was produced by and aired on Ottawa's CTV station CJOH-TV. After production ended in 1990, the show continued in reruns on Nickelodeon through 1994, when it was replaced with the similar All That. The show is synonymous with Nick, and was at that time extremely popular, with the highest ratings overall on the channel. The show is also well known for introducing the network's iconic slime.\n\nThe program is the subject of the 2004 feature-length documentary, You Can't Do That on Film, directed by David Dillehunt.",
 "You're On!": "You're On! is an American television game show aired from 1998–1999 on Nickelodeon. The show took a premise similar to Candid Camera; however, to adopt the format better for a children's game show, You're On! featured youth contestants trying to convince a passersby to complete a series of predetermined tasks while unknowingly on camera.\n\nThe show was taped in Soundstage 18 of Nickelodeon Studios Florida and was hosted by Phil Moore. The remote hosts for You’re On! were Vivianne Collins and Travis White. These two would brief the kids on their tasks, congratulate them when all three tasks were completed, or let them know time was up.\n\nReruns of You’re On! have aired on Nickelodeon Games and Sports for Kids. It was dropped from the schedule on November 26, 2004.",
 "Yu Yu Hakusho": "After dying to save a boy, delinquent tough guy Yusuke Urameshi is granted another chance at life by redeeming himself as a \"Spirit Detective.\"",
 "Yu-Gi-Oh!": "When aspiring duelist Yuma meets Astral, a mysterious visitor from another universe, it seems like destiny. Yuma needs Astral to teach him how to duel, and Astral needs Yuma to help him regain his memories!",
@@ -2932,6 +3229,7 @@
 "12 oz mouse": 3043,
 "2 stupid dogs": 1916,
 "aaahh!!! real monsters": 2429,
+"adventures of superman": 12662,
 "alfred hitchcock presents": 2751,
 "all that": 3814,
 "allegra's window": 4567,
@@ -2974,6 +3272,7 @@
 "doug": 384,
 "dr. katz, professional therapist": 2513,
 "dragnet": 3716,
+"dragnet (1967)": 45194,
 "dragon ball": 12971,
 "dragon ball z": 12971,
 "dragon ball z abridged": null,
@@ -2988,27 +3287,33 @@
 "figure it out: wild style": null,
 "fireball xl5": 4378,
 "flipper": 2886,
+"flipper (1964)": 2886,
+"flipper (1995)": 6223,
 "flipper the new adventures": 6223,
 "flipper: the new adventures": 6223,
 "freakazoid": 4334,
 "fullmetal alchemist": 31911,
 "garfield and friends": 4606,
 "get smart": 4455,
+"get smart (1965)": 4455,
 "global guts": 286267,
 "green acres": 609,
 "grimm's fairy tale classics": 9892,
 "gullah gullah island": 3107,
+"gullah, gullah island": 3107,
 "gumby": 22888,
 "gundam 0080": 46512,
 "gundam 08th ms team": 43887,
 "gundam wing": 21730,
 "hey arnold!": 537,
+"hey dude": 2020,
 "hey dude!": 2020,
 "home movies": 2274,
 "i am weasel": 177,
 "i dream of jeannie": 1660,
 "i love lucy": 2730,
 "i spy": 4899,
+"i spy (1965)": 4899,
 "initial d": 40424,
 "initial d: first stage": 40424,
 "inspector gadget": 4035,
@@ -3038,6 +3343,7 @@
 "monster rancher": 15130,
 "mr. wizard's world": 24786,
 "muppet babies": 77410,
+"muppet babies (1984)": 565,
 "my brother and me": 70305,
 "my three sons": 1530,
 "mysterious cities of gold": 11285,
@@ -3092,6 +3398,7 @@
 "the adventures of tintin": 1570,
 "the bob newhart show": 1974,
 "the brady bunch": 2126,
+"the brak show": 481,
 "the busy world of richard scarry": 6460,
 "the dick van dyke show": 2132,
 "the incredible hulk (1996)": 6332,
@@ -3111,6 +3418,7 @@
 "the tick": 67487,
 "the tomorrow people": 48860,
 "the wild thornberrys": 2408,
+"the world of david the gnome": 2849,
 "thundercats": 1988,
 "tintin": 1570,
 "ufo": 2560,
@@ -3122,6 +3430,7 @@
 "wild and crazy kids": null,
 "x-men: the animated series": 4574,
 "you can't do that on television": 3607,
+"you can't do that on television (1979)": 3607,
 "you're on!": 10372,
 "yu yu hakusho": 30669,
 "yu-gi-oh!": 45854,
@@ -3136,6 +3445,7 @@
 "angry beavers": null,
 "animaniacs": null,
 "are you afraid of the dark": null,
+"are you afraid of the dark 1999": null,
 "batman the animated series": null,
 "brak show": null,
 "catdog": null,
@@ -3147,6 +3457,8 @@
 "fifteen hillside": null,
 "figure it out wild style": null,
 "flipper": null,
+"flipper 1964": null,
+"flipper 1995": null,
 "flipper the new adventures": null,
 "freakazoid": null,
 "fullmetal alchemist": null,
@@ -3159,6 +3471,7 @@
 "kenan kel": null,
 "little bear": null,
 "lupin the third part ii": null,
+"maya the bee 1975": null,
 "nadia the secret of blue water": null,
 "neon genesis evangelion": null,
 "nickelodeon guts": null,
@@ -3171,6 +3484,7 @@
 "sailor moon": null,
 "saint seiya": null,
 "spider man the animated series": null,
+"the adventures of rocky and bullwinkle and friends": null,
 "the adventures of superman": null,
 "the adventures of tintin": null,
 "the busy world of richard scarry": null,
@@ -5609,6 +5923,10 @@
 "n": "Fear the Arrival!! Salute, Ginyu Force!!",
 "o": "The newly formed team three-star race off to try to gather the dragon balls before the Ginyu Force can find them. Unfortunately, their gambit does not pay off and they are forced to fight The Ginyu's. Gohan and Krillin are faced with the formidable Guldo who psychic powers present a considerable threat can they take out this deadly foe?"
 },
+"258806|3|14": {
+"n": "The Gullah Gullah Games",
+"o": "Pro-basketball player, Dennis Scott, teaches James to play basketball and the importance of practice."
+},
 "258806|3|16": {
 "n": "Away All Boats",
 "o": "Mia and the kids help build a paper boat."
@@ -5624,6 +5942,10 @@
 "267996|2|34": {
 "n": "Getting Played",
 "o": "Yugi keeps having reoccurring nightmare of being attacked by a shadowy being with many arms. When Yugi wakes up and heads off to school, he wonders where his Grandpa could be as he had gone on a secret expedition a week earlier and had not returned yet.\r\nJoey ends up winning a trip to India and invites Yugi, Téa and Tristan to come along. On their way to India, their plane crashes and they decide to look around the area while the pilots wait for help to arrive. They come across Dr. Alex Brisbane, a colleague of Yugi’s grandfather, Solomon Motto. He tells the gang that Solomon has disappeared and shows them a giant pyramid that they had been exploring together. Dr. Brisbane leads the gang to a giant map where Joey steps on it and disappears. Yugi, Téa, and Tristan go after Joey and find themselves transported into another world with devices on their arms and belts around their wastes. All of a sudden, Yugi, Téa, and Tristan are ambushed by Gokibore and a Kamakiriman and become separated in the frenzy. After gaining Celtic Guardian and using him to defeat Kamakiriman, Yugi realizes that somehow they have been transported into the world of Capsule Monsters."
+},
+"70625|1|28": {
+"n": "Garrett - Craig - Kath",
+"o": ""
 },
 "70625|1|38": {
 "n": "Rebecca - Cam - Oliver",
@@ -14937,6 +15259,528 @@
 1
 ]
 },
+"266275": {
+"a flower to share": [
+3,
+15
+],
+"a friend for the oak": [
+3,
+21
+],
+"a strike in the hive": [
+4,
+23
+],
+"a surprise for maya": [
+3,
+26
+],
+"a very peculiar mother": [
+4,
+12
+],
+"alarm": [
+2,
+22
+],
+"ants see red": [
+4,
+8
+],
+"bad company": [
+4,
+18
+],
+"ballie wallie mystery": [
+4,
+33
+],
+"barry s glasses": [
+2,
+21
+],
+"bee clean": [
+1,
+21
+],
+"bee day": [
+3,
+1
+],
+"beware of the bear": [
+1,
+14
+],
+"big ball": [
+4,
+26
+],
+"bless you miss cassandra": [
+3,
+6
+],
+"blue tit": [
+4,
+22
+],
+"butterfly effects": [
+4,
+37
+],
+"cake for the queen": [
+1,
+26
+],
+"cool in the cooler": [
+4,
+47
+],
+"crack": [
+1,
+8
+],
+"dancing with bees": [
+1,
+18
+],
+"did i say that": [
+3,
+23
+],
+"doc slick": [
+3,
+25
+],
+"dragonfly express": [
+2,
+26
+],
+"draw me a beeswax": [
+4,
+39
+],
+"dung ball drama": [
+4,
+45
+],
+"edgar the fearless": [
+2,
+14
+],
+"fab four": [
+4,
+25
+],
+"field trip": [
+4,
+4
+],
+"flip has got the blues": [
+4,
+6
+],
+"flip save the queen": [
+4,
+32
+],
+"flying license": [
+1,
+22
+],
+"follow that egg": [
+3,
+4
+],
+"for the love of max": [
+4,
+36
+],
+"forbidden fruit": [
+2,
+16
+],
+"greedy frogs": [
+3,
+16
+],
+"harmony in the meadow": [
+2,
+23
+],
+"henry s cabin": [
+3,
+10
+],
+"hive certificate": [
+4,
+27
+],
+"hive jive": [
+2,
+5
+],
+"honeymunch": [
+4,
+14
+],
+"hoverfly spy": [
+2,
+1
+],
+"in search of the lost dung": [
+2,
+15
+],
+"in the ranks": [
+4,
+16
+],
+"jealousy": [
+4,
+17
+],
+"judge beeswax": [
+1,
+7
+],
+"keep ball rolling": [
+1,
+6
+],
+"king willy": [
+2,
+9
+],
+"lara s secret love": [
+4,
+40
+],
+"little treasure": [
+4,
+49
+],
+"long live freedom": [
+4,
+15
+],
+"lovestruck": [
+4,
+19
+],
+"max has a crush": [
+2,
+2
+],
+"maya commander in chief": [
+2,
+24
+],
+"maya don t go": [
+4,
+52
+],
+"maya s garden": [
+2,
+19
+],
+"maya the first": [
+4,
+21
+],
+"maya to the rescue": [
+1,
+10
+],
+"misleading appearances": [
+1,
+15
+],
+"molly the miner": [
+2,
+20
+],
+"mother courage": [
+1,
+25
+],
+"mrs hermit beetle s journey": [
+1,
+23
+],
+"night blooms": [
+1,
+4
+],
+"night flight": [
+3,
+8
+],
+"night of the giants": [
+2,
+18
+],
+"no friends for dino": [
+1,
+24
+],
+"no harmony for beeswax": [
+4,
+24
+],
+"no sleep for maya": [
+1,
+11
+],
+"on top form": [
+4,
+34
+],
+"on with the show": [
+3,
+7
+],
+"once upon a slime": [
+3,
+17
+],
+"philibert": [
+1,
+17
+],
+"phobia": [
+4,
+51
+],
+"powder power": [
+1,
+9
+],
+"private property": [
+4,
+41
+],
+"queen for a day": [
+3,
+9
+],
+"queen of the solar eclipse": [
+2,
+17
+],
+"question of confidence": [
+4,
+31
+],
+"rainbow pollen": [
+3,
+3
+],
+"remind me to eat you": [
+4,
+29
+],
+"ring a ring a caterpillar": [
+2,
+6
+],
+"roll on the holidays": [
+4,
+1
+],
+"rosita": [
+4,
+9
+],
+"royal outing": [
+1,
+12
+],
+"second class": [
+4,
+48
+],
+"shadow of a doubt": [
+4,
+13
+],
+"shadow play": [
+2,
+4
+],
+"shelby s dream": [
+2,
+12
+],
+"sister knows best": [
+4,
+30
+],
+"sleeping beauty": [
+1,
+16
+],
+"sleepless max": [
+2,
+8
+],
+"stinger stung": [
+4,
+20
+],
+"sulky willy": [
+2,
+25
+],
+"take off 2": [
+1,
+2
+],
+"thank you wasps": [
+3,
+13
+],
+"the big bad earwig": [
+3,
+19
+],
+"the big eat": [
+3,
+18
+],
+"the birth of maya 1": [
+1,
+1
+],
+"the exile": [
+4,
+3
+],
+"the fortune teller": [
+4,
+43
+],
+"the gift from above": [
+3,
+24
+],
+"the great pollen robbery": [
+2,
+11
+],
+"the haunted hive": [
+3,
+12
+],
+"the killer buzz": [
+4,
+42
+],
+"the meadow friends": [
+4,
+7
+],
+"the new shelby": [
+3,
+5
+],
+"the orchirosa": [
+4,
+5
+],
+"the outsider": [
+3,
+14
+],
+"the plot": [
+4,
+46
+],
+"the queen s messenger": [
+1,
+3
+],
+"the queen s scepter": [
+2,
+13
+],
+"the runaway bee": [
+3,
+22
+],
+"the stranger": [
+1,
+13
+],
+"the wild bunch": [
+1,
+20
+],
+"thekla is in a state": [
+2,
+10
+],
+"theo": [
+4,
+10
+],
+"to xi kant": [
+4,
+35
+],
+"treasure for the ants": [
+4,
+11
+],
+"triple trouble": [
+4,
+50
+],
+"vote for me": [
+4,
+28
+],
+"weather on demand": [
+2,
+3
+],
+"what a nice wasp": [
+2,
+7
+],
+"willy guards the hive": [
+3,
+20
+],
+"willy in the soup": [
+4,
+44
+],
+"willy loses his memory": [
+3,
+2
+],
+"willy moves out": [
+1,
+19
+],
+"willy s bottle": [
+1,
+5
+],
+"willy s misfortune": [
+4,
+38
+],
+"wings of a champion": [
+3,
+11
+],
+"yes sir": [
+4,
+2
+]
+},
 "267996": {
 "divide and conquer": [
 1,
@@ -22572,6 +23416,112 @@
 "yochim s christmas": [
 8,
 15
+]
+},
+"70815": {
+"airlift": [
+1,
+21
+],
+"any milk today": [
+1,
+18
+],
+"big bad tom": [
+1,
+22
+],
+"david to the rescue": [
+1,
+3
+],
+"foxy dilemma": [
+1,
+14
+],
+"friends in trouble": [
+1,
+20
+],
+"ghost of black lake": [
+1,
+8
+],
+"good medicine": [
+1,
+1
+],
+"happy birthday to you": [
+1,
+12
+],
+"ivan the terrible": [
+1,
+16
+],
+"kangaroo adventure": [
+1,
+23
+],
+"kingdom of the elves": [
+1,
+9
+],
+"little houses for little people": [
+1,
+5
+],
+"rabbits rabbits everywhere": [
+1,
+17
+],
+"the baby troll": [
+1,
+4
+],
+"the careless cub": [
+1,
+24
+],
+"the gift": [
+1,
+25
+],
+"the magic knife": [
+1,
+11
+],
+"the mountains of beyond": [
+1,
+26
+],
+"the shadowless stone": [
+1,
+19
+],
+"the siberian bear": [
+1,
+13
+],
+"the wedding that almost wasn t": [
+1,
+6
+],
+"three wishes": [
+1,
+15
+],
+"to grandfather s house we go": [
+1,
+7
+],
+"witch way out": [
+1,
+2
+],
+"young dr gnome": [
+1,
+10
 ]
 },
 "70818": {
@@ -63213,6 +64163,7 @@
 "animaniacs": "72879",
 "animorphs": "75495",
 "are you afraid of the dark?": null,
+"are you afraid of the dark? (1999)": null,
 "batman: the animated series": "76168",
 "bewitched": "71528",
 "brak show": "77118",
@@ -63244,6 +64195,8 @@
 "figure it out: wild style": "75612",
 "fireball xl5": "70828",
 "flipper": "70417",
+"flipper (1964)": "70417",
+"flipper (1995)": "70417",
 "flipper: the new adventures": "75481",
 "freakazoid": "72875",
 "fullmetal alchemist": "85249",
@@ -63254,6 +64207,7 @@
 "goku midnight eye p2": null,
 "green acres": "78101",
 "gullah gullah island": "258806",
+"gullah, gullah island": "258806",
 "gumby": "76218",
 "gundam wing": "378245",
 "home movies": "75318",
@@ -63277,6 +64231,7 @@
 "lupin the third": "257875",
 "lupin the third: part ii": "71863",
 "make the grade": "389094",
+"maya the bee (1975)": "266275",
 "mega man": "76696",
 "mister ed": "78045",
 "mst3k - s09e07 - hobgoblins": null,
@@ -63321,6 +64276,7 @@
 "superman: the animated series": "71788",
 "taxi": "262666",
 "the adventures of pete & pete": "74670",
+"the adventures of rocky and bullwinkle and friends": "76705",
 "the adventures of superman": "71451",
 "the adventures of tintin": "72668",
 "the bob newhart show": "78089",
@@ -63339,6 +64295,7 @@
 "the rocky and bullwinkle show": "76705",
 "the secret world of alex mack": "75497",
 "the tick": "317654",
+"the world of david the gnome": "70815",
 "tintin": "72668",
 "ufo": "75133",
 "weinerville": "71856",
@@ -63535,6 +64492,10 @@
 "o": ""
 },
 "6329|1|6": {
+"n": "",
+"o": ""
+},
+"6332|3|14": {
 "n": "",
 "o": ""
 },
@@ -69490,6 +70451,424 @@
 "where s the bone": [
 1,
 2
+]
+},
+"1306": {
+"a ghost for scotland yard": [
+2,
+8
+],
+"all that glitters": [
+6,
+13
+],
+"around the world with superman": [
+2,
+26
+],
+"beware the wrecker": [
+2,
+20
+],
+"blackmail": [
+4,
+10
+],
+"clark kent outlaw": [
+3,
+8
+],
+"close shave": [
+5,
+8
+],
+"crime wave": [
+1,
+24
+],
+"czar of the underworld": [
+1,
+22
+],
+"dagger island": [
+4,
+9
+],
+"disappearing lois": [
+5,
+6
+],
+"divide and conquer": [
+6,
+3
+],
+"double trouble": [
+1,
+16
+],
+"drums of death": [
+1,
+18
+],
+"five minutes to doom": [
+2,
+1
+],
+"flight to the north": [
+3,
+11
+],
+"great caesar s ghost": [
+3,
+5
+],
+"jet ace": [
+2,
+4
+],
+"jimmy olsen boy editor": [
+2,
+22
+],
+"jimmy the kid": [
+4,
+6
+],
+"joey": [
+4,
+1
+],
+"jungle devil": [
+2,
+14
+],
+"king for a day": [
+3,
+13
+],
+"lady in black": [
+2,
+23
+],
+"money to burn": [
+5,
+7
+],
+"mr zero": [
+5,
+12
+],
+"my friend superman": [
+2,
+15
+],
+"mystery in wax": [
+1,
+14
+],
+"mystery of the broken statues": [
+1,
+4
+],
+"night of terror": [
+1,
+6
+],
+"no holds barred": [
+1,
+11
+],
+"olsen s millions": [
+3,
+7
+],
+"panic in the sky": [
+2,
+12
+],
+"peril by sea": [
+4,
+4
+],
+"peril in paris": [
+5,
+1
+],
+"perry white s scoop": [
+2,
+19
+],
+"rescue": [
+1,
+9
+],
+"riddle of the chinese jade": [
+1,
+20
+],
+"semi private eye": [
+2,
+18
+],
+"shot in the dark": [
+2,
+5
+],
+"star of fate": [
+2,
+24
+],
+"superman in exile": [
+2,
+7
+],
+"superman on earth": [
+1,
+1
+],
+"superman s wife": [
+6,
+9
+],
+"superman week": [
+3,
+4
+],
+"test of a warrior": [
+3,
+6
+],
+"the atomic captive": [
+6,
+5
+],
+"the big forget": [
+6,
+7
+],
+"the big freeze": [
+4,
+3
+],
+"the big squeeze": [
+2,
+2
+],
+"the birthday letter": [
+1,
+7
+],
+"the boy who hated superman": [
+2,
+17
+],
+"the brainy burro": [
+6,
+11
+],
+"the bully of dry gulch": [
+3,
+10
+],
+"the case of the talkative dummy": [
+1,
+3
+],
+"the clown who cried": [
+2,
+16
+],
+"the deadly rock": [
+4,
+11
+],
+"the defeat of superman": [
+2,
+6
+],
+"the deserted village": [
+1,
+12
+],
+"the dog who knew superman": [
+2,
+9
+],
+"the evil three": [
+1,
+19
+],
+"the face and the voice": [
+2,
+10
+],
+"the gentle monster": [
+6,
+8
+],
+"the ghost wolf": [
+1,
+23
+],
+"the girl who hired superman": [
+4,
+7
+],
+"the golden vulture": [
+2,
+21
+],
+"the haunted lighthouse": [
+1,
+2
+],
+"the human bomb": [
+1,
+21
+],
+"the jolly roger": [
+4,
+13
+],
+"the last knight": [
+6,
+1
+],
+"the lucky cat": [
+3,
+3
+],
+"the machine that could plot crimes": [
+2,
+13
+],
+"the magic necklace": [
+3,
+9
+],
+"the magic secret": [
+6,
+2
+],
+"the man in the lead mask": [
+2,
+11
+],
+"the man who could read minds": [
+2,
+3
+],
+"the man who made dreams come true": [
+5,
+5
+],
+"the mind machine": [
+1,
+8
+],
+"the monkey mystery": [
+1,
+5
+],
+"the mysterious cube": [
+6,
+4
+],
+"the perils of superman": [
+6,
+12
+],
+"the phantom ring": [
+4,
+12
+],
+"the phony alibi": [
+5,
+9
+],
+"the prince albert coat": [
+5,
+10
+],
+"the runaway robot": [
+1,
+17
+],
+"the secret of superman": [
+1,
+10
+],
+"the seven souvenirs": [
+3,
+12
+],
+"the stolen costume": [
+1,
+13
+],
+"the stolen elephant": [
+5,
+11
+],
+"the superman silver mine": [
+6,
+6
+],
+"the talking clue": [
+3,
+2
+],
+"the tomb of zaharan": [
+5,
+4
+],
+"the town that wasn t": [
+5,
+3
+],
+"the unknown people part i": [
+1,
+25
+],
+"the unknown people part ii": [
+1,
+26
+],
+"the unlucky number": [
+4,
+2
+],
+"the wedding of superman": [
+4,
+8
+],
+"the whistling bird": [
+2,
+25
+],
+"three in one": [
+6,
+10
+],
+"through the time barrier": [
+3,
+1
+],
+"tin hero": [
+5,
+2
+],
+"topsy turvy": [
+4,
+5
+],
+"treasure of the incas": [
+1,
+15
+],
+"whatever goes up": [
+5,
+13
 ]
 },
 "14116": {
@@ -78068,6 +79447,112 @@
 "world s finest part iii": [
 2,
 18
+]
+},
+"19777": {
+"construyendo el hogar": [
+1,
+5
+],
+"david el gnomo": [
+1,
+1
+],
+"el beb troll": [
+1,
+4
+],
+"el bistur m gico": [
+1,
+11
+],
+"el estanque del bosque": [
+1,
+9
+],
+"el lago negro": [
+1,
+8
+],
+"el le ador": [
+1,
+15
+],
+"el lobo envenenado": [
+1,
+24
+],
+"el oficio de curar": [
+1,
+10
+],
+"el oso atrapado": [
+1,
+13
+],
+"el rescate de las liebres": [
+1,
+17
+],
+"el salvamento de los murci lagos": [
+1,
+21
+],
+"el tobillo roto": [
+1,
+18
+],
+"el viejo jard n": [
+1,
+12
+],
+"el viejo m dico": [
+1,
+25
+],
+"fiesta en el molino": [
+1,
+22
+],
+"la boda": [
+1,
+6
+],
+"la monta a del m s all": [
+1,
+26
+],
+"la ni a italiana": [
+1,
+3
+],
+"la peque a bruja": [
+1,
+2
+],
+"la piedra sin sombra": [
+1,
+19
+],
+"los papamoscas": [
+1,
+20
+],
+"un d a en el hogar": [
+1,
+7
+],
+"un paseo accidentado": [
+1,
+14
+],
+"una lecci n al gnomo kostia": [
+1,
+16
+],
+"viaje a australia": [
+1,
+23
 ]
 },
 "2000": {
@@ -88374,6 +89859,400 @@
 4
 ]
 },
+"29971": {
+"a plain adventure": [
+1,
+14
+],
+"a rainy day": [
+2,
+21
+],
+"a windy adventure": [
+2,
+20
+],
+"alf the elf": [
+1,
+20
+],
+"an accident at a picnic": [
+2,
+28
+],
+"an ant for a day": [
+1,
+9
+],
+"baby cricket s first symphony": [
+1,
+8
+],
+"big fight in the air": [
+2,
+16
+],
+"bon voyage": [
+2,
+45
+],
+"brother melvin": [
+2,
+17
+],
+"captured": [
+1,
+37
+],
+"centipede": [
+1,
+12
+],
+"city slickers": [
+1,
+49
+],
+"doctor snail": [
+2,
+14
+],
+"eggs eggs everywhere a problem with eggs": [
+1,
+16
+],
+"emmet goes on a diet": [
+1,
+22
+],
+"fantasy in the sky": [
+2,
+47
+],
+"fleas in the field": [
+1,
+47
+],
+"flip n flap": [
+1,
+27
+],
+"flip s greedy relative": [
+1,
+40
+],
+"from the meadow with love": [
+2,
+48
+],
+"general blusterby": [
+1,
+25
+],
+"good manners bad manners": [
+2,
+41
+],
+"grandma locust": [
+1,
+7
+],
+"grimelda s web": [
+1,
+5
+],
+"gus and emma": [
+1,
+42
+],
+"home sweet home": [
+1,
+51
+],
+"hoodlums of the meadow": [
+2,
+40
+],
+"hooray for soccer": [
+2,
+19
+],
+"how crickets were freed": [
+1,
+18
+],
+"jack the moth": [
+1,
+33
+],
+"jacob s paradise": [
+2,
+51
+],
+"kidnapping in the mist": [
+2,
+43
+],
+"lovely lovely ice": [
+2,
+50
+],
+"lucky beetle": [
+2,
+23
+],
+"marvin the mole": [
+2,
+36
+],
+"max the earthworm": [
+1,
+2
+],
+"maya and kurt s rescue": [
+1,
+31
+],
+"maya and the ants": [
+1,
+1
+],
+"maya and the firefly": [
+1,
+17
+],
+"maya and the frog": [
+1,
+3
+],
+"maya comes home": [
+1,
+24
+],
+"maya meets alexander the great": [
+2,
+1
+],
+"maya survives winter": [
+1,
+29
+],
+"maya the giantess": [
+1,
+41
+],
+"maya to the rescue": [
+1,
+28
+],
+"mouse in the bottle": [
+1,
+48
+],
+"mr know it all": [
+2,
+35
+],
+"no more water in the field": [
+2,
+39
+],
+"on the run": [
+1,
+26
+],
+"panic in the meadow": [
+1,
+45
+],
+"princess beatrice": [
+2,
+34
+],
+"professor alexander": [
+2,
+32
+],
+"queen maya": [
+2,
+9
+],
+"sailing the high seas": [
+1,
+36
+],
+"something s burning": [
+1,
+6
+],
+"spring is here": [
+1,
+30
+],
+"that s what friends are for": [
+1,
+21
+],
+"the alexandrophone": [
+2,
+30
+],
+"the ant hill": [
+1,
+10
+],
+"the army ants are coming": [
+2,
+18
+],
+"the baby bird": [
+1,
+46
+],
+"the beauty contest": [
+1,
+39
+],
+"the caterpiller finds a home": [
+1,
+32
+],
+"the flower festival": [
+2,
+52
+],
+"the flying mouse": [
+2,
+15
+],
+"the great flying contest": [
+2,
+22
+],
+"the great grass skiing competition": [
+2,
+44
+],
+"the guest from outer space": [
+2,
+13
+],
+"the guest from outerspace": [
+1,
+52
+],
+"the house visit": [
+1,
+4
+],
+"the invisible insect": [
+1,
+19
+],
+"the jumping contest": [
+1,
+11
+],
+"the little green creatures": [
+2,
+24
+],
+"the littliest hero": [
+1,
+13
+],
+"the marathon": [
+2,
+7
+],
+"the mouse in the bottle": [
+2,
+10
+],
+"the mysterious cheese thief": [
+1,
+44
+],
+"the outdoor concert": [
+2,
+3
+],
+"the parasite fly": [
+1,
+34
+],
+"the queens visit": [
+2,
+42
+],
+"the reluctant musician": [
+1,
+38
+],
+"the runaway ant": [
+1,
+23
+],
+"the show off cockroach": [
+1,
+35
+],
+"the tarantula": [
+2,
+38
+],
+"the uninvited guest": [
+2,
+26
+],
+"the weight lifting competition": [
+1,
+43
+],
+"the wrong bridgeroom": [
+2,
+37
+],
+"ugly emil": [
+2,
+25
+],
+"uninvited guest": [
+1,
+15
+],
+"where can flip and willie be": [
+2,
+31
+],
+"who am i": [
+2,
+27
+],
+"willi stands guard": [
+1,
+50
+],
+"willie in a pinch": [
+2,
+33
+],
+"willie in captivity": [
+2,
+29
+],
+"willie s gigantic statue": [
+2,
+46
+],
+"willie stands guard": [
+2,
+12
+],
+"you need to exercise": [
+2,
+49
+]
+},
 "32066": {
 "adam baruc yelena": [
 1,
@@ -97822,6 +99701,560 @@
 25
 ]
 },
+"4340": {
+"99 loses control": [
+3,
+19
+],
+"a man called smart 1": [
+2,
+28
+],
+"a man called smart 2": [
+2,
+29
+],
+"a man called smart 3": [
+2,
+30
+],
+"a spy for a spy": [
+2,
+3
+],
+"a tale of two tails": [
+4,
+7
+],
+"aboard the orient express": [
+1,
+13
+],
+"absorb the greek": [
+4,
+19
+],
+"age before duty": [
+5,
+11
+],
+"all in the mind": [
+1,
+20
+],
+"anatomy of a lover": [
+2,
+1
+],
+"and baby makes four 1": [
+5,
+7
+],
+"and baby makes four 2": [
+5,
+8
+],
+"and only two ninety nine": [
+5,
+21
+],
+"appointment in sahara": [
+2,
+26
+],
+"back to the old drawing board": [
+1,
+19
+],
+"bronzefinger": [
+2,
+12
+],
+"casablanca": [
+2,
+6
+],
+"classification dead": [
+3,
+12
+],
+"closely watched planes": [
+4,
+3
+],
+"cutback at control": [
+2,
+18
+],
+"dear diary": [
+1,
+21
+],
+"diamonds are a spy s best friend": [
+4,
+5
+],
+"die spy": [
+3,
+25
+],
+"diplomat s daughter": [
+1,
+2
+],
+"do i hear a vaults": [
+5,
+25
+],
+"don t look back": [
+3,
+18
+],
+"double agent": [
+1,
+16
+],
+"dr yes": [
+3,
+9
+],
+"greer window": [
+4,
+24
+],
+"hello columbus goodbye america": [
+5,
+24
+],
+"hoo done it": [
+2,
+8
+],
+"house of max 1": [
+5,
+15
+],
+"house of max 2": [
+5,
+16
+],
+"how green was my valet": [
+5,
+20
+],
+"how to succeed in the spy business without really trying": [
+2,
+25
+],
+"hubert s unfinished symphony": [
+1,
+26
+],
+"hurray for hollywood": [
+4,
+15
+],
+"i am curiously yellow": [
+5,
+26
+],
+"i m only human": [
+1,
+23
+],
+"i shot 86 today": [
+4,
+18
+],
+"ice station siegfried": [
+5,
+13
+],
+"ironhand": [
+5,
+2
+],
+"is this trip necessary": [
+5,
+12
+],
+"island of the darned": [
+2,
+11
+],
+"it takes one to know one": [
+2,
+16
+],
+"kaos in control": [
+1,
+7
+],
+"kiss of death": [
+2,
+15
+],
+"kisses for kaos": [
+1,
+17
+],
+"leadside": [
+4,
+23
+],
+"maxwell smart alias jimmy ballantine": [
+2,
+5
+],
+"maxwell smart private eye": [
+3,
+5
+],
+"moonlighting becomes you": [
+5,
+14
+],
+"mr big": [
+1,
+1
+],
+"my nephew the spy": [
+1,
+12
+],
+"now you see him now you don t": [
+1,
+5
+],
+"one nation invisible": [
+4,
+14
+],
+"one of our olives is missing": [
+3,
+7
+],
+"operation ridiculous": [
+3,
+21
+],
+"our man in leotards": [
+1,
+10
+],
+"our man in toyland": [
+1,
+4
+],
+"perils in a pet shop": [
+2,
+13
+],
+"pheasant under glass": [
+5,
+1
+],
+"physician impossible": [
+5,
+9
+],
+"pussycats galore": [
+2,
+27
+],
+"rebecca of funny folk farm": [
+5,
+17
+],
+"rub a dub dub three spies in a sub": [
+2,
+9
+],
+"run robot run": [
+3,
+23
+],
+"satan place": [
+1,
+9
+],
+"school days": [
+1,
+3
+],
+"schwartz s island": [
+4,
+13
+],
+"ship of spies 1": [
+1,
+27
+],
+"ship of spies 2": [
+1,
+28
+],
+"shipment to beirut": [
+1,
+29
+],
+"shock it to me": [
+4,
+22
+],
+"smart fell on alabama": [
+5,
+6
+],
+"smart fit the battle of jericho": [
+2,
+22
+],
+"smart the assassin": [
+1,
+22
+],
+"smartacus": [
+5,
+22
+],
+"snoopy smart vs the red baron": [
+4,
+2
+],
+"someone down here hates me": [
+2,
+17
+],
+"spy spy birdie": [
+3,
+22
+],
+"stakeout on blue mist mountain": [
+1,
+24
+],
+"strike while the agent is hot": [
+2,
+2
+],
+"supersonic boom": [
+3,
+6
+],
+"survival of the fattest": [
+1,
+15
+],
+"temporarily out of control": [
+4,
+12
+],
+"tequila mockingbird": [
+4,
+17
+],
+"that old gang of mine": [
+3,
+10
+],
+"the amazing harry hoo": [
+1,
+25
+],
+"the apes of rath": [
+5,
+10
+],
+"the day smart turned chicken": [
+1,
+8
+],
+"the day they raided the knights": [
+4,
+16
+],
+"the dead spy scrawls": [
+1,
+18
+],
+"the decoy": [
+2,
+7
+],
+"the expendable agent": [
+2,
+24
+],
+"the farkas fracas": [
+4,
+11
+],
+"the girls from kaos": [
+2,
+21
+],
+"the greatest spy on earth": [
+2,
+10
+],
+"the groovy guru": [
+3,
+15
+],
+"the hot line": [
+3,
+24
+],
+"the impossible mission": [
+4,
+1
+],
+"the king lives": [
+3,
+14
+],
+"the laser blazer": [
+4,
+10
+],
+"the last one in is a rotten spy": [
+1,
+30
+],
+"the little black book 1": [
+3,
+16
+],
+"the little black book 2": [
+3,
+17
+],
+"the man from yenta": [
+2,
+19
+],
+"the mess of adrian listenger": [
+5,
+18
+],
+"the mild ones": [
+3,
+11
+],
+"the mummy": [
+2,
+20
+],
+"the mysterious dr t": [
+3,
+13
+],
+"the not so great escape 1": [
+4,
+25
+],
+"the not so great escape 2": [
+4,
+26
+],
+"the only way to die": [
+2,
+4
+],
+"the reluctant redhead": [
+3,
+26
+],
+"the return of the ancient mariner": [
+4,
+8
+],
+"the secret of sam vittorio": [
+4,
+4
+],
+"the spirit is willing": [
+3,
+4
+],
+"the spy who met himself": [
+3,
+1
+],
+"the treasure of c errol madre": [
+5,
+5
+],
+"the wax max": [
+3,
+20
+],
+"the whole tooth and": [
+2,
+14
+],
+"the worst best man": [
+4,
+6
+],
+"to sire with love 1": [
+4,
+20
+],
+"to sire with love 2": [
+4,
+21
+],
+"too many chiefs": [
+1,
+11
+],
+"valerie of the dolls": [
+5,
+3
+],
+"viva smart": [
+3,
+2
+],
+"washington 4 indians 3": [
+1,
+6
+],
+"weekend vampire": [
+1,
+14
+],
+"what s it all about algie": [
+5,
+23
+],
+"when good fellows get together": [
+3,
+8
+],
+"where what how who am i": [
+2,
+23
+],
+"widow often annie": [
+5,
+4
+],
+"with love and twitches": [
+4,
+9
+],
+"witness for the execution": [
+5,
+19
+],
+"witness for the persecution": [
+3,
+3
+]
+},
 "43830": {
 "part one submitted for approval": [
 1,
@@ -106120,6 +108553,440 @@
 "women must be strong and beautiful rei s new special technique": [
 2,
 17
+]
+},
+"5490": {
+"a punch line to the tummy": [
+6,
+18
+],
+"adventures in muppet sitting": [
+4,
+15
+],
+"and now a word from our muppets": [
+6,
+2
+],
+"around the nursery in 80 days": [
+3,
+11
+],
+"at the movies": [
+7,
+7
+],
+"babes in troyland": [
+6,
+15
+],
+"back to the nursery": [
+3,
+16
+],
+"bad luck bear": [
+3,
+14
+],
+"beach blanket babies": [
+4,
+13
+],
+"bearly alone babies": [
+7,
+11
+],
+"beauty and the schnoz": [
+5,
+2
+],
+"buckskin babies": [
+7,
+2
+],
+"bug busting babies": [
+5,
+13
+],
+"by the book": [
+2,
+12
+],
+"close encounters of the frog kind": [
+1,
+9
+],
+"comic capers": [
+6,
+6
+],
+"dental hyjinks": [
+1,
+3
+],
+"eight flags over the nursery": [
+7,
+16
+],
+"eight take away one equals panic": [
+1,
+7
+],
+"elm street babies": [
+5,
+9
+],
+"faster than a speeding weirdo": [
+6,
+7
+],
+"fine feathered enemies": [
+3,
+12
+],
+"fozzie s family tree": [
+3,
+7
+],
+"fozzie s last laugh": [
+2,
+3
+],
+"from a galaxy far far away": [
+1,
+12
+],
+"fun park fantasies": [
+1,
+11
+],
+"get me to the perch on time": [
+7,
+10
+],
+"gonzee s playhouse channel": [
+7,
+4
+],
+"gonzo s video show": [
+1,
+10
+],
+"good clean fun": [
+1,
+13
+],
+"goosetown babies": [
+6,
+11
+],
+"happy birthday uncle piggy": [
+7,
+14
+],
+"hats hats hats": [
+7,
+15
+],
+"he s a wonderful frog": [
+5,
+8
+],
+"i want my muppet tv": [
+2,
+7
+],
+"in search of the bronzed beetle": [
+7,
+8
+],
+"invasion of the muppet snackers": [
+4,
+8
+],
+"is there a muppet in the house": [
+5,
+4
+],
+"it s only pretendo": [
+6,
+12
+],
+"journey to the center of the nursery": [
+4,
+5
+],
+"junkyard muppets": [
+5,
+11
+],
+"kermit goes to washington": [
+3,
+6
+],
+"kermit pan": [
+7,
+5
+],
+"masquerading muppets": [
+4,
+17
+],
+"meet the muppet babies volume 1": [
+7,
+18
+],
+"muppet babies the next generation": [
+7,
+1
+],
+"muppet baby boom": [
+5,
+6
+],
+"muppet goose": [
+3,
+13
+],
+"muppet island": [
+4,
+11
+],
+"muppetland": [
+4,
+1
+],
+"muppets in toyland": [
+3,
+4
+],
+"muppets not included": [
+5,
+1
+],
+"musical muppets": [
+2,
+8
+],
+"my muppet valentine": [
+4,
+7
+],
+"nanny s day off": [
+4,
+18
+],
+"nice to have gnome you": [
+7,
+13
+],
+"noisy neighbors": [
+1,
+1
+],
+"not necessarily the babies": [
+6,
+5
+],
+"of mice and muppets": [
+3,
+15
+],
+"old mackermit had a farm": [
+4,
+14
+],
+"once upon an egg timer": [
+2,
+1
+],
+"operators are standing by": [
+6,
+14
+],
+"out of this world history": [
+2,
+5
+],
+"pigerella": [
+3,
+1
+],
+"piggy s hyper activity book": [
+2,
+2
+],
+"plan 8 from outer space": [
+5,
+10
+],
+"puss n boots n babies": [
+6,
+16
+],
+"quoth the weirdo": [
+6,
+13
+],
+"raiders of the lost muppet": [
+1,
+4
+],
+"remote control cornballs": [
+7,
+12
+],
+"romancing the weirdo": [
+6,
+9
+],
+"scooter by any other name": [
+5,
+7
+],
+"scooter s hidden talent": [
+1,
+5
+],
+"scooter s uncommon cold": [
+3,
+9
+],
+"sing a song of superheroes": [
+7,
+3
+],
+"six to eight weeks": [
+6,
+3
+],
+"skeeter and the wolf": [
+6,
+8
+],
+"slipping beauty": [
+5,
+5
+],
+"snow white and the seven muppets": [
+2,
+6
+],
+"the air conditioner at the end of the galaxy": [
+5,
+12
+],
+"the best friend i never had": [
+3,
+2
+],
+"the case of the missing chicken": [
+1,
+6
+],
+"the daily muppet": [
+3,
+8
+],
+"the frog who knew too much": [
+4,
+12
+],
+"the great cookie robbery": [
+2,
+4
+],
+"the great muppet cartoon show": [
+2,
+10
+],
+"the green ranger": [
+6,
+4
+],
+"the house that muppets built": [
+4,
+16
+],
+"the incredible shrinking weirdo": [
+4,
+3
+],
+"the muppet broadcasting company": [
+3,
+5
+],
+"the muppet museum of art": [
+2,
+11
+],
+"the muppet of invention": [
+6,
+17
+],
+"the new adventures of kermo polo": [
+6,
+10
+],
+"the pig who would be queen": [
+5,
+3
+],
+"the transcontinental whoo whoo": [
+7,
+9
+],
+"the weirdo zone": [
+3,
+3
+],
+"this little piggy went to hollywood": [
+4,
+6
+],
+"this old nursery": [
+6,
+1
+],
+"treasure attic": [
+3,
+10
+],
+"twinkle toe muppets": [
+4,
+9
+],
+"water babies": [
+4,
+2
+],
+"weirdo for the prosecution": [
+4,
+10
+],
+"what do you want to be when you grow up": [
+1,
+8
+],
+"when you wish upon a muppet": [
+2,
+13
+],
+"where no muppet has gone before": [
+4,
+4
+],
+"who s afraid of the big bad dark": [
+1,
+2
+],
+"who s who at the zoo": [
+2,
+9
+],
+"whose tale is it anyway": [
+7,
+6
 ]
 },
 "55273": {
@@ -130927,6 +133794,7 @@
 "12 oz mouse": 8457,
 "2 stupid dogs": 12941,
 "aaahh!!! real monsters": 8571,
+"adventures of superman": 1306,
 "alfred hitchcock presents": 3738,
 "all that": 6305,
 "allegra's window": 42408,
@@ -130938,9 +133806,11 @@
 "animorphs": 7162,
 "aqua teen hunger force": 382,
 "are you afraid of the dark?": 43830,
+"are you afraid of the dark? (1999)": 43830,
 "batman beyond": 504,
 "batman: the animated series": 757,
 "beast machines": 19177,
+"beetlejuice": 9701,
 "beetlejuice (1989)": 9701,
 "bewitched": 826,
 "birdman and the galaxy trio": 53386,
@@ -130965,6 +133835,7 @@
 "doug": 6308,
 "dr. katz, professional therapist": 7218,
 "dragnet": 14768,
+"dragnet (1967)": 14768,
 "dragon ball": 2102,
 "dragon ball z": 2103,
 "dragon ball z abridged": null,
@@ -130979,25 +133850,31 @@
 "figure it out: wild style": null,
 "fireball xl5": 5916,
 "flipper": 17403,
+"flipper (1964)": 17403,
+"flipper (1995)": 17403,
 "flipper: the new adventures": null,
 "freakazoid": 6838,
 "fullmetal alchemist": 4297,
 "garfield and friends": 6452,
 "get smart": 5443,
+"get smart (1965)": 4340,
 "global guts": 32066,
 "green acres": 2124,
 "gullah gullah island": 6332,
+"gullah, gullah island": 6332,
 "gumby": 18013,
 "gundam 0080": 52775,
 "gundam 08th ms team": 25361,
 "gundam wing": 5241,
 "hey arnold!": 6482,
+"hey dude": 6331,
 "hey dude!": 6331,
 "home movies": 7760,
 "i am weasel": 10006,
 "i dream of jeannie": 2000,
 "i love lucy": 3824,
 "i spy": 2127,
+"i spy (1965)": 2127,
 "initial d": 9740,
 "initial d: first stage": null,
 "inspector gadget": 4579,
@@ -131015,6 +133892,7 @@
 "lupin the third": 18993,
 "lupin the third: part ii": null,
 "make the grade": null,
+"maya the bee (1975)": 29971,
 "mega man": 19048,
 "megas xlr": 7323,
 "men in black: the series": 9806,
@@ -131024,6 +133902,7 @@
 "mobile suit gundam: the 08th ms team": 25361,
 "monster rancher": 26676,
 "muppet babies": 35065,
+"muppet babies (1984)": 5490,
 "my brother and me": 27178,
 "my three sons": 7341,
 "nadia: the secret of blue water": 22519,
@@ -131070,10 +133949,12 @@
 "taxi": 2218,
 "teen titans": 765,
 "the adventures of pete & pete": 5940,
+"the adventures of rocky and bullwinkle and friends": 5658,
 "the adventures of superman": 7076,
 "the adventures of tintin": 1055,
 "the bob newhart show": 5734,
 "the brady bunch": 1249,
+"the brak show": 6234,
 "the busy world of richard scarry": 18008,
 "the dick van dyke show": 3327,
 "the incredible hulk (1996)": 2151,
@@ -131093,6 +133974,7 @@
 "the tick": 14116,
 "the tomorrow people": 200,
 "the wild thornberrys": 18776,
+"the world of david the gnome": 19777,
 "thundercats": 4476,
 "tintin": 1055,
 "ufo": 5919,

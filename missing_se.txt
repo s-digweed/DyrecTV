@@ -1,15 +1,16 @@
 # ============================================================
-# RUN STATUS  (2026-10-06 09:46 UTC)
+# RUN STATUS  (2026-10-06 21:34 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 814 episode-specific, 56 fixed show-blurb, 230 generic, 5 none (see generic_desc.txt)
+#   descriptions     : 913 episode-specific, 38 fixed show-blurb, 149 generic, 5 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 726  (manual pins: 126)
-#   S/E by absolute  : 16
-#   S/E + desc / TAM : 34  (name+S/E+synopsis taken straight from TAM)
-#   repeat-fill      : 2  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 228
-#   S/E withheld     : 35  (listed below)
+#   S/E by name      : 805  (manual pins: 155)
+#   S/E by absolute  : 18
+#   S/E + desc / TAM : 36  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 0  (S/E from your hand-verified sheet)
+#   repeat-fill      : 18  (re-airings backfilled from a named sibling by episodeNumber)
+#   names from TAM   : 280
+#   S/E withheld     : 2  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -17,20 +18,4 @@
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
-    ("Brak Show", "Fued"): (, ),
     ("Digimon Adventure", "Wizardmon's Gift"): (, ),
-    ("Dragon Ball", "Yamcha, The Strong Yet Cruel Desert Bandit"): (, ),
-    ("Fullmetal Alchemist", "Goodbye"): (, ),
-    ("Initial D: First Stage", "Battle to the Limit! Eight-Six Versus GT-R"): (, ),
-    ("Iron Man", "Ultimo, Ultimo Lives, Crescendo"): (, ),
-    ("Lupin the Third: Part II", "The Sleight Before Christmas"): (, ),
-    ("Lupin the Third: Part II", "Who's Vroomin' Who?"): (, ),
-    ("Neon Genesis Evangelion", "Tears"): (, ),
-    ("Rurouni Kenshin", "The Wolf Destroys the Eye of the Heart"): (, ),
-    ("Sailor Moon", "Damp Spirits"): (, ),
-    ("Sailor Moon", "Friendly Foes"): (, ),
-    ("Sailor Moon", "Lita Borrows Trouble"): (, ),
-    ("Saint Seiya: Knights of the Zodiac", "Dragon! Victory of Self-Sacrifice"): (, ),
-    ("Saint Seiya: Knights of the Zodiac", "Stone Seiya! Shield of Medusa"): (, ),
-    ("The Tick", "Ants in Pants!"): (, ),
-    ("Yu-Gi-Oh!", "The Dark Spirit Revealed (Part 3)"): (, ),
