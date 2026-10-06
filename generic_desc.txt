@@ -1,60 +1,19 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-06 21:34 UTC)
-#   episode-specific: 913
-#   fixed show-blurb: 38  (hand-supplied, intentional)
-#   generic (blurb) : 149
+# DESCRIPTION REPORT  (2026-10-06 23:19 UTC)
+#   episode-specific: 1064
+#   fixed show-blurb: 22  (hand-supplied, intentional)
+#   generic (blurb) : 14
 #   none            : 5
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line. To set a real one, paste into
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Aaahh!!! Real Monsters", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Adventures of Superman", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Alfred Hitchcock Presents", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("All That", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Allegra's Window", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Allegra's Window", "Lots of Turkey Pox"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Beetlejuice", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Bewitched", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Clarissa Explains It All", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Digimon Adventure", "Wizardmon's Gift"): "",   # no S/E resolved -> show-level blurb
     ("Double Dare", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Doug", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Dragnet (1967)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Figure it Out", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Finders Keepers (1987)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Flipper (1964)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Flipper (1995)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Garfield and Friends", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Get Smart (1965)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Goku Midnight Eye P1", "(no episode name)"): "",   # no description found anywhere
     ("Goku Midnight Eye P2", "(no episode name)"): "",   # no description found anywhere
-    ("Green Acres", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Gullah, Gullah Island", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Hey Arnold!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Inspector Gadget", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Lassie (1954)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Little Bear", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Muppet Babies (1984)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("My Brother and Me", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Nickelodeon GUTS", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Noozles", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Rocko's Modern Life", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Rugrats", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Space Ghost Coast to Coast", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Adventures of Pete & Pete", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Adventures of Rocky and Bullwinkle and Friends", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Adventures of Tintin", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Busy World of Richard Scarry", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Littl' Bits", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Lucy Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Many Loves of Dobie Gillis", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Munsters", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Mysterious Cities of Gold", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Patty Duke Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Ren & Stimpy Show", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("The Secret World of Alex Mack", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Weinerville", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("You Can't Do That on Television (1979)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Nickelodeon GUTS", "Michael - Leila - Trecia"): "",   # S/E set but no DB/OMDb/TAM episode overview
+    ("Noozles", "The Magic Show"): "",   # S/E set but no DB/OMDb/TAM episode overview
+    ("What Would You Do? (1991)", "Ep 50"): "",   # S/E set but no DB/OMDb/TAM episode overview
