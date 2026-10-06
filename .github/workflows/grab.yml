@@ -73,6 +73,7 @@ jobs:
           python3 enrich_toonami.py epg-src/TOONAMIAM.xml
           cp epg-src/missing_se.txt ./missing_se.txt 2>/dev/null || true
           cp epg-src/generic_desc.txt ./generic_desc.txt 2>/dev/null || true
+          cp epg-src/abs_snick.txt ./abs_snick.txt 2>/dev/null || true
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
@@ -166,7 +167,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz toonami_desc_cache.json
-          git add missing_se.txt generic_desc.txt 2>/dev/null || true
+          git add missing_se.txt generic_desc.txt abs_snick.txt 2>/dev/null || true
           git commit -m "Update EPG files" || echo "No changes"
           git pull --rebase origin main
           git push
