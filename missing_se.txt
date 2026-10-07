@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-07 15:20 UTC)
+# RUN STATUS  (2026-10-07 17:30 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1035 episode-specific, 28 fixed show-blurb, 33 generic, 5 none (see generic_desc.txt)
+#   descriptions     : 1050 episode-specific, 26 fixed show-blurb, 20 generic, 5 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 705  (manual pins: 108)
-#   S/E by absolute  : 17
+#   S/E by name      : 693  (manual pins: 102)
+#   S/E by absolute  : 15
 #   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 0  (S/E from your hand-verified sheet)
-#   episode guide    : 156  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 105  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 187  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 99  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
 #   names from TAM   : 280
-#   S/E withheld     : 11  (listed below)
+#   S/E withheld     : 0  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -20,10 +20,3 @@
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
-    ("Celebrity Deathmatch", "Battle of the Boys with Toys"): (, ),
-    ("Digimon Adventure", "Prophecy"): (, ),
-    ("Initial D: First Stage", "Dangerous Shingo Arrives!"): (, ),
-    ("Initial D: First Stage", "Explosion! Five Point Hairpin"): (, ),
-    ("Justice League", "Secret Origins: Part 2"): (, ),
-    ("Justice League", "Secret Origins: Part 3"): (, ),
-    ("Yu-Gi-Oh!", "Rage of the Egyptian Gods"): (, ),

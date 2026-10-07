@@ -1,6 +1,6 @@
 # ============================================================
-# ABSOLUTE-RESOLVE REVIEW  (2026-10-07 15:20 UTC)
-#   auto-filled nameless slots: 48
+# ABSOLUTE-RESOLVE REVIEW  (2026-10-07 17:30 UTC)
+#   auto-filled nameless slots: 46
 # The feed gave only an episodeNumber (no name) for these, so the
 # S/E, episode name and synopsis below were resolved straight from
 # that absolute index via the DBs -- NOT corroborated against a feed
@@ -33,7 +33,6 @@
     Inspector Gadget  #4  ->  S01E04  "The Amazon"
     Inspector Gadget  #5  ->  S01E05  "Health Spa"
     Joe 90  #10  ->  S01E10  "Big Fish"
-    KaBlam!  #16  ->  S02E03  "Hurts So Good"
     Kenan & Kel  #28  ->  S03E01  "Fenced In"
     Lassie (1954)  #86  ->  S03E21  "Vigil"
     Lassie (1954)  #87  ->  S03E22  "Chimp"
@@ -54,4 +53,3 @@
     The Secret World of Alex Mack  #58  ->  S03E25  "Cheers"
     The Wild Thornberrys  #36  ->  S02E16  "Reef Grief"
     UFO  #10  ->  S01E10  "The Square Triangle"
-    Welcome Back, Kotter  #39  ->  S02E17  "Chicken a la Kotter"

@@ -1,30 +1,22 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-07 15:20 UTC)
-#   episode-specific: 1035
-#   fixed show-blurb: 28  (hand-supplied, intentional)
-#   generic (blurb) : 33
+# DESCRIPTION REPORT  (2026-10-07 17:30 UTC)
+#   episode-specific: 1050
+#   fixed show-blurb: 26  (hand-supplied, intentional)
+#   generic (blurb) : 20
 #   none            : 5
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line. To set a real one, paste into
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Alvin and the Chipmunks (1983)", "Food for Thought"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Celebrity Deathmatch", "Battle of the Boys with Toys"): "",   # no S/E resolved -> show-level blurb
-    ("Digimon Adventure", "Prophecy"): "",   # no S/E resolved -> show-level blurb
     ("Double Dare", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Get the Picture (1991)", "Adonica and Mason vs. Bobbi and Jeremy"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Goku Midnight Eye P1", "(no episode name)"): "",   # no description found anywhere
     ("Goku Midnight Eye P2", "(no episode name)"): "",   # no description found anywhere
-    ("Initial D: First Stage", "Dangerous Shingo Arrives!"): "",   # no S/E resolved -> show-level blurb
-    ("Initial D: First Stage", "Explosion! Five Point Hairpin"): "",   # no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Justice League", "Secret Origins: Part 2"): "",   # no S/E resolved -> show-level blurb
-    ("Justice League", "Secret Origins: Part 3"): "",   # no S/E resolved -> show-level blurb
     ("Maya the Bee (1975)", "Maja on the Sea"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Nickelodeon GUTS", "Michael - Leila - Trecia"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("The Tick", "The Tick Loves Santa!"): "",   # no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "Using You Senses"): "",   # S/E set but no DB/OMDb/TAM episode overview
+    ("What Would You Do? (1991)", "Using Your Senses"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("You're On!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Yu-Gi-Oh!", "Rage of the Egyptian Gods"): "",   # no S/E resolved -> show-level blurb
