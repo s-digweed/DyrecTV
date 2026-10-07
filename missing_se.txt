@@ -1,17 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-10-06 23:19 UTC)
+# RUN STATUS  (2026-10-07 09:47 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1064 episode-specific, 22 fixed show-blurb, 14 generic, 5 none (see generic_desc.txt)
+#   descriptions     : 1035 episode-specific, 26 fixed show-blurb, 35 generic, 5 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 807  (manual pins: 157)
-#   S/E by absolute  : 18
-#   S/E + desc / TAM : 36  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 737  (manual pins: 108)
+#   S/E by absolute  : 17
+#   S/E + desc / TAM : 28  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 0  (S/E from your hand-verified sheet)
-#   abs-resolve Snick: 175  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   abs-resolve Snick: 219  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 280
-#   S/E withheld     : 0  (listed below)
+#   names from TAM   : 224
+#   S/E withheld     : 11  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -19,3 +19,10 @@
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
 # ============================================================
+    ("Celebrity Deathmatch", "Battle of the Boys with Toys"): (, ),
+    ("Digimon Adventure", "Prophecy"): (, ),
+    ("Initial D: First Stage", "Dangerous Shingo Arrives!"): (, ),
+    ("Initial D: First Stage", "Explosion! Five Point Hairpin"): (, ),
+    ("Justice League", "Secret Origins: Part 2"): (, ),
+    ("Justice League", "Secret Origins: Part 3"): (, ),
+    ("Yu-Gi-Oh!", "Rage of the Egyptian Gods"): (, ),
