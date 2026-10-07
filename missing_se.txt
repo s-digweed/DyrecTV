@@ -1,5 +1,5 @@
 # ============================================================
-# RUN STATUS  (2026-10-07 17:30 UTC)
+# RUN STATUS  (2026-10-07 18:19 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
 #   descriptions     : 1050 episode-specific, 26 fixed show-blurb, 20 generic, 5 none (see generic_desc.txt)
@@ -19,4 +19,6 @@
 # episode number. Only the Sxx Eyy is missing. To lock one in,
 # fill the number and paste the line into SE_PINS:
 #   ("<show>", "<episode>"): (season, episode),
+# The trailing  epNum=  is the feed episodeNumber (blank = the API
+# gave none, so a guide can't key on it).
 # ============================================================

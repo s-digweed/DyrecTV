@@ -1,22 +1,24 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-07 17:30 UTC)
+# DESCRIPTION REPORT  (2026-10-07 18:19 UTC)
 #   episode-specific: 1050
 #   fixed show-blurb: 26  (hand-supplied, intentional)
 #   generic (blurb) : 20
 #   none            : 5
 # These programmes do NOT have an episode-specific description.
-# Reason is given after each line. To set a real one, paste into
+# Reason is given after each line, with the feed episodeNumber
+# (epNum=, blank = the API gave none). To set a real one, paste into
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Double Dare", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Get the Picture (1991)", "Adonica and Mason vs. Bobbi and Jeremy"): "",   # S/E set but no DB/OMDb/TAM episode overview
-    ("Goku Midnight Eye P1", "(no episode name)"): "",   # no description found anywhere
-    ("Goku Midnight Eye P2", "(no episode name)"): "",   # no description found anywhere
-    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
-    ("Maya the Bee (1975)", "Maja on the Sea"): "",   # S/E set but no DB/OMDb/TAM episode overview
-    ("Nickelodeon GUTS", "Michael - Leila - Trecia"): "",   # S/E set but no DB/OMDb/TAM episode overview
-    ("The Tick", "The Tick Loves Santa!"): "",   # no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "Using Your Senses"): "",   # S/E set but no DB/OMDb/TAM episode overview
-    ("You're On!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
+    ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # epNum=60  no S/E resolved -> show-level blurb
+    ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # epNum=56  no S/E resolved -> show-level blurb
+    ("Double Dare", "(no episode name)"): "",   # epNum=62  no S/E resolved -> show-level blurb
+    ("Get the Picture (1991)", "Adonica and Mason vs. Bobbi and Jeremy"): "",   # epNum=17  S/E set but no DB/OMDb/TAM episode overview
+    ("Goku Midnight Eye P1", "(no episode name)"): "",   # epNum=  no description found anywhere
+    ("Goku Midnight Eye P2", "(no episode name)"): "",   # epNum=  no description found anywhere
+    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Maya the Bee (1975)", "Maja on the Sea"): "",   # epNum=50  S/E set but no DB/OMDb/TAM episode overview
+    ("Nickelodeon GUTS", "Michael - Leila - Trecia"): "",   # epNum=90  S/E set but no DB/OMDb/TAM episode overview
+    ("The Tick", "The Tick Loves Santa!"): "",   # epNum=23  no S/E resolved -> show-level blurb
+    ("What Would You Do? (1991)", "Using Your Senses"): "",   # epNum=50  S/E set but no DB/OMDb/TAM episode overview
+    ("You're On!", "(no episode name)"): "",   # epNum=12  no S/E resolved -> show-level blurb
