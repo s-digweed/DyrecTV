@@ -1,8 +1,8 @@
 # ============================================================
-# RUN STATUS  (2026-10-07 22:19 UTC)
+# RUN STATUS  (2026-10-07 22:34 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1071 episode-specific, 26 fixed show-blurb, 4 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 1073 episode-specific, 26 fixed show-blurb, 2 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
 #   S/E by name      : 694  (manual pins: 100)
 #   S/E by absolute  : 15

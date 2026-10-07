@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-07 22:19 UTC)
-#   episode-specific: 1071
+# DESCRIPTION REPORT  (2026-10-07 22:34 UTC)
+#   episode-specific: 1073
 #   fixed show-blurb: 26  (hand-supplied, intentional)
-#   generic (blurb) : 4
+#   generic (blurb) : 2
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -11,4 +11,3 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "Using Your Senses"): "",   # epNum=50  S/E set but no DB/OMDb/TAM episode overview
