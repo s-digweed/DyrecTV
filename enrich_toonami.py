@@ -463,7 +463,8 @@ DISPLAY_CANON = {
     # --- batch 4: display renames you asked for ---
     "Gumby": "Gumby Adventures",
     "Lassie": "Lassie (1954)",
-    "Alvin and the Chipmunks": "Alvin & the Chipmunks",
+    "Alvin and the Chipmunks": "Alvin and the Chipmunks (1983)",
+    "Alvin & the Chipmunks": "Alvin and the Chipmunks (1983)",
     "Maya the Bee": "Maya the Bee (1975)",
     "Angry Beavers": "The Angry Beavers",
     "The Flintstones Meet Rockula And Frankenstone":
@@ -485,7 +486,9 @@ DISPLAY_CANON = {
     "Get Smart": "Get Smart (1965)",
     "Get The Picture": "Get the Picture (1991)",
     "Nickelodeon Guts": "Nickelodeon GUTS",
-    "Gullah Gullah Island": "Gullah, Gullah Island",
+    "Gullah Gullah Island": "Gullah Gullah Island",
+    "Gullah, Gullah Island": "Gullah Gullah Island",
+    "Figure it Out": "Figure It Out",
     "Hey Dude!": "Hey Dude",
     "I Spy": "I Spy (1965)",
     "Muppet Babies": "Muppet Babies (1984)",
@@ -512,6 +515,16 @@ SEGMENT_SHOWS = {
 # chosen by the episode's resolved season. Extend as needed.
 SEASON_TITLE = {
     "Rurouni Kenshin": {1: "Wandering Samurai", 2: "Legend of Kyoto", 3: "Tales of Meiji"},
+    # Sailor Moon (DiC/Cloverway arc names) — season 1 keeps the bare title; 2-5
+    # show "Sailor Moon - <arc>". The feed/TAM supply the episode season.
+    "Sailor Moon": {2: "R", 3: "S", 4: "SuperS", 5: "Sailor Stars"},
+}
+
+# Force a subtitle for a specific (show, season, ep) — e.g. the DiC English
+# names for the Sailor Moon season-1 finale two-parter.
+EP_SE_SUBTITLE = {
+    ("Sailor Moon", 1, 45): "Day of Destiny",
+    ("Sailor Moon", 1, 46): "Brand New Life",
 }
 
 # ── episode PINS from IMDb for segment-based '66/'67 cartoons. The feed numbers
@@ -742,6 +755,34 @@ def load_master_map():
             return {}
     print(f"  master map: {MASTER_MAP_FILE} not found; skipping")
     return {}
+
+# ── Authoritative static episode guide (episode_guide.json) ──────────────
+# Built offline from Taqi's saved IMDb/TMDB/Wikipedia/Fandom episode lists by
+# build_guide.py. Keyed norm(display) -> {"display", "episodes": {str(absN):
+# {se:[s,e]|null, sub, desc}}}. This is the FIX for segmented shows: TMDB
+# counts each segment as an episode, so its absolute-number resolution lands on
+# the wrong S/E; the guide maps the feed's absolute episodeNumber straight to
+# the real broadcast half-hour. Authoritative for the shows it covers — it beats
+# every automatic resolver below (only the hand master map outranks it).
+GUIDE_FILE = "episode_guide.json"
+def load_guide():
+    import os as _os
+    for base in (_os.path.dirname(_os.path.abspath(__file__)), _os.getcwd()):
+        p = _os.path.join(base, GUIDE_FILE)
+        try:
+            with open(p, encoding="utf-8") as f:
+                g = json.load(f)
+            n = sum(len(v.get("episodes", {})) for v in g.values())
+            print(f"  episode guide: {len(g)} shows / {n} episodes loaded from {GUIDE_FILE}")
+            return g
+        except FileNotFoundError:
+            continue
+        except Exception as e:
+            print(f"  episode guide: failed to parse {GUIDE_FILE} ({e})")
+            return {}
+    print(f"  episode guide: {GUIDE_FILE} not found; skipping")
+    return {}
+
 _QYEAR = re.compile(r'\s*\(((?:19|20)\d\d)\)\s*$')
 _TAGS  = re.compile(r"<[^>]+>")
 _sess  = requests.Session()
@@ -1661,11 +1702,12 @@ def enrich(path):
     # Snick episode names come from the TAM feed (the feed itself has none).
     tam_index = load_tam_index() if any(c in TAM_CH_FOR for c in TARGET_CHANNELS) else {}
     MASTER_MAP = load_master_map()
+    GUIDE = load_guide()
 
     stats = {"progs": 0, "by_name": 0, "by_absolute": 0, "show_level": 0,
              "no_desc": 0, "ep_name_added": 0, "icons": 0, "se_dropped": 0,
              "se_pinned": 0, "from_tam": 0, "by_tam": 0, "by_repeat": 0, "by_master": 0,
-             "by_abs_snick": 0,
+             "by_guide": 0, "by_abs_snick": 0,
              "desc_episode": 0, "desc_generic": 0, "desc_none": 0, "desc_show_fixed": 0}
     dropped_se = set()    # (show, episode) name present but S/E withheld -> pin it
     abs_snick = {}        # (disp_show, absN) -> (S, E, name) auto-resolved nameless Snick -> review worklist
@@ -1761,6 +1803,31 @@ def enrich(path):
             epname = clean_sub
         if mm_desc:                                 # manual synopsis wins (via forced_desc)
             forced_desc = mm_desc
+        # ── AUTHORITATIVE EPISODE GUIDE (episode_guide.json) ──────────────
+        #    For shows TMDB mis-resolves (segmented cartoons etc.), the static
+        #    guide maps the feed's absolute episodeNumber straight to the real
+        #    broadcast half-hour: correct S/E + segment-joined name + synopsis.
+        #    Authoritative — it overrides the feed/TAM/DB name and every resolver
+        #    below; only the hand master map (mm_*) outranks it. Keyed by the
+        #    canonical display name (and raw/lookup as fallbacks).
+        g_show = (GUIDE.get(_norm(disp_title or show)) or GUIDE.get(_norm(raw))
+                  or GUIDE.get(_norm(show))) if not is_curated else None
+        g_ent = (g_show["episodes"].get(str(absN))
+                 if (g_show and absN is not None) else None)
+        g_se   = tuple(g_ent["se"]) if (g_ent and g_ent.get("se")) else None
+        g_sub  = (g_ent.get("sub")  or "") if g_ent else ""
+        g_desc = (g_ent.get("desc") or "") if g_ent else ""
+        g_omit = bool(g_ent) and g_ent.get("sub", "") == ""   # guide says: no subtitle
+        if g_ent and not mm_sub:                    # guide subtitle wins over feed/TAM
+            if g_sub:
+                orig_sub = g_sub
+                clean_sub = clean_chapter(orig_sub)
+                epname = clean_sub
+            elif g_omit:
+                orig_sub = ""; clean_sub = ""; epname = ""
+                force_no_sub = True
+        if g_desc and not mm_desc:
+            forced_desc = g_desc
         # TAM's S/E + synopsis describe the SAME episode we're showing only when
         # the identity agrees: the name came from TAM (Snick has no feed name), or
         # our episode name matches TAM's. Otherwise it's a different episode -> skip.
@@ -1791,6 +1858,15 @@ def enrich(path):
                     stats["by_master"] += 1
                     if not mm_desc:
                         ov, nm = episode_meta(show, season, ep, cache)
+                # 0†) AUTHORITATIVE GUIDE S/E — real broadcast S/E for the feed's
+                #     absolute episodeNumber. Beats every automatic resolver; we do
+                #     NOT call episode_meta here (TMDB mis-keys these shows) — the
+                #     name/synopsis already came from the guide above, and a missing
+                #     synopsis falls to the show-level blurb rather than a wrong DB one.
+                if g_se and season is None:
+                    season, ep = g_se
+                    source = "guide"
+                    stats["by_guide"] += 1
                 # 0) PINNED IMDb broadcast episodes for segment-based cartoons
                 #    (Spider-Man '67, Hulk '66) -> correct S/E + full title + the
                 #    IMDb synopsis for that episode (may be '' -> series blurb).
@@ -1970,8 +2046,8 @@ def enrich(path):
             #  AFTER the repeat-fill pass below, from the per-programme records.)
             # tally how S/E was resolved
             if season is not None:
-                if source in ("tam", "master", "abs_snick"):
-                    pass                      # already counted in by_tam / by_master / by_abs_snick
+                if source in ("tam", "master", "guide", "abs_snick"):
+                    pass                      # already counted in by_tam/by_master/by_guide/by_abs_snick
                 else:
                     stats["by_name" if source == "name" else "by_absolute"] += 1
             else:
@@ -1980,6 +2056,13 @@ def enrich(path):
             print(f"  warn: {raw!r}: {e}")
             desc = desc or forced_desc or show_overview(show, cache)
 
+        # targeted (show, season, ep) subtitle override (e.g. Sailor Moon S1 finale)
+        _ovr_name = EP_SE_SUBTITLE.get((show, season, ep)) if season is not None else None
+        if _ovr_name:
+            orig_sub = _ovr_name
+            clean_sub = clean_chapter(orig_sub)
+            epname = clean_sub
+            force_no_sub = False
         # sub-title: the feed's own info.episode (via orig_sub) is authoritative, so
         # we SET it rather than only patch the grabber's value (the grabber often
         # dropped it). RiffTrax carries everything in the title -> no sub.
@@ -2148,6 +2231,7 @@ def enrich(path):
             fh.write(f"#   S/E by absolute  : {stats['by_absolute']}\n")
             fh.write(f"#   S/E + desc / TAM : {stats['by_tam']}  (name+S/E+synopsis taken straight from TAM)\n")
             fh.write(f"#   master map       : {stats['by_master']}  (S/E from your hand-verified sheet)\n")
+            fh.write(f"#   episode guide    : {stats['by_guide']}  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)\n")
             fh.write(f"#   abs-resolve Snick: {stats['by_abs_snick']}  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)\n")
             fh.write(f"#   repeat-fill      : {stats['by_repeat']}  (re-airings backfilled from a named sibling by episodeNumber)\n")
             fh.write(f"#   names from TAM   : {stats['from_tam']}\n")
@@ -2220,6 +2304,7 @@ def enrich(path):
     print(f"  S/E by absolute number : {stats['by_absolute']}")
     print(f"  S/E + desc from TAM     : {stats['by_tam']}")
     print(f"  master map (your sheet) : {stats['by_master']}")
+    print(f"  episode guide (authoritative) : {stats['by_guide']}")
     print(f"  abs-resolve Snick (new) : {stats['by_abs_snick']}")
     print(f"  repeat-fill (by number) : {stats['by_repeat']}")
     print(f"  names from TAM          : {stats['from_tam']}")
