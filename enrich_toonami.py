@@ -1700,6 +1700,25 @@ def enrich(path):
             print(f"  warn: could not build episode index for {base}: {e}")
             epindex[base] = []
 
+    # ── Dump the raw live feed to feed_index.tsv (same data your manual curl TSV
+    #    pulled) so it's always fresh in-repo and you never curl by hand. One row
+    #    per aired slot: a BLANK episodeNumber column = the API gave no number for
+    #    that slot (the true source gap); a populated one just needs a guide entry.
+    try:
+        fi = os.path.join(os.path.dirname(os.path.abspath(path)), "feed_index.tsv")
+        with open(fi, "w", encoding="utf-8") as fh:
+            fh.write("base\tstartDate\tshow_name\tepisodeNumber\tepisode_name\tfullname\n")
+            for base in sorted(epindex):
+                for ts, info in epindex[base]:
+                    iso = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                    num = info.get("num")
+                    fh.write(f"{base}\t{iso}\t{info.get('name','')}\t"
+                             f"{'' if num is None else num}\t{info.get('episode','')}\t"
+                             f"{info.get('fullname','')}\n")
+        print(f"  -> {fi}: raw feed index dumped ({sum(len(v) for v in epindex.values())} rows)")
+    except Exception as e:
+        print(f"  warn: could not write feed_index.tsv: {e}")
+
     # Snick episode names come from the TAM feed (the feed itself has none).
     tam_index = load_tam_index() if any(c in TAM_CH_FOR for c in TARGET_CHANNELS) else {}
     MASTER_MAP = load_master_map()
@@ -1975,7 +1994,7 @@ def enrich(path):
                             season, ep, ov, nm = s2, e2n, ov2, nm2
                             source = "absolute"
                         else:
-                            dropped_se.add((disp_title or show, epname))
+                            dropped_se.add((disp_title or show, epname, absN))
                             stats["se_dropped"] += 1
                 # 2b) ABSOLUTE for NAMELESS slots (Path 1, user-requested) — the
                 #     Snick/live-action feed gives only an episodeNumber (no feed name,
@@ -2187,7 +2206,7 @@ def enrich(path):
             stats["desc_show_fixed"] += 1           # resolved -> NOT on the worklist
         else:
             label = rec["epname"] or rec["sp_sub"] or "(no episode name)"
-            generic_desc.add((rec["show"], label, rec["reason"]))
+            generic_desc.add((rec["show"], label, rec["reason"], rec["absN"]))
             stats["desc_generic" if rec["kind"] == "generic" else "desc_none"] += 1
 
     # ── close the 1-2 min gaps between programmes: per channel, each show's
@@ -2243,9 +2262,11 @@ def enrich(path):
             fh.write("# episode number. Only the Sxx Eyy is missing. To lock one in,\n")
             fh.write("# fill the number and paste the line into SE_PINS:\n")
             fh.write('#   ("<show>", "<episode>"): (season, episode),\n')
+            fh.write("# The trailing  epNum=  is the feed episodeNumber (blank = the API\n")
+            fh.write("# gave none, so a guide can't key on it).\n")
             fh.write("# ============================================================\n")
-            for show, epi in sorted(dropped_se):
-                fh.write(f'    ("{show}", "{epi}"): (, ),\n')
+            for show, epi, absN in sorted(dropped_se, key=lambda r: (r[0], r[1])):
+                fh.write(f'    ("{show}", "{epi}"): (, ),   # epNum={"" if absN is None else absN}\n')
         print(f"  -> {report}: {len(dropped_se)} need S/E (names + descriptions are set)")
     except Exception as e:
         print(f"  warn: could not write {report}: {e}")
@@ -2265,12 +2286,13 @@ def enrich(path):
             fh.write(f"#   generic (blurb) : {stats['desc_generic']}\n")
             fh.write(f"#   none            : {stats['desc_none']}\n")
             fh.write("# These programmes do NOT have an episode-specific description.\n")
-            fh.write("# Reason is given after each line. To set a real one, paste into\n")
+            fh.write("# Reason is given after each line, with the feed episodeNumber\n")
+            fh.write("# (epNum=, blank = the API gave none). To set a real one, paste into\n")
             fh.write("# DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):\n")
             fh.write('#   ("<show>", "<episode>"): "the real episode description",\n')
             fh.write("# ============================================================\n")
-            for show, epi, reason in sorted(generic_desc):
-                fh.write(f'    ("{show}", "{epi}"): "",   # {reason}\n')
+            for show, epi, reason, absN in sorted(generic_desc, key=lambda r: (r[0], r[1])):
+                fh.write(f'    ("{show}", "{epi}"): "",   # epNum={"" if absN is None else absN}  {reason}\n')
         print(f"  -> {dreport}: {len(generic_desc)} without an episode description")
     except Exception as e:
         print(f"  warn: could not write {dreport}: {e}")
