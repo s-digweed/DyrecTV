@@ -1,6 +1,6 @@
 # ============================================================
-# ABSOLUTE-RESOLVE REVIEW  (2026-10-07 18:19 UTC)
-#   auto-filled nameless slots: 46
+# ABSOLUTE-RESOLVE REVIEW  (2026-10-07 22:19 UTC)
+#   auto-filled nameless slots: 43
 # The feed gave only an episodeNumber (no name) for these, so the
 # S/E, episode name and synopsis below were resolved straight from
 # that absolute index via the DBs -- NOT corroborated against a feed
@@ -23,7 +23,6 @@
     Flipper (1995)  #71  ->  S04E10  "Free-Diving"
     Flipper (1995)  #72  ->  S04E11  "A Night to Remember"
     Get Smart (1965)  #94  ->  S04E08  "The Return of the Ancient Mariner"
-    Get the Picture (1991)  #17  ->  S01E17  "Adonica and Mason vs. Bobbi and Jeremy"
     Gullah Gullah Island  #47  ->  S03E07  "Binyah Binyah's Parade"
     Gullah Gullah Island  #48  ->  S03E08  "Animal See, Animal Do"
     Hey Dude  #19  ->  S02E06  "Ghost Stories"
@@ -39,11 +38,9 @@
     Lassie (1954)  #88  ->  S03E23  "Lassie's Day"
     Lassie (1954)  #89  ->  S03E24  "The Rock"
     Lassie (1954)  #90  ->  S03E25  "The Artist"
-    Maya the Bee (1975)  #50  ->  S01E50  "Maja on the Sea"
     Muppet Babies (1984)  #9  ->  S01E09  "Close Encounters of the Frog Kind"
     Muppet Babies (1984)  #10  ->  S01E10  "Gonzo's Video Show"
     My Brother and Me  #7  ->  S01E07  "Dee Dee's Girlfriend"
-    Nickelodeon GUTS  #90  ->  S03E03  "Michael - Leila - Trecia"
     Salute Your Shorts  #17  ->  S02E04  "Dina and the Rock Star"
     Space: 1999  #16  ->  S01E16  "Another Time, Another Place"
     Stingray (1964)  #10  ->  S01E10  "Titan Goes Pop"
