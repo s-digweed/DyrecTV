@@ -19,9 +19,28 @@ import tam_parsers as P
 def norm_key(s):
     return re.sub(r'[^a-z0-9]+', ' ', (s or '').lower()).strip()
 
+_WORDNUM = {'one':1,'two':2,'three':3,'four':4,'five':5,'six':6,'seven':7,
+            'eight':8,'nine':9,'ten':10,'eleven':11,'twelve':12}
+def _partnum(tok):
+    tok = tok.strip()
+    if tok.isdigit():
+        return int(tok)
+    return _WORDNUM.get(tok.lower())
+
 def fix_parts(t):
-    # "Title (2)" -> "Title: Part 2"  (trailing parenthesised number)
-    return re.sub(r'\s*\((\d+)\)\s*$', r': Part \1', t)
+    # Standardize every trailing part suffix to "<title>: Part N" (arabic). Handles
+    # "Title (2)", "Title, Part 2", "Title: Part 2", "Title - Part 2",
+    # "Title Part 2", "Title: Part Two". Only a trailing "Part <n>" is touched, so
+    # a mid-title word "Part" (e.g. "The Best Part of...") is left alone.
+    m = re.search(r'^(.*?)\s*\((\d+)\)\s*$', t)
+    if m:
+        return f"{m.group(1).strip()}: Part {int(m.group(2))}"
+    m = re.search(r'^(.*?)[\s,:/–-]+Part\s+([0-9]+|[A-Za-z]+)\s*$', t, re.I)
+    if m:
+        n = _partnum(m.group(2))
+        if n is not None:
+            return f"{m.group(1).strip()}: Part {n}"
+    return t
 
 def fix_segspace(t):
     # segments / synopsis slashes -> " / "
@@ -95,10 +114,19 @@ SHOWS = {
   "Space Ghost Coast to Coast":  dict(folder="Space Ghost Coast to Coast", source="imdb",
                                       omit_placeholder=True, sg_wiki_match=True,
                                       pins={91:{"se":[8,5]}}),
+  # Segmented cartoons now with IMDb (v2) — real S/E + synopses
+  "Alvin and the Chipmunks (1983)": dict(folder="Alvin and the Chipmunks", source="imdb", seg=True, slash=True, synseg=True),
+  "The Angry Beavers":           dict(folder="Angry Beavers", source="imdb", seg=True, slash=True, synseg=True),
+  "KaBlam!":                     dict(folder="KaBlam", source="imdb"),
+  "Celebrity Deathmatch":        dict(folder="Celebrity Deathmatch", source="imdb", parts=True),
+  "Welcome Back, Kotter":        dict(folder="Welcome Back Kotter", source="imdb", parts=True),
+  # Toonami anime / DC — named shows the feed couldn't S/E; guide by absolute #
+  "Digimon Adventure (1999)":    dict(folder="Digimon Adventure 1999", source="tmdb"),
+  "Initial D: First Stage":      dict(folder="Initial D First Stage", source="imdb"),
+  "Justice League":              dict(folder="Justice League", source="imdb"),   # IMDb already ": Part II" (roman) — leave as-is
+  "Yu-Gi-Oh!":                   dict(folder="Yu-Gi-Oh", source="imdb", parts=True),
   # Wikipedia
   "All That":                    dict(folder="All That", source="wiki", seg=True, slash=True, ft_fix=True),
-  "Alvin and the Chipmunks (1983)": dict(folder="Alvin and the Chipmunks", source="wiki_seg", seg=True),
-  "The Angry Beavers":           dict(folder="Angry Beavers", source="wiki_seg", seg=True, slash=True),
   # TMDB
   "Noozles":                     dict(folder="Nozzles", source="tmdb", txt_desc="Nozzles/Noozles_S01_EPG.txt",
                                       name_override={(1,20):"The Magical Vacations"}),
@@ -110,7 +138,8 @@ SHOWS = {
   "What Would You Do? (1991)":   dict(folder="What Would You Do", source="fandom",
                                       guest_fix=True, se_from_source=True,
                                       pins={48:{"se":[2,13],"sub":"Sumo Wrestling, Belly Dancing and Pizza Making","desc":"Two contestants wearing fat suits face off in a sumo wrestling match. Pizza-maker Tommy joins two contestants in a pizza-making contest. A belly dancer performs; she teaches a father and daughter, who perform later on. Another game has two contestants trying to shoot pie goop at Marc's photo on two other contestants' hats. The final game, Double Shot, has a contestant try to pour two drinks in his mouth at the same time."},
-                                            49:{"se":[2,14],"sub":"Use Your Senses","desc":"The first game is guessing the animal word from watermelon rinds. A remote segment involves random people reviewing What Would You Do? fragrances. Then Marc quizzes two audience members on two actors that interrupted the show. The final game is \"Anything You Can Do\", where a father and son compete in throwing a Frisbee through a hoop."}}),
+                                            49:{"se":[2,14],"sub":"Use Your Senses","desc":"The first game is guessing the animal word from watermelon rinds. A remote segment involves random people reviewing What Would You Do? fragrances. Then Marc quizzes two audience members on two actors that interrupted the show. The final game is \"Anything You Can Do\", where a father and son compete in throwing a Frisbee through a hoop."},
+                                            50:{"sub":"Using Your Senses"}}),
   # Synthetic (no source files)
   "Finders Keepers (1987)":      dict(source="synthetic", seasons=[13,13,13,13,13,8],
                                       omit_names=True, generic="Finders Keepers (1987)"),
