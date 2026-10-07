@@ -167,6 +167,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add DIRECTV.xml.gz ART.xml.gz TOONAMIAM.xml.gz BEIN_EN.xml.gz BEIN_AR.xml.gz toonami_desc_cache.json
+          git add episode_guide.json 2>/dev/null || true
           git add missing_se.txt generic_desc.txt abs_snick.txt 2>/dev/null || true
           git commit -m "Update EPG files" || echo "No changes"
           git pull --rebase origin main
