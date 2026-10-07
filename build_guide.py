@@ -81,6 +81,10 @@ GEN = {
     "Finders Keepers (1987)": "Contestants try to find pictures in a hidden picture puzzle, then go on a scavenger hunt throughout an eight-room house.",
     "Mr. Wizard's World": "Mr. Wizard and his young friends conduct a variety of science experiments.",
     "You Can't Do That on Television (1979)": "Sketch-TV by young amateur actors in true classic Nick-style. Whatever you do, never ask for water or admit that you don't know.",
+    "Nickelodeon GUTS": "Three kids donning the different colors blue, red, and purple compete in relatively cool-looking olympic-style games to achieve as many points as they can.",
+    "Double Dare (1986)": "Two-member teams of children compete to answer questions and complete stunts.",
+    "Get the Picture (1991)": "Two teams answer questions and play games for the opportunity to guess what the picture is for each amount of money.",
+    "You're On!": "A team of kids go out to win prizes by convincing passersby to do one of three crazy things. If they get all three, they win a prize. In the studio, people randomly picked from the audience guess how many of the three challenges each team will achieve.",
 }
 
 # ───────────────────────── per-show config ─────────────────────────
@@ -123,6 +127,20 @@ SHOWS = {
   # Toonami anime / DC — named shows the feed couldn't S/E; guide by absolute #
   "Digimon Adventure (1999)":    dict(folder="Digimon Adventure 1999", source="tmdb"),
   "Initial D: First Stage":      dict(folder="Initial D First Stage", source="imdb"),
+  # v3 batch
+  "The Tick (1994)":             dict(folder="The Tick 1994", source="imdb"),
+  "Are You Afraid of the Dark? (1990)": dict(folder="Are You Afraid of the Dark", source="imdb"),
+  "Nickelodeon GUTS":            dict(folder="Nickelodeon GUTS", source="imdb",
+                                      generic="Nickelodeon GUTS", omit_placeholder=True),
+  "Get the Picture (1991)":      dict(folder="Get the Picture (1991)", source="imdb",
+                                      generic="Get the Picture (1991)"),
+  "Double Dare (1986)":          dict(folder="Double Dare (1986)", source="imdb",
+                                      generic="Double Dare (1986)", all_generic=True),
+  "You're On!":                  dict(source="synthetic", seasons=[26],
+                                      omit_names=True, generic="You're On!", all_generic=True,
+                                      pins={1:  {"sub": "Take a Bow Mr. Shumway"},
+                                            25: {"desc": "Two sisters Amber and Ashley McKeen must get total strangers to help them get items out of a trash can and eat something from the trash!"}}),
+  "Maya the Bee (1975)":         dict(folder="Maya the Bee", source="maya"),
   "Justice League":              dict(folder="Justice League", source="imdb"),   # IMDb already ": Part II" (roman) — leave as-is
   "Yu-Gi-Oh!":                   dict(folder="Yu-Gi-Oh", source="imdb", parts=True),
   # Wikipedia
@@ -209,12 +227,36 @@ def wiki_name_map(folder):
 def wiki_seg_syn(folder):
     return P.parse_wiki_segmented(folder)
 
+def build_maya(cfg, base, display):
+    """Maya the Bee: titles + S/E from TMDB (S1 1-52, S2 1-52 -> absolute 1-104),
+    'Maja'->'Maya' fixed. Synopsis: TMDB for abs 1-19, the Fandom PDF
+    (maya_fandom_syn.json, keyed by overall #) for abs 20-104."""
+    folder = os.path.join(base, cfg["folder"])
+    tmdb = sorted(P.parse_tmdb(folder), key=lambda r: (r[0], r[1]))
+    fsyn = {}
+    try:
+        fsyn = json.load(open(os.path.join(folder, "maya_fandom_syn.json"), encoding="utf-8"))
+    except Exception:
+        pass
+    eps = {}
+    for absn, (s, e, title, tsyn) in enumerate(tmdb, 1):
+        t = re.sub(r'\bMaja\b', 'Maya', tidy(title))
+        desc = tsyn if absn <= 19 else fsyn.get(str(absn), "")
+        desc = re.sub(r'\bMaja\b', 'Maya', tidy(desc))
+        eps[str(absn)] = {"se": [s, e], "sub": t, "desc": desc}
+    return {"display": display, "episodes": eps}
+
 def main():
     base = sys.argv[1]
     outpath = sys.argv[2]
     guide={}
     report=[]
     for display, cfg in SHOWS.items():
+        if cfg["source"] == "maya":
+            g = build_maya(cfg, base, display)
+            guide[norm_key(display)] = g
+            report.append(f"   {display}: {len(g['episodes'])} episodes (source=maya: TMDB titles + Fandom synopses)")
+            continue
         lst = build_list(cfg, base)
         if not lst and cfg["source"]!="synthetic":
             report.append(f"!! {display}: NO EPISODES PARSED ({cfg.get('folder')})")
@@ -270,10 +312,14 @@ def main():
                     desc = clean_syn(wd, slash, synseg)
             if (s,e) in force_generic:
                 desc = generic
+            if cfg.get("all_generic") and generic:    # game shows: show blurb on every episode
+                desc = generic
             if not desc and generic:
                 desc = generic
             # S/E
             se = [s,e] if (se_from_source and s) else None
+            if cfg.get("renumber"):          # IMDb numbering is broken -> S01 Exx by airing order
+                se = [1, absn]
             eps[str(absn)] = {"se":se, "sub":sub, "desc":desc}
             # txt desc override by (s,e)
             if txt_desc.get((s,e)):

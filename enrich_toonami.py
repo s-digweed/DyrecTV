@@ -344,6 +344,11 @@ def _se_pin(show, epname):
 SHOW_DESC_OVERRIDE = {
     "RiffTrax": "Feature films and short subjects presented with comedic running commentary -- "
                 "packed with jokes, asides, and relentless riffing from start to finish.",
+    # Movies / specials: one fixed blurb, no S/E, no sub-title.
+    "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)":
+        "Four talented alien musicians are kidnapped by a record producer who disguises them as "
+        "humans and has them reprogrammed to forget their real identities and play soulless "
+        "corporate pop as The Crescendolls.",
     # Pinned '60s cartoons: episode synopses aren't reliably available and a bare
     # name lookup risks the wrong same-named series, so use a fixed series blurb.
     "Spider-Man (1967)": "The classic 1967 animated series following Peter Parker, a teenage "
@@ -438,7 +443,8 @@ DISPLAY_CANON = {
     "Tintin": "The Adventures of Tintin",
     "Space Ghost C2C": "Space Ghost Coast to Coast",
     "Thundercats": "ThunderCats",
-    "Tick": "The Tick",
+    "Tick": "The Tick (1994)",
+    "The Tick": "The Tick (1994)",
     "Yu Yu Hakusho": "YuYu Hakusho",
     "Birdman": "Birdman and the Galaxy Trio",
     # Snickelodeon
@@ -477,7 +483,9 @@ DISPLAY_CANON = {
     # --- batch 5: from the filled master-map sheet + missing_se_7 ---
     "Brak Show": "The Brak Show",
     "BeetleJuice": "Beetlejuice",
-    "Are You Afraid Of The Dark": "Are You Afraid of the Dark? (1999)",
+    "Are You Afraid Of The Dark": "Are You Afraid of the Dark? (1990)",
+    "Are You Afraid of the Dark?": "Are You Afraid of the Dark? (1990)",
+    "Double Dare": "Double Dare (1986)",
     "Dragnet": "Dragnet (1967)",
     "Figure it Out Wild Style": "Figure It Out",
     "Finders Keepers": "Finders Keepers (1987)",
@@ -526,6 +534,24 @@ SEASON_TITLE = {
 EP_SE_SUBTITLE = {
     ("Sailor Moon", 1, 45): "Day of Destiny",
     ("Sailor Moon", 1, 46): "Brand New Life",
+}
+
+# Full DISPLAY-TITLE swap by season (not "<show> - <arc>" like SEASON_TITLE, but a
+# whole different title). Maya's second season aired as a separately-titled series.
+SEASON_DISPLAY = {
+    "Maya the Bee (1975)": {2: "The New Adventures of Maya the Honey Bee (1979)"},
+}
+
+# RAW-title pins: the feed splits a two-part OVA across two titles with NO
+# episodeNumber, so there's nothing to key a guide on. Map each raw title to its
+# display, sub-title, S/E and synopsis directly. Highest priority of all.
+RAW_PINS = {
+    "Goku Midnight Eye P1": {"display": "Goku Midnight Eye", "sub": "Goku: Midnight Eye",
+        "se": (1, 1), "desc": "Goku helps Yoko, his old policewoman friend, investigate a string "
+        "of bizarre suicides, all of which were of cops investigating a mysterious crime boss."},
+    "Goku Midnight Eye P2": {"display": "Goku Midnight Eye", "sub": "Goku: Midnight Eye II",
+        "se": (1, 2), "desc": "Goku is hired by a desperate woman, Ryouko, to prevent her brother "
+        "Ryu - a rampaging cyborg super-soldier - from exacting deadly revenge against their father."},
 }
 
 # ── episode PINS from IMDb for segment-based '66/'67 cartoons. The feed numbers
@@ -1848,6 +1874,13 @@ def enrich(path):
                 force_no_sub = True
         if g_desc and not mm_desc:
             forced_desc = g_desc
+        # RAW-title pins (Goku OVA two-parter) — override display/sub/desc here; S/E
+        # is set in the first S/E tier below. Highest priority.
+        rp = RAW_PINS.get(raw)
+        if rp:
+            disp_title = rp["display"]
+            orig_sub = rp["sub"]; clean_sub = clean_chapter(orig_sub); epname = clean_sub
+            forced_desc = rp["desc"]
         # TAM's S/E + synopsis describe the SAME episode we're showing only when
         # the identity agrees: the name came from TAM (Snick has no feed name), or
         # our episode name matches TAM's. Otherwise it's a different episode -> skip.
@@ -1872,6 +1905,9 @@ def enrich(path):
                 # 0*) MASTER MAP S/E — hand-verified, wins over every resolver below.
                 #     If you also supplied a synopsis it's already locked in via
                 #     forced_desc; an S/E-only entry fetches name+desc from the DBs.
+                if rp and season is None:        # RAW pin S/E (Goku) — top priority
+                    season, ep = rp["se"]
+                    source = "name"
                 if mm_se and season is None:
                     season, ep = mm_se
                     source = "master"
@@ -2123,6 +2159,10 @@ def enrich(path):
 
         # Season-named shows: display "<show> - <season name>" based on the resolved
         # season (e.g. Rurouni Kenshin S2 -> "Rurouni Kenshin - Legend of Kyoto").
+        # Full title swap by season (Maya S2 -> "The New Adventures of Maya the Honey Bee (1979)")
+        _sd = SEASON_DISPLAY.get(disp_title or show)
+        if _sd and season in _sd:
+            disp_title = _sd[season]
         if season is not None and show in SEASON_TITLE and season in SEASON_TITLE[show]:
             disp_title = f"{show} - {SEASON_TITLE[show][season]}"
 
