@@ -232,6 +232,10 @@
 "n": "The Perfect Hostess",
 "o": "Cousin Betsy from Chattanooga comes to visit, captivating all the eligible young men."
 },
+"12444|2|19": {
+"n": "Patty Meets a Celebrity",
+"o": "Sal Mineo visits his alma mater,  and Patty is cast in a play opposite him. The night of the performance, she gets stage fright and cannot speak her lines."
+},
 "12444|2|20": {
 "n": "The Raffle",
 "o": "To raise money for a church bazaar, Patty raffles off Richard."
@@ -1107,6 +1111,10 @@
 "221|1|22": {
 "n": "Love is a Fallacy",
 "o": "Thalia tries to educate Dobie in logical thinking."
+},
+"221|1|23": {
+"n": "The Chicken from Outer Space",
+"o": "Maynard gives a chicken an overdose of growth hormones as a biology class project ."
 },
 "221|1|24": {
 "n": "Dobie's Navy Blues",
@@ -3970,6 +3978,10 @@
 "nm": "Saving Tom",
 "ov": "Tom takes Chris diving on his 12th birthday, but has to go on a rescue soon after. Tom develops the bends because his helicopter has to fly at 20,000 feet to get over a storm. Tom is taken to a hospital, where he spends a few hour..."
 },
+"flipper 1995|4|6": {
+"nm": "",
+"ov": ""
+},
 "flipper 1995|4|9": {
 "nm": "Hurricane",
 "ov": "A hurricane is headed towards Bal Harbour."
@@ -4049,6 +4061,10 @@
 "grimm s fairy tale classics|1|5": {
 "nm": "",
 "ov": ""
+},
+"gullah gullah island|3|1": {
+"nm": "What's Up with Jobs?",
+"ov": "James and Binyah Binyah do some research on jobs; Vanessa awaits the arrival of a letter."
 },
 "gullah gullah island|3|14": {
 "nm": "",
@@ -4978,6 +4994,10 @@
 "nm": "Love Is a Fallacy",
 "ov": "Thalia attempts to teach Dobie the art of thinking, Maynard thumps out a jazz beat to \"cogito ergo sum\" on his school desk and new girl Whitney threatens to shake up the status quo."
 },
+"the many loves of dobie gillis|1|23": {
+"nm": "The Chicken from Outer Space",
+"ov": "As hard as he tries, Dobie just can't seem to get rid of Zelda Gilroy, the one girl he doesn't want but wants him. Zelda is aware of Dobie's failings, such as not being a very bright student and thus not having any future career p..."
+},
 "the many loves of dobie gillis|1|24": {
 "nm": "Dobie's Navy Blues",
 "ov": "Dobie lies about joining the navy to impress a girl's sea-minded father."
@@ -5011,6 +5031,10 @@
 "ov": ""
 },
 "the patty duke show|2|18": {
+"nm": "",
+"ov": ""
+},
+"the patty duke show|2|19": {
 "nm": "",
 "ov": ""
 },
@@ -5203,6 +5227,7 @@
 "All That": "A zany sketch comedy featuring many wacky characters hosted for kids and by kids.",
 "Allegra's Window": "Allegra's Window is a children's television series that aired on Nick Jr. from October 24, 1994 to May 1, 1996, with reruns airing from May 2, 1996 to June 1998 and later airing on Noggin from February 2, 1999 to April 2003. The show deals with the daily life of a precocious, imaginative puppet named Allegra, and featured live actors, puppets and animation ala Sesame Street. The show was created by Jan Fleming, John Hoffman and Jim Jinkins.\n\nThe series also spawned a series of music videos aired during interstitials that aired on Nick Jr.",
 "Alvin and the Chipmunks": "Three chipmunk brothers, Alvin, Simon, and Theodore are adopted by human, Dave.",
+"Alvin and the Chipmunks (1983)": "Three chipmunk brothers, Alvin, Simon, and Theodore are adopted by human, Dave.",
 "Android Kikaider": "The genius robotics professor Dr. Komyoji has created Jiro, a humanoid robot. Gifted with a conscience circuit, he has the power to simulate real emotions that help to distinguish between “right and wrong”.\n\nJiro must protect Mitsuko and Masaru from the evil Dr. Gil who wants Jiro to join his army and aid in his goal of world domination.",
 "Angry Beavers": "Daggett and Norbert Beaver are two young beaver brothers who have left their home to become bachelors in the forest near Wayouttatown, Oregon.",
 "Animorphs": "Five kids are given the power to morph into any creature they wish to help them fight villainous Visser Three and his fellow Yeerks, a breed of parasitic aliens threatening Earth.",

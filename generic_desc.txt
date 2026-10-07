@@ -1,15 +1,15 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-07 09:47 UTC)
+# DESCRIPTION REPORT  (2026-10-07 15:20 UTC)
 #   episode-specific: 1035
-#   fixed show-blurb: 26  (hand-supplied, intentional)
-#   generic (blurb) : 35
+#   fixed show-blurb: 28  (hand-supplied, intentional)
+#   generic (blurb) : 33
 #   none            : 5
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line. To set a real one, paste into
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Allegra's Window", "Lots of Turkey Pox"): "",   # S/E set but no DB/OMDb/TAM episode overview
+    ("Alvin and the Chipmunks (1983)", "Food for Thought"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Are You Afraid of the Dark? (1999)", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Celebrity Deathmatch", "Battle of the Boys with Toys"): "",   # no S/E resolved -> show-level blurb
     ("Digimon Adventure", "Prophecy"): "",   # no S/E resolved -> show-level blurb
@@ -24,8 +24,7 @@
     ("Justice League", "Secret Origins: Part 3"): "",   # no S/E resolved -> show-level blurb
     ("Maya the Bee (1975)", "Maja on the Sea"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("Nickelodeon GUTS", "Michael - Leila - Trecia"): "",   # S/E set but no DB/OMDb/TAM episode overview
-    ("Noozles", "The Magic Show"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("The Tick", "The Tick Loves Santa!"): "",   # no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "Ep 50"): "",   # S/E set but no DB/OMDb/TAM episode overview
+    ("What Would You Do? (1991)", "Using You Senses"): "",   # S/E set but no DB/OMDb/TAM episode overview
     ("You're On!", "(no episode name)"): "",   # no S/E resolved -> show-level blurb
     ("Yu-Gi-Oh!", "Rage of the Egyptian Gods"): "",   # no S/E resolved -> show-level blurb

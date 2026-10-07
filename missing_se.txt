@@ -1,16 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-10-07 09:47 UTC)
+# RUN STATUS  (2026-10-07 15:20 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1035 episode-specific, 26 fixed show-blurb, 35 generic, 5 none (see generic_desc.txt)
+#   descriptions     : 1035 episode-specific, 28 fixed show-blurb, 33 generic, 5 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 737  (manual pins: 108)
+#   S/E by name      : 705  (manual pins: 108)
 #   S/E by absolute  : 17
-#   S/E + desc / TAM : 28  (name+S/E+synopsis taken straight from TAM)
+#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 0  (S/E from your hand-verified sheet)
-#   abs-resolve Snick: 219  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 156  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 105  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 224
+#   names from TAM   : 280
 #   S/E withheld     : 11  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
