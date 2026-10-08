@@ -108,11 +108,11 @@
     <title>My Little Pony: Friendship is Magic</title>
     <icon src="https://images.steamusercontent.com/ugc/17789946771487598181/8084E74664F8A7070568FF94A92C7E1338B3E63C/" />
   </programme>
-  <programme start="20261002193000 -0500" stop="20261002200000 -0500" channel="C298.259.ersatztv.org">
+  <programme start="20261002193000 -0500" stop="20261002200000 -0500" channel="Jpuffle5">
     <title>The Scooby-Doo Show</title>
     <icon src="https://images.steamusercontent.com/ugc/11094809152141438472/86713A4828E6DD55256D0C729703F5F73EBEE79E/" />
   </programme>
-  <programme start="20261002200000 -0500" stop="20261002203000 -0500" channel="C298.259.ersatztv.org">
+  <programme start="20261002200000 -0500" stop="20261002203000 -0500" channel="Jpuffle5">
     <title>The New Scooby-Doo Mysteries</title>
     <icon src="https://images.steamusercontent.com/ugc/15125296343050190558/C88FC4B145945873A7071868452EC5DF42FD3B44/" />
   </programme>
@@ -901,5 +901,97 @@
   <programme start="20261007133000 -0500" stop="20261007140000 -0500" channel="Jpuffle5">
     <title>The Flintstones</title>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061414972/F4EFD0ADBBE9F8E600CABD91350C5E222264F5B3/" />
+  </programme>
+  <programme start="20261007140000 -0500" stop="20261007143000 -0500" channel="Jpuffle5">
+    <title>Scooby's All-Star Laff-A-Lympics</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997299061440535/F33007081AD2B3D537FB66996DF3D84334CA1EF5/" />
+  </programme>
+  <programme start="2026100714300 -0500" stop="20261007150000 -0500" channel="Jpuffle5">
+    <title>Scooby-Doo and Scrappy-Doo</title>
+    <icon src="https://images.steamusercontent.com/ugc/18099849448164910256/869398E7544F3CFEFDFA156DC1EF56625639CE2A/" />
+  </programme>
+  <programme start="20261007150000 -0500" stop="20261007170000 -0500" channel="Jpuffle5">
+    <title>Scooby-Doo Meets the Boo Brothers</title>
+    <icon src="https://images.steamusercontent.com/ugc/13249251904976922809/2045EC417CE66FCA86525C5B227C7FF5A0960C6B/" />    
+  </programme>
+   <programme start="20261007170000 -0500" stop="20261007180000 -0500" channel="Jpuffle5">
+    <title>The New Scooby-Doo Movies</title>
+    <icon src="https://images.steamusercontent.com/ugc/12864408403820982365/D8B87D3E7C0368A274039DE137D2327DA540BF34/" />    
+  </programme>
+  <programme start="20261007180000 -0500" stop="20261007200000 -0500" channel="Jpuffle5">
+    <title>Scooby-Doo and the Ghoul School </title>
+    <icon src="https://images.steamusercontent.com/ugc/2431453671043383801/166FE8E465CBAF98BBF38A05EC054B6F9B51D4F3/" />
+  </programme>
+  <programme start="20261007200000 -0500" stop="20261007203000 -0500" channel="Jpuffle5">
+    <title>The New Scooby-Doo Mysteries</title>
+    <icon src="https://images.steamusercontent.com/ugc/15125296343050190558/C88FC4B145945873A7071868452EC5DF42FD3B44/" />
+  </programme>
+  <programme start="20261007203000 -0500" stop="20261007210000 -0500" channel="Jpuffle5">
+    <title>Funky Phantom</title>
+    <icon src="https://images.steamusercontent.com/ugc/14710416759466081718/69C584FE31BD1F28F4DAE2745246C9EF8475DCD6/" />   
+  </programme>
+  <programme start="20261007210000 -0500" stop="20261007213000 -0500" channel="Jpuffle5">
+    <title>Goober and the Ghost Chasers</title>
+    <icon src="https://images.steamusercontent.com/ugc/12037003961338895025/FB7773F5F7C62DB25AF78D6C5D6A8FAE1165D251/" />
+  </programme>
+  <programme start="20261007213000 -0500" stop="20261007220000 -0500" channel="Jpuffle5">
+    <title>Fangface</title>
+    <icon src="https://images.steamusercontent.com/ugc/11412690864605056142/7DD71199478CC265B781ED625194A0ABA9953689/" />
+  </programme>
+  <programme start="20261007220000 -0500" stop="20261007223000 -0500" channel="Jpuffle5">
+    <title>The Addams Family</title>
+    <icon src="https://images.steamusercontent.com/ugc/9307131321175470307/EA65F7331EDA8C99DD13EFCD6F14A05538806075/" />
+  </programme>
+  <programme start="20261007223000 -0500" stop="20261007230000 -0500" channel="Jpuffle5">
+    <title>The Munsters</title>
+    <icon src="https://images.steamusercontent.com/ugc/14701042845858983074/92604C7E7D16B0DF8B1E2EB30D2379A3EF9C11D7/" />
+  </programme>
+  <programme start="20261007230000 -0500" stop="20261007233000 -0500" channel="Jpuffle5">
+    <title>The Real Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/33323018022927501/CC246B9116E05C0B56898A03AFCCB513B4D6E74A/" />   
+  </programme>
+  <programme start="20261007233000 -0500" stop="20261008000000 -0500" channel="Jpuffle5">
+    <title>The Real Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/33323018022927501/CC246B9116E05C0B56898A03AFCCB513B4D6E74A/" />   
+  </programme>
+  <programme start="20261008000000 -0500" stop="20261008003000 -0500" channel="Jpuffle5">
+    <title>Extreme Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/2483256482326899027/573B19F391C0E0A9211AD7F1DD9BCCDA41C7B1AA/" />   
+  </programme>
+  <programme start="20261008003000 -0500" stop="20261008010000 -0500" channel="Jpuffle5">
+    <title>Extreme Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/2483256482326899027/573B19F391C0E0A9211AD7F1DD9BCCDA41C7B1AA/" />   
+  </programme>
+  <programme start="20261008010000 -0500" stop="20261008013000 -0500" channel="Jpuffle5">
+    <title>Filmation's Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/2483256482326868960/9E6C9E07E96AF99F600B5587CCB8314F8AA23C72/" />   
+  </programme>
+  <programme start="20261008013000 -0500" stop="20261008020000 -0500" channel="Jpuffle5">
+    <title>Filmation's Ghostbusters</title>
+    <icon src="https://images.steamusercontent.com/ugc/2483256482326868960/9E6C9E07E96AF99F600B5587CCB8314F8AA23C72/" />   
+  </programme>
+  <programme start="20261008020000 -0500" stop="20261008023000 -0500" channel="Jpuffle5">
+    <title>Secret Squirrel</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997299060738171/3ADC95FFF6DA9C7898399C4F7F6BAB17F5415090/" />
+  </programme>
+  <programme start="20261008023000 -0500" stop="20261008030000 -0500" channel="Jpuffle5">
+    <title>Pixie &amp; Dixie</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997299060923231/F62A592BC15D6BE4924E8A999374A6E8CA80CED3/" />
+  </programme>
+  <programme start="20261008030000 -0500" stop="20261008033000 -0500" channel="Jpuffle5">
+    <title>MGM</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997394333976027/120A6CA86B4DC716B7B247E168F7DB4EDF899D8D/" />
+  </programme>
+  <programme start="20261008033000 -0500" stop="20261008040000 -0500" channel="Jpuffle5">
+    <title>The Kwicky Koala Show</title>
+    <icon src="https://images.steamusercontent.com/ugc/2467489697488819475/0203F1C48F500673DAAC5733A85D68902B9FCBE0/" />
+  </programme>
+  <programme start="20261008040000 -0500" stop="20261008043000 -0500" channel="Jpuffle5">
+    <title>The Great Grape Ape</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997299061441812/28B423286271B43AEBCA605EF3BB617D25A495C4/" />
+  </programme>
+  <programme start="20261008043000 -0500" stop="20261008050000 -0500" channel="Jpuffle5">
+    <title>The New Fred and Barney Show</title>
+    <icon src="https://images.steamusercontent.com/ugc/2489997299061431060/A915C256A6630609073AE10D0F5F7A0512AC79E9/" />
   </programme>
 </tv>
