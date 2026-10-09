@@ -175,9 +175,10 @@
   </programme>
   <programme start="20261009230000 +0000" stop="20261009233000 +0000" channel="2x2_english">
     <title lang="en">Infinity Train</title>
-    <desc lang="en">Various people find themselves on a mysterious train with an endless number of cars, each one being its own universe, and they must find a way to get home in this animated anthology series.</desc>
-    <episode-num system="onscreen">S02</episode-num>
-    <episode-num system="xmltv_ns">1..</episode-num>
+    <sub-title lang="en">The Family Tree Car</sub-title>
+    <desc lang="en">Mirror Tulip and Jesse climb down a live family tree.</desc>
+    <episode-num system="onscreen">S02 E02</episode-num>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
   </programme>
   <programme start="20261009233000 +0000" stop="20261010000000 +0000" channel="2x2_english">
     <title lang="en">Witch Hat Atelier</title>
@@ -194,7 +195,7 @@
     <episode-num system="xmltv_ns">0.45.</episode-num>
   </programme>
   <programme start="20261010003000 +0000" stop="20261010010000 +0000" channel="2x2_english">
-    <title lang="en">One Piece</title>
+    <title lang="en">One Piece - East Blue</title>
     <sub-title lang="en">Usopp Dies?! Luffy Lands Ashore Yet?</sub-title>
     <desc lang="en">To prove her "loyalty" to Arlong, Nami appears to kill Usopp. Meanwhile, Zoro hitches a ride with Hatchan, and Luffy's group finally arrives at the island, unaware that Usopp survived and Nami's act is part of a larger plan.</desc>
     <episode-num system="onscreen">S01 E33</episode-num>
@@ -218,31 +219,34 @@
     <title lang="en">King of the Hill</title>
     <sub-title lang="en">Hilloween</sub-title>
     <desc lang="en">Hank is excited about Halloween until someone complains and has the holiday canceled.</desc>
-    <episode-num system="onscreen">S02 E03</episode-num>
-    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <episode-num system="onscreen">S02 E04</episode-num>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
   </programme>
   <programme start="20261010022500 +0000" stop="20261010025000 +0000" channel="2x2_english">
     <title lang="en">Women Wearing Shoulder Pads</title>
-    <desc lang="en">A wealthy Spanish woman from Ecuador navigates the complicated world of love, family, commercials, and cuyes.</desc>
+    <sub-title lang="en">El Cordón Umbilical</sub-title>
+    <desc lang="en">Marioneta wakes up in a warehouse, terrified and traumatized. She must overcome her fears to direct a TV commercial.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
   </programme>
   <programme start="20261010025000 +0000" stop="20261010031500 +0000" channel="2x2_english">
     <title lang="en">Home Movies</title>
-    <sub-title lang="en">The Wedding</sub-title>
-    <desc lang="en">Brendon develops a mysterious rash on his back that he calls "The Crab," while Andrew and Linda get married. Meanwhile, Paula's friend takes a liking to Coach McGuirk, and Brendon uninvitedly invites McGuirk to the wedding.</desc>
+    <sub-title lang="en">The Party</sub-title>
+    <desc lang="en">Brendon makes a film for Fenton Muley and Fenton hates it.</desc>
     <episode-num system="onscreen">S02 E13</episode-num>
     <episode-num system="xmltv_ns">1.12.</episode-num>
   </programme>
   <programme start="20261010031500 +0000" stop="20261010034000 +0000" channel="2x2_english">
     <title lang="en">Fullmetal Alchemist: Brotherhood</title>
     <sub-title lang="en">The First Day</sub-title>
-    <desc lang="en">A glimpse into the past reveals the pain and desperation that drove the Elric brothers to break alchemy's greatest taboo by attempting to revive their deceased mother.</desc>
+    <desc lang="en">A glimpse into the past reveals the pain and desperation that drove the Elric boys to break alchemy's greatest taboo — human transmutation — and their reasons for becoming dogs of the military.</desc>
     <episode-num system="onscreen">S01 E02</episode-num>
     <episode-num system="xmltv_ns">0.1.</episode-num>
   </programme>
   <programme start="20261010034000 +0000" stop="20261010040500 +0000" channel="2x2_english">
     <title lang="en">Revolutionary Girl Utena</title>
     <sub-title lang="en">Azure Paler Than the Sky</sub-title>
-    <desc lang="en">Realizing the only way to defeat Utena and Anthy is through a powerful partnership, the returning fencing captain Ruka (Rukia) seeks to form an alliance with Juri.</desc>
+    <desc lang="en">Realizing the only way to defeat Utena and Anthy is with a partnership equally as strong, Rukia seeks to ally himself with Jury.</desc>
     <episode-num system="onscreen">S01 E29</episode-num>
     <episode-num system="xmltv_ns">0.28.</episode-num>
   </programme>
@@ -291,6 +295,375 @@
     <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
   </programme>
   <programme start="20261015160000 +0000" stop="20261016040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261016040000 +0000" stop="20261016160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261016160000 +0000" stop="20261016230000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261016230000 +0000" stop="20261016233000 +0000" channel="2x2_english">
+    <title lang="en">Infinity Train</title>
+    <sub-title lang="en">The Map Car</sub-title>
+    <desc lang="en">Mirror Tulip tries to help Jesse get his number down.</desc>
+    <episode-num system="onscreen">S02 E03</episode-num>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme start="20261016233000 +0000" stop="20261017000000 +0000" channel="2x2_english">
+    <title lang="en">Witch Hat Atelier</title>
+    <sub-title lang="en">The Test in Serpentback Cave</sub-title>
+    <desc lang="en">Richeh reveals her distaste for spells that are not her own, while Agott gets the date for her second test.</desc>
+    <episode-num system="onscreen">S01 E11</episode-num>
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+  </programme>
+  <programme start="20261017000000 +0000" stop="20261017003000 +0000" channel="2x2_english">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">Kame House — Found!</sub-title>
+    <desc lang="en">After realizing that the dragon ball is too deep to swim to, Goku and Bulma return to Master Roshi's island to borrow a submarine. While there, Krillin and Roshi tell them about hidden pirate treasure that is supposedly located near the dragon ball. Meanwhile, General Blue sends a scout to follow Goku.</desc>
+    <episode-num system="onscreen">S01 E47</episode-num>
+    <episode-num system="xmltv_ns">0.46.</episode-num>
+  </programme>
+  <programme start="20261017003000 +0000" stop="20261017010000 +0000" channel="2x2_english">
+    <title lang="en">One Piece - East Blue</title>
+    <sub-title lang="en">Everyone's Gathered! Usopp Speaks the Truth About Nami!</sub-title>
+    <desc lang="en">Arlong's officers sink a Marine rescue ship as Usopp reunites with the crew and Nojiko starts unveiling Nami's painful past; Luffy plants himself in the road, vowing not to leave without his navigator.</desc>
+    <episode-num system="onscreen">S01 E34</episode-num>
+    <episode-num system="xmltv_ns">0.33.</episode-num>
+  </programme>
+  <programme start="20261017010000 +0000" stop="20261017013000 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">The Belchies</sub-title>
+    <desc lang="en">The kids hunt for treasure in an abandoned taffy factory and Bob and Linda must find them before the factory's scheduled demolition.</desc>
+    <episode-num system="onscreen">S02 E01</episode-num>
+    <episode-num system="xmltv_ns">1.0.</episode-num>
+  </programme>
+  <programme start="20261017013000 +0000" stop="20261017020000 +0000" channel="2x2_english">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">Treehouse of Horror III</sub-title>
+    <desc lang="en">An evil Krusty the Clown doll tries to kill Homer; Marge is captured by a giant ape who falls in love with her; Bart inadvertently raises the dead.</desc>
+    <episode-num system="onscreen">S04 E05</episode-num>
+    <episode-num system="xmltv_ns">3.4.</episode-num>
+  </programme>
+  <programme start="20261017020000 +0000" stop="20261017022500 +0000" channel="2x2_english">
+    <title lang="en">American Dad</title>
+    <sub-title lang="en">Best Little Horror House in Langley Falls</sub-title>
+    <desc lang="en">Stan's plan to out-do the neighbor's fancy haunted house backfires when Roger releases the serial killers he was borrowing from the CIA. Meanwhile, Steve faces Toshi's revenge when he takes a liking to his sister Akiko.</desc>
+    <episode-num system="onscreen">S06 E03</episode-num>
+    <episode-num system="xmltv_ns">5.2.</episode-num>
+  </programme>
+  <programme start="20261017022500 +0000" stop="20261017025000 +0000" channel="2x2_english">
+    <title lang="en">Common Side Effects</title>
+    <sub-title lang="en">Pilot</sub-title>
+    <desc lang="en">High school lab partners Marshall and Frances uncover a conspiracy by big pharma and the government to suppress a rare mushroom that could cure all diseases.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261017025000 +0000" stop="20261017031500 +0000" channel="2x2_english">
+    <title lang="en">YOLO - Silver Destiny</title>
+    <sub-title lang="en">Sausage Sizzle / Planet Bali</sub-title>
+    <desc lang="en">After a wild night of partying, Sarah and Rachel stumble into a spiritual commune for a free sausage sizzle and encounter the Purple Fire God, who tells them their destiny.
+
+Sarah, Rachel and Lucas head to Planet Bali for Sarah's sister's wedding and are surprised to discover the identity of the groom; while waiting on the beach to guard Rachel's sword, Lucas encounters a mermaid who sets him on a new quest.</desc>
+    <episode-num system="onscreen">S02 E01-E02</episode-num>
+  </programme>
+  <programme start="20261017031500 +0000" stop="20261017034000 +0000" channel="2x2_english">
+    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
+    <sub-title lang="en">City of Heresy</sub-title>
+    <desc lang="en">Science and faith collide when the Elrics confront Father Cornello. He claims to work miracles, but the brothers suspect him of abusing a Philosopher's Stone to manipulate his flock.</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261017034000 +0000" stop="20261017040500 +0000" channel="2x2_english">
+    <title lang="en">Revolutionary Girl Utena</title>
+    <sub-title lang="en">The Barefoot Girl</sub-title>
+    <desc lang="en">As Utena has gotten to know Akio, she's started to realize that she has feelings for him. But what of the prince Utena holds within her heart? And what of Akio's fiance? Can love be wrong?</desc>
+    <episode-num system="onscreen">S01 E30</episode-num>
+    <episode-num system="xmltv_ns">0.29.</episode-num>
+  </programme>
+  <programme start="20261017040500 +0000" stop="20261017160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261017160000 +0000" stop="20261018040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261018040000 +0000" stop="20261018160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261018160000 +0000" stop="20261019040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261019040000 +0000" stop="20261019160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261019160000 +0000" stop="20261020040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261020040000 +0000" stop="20261020160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261020160000 +0000" stop="20261021040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261021040000 +0000" stop="20261021160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261021160000 +0000" stop="20261022040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261022040000 +0000" stop="20261022160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261022160000 +0000" stop="20261023040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261023040000 +0000" stop="20261023160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261023160000 +0000" stop="20261023230000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261023230000 +0000" stop="20261023233000 +0000" channel="2x2_english">
+    <title lang="en">Infinity Train</title>
+    <sub-title lang="en">The Toad Car</sub-title>
+    <desc lang="en">Mirror Tulip and Jesse get stuck in a car and face an unusual dilemma.</desc>
+    <episode-num system="onscreen">S02 E04</episode-num>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme start="20261023233000 +0000" stop="20261024000000 +0000" channel="2x2_english">
+    <title lang="en">Witch Hat Atelier</title>
+    <sub-title lang="en">The Shadow of Romonon</sub-title>
+    <desc lang="en">Coco's dreams of casting magic might become a reality after she uncovers a secret and becomes an apprentice.</desc>
+    <episode-num system="onscreen">S01 E12</episode-num>
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+  </programme>
+  <programme start="20261024000000 +0000" stop="20261024003000 +0000" channel="2x2_english">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">Deep Blue Sea</sub-title>
+    <desc lang="en">Goku, Bulma, and Krillin go to find the dragon ball in their submarine, and General Blue follows them. Blue also sends his soldiers to Roshi's island to retrieve the other two dragon balls.</desc>
+    <episode-num system="onscreen">S01 E48</episode-num>
+    <episode-num system="xmltv_ns">0.47.</episode-num>
+  </programme>
+  <programme start="20261024003000 +0000" stop="20261024010000 +0000" channel="2x2_english">
+    <title lang="en">One Piece - East Blue</title>
+    <sub-title lang="en">Untold Past! Female Warrior Bellemere! Nami!</sub-title>
+    <desc lang="en">Flashbacks show ex-Marine Bellemere rescuing war orphans Nami and Nojiko and raising them in Cocoyasi until Arlong's brutal takeover forces villagers to pay tribute, setting the stage for Nami's desperate bargain.</desc>
+    <episode-num system="onscreen">S01 E35</episode-num>
+    <episode-num system="xmltv_ns">0.34.</episode-num>
+  </programme>
+  <programme start="20261024010000 +0000" stop="20261024013000 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">Bob Day Afternoon</sub-title>
+    <desc lang="en">A bank robber holds up a bank across the street from Bob's Burgers. When the robbery goes awry, Bob finds himself at the center of a hostage crisis.</desc>
+    <episode-num system="onscreen">S02 E02</episode-num>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+  </programme>
+  <programme start="20261024013000 +0000" stop="20261024020000 +0000" channel="2x2_english">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">Treehouse of Horror IV</sub-title>
+    <desc lang="en">Homer sells his soul to the Devil for a donut, Bart contends with a gremlin on the side of the school bus which only he can see, and the family discovers that Mr. Burns is a vampire.</desc>
+    <episode-num system="onscreen">S05 E05</episode-num>
+    <episode-num system="xmltv_ns">4.4.</episode-num>
+  </programme>
+  <programme start="20261024020000 +0000" stop="20261024022500 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">Full Bars</sub-title>
+    <desc lang="en">On Halloween, the kids run into bullies when they go trick-or-treating in the rich neighborhood, while Bob and Linda attend a party where someone kills Teddy's pet guinea pig.</desc>
+    <episode-num system="onscreen">S03 E02</episode-num>
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+  </programme>
+  <programme start="20261024022500 +0000" stop="20261024025000 +0000" channel="2x2_english">
+    <title lang="en">Common Side Effects</title>
+    <sub-title lang="en">Lakeshore Limited</sub-title>
+    <desc lang="en">Marshall is on the run, trying to flee New York; Frances confides to her boss, Rick, about the mushroom; Rick sends her to Marshall's farm to get more, but the situation gets out of hand.</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261024025000 +0000" stop="20261024031500 +0000" channel="2x2_english">
+    <title lang="en">YOLO - Silver Destiny</title>
+    <sub-title lang="en">High School Reunion / Chaise in the City</sub-title>
+    <desc lang="en">Sarah throws a Wollongong High School reunion to show off her blossoming new garden, but the success of her old school mates only deepens her crisis of self-worth; Lucas must face a mysterious muscled bat boy to compete for Sarah's attention.
+
+The girls watch an art house flick starring a hot young actor; this leads to a wild romantic dream for Sarah; Rachel is determined to sabotage Sarah's dream.</desc>
+    <episode-num system="onscreen">S02 E03-E04</episode-num>
+  </programme>
+  <programme start="20261024031500 +0000" stop="20261024034000 +0000" channel="2x2_english">
+    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
+    <sub-title lang="en">An Alchemist's Distress</sub-title>
+    <desc lang="en">The Elrics meet Shou Tucker, a leading researcher in the field of chimeras. He has much to teach Ed and Al about alchemy — and the horrible cruelty that sometimes accompanies it.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261024034000 +0000" stop="20261024040500 +0000" channel="2x2_english">
+    <title lang="en">Revolutionary Girl Utena</title>
+    <sub-title lang="en">Her Tragedy</sub-title>
+    <desc lang="en">Nanami's growing irritation with the girls that flock to her brother is put into a strange context when she uncovers a horrifying revelation regarding their relationship.</desc>
+    <episode-num system="onscreen">S01 E31</episode-num>
+    <episode-num system="xmltv_ns">0.30.</episode-num>
+  </programme>
+  <programme start="20261024040500 +0000" stop="20261024160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261024160000 +0000" stop="20261025040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261025040000 +0000" stop="20261025160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261025160000 +0000" stop="20261026040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261026040000 +0000" stop="20261026160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261026160000 +0000" stop="20261027040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261027040000 +0000" stop="20261027160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261027160000 +0000" stop="20261028040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261028040000 +0000" stop="20261028160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261028160000 +0000" stop="20261029040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261029040000 +0000" stop="20261029160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261029160000 +0000" stop="20261030040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261030040000 +0000" stop="20261030160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261030160000 +0000" stop="20261030230000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261030230000 +0000" stop="20261030233000 +0000" channel="2x2_english">
+    <title lang="en">Infinity Train</title>
+    <desc lang="en">Various people find themselves on a mysterious train with an endless number of cars, each one being its own universe, and they must find a way to get home in this animated anthology series.</desc>
+    <episode-num system="onscreen">S02</episode-num>
+    <episode-num system="xmltv_ns">1..</episode-num>
+  </programme>
+  <programme start="20261030233000 +0000" stop="20261031000000 +0000" channel="2x2_english">
+    <title lang="en">Witch Hat Atelier</title>
+    <sub-title lang="en">Forbidden Magic</sub-title>
+    <desc lang="en">Agott, Richeh, and Euini are trapped in Serpentback Cave, confronting a terrifying Brimmed Cap witch.</desc>
+    <episode-num system="onscreen">S01 E13</episode-num>
+    <episode-num system="xmltv_ns">0.12.</episode-num>
+  </programme>
+  <programme start="20261031000000 +0000" stop="20261031003000 +0000" channel="2x2_english">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">Roshi Surprise</sub-title>
+    <desc lang="en">General Blue continues to follow Goku, Bulma, and Krillin. Meanwhile, Roshi and Launch must prevent the remainder of Blue's forces from stealing the dragon balls.</desc>
+    <episode-num system="onscreen">S01 E49</episode-num>
+    <episode-num system="xmltv_ns">0.48.</episode-num>
+  </programme>
+  <programme start="20261031003000 +0000" stop="20261031010000 +0000" channel="2x2_english">
+    <title lang="en">One Piece - East Blue</title>
+    <sub-title lang="en">Survive! Mother Bellemere and Nami's Bond!</sub-title>
+    <desc lang="en">Bellemere's shocking last stand against Arlong reveals Nami's tragic past. A crushed Nami vows to buy back Cocoyashi Village, forging the impossible promise that has bound her to the fish-man ever since.</desc>
+    <episode-num system="onscreen">S01 E36</episode-num>
+    <episode-num system="xmltv_ns">0.35.</episode-num>
+  </programme>
+  <programme start="20261031010000 +0000" stop="20261031013000 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">Synchronized Swimming</sub-title>
+    <desc lang="en">The Belcher children sign up for an independent study of synchronized swimming in lieu of participating in gym class. Linda disturbingly watches "pregnant yoga" and comes to the rescue of her children in the end.</desc>
+    <episode-num system="onscreen">S02 E03</episode-num>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme start="20261031013000 +0000" stop="20261031020000 +0000" channel="2x2_english">
+    <title lang="en">The Simpsons</title>
+    <sub-title lang="en">Treehouse of Horror V</sub-title>
+    <desc lang="en">The family's job at Mr. Burns' country estate goes awry when Homer goes mad; Homer's attempt to repair a toaster results in inadvertent time travel; The school staff turn cannibalistic.</desc>
+    <episode-num system="onscreen">S06 E06</episode-num>
+    <episode-num system="xmltv_ns">5.5.</episode-num>
+  </programme>
+  <programme start="20261031020000 +0000" stop="20261031022500 +0000" channel="2x2_english">
+    <title lang="en">Family Guy</title>
+    <sub-title lang="en">Petergeist</sub-title>
+    <desc lang="en">Peter's attempt to build a movie theater on the Indian burial ground in his backyard releases a poltergeist that sucks Stewie into the television set.</desc>
+    <episode-num system="onscreen">S04 E26</episode-num>
+    <episode-num system="xmltv_ns">3.25.</episode-num>
+  </programme>
+  <programme start="20261031022500 +0000" stop="20261031025000 +0000" channel="2x2_english">
+    <title lang="en">Common Side Effects</title>
+    <sub-title lang="en">Hildy</sub-title>
+    <desc lang="en">Marshall seeks advice from his old mentor, Hildy. Copano and Harrington are drawn further into the mystery of the mushrooms obtained at the raid.</desc>
+    <episode-num system="onscreen">S01 E03</episode-num>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+  </programme>
+  <programme start="20261031025000 +0000" stop="20261031031500 +0000" channel="2x2_english">
+    <title lang="en">YOLO - Silver Destiny</title>
+    <sub-title lang="en">The Jamberoo / The Parents</sub-title>
+    <desc lang="en">The gang travel 300 million years back in time using Lucas's time machine, where Sarah tries to rescue the Australian megafauna from a comet using skills she's learnt from a self-help guide; Rachel finds a special connection with a rugged Mega-Bilby.
+
+On a quest for a tale of familial lore, Lucas seeks out the story of how Sarah's parents met; he hears a ripping yarn of fair maidens and reckless bravery set in Ye Olde Wollongong, where dad needs to save mum from an arranged marriage to a boulder.</desc>
+    <episode-num system="onscreen">S02 E05-E06</episode-num>
+  </programme>
+  <programme start="20261031031500 +0000" stop="20261031034000 +0000" channel="2x2_english">
+    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
+    <sub-title lang="en">An Alchemist's Anguish</sub-title>
+    <desc lang="en">Edward and Alphonse are attacked by Scar, a mysterious killer wanted for a string of gruesome murders. His powers are incredible — and his obsession with slaying State Alchemists might be justified.</desc>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+  </programme>
+  <programme start="20261031034000 +0000" stop="20261031040500 +0000" channel="2x2_english">
+    <title lang="en">Revolutionary Girl Utena</title>
+    <sub-title lang="en">The Romance of the Dancing Girls</sub-title>
+    <desc lang="en">Unable to face Touga after uncovering the nature of their relationship, Nanami does all she can to avoid him.</desc>
+    <episode-num system="onscreen">S01 E32</episode-num>
+    <episode-num system="xmltv_ns">0.31.</episode-num>
+  </programme>
+  <programme start="20261031040500 +0000" stop="20261031160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261031160000 +0000" stop="20261101040000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261101040000 +0000" stop="20261101160000 +0000" channel="2x2_english">
+    <title lang="en">DO NOT DISTURB!</title>
+    <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
+  </programme>
+  <programme start="20261101160000 +0000" stop="20261102040000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
   </programme>
