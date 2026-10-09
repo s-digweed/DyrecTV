@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-08 09:58 UTC)
-#   episode-specific: 976
+# DESCRIPTION REPORT  (2026-10-09 05:36 UTC)
+#   episode-specific: 938
 #   fixed show-blurb: 25  (hand-supplied, intentional)
-#   generic (blurb) : 6
+#   generic (blurb) : 25
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,6 +10,14 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
+    ("Coraline", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Dragon Ball", "The Turtle Hermit's Kamehameha"): "",   # epNum=8  no S/E resolved -> show-level blurb
+    ("Dragon Ball Z", "Deja Vu"): "",   # epNum=67  no S/E resolved -> show-level blurb
     ("FairyTale A True Story", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Kiki's Delivery Service", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "I Left My Mind in San Francisco"): "",   # epNum=13  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Birthday Blues (Part 1)"): "",   # epNum=94  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Individual Happiness"): "",   # epNum=93  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Mixed Emotions"): "",   # epNum=92  no S/E resolved -> show-level blurb
+    ("Scooby-Doo Wheres My Mummy", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb

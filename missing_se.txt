@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-08 09:58 UTC)
+# RUN STATUS  (2026-10-09 05:36 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 976 episode-specific, 25 fixed show-blurb, 6 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 938 episode-specific, 25 fixed show-blurb, 25 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 619  (manual pins: 71)
-#   S/E by absolute  : 16
-#   S/E + desc / TAM : 4  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 578  (manual pins: 41)
+#   S/E by absolute  : 13
+#   S/E + desc / TAM : 5  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 0  (S/E from your hand-verified sheet)
-#   episode guide    : 193  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 102  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 191  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 228
-#   S/E withheld     : 0  (listed below)
+#   names from TAM   : 218
+#   S/E withheld     : 14  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,3 +22,9 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
+    ("Dragon Ball", "The Turtle Hermit's Kamehameha"): (, ),   # epNum=8
+    ("Dragon Ball Z", "Deja Vu"): (, ),   # epNum=67
+    ("Lupin the Third: Part II", "I Left My Mind in San Francisco"): (, ),   # epNum=13
+    ("Sailor Moon", "Birthday Blues (Part 1)"): (, ),   # epNum=94
+    ("Sailor Moon", "Individual Happiness"): (, ),   # epNum=93
+    ("Sailor Moon", "Mixed Emotions"): (, ),   # epNum=92
