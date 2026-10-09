@@ -1,5 +1,5 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-09 05:36 UTC)
+# DESCRIPTION REPORT  (2026-10-09 10:02 UTC)
 #   episode-specific: 938
 #   fixed show-blurb: 25  (hand-supplied, intentional)
 #   generic (blurb) : 25
