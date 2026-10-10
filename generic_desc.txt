@@ -1,9 +1,9 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-09 10:02 UTC)
-#   episode-specific: 938
-#   fixed show-blurb: 25  (hand-supplied, intentional)
-#   generic (blurb) : 25
-#   none            : 0
+# DESCRIPTION REPORT  (2026-10-10 00:34 UTC)
+#   episode-specific: 899
+#   fixed show-blurb: 22  (hand-supplied, intentional)
+#   generic (blurb) : 56
+#   none            : 1
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
 # (epNum=, blank = the API gave none). To set a real one, paste into
@@ -11,13 +11,23 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("Coraline", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("DBZ Abridged Halloween Special", "(no episode name)"): "",   # epNum=  no description found anywhere
+    ("Dragon Ball", "The Rabbit Boss' Special Technique"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Dragon Ball", "The Turtle Hermit's Kamehameha"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Dragon Ball Z", "Deja Vu"): "",   # epNum=67  no S/E resolved -> show-level blurb
     ("FairyTale A True Story", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Family Double Dare", "Episode 18"): "",   # epNum=70  S/E set but no DB/OMDb/TAM episode overview
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Kiki's Delivery Service", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Curse of the Jumbo Juju"): "",   # epNum=14  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "I Left My Mind in San Francisco"): "",   # epNum=13  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Birthday Blues (Part 1)"): "",   # epNum=94  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Birthday Blues (Part 2)"): "",   # epNum=95  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Hello, Sailor Mini Moon"): "",   # epNum=96  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Individual Happiness"): "",   # epNum=93  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Mixed Emotions"): "",   # epNum=92  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "Dragon and Tiger Clash! No Light For Dragon Tears"): "",   # epNum=33  no S/E resolved -> show-level blurb
     ("Scooby-Doo Wheres My Mummy", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Spider-Man: The Animated Series", "Secret Wars Chapter 3: Doom"): "",   # epNum=63  no S/E resolved -> show-level blurb
+    ("Teen Titans", "Detention"): "",   # epNum=10  no S/E resolved -> show-level blurb
+    ("X-Men: The Animated Series", "One Man's Worth (Part 1)"): "",   # epNum=53  no S/E resolved -> show-level blurb

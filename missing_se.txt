@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-09 10:02 UTC)
+# RUN STATUS  (2026-10-10 00:34 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 938 episode-specific, 25 fixed show-blurb, 25 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 899 episode-specific, 22 fixed show-blurb, 56 generic, 1 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 578  (manual pins: 41)
-#   S/E by absolute  : 13
-#   S/E + desc / TAM : 5  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 544  (manual pins: 21)
+#   S/E by absolute  : 8
+#   S/E + desc / TAM : 8  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 0  (S/E from your hand-verified sheet)
-#   episode guide    : 191  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 185  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 116  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 218
-#   S/E withheld     : 14  (listed below)
+#   names from TAM   : 208
+#   S/E withheld     : 37  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,9 +22,16 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
+    ("Dragon Ball", "The Rabbit Boss' Special Technique"): (, ),   # epNum=9
     ("Dragon Ball", "The Turtle Hermit's Kamehameha"): (, ),   # epNum=8
     ("Dragon Ball Z", "Deja Vu"): (, ),   # epNum=67
+    ("Lupin the Third: Part II", "Curse of the Jumbo Juju"): (, ),   # epNum=14
     ("Lupin the Third: Part II", "I Left My Mind in San Francisco"): (, ),   # epNum=13
     ("Sailor Moon", "Birthday Blues (Part 1)"): (, ),   # epNum=94
+    ("Sailor Moon", "Birthday Blues (Part 2)"): (, ),   # epNum=95
+    ("Sailor Moon", "Hello, Sailor Mini Moon"): (, ),   # epNum=96
     ("Sailor Moon", "Individual Happiness"): (, ),   # epNum=93
     ("Sailor Moon", "Mixed Emotions"): (, ),   # epNum=92
+    ("Saint Seiya: Knights of the Zodiac", "Dragon and Tiger Clash! No Light For Dragon Tears"): (, ),   # epNum=33
+    ("Teen Titans", "Detention"): (, ),   # epNum=10
+    ("X-Men: The Animated Series", "One Man's Worth (Part 1)"): (, ),   # epNum=53
