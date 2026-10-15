@@ -1,52 +1,43 @@
 # ============================================================
-# ABSOLUTE-RESOLVE REVIEW  (2026-10-14 08:23 UTC)
-#   auto-filled nameless slots: 43
+# ABSOLUTE-RESOLVE REVIEW  (2026-10-15 07:59 UTC)
+#   auto-filled nameless slots: 34
 # The feed gave only an episodeNumber (no name) for these, so the
 # S/E, episode name and synopsis below were resolved straight from
 # that absolute index via the DBs -- NOT corroborated against a feed
 # name. Verify, then lock good ones into the master map (keyed
 # show|episodeNumber); the master map overrides this tier.
 # ============================================================
-    Adventures of Superman  #59  ->  S03E07  "Olsen's Millions"
-    Animorphs  #7  ->  S01E07  "The Escape"
     Animorphs  #8  ->  S01E08  "The Alien"
     Captain Scarlet and the Mysterons  #17  ->  S01E17  "Crater 101"
-    Count Duckula  #28  ->  S02E02  "Ducknapped"
     Cousin Skeeter  #9  ->  S01E09  "Doctor Skeeter"
     David the Gnome  #26  ->  S01E26  "The Mountains of Beyond"
-    Dragnet (1967)  #27  ->  S02E10  "The Missing Realtor"
     F Troop  #15  ->  S01E15  "Here Comes the Tribe"
-    Family Double Dare  #70  ->  S03E18  "Episode 18"
+    F Troop  #16  ->  S01E16  "Iron Horse Go Home"
     Fifteen (Hillside)  #12  ->  S01E12  "Hanging In the Balance"
     Fireball XL5  #11  ->  S01E11  "Space Monster"
-    Flipper (1964)  #46  ->  S02E16  "Flipper's Odyssey (1)"
     Flipper (1964)  #47  ->  S02E17  "Flipper's Odyssey (2)"
     Flipper (1964)  #48  ->  S02E18  "Flipper's Odyssey (3)"
-    Flipper (1995)  #77  ->  S04E16  "The Inquiry"
     Flipper (1995)  #78  ->  S04E17  "Cap in Love"
     Flipper (1995)  #79  ->  S04E18  "Message in a Bottle"
-    Get Smart (1965)  #99  ->  S04E13  "Schwartz's Island"
-    Green Acres  #7  ->  S01E07  "Neighborliness"
     Gumby Adventures  #1  ->  S01E01  "The Music Ball / Shrink-a-Dink / Hatching Out"
     Gumby Adventures  #2  ->  S01E02  "Mirror-Aculous Recovery / As the Worm Turns / Wild Girls"
-    Inspector Gadget  #10  ->  S01E10  "A Star is Lost"
     Inspector Gadget  #11  ->  S01E11  "All That Glitters"
     Inspector Gadget  #12  ->  S01E12  "Movie Set"
     Joe 90  #11  ->  S01E11  "Relative Danger"
-    Lassie (1954)  #93  ->  S03E28  "The Dog House"
     Lassie (1954)  #94  ->  S03E29  "The Search"
     Lassie (1954)  #95  ->  S03E30  "Boy's Day"
     Lassie (1954)  #96  ->  S03E31  "The Snob"
     Lassie (1954)  #97  ->  S03E32  "Haunted House"
-    My Brother and Me  #8  ->  S01E08  "Dee Dee's Haircut"
     My Brother and Me  #9  ->  S01E09  "Dee Dee Runs Away"
+    Rhoda  #41  ->  S02E16  "Rhoda's Sellout"
     Space: 1999  #17  ->  S01E17  "The Last Sunset"
     Stingray (1964)  #11  ->  S01E11  "In Search of the Tajmanon"
+    Taxi  #59  ->  S03E13  "Zen and the Art of Cab Driving"
     The Adventures of Pete & Pete  #33  ->  S03E07  "Last Laugh"
-    The Lucy Show  #111  ->  S05E01  "Lucy and George Burns"
-    The Many Loves of Dobie Gillis  #27  ->  S01E27  "The Prettiest Collateral in Town"
-    The Munsters  #31  ->  S01E31  "Love Comes to Mockingbird Heights"
-    The Patty Duke Show  #59  ->  S02E23  "Patty Pits Wits -- Two Brits Hits"
-    The Secret World of Alex Mack  #64  ->  S04E06  "Foot Fault"
+    The Bob Newhart Show  #117  ->  S05E21  "Desperate Sessions"
+    The Brady Bunch  #99  ->  S05E04  "Never Too Young"
+    The Brady Bunch  #100  ->  S05E05  "Peter and the Wolf"
+    The Munsters  #32  ->  S01E32  "Mummy Munster"
+    The Phil Silvers Show  #115  ->  S04E08  "Bilko and the Crosby's"
     The Wild Thornberrys  #37  ->  S02E17  "Thornberry Island"
     UFO  #11  ->  S01E11  "Close Up"

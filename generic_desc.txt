@@ -1,9 +1,9 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-14 08:23 UTC)
-#   episode-specific: 1006
-#   fixed show-blurb: 14  (hand-supplied, intentional)
-#   generic (blurb) : 93
-#   none            : 4
+# DESCRIPTION REPORT  (2026-10-15 07:59 UTC)
+#   episode-specific: 931
+#   fixed show-blurb: 16  (hand-supplied, intentional)
+#   generic (blurb) : 72
+#   none            : 3
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
 # (epNum=, blank = the API gave none). To set a real one, paste into
@@ -11,23 +11,19 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("2 Stupid Dogs", "Agent Penny"): "",   # epNum=38  no S/E resolved -> show-level blurb
-    ("Coraline", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("DBZ Abridged Halloween Special", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Dragon Ball", "Goku's Great Transformation"): "",   # epNum=13  no S/E resolved -> show-level blurb
     ("Dragon Ball", "The Mysterious Girl Launch"): "",   # epNum=15  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "The Rabbit Boss' Special Technique"): "",   # epNum=9  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "The Turtle Hermit's Kamehameha"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Dragon Ball", "The Wish to Shen Long"): "",   # epNum=12  no S/E resolved -> show-level blurb
-    ("Family Double Dare", "Episode 18"): "",   # epNum=70  S/E set but no DB/OMDb/TAM episode overview
     ("Fantastic Four", "Demon in the Deep"): "",   # epNum=11  no S/E resolved -> show-level blurb
+    ("Final Fantasy VII Advent Children", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Gold Diggers The Secret of Bear Mountain", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Gullah Gullah Island", "(no episode name)"): "",   # epNum=55  no S/E resolved -> show-level blurb
     ("Gullah Gullah Island", "(no episode name)"): "",   # epNum=54  no S/E resolved -> show-level blurb
-    ("Gullah Gullah Island", "(no episode name)"): "",   # epNum=53  no S/E resolved -> show-level blurb
     ("Halloween is Grinch Night", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Iron Man", "The Mandarin's Revenge!, The Mandarin's Death Ray, No One Escapes the Mandarin"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Crude Reproduction, Perfect Frame"): "",   # epNum=16  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Curse of the Jumbo Juju"): "",   # epNum=14  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Sheik-Down"): "",   # epNum=17  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Case of the Risible Dirigible"): "",   # epNum=15  no S/E resolved -> show-level blurb
     ("Neon Genesis Evangelion", "A World That's Ending"): "",   # epNum=25  no S/E resolved -> show-level blurb
@@ -37,15 +33,9 @@
     ("Rurouni Kenshin", "The Tragedy of a Stormy Night"): "",   # epNum=55  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Art Appreciation"): "",   # epNum=100  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Everything's Coming Up Rosy"): "",   # epNum=101  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "People Who Need People"): "",   # epNum=98  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "Related By Destiny"): "",   # epNum=99  no S/E resolved -> show-level blurb
     ("Sailor Moon SuperS - Black Dream Hole", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Desperate Journey! Open Dragon's Eyes"): "",   # epNum=35  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Dragon and Tiger Clash! No Light For Dragon Tears"): "",   # epNum=33  no S/E resolved -> show-level blurb
-    ("Spider-Man: The Animated Series", "Spider Wars Chapter 2: Farewell, Spider-Man"): "",   # epNum=65  no S/E resolved -> show-level blurb
     ("Teen Titans", "Detention"): "",   # epNum=10  no S/E resolved -> show-level blurb
-    ("What Would You Do? (1991)", "Wearing a Costume Outside"): "",   # epNum=2  S/E set but no DB/OMDb/TAM episode overview
     ("Winnie the Pooh Boo To You Too", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("X-Men: The Animated Series", "One Man's Worth (Part 1)"): "",   # epNum=53  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "One Man's Worth (Part 2)"): "",   # epNum=54  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Proteus (Part 1)"): "",   # epNum=55  no S/E resolved -> show-level blurb
