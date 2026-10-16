@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-15 07:59 UTC)
+# RUN STATUS  (2026-10-16 07:53 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 931 episode-specific, 16 fixed show-blurb, 72 generic, 3 none (see generic_desc.txt)
+#   descriptions     : 898 episode-specific, 14 fixed show-blurb, 82 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 545  (manual pins: 0)
-#   S/E by absolute  : 14
+#   S/E by name      : 508  (manual pins: 0)
+#   S/E by absolute  : 9
 #   S/E + desc / TAM : 31  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 12  (S/E from your hand-verified sheet)
-#   episode guide    : 193  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 94  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   master map       : 16  (S/E from your hand-verified sheet)
+#   episode guide    : 191  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 101  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 230
-#   S/E withheld     : 50  (listed below)
+#   names from TAM   : 220
+#   S/E withheld     : 57  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -27,18 +27,21 @@
     ("Dragon Ball", "The Mysterious Girl Launch"): (, ),   # epNum=15
     ("Dragon Ball", "The Wish to Shen Long"): (, ),   # epNum=12
     ("Fantastic Four", "Demon in the Deep"): (, ),   # epNum=11
-    ("Iron Man", "The Mandarin's Revenge!, The Mandarin's Death Ray, No One Escapes the Mandarin"): (, ),   # epNum=4
     ("Lupin the Third: Part II", "Crude Reproduction, Perfect Frame"): (, ),   # epNum=16
+    ("Lupin the Third: Part II", "My Birthday Pursuit"): (, ),   # epNum=18
     ("Lupin the Third: Part II", "Sheik-Down"): (, ),   # epNum=17
-    ("Lupin the Third: Part II", "The Case of the Risible Dirigible"): (, ),   # epNum=15
     ("Neon Genesis Evangelion", "A World That's Ending"): (, ),   # epNum=25
     ("Neon Genesis Evangelion", "The Beast that Shouted 'I' at the Heart of the World"): (, ),   # epNum=26
     ("Ranma ½", "Close Call! The Dance of Death... On Ice!"): (, ),   # epNum=20
+    ("Ranma ½", "P-Chan Explodes! The Icy Fountain of Love!"): (, ),   # epNum=21
     ("Ranma ½", "The Abduction of P-Chan"): (, ),   # epNum=19
-    ("Rurouni Kenshin", "The Tragedy of a Stormy Night"): (, ),   # epNum=55
+    ("Rurouni Kenshin", "A Duel With an Extreme Moment"): (, ),   # epNum=56
     ("Sailor Moon", "Art Appreciation"): (, ),   # epNum=100
+    ("Sailor Moon", "Destiny's Arrival"): (, ),   # epNum=103
     ("Sailor Moon", "Everything's Coming Up Rosy"): (, ),   # epNum=101
+    ("Sailor Moon", "No Turning Back"): (, ),   # epNum=102
+    ("Sailor Moon", "The Purity Chalice"): (, ),   # epNum=104
     ("Saint Seiya: Knights of the Zodiac", "Desperate Journey! Open Dragon's Eyes"): (, ),   # epNum=35
-    ("Teen Titans", "Detention"): (, ),   # epNum=10
-    ("X-Men: The Animated Series", "One Man's Worth (Part 2)"): (, ),   # epNum=54
+    ("Saint Seiya: Knights of the Zodiac", "The Mask Cries Out! Love or Death?"): (, ),   # epNum=37
+    ("Teen Titans", "Apprentice (Part 1)"): (, ),   # epNum=12
     ("X-Men: The Animated Series", "Proteus (Part 1)"): (, ),   # epNum=55
