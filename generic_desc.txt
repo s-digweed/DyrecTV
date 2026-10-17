@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-16 07:53 UTC)
-#   episode-specific: 898
-#   fixed show-blurb: 14  (hand-supplied, intentional)
-#   generic (blurb) : 82
+# DESCRIPTION REPORT  (2026-10-17 07:31 UTC)
+#   episode-specific: 887
+#   fixed show-blurb: 11  (hand-supplied, intentional)
+#   generic (blurb) : 80
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,36 +10,36 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("2 Stupid Dogs", "Agent Penny"): "",   # epNum=38  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "Goku's Great Transformation"): "",   # epNum=13  no S/E resolved -> show-level blurb
+    ("Cromartie High School", "Pootan"): "",   # epNum=7  no S/E resolved -> show-level blurb
     ("Dragon Ball", "The Mysterious Girl Launch"): "",   # epNum=15  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "The Wish to Shen Long"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("Dragon Ball Z Abridged", "Freeza: The Final Cut Part 1"): "",   # epNum=29  no S/E resolved -> show-level blurb
+    ("Dragon Ball Z Abridged", "Freeza: The Final Cut Part 2"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Fantastic Four", "Demon in the Deep"): "",   # epNum=11  no S/E resolved -> show-level blurb
     ("Final Fantasy VII Advent Children", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Gold Diggers The Secret of Bear Mountain", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Gullah Gullah Island", "(no episode name)"): "",   # epNum=55  no S/E resolved -> show-level blurb
-    ("Halloween is Grinch Night", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Crude Reproduction, Perfect Frame"): "",   # epNum=16  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "A Safe Bet"): "",   # epNum=19  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "My Birthday Pursuit"): "",   # epNum=18  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Sheik-Down"): "",   # epNum=17  no S/E resolved -> show-level blurb
     ("Neon Genesis Evangelion", "A World That's Ending"): "",   # epNum=25  no S/E resolved -> show-level blurb
     ("Neon Genesis Evangelion", "The Beast that Shouted 'I' at the Heart of the World"): "",   # epNum=26  no S/E resolved -> show-level blurb
+    ("Ranma ½", "Clash of the Delivery Girls! The Martial Arts Takeout Race"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("Ranma ½", "Close Call! The Dance of Death... On Ice!"): "",   # epNum=20  no S/E resolved -> show-level blurb
     ("Ranma ½", "P-Chan Explodes! The Icy Fountain of Love!"): "",   # epNum=21  no S/E resolved -> show-level blurb
-    ("Ranma ½", "The Abduction of P-Chan"): "",   # epNum=19  no S/E resolved -> show-level blurb
     ("Rurouni Kenshin", "A Duel With an Extreme Moment"): "",   # epNum=56  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "Art Appreciation"): "",   # epNum=100  no S/E resolved -> show-level blurb
+    ("Rurouni Kenshin", "Two Men at the End of an Era"): "",   # epNum=57  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Destiny's Arrival"): "",   # epNum=103  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Everything's Coming Up Rosy"): "",   # epNum=101  no S/E resolved -> show-level blurb
     ("Sailor Moon", "No Turning Back"): "",   # epNum=102  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Rini's Risky Friendship"): "",   # epNum=106  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Show Stoppers"): "",   # epNum=105  no S/E resolved -> show-level blurb
     ("Sailor Moon", "The Purity Chalice"): "",   # epNum=104  no S/E resolved -> show-level blurb
     ("Sailor Moon SuperS - Black Dream Hole", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Desperate Journey! Open Dragon's Eyes"): "",   # epNum=35  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "Clash! Gold Saint"): "",   # epNum=38  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "The Mask Cries Out! Love or Death?"): "",   # epNum=37  no S/E resolved -> show-level blurb
     ("Scooby-Doo On Zombie Island", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Street Fighter", "The Medium is the Message (Yes! Yes!)"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Teen Titans", "Apprentice (Part 1)"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("Teen Titans", "Apprentice (Part 2)"): "",   # epNum=13  no S/E resolved -> show-level blurb
     ("Wallace and Gromit in The Curse of the Were Rabbit", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Hokum W. Jeebs"): "",   # epNum=3  S/E set but no DB/OMDb/TAM episode overview
-    ("Winnie the Pooh Boo To You Too", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("X-Men: The Animated Series", "Proteus (Part 1)"): "",   # epNum=55  no S/E resolved -> show-level blurb

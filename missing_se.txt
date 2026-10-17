@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-16 07:53 UTC)
+# RUN STATUS  (2026-10-17 07:31 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 898 episode-specific, 14 fixed show-blurb, 82 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 887 episode-specific, 11 fixed show-blurb, 80 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 508  (manual pins: 0)
-#   S/E by absolute  : 9
-#   S/E + desc / TAM : 31  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 501  (manual pins: 0)
+#   S/E by absolute  : 6
+#   S/E + desc / TAM : 23  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 16  (S/E from your hand-verified sheet)
-#   episode guide    : 191  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 101  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 193  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 108  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 220
-#   S/E withheld     : 57  (listed below)
+#   names from TAM   : 210
+#   S/E withheld     : 58  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,26 +22,27 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("2 Stupid Dogs", "Agent Penny"): (, ),   # epNum=38
-    ("Dragon Ball", "Goku's Great Transformation"): (, ),   # epNum=13
+    ("Cromartie High School", "Pootan"): (, ),   # epNum=7
     ("Dragon Ball", "The Mysterious Girl Launch"): (, ),   # epNum=15
-    ("Dragon Ball", "The Wish to Shen Long"): (, ),   # epNum=12
     ("Fantastic Four", "Demon in the Deep"): (, ),   # epNum=11
-    ("Lupin the Third: Part II", "Crude Reproduction, Perfect Frame"): (, ),   # epNum=16
+    ("Lupin the Third: Part II", "A Safe Bet"): (, ),   # epNum=19
     ("Lupin the Third: Part II", "My Birthday Pursuit"): (, ),   # epNum=18
     ("Lupin the Third: Part II", "Sheik-Down"): (, ),   # epNum=17
     ("Neon Genesis Evangelion", "A World That's Ending"): (, ),   # epNum=25
     ("Neon Genesis Evangelion", "The Beast that Shouted 'I' at the Heart of the World"): (, ),   # epNum=26
+    ("Ranma ½", "Clash of the Delivery Girls! The Martial Arts Takeout Race"): (, ),   # epNum=22
     ("Ranma ½", "Close Call! The Dance of Death... On Ice!"): (, ),   # epNum=20
     ("Ranma ½", "P-Chan Explodes! The Icy Fountain of Love!"): (, ),   # epNum=21
-    ("Ranma ½", "The Abduction of P-Chan"): (, ),   # epNum=19
     ("Rurouni Kenshin", "A Duel With an Extreme Moment"): (, ),   # epNum=56
-    ("Sailor Moon", "Art Appreciation"): (, ),   # epNum=100
+    ("Rurouni Kenshin", "Two Men at the End of an Era"): (, ),   # epNum=57
     ("Sailor Moon", "Destiny's Arrival"): (, ),   # epNum=103
     ("Sailor Moon", "Everything's Coming Up Rosy"): (, ),   # epNum=101
     ("Sailor Moon", "No Turning Back"): (, ),   # epNum=102
+    ("Sailor Moon", "Rini's Risky Friendship"): (, ),   # epNum=106
+    ("Sailor Moon", "Show Stoppers"): (, ),   # epNum=105
     ("Sailor Moon", "The Purity Chalice"): (, ),   # epNum=104
-    ("Saint Seiya: Knights of the Zodiac", "Desperate Journey! Open Dragon's Eyes"): (, ),   # epNum=35
+    ("Saint Seiya: Knights of the Zodiac", "Clash! Gold Saint"): (, ),   # epNum=38
     ("Saint Seiya: Knights of the Zodiac", "The Mask Cries Out! Love or Death?"): (, ),   # epNum=37
+    ("Street Fighter", "The Medium is the Message (Yes! Yes!)"): (, ),   # epNum=8
     ("Teen Titans", "Apprentice (Part 1)"): (, ),   # epNum=12
-    ("X-Men: The Animated Series", "Proteus (Part 1)"): (, ),   # epNum=55
+    ("Teen Titans", "Apprentice (Part 2)"): (, ),   # epNum=13
