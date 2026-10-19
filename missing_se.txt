@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-18 07:46 UTC)
+# RUN STATUS  (2026-10-19 08:29 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 880 episode-specific, 16 fixed show-blurb, 84 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 885 episode-specific, 10 fixed show-blurb, 99 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 506  (manual pins: 0)
-#   S/E by absolute  : 6
-#   S/E + desc / TAM : 25  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 16  (S/E from your hand-verified sheet)
-#   episode guide    : 182  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 122  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 539  (manual pins: 0)
+#   S/E by absolute  : 8
+#   S/E + desc / TAM : 30  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 12  (S/E from your hand-verified sheet)
+#   episode guide    : 169  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 127  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 174
-#   S/E withheld     : 55  (listed below)
+#   names from TAM   : 179
+#   S/E withheld     : 63  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,25 +22,28 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cromartie High School", "Pootan"): (, ),   # epNum=7
+    ("Cartoon Planet", "It's a Mad Mad Mad Mad World"): (, ),   # epNum=8
     ("Dragon Ball", "The Mysterious Girl Launch"): (, ),   # epNum=15
     ("Lupin the Third: Part II", "A Safe Bet"): (, ),   # epNum=19
     ("Lupin the Third: Part II", "Hell Toupee"): (, ),   # epNum=20
     ("Lupin the Third: Part II", "My Birthday Pursuit"): (, ),   # epNum=18
+    ("Lupin the Third: Part II", "The Last Mastery"): (, ),   # epNum=21
     ("Men in Black: The Series", "The Endgame Syndrome (Part 1)"): (, ),   # epNum=50
-    ("Neon Genesis Evangelion", "The Beast that Shouted 'I' at the Heart of the World"): (, ),   # epNum=26
+    ("Men in Black: The Series", "The Endgame Syndrome (Part 2)"): (, ),   # epNum=51
     ("Ranma ½", "Clash of the Delivery Girls! The Martial Arts Takeout Race"): (, ),   # epNum=22
     ("Ranma ½", "P-Chan Explodes! The Icy Fountain of Love!"): (, ),   # epNum=21
+    ("Ranma ½", "This Ol' Gal's the Leader of the Amazon Tribe!"): (, ),   # epNum=24
     ("Ranma ½", "You Really Do Hate Cats!"): (, ),   # epNum=23
+    ("Rurouni Kenshin", "Not Out of Luck!"): (, ),   # epNum=59
     ("Rurouni Kenshin", "The Age Chooses Shishio?"): (, ),   # epNum=58
-    ("Rurouni Kenshin", "Two Men at the End of an Era"): (, ),   # epNum=57
     ("Sailor Moon", "Everything's Coming Up Rosy"): (, ),   # epNum=101
+    ("Sailor Moon", "Heightened Hazard"): (, ),   # epNum=110
     ("Sailor Moon", "Mimet's Mess"): (, ),   # epNum=107
     ("Sailor Moon", "Rini's Risky Friendship"): (, ),   # epNum=106
-    ("Sailor Moon", "Show Stoppers"): (, ),   # epNum=105
-    ("Sailor Moon", "The Purity Chalice"): (, ),   # epNum=104
     ("Sailor Moon", "The Shadow Of Silence"): (, ),   # epNum=108
+    ("Sailor Moon", "Thorny Weather"): (, ),   # epNum=109
     ("Saint Seiya: Knights of the Zodiac", "Clash! Gold Saint"): (, ),   # epNum=38
+    ("Saint Seiya: Knights of the Zodiac", "Go! The Official Departure"): (, ),   # epNum=40
     ("Saint Seiya: Knights of the Zodiac", "Speed of Light! The Fist Faster than the Speed of Sound"): (, ),   # epNum=39
     ("Saint Seiya: Knights of the Zodiac", "The Mask Cries Out! Love or Death?"): (, ),   # epNum=37
     ("Street Fighter", "The Medium is the Message (Yes! Yes!)"): (, ),   # epNum=8
