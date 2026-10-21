@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-20 08:11 UTC)
+# RUN STATUS  (2026-10-21 08:16 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1008 episode-specific, 6 fixed show-blurb, 96 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 1011 episode-specific, 14 fixed show-blurb, 81 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 581  (manual pins: 0)
-#   S/E by absolute  : 12
-#   S/E + desc / TAM : 41  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 12  (S/E from your hand-verified sheet)
-#   episode guide    : 210  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 135  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 571  (manual pins: 0)
+#   S/E by absolute  : 11
+#   S/E + desc / TAM : 37  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 10  (S/E from your hand-verified sheet)
+#   episode guide    : 217  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 133  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 222
-#   S/E withheld     : 60  (listed below)
+#   names from TAM   : 218
+#   S/E withheld     : 48  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -24,28 +24,24 @@
 # ============================================================
     ("Cartoon Planet", "It's a Mad Mad Mad Mad World"): (, ),   # epNum=8
     ("Fantastic Four", "Return Of the Mole Man"): (, ),   # epNum=12
+    ("Iron Man", "Crimson Dynamo!, The Crimson Dynamo Strikes, Captured"): (, ),   # epNum=5
     ("Lupin the Third: Part II", "A Safe Bet"): (, ),   # epNum=19
     ("Lupin the Third: Part II", "Hell Toupee"): (, ),   # epNum=20
     ("Lupin the Third: Part II", "Lupin in Paradise"): (, ),   # epNum=22
-    ("Lupin the Third: Part II", "My Birthday Pursuit"): (, ),   # epNum=18
     ("Lupin the Third: Part II", "The Last Mastery"): (, ),   # epNum=21
     ("Men in Black: The Series", "The Endgame Syndrome (Part 1)"): (, ),   # epNum=50
     ("Men in Black: The Series", "The Endgame Syndrome (Part 2)"): (, ),   # epNum=51
     ("Ranma ½", "Behold! The 'Chestnuts Roasting on an Open Fire' Technique"): (, ),   # epNum=25
     ("Ranma ½", "Clash of the Delivery Girls! The Martial Arts Takeout Race"): (, ),   # epNum=22
-    ("Ranma ½", "P-Chan Explodes! The Icy Fountain of Love!"): (, ),   # epNum=21
     ("Ranma ½", "This Ol' Gal's the Leader of the Amazon Tribe!"): (, ),   # epNum=24
     ("Ranma ½", "You Really Do Hate Cats!"): (, ),   # epNum=23
-    ("Rurouni Kenshin", "Not Out of Luck!"): (, ),   # epNum=59
     ("Rurouni Kenshin", "The Man Who is Chosen for Victory"): (, ),   # epNum=60
     ("Sailor Moon", "Heightened Hazard"): (, ),   # epNum=110
     ("Sailor Moon", "It's In The Cards"): (, ),   # epNum=111
-    ("Sailor Moon", "Mimet's Mess"): (, ),   # epNum=107
     ("Sailor Moon", "The Shadow Of Silence"): (, ),   # epNum=108
     ("Sailor Moon", "Thorny Weather"): (, ),   # epNum=109
     ("Saint Seiya: Knights of the Zodiac", "Clash! Gold Saint"): (, ),   # epNum=38
     ("Saint Seiya: Knights of the Zodiac", "Go! The Official Departure"): (, ),   # epNum=40
     ("Saint Seiya: Knights of the Zodiac", "Speed of Light! The Fist Faster than the Speed of Sound"): (, ),   # epNum=39
-    ("Saint Seiya: Knights of the Zodiac", "The Mask Cries Out! Love or Death?"): (, ),   # epNum=37
     ("Serial Experiments Lain", "Ego (Finale)"): (, ),   # epNum=13
     ("Street Fighter", "The Medium is the Message (Yes! Yes!)"): (, ),   # epNum=8
