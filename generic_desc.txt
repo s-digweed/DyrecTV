@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-21 08:16 UTC)
-#   episode-specific: 1011
-#   fixed show-blurb: 14  (hand-supplied, intentional)
-#   generic (blurb) : 81
+# DESCRIPTION REPORT  (2026-10-22 08:17 UTC)
+#   episode-specific: 919
+#   fixed show-blurb: 15  (hand-supplied, intentional)
+#   generic (blurb) : 69
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -11,36 +11,31 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("8 Men After", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Allegra's Window", "Small Is Beautiful"): "",   # epNum=4  S/E set but no DB/OMDb/TAM episode overview
     ("Allegra's Window", "The Imaginary Zoo"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
     ("Cartoon Planet", "It's a Mad Mad Mad Mad World"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "Freeza: The Final Cut Part 1"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "Freeza: The Final Cut Part 2"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Fantastic Four", "Return Of the Mole Man"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("Garfields Halloween Adventure", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "A Hand Reaches Out of the Toilet... Akagami Aogami"): "",   # epNum=2  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "Tonight the Spirits Will Be Resurrected! Amanojaku"): "",   # epNum=1  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Iron Man", "Crimson Dynamo!, The Crimson Dynamo Strikes, Captured"): "",   # epNum=5  no S/E resolved -> show-level blurb
     ("Its The Great Pumpkin Charlie Brown", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "A Safe Bet"): "",   # epNum=19  no S/E resolved -> show-level blurb
+    ("Jin-Roh - The Wolf Brigade", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Hell Toupee"): "",   # epNum=20  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Lupin in Paradise"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Last Mastery"): "",   # epNum=21  no S/E resolved -> show-level blurb
     ("Men in Black: The Series", "The Endgame Syndrome (Part 1)"): "",   # epNum=50  no S/E resolved -> show-level blurb
     ("Men in Black: The Series", "The Endgame Syndrome (Part 2)"): "",   # epNum=51  no S/E resolved -> show-level blurb
     ("Ranma ½", "Behold! The 'Chestnuts Roasting on an Open Fire' Technique"): "",   # epNum=25  no S/E resolved -> show-level blurb
-    ("Ranma ½", "Clash of the Delivery Girls! The Martial Arts Takeout Race"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("Ranma ½", "This Ol' Gal's the Leader of the Amazon Tribe!"): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("Ranma ½", "You Really Do Hate Cats!"): "",   # epNum=23  no S/E resolved -> show-level blurb
-    ("Rurouni Kenshin", "The Man Who is Chosen for Victory"): "",   # epNum=60  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Heightened Hazard"): "",   # epNum=110  no S/E resolved -> show-level blurb
     ("Sailor Moon", "It's In The Cards"): "",   # epNum=111  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "The Shadow Of Silence"): "",   # epNum=108  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "Thorny Weather"): "",   # epNum=109  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Clash! Gold Saint"): "",   # epNum=38  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Go! The Official Departure"): "",   # epNum=40  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Speed of Light! The Fist Faster than the Speed of Sound"): "",   # epNum=39  no S/E resolved -> show-level blurb
     ("Serial Experiments Lain", "Ego (Finale)"): "",   # epNum=13  no S/E resolved -> show-level blurb
-    ("Street Fighter", "The Medium is the Message (Yes! Yes!)"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("The Littl' Bits", "Storm Baby"): "",   # epNum=14  S/E set but no DB/OMDb/TAM episode overview
-    ("Wallace and Gromit in The Curse of the Were Rabbit", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("The Witches", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Haircuts"): "",   # epNum=4  S/E set but no DB/OMDb/TAM episode overview
