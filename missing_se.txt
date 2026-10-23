@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-22 08:17 UTC)
+# RUN STATUS  (2026-10-23 08:14 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 919 episode-specific, 15 fixed show-blurb, 69 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 873 episode-specific, 12 fixed show-blurb, 82 generic, 16 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 534  (manual pins: 0)
-#   S/E by absolute  : 9
-#   S/E + desc / TAM : 33  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 6  (S/E from your hand-verified sheet)
-#   episode guide    : 193  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 108  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 502  (manual pins: 0)
+#   S/E by absolute  : 4
+#   S/E + desc / TAM : 21  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 4  (S/E from your hand-verified sheet)
+#   episode guide    : 197  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 220
-#   S/E withheld     : 38  (listed below)
+#   names from TAM   : 212
+#   S/E withheld     : 50  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -23,20 +23,25 @@
 # gave none, so a guide can't key on it).
 # ============================================================
     ("Cartoon Planet", "It's a Mad Mad Mad Mad World"): (, ),   # epNum=8
+    ("Cyborg 009", "Devil of the Deep Sea"): (, ),   # epNum=9
     ("Fantastic Four", "Return Of the Mole Man"): (, ),   # epNum=12
     ("Ghost Stories", "A Hand Reaches Out of the Toilet... Akagami Aogami"): (, ),   # epNum=2
     ("Ghost Stories", "Tonight the Spirits Will Be Resurrected! Amanojaku"): (, ),   # epNum=1
     ("Iron Man", "Crimson Dynamo!, The Crimson Dynamo Strikes, Captured"): (, ),   # epNum=5
-    ("Lupin the Third: Part II", "Hell Toupee"): (, ),   # epNum=20
+    ("Lupin the Third: Part II", "Auntie Ballistic"): (, ),   # epNum=23
     ("Lupin the Third: Part II", "Lupin in Paradise"): (, ),   # epNum=22
     ("Lupin the Third: Part II", "The Last Mastery"): (, ),   # epNum=21
-    ("Men in Black: The Series", "The Endgame Syndrome (Part 1)"): (, ),   # epNum=50
     ("Men in Black: The Series", "The Endgame Syndrome (Part 2)"): (, ),   # epNum=51
     ("Ranma ½", "Behold! The 'Chestnuts Roasting on an Open Fire' Technique"): (, ),   # epNum=25
+    ("Ranma ½", "Enter Mousse! The Fist of the White Swan"): (, ),   # epNum=26
     ("Ranma ½", "This Ol' Gal's the Leader of the Amazon Tribe!"): (, ),   # epNum=24
-    ("Ranma ½", "You Really Do Hate Cats!"): (, ),   # epNum=23
+    ("Rurouni Kenshin", "The Juppongatana Who Remain"): (, ),   # epNum=61
+    ("Sailor Moon", "Fiendish Ferns"): (, ),   # epNum=114
+    ("Sailor Moon", "Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)"): (, ),   # epNum=112
     ("Sailor Moon", "Heightened Hazard"): (, ),   # epNum=110
     ("Sailor Moon", "It's In The Cards"): (, ),   # epNum=111
+    ("Sailor Moon", "Next In Line"): (, ),   # epNum=113
     ("Saint Seiya: Knights of the Zodiac", "Go! The Official Departure"): (, ),   # epNum=40
-    ("Saint Seiya: Knights of the Zodiac", "Speed of Light! The Fist Faster than the Speed of Sound"): (, ),   # epNum=39
     ("Serial Experiments Lain", "Ego (Finale)"): (, ),   # epNum=13
+    ("Spider-Man: The Animated Series", "The Alien Costume (Part One)"): (, ),   # epNum=7
+    ("X-Men: The Animated Series", "Beyond Good and Evil (Part 1): The End of Time"): (, ),   # epNum=62
