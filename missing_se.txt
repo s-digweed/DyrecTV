@@ -1,17 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-10-23 08:14 UTC)
+# RUN STATUS  (2026-10-24 07:53 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 873 episode-specific, 12 fixed show-blurb, 82 generic, 16 none (see generic_desc.txt)
+#   descriptions     : 853 episode-specific, 12 fixed show-blurb, 80 generic, 21 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 502  (manual pins: 0)
-#   S/E by absolute  : 4
-#   S/E + desc / TAM : 21  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 478  (manual pins: 0)
+#   S/E by absolute  : 6
+#   S/E + desc / TAM : 20  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 4  (S/E from your hand-verified sheet)
-#   episode guide    : 197  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 195  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 114  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 212
+#   names from TAM   : 206
 #   S/E withheld     : 50  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
@@ -22,26 +22,25 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cartoon Planet", "It's a Mad Mad Mad Mad World"): (, ),   # epNum=8
     ("Cyborg 009", "Devil of the Deep Sea"): (, ),   # epNum=9
     ("Fantastic Four", "Return Of the Mole Man"): (, ),   # epNum=12
     ("Ghost Stories", "A Hand Reaches Out of the Toilet... Akagami Aogami"): (, ),   # epNum=2
-    ("Ghost Stories", "Tonight the Spirits Will Be Resurrected! Amanojaku"): (, ),   # epNum=1
-    ("Iron Man", "Crimson Dynamo!, The Crimson Dynamo Strikes, Captured"): (, ),   # epNum=5
     ("Lupin the Third: Part II", "Auntie Ballistic"): (, ),   # epNum=23
     ("Lupin the Third: Part II", "Lupin in Paradise"): (, ),   # epNum=22
-    ("Lupin the Third: Part II", "The Last Mastery"): (, ),   # epNum=21
-    ("Men in Black: The Series", "The Endgame Syndrome (Part 2)"): (, ),   # epNum=51
+    ("Lupin the Third: Part II", "Rats to You"): (, ),   # epNum=24
     ("Ranma ½", "Behold! The 'Chestnuts Roasting on an Open Fire' Technique"): (, ),   # epNum=25
+    ("Ranma ½", "Cool Runnings! The Race of the Snowmen"): (, ),   # epNum=27
     ("Ranma ½", "Enter Mousse! The Fist of the White Swan"): (, ),   # epNum=26
-    ("Ranma ½", "This Ol' Gal's the Leader of the Amazon Tribe!"): (, ),   # epNum=24
+    ("Rurouni Kenshin", "Kyoto, the Engraved Memory"): (, ),   # epNum=62
     ("Rurouni Kenshin", "The Juppongatana Who Remain"): (, ),   # epNum=61
     ("Sailor Moon", "Fiendish Ferns"): (, ),   # epNum=114
     ("Sailor Moon", "Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)"): (, ),   # epNum=112
-    ("Sailor Moon", "Heightened Hazard"): (, ),   # epNum=110
-    ("Sailor Moon", "It's In The Cards"): (, ),   # epNum=111
     ("Sailor Moon", "Next In Line"): (, ),   # epNum=113
-    ("Saint Seiya: Knights of the Zodiac", "Go! The Official Departure"): (, ),   # epNum=40
+    ("Sailor Moon", "The Science Of Love"): (, ),   # epNum=115
+    ("Sailor Moon", "Wake Up Call (Shadows of Destruction! The Awakening of the Messiah of Silence)"): (, ),   # epNum=116
+    ("Saint Seiya: Knights of the Zodiac", "Big Bang! Battle of Taurus Temple"): (, ),   # epNum=43
     ("Serial Experiments Lain", "Ego (Finale)"): (, ),   # epNum=13
     ("Spider-Man: The Animated Series", "The Alien Costume (Part One)"): (, ),   # epNum=7
+    ("Spider-Man: The Animated Series", "The Alien Costume (Part Two)"): (, ),   # epNum=8
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 1): The End of Time"): (, ),   # epNum=62
+    ("X-Men: The Animated Series", "Beyond Good and Evil (Part 2): Promise of Apocalypse"): (, ),   # epNum=63
