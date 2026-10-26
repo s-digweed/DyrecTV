@@ -224,6 +224,10 @@
 "n": "The Alpha Syndrome",
 "o": "Investigating the theft of a Sintillian heart, Kay learns the culprit is Alpha, his former mentor and the man who left him for dead years ago. But Jay and Kay discover Alpha now has multiple body parts grafted onto his body, becoming even more dangerous."
 },
+"1153|1|5": {
+"n": "The Undercover Syndrome",
+"o": "Jay goes undercover as a Tarkan bodyguard at an alien conference to protect Dirndl, Trade Minister of Tarka, from an alien assassin."
+},
 "1153|3|11": {
 "n": "The I Want My Mummy Syndrome",
 "o": "Jay and Kay have to contend with a recently awakened Hyperian, which is dressed like an ancient Egyptian Mummy."
@@ -1036,9 +1040,25 @@
 "n": "Nightmare Comes True",
 "o": "The race is on, as the Z-Fighters search frantically for Dr. Gero’s hidden laboratory! But rather than stop the androids before they’re activated, Vegeta wants a challenge! Despite Trunks’ warning, he chooses to fight the androids alone"
 },
+"12971|4|27": {
+"n": "Goku's Assassin",
+"o": "Dr. Gero escapes to his mountain hideout and brings his killer androids to life. Without the help of Goku, all hope seems lost. Dr. Gero appears one step closer to ultimate vengeance, but his evil creations have a vendetta of their own!"
+},
+"12971|4|28": {
+"n": "Deadly Beauty",
+"o": "Vegeta and Android 18 have a showdown on the highway. Trunks and the others are there to help, but the Saiyan prince insists on fighting his opponent man-to-android! Will Vegeta’s overconfidence be his undoing?"
+},
+"12971|4|29": {
+"n": "No Match for the Androids",
+"o": "In an earthshaking battle, the beautiful Android 18 brings Vegeta to his knees. But before she can deliver the final blow, Trunks steps in to help. Soon an all out war between good and evil begins, and the androids have the upper hand."
+},
 "12971|4|3": {
 "n": "Battle in Kami's Lookout",
 "o": "As Piccolo attempts to hold off the Spice Boys and the infected Z Fighters, Gohan and Krillin race toward Kami’s Lookout to retrieve the one thing capable of reversing the effects of the Black Water Mist: the Sacred Water!"
+},
+"12971|4|30": {
+"n": "Last Ditch Effort",
+"o": "Vegeta, Trunks, Tien, and Piccolo realize a grim truth: unless they can increase their powers quickly, they’ll have no chance against the androids. In a drastic move, Piccolo flies to Kami’s Lookout and makes a most unexpected proposal!"
 },
 "12971|4|4": {
 "n": "Fight With Piccolo",
@@ -1144,6 +1164,10 @@
 "n": "Bot Transfer",
 "o": "Dr. Wily has built a teleporter, which doubles as a body switcher, resulting in Mega Man and Snake Man trading bodies."
 },
+"1323|2|1": {
+"n": "Showdown at Red Gulch",
+"o": "Dr. Wily uncovers a meteor containing power enhancing crystals for robots."
+},
 "1323|2|10": {
 "n": "Brain Bots",
 "o": "Mega Man must prevent Dr. Wily from stealing Dr. Light's new robot, Brain Bot."
@@ -1224,6 +1248,10 @@
 "n": "The Hammer Strikes",
 "o": "Dhalsim asks the Street Fighters to stop the Satin Hammer from stealing an atomic bomb."
 },
+"13655|2|2": {
+"n": "Cammy and the Bachelor",
+"o": "A crime wave takes over London; during a fight, Bison seemingly takes over Cammy's mind."
+},
 "13674|1|1": {
 "n": "The Black Gundam",
 "o": "AEUG member Quattro Bajeena infiltrates the colony where civilian Kamille Bidan lives, searching for the Federation's new Gundam Mark-II. Kamille starts a fight with Jerid Messa of the Titans while on his way to take a look at Bright Noa's current ship."
@@ -1231,6 +1259,10 @@
 "13674|1|10": {
 "n": "Reunion",
 "o": "The Alexandria destroys the AEUG's moon base, but the Argama and the new AEUG ship Radish escape and head to Earth. The AEUG ships pick up a distress call from Bright Noa's shuttle, currently under attack from a pilot named Paptimus Scirocco."
+},
+"13674|1|11": {
+"n": "Entering the Atmosphere",
+"o": "Henken promotes Bright to Captain of the Argama and leaves for the Moon as the AEUG fleet heads for Earth. Scirocco believes he can stop the AEUG at Earth, and he, Jerid, and Kacricon attack Emma, Kamille, and Quattro as they descend through the atmosphere as the danger of burning up completely becomes more real."
 },
 "13674|1|3": {
 "n": "Inside the Capsule",
@@ -1524,6 +1556,10 @@
 "n": "Around the Moon in 80 Blinks",
 "o": "Tony goes on a space flight.  Unfortunately, he catches a cold and Jeannie blinks him down to take care of him.  However, she blinks down the wrong astronaut in Commander Les Wingate as well as Tony.  Now Jeannie must try to blink both astronauts up to their capsule before Amanda Bellows catches them back on the ground."
 },
+"1660|4|24": {
+"n": "Jeannie-Go-Round",
+"o": "Locking Jeannie in her bottle, her wicked lookalike sister Jeannie II trails Tony to the Cocoa Beach Cabana. In her efforts to win Tony's affections, Jeannie II also replaces the nightclub's regular singer and renders a seductive ballad (\"Electric Days, Electric Nights\"). Alas, from this point forward everything goes wrong, with Tony being publicly embarrassed and Dr. Bellows virtually being hand-delivered enough evidence to wash Tony out of the space program!"
+},
 "1664|1|11": {
 "n": "Flash Memory",
 "o": "Peter's old rival, Flash Thompson, develops a super-intellect."
@@ -1667,6 +1703,10 @@
 "1835|3|11": {
 "n": "Present Tense",
 "o": "Eager to see the gift his parents bought him for his birthday, Kenan snoops around and finally finds it. Then, Kel accidentally breaks the gift, which eventually winds up in the possession of Kenan's uncle. Now the guys have to get the gift back and replace it. Good luck."
+},
+"1835|3|12": {
+"n": "Housesitter",
+"o": "Chris entrusts Kenan & Kel with the responsibility of taking care of his house while he's out of town. The guys do a great job, if you don't count the fire, and the flood, and the hole in the ceiling, and the..."
 },
 "1835|3|2": {
 "n": "Skunkator vs. Moth Man",
@@ -1828,6 +1868,10 @@
 "n": "The Time Capsule",
 "o": "Lion-O becomes homesick, and his memories of Thundera are almost nonexistent. Jaga appears to Lion-O and tells him that on their spaceship, they brought with them a time capsule which contained a recording of Thundera and its history up to the time it was destroyed. The Thundercats set out to search for their time capsule."
 },
+"1988|1|16": {
+"n": "The Fireballs of Plun-Darr",
+"o": "The Mutants, once again searching for a way to destroy the Thundercats, recover some more items from their spaceship. They take their ship's engine and convert it into a giant fireball-shooting machine. The mutants terrorize Third Earth with their fireballs, until the Thundercats go to castle Plunn-Darr and destroy their dangerous new weapon."
+},
 "1988|1|4": {
 "n": "The Slaves of Castle Plun-Darr",
 "o": "The homeless Mutants also make plans to build their home. They enslave a primitive race of beings called Brute-Men to do their work for them. The Thundercats go to Castle Plunn-Darr to free the Brute-Men from the Mutants."
@@ -1931,6 +1975,10 @@
 "20451|1|1": {
 "n": "No Need for Discussions!",
 "o": "Tenchi Masaki is a college student walking through the forest who sees what appears to be a meteor falling from the sky. He investigates and finds a beautiful young woman from the wreckage of a spaceship. Her name is Ryoko and she says she is being chased by a vicious criminal who later appears in the house, meaning to attack Tenchi and Ryoko. Meanwhile, a police officer of the galaxy, Mihoshi, attempts to arrest Ryoko for being a space pirate..."
+},
+"20451|1|2": {
+"n": "No Need for Princesses!",
+"o": "Princess Ayeka, first princess of planet Jurai, regrets responding to Mihoshi's distress beacon when she meets Ryoko on Earth. The two of them go back a long way, and have been enemies for years. During her time on Earth, Ayeka finds herself falling for Tenchi, and cannot endure Ryoko's shameless flirting with him."
 },
 "2085|1|2": {
 "n": "Cajun Granny Stew",
@@ -2188,6 +2236,10 @@
 "n": "Where Did I Come From?",
 "o": "Rob recalls the hilarious events leading up to Ritchie's birth when Ritchie asks the inevitable question."
 },
+"2132|1|16": {
+"n": "The Curious Thing About Women",
+"o": "Rob uses Laura's habit of opening his mail as the basis for a sketch on The Alan Brady Show."
+},
 "2132|1|8": {
 "n": "To Tell or Not to Tell",
 "o": "Rob wonders if Laura will go back into show business after someone is ill."
@@ -2404,6 +2456,10 @@
 "n": "Signs of the Final Battle",
 "o": "Milliardo leaves Quinze in command temporarily as he takes a rest. The Mercurius and Vayeate are once again used against the Gundams. However, this proves to be the two Mobile Suits' last battle."
 },
+"21730|1|46": {
+"n": "Milliardo's Decision",
+"o": "Heero manages to get into the Libra and reunites with Relena to confront Milliardo. Treize challenges Milliardo with his new Tallgeese II Mobile Suit. To try and eliminate Treize, he fires the Libra..."
+},
 "21736|1|40": {
 "n": "Shore Watch Out Order",
 "o": "People claim to have seen some kind of monster on the beach. Division 2 investigates this."
@@ -2475,6 +2531,10 @@
 "2192|3|11": {
 "n": "The Secret Route",
 "o": "The depth of human deprivation is seen, as the band of Robotech Defenders, under the leadership of Scott Bernard, must deal with the delicate situation of greed vs. human compassion. Lancer bumps into an old flame, Carla, who played a crutial role in his facade as Yellow Dancer."
+},
+"2192|3|12": {
+"n": "The Fortress",
+"o": "A daring attack is staged at an abandoned Robotech fortress, used by the Invid as a military base and research laboratory. The plans are complicated by Rand & Annie's discovery of a massive living computer, which controls the aliens on the planet."
 },
 "2192|3|2": {
 "n": "The Lost City",
@@ -2616,6 +2676,10 @@
 "n": "Stowaway",
 "o": "The kids decide to run away to Europe and become ex-patriot artists, but find their plan is a little lost at sea. Back home, McGuirk's car breaks down and he has no money to fix it. He asks Tom Wilsonberg, author of 'Starting Early: The New World of Corporate Kids,' for financial advice. Tom's answer? Gambling."
 },
+"2274|3|13": {
+"n": "Coffins and Cradles",
+"o": "The kids are preparing for Halloween, Linda (Brendon's new stepmother) is preparing to have a baby, and Coach McGuirk is preparing to have the romantic night of his life. Despite all this, no one is prepared when things start to go wrong."
+},
 "2274|3|2": {
 "n": "Breaking Up Is Hard To Do",
 "o": "A kitchen fire at the Smalls is nothing compared to the flaring tempers triggered when both of Paula's newly separated parents move in. To make matters worse, Coach McGuirk volunteers to 'renovate' the kitchen. Meanwhile, Brendon, Jason and Melissa make a crime drama called 'Mulligan and Winooski' about two cops."
@@ -2663,6 +2727,10 @@
 "22888|1|13": {
 "n": "Witch Way / Children for Sale / Sleepytime Robbers",
 "o": "Witch Way:\n\nThis adventure begins, like so many before it, with Minga going down a slide and vanishing into thin air. Prickle and Gumby decide to look for her in the sci-fi thriller Star Witch. After defeating hordes of ghouls and a pumpkin door with his simple fire extinguisher, Gumby makes his way to the auditorium where a generic witch is delighting hundreds of children with her silly shtick. It turns out that everything we know about witches is wrong and that they're merry jokesters, not evil brides of Satan.  Everyone has a good laugh at Gumby's expense, and Minga promises to tell Gumby before getting lost in another reality.\n\nChildren for Sale\n\nOne of the problems with reading a book about the Children's Crusade in Gumbyland is that some of the imprisoned children will inevitably escape from the book and ask you to save them from the slave dealers who tricked them into thinking they'd be taken to the Holy Land. Gumby finds himself in this situation and, being the guy he is, simply can't refuse. So, with a little help from a bolt cutter and his ice-spitting mammoth, he enters the book and drives off the ships' crew, who jump overboard at the first sign of danger. Next week: Gumby Vs. The Third Reich.\n\nSleepytime Robbers:\n\nFor the first time ever, the Blockheads have a brilliant plan! They've stolen some sleeping potion from King Ott's sorcerer and taken it to a sleepy old-West book. They use it to systematically neutralize the transportation system (since it consists mostly of horses), secure themselves a getaway train, and, once everything is in place, to put the local bankers to sleep and make off with the bags marked with the dollar signs.  Once they know what's going on, it takes all of five seconds for Goo to wrap herself around them and for Gumby to recover the loot."
+},
+"22888|1|14": {
+"n": "Strange Circus Animals / A Gumby Day / A Cottage for Granny",
+"o": "Strange Circus Animals:\n\nGumby really wants to put on a circus, so the minute he comes across a good excuse (it'll be a benefit to help locate missing children), he and his friends are off to various books to capture some circus animals. The action focuses on Gumby and Pokey, who find a little newly-orphaned mastodon named Denali. Reeling the poor distraught dope in with stories of joy and happiness at the circus, they have a brief encounter with a wolf before returning to the farm with him. Goo and Prickle have captured a small dinosaur and a walrus. Gumby laughs hysterically, and there's no circus. Maybe this sets the stage for Gumby's Circus.\n\nA Gumby Day:\n\nYes, it's a day in the life of Gumby. Gumby's day starts with some abuse from the most annoying cuckoo clock in the world. Next, it's a hot shower, followed by getting melted and flushed down the drain. Emerging from the kitchen sink, it's time for a hearty breakfast of oatmeal and carob drink. Yummy! Then, after fighting off the early morning traffic (literally; he's attacked by toy cars), it's off to the farm to train Denali for the circus and pick some vegetables for dinner. Laugh with him as Pokey holds up a bucket for Denali to spit ice cubes into and Denali repeatedly banks them off Pokey's face. Then, it's home for dinner with the family.\n\nA Cottage for Granny:\n\nGumby's grandmother stops by the farm to pick up Gumby, who's supposed to help her go house hunting. He's out, so she decides to go alone, largely despite the fact that her glasses got smashed during her visit and she can't see a thing. It's a perilous journey to her prospective new home, as her near-blindness puts her in several near-fatal situations, and it's really funny! She buys a new house from the Blockheads (just when are people going to learn not to deal with those two?), and Gumby arrives moments later to find out she bought a false front with a view to a landfill. They get Granny's money back from the Blockheads, and Granny promises to be a good little helpless senior citizen and never do anything by herself ever again."
 },
 "22888|1|2": {
 "n": "Mirror-Aculous Recovery / As the Worm Turns / Wild Girls",
@@ -2772,6 +2840,10 @@
 "n": "Prime-Time Duck",
 "o": "A local TV station is making a documentary about Castle Duckula and the Count. Unfortunately, they don't think Duckula is scary enough, so they make Igor play the part of the Count."
 },
+"2416|2|7": {
+"n": "Bloodsucking Fruit Bats of the Lower Amazon",
+"o": "While traveling in South America, Duckula, Igor, and Nanny are captured by a tribe of amazon women. Things look bleak until the tribe makes Nanny their leader."
+},
 "2423|1|11": {
 "n": "37th Annual Sci-Fi Fight Night",
 "o": "1. Celine Dion vs. Prodigy's Keith Flint  2. Nick Diamond vs. The Alien  3. David Duchovny & Gillian Anderson vs. Will Smith & Tommy Lee"
@@ -2855,6 +2927,10 @@
 "24710|1|2": {
 "n": "The Little Fugitive",
 "o": "With Grandis and her two accomplices, Sanson and Hanson, in pursuit, Jean takes Nadia back to his home in LeHarve.  His grumpy aunt refuses to take Nadia in, but Jean lets Nadia stay at his own house.  The following day, Jean and Nadia set off for Africa in one of his aeroplanes.  They do not get far, however, when Jean's invention fails and falls into the sea...."
+},
+"24710|1|20": {
+"n": "Jean Makes a Mistake",
+"o": "Jean's latest invention goes disastrously wrong and accidentally alerts the Garfish to attention.  Nadia's detestation of Nemo and jealousy of Jean's friendship with Electra dangerously intensifies--until she finally learns that the Nautilus is merely fighting to destroy Gargoyle and that Electra poses no threat to Nadia's relationship with Jean.  During all this, Gargoyle is informed of the Nautilus's prescence and devises to set yet another deadly trap...."
 },
 "24710|1|3": {
 "n": "The Riddle of the Giant Sea Monsters",
@@ -3007,6 +3083,10 @@
 "2730|3|19": {
 "n": "Ricky Loses His Temper",
 "o": "Ricky explodes when Lucy buys an expensive hat. She offers to return it, and bets him he'll lose his cool over something else before she buys another hat. But no matter what she does to provoke him, the hot-tempered Cuban remains unruffled."
+},
+"2730|3|20": {
+"n": "Home Movies",
+"o": "Ricky's home movies move the Mertzes to walk out, and prompt Lucy, Fred and Ethel to make a movie of their own, a \"Western musical drama\" shot in the Ricardo living room. But that's not to mixed up with a TV pilot Ricky's making, is it?"
 },
 "2751|4|10": {
 "n": "Skeleton in the Closet",
@@ -3228,6 +3308,10 @@
 "n": "Dolphin in Pursuit (2)",
 "o": "In the conclusion of a two-part adventure, Flipper tows Porter Ricks to his stolen launch, where he finds that the thief has imprisoned Ulla and stolen her submarine."
 },
+"2886|2|30": {
+"n": "Dolphin Love (2)",
+"o": "Flipper is concerned over the outcome of an operation on his girlfriend, who was speared by Ted Marlowe."
+},
 "2886|2|4": {
 "n": "Flipper's Hour of Peril",
 "o": "Flipper's natural curiosity gets him tangled up in a cable attached to a dangerous floating mine that could explode any minute."
@@ -3448,6 +3532,10 @@
 "n": "The Happy Homemaker Takes Lou Home",
 "o": "Sue Ann gets Mary to ask Lou out on a date on her behalf. Lou accepts, not realizing who Mary's 'friend' is."
 },
+"2962|6|14": {
+"n": "One Boyfriend Too Many",
+"o": "Mary's old flame Dan Whitfield, who once proposed to her, returns to Minneapolis and she's forced to choose between him and her current boyfriend."
+},
 "2962|6|6": {
 "n": "Mary's Aunt",
 "o": "Mary's high-flying journalist aunt comes for a visit, and Lou finds that he has a rival in her."
@@ -3475,6 +3563,10 @@
 "30093|1|3": {
 "n": "Beat the Dragon Gundam",
 "o": "As Domon travels to Neo China, he is approached by two Shaolin monks who urge him to take on the Gundam Fighter of Neo China, who has apparently gone rogue."
+},
+"30093|1|4": {
+"n": "Challenge! The Red Rose Knight",
+"o": "In his eagerness, Domon interrupts a fight between Neo France's representative, George de Sand, and another opponent, but George, disgusted at this cavalier attitude, refuses to accept the challenge."
 },
 "3022|2|35": {
 "n": "The Box",
@@ -3564,9 +3656,17 @@
 "n": "Adventure Mouse",
 "o": "Shark throws a party. Mouse learns about it. He and Skillet ride a rocket-powered skateboard to it from the corn dog field. The eye dies."
 },
+"3043|2|1": {
+"n": "Bowtime",
+"o": "As Shark's party comes to a close, and as Mouse's  flashbacks begin to get scary, Roostre, Golden Joe and Peanut Cop break out of Mouse's jet, and begin to explore. But Roostre's getting to close to \"restarting\"..."
+},
 "30623|1|1": {
 "n": "Running an Errand",
 "o": "Misae sends Shin-Chan to the market on an errand"
+},
+"30623|1|10": {
+"n": "The Sunflower Class Gang",
+"o": "Yoshinaka ma’am is late for school and the kids are introduced to their principal."
 },
 "30623|1|2": {
 "n": "Mama's Mornings are Busy",
@@ -3664,6 +3764,10 @@
 "n": "Waking the Lost",
 "o": "With no thought to their own safety, Kuwabara, Kurama, and Hiei charge deep into the tunnel in an effort to rid all worlds of Sensui forever. Meanwhile, King Yama's soldiers arrive to take Yusuke's body away to ensure he is never revived. As Koenma does his best to stop them, help arrives on the horizon in a very different form."
 },
+"30669|3|26": {
+"n": "The Proof",
+"o": "After being saved in the nick of time by Puu, Yusuke revels in his new power and resumes his battle with Sensui. Although Yusuke's skill and strength have increased, he is still clumsy with his new abilities. But there is no time to practice as Sensui bears down for the final confrontation."
+},
 "30669|3|6": {
 "n": "The Reader",
 "o": "The Spirit Detective's best chance to uncover the truth behind the tunnel lies with the mind reader, Murota. But mere hours after entering Mushiyori City, Yusuke and team find themselves being hunted by an unseen evil. Just who are Black Angel, Gate Keeper, Sniper, Gourmet, Game Master, Doctor, and Sea Man?"
@@ -3719,6 +3823,10 @@
 "3107|1|2": {
 "n": "Ron's Birthday",
 "o": "Ron's in for a huge surprise as Natalie and the kids prepare a secret celebration for his birthday. Shaina and her friend Sara make presents for Ron out of clay, but will James find the right gift for his Dad?"
+},
+"3107|1|3": {
+"n": "Charleston Market",
+"o": "A trip off Gullah Gullah Island to the bustling Charleston Market is the occasion for visits with a woodcarver, a basketweaver, and for Natalie to sell her beautiful dolls."
 },
 "3107|2|17": {
 "n": "The Talent Show",
@@ -3935,6 +4043,10 @@
 "31572|2|2": {
 "n": "Buns, Guns, and Fun in the Sun",
 "o": "When Brazil's illustrious Santos FC and their American counterparts square off at the world's largest sports arena, Rio de Janeiro's Stadium Maracanan, the box office and betting takes are huge. Thus, Lupin and company plan to take the money, first getting themselves thrown in jail to give themselves alibis, and then escaping to make the theft once this is done. Will things go entirely as planned?"
+},
+"31572|2|3": {
+"n": "To Be or Nazi Be",
+"o": "Supposedly, an old man who knows the secret of the legacy of Hitler is living on the other side of the Berlin Wall. Walls are no problem, and taking Genhardt, the old man, to the West is easy enough, but he is absolutely senile and recalls nothing about any legacy. Therefore, the plan is to reenact a scene from the period, but... What has happened to the legacy, anyway?"
 },
 "31713|1|24": {
 "n": "Nightmare Reunion",
@@ -4260,6 +4372,14 @@
 "n": "Driving Dangerously",
 "o": "Usagi and Minako become besotted with Haruka Tenou, an attractive and sophisticated boy...or so they believe."
 },
+"3570|3|30": {
+"n": "Goodness Eclipsed",
+"o": "Chibiusa invites Hotaru to a show at the planetarium, while Mimete plans to steal the Pure Heart Crystal of the DJ Thomas Harris."
+},
+"3570|3|31": {
+"n": "Next in Line",
+"o": "After Hotaru and her father disappear from their house, the Sailor Senshi infiltrate Mugen Academy, suspicious that it is connected to the Death Busters."
+},
 "3570|3|4": {
 "n": "Bad Harmony",
 "o": "Concerned that she is not intelligent enough for the sophisticated Mamoru, Usagi seeks advice from Michiru."
@@ -4311,6 +4431,10 @@
 "35935|1|4": {
 "n": "The Hand of God",
 "o": "Guts reminisces about his childhood."
+},
+"35935|1|5": {
+"n": "A Wind of Swords",
+"o": "Guts is now a commander of Griffith's army, taking many risks in battle, Casca takes him to task for it. Griffith is knighted in the Midland court much to the nobles' dismay."
 },
 "3607|1|7": {
 "n": "St. Patrick's Day",
@@ -4411,6 +4535,10 @@
 "3727|1|25": {
 "n": "No More Pickpockets",
 "o": "The boys go under cover at Yankee Stadium to stem the onslaught of pickpockets. One skilled pilferer turns the tide on Toody; who ends up arrested?"
+},
+"3727|1|26": {
+"n": "The Beast Who Walked the Bronx",
+"o": "Burkholtz, relegated to the Lost & Found for 15 years due to his extreme laxity is the only choice to sub for Capt. Block on his forced two week vacation. The boys mistake his absence from active duty thinking it's because he was too tough!"
 },
 "37419|1|11": {
 "n": "The Fog at Iselina",
@@ -4624,6 +4752,10 @@
 "n": "Greenfinger",
 "o": "Gadget is assigned to protect Professor Greenfinger who has developed a super plant growth formula, but Greenfinger has already been replaced by a M.A.D. agent."
 },
+"4035|1|24": {
+"n": "Gadget Goes West",
+"o": "Inspector Gadget arrives at a western tourist town that plays heavily on its cowboy image to stop modern day outlaw Black Bart."
+},
 "4035|1|3": {
 "n": "Gadget at the Circus",
 "o": "Gadget brings Penny to the circus as he investigates a top-secret mission. The Inspector believes that Dr. Claw has replaced some of the circus performers with M.A.D. Agents! Gadget goes undercover as a clown to uncover the truth."
@@ -4792,6 +4924,10 @@
 "n": "Gemini Temple! Labyrinth of Light and Darkness",
 "o": "The Gold saint of the Taurus constellation proves a worthy challenge for the Bronze saints. Will the others follow Seiya in also awakening their seventh sense?"
 },
+"42444|1|45": {
+"n": "Fear! Adrift in Another Dimension",
+"o": "With time running out the Saints must take on Gemini's Gold Saint who's reputation is as the scariest of them all. Can they break the mirage of Gemini or will it break them?"
+},
 "4244|3|2": {
 "n": "Show #40",
 "o": "Secret Slime Action #1-   Thinking about lunchmeat\n\nSecret Slime Action #2-   Sitting very still\n\nSecret #1-   Bird coached international whistling champion\n\nSecret #2-   Combs giant fluffy bunny fur"
@@ -4807,6 +4943,10 @@
 "42671|1|3": {
 "n": "Deep Feelings",
 "o": "It’s the calm after the storm... but the calm won’t last long. Kurama and the secret facility are sending two people after Lucy. One is the newly healed and stronger Bando. The other is a diclonius just like Lucy. At Kouta’s house, Yuka and a homeless girl named Mayu talk about the events that happened two nights ago at the beach. All of a sudden, Nyuu slips and falls. She bangs her head and Lucy awakens inside of her."
+},
+"42671|1|4": {
+"n": "Attack",
+"o": "After alerting the soldiers and Kurama to Lucy’s whereabouts, Nana confronts her and the two begin to fight in a cemetery. Can Nana hold Lucy off long enough for Kurama and the others to arrive? Meanwhile, hearing loud noises in the cemetery, Mayu stumbles upon the two fighting."
 },
 "42705|1|1": {
 "n": "The First Step",
@@ -4987,6 +5127,10 @@
 "4289|4|12": {
 "n": "The Band",
 "o": "Ray, Louis and Alex form a band and have to deal with issues of leadership, fame and competition. Robyn learns the \"\"rules\"\" of dating from Kelly."
+},
+"4289|4|13": {
+"n": "Things Change",
+"o": "Ray is purposely mysterious about his new girlfriend, Rachel, so that Alex won't get jealous. Alex becomes jealous anyway and struggles with accepting a new friend."
 },
 "4289|4|2": {
 "n": "Green Day",
@@ -5192,6 +5336,10 @@
 "n": "Tequila Mockingbird",
 "o": "Smart and 99 pose as a flamenco dancer and a seedy doctor to fool KAOS as both search for hidden gems in Mexico."
 },
+"4455|4|18": {
+"n": "I Shot 86 Today",
+"o": "Max and 99 investigate after receiving a tip that KAOS is planning to blow up an aerospace center adjoining the Pomona National Golf Club - the third such incident in less than a year."
+},
 "4455|4|6": {
 "n": "The Worst Best Man",
 "o": "Each time Smart picks a best man for his upcoming wedding to Agent 99, the man meets with a mysterious accident. The Chief deducts that there must be a link between all of the accidents and KAOS because all of Max's prospects are fellow agents. To prevent further loss of manpower a t CONTROL, Hymie is appointed best man. KAOS then reveals it's true interest in Max's choice of best man - nearly to the extinction of CONTROL."
@@ -5284,6 +5432,10 @@
 "n": "Pirates",
 "o": "Aqualad asks Raven out on a date, which makes Beast Boy jealous. Cyborg tries to prove that Aqualad is really a pirate."
 },
+"45140|2|4": {
+"n": "Money Grandma",
+"o": "When Robin starts a smear campaign against all of the other Titans so that he can be re-elected  Team Leader, Raven uses a time machine to bring a great leader from the past to teach Robin how to lead."
+},
 "4515|3|1": {
 "n": "We Have a Lot to Talk About",
 "o": "Will Lois accept Clark's marriage proposal? The question lingers while Metropolis becomes strangely crime-free."
@@ -5319,6 +5471,10 @@
 "45194|2|14": {
 "n": "The Trial Board",
 "o": "An officer accused of taking a bribe has chosen Sgt. Friday to represent him at his trial board hearing.  Witnesses saw the officer accept the money, but he insists it was for the payback of a loan made years ago."
+},
+"45194|2|15": {
+"n": "The Christmas Story",
+"o": "A statue of the child Jesus was stolen from a church.  Joe and Bill have to get it back by Christmas. They have less than 48 hours."
 },
 "45194|2|5": {
 "n": "The Big Neighbor",
@@ -5390,6 +5546,10 @@
 },
 "4567|1|10": {
 "n": "The Big Concert",
+"o": ""
+},
+"4567|1|11": {
+"n": "Puppy Power to the Rescue",
 "o": ""
 },
 "4567|1|12": {
@@ -5491,6 +5651,10 @@
 "4574|5|2": {
 "n": "The Phalanx Covenant (2)",
 "o": "Snatched from the jaws of the Phalanx by the villainous Mr. Sinister, Beast and Forge search for allies to help them battle the alien threat. Gathering assistance from such unlikely sources as Magneto and Sinister himself, they embark upon a daring and risky plan to free the planet from the clutches of the Phalanx by traveling straight into the belly of the beast."
+},
+"4574|5|3": {
+"n": "A Deal with the Devil",
+"o": "The former Soviet Union's living weapon, Omega Red, is thawed out by the US Military to deal with an abandoned Soviet nuclear submarine near Hawaii. He asks for his old enemy, Wolverine, and the woman responsible for freezing him most recently, Storm, to accompany him on the mission. Omega Red is offered restored humanity, but once aboard the warhead-filled sub, he reveals his true, deadly intentions."
 },
 "4574|5|6": {
 "n": "Bloodlines",
@@ -5708,6 +5872,10 @@
 "n": "Return to Glory",
 "o": "An exiled South American dictator has plans, or has he, really?"
 },
+"4899|1|22": {
+"n": "The Conquest of Maude Murdock",
+"o": "A redoubtable Embassy figure in Mexico deals them a turn."
+},
 "495|1|5": {
 "n": "Zip in Space",
 "o": ""
@@ -5779,6 +5947,10 @@
 "5368|1|5": {
 "n": "Mr. Peabody",
 "o": "Gramps hires a tramp to do some odd jobs on the farm, then is jealous when Jeff starts to idolize the tale-telling old man."
+},
+"5368|1|6": {
+"n": "The Convict",
+"o": "Jeff and Lassie meet an escaped convict in the woods."
 },
 "5368|3|16": {
 "n": "Party Line",
@@ -5916,6 +6088,10 @@
 "n": "Gonzo's Video Show",
 "o": "Borrowing Nanny's camcorder, The Muppet Babies make their own movies including a \"\"Star Wars\"\" parody."
 },
+"565|1|11": {
+"n": "Fun Park Fantasies",
+"o": "Instead of waiting a week to visit the fun park, the babies make their own park right in the nursery!"
+},
 "565|1|12": {
 "n": "From a Galaxy Far, Far Away",
 "o": "When an alien (really an escaped Koala) ends up in the Nursery, the kids build a rocketship out of their toys so they can take it back home."
@@ -6028,6 +6204,10 @@
 "n": "Ranma Trains on Mt. Terror",
 "o": "Tired of getting beaten by Ranma, Ryoga takes up Cologne's offer to train him. They set off to the mountains, only to find Genma, Ranma and Akane already there, also training."
 },
+"57706|1|29": {
+"n": "The Breaking Point!? Ryoga's Great Revenge",
+"o": "Cologne is teaching Ryoga the fearsome Breaking Point technique, making him capable of shattering giant boulders with a single touch. With it, he's sure he can beat Ranma... If the training doesn't kill him first."
+},
 "57706|1|9": {
 "n": "True Confessions! A Girl's Hair is Her Life!",
 "o": "Akane's accidental haircut brings a temporary reprieve in Ranma and Ryoga's fighting. Stunned, she wanders off alone, thinking about the loss of the one thing that wasn't 'tomboyish' about her."
@@ -6087,6 +6267,10 @@
 "60572|1|21": {
 "n": "Bye Bye Butterfree",
 "o": "When the party sees a flock of Butterfree flying above the ocean, Brock, as a Pokémon breeder, explains that it is the Butterfree's egg-laying season."
+},
+"60572|1|22": {
+"n": "Abra and the Psychic Showdown",
+"o": "The party finally arrives in Saffron City where a young girl manages a gym of Pokémon using her psychic powers. If Ash defeats this particular Gym Leader, Ash can earn a gold badge."
 },
 "60572|1|3": {
 "n": "Ash Catches a Pokémon",
@@ -6255,6 +6439,10 @@
 "6223|1|2": {
 "n": "Treasure Hunt",
 "o": "Pirates blow up a yacht, inspiring a search for Spanish coins and threatening the dolphins."
+},
+"6223|1|3": {
+"n": "Green Freak",
+"o": "An environmental terrorist targets the institute."
 },
 "6223|3|21": {
 "n": "",
@@ -6604,6 +6792,10 @@
 "n": "Christmas Eve Mirage",
 "o": "003 gets some R&R in her hometown of Paris, but soon finds herself in a hallucinatory nightmare."
 },
+"69113|1|12": {
+"n": "Mystical Inhabited Island",
+"o": "005, 006 and 007 become stranded on an isolated island with an abandoned Black Ghost munitions plant."
+},
 "69113|1|2": {
 "n": "The Escape",
 "o": "The 00 cyborgs are free, but fugitives from Black Ghost, the evil organization that created them."
@@ -6641,6 +6833,10 @@
 "o": ""
 },
 "70305|1|11": {
+"n": "",
+"o": ""
+},
+"70305|1|12": {
 "n": "",
 "o": ""
 },
@@ -6888,6 +7084,10 @@
 "n": "Revelations: Apocalypse (3)",
 "o": "Nightscream fights to retrieve Blackarachnia's stolen Spark. Meanwhile, Optimus is able to contact Rhinox's Spark, but Rhinox deals him a major surprise."
 },
+"958|1|1": {
+"n": "Beast Wars (1)",
+"o": "A band of benevolent Maximals follows a pack of power-seeking Predacons to a new planet."
+},
 "962|1|1": {
 "n": "The Mystery of the Lizard Men",
 "o": "While investigating the disappearance of multiple ships in the Sargasso Sea, Dr. Quest discovers a secret laser base (operated by a foreign provocateur and protected by lizard-suited scuba divers) hidden aboard an 18th-century shipwreck."
@@ -7022,6 +7222,10 @@
 "nm": "",
 "ov": ""
 },
+"12 oz mouse|2|1": {
+"nm": "Bowtime",
+"ov": "Fitz has visions of being attack by an electronic bow tie."
+},
 "2 stupid dogs|1|14": {
 "nm": "",
 "ov": ""
@@ -7137,6 +7341,10 @@
 "allegra s window|1|10": {
 "nm": "The Big Concert",
 "ov": "Allegra is excited about singing backup in Rondo and Riff's big musical concert..until she realizes there is going to be a big audience. Reed shares his own experiences of \"stage fright\" with her. In the end, it is Allegra who sav..."
+},
+"allegra s window|1|11": {
+"nm": "Puppy Power to the Rescue",
+"ov": "Allegra and her friends love playing at being super-heroes. But one day, Lindi almost starts believing she has the super powers of her favorite comic book heroine \"Power Puppy\" and determines she will find Mr. Cook's missing oven timer. In the end Lindi realizes she is not endowed with \"super powers\" but is terrific just the way she is."
 },
 "allegra s window|1|12": {
 "nm": "When Is Reed Coming Home?",
@@ -7378,6 +7586,10 @@
 "nm": "Revelations Part 3: Apocalypse",
 "ov": "Nightscream fights to retrieve Black Arachnia's stolen Spark. Meanwhile, Optimus is able to contact Rhinox's Spark, but Rhinox deals him a major surprise."
 },
+"beast wars|1|1": {
+"nm": "Beast Wars: Part 1",
+"ov": "A band of benevolent Maximals track a pack of power-seeking Predacons to a mysterious planet. When they both crash-land, they establish themselves upon the planet and clash, commencing the Beast Wars."
+},
 "beetlejuice|4|16": {
 "nm": "Smell-A-Thon",
 "ov": "While Lydia works the phones at a local Save The Whales telethon, Beetlejuice gets an idea for another money-making scam involving a similar charity to \"Save the Smells.\""
@@ -7486,6 +7698,10 @@
 "nm": "No More Pickpockets",
 "ov": "The boys go under cover at Yankee Stadium to stem the onslaught of pickpockets. One skilled pilferer turns the tide on Toody; who ends up arrested?"
 },
+"car 54 where are you|1|26": {
+"nm": "The Beast Who Walked the Bronx",
+"ov": "Burkholtz, relegated to the Lost &amp; Found for 15 years due to his extreme laxity is the only choice to sub for Capt. Block on his forced two week vacation. The boys mistake his absence from active duty thinking it's because he was ..."
+},
 "cartoon planet|1|3": {
 "nm": "Love That Brak!",
 "ov": ""
@@ -7557,6 +7773,10 @@
 "count duckula|2|6": {
 "nm": "",
 "ov": ""
+},
+"count duckula|2|7": {
+"nm": "Bloodsucking Fruit Bats of the Lower Amazon",
+"ov": "Igor is summoning his new pet, a \"bloodsuckung fruit bat\" and plots to use his pet to convert Count Duckula into the vampire that he truly is, but fails when he finds out that Nanny and Duckula have been treating the bat (known to Igor as \"Fang\" but to Nanny and Duckula as \"Fluffykins\") as a benevolent pet. Igor realizes that his plan has gone awry when this happens and so plots to head to South America to go and find another bat like Fang, or rather, like Fluffykins so as to restart the training of said bat to convert Duckula into a vampire. Igor thus tricks Duckula into sending the castle off to South America to find a bat, and the four of them all meet a zoologist there who is looking for such a bat, as well as a tribe of warrior women who not only resemble Nanny in exact appearance, but capture Duckula, Igor, and the zoologist, making Nanny their queen. Nanny convinces them to release Duckula and co. so as to let them continue hunting for the bat needed. But this proves to have rather a surprising event."
 },
 "courage the cowardly dog|1|3": {
 "nm": "",
@@ -7749,6 +7969,10 @@
 "dragnet 1967|2|14": {
 "nm": "The Trial Board",
 "ov": "A beat police officer asks Sergeant Friday to be his counselor before a review board. The office is accused of accepting a bribe."
+},
+"dragnet 1967|2|15": {
+"nm": "The Christmas Story",
+"ov": "Friday and Gannon investigate the theft of a statue of the baby Jesus from a church's nativity scene on Christmas Eve. The figure itself has little monetary value. Father Xavier Rojas explains this Jesus statue has been at the chu..."
 },
 "dragnet 1967|2|5": {
 "nm": "The Big Neighbor",
@@ -8102,9 +8326,25 @@
 "nm": "The Last Wish",
 "ov": "Guru and the people of Namek have been brought back to life, and the dragon Porunga has reappeared to grant the last of three wishes. While a newly enraged Goku resumes his onslaught against the evil Frieza, Dende races to make th..."
 },
+"dragon ball z|4|27": {
+"nm": "Duel on a Vanishing Planet",
+"ov": "Goku chooses to stay behind and finish his fight with Frieza. With Namek set to explode any second, there seems no way for Goku to defeat Frieza and escape in time! Has the Super Saiyan made the greatest mistake of his life?"
+},
+"dragon ball z|4|28": {
+"nm": "Pathos of Frieza",
+"ov": "Time grows short for Goku as each passing second brings Namek closer to ultimate destruction. As the Super Saiyan's strength increases with every blow, it appears his epic battle with Frieza has at last reached its conclusion!"
+},
+"dragon ball z|4|29": {
+"nm": "Frieza Defeated!!",
+"ov": "Frieza lashes out in a blind rage, launching a reckless volley of energy attacks. In the face of Goku's superior power, the evil tyrant's greatest fear has finally been realized: defeat at the hands of a Super Saiyan!"
+},
 "dragon ball z|4|3": {
 "nm": "The Fusion",
 "ov": "While the Earthlings confront the evil tyrant Frieza, their wish to bring Piccolo to Namek had been fulfilled. As Piccolo races towards the battle, he stumbles upon a fellow Namekian who faces near death. The wounded Namekian info..."
+},
+"dragon ball z|4|30": {
+"nm": "Mighty Blast of Rage",
+"ov": "Even after being sliced into pieces by his own energy disk, Frieza isn't ready to release his stranglehold on the universe. With what little power he has left, Frieza fires a final energy blast after Goku as he leaves the battlefi..."
 },
 "dragon ball z|4|4": {
 "nm": "Fighting Power: One Million??",
@@ -8238,6 +8478,14 @@
 "nm": "",
 "ov": ""
 },
+"dragon ball|2|5": {
+"nm": "",
+"ov": ""
+},
+"dragon ball|2|6": {
+"nm": "",
+"ov": ""
+},
 "dragon ball|5|27": {
 "nm": "",
 "ov": ""
@@ -8341,6 +8589,10 @@
 "elfen lied|1|3": {
 "nm": "Within Heart",
 "ov": "Kohta takes Nyu in with him while Yuka decides to move in with them. Yuka reminds Kohta of a festival he forgot about, which he remembers ended in a vague tragedy. Meanwhile, the offshore facility sends a friendly Diclonius named ..."
+},
+"elfen lied|1|4": {
+"nm": "Meeting",
+"ov": "Nana gets into a deadly fight with Lucy after tracking her down. Meanwhile, Kota suffers a diminishing relationship with Yuka, who has become jealous of Nyu. Yuka discovers that Mayu is homeless."
 },
 "f troop|1|13": {
 "nm": "O'Rourke vs. O'Reilly",
@@ -8534,6 +8786,10 @@
 "nm": "Dolphin Love: Part 1",
 "ov": "Flipper has met the love of his life and would rather spend time with her then with the Ricks. Bud is jealous and doesn't understand why his pet would abandon him for a girl."
 },
+"flipper 1964|2|30": {
+"nm": "Dolphin Love: Part 2",
+"ov": "Flipper is very upset at his girlfriend's injury and races to save her life. But he'll need the Ricks' help to do it."
+},
 "flipper 1964|2|6": {
 "nm": "Junior Ranger",
 "ov": "A young ranger trainee has arrived at Coral Key to meet with Porter Ricks. It doesn't take long for the Ricks to figure out that this new ranger is cocky and needs to be taught what a real ranger is all about - following the rules. He endangers Bud's life by disobeying his advice then blames it on Bud. Will this Ranger ever \"get\" what it's all about?"
@@ -8547,6 +8803,10 @@
 "ov": "Dr. Pam Blondel, a U.S. Navy officer, is hired to join Dr. Ricks' dolphin research team, but her son isn't happy to be living in remote Bal Harbor."
 },
 "flipper 1995|1|2": {
+"nm": "",
+"ov": ""
+},
+"flipper 1995|1|3": {
 "nm": "",
 "ov": ""
 },
@@ -8706,6 +8966,10 @@
 "nm": "Beat the Dragon Gundam",
 "ov": "It is time for the 'Gundam Fight' tournament! Each country sends a Gundam to Earth for this prestigious tournament in the hopes of winning power and glory for their homeland!"
 },
+"g gundam|1|4": {
+"nm": "Challenge! The Red Rose Knight",
+"ov": "It is time for the 'Gundam Fight' tournament! Each country sends a Gundam to Earth for this prestigious tournament in the hopes of winning power and glory for their homeland!"
+},
 "garfield and friends|1|20": {
 "nm": "",
 "ov": ""
@@ -8749,6 +9013,10 @@
 "get smart 1965|4|17": {
 "nm": "Tequila Mockingbird",
 "ov": "Max and 99 travel to Mexico to find the Tequila Mockingbird after another CONTROL agent is killed trying to deliver it to CONTROL."
+},
+"get smart 1965|4|18": {
+"nm": "I Shot 86 Today",
+"ov": "Missiles are being blown up near golf courses so Max is following around a golf pro that was near each incident."
 },
 "get smart 1965|4|8": {
 "nm": "The Return of the Ancient Mariner",
@@ -8819,6 +9087,10 @@
 "ov": ""
 },
 "gullah gullah island|1|2": {
+"nm": "",
+"ov": ""
+},
+"gullah gullah island|1|3": {
 "nm": "",
 "ov": ""
 },
@@ -8935,6 +9207,10 @@
 "ov": ""
 },
 "gumby adventures|1|13": {
+"nm": "",
+"ov": ""
+},
+"gumby adventures|1|14": {
 "nm": "",
 "ov": ""
 },
@@ -9178,6 +9454,10 @@
 "nm": "Around the World in 80 Blinks",
 "ov": "Jeannie tries to return Tony from a spaceflight to treat his cold and brings down the wrong astronaut."
 },
+"i dream of jeannie|4|24": {
+"nm": "Jeannie-Go-Round",
+"ov": "Jeannie's sister causes havoc at a nightclub in front of the Bellowses when Jeannie is locked in her bottle."
+},
 "i love lucy|3|12": {
 "nm": "Ricky's Old Girlfriend",
 "ov": "The Ricardos and Mertzes take a marriage quiz. One question involves past romances, and Ricky makes up a story about an old girlfriend from Cuba, Carlotta Romero. When a real Cuban entertainer of the same name is performing in tow..."
@@ -9210,6 +9490,10 @@
 "nm": "Ricky Loses His Temper",
 "ov": "Ricky gets fed up with Lucy buying so many new hats. They decide to see who can hold out the longest: she has to stop buying hats and he can't lose his temper."
 },
+"i love lucy|3|20": {
+"nm": "Home Movies",
+"ov": "When an advertiser agrees to make a pilot for a potential music TV show starring Ricky only, Lucy, Ethel, and Fred make a movie of their own."
+},
 "i spy 1965|1|15": {
 "nm": "The Tiger",
 "ov": "Kelly's sent on a suicide mission to spring a trap before a world renowned humanitarian blunders into it to rescue his daughter."
@@ -9237,6 +9521,10 @@
 "i spy 1965|1|21": {
 "nm": "Return to Glory",
 "ov": "A question over a five-dollar expense account item for \"glass pants\" for Scotty's mother leads to the boys recounting for Miss Clavell the whole story of their assignment to General Ortiz, democratic leader of an island republic ousted in a revolution and now living in exile in Taxco, Mexico. The general is seeking the United States' assistance in waging a counter-revolution, but Ortiz's wife is suspiciously resistant to allowing Kelly and Scott meet the general. Why the cover-up?"
+},
+"i spy 1965|1|22": {
+"nm": "The Conquest of Maude Murdock",
+"ov": "Kelly and Scotty are assigned to kidnap a government official to detect shortcomings in her security detail, but Maude Murdock, a brash and scrappy Oklahoma woman, doesn't kidnap easily."
 },
 "initial d first stage|1|8": {
 "nm": "Time's Almost Up",
@@ -9297,6 +9585,10 @@
 "inspector gadget|1|23": {
 "nm": "Gadget's Replacement",
 "ov": "Gadget was told by Cheif Quimby to take secret routes into Quimby's office. There, Quimby shows off his brand new \"Crime Computer\". He demonstrates on how the Crime Computer can point out a crime happening in Metro City and deal w..."
+},
+"inspector gadget|1|24": {
+"nm": "Greenfinger",
+"ov": "Inspector Gadget foils the evil plans of Waldo, a M.A.D. agent, who is trying to steal Greenfinger's secret formula that enlarges plants. Safety Tip: Use calamine lotion for poison ivy, but learn to identify it too."
 },
 "inspector gadget|1|3": {
 "nm": "",
@@ -9414,6 +9706,10 @@
 "nm": "Freezer Burned",
 "ov": "While dining at a pirate themed restaurant with Kenan's family, Kel accidentally winds up in the freezer instead of the bathroom. To make matters worse, the freezer door can only be opened from the outside, and even worse, Kel's m..."
 },
+"kenan kel|3|12": {
+"nm": "Present Tense",
+"ov": "Kenan's surprise Birthday gift accidentally breaks after opening up the present ahead of time. He and Kel search to replace the gift before his parents find out."
+},
 "kenan kel|3|2": {
 "nm": "Fenced In",
 "ov": "Nickelodeon's classic buddy comedy stars Kenan Thompson and Kel Mitchell as two friends dauntlessly chasing after things most teenagers dream about, but few dare to pursue."
@@ -9461,6 +9757,10 @@
 "lassie 1954|1|5": {
 "nm": "Mr. Peabody",
 "ov": "Jeff is enthralled by the plethora of tall tales told by the new farmhand Mr. Peabody but Gramps is chafed at folksy Peabody's partial falsehoods and peculiar ways and what he perceives as these things influences on Jeff."
+},
+"lassie 1954|1|6": {
+"nm": "The Convict",
+"ov": "Jeff is met at the lake by an escaped convict who threatens harm to Gramps and Ellen if Jeff does bring him clothes and food while being silent about the man's location."
 },
 "lassie 1954|3|20": {
 "nm": "Champion",
@@ -9630,6 +9930,10 @@
 "nm": "",
 "ov": ""
 },
+"mega man|2|1": {
+"nm": "",
+"ov": ""
+},
 "mega man|2|10": {
 "nm": "",
 "ov": ""
@@ -9679,6 +9983,10 @@
 "ov": ""
 },
 "men in black the series|1|4": {
+"nm": "",
+"ov": ""
+},
+"men in black the series|1|5": {
 "nm": "",
 "ov": ""
 },
@@ -9838,6 +10146,10 @@
 "nm": "",
 "ov": ""
 },
+"mobile suit gundam wing|1|46": {
+"nm": "",
+"ov": ""
+},
 "mobile suit gundam|1|36": {
 "nm": "",
 "ov": ""
@@ -9902,6 +10214,10 @@
 "nm": "",
 "ov": ""
 },
+"muppet babies 1984|1|11": {
+"nm": "",
+"ov": ""
+},
 "muppet babies 1984|1|12": {
 "nm": "",
 "ov": ""
@@ -9945,6 +10261,10 @@
 "my brother and me|1|11": {
 "nm": "",
 "ov": ""
+},
+"my brother and me|1|12": {
+"nm": "Candy Sale",
+"ov": "Alfie and Goo want to buy new jackets. Goo's uncle agrees to front them candy bars to sell. They plan to buy their jackets with the profits."
 },
 "my brother and me|1|6": {
 "nm": "Where's the Snake",
@@ -10061,6 +10381,10 @@
 "nadia the secret of blue water|1|2": {
 "nm": "The Little Fugitive",
 "ov": "Jean is hosting Nadia in his home, showing each invention and fleeing Grandis"
+},
+"nadia the secret of blue water|1|20": {
+"nm": "Jean Makes a Mistake",
+"ov": "Jean constructs another invention -- a miniature glider powered by a rocket for take off from the Nautilus's deck. Unfortunately, during the test flight, the engine backfires and the glider spirals out of control, finally explodin..."
 },
 "nadia the secret of blue water|1|3": {
 "nm": "The Riddle of the Giant Sea Monsters",
@@ -10221,6 +10545,10 @@
 "pok mon|1|21": {
 "nm": "Bye Bye Butterfree",
 "ov": "It's the Butterfree Mating Season. Ash decides to let his Butterfree have a chance at love. Saying good bye may be harder than it seems for both of them."
+},
+"pok mon|1|22": {
+"nm": "Casey! Psychic Confrontation!",
+"ov": "The gang make it to Saffron City and challenge the psychic gym leader, Sabrina. However, there is more than just a trainer badge at stake: the gangs' freedom."
 },
 "pok mon|1|3": {
 "nm": "Pokemon getto da ze!",
@@ -10451,6 +10779,10 @@
 "ov": ""
 },
 "robotech|3|11": {
+"nm": "",
+"ov": ""
+},
+"robotech|3|12": {
 "nm": "",
 "ov": ""
 },
@@ -10802,6 +11134,10 @@
 "nm": "",
 "ov": ""
 },
+"shin chan|1|10": {
+"nm": "",
+"ov": ""
+},
 "shin chan|1|2": {
 "nm": "",
 "ov": ""
@@ -10966,6 +11302,10 @@
 "nm": "The Sting of the Scorpion",
 "ov": "Jameson is becoming obsessed with destroying Spider-Man. So he hires a man named Mac Gargan to try out a new scorpion suit, made in the laboratories of Empire State University. But the mutation of the suit begins to turn Gargan in..."
 },
+"spider man the animated series|1|7": {
+"nm": "Kraven the Hunter",
+"ov": "Peter has a job interview at the Hardy Foundation Research Center. But his interviewer, Dr. Mariah Crawford, is visited by an old lover, Sergei Kravinoff aka Kraven the Hunter."
+},
 "spider man the animated series|5|10": {
 "nm": "Secret Wars, Chapter 2: The Gauntlet of the Red Skull",
 "ov": "Spider-Man and his team plan to infiltrate the Red Skull's base, along with a group of freedom fighter from the destroyed planet."
@@ -11106,6 +11446,10 @@
 "nm": "",
 "ov": ""
 },
+"street fighter|2|2": {
+"nm": "",
+"ov": ""
+},
 "superman the animated series|3|2": {
 "nm": "Knight Time",
 "ov": "When Batman goes missing, Superman takes up the mantle of the Dark Knight to keep Gotham City's supervillains from running amok."
@@ -11174,7 +11518,15 @@
 "nm": "Terra",
 "ov": "The Titans meet and befriend an insecure girl named Terra who has tremendous power."
 },
+"teen titans|2|4": {
+"nm": "Only Human",
+"ov": "Cyborg believes that his robotic limbs have their limit in strength. He gets a chance to prove it when it falls to him to rescue the rest of the titans from an enemy robot."
+},
 "tenchi universe|1|1": {
+"nm": "",
+"ov": ""
+},
+"tenchi universe|1|2": {
 "nm": "",
 "ov": ""
 },
@@ -11358,6 +11710,10 @@
 "nm": "Where Did I Come From?",
 "ov": "Rob recalls the hilarious events leading up to Ritchie's birth when Ritchie asks the inevitable question."
 },
+"the dick van dyke show|1|16": {
+"nm": "The Curious Thing About Women",
+"ov": "Laura opens and reads Rob's mail, she giving him a Reader's Digest version of it, and even throwing away what she considers unimportant. Rob is not angry that Laura opened his mail, but he is angry that she read it before he did. ..."
+},
 "the dick van dyke show|1|9": {
 "nm": "The Unwelcome Houseguest",
 "ov": "Buddy and his wife can't take their German Shepherd, Larry, with them on a three-day weekend. Buddy wants Rob to keep Larry for the weekend, but Rob refuses because he hasn't talked it over with Laura. The next time we see Rob, he..."
@@ -11473,6 +11829,10 @@
 "the mary tyler moore show|6|13": {
 "nm": "",
 "ov": ""
+},
+"the mary tyler moore show|6|14": {
+"nm": "One Boyfriend Too Many",
+"ov": "Mary has to choose between her current boyfriend and an old flame that returns to town."
 },
 "the mary tyler moore show|6|7": {
 "nm": "Chuckles Bites the Dust",
@@ -11698,6 +12058,10 @@
 "nm": "The Band",
 "ov": "Alex tries to form a band with her friends and realizes that managing a team can be full of compromises."
 },
+"the secret world of alex mack|4|13": {
+"nm": "Things Change",
+"ov": "Ray starts dating a new girl and Alex gets jealous, thinking it'll wreck their friendship. Meanwhile Dave is considering turning Ray in to the chemical plant."
+},
 "the secret world of alex mack|4|2": {
 "nm": "Green Day",
 "ov": "Alex learns a lesson in where garbage goes and vows to be more earth-friendly. Meanwhile, Danielle Atron receives help from an unlikely source after angering a morbidly obese litigator."
@@ -11793,6 +12157,10 @@
 "thundercats|1|15": {
 "nm": "The Time Capsule",
 "ov": "The Thundercats search desperately for a precious device which has all the recorded history of Thundera up until the time of its destruction."
+},
+"thundercats|1|16": {
+"nm": "The Fireballs of Plun-Darr",
+"ov": "The Mutants devastate the Cat's Lair, the Warrior Maidens, and much of the surrounding countryside with a powerful long-range fire-cannon they have constructed on Castle Plun-Darr."
 },
 "thundercats|1|6": {
 "nm": "The Terror of Hammerhand",
@@ -11974,6 +12342,10 @@
 "nm": "",
 "ov": ""
 },
+"yuyu hakusho|3|26": {
+"nm": "",
+"ov": ""
+},
 "yuyu hakusho|3|8": {
 "nm": "",
 "ov": ""
@@ -11983,6 +12355,10 @@
 "ov": ""
 },
 "zeta gundam|1|10": {
+"nm": "",
+"ov": ""
+},
+"zeta gundam|1|11": {
 "nm": "",
 "ov": ""
 },
@@ -12328,6 +12704,7 @@
 "batman beyond": 513,
 "batman: the animated series": 2098,
 "beast machines": 932,
+"beast wars": 958,
 "beetlejuice": 4288,
 "beetlejuice (1989)": 4288,
 "berserk": 35935,
@@ -12625,10 +13002,12 @@
 "saint seiya": null,
 "salute your shorts": null,
 "serial experiments lain": null,
+"shin chan": null,
 "spider man the animated series": null,
 "static shock": null,
 "street fighter": null,
 "teen titans": null,
+"tenchi universe": null,
 "the adventures of rocky and bullwinkle and friends": null,
 "the adventures of superman": null,
 "the adventures of tintin": null,
@@ -77878,6 +78257,112 @@
 4
 ]
 },
+"79620": {
+"no need for a checkpoint": [
+1,
+21
+],
+"no need for a conclusion": [
+1,
+26
+],
+"no need for a genius": [
+1,
+8
+],
+"no need for a ghost": [
+1,
+18
+],
+"no need for a rebellion": [
+1,
+14
+],
+"no need for a showdown": [
+1,
+25
+],
+"no need for an arch rival": [
+1,
+10
+],
+"no need for an escape": [
+1,
+15
+],
+"no need for carnivals": [
+1,
+7
+],
+"no need for discussions": [
+1,
+1
+],
+"no need for hiding": [
+1,
+16
+],
+"no need for hunger": [
+1,
+17
+],
+"no need for karma": [
+1,
+23
+],
+"no need for knights": [
+1,
+22
+],
+"no need for memories": [
+1,
+9
+],
+"no need for monsters": [
+1,
+4
+],
+"no need for partners": [
+1,
+5
+],
+"no need for princesses": [
+1,
+2
+],
+"no need for resident officers": [
+1,
+6
+],
+"no need for runaways": [
+1,
+19
+],
+"no need for ryoko": [
+1,
+24
+],
+"no need for swimsuits": [
+1,
+20
+],
+"no need for worries": [
+1,
+3
+],
+"time and space adventures part i": [
+1,
+11
+],
+"time and space adventures part ii": [
+1,
+12
+],
+"time and space adventures part iii": [
+1,
+13
+]
+},
 "80785": {
 "and at the end of the rainbow": [
 1,
@@ -78602,6 +79087,7 @@
 "superman: the animated series": "71788",
 "taxi": "262666",
 "teen titans": "71503",
+"tenchi universe": "79620",
 "the adventures of pete & pete": "74670",
 "the adventures of rocky and bullwinkle and friends": "76705",
 "the adventures of superman": "71451",
@@ -78848,6 +79334,10 @@
 },
 "27178|1|11": {
 "n": "",
+"o": ""
+},
+"27178|1|12": {
+"n": "Candy Sale",
 "o": ""
 },
 "27178|1|7": {
@@ -114810,6 +115300,216 @@
 "zsa zsa": [
 2,
 15
+]
+},
+"4228": {
+"a better mousetrap": [
+1,
+9
+],
+"aftermath": [
+2,
+1
+],
+"bad spark": [
+2,
+8
+],
+"beast wars part 1": [
+1,
+1
+],
+"beast wars part 2": [
+1,
+2
+],
+"before the storm": [
+1,
+24
+],
+"call of the wild": [
+1,
+19
+],
+"chain of command": [
+1,
+5
+],
+"changing of the guard": [
+3,
+3
+],
+"code of hero": [
+2,
+9
+],
+"coming of the fuzors part 1": [
+2,
+2
+],
+"coming of the fuzors part 2": [
+2,
+3
+],
+"crossing the rubicon": [
+3,
+9
+],
+"cutting edge": [
+3,
+4
+],
+"dark designs": [
+1,
+13
+],
+"dark voyage": [
+1,
+20
+],
+"deep metal": [
+3,
+2
+],
+"double dinobot": [
+1,
+14
+],
+"double jeopardy": [
+1,
+8
+],
+"equal measures": [
+1,
+4
+],
+"fallen comrades": [
+1,
+7
+],
+"feral scream part 1": [
+3,
+5
+],
+"feral scream part 2": [
+3,
+6
+],
+"go with the flow": [
+3,
+8
+],
+"gorilla warfare": [
+1,
+10
+],
+"law of the jungle": [
+1,
+23
+],
+"master blaster": [
+3,
+10
+],
+"maximal no more": [
+2,
+5
+],
+"nemesis part 1": [
+3,
+12
+],
+"nemesis part 2": [
+3,
+13
+],
+"optimal situation": [
+3,
+1
+],
+"other victories": [
+3,
+11
+],
+"other visits part 1": [
+2,
+6
+],
+"other visits part 2": [
+2,
+7
+],
+"other voices part 1": [
+1,
+25
+],
+"other voices part 2": [
+1,
+26
+],
+"possession": [
+1,
+21
+],
+"power surge": [
+1,
+6
+],
+"proving grounds": [
+3,
+7
+],
+"spider s game": [
+1,
+18
+],
+"tangled web": [
+2,
+4
+],
+"the agenda part 1": [
+2,
+11
+],
+"the agenda part 2": [
+2,
+12
+],
+"the agenda part 3": [
+2,
+13
+],
+"the low road": [
+1,
+22
+],
+"the probe": [
+1,
+11
+],
+"the spark": [
+1,
+15
+],
+"the trigger part 1": [
+1,
+16
+],
+"the trigger part 2": [
+1,
+17
+],
+"the web": [
+1,
+3
+],
+"transmutate": [
+2,
+10
+],
+"victory": [
+1,
+12
 ]
 },
 "4240": {
@@ -151687,6 +152387,7 @@
 "batman beyond": 504,
 "batman: the animated series": 757,
 "beast machines": 19177,
+"beast wars": 4228,
 "beetlejuice": 9701,
 "beetlejuice (1989)": 9701,
 "berserk": 27,

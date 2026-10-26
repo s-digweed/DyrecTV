@@ -1,9 +1,9 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-25 08:06 UTC)
-#   episode-specific: 828
-#   fixed show-blurb: 12  (hand-supplied, intentional)
-#   generic (blurb) : 90
-#   none            : 37
+# DESCRIPTION REPORT  (2026-10-26 08:31 UTC)
+#   episode-specific: 806
+#   fixed show-blurb: 8  (hand-supplied, intentional)
+#   generic (blurb) : 103
+#   none            : 53
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
 # (epNum=, blank = the API gave none). To set a real one, paste into
@@ -18,33 +18,35 @@
     ("Cow with Four Eyes", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Cyborg 009", "Devil of the Deep Sea"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Eve Mirage"): "",   # epNum=11  no S/E resolved -> show-level blurb
+    ("Cyborg 009", "Mystical Island"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("DBZ Abridged Halloween Special", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Dee Dees Room", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "Freeza: The Final Cut Part 3"): "",   # epNum=31  no S/E resolved -> show-level blurb
     ("Frankenbravo", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Ghost Stories", "A Hand Reaches Out of the Toilet... Akagami Aogami"): "",   # epNum=2  no S/E resolved -> show-level blurb
-    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Jackie Chan Adventures - Fright Night Fight", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Jin-Roh - The Wolf Brigade", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Key to my Ed", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Lupin the Third: Part II", "Auntie Ballistic"): "",   # epNum=23  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Lair of the Land-Shark"): "",   # epNum=25  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Rats to You"): "",   # epNum=24  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Shot Through the Heart"): "",   # epNum=26  no S/E resolved -> show-level blurb
     ("Night of the Weremole", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Paranorman", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Ranma ½", "Cool Runnings! The Race of the Snowmen"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Ranma ½", "Danger at the Tendo Dojo!"): "",   # epNum=28  no S/E resolved -> show-level blurb
     ("Ranma ½", "Enter Mousse! The Fist of the White Swan"): "",   # epNum=26  no S/E resolved -> show-level blurb
-    ("Rurouni Kenshin", "Kyoto, the Engraved Memory"): "",   # epNum=62  no S/E resolved -> show-level blurb
+    ("Ranma ½", "Ranma Trains on Mt. Terror"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Rurouni Kenshin", "The Juppongatana Who Remain"): "",   # epNum=61  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Darkness, My Old Friend (A Bright Shooting Star! Saturn, and the Messiah)"): "",   # epNum=118  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "Fiendish Ferns"): "",   # epNum=114  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)"): "",   # epNum=112  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "The Science Of Love"): "",   # epNum=115  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Second Chance (A New Life! Time for Separation of the Destined Stars)"): "",   # epNum=119  no S/E resolved -> show-level blurb
+    ("Sailor Moon", "Tough Kindness"): "",   # epNum=120  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Wake Up Call (Shadows of Destruction! The Awakening of the Messiah of Silence)"): "",   # epNum=116  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Who's Really Who? (The Horror of the Approaching Shadow! Eight Soldiers in Tough Battle)"): "",   # epNum=117  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Big Bang! Battle of Taurus Temple"): "",   # epNum=43  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Gemini! Maze of Light and Dark"): "",   # epNum=44  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "Panic! Adrift in a Different Dimension"): "",   # epNum=45  no S/E resolved -> show-level blurb
     ("Scooby-Doo And The Witchs Ghost", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Spider-Man: The Animated Series", "The Alien Costume (Part One)"): "",   # epNum=7  no S/E resolved -> show-level blurb
     ("Spider-Man: The Animated Series", "The Alien Costume (Part Three)"): "",   # epNum=9  no S/E resolved -> show-level blurb
@@ -55,3 +57,4 @@
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 1): The End of Time"): "",   # epNum=62  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 2): Promise of Apocalypse"): "",   # epNum=63  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 3): The Lazarus Chamber"): "",   # epNum=64  no S/E resolved -> show-level blurb
+    ("X-Men: The Animated Series", "Beyond Good and Evil (Part 4): End and Beginning"): "",   # epNum=65  no S/E resolved -> show-level blurb
