@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-26 08:31 UTC)
+# RUN STATUS  (2026-10-27 08:38 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 806 episode-specific, 8 fixed show-blurb, 103 generic, 53 none (see generic_desc.txt)
+#   descriptions     : 896 episode-specific, 10 fixed show-blurb, 121 generic, 67 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 462  (manual pins: 0)
-#   S/E by absolute  : 12
-#   S/E + desc / TAM : 23  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 500  (manual pins: 0)
+#   S/E by absolute  : 14
+#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 4  (S/E from your hand-verified sheet)
-#   episode guide    : 169  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 133  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 199  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 141  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 177
-#   S/E withheld     : 66  (listed below)
+#   names from TAM   : 222
+#   S/E withheld     : 71  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -23,20 +23,21 @@
 # gave none, so a guide can't key on it).
 # ============================================================
     ("Cyborg 009", "Devil of the Deep Sea"): (, ),   # epNum=9
-    ("Cyborg 009", "Eve Mirage"): (, ),   # epNum=11
     ("Cyborg 009", "Mystical Island"): (, ),   # epNum=12
-    ("Ghost Stories", "A Hand Reaches Out of the Toilet... Akagami Aogami"): (, ),   # epNum=2
     ("Lupin the Third: Part II", "Auntie Ballistic"): (, ),   # epNum=23
     ("Lupin the Third: Part II", "Lair of the Land-Shark"): (, ),   # epNum=25
     ("Lupin the Third: Part II", "Rats to You"): (, ),   # epNum=24
     ("Lupin the Third: Part II", "Shot Through the Heart"): (, ),   # epNum=26
+    ("Lupin the Third: Part II", "The Little Princess of Darkness"): (, ),   # epNum=27
     ("Ranma ½", "Cool Runnings! The Race of the Snowmen"): (, ),   # epNum=27
     ("Ranma ½", "Danger at the Tendo Dojo!"): (, ),   # epNum=28
     ("Ranma ½", "Enter Mousse! The Fist of the White Swan"): (, ),   # epNum=26
     ("Ranma ½", "Ranma Trains on Mt. Terror"): (, ),   # epNum=29
+    ("Ranma ½", "The Breaking Point!? Ryoga's Great Revenge"): (, ),   # epNum=30
     ("Rurouni Kenshin", "The Juppongatana Who Remain"): (, ),   # epNum=61
     ("Sailor Moon", "Darkness, My Old Friend (A Bright Shooting Star! Saturn, and the Messiah)"): (, ),   # epNum=118
     ("Sailor Moon", "Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)"): (, ),   # epNum=112
+    ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): (, ),   # epNum=121
     ("Sailor Moon", "Second Chance (A New Life! Time for Separation of the Destined Stars)"): (, ),   # epNum=119
     ("Sailor Moon", "Tough Kindness"): (, ),   # epNum=120
     ("Sailor Moon", "Wake Up Call (Shadows of Destruction! The Awakening of the Messiah of Silence)"): (, ),   # epNum=116
@@ -47,6 +48,7 @@
     ("Spider-Man: The Animated Series", "The Alien Costume (Part One)"): (, ),   # epNum=7
     ("Spider-Man: The Animated Series", "The Alien Costume (Part Three)"): (, ),   # epNum=9
     ("Spider-Man: The Animated Series", "The Alien Costume (Part Two)"): (, ),   # epNum=8
+    ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): (, ),   # epNum=22
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 1): The End of Time"): (, ),   # epNum=62
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 2): Promise of Apocalypse"): (, ),   # epNum=63
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 3): The Lazarus Chamber"): (, ),   # epNum=64

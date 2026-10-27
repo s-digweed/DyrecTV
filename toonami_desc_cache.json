@@ -360,6 +360,10 @@
 "n": "Jackson",
 "o": "Cromartie High Vs. Bass High! The Bass High students infiltrate Cromartie High School in search of information, while Hayashida complains about their school being too \"normal\"."
 },
+"12260|1|11": {
+"n": "USA Trip",
+"o": "When Takenouchi winds up in the USA, an imposter takes his place in Cromartie. Will they boys notice it? And what will happen when Bass High takes Maeda hostage again?"
+},
 "12260|1|2": {
 "n": "Blade Runners High",
 "o": "Kamiyama and Hayashida are the only two who seem to realize that Mechazawa is actually a robot. They spy on him to see if anyone else notices that he’s a robot. After two close calls, the boys give up. After school they spot Mechazawa getting beat up by some bullies from a rival school. Kamiyama and Hayashida spy on him some more, but nobody seems to notice, not even when they stab Mechazawa with a knife that simply breaks on his hard body."
@@ -504,6 +508,10 @@
 "n": "Patty, the Master Builder",
 "o": "After finding a composition (on Ross' desk) in which the author praises his sister, Patty decides to help Ross build a car for the soap box derby race."
 },
+"12444|2|29": {
+"n": "Patty and the Cut-Rate Casanova",
+"o": "Patty deserts Richard for Carlos, a boy who knows all the latest dance steps, so Richard begins dating Cathy."
+},
 "12504|1|57": {
 "n": "Battle Cruiser",
 "o": "The Mob steals weapons from the Silverhawks vehicles to arm a battle cruiser in a plan to take over Earth's mob. It is up to new Silverhawks Condor and Moonstryker to stop them."
@@ -547,6 +555,10 @@
 "12662|3|12": {
 "n": "The Seven Souvenirs",
 "o": "Is something hidden inside them? Items purchased at a Superman souvenir store may be clues to a crime."
+},
+"12662|3|13": {
+"n": "King for a Day",
+"o": "A royal performance: Jimmy poses as a prince of Burgonia to help thwart an assassination plot."
 },
 "12662|3|2": {
 "n": "The Talking Clue",
@@ -1060,6 +1072,14 @@
 "n": "Last Ditch Effort",
 "o": "Vegeta, Trunks, Tien, and Piccolo realize a grim truth: unless they can increase their powers quickly, they’ll have no chance against the androids. In a drastic move, Piccolo flies to Kami’s Lookout and makes a most unexpected proposal!"
 },
+"12971|4|31": {
+"n": "Closing In",
+"o": "The androids hit the road in pursuit of Goku, but they’re delayed by some hyperactive hoodlums. Krillin and Trunks race to move Goku to a safer hiding place, and Kami wrestles with Piccolo’s difficult offer."
+},
+"12971|4|32": {
+"n": "Unwelcome Discovery",
+"o": "The Z-fighters retreat to Master Roshi’s house to plan their next move. Meanwhile, Bulma makes a startling discovery: the wreckage of a second time capsule! Where did it come from, and more importantly, who was in it?"
+},
 "12971|4|4": {
 "n": "Fight With Piccolo",
 "o": "With Piccolo infected by the Black Water Mist and Kami trapped in a glass bottle, Garlic Jr. allows his Spice Boys to “have sport” with Earth’s heroic defenders. Will Spice’s energy blast finish off Krillin for good?"
@@ -1324,6 +1344,10 @@
 "n": "Romeo in the Mix",
 "o": "Lil' Romeo joins forces with Static to defeat the Leech, a metahuman who is stealing other metahumans' powers."
 },
+"1487|3|11": {
+"n": "Trouble Squared",
+"o": "Armed with new gadgets and powers, Specs and Trapper try to impress their boss, Alva, by capturing Static."
+},
 "1487|3|3": {
 "n": "Static in Africa",
 "o": "While visiting Africa as his secret identity, Static teams up with an African superhero, Anansi, to defeat the villain Osebo, before he blows up a dam."
@@ -1383,6 +1407,10 @@
 "15130|3|19": {
 "n": "Golem's Cook-Off",
 "o": "Golem and gang runs into an Old Lady who cooks the best Pizza. Just when she was about to defend her crown in the cooking competition, her secret sauce is stolen!\n\nThe ransom is Holly's Mystery Disc! Can they get the sauce back in time to help the old lady defend her crown?"
+},
+"15130|3|20": {
+"n": "Battling Granity",
+"o": "The gang meets up with Granity but then she becomes controlled by a machine type Baddie which enter her head.\n\nCan she fight this control and keep her promise to Big Blue never to do evil again or will she destroy the gang?"
 },
 "1530|1|10": {
 "n": "Lonesome George",
@@ -1656,6 +1684,10 @@
 "n": "Munster the Magnificent",
 "o": "Eddie volunteers Herman as a performer for his school’s Talent Night.  Since Herman has no discernible talent, Grandpa conjures up a pair of magic ballet shoes that will transform whoever wears them into a gifted dancer.  But Herman is uneasy about strapping on this footwear. Fortunately, Eddie already has him billed as the world’s greatest magician."
 },
+"1712|1|35": {
+"n": "Herman’s Happy Valley",
+"o": "Herman purchases ten acres in Happy Holiday Valley through a magazine ad.  It turns out to be a patch of wasteland in a broken-down ghost town, so the Munsters absolutely adore it.  This makes things difficult for the fly-by-night salespeople who get a better offer for the property and want to buy it back."
+},
 "177|4|2": {
 "n": "I Am Clichéd",
 "o": "The director of Weasel and I.R.'s cartoons does nothing but stealing old clichés from classic cartoons."
@@ -1771,6 +1803,10 @@
 "1890|1|8": {
 "n": "Deep Trouble",
 "o": "When the Roughnecks go beneath the surface of Pluto to locate the Bug army's incubation center, Flores suffers from disabling claustrophobia."
+},
+"1890|1|9": {
+"n": "Swarm",
+"o": "The battle against the Bugs moves to the watery planet Hydora, where Rico and the Roughnecks again come to Carmen's rescue when she is stranded while evacuating wounded."
 },
 "1916|1|14": {
 "n": "Hot Rodney",
@@ -1979,6 +2015,10 @@
 "20451|1|2": {
 "n": "No Need for Princesses!",
 "o": "Princess Ayeka, first princess of planet Jurai, regrets responding to Mihoshi's distress beacon when she meets Ryoko on Earth. The two of them go back a long way, and have been enemies for years. During her time on Earth, Ayeka finds herself falling for Tenchi, and cannot endure Ryoko's shameless flirting with him."
+},
+"20451|1|3": {
+"n": "No Need for Worries!",
+"o": "The Masaki home is paid another visit by an interstellar traveller in the form of Sasami, Ayeka's younger sister, who has arrived to take her sibling back home. Meanwhile, Ryoko's wrecked spaceship gives birth to a cute replacement, and the mischievous space pirate teases Ayeka by telling her that Tenchi is the father!"
 },
 "2085|1|2": {
 "n": "Cajun Granny Stew",
@@ -2296,6 +2336,10 @@
 "n": "Lucy Goes to London",
 "o": "Lucy writes a jingle for a dog food company and wins a trip to London, England (\"\"in Europe\"\").  But when she misses her flight, she's forced to take a commuting flight to New York -- in a seat next to Mr. Mooney, who's on his way to the Big Apple for a business meeting."
 },
+"2144|5|7": {
+"n": "Lucy Gets a Roommate",
+"o": "Lucy advertises for a roommate to help with the expenses, and after reading the correspondence, she finally decides on Carol Bradford (Carol Burnet), a frumpy off-kilter librarian.  Carol soon starts taking over, reorganizing the apartment, laughing like a hyena,  and generally driving Lucy nuts.  Lucy and Mary Jane scheme to help Carol develop a social life (to keep her out of Lucy's hair), so they have a small party to introduce her to some boys.  It isn't long before usually mild-mannered Carol begins drinking, singing, and being the life of the party."
+},
 "2160|2|27": {
 "n": "A Chipmunk Reunion",
 "o": "When they can't determine when their birthday is, the Chimpunks set out to find their mother, who abandoned them as babies."
@@ -2320,6 +2364,10 @@
 "n": "Elementary, My Dear Simon",
 "o": "Simon hosts his own show, playing Sherlock Holmes investigating several mysterious robberies."
 },
+"2164|1|10": {
+"n": "Trapped by Loki",
+"o": "After years of imprisonment in Asgard, Loki escapes to Earth to gain his revenge on his half-brother, Thor. Once there, Loki learns that Thor lives among humans as one of them, Dr. Donald Blake."
+},
 "2164|1|2": {
 "n": "Wreckers Among Us",
 "o": "A quick recap of how Steve Rodgers became Captain America/Captain America's main focus is on saboteurs as he keeps his identity secret by being an army private/Captain America learns that the Red Skull is behind the sabotage."
@@ -2330,6 +2378,10 @@
 },
 "2164|1|5": {
 "n": "Enter Happy Hogan",
+"o": "While Tony Stark is busy with his new race car one of his scientists plots to destroy him."
+},
+"2164|1|6": {
+"n": "Of Ice and Men",
 "o": "While Tony Stark is busy with his new race car one of his scientists plots to destroy him."
 },
 "2164|1|7": {
@@ -2459,6 +2511,10 @@
 "21730|1|46": {
 "n": "Milliardo's Decision",
 "o": "Heero manages to get into the Libra and reunites with Relena to confront Milliardo. Treize challenges Milliardo with his new Tallgeese II Mobile Suit. To try and eliminate Treize, he fires the Libra..."
+},
+"21730|1|47": {
+"n": "Collision in Space",
+"o": "The five Gundams launch their ultimate offensive knowing that only mass slaughter and a sad battlefield awaits them. The Peacemillion space fortress rams the Libra to block White Fang's way to Earth, even if it will bring their own death."
 },
 "21736|1|40": {
 "n": "Shore Watch Out Order",
@@ -2612,6 +2668,10 @@
 "n": "Put Your Feet in Our Hands",
 "o": "Dobie and Chatsworth complete for the attention of a shoe store owner's daughter in order to get a job at the store."
 },
+"221|1|33": {
+"n": "Competition is the Life of Trade",
+"o": "Dobie's newest girlfriend's father happens to be opening a new grocery store. Mr. Gillis tries to spy under the name Fred C. Dobbs."
+},
 "2251|3|11": {
 "n": "Elaine's Old Friend",
 "o": "In her cab, Elaine picks up a woman who turns out to be her old high-school rival, Mary. Elaine is embarrassed that she is a cab driver, especially since Mary heads a prestigious ad agency, so to save face, Elaine makes up a story about having a wonderful boyfriend who is a Columbia University professor.  Over the next few days, Mary calls Elaine to try to arrange a dinner with their respective boyfriend's, but Elaine keeps making excuses, as she is ashamed that she made up a lie about having a boyfriend.  When Elaine is about ready to confess her lie to Mary over the phone, Alex grabs the phone, pretending to be Elaine's boyfriend, and accepts her dinner invitation for that evening.  At dinner, Alex is so charming, in an effort to make their relationship look very loving, that all of a sudden, Mary and her boyfriend become jealous that they don't have such an exciting relationship.  Meanwhile, even Elaine is swept up in the moment, and is taken by Alex's romantic acting job.  Having d"
@@ -2712,6 +2772,10 @@
 "n": "Storm Warning",
 "o": "Coach McGuirk tries to convince Paula to pose as his fiance while his sister visits. Meanwhile, Paula needs to get her novel to her agent before he goes on vacation. On the filmmaking front, the kids try to decide whether they want to make a mockumentary about making a movie or a mock, making-of-a-mockumentary movie or just a movie."
 },
+"2274|4|1": {
+"n": "Everybody's Entitled to My Opinion",
+"o": "Brendon begins writing reviews for a movie website called movie-winner-or-weiner.com. Jason and Melissa are excited because Brendon gets passes for all of them to see the premiere of 'All That Violence'. Meanwhile, Coach McGuirk wreaks havoc because he's finally got a friend 'on the inside'."
+},
 "22888|1|1": {
 "n": "The Music Ball / Shrink-a-Dink / Hatching Out",
 "o": "The Music Ball:\n\nA package parachutes into Gumby's ranch. The only writing on it are the words \"Top Secret\". \"Let's open it!\" It turns out to be a golden ball that randomly freaks out whenever Gumby and friends play music. They decide to use the strange object to get on Johnny Carson and MTV, after lunch, of course. Wouldn't you know it, the Blockheads steal it while they're eating, and they have a downright unnessecary chase scene to recover it. The short ends with Gumby's strange, phantasmagoric concert.\n\nShrink-a-Dink:\n\nPokey's unsure about a visit to Professor Kapp's lab, but eventually gives into his peers. They all go to the lab where the Professor unveils his shrinking machine. As everyone but Pokey patiently wait in the machine's area of influence, Pokey accidentally turns the machine on, shrinking everyone to the size of an ant. When enough time has been killed by unimportant events, Pokey unshrinks everyone and vows never to eat candy again.\n\nHatching Out:\n\nThe first half of this cartoon features Gumby being stalked and horribly devoured by a Tyrannosaurus, both in the Toy Store and on his ranch. A second later, everyone else arrives to find the dinosaur napping in the hay. Fortunately, Denali scares it off with a few ice cubes, but it left behind an egg. Prickle decides to dump it in a passing garbage truck. It hatches moments later, with Gumby inside. Turns out the whole thing was a dream brought on by too many nature documentaries about the mating habits of dinosaurs before bedtime."
@@ -2731,6 +2795,10 @@
 "22888|1|14": {
 "n": "Strange Circus Animals / A Gumby Day / A Cottage for Granny",
 "o": "Strange Circus Animals:\n\nGumby really wants to put on a circus, so the minute he comes across a good excuse (it'll be a benefit to help locate missing children), he and his friends are off to various books to capture some circus animals. The action focuses on Gumby and Pokey, who find a little newly-orphaned mastodon named Denali. Reeling the poor distraught dope in with stories of joy and happiness at the circus, they have a brief encounter with a wolf before returning to the farm with him. Goo and Prickle have captured a small dinosaur and a walrus. Gumby laughs hysterically, and there's no circus. Maybe this sets the stage for Gumby's Circus.\n\nA Gumby Day:\n\nYes, it's a day in the life of Gumby. Gumby's day starts with some abuse from the most annoying cuckoo clock in the world. Next, it's a hot shower, followed by getting melted and flushed down the drain. Emerging from the kitchen sink, it's time for a hearty breakfast of oatmeal and carob drink. Yummy! Then, after fighting off the early morning traffic (literally; he's attacked by toy cars), it's off to the farm to train Denali for the circus and pick some vegetables for dinner. Laugh with him as Pokey holds up a bucket for Denali to spit ice cubes into and Denali repeatedly banks them off Pokey's face. Then, it's home for dinner with the family.\n\nA Cottage for Granny:\n\nGumby's grandmother stops by the farm to pick up Gumby, who's supposed to help her go house hunting. He's out, so she decides to go alone, largely despite the fact that her glasses got smashed during her visit and she can't see a thing. It's a perilous journey to her prospective new home, as her near-blindness puts her in several near-fatal situations, and it's really funny! She buys a new house from the Blockheads (just when are people going to learn not to deal with those two?), and Gumby arrives moments later to find out she bought a false front with a view to a landfill. They get Granny's money back from the Blockheads, and Granny promises to be a good little helpless senior citizen and never do anything by herself ever again."
+},
+"22888|1|15": {
+"n": "The Wind Bag / Lotta Hot Air / Wild Horse",
+"o": "The Wind Bag:\n\nThe miserly super villain Ebenezer Scrooge is back to wreak havoc on Gumbyland! He's stolen a magical bag of wind from King Ott's wizard, and he's using it to blow all the toys in Toyland away to another plane of existence, I guess. Then, he will rid the world of toys, and have his revenge.  Cad Waliter tells Gumby about the theft, and it's up to Gumby to stand around and wait for the wind to stop so he can apprehend the blithering old idiot. The cartoon ends with Scrooge playing with a train.\n\nLotta Hot Air:\n\nGumby got himself a hot air balloon! For the first three hours of the cartoon, Gumby laboriously unrolls it, fills it, checks everything, and then we're all ready to go! Gumby, Pokey, and Prickle go for a joy ride which quickly turns ugly when they run out of propane and land in the middle of nowhere. Before they have time to resort to cannibalism, a sasquatch runs at them, obviously with evil intentions. Prickle suddenly remembers that he's a dragon or a dinosaur or something or other and uses his fiery breath to warm up the balloon and carry them to safety.\n\nWild Horse:\n\nIt's a bedtime story for Minga! Once upon a time, Gumby and his family lived in Arizona, only Gumby's name was Tom and Minga's name was Sally and everything you ever knew or loved was no more. Everyone on the same page? Good. So, Tom's family made a living breeding and training quarter horses. One day, they \"found\" a wild quarter horse and Tom tried riding it without employing any particular taming methods. Everyone in the family is shocked that the wild horse isn't instantly comfortable carting people around and decide to throw him away. Of course, Sally knows far more than anyone else in her family about how to train horses, and one day she prompts the horse to talk to her and give her a ride.  It sprouts wings and flies her around."
 },
 "22888|1|2": {
 "n": "Mirror-Aculous Recovery / As the Worm Turns / Wild Girls",
@@ -2931,6 +2999,10 @@
 "24710|1|20": {
 "n": "Jean Makes a Mistake",
 "o": "Jean's latest invention goes disastrously wrong and accidentally alerts the Garfish to attention.  Nadia's detestation of Nemo and jealousy of Jean's friendship with Electra dangerously intensifies--until she finally learns that the Nautilus is merely fighting to destroy Gargoyle and that Electra poses no threat to Nadia's relationship with Jean.  During all this, Gargoyle is informed of the Nautilus's prescence and devises to set yet another deadly trap...."
+},
+"24710|1|21": {
+"n": "Farewell Nautilus",
+"o": "The Nautilus is ensnared by Gargoyle's super powerful SeaNet magnet.  In the fight that follows, Grandis, Sanson and Hanson escape on the Gratan (to help free Nemo and the others from Gargoyle's battleship).  The battle culminates with the badly damaged Nautilus plummeting into the sea...."
 },
 "24710|1|3": {
 "n": "The Riddle of the Giant Sea Monsters",
@@ -3156,6 +3228,10 @@
 "n": "Das Bus",
 "o": "Big Pete chooses to become schoolbus driver Stu Benedict's apprentice for the week to be near Penelope Ghiruto, while Ellen stocks vending machines."
 },
+"2824|3|13": {
+"n": "Saturday",
+"o": "The gang spends a typical Saturday in Wellsville.  Ellen tries to deliver a pizza dressed as a bunny, Wayne tries to keep his new white sneakers clean, Monica keeps the streets safe as she looks for an evil ninja, Big Pete gets a haircut, and Bus Driver Stu gets frustrated with a traffic light that rarely changes to green, and when it does, won't stay that way for more than a few seconds."
+},
 "2824|3|2": {
 "n": "The Trouble with Teddy",
 "o": "Big Pete offers to let his friend Teddy stay over while his parents are away and begins to notice just how many annoying habits Teddy has. Meanwhile, Little Pete tries to get in touch with the land."
@@ -3328,6 +3404,10 @@
 "n": "Flipper and the Spy",
 "o": "Flipper and Sandy are duped into helping a spy when a secret instrument package from a rocket is lost in Coral Key Park."
 },
+"2886|3|1": {
+"n": "Agent Bud",
+"o": "When two pilots crash into the ocean and become trapped in their aircraft it is up to Porter and Sandy to save the day, with a little help from Flipper and Bud's newly honed secret agent detective skills."
+},
 "2901|1|10": {
 "n": "The Mask of Doom (3)",
 "o": "Reed, Johnny, and Ben arrive in ancient Greece, with only forty-eight hours to find the casket. Their problems multiply, however, when they get into the middle of The Battle of Thermopylae"
@@ -3404,6 +3484,10 @@
 "n": "Jungle Planet / The Terrible Chase / Ruler of the Rock Robots",
 "o": "\"Jungle Planet\": The Mind Taker is abducting people to steal their knowledge. \"The Terrible Chase\": The Sun People are hunting and start chasing Ugh. Dino Boy must save him. \"Ruler of the Rock Robots\": The twins and Space Ghost are forced to battle Zorket and his rock robots. Note: the \"Jungle Planet\" introduction music of the opening title is from the Dino Boy series."
 },
+"291637|1|15": {
+"n": "Glasstor / The Sacrifice / The Space Ark",
+"o": "\"Glasstor\": Glasstor captures the twins in order to force them to work in his glass mines. \"The Sacrifice\": Ugh is captured by the Sun People to serve as a sacrifice and Dino Boy must stop them. \"The Space Ark\": The Creature King is planning on using his monsters to conquer Jupiter. Space Ghost must prevent the mastermind from reaching that goal."
+},
 "291637|1|16": {
 "n": "The Sorcerer / The Marksman / The Space Piranhas",
 "o": "\"The Sorcerer\": The Sorcerer is using his powerful magic for evil and plans to challenge Space Ghost. \"The Marksman\": Dino Boy teaches Ugh how to shoot a bow and arrow and Ugh throws his club at a rock but it was revealed to be a T-rex who attacks them. After that, a Pteranodon kidnaps Dino Boy for food and Ugh must save him. \"The Space Piranhas\": Pirahnor wants to use his space piranhas to take revenge on Space Ghost."
@@ -3411,6 +3495,10 @@
 "291637|1|17": {
 "n": "The Ovens of Moltor / The Spear Warriors / Transor - The Matter Mover",
 "o": "\"The Ovens of Moltor\": Moltor is planning on using his molten men and ships to take over the universe. \"The Spear Warriors\": Dino Boy and Ugh are collared for attacking a Spear Warrior and have to fight their way out. \"Transor - The Matter Mover\": Transor plans on using Jan and Jace as specimens in his zoo."
+},
+"291637|1|18": {
+"n": "The Gargoyloids / Marooned / The Looters",
+"o": "\"The Gargoyloids\": Space Ghost must keep the Gargoyloids, who have inhabited a planet during their wanderings through space, from causing problems in the galaxy. \"Marooned\": As Dino Boy teaches Ugh how to spell, they are attacked by venomous wasps who sting Ugh. Dino Boy must get some choka leaves from Misty Island or Ugh will die. At the same time, he must stop two Moss Men from sacrificing one of their own. \"The Looters\": Brak is using sleeping gas so that he and Sisto can rob gold shipments and Space Ghost has to stop them."
 },
 "291637|1|19": {
 "n": "The Meeting / Clutches of Creature King / The Deadly Trap",
@@ -3768,6 +3856,10 @@
 "n": "The Proof",
 "o": "After being saved in the nick of time by Puu, Yusuke revels in his new power and resumes his battle with Sensui. Although Yusuke's skill and strength have increased, he is still clumsy with his new abilities. But there is no time to practice as Sensui bears down for the final confrontation."
 },
+"30669|3|27": {
+"n": "Sensui's End",
+"o": "Yusuke's body has undergone an intense transformation as his dormant demon blood takes hold. As the battle against Sensui concludes, Koenma tells Yusuke that he must choose between Demon World and Living World. Without hesitation, Yusuke makes his decision!"
+},
 "30669|3|6": {
 "n": "The Reader",
 "o": "The Spirit Detective's best chance to uncover the truth behind the tunnel lies with the mind reader, Murota. But mere hours after entering Mushiyori City, Yusuke and team find themselves being hunted by an unseen evil. Just who are Black Angel, Gate Keeper, Sniper, Gourmet, Game Master, Doctor, and Sea Man?"
@@ -3827,6 +3919,10 @@
 "3107|1|3": {
 "n": "Charleston Market",
 "o": "A trip off Gullah Gullah Island to the bustling Charleston Market is the occasion for visits with a woodcarver, a basketweaver, and for Natalie to sell her beautiful dolls."
+},
+"3107|1|4": {
+"n": "Gullah Gullah Island Day",
+"o": "Join Ron, Natalie, and kids as they come together with their friends for an outdoor celebration of the rich heritage of Gullah Gullah Island. Song, dance, and games, not to mention some delicious down-home cooking fill the day."
 },
 "3107|2|17": {
 "n": "The Talent Show",
@@ -4048,6 +4144,10 @@
 "n": "To Be or Nazi Be",
 "o": "Supposedly, an old man who knows the secret of the legacy of Hitler is living on the other side of the Berlin Wall. Walls are no problem, and taking Genhardt, the old man, to the West is easy enough, but he is absolutely senile and recalls nothing about any legacy. Therefore, the plan is to reenact a scene from the period, but... What has happened to the legacy, anyway?"
 },
+"31572|2|4": {
+"n": "50 Ways to Leave Your 50-Foot Lover",
+"o": "At Loch Ness, Scotland, the mysterious monster Nessie shows itself charmed by Fujiko's singing. Doctor Oz, seeing this, decides to use Fujiko to draw out Nessie so that he can capture it and show it all over the world. There is also revenge involved. It's a fight to the death between Nessie and Oz's dinosaur robot. Will Lupin let Oz get away with his scheme?"
+},
 "31713|1|24": {
 "n": "Nightmare Reunion",
 "o": "Ken discovers that both Chun Li and Ryu have been somewhat subjugated and tries, slowly but surely, to summon the Hadou-Shoryuken to break the wall that separates him from them. Bison orders Ryu to focus on summoning the Hadouken. Guile and Nash infiltrate the fortress and decide to go separate ways to cover more ground. Ken's escape is discovered by Bison, who understands that also him is capable of harvesting ki. Ken finally breaks the wall and tries to escape with Ryu, only to find his friend menacingly adopting an attack stance."
@@ -4139,6 +4239,10 @@
 "334|5|4": {
 "n": "Shrabster",
 "o": "The police want Shanks... Why? The story is revealed in reverse. But it involves a monster, a plan to improve the world, and Grizzlebee's."
+},
+"334|5|5": {
+"n": "Cavemen",
+"o": "Quinn and Stormy are stuck in a cave with only 10 minutes of oxygen while sealab burns."
 },
 "3454|1|10": {
 "n": "Titan Goes Pop",
@@ -4380,6 +4484,10 @@
 "n": "Next in Line",
 "o": "After Hotaru and her father disappear from their house, the Sailor Senshi infiltrate Mugen Academy, suspicious that it is connected to the Death Busters."
 },
+"3570|3|32": {
+"n": "Friendly Ferns",
+"o": "Tellu opens a store selling Telluns, plants designed to remove Pure Heart Crystals. Meanwhile, Hotaru wakes up, confused, in the Messiah of Silence's chamber."
+},
 "3570|3|4": {
 "n": "Bad Harmony",
 "o": "Concerned that she is not intelligent enough for the sophisticated Mamoru, Usagi seeks advice from Michiru."
@@ -4436,6 +4544,10 @@
 "n": "A Wind of Swords",
 "o": "Guts is now a commander of Griffith's army, taking many risks in battle, Casca takes him to task for it. Griffith is knighted in the Midland court much to the nobles' dismay."
 },
+"35935|1|6": {
+"n": "Zodd the Immortal",
+"o": "In another raid, Guts and Griffith come across a demon known as Nosferatu Zodd."
+},
 "3607|1|7": {
 "n": "St. Patrick's Day",
 "o": "Lisa keeps scheming to get Bradfield slimed, but her plans keep backfiring and result in her getting slimed several times."
@@ -4482,6 +4594,10 @@
 },
 "363|1|21": {
 "n": "The Collar of Davy Crockett",
+"o": ""
+},
+"363|1|22": {
+"n": "Alexander and the Gordian Knot",
 "o": ""
 },
 "3716|2|4": {
@@ -4684,6 +4800,10 @@
 "n": "Stirring the Pot",
 "o": "Courtney confides in Jake about her parents’ problems.   Matt and Ashley are doing just fine until Brooke tries to stir up trouble.  Trouble is brewing for Matt with Coach  Williams but we’re not sure why at first.  Billy’s sucking up to Dylan until Matt interrupts."
 },
+"3889|1|6": {
+"n": "Waiting In The Wings",
+"o": "Matt’s drinking raises new questions.  Does Ashley dare confront him?  Courtney and Billy compete for Dylan’s attention.  But Jake’s in the wings wishing Courtney would notice him. Dylan’s upcoming school concert creates new tensions.  Courtney surprises Brooke over at Dylan’s."
+},
 "3889|1|8": {
 "n": "Lean On Me",
 "o": "Ashley leans on Jake for help with Matt but how’s he supposed to help.  Courtney provokes a fight with Dylan.  Cyndi and Olaf’s attempts to save the environment meet with a feeble response at Hillside.  Courtney makes up with Dylan and she and Billy plan to throw a party.  Naturally, Brooke tosses a grenade into the plans and Jake has to pick up the pieces."
@@ -4755,6 +4875,10 @@
 "4035|1|24": {
 "n": "Gadget Goes West",
 "o": "Inspector Gadget arrives at a western tourist town that plays heavily on its cowboy image to stop modern day outlaw Black Bart."
+},
+"4035|1|25": {
+"n": "Launch Time",
+"o": "M.A.D. tries to sabotage a NASA mission."
 },
 "4035|1|3": {
 "n": "Gadget at the Circus",
@@ -4948,6 +5072,10 @@
 "n": "Attack",
 "o": "After alerting the soldiers and Kurama to Lucy’s whereabouts, Nana confronts her and the two begin to fight in a cemetery. Can Nana hold Lucy off long enough for Kurama and the others to arrive? Meanwhile, hearing loud noises in the cemetery, Mayu stumbles upon the two fighting."
 },
+"42671|1|5": {
+"n": "Receipt",
+"o": "Mayu’s tragic past is revealed. She remembers back to when she ran away from home. At school, Yuka and Kouta’s new professor is none other than Yu Kakuzawa, Chief Kakuzawa’s son. He instantly notices Nyuu as Lucy and tricks Kouta into handing her over to him."
+},
 "42705|1|1": {
 "n": "The First Step",
 "o": "Ippo is a high school student who works full time at his mother's fishing though. Because of this, he gets bullied on by the kids at his school. That's when his life turns around, when a professional boxer happens to be jogging along the way, and introduces Ippo to the world of boxing."
@@ -5132,6 +5260,10 @@
 "n": "Things Change",
 "o": "Ray is purposely mysterious about his new girlfriend, Rachel, so that Alex won't get jealous. Alex becomes jealous anyway and struggles with accepting a new friend."
 },
+"4289|4|14": {
+"n": "The Return",
+"o": "Alex becomes friends with the new boy in school, Hunter, who may know something about the GC-161 project."
+},
 "4289|4|2": {
 "n": "Green Day",
 "o": "When Robyn joins an environmental group the donut shop is threatened and Alex's friendship with Gloria is tested."
@@ -5236,6 +5368,10 @@
 "n": "Mission: Freakazoid",
 "o": "Freak and his friends travel to a police state to rescue another friend."
 },
+"4334|2|4": {
+"n": "Virtual Freak",
+"o": "Freak and Cosgrove are zapped inside a Virtual Tussle virtual reality game."
+},
 "4378|1|10": {
 "n": "Space Pen",
 "o": "To capture a group on criminals, Steve, Matt and Venus pretend to steal XL5."
@@ -5339,6 +5475,10 @@
 "4455|4|18": {
 "n": "I Shot 86 Today",
 "o": "Max and 99 investigate after receiving a tip that KAOS is planning to blow up an aerospace center adjoining the Pomona National Golf Club - the third such incident in less than a year."
+},
+"4455|4|19": {
+"n": "Absorb the Greek",
+"o": "The Chief takes up computer dating and winds up dating a gorgeous young woman. The Chief's boss (unseen) orders Max and 99 to follow the Chief to make sure that this romance is not a security risk. 99 also thinks that the Chief should be dating someone more his age, like her mother. The young woman is actually the wife of Dr. Paponickolini, who is giving the Chief a secret formula for eternal youth. The Chief arrives at Max's apartment for a dinner date with 99's mom but instead KAOS shows up and kidnaps 99's mother, thinking she's the wife of Dr. Paonickolini."
 },
 "4455|4|6": {
 "n": "The Worst Best Man",
@@ -5475,6 +5615,10 @@
 "45194|2|15": {
 "n": "The Christmas Story",
 "o": "A statue of the child Jesus was stolen from a church.  Joe and Bill have to get it back by Christmas. They have less than 48 hours."
+},
+"45194|2|16": {
+"n": "The Big Shipment",
+"o": "Drugs are found aboard a plane that has crashed in the San Fernando Valley.  The pilot is quickly traced, but in order to force him to name his connection, Friday and Gannon ask the press to sit on the story for a few hours."
 },
 "45194|2|5": {
 "n": "The Big Neighbor",
@@ -5820,6 +5964,10 @@
 "n": "Braklet, Prince of Spaceland",
 "o": "The Brak Family Players present their take on the classic Hamlet story."
 },
+"481|3|2": {
+"n": "Coma",
+"o": "Brak's father offers to help Thundercleese win the heart of his true love. Zorak burns things."
+},
 "486|1|15": {
 "n": "Seek and Destroy",
 "o": "In a plot to kill the spectrum Angels, the Mysterons get into a thrilling mid-air dogfight with Melody, Rhapsody and Harmony."
@@ -5951,6 +6099,10 @@
 "5368|1|6": {
 "n": "The Convict",
 "o": "Jeff and Lassie meet an escaped convict in the woods."
+},
+"5368|1|7": {
+"n": "Feud",
+"o": "When Gramps quarrels with Matt Brockway after a hotly contested checker game, both men forbid their sons to play with each other. After Jeff and Porky's first attempt to fix the problem goes horribly wrong, so the boys hide in the woods in hopes that in \"\"saving\"\" them Gramps and Matt will be friends again."
 },
 "5368|3|16": {
 "n": "Party Line",
@@ -6208,6 +6360,10 @@
 "n": "The Breaking Point!? Ryoga's Great Revenge",
 "o": "Cologne is teaching Ryoga the fearsome Breaking Point technique, making him capable of shattering giant boulders with a single touch. With it, he's sure he can beat Ranma... If the training doesn't kill him first."
 },
+"57706|1|30": {
+"n": "Danger at the Tendo Dojo!",
+"o": "The Tendo Dojo receives a challenge from the Dojo Destroyer, and Soun charges Akane and Ranma with task of defending its honor. Ranma however, gets other things on his mind, when Shampoo promises to give him a cure for the curse if he'll only go on a date with her..."
+},
 "57706|1|9": {
 "n": "True Confessions! A Girl's Hair is Her Life!",
 "o": "Akane's accidental haircut brings a temporary reprieve in Ranma and Ryoga's fighting. Stunned, she wanders off alone, thinking about the loss of the one thing that wasn't 'tomboyish' about her."
@@ -6400,6 +6556,10 @@
 "n": "Lisa Has a Calf",
 "o": "Fearful that Mr. Haney will lay claim to Eleanor's calf, the Douglases decide to keep the cow's pregnancy a secret. The Hooterville gossips get part of the story right, except they think it's Lisa who's expecting."
 },
+"609|1|13": {
+"n": "The Wedding Anniversary",
+"o": "While Oliver tries to recall how long he's been married to Lisa, she flashes back to last year's anniversary which ended with them in jail. The trouble began when a panicked Oliver found corn bores in his terrace garden. His mother, refusing to keep party guests waiting at the Waldorf while Oliver plays farmer, started tossing his \"crop\" off the balcony. Pots crashing onto the street below did not please the NYC cops."
+},
 "609|1|2": {
 "n": "Lisa's First Day On the Farm",
 "o": "Lisa gets her first look at their dilipidated--and empty--farmhouse and is horrified. Oily Mr. Haney, who previously owned the dump, took everything with him, including the bathroom fixtures, and tries to resell them to Oliver. Eb, one of Haney's workers, is hired on as their farm hand. Lisa goes out to meet the locals, most of whom have entered a pool wagering on how long the Douglases will stay. Lisa is ready to immediately return to New York, but after a chat with Kate Bradley, she decides to give farm life a try."
@@ -6443,6 +6603,10 @@
 "6223|1|3": {
 "n": "Green Freak",
 "o": "An environmental terrorist targets the institute."
+},
+"6223|1|4": {
+"n": "True Believer",
+"o": "A philandering wife and her lover frame a tuna fisherman for dolphin-clubbing."
 },
 "6223|3|21": {
 "n": "",
@@ -6688,6 +6852,10 @@
 "n": "Bring Me the Head of Earthworm Jim",
 "o": "Professor Monkey-for-a-Head and Psy-Crow steal Jim's super suit, and Jim uses a weak duplicate to try to get it back"
 },
+"6592|1|12": {
+"n": "Queen What's Her Name",
+"o": "Princess What's-Her-Name finally dethrones the evil Queen and takes her place as the ruler of Insectika. Unfortunately, being a stuck-up debutante is not the Princess' cup of tea"
+},
 "6592|1|4": {
 "n": "Day of the Fish",
 "o": "The League of Superheroes runs out of sugar, so Jim flies of to La Planeta de Agua to get some. Bob the Killer Goldfish takes advantage of Jim and steals his super suit so he can conquer the Earth"
@@ -6715,6 +6883,10 @@
 "6636|1|10": {
 "n": "The Capture (2)",
 "o": "Jake is acting pretty normal after falling into a Yeerk pool. The Animorphs keep Jake under close watch."
+},
+"6636|1|11": {
+"n": "The Reaction",
+"o": "Cassie has an allergic reaction to a crocodile's DNA and has trouble controlling when she morphs."
 },
 "6636|1|12": {
 "n": "The Stranger",
@@ -6795,6 +6967,10 @@
 "69113|1|12": {
 "n": "Mystical Inhabited Island",
 "o": "005, 006 and 007 become stranded on an isolated island with an abandoned Black Ghost munitions plant."
+},
+"69113|1|13": {
+"n": "London Fogs",
+"o": "On a short return trip to London, 007 revisits memories of being a rags-to-riches stage actor prior to becoming a cyborg."
 },
 "69113|1|2": {
 "n": "The Escape",
@@ -6944,6 +7120,10 @@
 "n": "Animator's Alley",
 "o": "The Warners are stuck on a forum show with an old Warner Bros. animator named Cappy \"Cap\" Barnhouse, who keeps falling asleep as he reminisces about his time at the studio."
 },
+"82|1|110": {
+"n": "Of Nice And Men",
+"o": "Runt gets adopted and finds himself taking care of a rabbit farm, while Rita is relegated to rat hunting."
+},
 "82|1|87": {
 "n": "Very Special Opening",
 "o": "The Warners announce that this will be a very special episode due to characters being mixed up."
@@ -7004,6 +7184,14 @@
 "n": "Scooby-Doo and a Mummy, Too",
 "o": "The gang, at the college museum, gets the lead on a dead Egyptian ruler named Inca. According to an ancient superstition, if he were ever removed from his crypt, he would turn the people who moved him into stone. Shaggy finds a rare coin that the Professor is trying to study. The trouble begins when Shaggy accidentally takes the coin and the mummy is on the loose looking for it."
 },
+"926|1|13": {
+"n": "Which Witch is Which?",
+"o": "The gang gets lost while driving to a concert. They ask a man to give them directions only to learn that he's a zombie. They also learn of a nearby witch who is responsible for the zombie's resurrection."
+},
+"926|1|14": {
+"n": "Go Away Ghost Ship",
+"o": "The gang investigates the appearance of a Ghost Pirate."
+},
 "926|1|2": {
 "n": "A Clue for Scooby-Doo",
 "o": "While Scooby-Doo is surfing, he encounters a creature in a diving suit. An old sea salt tells the gang that it's the ghost of Captain Cutler who is responsible for the disappearance of many ships."
@@ -7059,6 +7247,10 @@
 "932|1|11": {
 "n": "The Key",
 "o": "Tankor uncovers an ancient weapon with the power to turn organic material into cybernetic metal. Nightscream gets hit by the weapon, and the Maximals race against time to save him from going offline."
+},
+"932|1|12": {
+"n": "The Catalyst",
+"o": "Rattrap uncovers a catalyst program that accelerates the growth of Cybertron's newfound plant life. Meanwhile, Blackarachnia discovers the truth about Thrust's Spark."
 },
 "932|1|4": {
 "n": "Mercenary Pursuits",
@@ -7270,6 +7462,10 @@
 "nm": "The Seven Souvenirs",
 "ov": "A curio dealer named Mr. Willy (Phillips Tead) is enjoying a brisk business selling dozens of souvenir daggers that he claims have been bent out of shape by \"man of steel\" Superman (George Reeves). Of course, Superman's alter ego ..."
 },
+"adventures of superman|3|13": {
+"nm": "",
+"ov": ""
+},
 "adventures of superman|3|2": {
 "nm": "The Talking Clue",
 "ov": "Inspector Henderson's son makes a hobby out of collecting various sounds on spools of tape. Unfortunately, a gangster finds a nefarious use for the boy's collection."
@@ -7418,6 +7614,10 @@
 "nm": "",
 "ov": ""
 },
+"animaniacs|1|110": {
+"nm": "",
+"ov": ""
+},
 "animaniacs|1|94": {
 "nm": "",
 "ov": ""
@@ -7433,6 +7633,10 @@
 "animorphs|1|10": {
 "nm": "The Capture: Part 2",
 "ov": "After the Animorphs successfully emptied the Yeerk pool, Ax alerts the group that Jake is a Controller. The Animorphs have to now tie Jake up for three days to starve his Yeerk from Kadrona Rays. Jake and the Yeerk battle it out m..."
+},
+"animorphs|1|11": {
+"nm": "The Reaction",
+"ov": "After Cassie and Rachel save a boy from a crocodile pit, Cassie begins to lose control of her morphing ability, the result of an allergic reaction to the crocodile DNA. Meanwhile, Cassie has been invited to the Larry and Linda Sho..."
 },
 "animorphs|1|12": {
 "nm": "The Stranger",
@@ -7570,6 +7774,10 @@
 "nm": "Techno-Organic War I: The Key",
 "ov": "The Key to Vector Sigma transforms organic life into technomatter - and Tankor now possesses it. But if he's dead, how can he fulfil his own agenda?"
 },
+"beast machines|1|12": {
+"nm": "Techno-Organic War II: The Catalyst",
+"ov": "Liquid from Cybertron's organic core nourishes the Maximal's orchard: Blackarachnia persuades Rattrap to let her use some to try to resurrect SIlverbolt's spark from within Thrust. But her belief proves false."
+},
 "beast machines|1|6": {
 "nm": "The Weak Component",
 "ov": "On a recon mission Rattrap finally learns how to transform, but accidentally wrecks the mission. Humiliated and angry with his friends' reactions, he attempts to make a deal with Megatron."
@@ -7605,6 +7813,10 @@
 "berserk|1|2": {
 "nm": "Taka no dan",
 "ov": "Guts encounters the Band of the Hawk."
+},
+"berserk|1|6": {
+"nm": "Nosferatu Zodd",
+"ov": "Guts leads his men to raid a castle under Tudor occupation, but his men are wiped out by Nosferatu Zodd, a fearless apostle who has devoted his existence to combat."
 },
 "bewitched|2|1": {
 "nm": "Alias Darrin Stephens",
@@ -7651,6 +7863,10 @@
 "ov": ""
 },
 "captain america|1|5": {
+"nm": "",
+"ov": ""
+},
+"captain america|1|6": {
 "nm": "",
 "ov": ""
 },
@@ -7850,6 +8066,10 @@
 "nm": "",
 "ov": ""
 },
+"cromartie high school|1|11": {
+"nm": "",
+"ov": ""
+},
 "cromartie high school|1|2": {
 "nm": "",
 "ov": ""
@@ -7973,6 +8193,10 @@
 "dragnet 1967|2|15": {
 "nm": "The Christmas Story",
 "ov": "Friday and Gannon investigate the theft of a statue of the baby Jesus from a church's nativity scene on Christmas Eve. The figure itself has little monetary value. Father Xavier Rojas explains this Jesus statue has been at the chu..."
+},
+"dragnet 1967|2|16": {
+"nm": "The Big Shipment",
+"ov": "The crash of a small aircraft offers Friday and Gannon an opportunity. Inside the plane officers discover marijuana and heroin with a total street value over a million. If they can find the pilot, and get the drop location from hi..."
 },
 "dragnet 1967|2|5": {
 "nm": "The Big Neighbor",
@@ -8346,6 +8570,14 @@
 "nm": "Mighty Blast of Rage",
 "ov": "Even after being sliced into pieces by his own energy disk, Frieza isn't ready to release his stranglehold on the universe. With what little power he has left, Frieza fires a final energy blast after Goku as he leaves the battlefi..."
 },
+"dragon ball z|4|31": {
+"nm": "Namek's Explosion... Goku's End?",
+"ov": "Even though it looks like Goku is trapped on the exploding planet Namek, Dende has a good reason to celebrate: the Dragon Balls have the power to bring Goku back! But if that's the case, why does everyone still look so sad?"
+},
+"dragon ball z|4|32": {
+"nm": "Goku's Alive!",
+"ov": "It is a time of joyful reunions as old friends long absent are finally wished home with the Dragon Balls! Krillin and Yamcha are brought back from the spirit world, but Porunga, the Namekian dragon, has startling news about Goku!"
+},
 "dragon ball z|4|4": {
 "nm": "Fighting Power: One Million??",
 "ov": "Frieza reveals a dark secret from Vegeta's past, but the villain has an even more shocking secret in store for the Z-fighters! As the monster's power level rises to terrifying new heights, all hope for the universe seems lost!"
@@ -8486,6 +8718,10 @@
 "nm": "",
 "ov": ""
 },
+"dragon ball|2|7": {
+"nm": "",
+"ov": ""
+},
 "dragon ball|5|27": {
 "nm": "",
 "ov": ""
@@ -8513,6 +8749,10 @@
 "earthworm jim|1|11": {
 "nm": "Bring Me the Head of Earthworm Jim",
 "ov": "The origin of Jim's super suit is finally revealed. Two of Jim's archenemies create a fake super suit and replace it with Jim's. Now they have the Universe on its knees, while Jim unwisely consults comic books on how to regain his..."
+},
+"earthworm jim|1|12": {
+"nm": "Queen What's Her Name",
+"ov": "Princess What's-Her-Name explains Jim how her rivalry with her evil sister Queen Slug-for-a-Butt began and decides that the time has finally come for her and Jim to overthrow her evil sister once and for all. She also tries to dance."
 },
 "earthworm jim|1|6": {
 "nm": "Upholstered Peril",
@@ -8594,6 +8834,10 @@
 "nm": "Meeting",
 "ov": "Nana gets into a deadly fight with Lucy after tracking her down. Meanwhile, Kota suffers a diminishing relationship with Yuka, who has become jealous of Nyu. Yuka discovers that Mayu is homeless."
 },
+"elfen lied|1|5": {
+"nm": "Reception",
+"ov": "Kota and Yuka get custody of Mayu and start school. While at the University, a strange professor recognizes Nyu and, pretending to be her uncle, forces Yuka and Kota to give her up."
+},
 "f troop|1|13": {
 "nm": "O'Rourke vs. O'Reilly",
 "ov": "A woman comes to town and takes over O'Rourke's saloon."
@@ -8639,6 +8883,10 @@
 "ov": ""
 },
 "fifteen hillside|1|2": {
+"nm": "",
+"ov": ""
+},
+"fifteen hillside|1|6": {
 "nm": "",
 "ov": ""
 },
@@ -8798,6 +9046,10 @@
 "nm": "",
 "ov": ""
 },
+"flipper 1964|3|1": {
+"nm": "Agent Bud",
+"ov": "A plane crashes in the ocean with two men trapped inside and Flipper is the only one who knows where they are. Fortunately the plane is sealed tight so no water is inside, but how much air do they have left?"
+},
 "flipper 1995|1|1": {
 "nm": "Pilot",
 "ov": "Dr. Pam Blondel, a U.S. Navy officer, is hired to join Dr. Ricks' dolphin research team, but her son isn't happy to be living in remote Bal Harbor."
@@ -8809,6 +9061,10 @@
 "flipper 1995|1|3": {
 "nm": "",
 "ov": ""
+},
+"flipper 1995|1|4": {
+"nm": "True Believer",
+"ov": "A tuna fisherman is framed for cruelly battering dolphins by an unfaithful wife and her scheming boyfriend."
 },
 "flipper 1995|4|10": {
 "nm": "Free Diving",
@@ -8926,6 +9182,10 @@
 "nm": "Mission: Freakazoid",
 "ov": "Freak and his friends travel to a police state to rescue another friend."
 },
+"freakazoid|2|4": {
+"nm": "Virtual Freak",
+"ov": "Freak and Cosgrove are zapped inside a Virtual Tussle virtual reality game."
+},
 "fullmetal alchemist|1|45": {
 "nm": "A Rotted Heart",
 "ov": "The confrontation between Hohenheim and the leader of the Homonculi continues, and we finally discover the \"truth behind truths.\" As Al receives a mysterious phone call, Ed proves he will do whatever it takes to stop the Homunculi..."
@@ -9018,6 +9278,10 @@
 "nm": "I Shot 86 Today",
 "ov": "Missiles are being blown up near golf courses so Max is following around a golf pro that was near each incident."
 },
+"get smart 1965|4|19": {
+"nm": "Absorb the Greek",
+"ov": "When the Chief takes up with a young woman, Max follows him and finds out that she is the wife of a scientist and the Chief is memorizing her husband's formulas."
+},
 "get smart 1965|4|8": {
 "nm": "The Return of the Ancient Mariner",
 "ov": "With an attempt to kidnap Admiral Hardgrade in the works, Max has him stay in his apartment."
@@ -9041,6 +9305,10 @@
 "green acres|1|12": {
 "nm": "Lisa Has a Calf",
 "ov": "Eleanor the cow is pregnant and everyone thinks that it's Lisa who is expecting."
+},
+"green acres|1|13": {
+"nm": "The Wedding Anniversary",
+"ov": "Oliver gets in trouble with Lisa when he forgets how long they have been married."
 },
 "green acres|1|2": {
 "nm": "",
@@ -9091,6 +9359,10 @@
 "ov": ""
 },
 "gullah gullah island|1|3": {
+"nm": "",
+"ov": ""
+},
+"gullah gullah island|1|4": {
 "nm": "",
 "ov": ""
 },
@@ -9211,6 +9483,10 @@
 "ov": ""
 },
 "gumby adventures|1|14": {
+"nm": "",
+"ov": ""
+},
+"gumby adventures|1|15": {
 "nm": "",
 "ov": ""
 },
@@ -9402,6 +9678,10 @@
 "nm": "Storm Warning",
 "ov": "McGuirk tries to convince Paula to pose as his fiancée while his sister is visiting. Meanwhile, the kids are trying to decide whether they want to make a mockumentary about making a movie or a mock-making-of a mockumentary movie o..."
 },
+"home movies|4|1": {
+"nm": "Camp",
+"ov": "Brendon, Jason and Melissa attend Camp Campingston Falls for the summer, home to stifling heat and crappy music counselors. Meanwhile, McGuirk's camping trip with The Crywalkers, a sensitive men's group, turns out to be not entirely about the free food."
+},
 "i am weasel|4|2": {
 "nm": "I Am Clichéd",
 "ov": "The Red Guy writes an \"original\" script for a show to I.M. Weasel and I.R. Baboon that is full of cartoon clichés."
@@ -9590,6 +9870,10 @@
 "nm": "Greenfinger",
 "ov": "Inspector Gadget foils the evil plans of Waldo, a M.A.D. agent, who is trying to steal Greenfinger's secret formula that enlarges plants. Safety Tip: Use calamine lotion for poison ivy, but learn to identify it too."
 },
+"inspector gadget|1|25": {
+"nm": "Gadget Goes West",
+"ov": "Inspector Gadget destroys M.A.D.'s plans for a western base in wild West Tourist Town. Safety Tip: Follow safety rules when crossing the street."
+},
 "inspector gadget|1|3": {
 "nm": "",
 "ov": ""
@@ -9762,6 +10046,10 @@
 "nm": "The Convict",
 "ov": "Jeff is met at the lake by an escaped convict who threatens harm to Gramps and Ellen if Jeff does bring him clothes and food while being silent about the man's location."
 },
+"lassie 1954|1|7": {
+"nm": "Feud",
+"ov": "Jeff and Porky try to patch up the friendship between the feuding Gramps and Porky's father."
+},
 "lassie 1954|3|20": {
 "nm": "Champion",
 "ov": "When each of the boys boasts that the shooting ability of his father will win the turkey shoot, Jeff says Gramps, once a crack shot, will enter and win but Gramps has aged since he put the gun away ten years ago and comes a little..."
@@ -9840,6 +10128,10 @@
 },
 "legends of the hidden temple 1993|1|21": {
 "nm": "The Treasure Map of Jean Lafitte",
+"ov": ""
+},
+"legends of the hidden temple 1993|1|22": {
+"nm": "The Belly Button of Buddha",
 "ov": ""
 },
 "little bear|1|29": {
@@ -10150,6 +10442,10 @@
 "nm": "",
 "ov": ""
 },
+"mobile suit gundam wing|1|47": {
+"nm": "",
+"ov": ""
+},
 "mobile suit gundam|1|36": {
 "nm": "",
 "ov": ""
@@ -10199,6 +10495,10 @@
 "ov": ""
 },
 "monster rancher|3|19": {
+"nm": "",
+"ov": ""
+},
+"monster rancher|3|20": {
 "nm": "",
 "ov": ""
 },
@@ -10385,6 +10685,10 @@
 "nadia the secret of blue water|1|20": {
 "nm": "Jean Makes a Mistake",
 "ov": "Jean constructs another invention -- a miniature glider powered by a rocket for take off from the Nautilus's deck. Unfortunately, during the test flight, the engine backfires and the glider spirals out of control, finally explodin..."
+},
+"nadia the secret of blue water|1|21": {
+"nm": "Farewell Nautilus",
+"ov": "Trapped in the Kermodec Trench by Gargoyle, the Nautilus barely survives a torpedo assault by six Garfish. Nemo retaliates with a torpedo attack that demolishes the fleet."
 },
 "nadia the secret of blue water|1|3": {
 "nm": "The Riddle of the Giant Sea Monsters",
@@ -11026,6 +11330,14 @@
 "nm": "Scooby Doo and a Mummy, Too",
 "ov": "Scooby and the gang help their professor in the anthropology department when a mummy seems to come to life."
 },
+"scooby doo where are you|1|13": {
+"nm": "Which Witch Is Which?",
+"ov": "After an unsuccessful fishing trip, Scooby and the gang get lost in the swamp and meet up with a witch and a zombie."
+},
+"scooby doo where are you|1|14": {
+"nm": "Go Away Ghost Ship",
+"ov": "Scooby and the gang investigate the mystery of Red Beard's ghost."
+},
 "scooby doo where are you|1|2": {
 "nm": "A Clue for Scooby Doo",
 "ov": "The kids suspect an old ghost in a green-glowing sea-diver suit is connected with the disappearance of several boats."
@@ -11081,6 +11393,10 @@
 "sealab 2021|5|4": {
 "nm": "Shrabster",
 "ov": "Quinn creates a hybrid crustacean to reproduce enough larvae as a way to end world hunger, but was thwarted by Grizzlebee's corporate agents (via Sparks) and Captain Shanks. This is presented in a reverse narrative."
+},
+"sealab 2021|5|5": {
+"nm": "Cavemen",
+"ov": "Quinn and Stormy are stranded in an underwater cave with minutes of oxygen left as Sealab incinerates."
 },
 "serial experiments lain|1|1": {
 "nm": "Weird",
@@ -11254,6 +11570,10 @@
 "nm": "Jungle Planet/The Terrible Chase/Ruler of the Rock Robots",
 "ov": "The most brilliant scientist in the universe has gone missing and it's up to Space Ghost to find him."
 },
+"space ghost|1|15": {
+"nm": "Glasstor/The Sacrifice/The Space Ark",
+"ov": "When Jace and Jan land on a strange planet to repair the space coupe, they are taken prisoner by glass monsters."
+},
 "space ghost|1|16": {
 "nm": "",
 "ov": ""
@@ -11261,6 +11581,10 @@
 "space ghost|1|17": {
 "nm": "",
 "ov": ""
+},
+"space ghost|1|18": {
+"nm": "The Gargoyloids/The Worm People/The Looters",
+"ov": "When Space Ghost and his friends investigate a planet that has drifted out of its orbit, they are abducted by ambulatory plants."
 },
 "space ghost|1|19": {
 "nm": "",
@@ -11354,9 +11678,17 @@
 "nm": "",
 "ov": ""
 },
+"starship troopers|1|9": {
+"nm": "",
+"ov": ""
+},
 "static shock|3|10": {
 "nm": "The Parent Trap",
 "ov": "Shebang returns to Dakota to seek the help of the towns heroes to find her parents. When Koenig breaks into a Chemical plant and Shebang's parents help to transfer the loot, Static doubts their innocence. Shenice's determination l..."
+},
+"static shock|3|11": {
+"nm": "",
+"ov": ""
 },
 "static shock|3|5": {
 "nm": "",
@@ -11530,6 +11862,10 @@
 "nm": "",
 "ov": ""
 },
+"tenchi universe|1|3": {
+"nm": "",
+"ov": ""
+},
 "the adventures of pete pete|3|10": {
 "nm": "Pinned",
 "ov": "Big Pete tries to get his varsity letter by joining the wrestling team."
@@ -11539,6 +11875,10 @@
 "ov": ""
 },
 "the adventures of pete pete|3|12": {
+"nm": "",
+"ov": ""
+},
+"the adventures of pete pete|3|13": {
 "nm": "",
 "ov": ""
 },
@@ -11766,6 +12106,10 @@
 "nm": "Lucy Flies to London",
 "ov": "Lucy enters a dog food jingle contest and wins the grand prize: a trip to London, England. She packs her ticket in her luggage and misses her plane and finds herself seated next to Mr. Mooney on the next flight."
 },
+"the lucy show|5|7": {
+"nm": "",
+"ov": ""
+},
 "the many loves of dobie gillis|1|21": {
 "nm": "Dobie Spreads a Rumor",
 "ov": "Dobie plots to make Zelda more appealing to other boys by spreading a rumor that Zelda's father is inheriting one million dollars."
@@ -11814,6 +12158,10 @@
 "nm": "Put Your Feet in Our Hands",
 "ov": "Dobie and Chatsworth compete for the affections of Daphne by setting to work to sell the most shoes in her father's shoe store."
 },
+"the many loves of dobie gillis|1|33": {
+"nm": "Competition Is the Life of Trade",
+"ov": "Dobie competes against Chatsworth Osborne, Jr. for the affections of the newest girl in town, the pretty Delphine Quimby, but Dobie doesn't know if he stands a fighting chance against what Chatsworth has to offer, namely wealth and sophistication. His parents, especially his father, try to convince him that he can indeed compete if he wants something bad enough, especially as he is a Gillis. What Dobie and Herbert are unaware of is that Delphine's father is opening a new grocery store in the neighborhood. When Dobie finds out, he has to decide if his loyalty to his father or his pursuit of Delphine is more important. But in dealing specifically with the issue of competing against Chatsworth, Dobie may have an unlikely ally."
+},
 "the mary tyler moore show|6|10": {
 "nm": "",
 "ov": ""
@@ -11843,6 +12191,10 @@
 "ov": "Mary adopts a teen-aged shoplifter as a little sister. Sue Ann does the same adopting a black teenager which influences her in a major way."
 },
 "the mary tyler moore show|6|9": {
+"nm": "",
+"ov": ""
+},
+"the mighty thor|1|10": {
 "nm": "",
 "ov": ""
 },
@@ -11877,6 +12229,10 @@
 "the munsters|1|34": {
 "nm": "Munster the Magnificent",
 "ov": "Eddie announces that there will be a talent show in his school, and has chosen Herman to participate doing something. Herman gets worried, because he doesn't know what to prepare for the event. Grandpa will help Herman using, of course, his magician skills. In the laboratory, Grandpa shows Lily a pair of magic dance slippers for Herman, and a bunch of jars with magic dust to dance in almost every stile. After trying to sing a tune, Herman accedes to try the slippers and the magic dust, but the spell fails and poor Herman leaves the house dancing in a strange and uncontrollable way for 3 hours. Then, Herman decides to prepare a magic show. But he doesn't have the talent of a skilled magician and Lily asks Grandpa that helps Herman, in order to make some successful tricks in the talent show. During the event, Herman is a success with Marilyn as his assistant, and he even tells some jokes for his audience. However, he starts to feel important in front of Grandpa, and he'll try an extremely difficult trick: to disappear Lily in a magic box. Lily disappear, but the worse thing is that Herman won't be able to turn her back."
+},
+"the munsters|1|35": {
+"nm": "Herman's Happy Valley",
+"ov": "When Herman buys ten acres of land in Happy Holliday Valley from a crooked magazine ad, the family is delighted to find it a complete wasteland. But the con artists want to get the land back when they can strike a deal to sell the area for use as a missile site. So, they decide to scare the Munsters off."
 },
 "the mysterious cities of gold|1|35": {
 "nm": "The Olmec Machine",
@@ -11931,6 +12287,10 @@
 "ov": ""
 },
 "the patty duke show|2|28": {
+"nm": "",
+"ov": ""
+},
+"the patty duke show|2|29": {
 "nm": "",
 "ov": ""
 },
@@ -12061,6 +12421,10 @@
 "the secret world of alex mack|4|13": {
 "nm": "Things Change",
 "ov": "Ray starts dating a new girl and Alex gets jealous, thinking it'll wreck their friendship. Meanwhile Dave is considering turning Ray in to the chemical plant."
+},
+"the secret world of alex mack|4|14": {
+"nm": "The Return",
+"ov": "Alex meets an attractive new boy, Hunter, but when she discovers a bizarre love shrine to corporate CEO Danielle Atron in his house, she begins to suspect there's something suspicious going on."
 },
 "the secret world of alex mack|4|2": {
 "nm": "Green Day",
@@ -12346,6 +12710,10 @@
 "nm": "",
 "ov": ""
 },
+"yuyu hakusho|3|27": {
+"nm": "",
+"ov": ""
+},
 "yuyu hakusho|3|8": {
 "nm": "",
 "ov": ""
@@ -12476,12 +12844,14 @@
 "Bugs Bunny's Halloween Hijinks": "Master of scare-imonies Bugs Bunny summons up a cauldron-full of Looney Tunes co-stars for this hare-raising video treat, including not one but TWO toon-packed Halloween specials!",
 "Bugs Bunnys Halloween Hijinks": "",
 "Busy World of Richard Scarry": "Busytown is an enchanting place that's abuzz with energy and life. Young audiences are invited to sing and laugh along as Huckle Cat, Lowly Worm, and other beloved characters from acclaimed author Richard Scarry make their way through the day exploring their happy and lively world.",
+"Candle Jack": "",
 "Captain Scarlet and the Mysterons": "Captain Scarlet heads up an international intelligence agency as they battle against the Mysterons, an alien species from Mars that vows vengeance after a misunderstanding with humans.",
 "Car 54, Where Are You?": "The misadventures of two of New York's finest in the 53rd precinct in the Bronx. Toody, the short, stocky and dim-witted one, either saves the day or messes things up, much to the chagrin of Muldoon, the tall, lanky and smart one.",
 "Cartoon Planet": "Cartoon Planet is an animated variety show that originally ran from 1995 to 1998, and from March 30, 2012 to present on Cartoon Network. A spin-off of the animated Space Ghost Coast to Coast talk show, the original premise was that Space Ghost had recruited his imprisoned evil arch nemesis Zorak and his loud and extremely dimwitted archenemy Brak to assist him in hosting a variety show.\n\nCartoon Planet began as an hour-long block of cartoons hosted by Space Ghost, Zorak, and Brak. They would introduce full cartoons from the Turner Entertainment library, such as old theatrical shorts and Hanna-Barbera cartoons, including the original 1960s Space Ghost episodes. The host segments were often original songs and ad libbed skits. New material ceased being made in 1997, and most of the songs and skits were re-packaged into 22 half-hour episodes without cartoons.",
 "CatDog": "The life and times of a cat and a dog with a unique twist: they're connected, literally. They share one body with a Dog's head at one end and Cat's head on the other. Adding to their dilemma is Cat's annoyance with Dog, mainly caused by Dog's stupidity and Cat's up-tight personality. Characters: Cat - Cat is the smarter one of the two brothers, and is always hatching some kind of plot to get his brother to calm down, so that Cat doesn't get beat around and hurt. Even though most of these plots involve messing with Dog's feeble mind, they often backfire on Cat, much to his dismay. It may not show all the time but, he deeply loves, and cares for his brother Dog. Dog - Dog is the more lovable of the two brothers, Dog loves to play and party and play some more, he loves baseball and playing fetch with frisbees, balls, sticks, etc, He is very friendly, and happy, but does have a breaking point. He's very sensitive, and if he fails at something he feels horrible, and worthless",
 "Celebrity Deathmatch": "Celebrity Deathmatch is a claymation television show that depicts celebrities against each other in a wrestling ring, almost always ending in the loser's gruesome death. It was known for its excessive amount of blood used in every match and exaggerated physical injuries.\n\nThe series was created by Eric Fogel; with the pilots airing on MTV on January 1 & 25 1998. The initial series ran from May 14, 1998 to October 20, 2002, and lasted for a 75-episode run. There was one special that did not contribute to the final episode total, entitled \"Celebrity Deathmatch Hits Germany\", which aired on June 21, 2001. Professional wrestler Stone Cold Steve Austin gave voice to his animated form as the guest commentator. Early in 2003, a film based on the series was announced by MTV to be in the making, but the project was canceled by the end of that year.\n\nIn 2005, MTV2 announced the revival of the show as part of their \"Sic 'Em Friday\" programming block. Originally set to return in November 2005, the premiere was pushed back to June 10, 2006 as part of a new \"Sic'emation\" block with two other animated shows, Where My Dogs At and The Adventures of Chico and Guapo. The show's fifth season was produced by Cuppa Coffee Studios and the premiere drew over 2.5 million viewers, becoming MTV2's highest rated season premiere ever.",
 "Clarissa Explains It All": "Clarissa Darling is a teen girl dealing with typical pre-adolescent concerns such as school, boys, pimples, wearing her first training bra and an annoying little brother Ferguson.",
+"Coffins and Cradles": "",
 "Coraline": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
 "Count Duckula": "Count Duckula is a vegetarian vampire duck, coming into the world as an accident. Unlike his family and ancestors, he has no bloodlust, as when he was reincarnated, blood was omitted and replaced with ketchup.",
 "Courage Meets Bigfoot": "",
@@ -12494,6 +12864,7 @@
 "DBZ Abridged Halloween Special": "",
 "Dantes Inferno": "Anthony Esolen, the preeminent, award-winning translator of Dante's epic Divine Comedy, is your guide into the infernal abyss of Hell. Who will you meet? What will happen? Will you get out alive?",
 "David The Gnome": "A Spanish animated television series based on the children's book The Secret Book of Gnomes, by the Dutch author Wil Huygen and illustrator Rien Poortvliet.",
+"Dead Before Dawn!": "A bunch of college kids accidentally unleash an evil curse that causes people to kill themselves and turn into Zombie Demons, aka ZEMONS!",
 "Dee Dees Room": "Étroitement liée à l’histoire du capitalisme, la voiture a révolutionné nos modes de vie, imprégné les imaginaires, bouleversé le travail, transfiguré les villes et les campagnes. Tout en archives, une série documentaire foisonnante, traversant l’histoire du XXe siècle, qui porte un regard acéré sur cet objet aux mille facettes désormais au cœur d’une crise écologique et civilisationnelle planétaire.",
 "Digimon": "Tomoro Tenma lives in a world where human thoughts and emotions, known as e-Pulse, power AI devices called Sapotama. But when Digimon begin materializing from Sapotama and feeding on e-Pulse, society begins to fracture. After Gekkomon appears from his device, Tomoro joins Glowing Dawn, a secret team investigating rogue Digimon and the dark truth of a system both fueled and corrupted by emotion.",
 "Digimon Adventure": "It's the year 2020. The Network has become something humans can no longer do without in their daily lives. But what humans don't know is that on the other side of the Network is the Digital World, a realm of light and darkness. Nor are they aware of the Digimon who live there. Fifth grader Taichi Yagami's mother and little sister Hikari went to Shibuya, and now they're aboard a runaway train. Taichi hurries to Shibuya to save his mother and sister, but the instant he heads toward the station platform... a strange phenomenon befalls the DigiDestined, and Taichi goes to the Digital World!",
@@ -12505,6 +12876,7 @@
 "Dragon Ball Z": "Now happily married and with a son, martial arts champion Goku must defend Earth from a series of extraterrestrial invaders bent on destruction.",
 "Dragon Ball Z Abridged": "Dragon Ball Z Abridged is the title of TeamFourStar's abridged series based on the Dragon Ball Z anime. This abridged series is one of the most successful series created in '08-'09 and was featured on That Guy with The Glasses official website.\r\n\r\nDragon Ball Z Abridged is a direct parody with most characters and plot lines remaining relatively unchanged.",
 "Dragon Ball Z Abridged: Celloween": "Dragon Ball Z Abridged is the title of TeamFourStar's abridged series based on the Dragon Ball Z anime. This abridged series is one of the most successful series created in '08-'09 and was featured on That Guy with The Glasses official website.\r\n\r\nDragon Ball Z Abridged is a direct parody with most characters and plot lines remaining relatively unchanged.",
+"Dreams in Darkness": "A tour of my bedroom and what's in it.",
 "F Troop": "F Troop is a satirical American television sitcom that originally aired for two seasons on ABC-TV. It debuted in the United States on September 14, 1965 and concluded its run on April 6, 1967 with a total of 65 episodes. The first season of 34 episodes was filmed in black-and-white, but the show switched to color for its second season.",
 "FairyTale A True Story": "In 1917, two children take a photograph, which is soon believed by some to be the first scientific evidence of the existence of fairies. Based on the true story of the Cottingley Fairies.",
 "Family Double Dare": "Two teams of four family members answer questions and perform stunts all-the-while getting messy.",
@@ -12538,6 +12910,10 @@
 "Goku Midnight Eye P1": "",
 "Goku Midnight Eye P2": "",
 "Gold Diggers The Secret of Bear Mountain": "Two teen girls, one from the city, one from the country, try to find the hidden gold of Bear Mountain learning about friendship, loyalty and courage on the way.",
+"Goosebumps The Haunted Mask Part 1": "Steve wants a Halloween mask just as scary as Carly Beth's, however he doesn't realize is that Carly Beth's mask might be after him.",
+"Goosebumps The Haunted Mask Part 2": "",
+"Goosebumps Werewolf Skin Part 1": "",
+"Goosebumps Werewolf Skin Part 2": "",
 "Green Acres": "Green Acres is an American sitcom starring Eddie Albert and Eva Gabor as a couple who move from New York City to a rural country farm. Produced by Filmways as a sister show to Petticoat Junction, the series was first broadcast on CBS, from September 15, 1965 to April 27, 1971.\n\nReceiving solid ratings during its six-year run, Green Acres was cancelled in 1971 as part of the \"rural purge\" by CBS. The sitcom has been in syndication and is available in DVD and VHS releases. In 1997, the two-part episode \"A Star Named Arnold is Born\" was ranked #59 on TV Guide's 100 Greatest Episodes of All Time.",
 "Grimm's Fairy Tale Classics": "Grimm's Fairy Tale Classics is a Japanese animated anthology series by Nippon Animation. The episodes are adaptations of a variety of folk and fairy tales, and not limited to Grimm's Fairy Tales.",
 "Gullah Gullah Island": "Ron and Natalie live on an island off the coast of South Carolina with their three children, James, Vanessa and Simeon; their niece, Shaina; and a giant tadpole named Binyah Binyah Poliiwog. Together they learn about life and culture and getting along with others.",
@@ -12553,6 +12929,7 @@
 "I Dream of Jeannie": "While on a mission, American astronaut Captain Tony Nelson is forced to make an emergency landing that will forever change his life. On a deserted South Pacific island, Captain Nelson happens upon a bottle containing a beautiful two-thousand-year-old female genie named Jeannie. Rescuing her from the bottle nets Tony the requisite three wishes, and then some, when Jeannie pledges total devotion to her new \"master\".",
 "I Love Lucy": "Cuban Bandleader Ricky Ricardo would be happy if his wife Lucy would just be a housewife. Instead she tries constantly to perform at the Tropicana where he works, and make life comically frantic in the apartment building they share with landlords Fred and Ethel Mertz, who also happen to be their best friends.",
 "I Spy": "A pair of intelligence agents posing as a tennis pro and his coach go on secret missions around the world.",
+"I.M. Vampire": "\"I'm Turning into a Vampire\" is one of the many stories and also a limited series released by My Story Animated. The first season was published on YouTube in February 2024 and the first and second episodes of the second season was published on September 6th and 27th, 2024.",
 "Initial D": "Takumi’s job as a tofu delivery boy has turned him into one of the most formidable drivers around. Behind the wheel of his Eight-Six, he’s one with the road—and his life shifts into high gear when the underground street racing world takes notice. Drivers from across the region are lining up for a shot at the new guy. Takumi’s not just focused on winning—he’s out to prove he’s the best.",
 "Initial D: First Stage": "Takumi’s job as a tofu delivery boy has turned him into one of the most formidable drivers around. Behind the wheel of his Eight-Six, he’s one with the road—and his life shifts into high gear when the underground street racing world takes notice. Drivers from across the region are lining up for a shot at the new guy. Takumi’s not just focused on winning—he’s out to prove he’s the best.",
 "Inspector Gadget": "Inspector Gadget is a clumsy, dim-witted human cyborg detective with various bionic gadgets built into his body. Gadget stumbles around working the cases while his niece and dog do most of the investigating. Gadget's arch-nemesis is Dr. Claw, the leader of an evil organisation, known as \"M.A.D.\"",
@@ -12565,6 +12942,7 @@
 "Joe 90": "Joe 90 is a 1960s British science-fiction television series following the adventures of a nine-year-old child, Joe McClaine, who starts a double life as a schoolboy-turned-spy when his scientist father invents a device capable of duplicating and transferring expert knowledge and experience from one human brain to another. Equipped with the skills of the foremost academic and military minds, Joe is recruited by the World Intelligence Network and, becoming its \"Most Special Agent\", pursues the ideal of world peace and saving human life.",
 "Justice League": "The long-awaited rebirth of the greatest superhero team of all time: Batman, Superman, Wonder Woman, The Flash, Hawkgirl, Green Lantern, and Martian Manhunter.",
 "KaBlam!": "KaBlam! is a sketch comedy television series that ran from 1996 to 2000. It features a collection of short films in several different styles of animation, bridged by the characters of Henry and June, who introduce the shorts, and have adventures of their own. The show ended its three-year run nine months short of four years on January 22, 2000.",
+"Kakurenbo": "A young man who struggles with depression and desperately fears being alone with his own thoughts. After encouragement from his doctor, he finds himself in Japan- a promising hiding place from the life of busyness and pressure he faces back home. While in Japan, he discovers being found by himself and by others is not the fearful thing he first believed. This is the story of Kakurembo. This is the story of 'Hide and Seek.'",
 "Kenan & Kel": "Set in Chicago, the show follows the kid-friendly misadventures of two high-school friends who are always scheming and dreaming. Kenan, who works at a grocery store, constantly devises crazy plans to strike it rich, while orange-soda-loving buddy Kel is always dragged along for the ride despite his track record for messing things up.",
 "Key to my Ed": "",
 "Kiki's Delivery Service": "The story follows 13-year-old witch Kiki as she leaves home and relocates to the port town of Koriko, where she sets up a delivery service and forges new friendships.",
@@ -12584,6 +12962,7 @@
 "Maya the Bee (1975)": "The adventures of a young and happy bee who is sent by her queen to search for pollen, and in doing so she finds a new world that surrounds her, making friends with various forest creatures.",
 "Men in Black: The Series": "A secret government organization made up of men provide intergalactic immigration services for Earth-bound aliens.",
 "Mister Ed": "Wilbur Post and his wife Carol move into a beautiful new home. When Wilbur takes a look in his new barn, he finds that the former owner left his horse behind. This horse is no ordinary horse . . . he can talk, but only to Wilbur, which leads to all sorts of misadventures for Wilbur and his trouble-making sidekick Mister Ed.",
+"Moon of the Wolf": "Sound of the Desert traces the fate of Xin Yue, a young  orphan who was adopted by the nomadic Xiongnu tribe. When political  turmoil forces Xin Yue to flee, she finds herself in the company of two  very different, but alluring men: Mo Xun, a kind soul, and Wei  Wu Ji, a cold general. As Xin Yue travels throughout a vast  desert of possibilities, she must ask herself who she loves most in  this delicate dance of love.",
 "Mr. Wizard's World": "With the help of his young assistants, Mr. Wizard starts each episode with a demonstration that at first glance should be impossible, but is actually based firmly on basic scientific principles. Mr. Wizard's explanations are aimed at kids, but are in-depth enough to be educational and interesting for anyone. His experiments are usually kept simple enough for parents and kids to re-create at home.",
 "Muppet Babies": "The reimagined playroom antics and wacky adventures of the young Kermit the Frog, Piggy, Fozzie Bear, Gonzo, Animal, Summer Penguin, and Miss Nanny.",
 "Muppet Babies (1984)": "The Muppet Babies (Kermit, Piggy, Gonzo, Fozzy and company) live in a large nursery watched over by Nanny. The babies have active imaginations, and often embark upon adventures into imaginary worlds.",
@@ -12640,12 +13019,16 @@
 "The Adventures of Rocky and Bullwinkle and Friends": "Rocky, a plucky flying squirrel and Bullwinkle, a bumbling but lovable moose, have a series of ongoing adventures.",
 "The Adventures of Superman": "A much more lavish version of the popular Superman television series which had first aired forty years earlier, Lois & Clark focused more on the Man of Steel's early adult years in Metropolis. With the unknowing help of Lois Lane, Clark Kent created Superman there in Metropolis after finding work at the world-famous Daily Planet newspaper, where he meets fellow reporter Lois Lane.",
 "The Adventures of Tintin": "Travel with Tintin, the young and intrepid Belgian reporter, and his faithful dog Snowy as they take you from Tibet to the Moon, or from Egypt to the depths of the sea -- solving mysteries, pursuing truth and justice, and gambling with their lives.",
+"The Batman vs Dracula": "Gotham City is terrorized not only by recent escapees Joker and Penguin, but by the original creature of the night, Dracula! Can Batman stop the ruthless vampire before he turns everyone in the city, including The Caped Crusader, Joker and Penguin, into his mindless minions?",
 "The Bob Newhart Show": "The Bob Newhart Show is an American situation comedy produced by MTM Enterprises, which aired 142 original episodes on CBS from September 16, 1972, to April 1, 1978. Comedian Bob Newhart portrays a psychologist having to deal with his patients and fellow office workers. The show was filmed before a live audience.",
 "The Brady Bunch": "When widower Mike Brady marries a lovely lady widow Carol Ann, their two families become one. These are the misadventures of this new couple, their six children, a dog named Tiger, and quirky housekeeper Alice.",
+"The Brak Show": "In this spin-off of \"Space Ghost: Coast to Coast,\" sidekick Brak goes through a series of bizarre circumstances in his daily suburban life with his alien mom and Cuban dad.",
 "The Busy World of Richard Scarry": "Busytown is an enchanting place that's abuzz with energy and life. Young audiences are invited to sing and laugh along as Huckle Cat, Lowly Worm, and other beloved characters from acclaimed author Richard Scarry make their way through the day exploring their happy and lively world.",
 "The Dark Crystal": "Return to the world of Thra, where three Gelfling discover the horrifying secret behind the Skeksis' power and set out to ignite the fires of rebellion and save their world.",
 "The Dick Van Dyke Show": "The Dick Van Dyke Show centers around the work and home life of television comedy writer Rob Petrie. The plots generally revolve around problems at work, where Rob got into various comedic jams with fellow writers Buddy Sorrell, Sally Rogers and producer Mel Cooley.",
 "The Flintstones Meet Rockula And Frankenstone": "The Flintstones and the Rubbles win a trip on \"Make a Deal or Don't\" to Count Rockula's castle in Rocksylvania, where they have an unpleasant meeting with the Count and his servant, Frankenstone.",
+"The Ghost of Maidens Peak": "",
+"The Halloween Tree": "Four children learn the origins of Halloween customs while trying to save the life of their friend.",
 "The Incredible Hulk (1996)": "When research scientist Bruce Banner is blasted with a gamma ray bomb during an experiment gone wrong, he develops a dangerous alter ego -- a mean, green monster known as the Incredible Hulk -- who emerges when he gets angry.",
 "The Littl' Bits": "The Littl' Bits is a Japanese anime television series with 26 episodes, produced in 1980 by Tatsunoko Productions in Japan. First shown on TV Tokyo, its Saban-produced English translation was featured on the children's television station Nick Jr. from 1991 to 1995 alongside other children's anime series such as Adventures of the Little Koala, Maya the Bee, Noozles, The Mysterious Cities of Gold.\n\nDue to their similar size and naming scheme, an analogy is often drawn between the Littl' Bits and the Smurfs.",
 "The Lucy Show": "The Lucy Show is an American sitcom that aired on CBS from 1962–68. It was Lucille Ball's follow-up to I Love Lucy. A significant change in cast and premise for the 1965–66 season divides the program into two distinct eras; aside from Ball, only Gale Gordon, who joined the program for its second season, remained. For the first three seasons, Vivian Vance was the co-star.\n\nThe earliest scripts were entitled The Lucille Ball Show, but when this title was declined, producers thought of calling the show This Is Lucy or The New Adventures of Lucy, before deciding on the title The Lucy Show. Ball won consecutive Emmy Awards as Outstanding Lead Actress in a Comedy Series for the series' final two seasons, 1966–67 and 1967–68.",
@@ -12661,11 +13044,13 @@
 "The Secret World of Alex Mack": "Thanks to a dousing in a top-secret chemical from an overturned truck, teenager Alex Mack is given amazing powers that make her the envy of her sister and best friend... and the target of a search by the chemical company, which wants to find her at all costs.",
 "The Tick": "In a world where superheroes have been real for decades, an accountant with zero powers comes to realize his city is owned by a super villain. As he struggles to uncover this conspiracy, he falls in league with a strange blue superhero.",
 "The Tomorrow People": "The story of several young people from around the world who represent the next stage in human evolution, possessing special powers, including the ability to teleport and communicate with each other telepathically. Together they work to defeat the forces of evil.",
+"The Tower of Terror": "Dr. Iain Stewart explains the effects and importance of a specific force of nature, such as wind or volcanism. He also examines the various ways in which it shapes planet earth itself and influences life on it, often in conjunction with other natural forces, and sometimes with lifeforms, as in the 'apocalyptically' grave case of global warming.",
 "The Wild Thornberrys": "Travel the world with the Thornberrys and come face-to-face with blue sheep in Nepal, emus in Australia, marmots in Pakistan, flash floods in Siberia, Egyptian burial chambers, a runaway hot air balloon, a rock slide on the Karakoram Highway and more!",
 "The Witches": "The Witches of Oz follows the exploits of the grown Dorothy Gale, now a successful children's book author, as she moves from Kansas to present day New York City. Dorothy quickly learns that her popular books are based on repressed childhood memories, and that the wonders of Oz are very, very real. When the Wicked Witch of the West shows up in Times Square, Dorothy must find the inner courage to stop her.",
 "Tintin": "Travel with Tintin, the young and intrepid Belgian reporter, and his faithful dog Snowy as they take you from Tibet to the Moon, or from Egypt to the depths of the sea -- solving mysteries, pursuing truth and justice, and gambling with their lives.",
 "Trick or Treehouse": "Your favorite Treehouse friends are throwing a Halloween Party. Gather your friends and join The Berenstain Bears, Max, Ruby and Franklin for more than 120 minutes of pumpkins, spooky stories and nonstop Halloween fun.",
 "UFO": "A secret, high-technology international agency called SHADO defends Earth from alien invaders.",
+"Vampire Hunter D": "In the midst of a war between the families of Demitri Maximoff and Morrigan Aensland for control of the Demon World, alien invader Pyron arrives on Earth and plans to take it over by taking out those who stand a chance of stopping him, namely the Darkstalkers. Meanwhile, dhampir Donovan Baine seeks to rid himself of the cursed blood which runs through his veins.",
 "Wallace and Gromit in The Curse of the Were Rabbit": "Cheese-loving eccentric Wallace and his cunning canine pal Gromit run a business ridding the town of garden pests. Using only humane methods, which turns their home into a halfway house for evicted vermin, the pair stumble upon a mystery involving a voracious vegetarian monster that threatens to ruin the annual veggie-growing contest.",
 "Weinerville": "Nickelodeon Weinerville is an American television program on Nickelodeon that was produced in 1993 and 1994, and aired in re-runs until 1997. The show was based around a giant puppet stage which was designed to look like a city, called Weinerville. The show was hosted by Marc Weiner.\n\nMarc Weiner teamed up with Nickelodeon with the premiere of Nickelodeon Weinerville, a half-hour variety show using classic elements of kids programming, including puppeteering and interaction with a live studio audience, to entertain kids and their parents. Since its premiere, Weinerville has drawn the attention of such shows as Entertainment Tonight, Good Morning America and CBS This Morning for being television's first and only half-man/half-puppet variety show where kids are transformed into puppet citizens.\n\nThe show has also received numerous award nominations, including two CableACE Award nominations, and has received acclaim from: The New York Times, The New York Times Magazine, the Daily News, the New York Post, Newsday, TV Guide and the Los Angeles Times.\n\nThe show premiered on July 11, 1993. During the first season, all episodes ran in a two-hour marathon every Sunday. However, Weinerville quickly gained popularity: in the middle of the first season Nickelodeon began running the show on weekday afternoons. For the second season, which premiered on May 2, 1994, the episodes aired daily. The show aired on Nickelodeon until June 30, 1997, although the Chanukah special re-ran on December 21, 1997.",
 "Welcome Back Kotter": "Welcome Back, Kotter is an American television sitcom starring Gabe Kaplan and featuring a young John Travolta. Videotaped in front of a live studio audience, it originally aired on the ABC network from September 9, 1975, to June 8, 1979.",
@@ -15958,6 +16343,10 @@
 },
 "71335|1|21": {
 "n": "Ponce de Leon and the Lost Fountain of Youth",
+"o": ""
+},
+"71335|1|22": {
+"n": "The Oracle Bowl of Delphi",
 "o": ""
 },
 "71856|1|5": {
@@ -78935,12 +79324,14 @@
 "brak show": "77118",
 "bugs bunny's halloween hijinks": null,
 "bugs bunnys halloween hijinks": null,
+"candle jack": null,
 "captain america": "135841",
 "captain scarlet and the mysterons": "70818",
 "cartoon planet": "76957",
 "catdog": "77995",
 "celebrity deathmatch": "74186",
 "clarissa explains it all": "71810",
+"coffins and cradles": null,
 "coraline": "387607",
 "count duckula": "76307",
 "courage meets bigfoot": null,
@@ -78954,6 +79345,7 @@
 "dbz abridged": "248580",
 "dbz abridged - celloween": null,
 "dbz abridged halloween special": null,
+"dead before dawn!": null,
 "dee dees room": "458594",
 "dexter's laboratory": "77992",
 "digimon": "461683",
@@ -78964,6 +79356,7 @@
 "dragon ball z": "248580",
 "dragon ball z abridged": "248580",
 "dragon ball z abridged: celloween": "248580",
+"dreams in darkness": null,
 "ed, edd n eddy": "77466",
 "f troop": "73154",
 "fairytale a true story": null,
@@ -78994,6 +79387,10 @@
 "goku midnight eye p1": null,
 "goku midnight eye p2": null,
 "gold diggers the secret of bear mountain": null,
+"goosebumps the haunted mask part 1": null,
+"goosebumps the haunted mask part 2": null,
+"goosebumps werewolf skin part 1": null,
+"goosebumps werewolf skin part 2": null,
 "green acres": "78101",
 "gullah gullah island": "258806",
 "gullah, gullah island": "258806",
@@ -79019,6 +79416,7 @@
 "jonny quest": "76224",
 "justice league": "76320",
 "kablam!": "77191",
+"kakurenbo": null,
 "kenan & kel": "74392",
 "key to my ed": null,
 "kiki's delivery service": "479313",
@@ -79092,11 +79490,14 @@
 "the adventures of rocky and bullwinkle and friends": "76705",
 "the adventures of superman": "71451",
 "the adventures of tintin": "72668",
+"the batman vs dracula": null,
 "the bob newhart show": "78089",
 "the brady bunch": "77010",
 "the brak show": "77118",
 "the busy world of richard scarry": "74992",
 "the flintstones meet rockula and frankenstone": null,
+"the ghost of maidens peak": null,
+"the halloween tree": null,
 "the incredible hulk (1996)": "71746",
 "the littl' bits": "272550",
 "the lucy show": "70695",
@@ -79110,6 +79511,7 @@
 "the rocky and bullwinkle show": "76705",
 "the secret world of alex mack": "75497",
 "the tick": "317654",
+"the tower of terror": "80865",
 "the world of david the gnome": "70815",
 "thundercats": "70355",
 "tintin": "72668",
@@ -79450,6 +79852,10 @@
 },
 "6309|1|21": {
 "n": "The Treasure Map of Jean Lafitte",
+"o": ""
+},
+"6309|1|22": {
+"n": "The Belly Button of Buddha",
 "o": ""
 },
 "6329|1|5": {
