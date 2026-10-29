@@ -63,83 +63,7 @@
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
-  <programme start="20261010120000 +0000" stop="20261010183000 +0000" channel="YubNetwork">
-    <title lang="en">We're currently OFFLINE right now.</title>
-    <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
-  </programme>
-  <programme start="20261010183000 +0000" stop="20261010190000 +0000" channel="YubNetwork">
-    <title lang="en">The Twisted Whiskers Show</title>
-    <sub-title lang="en">High Wire High Jinks / Fish Market Frenzy</sub-title>
-    <desc lang="en">The Twisted Whiskers Show is an American computer-animated comedy series based on the Twisted Whiskers greeting cards created by Terrill Bohlar. It began airing as the first program of the Hasbro/Discovery TV network, Hub Network on October 10, 2010. 26 half hour episodes of the CG series were produced by DQ Entertainment, MoonScoop Group and Mike Young Productions and distributed by Taffy Entertainment.</desc>
-    <episode-num system="xmltv_ns">0.0.</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <icon src="https://image.tmdb.org/t/p/original/ArS0a2zYzq3fsb1b3FQRNiYBCVE.jpg" />
-  </programme>
-  <programme start="20261010190000 +0000" stop="20261010193000 +0000" channel="YubNetwork">
-    <title lang="en">Littlest Pet Shop</title>
-    <sub-title lang="en">Penny For Your Laughs</sub-title>
-    <desc lang="en">Blythe earns the gratitude of the Biskit twins after defending them against a bully during gym, but ends up being forced from talking her other friends. Meanwhile, Pepper is inspired to use insult comedy as part of her stand-up comedy schtick, but takes it too far on Penny while being unaware of her sensitive feelings.</desc>
-    <episode-num system="xmltv_ns">0.4.</episode-num>
-    <rating>
-      <value>TV-Y</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <icon src="https://image.tmdb.org/t/p/original/zRQbdVSRnX6Pz8qwQVFrPpKpyz5.jpg" />
-  </programme>
-  <programme start="20261010193000 +0000" stop="20261010200000 +0000" channel="YubNetwork">
-    <title lang="en">My Little Pony: Friendship Is Magic</title>
-    <sub-title lang="en">Bridle Gossip</sub-title>
-    <desc lang="en">Twilight encounters the mysterious zebra Zecora, who occasionally visits Ponyville and is rumored to be a witch. When she and her friends display a range of bizarre symptoms the next day, they begin to wonder whether Zecora put a curse on them. Applejack's little sister, Apple Bloom, ventures into the Everfree Forest to find the truth.</desc>
-    <episode-num system="xmltv_ns">0.8.</episode-num>
-    <rating>
-      <value>TV-Y</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Sci-Fi &amp; Fantasy</category>
-    <category lang="en">Kids</category>
-    <icon src="https://image.tmdb.org/t/p/original/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg" />
-  </programme>
-  <programme start="20261010200000 +0000" stop="20261010203000 +0000" channel="YubNetwork">
-    <title lang="en">Dan Vs.</title>
-    <sub-title lang="en">The Family Thanksgiving</sub-title>
-    <desc lang="en">Dan is surprised when Elise's parents invite him to their family Thanksgiving, but soon swears revenge when he learns that they only want to steal his secret family recipe for deviled eggs.</desc>
-    <episode-num system="xmltv_ns">1.0.</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <icon src="https://image.tmdb.org/t/p/original/wdoklBmmKaP8LtlBWvtDeihlLlD.jpg" />
-  </programme>
-  <programme start="20261010203000 +0000" stop="20261010210000 +0000" channel="YubNetwork">
-    <title lang="en">The Transformers</title>
-    <sub-title lang="en">Transport to Oblivion</sub-title>
-    <desc lang="en">The Decepticons have managed to construct a device that, once successfully tested, will allow them to travel to Cybertron. Later, they use a reprogrammed Bumblebee to make sure the Autobots walk into an ambush.</desc>
-    <episode-num system="xmltv_ns">0.3.</episode-num>
-    <rating>
-      <value>TV-PG</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Kids</category>
-    <category lang="en">Action &amp; Adventure</category>
-    <category lang="en">Sci-Fi &amp; Fantasy</category>
-    <icon src="https://image.tmdb.org/t/p/original/evcHcl8Q3hCRqEIiUHevrHj3B5p.jpg" />
-  </programme>
-  <programme start="20261010210000 +0000" stop="20261011000000 +0000" channel="YubNetwork">
+  <programme start="20261010120000 +0000" stop="20261011000000 +0000" channel="YubNetwork">
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
@@ -235,88 +159,11 @@
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
-  <programme start="20261022120000 +0000" stop="20261022183000 +0000" channel="YubNetwork">
+  <programme start="20261022120000 +0000" stop="20261023000000 +0000" channel="YubNetwork">
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
-  <programme start="20261022183000 +0000" stop="20261022190000 +0000" channel="YubNetwork">
-    <title lang="en">Pound Puppies</title>
-    <sub-title lang="en">Rebound</sub-title>
-    <desc lang="en">The Puppies try to find a home for Rebound, the most energetic puppy they have ever seen.</desc>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating>
-      <value>TV-Y</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Kids</category>
-    <icon src="https://image.tmdb.org/t/p/original/wtJ9A7s7IbSE2eQz7k386Am72YA.jpg" />
-  </programme>
-  <programme start="20261022190000 +0000" stop="20261022193000 +0000" channel="YubNetwork">
-    <title lang="en">The Twisted Whiskers Show</title>
-    <sub-title lang="en">Party Animals / Twister Tyke</sub-title>
-    <desc lang="en">The Twisted Whiskers Show is an American computer-animated comedy series based on the Twisted Whiskers greeting cards created by Terrill Bohlar. It began airing as the first program of the Hasbro/Discovery TV network, Hub Network on October 10, 2010. 26 half hour episodes of the CG series were produced by DQ Entertainment, MoonScoop Group and Mike Young Productions and distributed by Taffy Entertainment.</desc>
-    <episode-num system="xmltv_ns">0.16.</episode-num>
-    <rating>
-      <value>TV-G</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <icon src="https://image.tmdb.org/t/p/original/ArS0a2zYzq3fsb1b3FQRNiYBCVE.jpg" />
-  </programme>
-  <programme start="20261022193000 +0000" stop="20261022200000 +0000" channel="YubNetwork">
-    <title lang="en">Wander Over Yonder</title>
-    <sub-title lang="en">The Good Deed / The Prisoner</sub-title>
-    <desc lang="en">Wander's usual good deeds at helping anyone in distress suddenly become short-lived when he begins helping for the wrong reason. He and Sylvia work hard to try and fix Wander's mistake; Fed up with Wander's constant botherings, Lord Hater sends Peepers to trick Wander into entering the ship so he can trap him and throw him in the ship's prison. But when Wander starts having a lot of fun, it makes the task extremely difficult for Peepers to succeed.</desc>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating>
-      <value>TV-Y7</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Family</category>
-    <category lang="en">Sci-Fi &amp; Fantasy</category>
-    <icon src="https://image.tmdb.org/t/p/original/ow88KmFUXMb6S4EKOWyTBy8ta7O.jpg" />
-  </programme>
-  <programme start="20261022200000 +0000" stop="20261022203000 +0000" channel="YubNetwork">
-    <title lang="en">Transformers: Prime</title>
-    <sub-title lang="en">Scrapheap</sub-title>
-    <desc lang="en">Scraplets invade HQ while Optimus and Arcee patrol the Arctic, leaving Bumblee and Ratchet to repel the enemy.</desc>
-    <episode-num system="xmltv_ns">0.6.</episode-num>
-    <rating>
-      <value>TV-Y7-FV</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Action &amp; Adventure</category>
-    <category lang="en">Kids</category>
-    <icon src="https://image.tmdb.org/t/p/original/ilOKsGRHYc78R2tSMusAd3xGJWq.jpg" />
-  </programme>
-  <programme start="20261022203000 +0000" stop="20261022210000 +0000" channel="YubNetwork">
-    <title lang="en">G.I. Joe: Renegades</title>
-    <sub-title lang="en">Rage</sub-title>
-    <desc lang="en">Scrap-Iron kidnaps Tunnel Rat and uses him to test a weaponized exo-suit. Roadblock attempts a rescue by allowing himself to be kidnapped as well.</desc>
-    <episode-num system="xmltv_ns">0.2.</episode-num>
-    <rating>
-      <value>TV-Y7-FV</value>
-    </rating>
-    <category lang="en">Series</category>
-    <category lang="en">Animation</category>
-    <category lang="en">Action &amp; Adventure</category>
-    <icon src="https://image.tmdb.org/t/p/original/sRGqn7kzeQOVUdRdYGRZlYDObdu.jpg" />
-  </programme>
-  <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="YubNetwork">
-    <title lang="en">We're currently OFFLINE right now.</title>
-    <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
-  </programme>
-  <programme start="20261023000000 +0000" stop="20261023090000 +0000" channel="YubNetwork">
-    <title lang="en">We're currently OFFLINE right now.</title>
-    <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
-  </programme>
-  <programme start="20261023090000 +0000" stop="20261023120000 +0000" channel="YubNetwork">
+  <programme start="20261023000000 +0000" stop="20261023120000 +0000" channel="YubNetwork">
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
@@ -384,11 +231,59 @@
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
-  <programme start="20261031120000 +0000" stop="20261101000000 +0000" channel="YubNetwork">
+  <programme start="20261031120000 +0000" stop="20261031183000 +0000" channel="YubNetwork">
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
-  <programme start="20261101000000 +0000" stop="20261101120000 +0000" channel="YubNetwork">
+  <programme start="20261031183000 +0000" stop="20261031190000 +0000" channel="YubNetwork">
+    <title lang="en">Tiny Toon Adventures</title>
+    <desc lang="en">The wacky adventures of the new young hip generation of Warner Brothers Looney Tunes characters, most of them descendants of the original classic toon cast.</desc>
+  </programme>
+  <programme start="20261031190000 +0000" stop="20261031193000 +0000" channel="YubNetwork">
+    <title lang="en">Garfield's Halloween Adventure (1985)</title>
+    <desc lang="en">Garfield and Odie go trick-or-treating, and while doing so, wind up at a haunted house.</desc>
+  </programme>
+  <programme start="20261031193000 +0000" stop="20261031200000 +0000" channel="YubNetwork">
+    <title lang="en">My Little Pony: Friendship is Magic</title>
+    <desc lang="en">Journey to the enchanted land of Equestria, where unicorn Twilight Sparkle and her pals have adventures and learn valuable lessons about friendship.</desc>
+  </programme>
+  <programme start="20261031200000 +0000" stop="20261031203000 +0000" channel="YubNetwork">
+    <title lang="en">Atomic Betty</title>
+    <desc lang="en">A smart, and sugary-sweet Canadian girl leads a double life as a defender of the galaxy.</desc>
+  </programme>
+  <programme start="20261031203000 +0000" stop="20261031210000 +0000" channel="YubNetwork">
+    <title lang="en">What's with Andy?</title>
+    <desc lang="en">Teenager Andy Larkin, the greatest prankster on Earth, unleashes a flurry of practical jokes on the residents of East Gackle.</desc>
+  </programme>
+  <programme start="20261031210000 +0000" stop="20261031213000 +0000" channel="YubNetwork">
+    <title lang="en">Dan Vs.</title>
+    <desc lang="en">A rude, crude, and scruffy curmudgeon named Dan tries to get revenge on anyone and anything that angers him.</desc>
+  </programme>
+  <programme start="20261031213000 +0000" stop="20261031214500 +0000" channel="YubNetwork">
+    <title lang="en">MAD</title>
+    <desc lang="en">The animated version of the classic humor magazine satirizes current pop culture.</desc>
+  </programme>
+  <programme start="20261031214500 +0000" stop="20261031220000 +0000" channel="YubNetwork">
+    <title lang="en">Michael Jackson: Thriller (1983)</title>
+    <desc lang="en">A night at the movies turns into a nightmare when a hoard of bloodthirsty zombies attacks Michael and his date – only a "Thriller" can save them now.</desc>
+  </programme>
+  <programme start="20261031220000 +0000" stop="20261031223000 +0000" channel="YubNetwork">
+    <title lang="en">Goosebumps (1995)</title>
+    <desc lang="en">Anything can turn spooky in this horror anthology series based on the best-selling books by master of kid horror, R.L. Stine. In every episode, see what happens when regular kids find themselves in scary situations, and how they work to confront and overcome their fears.</desc>
+  </programme>
+  <programme start="20261031223000 +0000" stop="20261031230000 +0000" channel="YubNetwork">
+    <title lang="en">R.L. Stine's The Haunting Hour</title>
+    <desc lang="en">R.L. Stine leads young viewers on a creepy tour of tales featuring life-sized dolls, werewolves, and carnival clowns that are stalking children.</desc>
+  </programme>
+  <programme start="20261031230000 +0000" stop="20261101010000 +0000" channel="YubNetwork">
+    <title lang="en">ParaNorman (2012)</title>
+    <desc lang="en">A misunderstood boy takes on ghosts, zombies and grown-ups to save his town from a centuries-old curse.</desc>
+  </programme>
+  <programme start="20261101010000 +0000" stop="20261101013000 +0000" channel="YubNetwork">
+    <title lang="en">Step by Step</title>
+    <desc lang="en">Divorced contractor Frank Lambert and widowed beautician Carol Foster meet, fall in love, and quickly marry. Each has three children, and when they all move in together, kids and parents have much learning to do: step by step.</desc>
+  </programme>
+  <programme start="20261101013000 +0000" stop="20261101120000 +0000" channel="YubNetwork">
     <title lang="en">We're currently OFFLINE right now.</title>
     <desc lang="en">Yub Network is the place where pretty much everything comes together, from animated favorites to family game shows, alongside a few other classics! There's always something for everyone in the family.</desc>
   </programme>
