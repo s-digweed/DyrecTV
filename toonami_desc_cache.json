@@ -124,6 +124,10 @@
 "n": "El Diablo",
 "o": "Agarn's look-a-like Mexican bandit cousin comes to town, and the Corporal must capture him to clear his name."
 },
+"1062|1|20": {
+"n": "Go For Broke",
+"o": "Jane's cousin, an inventor, helps Parmenter win a poker game to replace the pension funds lost by O'Rourke."
+},
 "1063|1|1": {
 "n": "Tempestuous Temperaments",
 "o": "Fuu is a part-time teahouse worker whose life changes forever when two vagabond warriors, Mugen and Jin, stumble into her place of business and end up in hot water with the local magistrate."
@@ -152,6 +156,14 @@
 "n": "A Risky Racket",
 "o": "Fuu gets caught in a web of deception when she falls for prolific pickpocket with a heart of gold. But when her sticky-fingered friend slips his hands into the wrong pocket, he could be headed for a beat down."
 },
+"1063|1|8": {
+"n": "The Art of Altercation",
+"o": "A cocky sword-slinger with a crush on Fuu dishes the dirt on Jin's disgraceful past. If the renegade ronin wants to restore his good name, he'll need to get his glasses out of hock and make ready for a throw down!"
+},
+"1063|1|9": {
+"n": "Beatbox Bandits",
+"o": "The crew is headed for the gallows after getting caught flashing fake travel permits, but Mugen can win back their freedom by out hustling a deranged gang of warrior priests."
+},
 "10821|3|19": {
 "n": "Blue's Big Musical",
 "o": "Steve needs to figure out who can be Blue's singing partner for the \"You Can Be Anything You Want to Be\" show. Steve, Blue and the viewers also put together costumes, set up a stage and learn how to put together a song."
@@ -171,6 +183,10 @@
 "10821|3|23": {
 "n": "Blue's Play",
 "o": "There's a play being held at the Blue's Clues house and we're asked to play the cow. As we learn about the play, we find that it still doesn't have an ending. We explore more about how the characters are feeling in the play to get a better understanding of it. We also skiddoo into a collage and talk to the characters themselves to try and get a bead on why things happen the way they do in the play."
+},
+"10821|3|24": {
+"n": "Prehistoric Blue",
+"o": "Shovel and Pail find dinosaur footprints in the backyard, leading Shovel to worry that dinosaurs might be lurking in the backyard, despite Pail's assurances that they became extinct millions of years ago. We help to calm Shovel's fears by identifying the real animals that are in the backyard. We have fun with Steve pretending to be dinosaurs, learning, among other things, the difference between meat-eaters and plant-eaters. In the Blue Skidoo segment, we actually head back in time and find out about a number of dinosaurs, from what they looked like to how they behaved."
 },
 "1087|1|1": {
 "n": "Layer:01 – WEIRD",
@@ -367,6 +383,10 @@
 "1168|2|8": {
 "n": "Nemesis",
 "o": "The nefarious Dr. Zin subverts a satellite designed by Benton Quest and uses it to hold the world for ransom."
+},
+"11747|4|10": {
+"n": "Bilko and the Chaplin",
+"o": "The Chaplin and Bilko get back at a crooked real estate agent, who wants to close a boys home and open a parking lot."
 },
 "11747|4|6": {
 "n": "Bilko Joins the Navy",
@@ -1732,6 +1752,10 @@
 "n": "Herman’s Happy Valley",
 "o": "Herman purchases ten acres in Happy Holiday Valley through a magazine ad.  It turns out to be a patch of wasteland in a broken-down ghost town, so the Munsters absolutely adore it.  This makes things difficult for the fly-by-night salespeople who get a better offer for the property and want to buy it back."
 },
+"1712|1|36": {
+"n": "Hot Rod Herman",
+"o": "Eddie, under the impression that his father is the greatest driver in the world, volunteers Herman in a drag-strip competition.  After souping up the Munster Coach and dressing up like Marlon Brando in his Wild One days, Herman loses his car in a drag race.  In a rematch, Grandpa races in the Dragula, a motorized coffin on wheels."
+},
 "177|4|2": {
 "n": "I Am Clichéd",
 "o": "The director of Weasel and I.R.'s cartoons does nothing but stealing old clichés from classic cartoons."
@@ -1912,6 +1936,10 @@
 "n": "Devil Doll",
 "o": "In the theater, the crew watches as a ventriloquist traps a human soul inside his dummy in \"Devil Doll\" (1964).\n\nMeanwhile, on the SOL, Mike thinks that the demon called Pitch is a bad influence on Crow."
 },
+"1952|8|4": {
+"n": "The Deadly Mantis",
+"o": "In the theater, the crew watches as a praying mantis is exposed to atomic radiation and attacks the North Pole in \"The Deadly Mantis\" (1957).\n\nMeanwhile, on Earth, Pearl, Bobo, and Dr. Peanut accidentally (with help from Mike) detonate a bomb that destroys the planet. The crew holds a memorial service for Pearl only for her to call them and vow to hunt them down across space."
+},
 "1952|9|12": {
 "n": "The Screaming Skull",
 "o": "In the theater, the crew watches as a new bride is tormented by a skull that may or may not be the ghost of her husband's first wife in \"The Screaming Skull\" (1958).\n\nMeanwhile, in the theater, Tom has metamorphosized into a beautiful butterfly."
@@ -1939,6 +1967,10 @@
 "1974|5|22": {
 "n": "The Mentor",
 "o": "A despondent friend accepts Bob's suggestion and turns the psychologist's reception area into a mini-Polynesian village."
+},
+"1974|5|23": {
+"n": "Shrinking Violence",
+"o": "Bob offers sound psychological advice to his wife and his therapy group on how to handle anger. Then he proceeds to blow up himself."
 },
 "1988|1|10": {
 "n": "Mandora: the Evil Chaser",
@@ -2311,6 +2343,14 @@
 "2126|5|7": {
 "n": "Marcia Gets Creamed",
 "o": "Marcia's got a new job working after school at a ice cream parlor.  With both school and work, Marcia has little time for her boyfriend who, fed up comes into the parlor with another girl.  Meanwhile, Marcia suggests Peter for a job but when he goofs off she is the one who fires him."
+},
+"2126|5|8": {
+"n": "My Brother's Keeper",
+"o": "After Bobby pushes Peter out of the way of a falling ladder, Peter volunteers to be Bobby's \"\"slave for life.\"\"  However, Bobby begins to take advantage of the situation which yet again leads to discord in the Brady household."
+},
+"2126|5|9": {
+"n": "Quarterback Sneak",
+"o": "Marcia becomes involved with Jerry Rogers, a quarterback for the Fairview team.  Greg immediately tells Marcia the only reason he's dating her is to get his playbook, a notion Marcia scoffs at, but no one is scoffing when he actually does swipe the playbook."
 },
 "2132|1|10": {
 "n": "The Meershatz Pipe",
@@ -2747,6 +2787,10 @@
 "2251|3|14": {
 "n": "Louie's Mother",
 "o": "Louie is reveling in the news that he's moved his mother out of his apartment and into a nursing home and is throwing a party to celebrate, inviting only Alex.  Alex grudgingly shows and learns that the party is a sad affair, the only other guests being three losers that soon leave to go to another party. Louie confesses to Alex that he's actually depressed-- his mom actually moved out after they had a fight and he misses her.  Louie's depression gets worse over the days to come and Alex convinces him to go make up with his mother.  Louie goes to see his elderly mother, who initially won't speak to him, but eventually agrees to come home with him and all is well again."
+},
+"2251|3|15": {
+"n": "Bobby's Roommate",
+"o": "Elaine is forced out of her apartment when her building goes co-op and moves into Bobby's place while he's away with a touring stage production.  Soon, Bobby returns because he is kicked off the tour for fooling around with the director's daughter, and suddenly, he and Elaine are living together. A few days later, Elaine tells Alex how much she's enjoying living with Bobby, when suddenly she gets a call from her boyfriend, who breaks up with her.  Elaine leaves upset, and Alex briefs Bobby to look out because Elaine is vulnerable and may want physical companionship.  That night, Elaine wakes up Bobby to talk and drink some wine with her, then Bobby panics that she is coming on to him, and calls Alex.  When Alex arrives in his robe and slippers, having run 25 blocks through the snow to get there, Elaine gets upset that they have misinterpreted her actions.  The guys are ashamed at their chauvinism and they all make up."
 },
 "2274|2|10": {
 "n": "History",
@@ -4308,6 +4352,14 @@
 "n": "Barry Williams, Debi Mazar, Sammy Hagar, Greg Grunberg",
 "o": "Barry Williams has an unusual experience during a memorial service for his father; Debi Mazar has an encounter with a ghost when she moves into a friend's home; Sammy Hagar is visited by Van Halen's deceased manager; and Greg Grunberg encounters a ghost."
 },
+"32803|1|3": {
+"n": "Carrie Fisher, John Waters, Federico Castelluccio, Rue McClanahan",
+"o": "Carrie Fisher recalls an experience that happened after her friend died in her bed; John Waters recounts a scary memory from the 1950s; Federico Castelluccio believes a presence was in his workshop with him watching him paint; and Rue McClanahan recalls a friend's deathbed experience."
+},
+"32803|1|4": {
+"n": "Tom Arnold, Dee Snider, Carnie Wilson, Nia Long",
+"o": "Tom Arnold recalls an incident from his teens involving a pipe organ; Dee Snider remembers receiving a message from his murdered brother-in-law; Carnie Wilson relates how her sister introduced her to the spirit world; and Nia Long remembers an experience surrounding the death of her grandfather."
+},
 "334|4|10": {
 "n": "Sharko's Machine",
 "o": "Marco's illegitimate son applies for a job on Sealab. Can he pass the civil service exam with Debbie and Quinn helping?"
@@ -4431,6 +4483,14 @@
 "35106|1|22": {
 "n": "Gravity Jailbreak",
 "o": "Gene gets himself behind bars to get information about the Galactic Leyline and have Melfina restored. But the information he wants is going to cost him. He’ll have to help execute a total prison break!"
+},
+"35106|1|23": {
+"n": "Hot Springs Planet Tenrei",
+"o": "The crew ends up on a vacation planet! But not for a day at the hot springs—Gene needs caster shells and seeks the wizards that can make them. Will he find what he needs or just wind up in hot water?"
+},
+"35106|1|24": {
+"n": "Cutting the Galactic Leyline",
+"o": "The Outlaw Star makes its way to the Galactic Leyline. But they’re not the only ones out for the prize. Up against the Kei Pirates, the MacDougalls, and the Anten Seven—who will claim the sought-after treasure?"
 },
 "35106|1|7": {
 "n": "Creeping Evil",
@@ -5203,6 +5263,14 @@
 "42705|1|12": {
 "n": "Becoming a Bully's Buddy",
 "o": "Ippo fights and wins his second match via K.O.,After the fight he was befriended by Umezawa, his former bully."
+},
+"42705|1|13": {
+"n": "The Eastern Japan Rookie Championship Tournament Begins",
+"o": "Ippo and his opponent Jason prepare for the first match of the Rookie King Tournament."
+},
+"42705|1|14": {
+"n": "Powerful Arms! Hooks vs. Uppercut!",
+"o": "Start of Ippo vs Jason match, both men exchange powerful punches but neither goes down."
 },
 "42705|1|2": {
 "n": "Fruits of Labor",
@@ -6888,6 +6956,10 @@
 "n": "Attack on Mr. Right",
 "o": "Rhoda drills Brenda on the finer points of life, such as how to land a man, when Brenda's Mr. Right seems to be taking her for granted."
 },
+"645|2|18": {
+"n": "If You Want to Shoot the Rapids You Have to Get Wet",
+"o": "Rhoda, whose only real luck with a man has been with her husband Joe, finds herself playing marriage counselor to a couple who has been married for 12 years."
+},
 "6460|1|19": {
 "n": "The Snowstorm",
 "o": "A big snowstorm causes havoc in Busytown."
@@ -8082,6 +8154,10 @@
 "nm": "Opposites",
 "ov": "Steve wears different clothes! It's a nutty opposite day at Blue's Clues and everything's topsy-turvy, including some of our friends. We play Blue's Clues to figure out what opposite Blue is thinking of."
 },
+"blue s clues|3|24": {
+"nm": "Blue's Collection",
+"ov": "Something's missing from Blue's circle collection -- but what could it be? We play Blue's Clues to figure out what's missing, and help our friends with their collections."
+},
 "captain america|1|3": {
 "nm": "",
 "ov": ""
@@ -9098,6 +9174,10 @@
 "nm": "El Diablo",
 "ov": "While the men of F Troop are undergoing their annual physicals word comes that the Mexican bandit El Diablo is at large. It turns out that he and Corporal Agarn are cousins and look exactly alike. Agarn with the troop under his co..."
 },
+"f troop|1|20": {
+"nm": "Go for Broke",
+"ov": "Jane's cousin helps O'Rourke replace the F Troop pension fund by entering a poker game."
+},
 "family double dare|3|18": {
 "nm": "",
 "ov": ""
@@ -9149,6 +9229,14 @@
 "fighting spirit|1|12": {
 "nm": "Becoming a Bully's Buddy",
 "ov": "The news of Ippo's boxing spreads in the school, which makes the thugs secretly admire him and insist on attending his next match."
+},
+"fighting spirit|1|13": {
+"nm": "The Eastern Japan Rookie Championship Tournament Begins",
+"ov": "The Rookie Championship is about to begin. Ippo's first opponent is an American soldier, Jason Ozma. To prepare Ippo trains with Takamura. Ozma trains for the people he came to know in the Japanese gym where he was based."
+},
+"fighting spirit|1|14": {
+"nm": "Powerful Arms! Hooks vs. Uppercut!",
+"ov": "Ippo begins his first tournament match against Jason"
 },
 "fighting spirit|1|2": {
 "nm": "Doryoku no seika",
@@ -10926,6 +11014,10 @@
 "nm": "",
 "ov": ""
 },
+"mystery science theater 3000|8|4": {
+"nm": "The Incredible Melting Man",
+"ov": "In an intriguing coincidence, Crow finally gets to direct his first film, \"Earth vs. Soup,\" in between viewing \"The Incredible Melting Man (1977)\", a film about a incredibly '70s physician trying to stop an astronaut from graduall..."
+},
 "mystery science theater 3000|9|12": {
 "nm": "The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies",
 "ov": "Mike and the 'bots sit through The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!? (1964). Pearl returns a trio of space-brats to their parents."
@@ -11097,6 +11189,14 @@
 "outlaw star|1|22": {
 "nm": "Gravity Jailbreak",
 "ov": "Gene visits to prison on a high-gravity world so he can find a man who knows the location of the Leyline."
+},
+"outlaw star|1|23": {
+"nm": "Hot Springs Planet Tenrei",
+"ov": "Gene Starwind has to go to the Tenrei planet in order to fin bullets for his special gun. What he finds is a world populated with water springs and pretty ladies, but nothing will stop him in order to get what he needs."
+},
+"outlaw star|1|24": {
+"nm": "",
+"ov": ""
 },
 "patlabor|1|47": {
 "nm": "",
@@ -11349,6 +11449,10 @@
 "rhoda|2|17": {
 "nm": "Attack on Mr. Right",
 "ov": "Brenda is excited about a new man she met, but is unsure how to get him interested in her. Rhoda tells her how to attract him."
+},
+"rhoda|2|18": {
+"nm": "",
+"ov": ""
 },
 "robotech|2|18": {
 "nm": "",
@@ -11617,6 +11721,14 @@
 "samurai champloo|1|7": {
 "nm": "Shimensoka",
 "ov": "Fuu is caught in a web of deception when she falls for a pick pocket with a heart of gold."
+},
+"samurai champloo|1|8": {
+"nm": "Yuigadokuson",
+"ov": "A sword slinger with a crush on Fuu reveals the dark secret of Jin's past. To restore his good name, Jin will need to duel him."
+},
+"samurai champloo|1|9": {
+"nm": "Chimimôryô",
+"ov": "The crew is headed for the gallows after getting caught using fake travel permits, but Mugen can save them by outhustling a gang of warrior priest."
 },
 "scooby doo where are you|1|1": {
 "nm": "What a Night for a Knight",
@@ -12158,6 +12270,10 @@
 "nm": "Louie's Mother",
 "ov": "After Louie places his mother in a nursing home he realizes that his vision of living without her was not as good as it seemed."
 },
+"taxi|3|15": {
+"nm": "Bobby's Roommate",
+"ov": "Elaine can't afford her apartment and temporarily moves in with Bobby, much to the chagrin of Alex and Tony."
+},
 "teen titans|1|13": {
 "nm": "Car Trouble",
 "ov": "Cyborg is in a chase around the city when various villains get their hands on his newly-built \"T-Car.\""
@@ -12290,6 +12406,10 @@
 "nm": "The Mentor",
 "ov": "Larry is unhappy with his job and is encouraged to start his own travel agency."
 },
+"the bob newhart show|5|23": {
+"nm": "Shrinking Violence",
+"ov": "Mr. Carlin is told he is misdirecting his anger towards the group. Emily is upset her car is still in the shop and takes it out on Howard."
+},
 "the brady bunch|5|2": {
 "nm": "",
 "ov": ""
@@ -12313,6 +12433,14 @@
 "the brady bunch|5|7": {
 "nm": "Marcia Gets Creamed",
 "ov": "Marcia, Jan and Peter each get jobs at the local ice cream parlor, each with varying results."
+},
+"the brady bunch|5|8": {
+"nm": "My Brother's Keeper",
+"ov": "Bobby saves Peter from potential serious injury after he pushes him out of the way of a falling ladder. A grateful Peter offers to become Bobby's \"slave for life,\" something that Bobby takes quick advantage of."
+},
+"the brady bunch|5|9": {
+"nm": "",
+"ov": ""
 },
 "the brak show|2|10": {
 "nm": "Dinner Party",
@@ -12574,6 +12702,10 @@
 "nm": "Herman's Happy Valley",
 "ov": "When Herman buys ten acres of land in Happy Holliday Valley from a crooked magazine ad, the family is delighted to find it a complete wasteland. But the con artists want to get the land back when they can strike a deal to sell the area for use as a missile site. So, they decide to scare the Munsters off."
 },
+"the munsters|1|36": {
+"nm": "Hot Rod Herman",
+"ov": "Eddie tells his friend Sandy Baylor that his father can beat Mr. Baylor at the Mockingbird Heights drag strip. Instead, Herman ends up losing the Munsters Koach on a bet. Determined to win it back, Grandpa constructs his own roadster, the Drag-u-la, to beat 'Leadfoot' Baylor at his own game and win back the family's beloved Koach."
+},
 "the mysterious cities of gold|1|35": {
 "nm": "The Olmec Machine",
 "ov": "Esteban, Zia and Tao are waiting outside the base when Gaspard and Gomez take them by surprise and demand to be taken to the Cities of Gold. Meanwhile, Wanacocha arrives to announce their victory to Mendoza, but the latter becomes..."
@@ -12633,6 +12765,10 @@
 "the patty duke show|2|29": {
 "nm": "",
 "ov": ""
+},
+"the phil silvers show|4|10": {
+"nm": "Bilko and the Chaplain",
+"ov": "Bilko is sent to San Francisco & the Col. asks the Chaplain to accompany him. The Chaplain takes Bilko to see his pet project - a center for military kids. Bilko realizes that the Chaplain has been duped by a crooked real estate dealer."
 },
 "the phil silvers show|4|7": {
 "nm": "",
@@ -13182,6 +13318,7 @@
 "show_syn": {
 "2 Stupid Dogs": "“Two Stupid Dogs” follows the lives of two dogs: the overly excited Little Dog (the dachshund) and easy-paced Big Dog (the sheepdog). These crazy canines don't know how to fit in the world, and they definitely don't have any know-how. They often find themselves in commonplace situations (going to the drive-in, walking through the mall, working on the farm), some not so common situations (stuck on a space shuttle, a contestant on a game show, getting mistaken for the prime minister) and even in some familiar situations (little red riding hood, Noah's ark, and Hanzel and Gretel). But no matter the situation, their stupidity usually leads them to calamitous results.",
 "8 Men After": "Song Cha fell in love with Wan Ni at first sight, and snatched Wan Ni and Hu En's bride on their wedding day, and forcefully married Wan Ni.After the marriage, Song Cha protected his wife domineeringly, and Wan Ni was gradually moved by Song Cha.When Hu En learned that Wan Ni had changed her mind, he felt jealous and accidentally killed Wan Ni's father and framed the blame on Song Cha.The three of them faced off in an abandoned factory. Hu En wanted to kill the two of them, but Song Cha counterattacked.In the end, the police arrived and punished Hu En. Song Cha got his wish after pursuing his wife, but he was also punished for the crime he committed.",
+"A Home of Our Own": "In 1960s Los Angeles an energetic widow and her six children try to make a dream of theirs come true: to have a home of their own. They leave L.A. and head for the countryside, all the while facing numerous difficulties and obstacles during their journey.",
 "A Pinch to Grow an Ed": "",
 "Aaahh!!! Real Monsters": "Three young monsters — Ickis, Oblina and Krumm — attends an institute for monsters under a city dump and learn to frighten humans.",
 "Adventures of Superman": "It's a bird! It's a plane! It's a syndicated TV adaptation of the beloved DC Comics superhero! You know the drill: When he isn't fighting for truth, justice and the American way, the man in tights dons a suit and glasses for his secret identity as Daily Planet newspaper reporter Clark Kent, who works alongside friends Lois Lane and Jimmy Olsen for gruff boss Perry White.",
@@ -13218,6 +13355,7 @@
 "Courage Meets Bigfoot": "",
 "Cousin Skeeter": "With the help of his strange cousin Skeeter, Bobby learns life lessons and tackles the ups and downs of growing up.",
 "Cow with Four Eyes": "",
+"Cowboy Bebop The Movie": "The year is 2071. Following a terrorist bombing, a deadly virus is released on the populace of Mars and the government has issued the largest bounty in history, for the capture of whoever is behind it. The bounty hunter crew of the spaceship Bebop; Spike, Faye, Jet and Ed, take the case with hopes of cashing in the bounty. However, the mystery surrounding the man responsible, Vincent, goes deeper than they ever imagined, and they aren't the only ones hunting him.",
 "Cromartie High School": "Folks, meet Takashi Kamiyama. Enrolled at Cromartie High, where everybody is a delinquent, Kamiyama is apparently the only non-delinquent in the school. Logically, therefore, he must be the toughest in his class—by the rather twisted logic that only a really tough rabbit would lie down with lions. Thus begins a story that parodies every cliché of tough-guy anime that you've ever heard of, and some you haven't. Oh, and Freddie Mercury is in it, too.",
 "Cyborg 009": "Nine super-powered cyborg soldiers join forces to combat Black Ghost, the terrorist organization which they were originally created to serve.",
 "DBZ Abridged": "Dragon Ball Z Abridged is the title of TeamFourStar's abridged series based on the Dragon Ball Z anime. This abridged series is one of the most successful series created in '08-'09 and was featured on That Guy with The Glasses official website.\r\n\r\nDragon Ball Z Abridged is a direct parody with most characters and plot lines remaining relatively unchanged.",
@@ -80013,6 +80151,7 @@
 "tvdb_shows": {
 "12 oz mouse": "79159",
 "2 stupid dogs": "76297",
+"a home of our own": null,
 "a pinch to grow an ed": null,
 "aaahh!!! real monsters": "71492",
 "alfred hitchcock presents": "73614",
@@ -80050,6 +80189,7 @@
 "cow and chicken": "76196",
 "cow with four eyes": null,
 "cowboy bebop": "367234",
+"cowboy bebop the movie": null,
 "cromartie high school": "76057",
 "cyborg 009": "265215",
 "dbz abridged": "248580",
@@ -152312,6 +152452,580 @@
 15
 ]
 },
+"8601": {
+"100th episode celebration": [
+5,
+6
+],
+"a brand new game": [
+5,
+15
+],
+"a snowy day": [
+1,
+9
+],
+"a surprise guest": [
+5,
+16
+],
+"adventure": [
+4,
+2
+],
+"adventures in art": [
+1,
+7
+],
+"anatomy": [
+3,
+12
+],
+"animal behavior": [
+3,
+5
+],
+"animals in our house": [
+5,
+35
+],
+"art appreciation": [
+3,
+2
+],
+"bedtime business": [
+5,
+11
+],
+"behind the clues 10 years with blue": [
+6,
+10
+],
+"blocks": [
+4,
+13
+],
+"blue goes to the beach": [
+1,
+8
+],
+"blue goes to the doctor": [
+5,
+13
+],
+"blue is frustrated": [
+2,
+18
+],
+"blue s abcs": [
+2,
+3
+],
+"blue s backyard ballgame bonanza": [
+4,
+14
+],
+"blue s big band": [
+5,
+18
+],
+"blue s big car trip": [
+5,
+31
+],
+"blue s big costume party": [
+3,
+21
+],
+"blue s big holiday": [
+3,
+10
+],
+"blue s big musical movie": [
+3,
+19
+],
+"blue s big mystery": [
+3,
+17
+],
+"blue s big pajama party": [
+3,
+6
+],
+"blue s big treasure hunt": [
+3,
+1
+],
+"blue s birthday": [
+2,
+8
+],
+"blue s book nook": [
+4,
+18
+],
+"blue s collection": [
+3,
+27
+],
+"blue s favorite song": [
+1,
+5
+],
+"blue s first holiday": [
+5,
+36
+],
+"blue s new place 2": [
+4,
+6
+],
+"blue s news": [
+1,
+18
+],
+"blue s play": [
+3,
+23
+],
+"blue s prediction": [
+5,
+23
+],
+"blue s sad day": [
+2,
+11
+],
+"blue s school": [
+4,
+20
+],
+"blue s senses": [
+2,
+6
+],
+"blue s story time": [
+1,
+4
+],
+"blue s surprise at two o clock": [
+2,
+13
+],
+"blue s wishes": [
+6,
+3
+],
+"blue takes you to school": [
+5,
+25
+],
+"blue wants to play a game": [
+1,
+12
+],
+"blue wants to play a song game": [
+1,
+14
+],
+"bluestock": [
+6,
+9
+],
+"body language": [
+5,
+30
+],
+"bugs": [
+4,
+9
+],
+"caf blue": [
+3,
+28
+],
+"can you help": [
+5,
+1
+],
+"colors everywhere": [
+5,
+2
+],
+"contraptions": [
+5,
+14
+],
+"draw along with blue": [
+3,
+7
+],
+"dress up day": [
+5,
+17
+],
+"environments": [
+3,
+30
+],
+"geography": [
+3,
+15
+],
+"hide and seek": [
+3,
+8
+],
+"i did that": [
+5,
+33
+],
+"i m so happy": [
+5,
+9
+],
+"imagine nation": [
+4,
+1
+],
+"inventions": [
+3,
+22
+],
+"joe gets a clue": [
+4,
+23
+],
+"joe s clues": [
+6,
+4
+],
+"joe s first day": [
+4,
+22
+],
+"joe s surprise party": [
+5,
+8
+],
+"let s boogie": [
+4,
+19
+],
+"let s plant": [
+4,
+17
+],
+"let s write": [
+5,
+28
+],
+"look carefully": [
+5,
+32
+],
+"love day": [
+6,
+2
+],
+"magenta comes over": [
+1,
+15
+],
+"magenta gets glasses": [
+3,
+32
+],
+"magenta s messages": [
+5,
+29
+],
+"mailbox s birthday": [
+1,
+3
+],
+"making changes 5": [
+4,
+10
+],
+"math": [
+2,
+4
+],
+"mechanics": [
+2,
+20
+],
+"meet blue s baby brother": [
+6,
+13
+],
+"meet polka dots": [
+5,
+26
+],
+"morning music": [
+5,
+34
+],
+"mr salt and mrs pepper day 3": [
+4,
+7
+],
+"nature": [
+3,
+14
+],
+"numbers everywhere": [
+5,
+22
+],
+"nurture": [
+2,
+17
+],
+"occupations": [
+3,
+16
+],
+"our neighborhood festival": [
+5,
+24
+],
+"patience": [
+5,
+7
+],
+"periwinkle misses his friend": [
+3,
+18
+],
+"playdates": [
+6,
+6
+],
+"playing store": [
+5,
+5
+],
+"pool party": [
+3,
+11
+],
+"prehistoric blue": [
+3,
+24
+],
+"pretend time": [
+1,
+11
+],
+"puppets": [
+4,
+15
+],
+"rhyme time": [
+4,
+16
+],
+"shape searchers": [
+5,
+12
+],
+"shy": [
+3,
+29
+],
+"signs": [
+3,
+13
+],
+"skidoo adventure": [
+6,
+5
+],
+"snack time": [
+1,
+1
+],
+"soccer practice": [
+6,
+8
+],
+"something to do blue": [
+4,
+21
+],
+"steve gets the sniffles": [
+2,
+1
+],
+"steve goes to college": [
+4,
+24
+],
+"stormy weather": [
+3,
+31
+],
+"superfriends": [
+4,
+4
+],
+"thankful": [
+3,
+9
+],
+"the alphabet train": [
+5,
+21
+],
+"the anything box": [
+4,
+3
+],
+"the baby s here 4": [
+4,
+8
+],
+"the big book about us": [
+5,
+4
+],
+"the boat float": [
+5,
+10
+],
+"the fairy tale ball": [
+6,
+7
+],
+"the grow show": [
+1,
+13
+],
+"the legend of the blue puppy": [
+6,
+1
+],
+"the lost episode": [
+2,
+14
+],
+"the scavenger hunt": [
+5,
+27
+],
+"the snack chart": [
+5,
+3
+],
+"the story wall": [
+5,
+20
+],
+"the trying game": [
+1,
+10
+],
+"the wrong shirt opposites": [
+3,
+25
+],
+"tickety s favorite nursery rhyme": [
+1,
+16
+],
+"un d a con plum": [
+4,
+11
+],
+"up down all around": [
+5,
+19
+],
+"weight and balance": [
+3,
+3
+],
+"what did blue see": [
+2,
+16
+],
+"what does blue need": [
+1,
+6
+],
+"what does blue want to build": [
+2,
+2
+],
+"what does blue want to do on a rainy day": [
+2,
+12
+],
+"what does blue want to do with her picture": [
+2,
+10
+],
+"what does blue want to make": [
+1,
+17
+],
+"what does blue want to make out of recycled things": [
+2,
+7
+],
+"what experiment does blue want to try": [
+2,
+5
+],
+"what game does blue want to learn": [
+2,
+15
+],
+"what is blue afraid of": [
+1,
+19
+],
+"what is blue trying to do": [
+2,
+19
+],
+"what s inside": [
+4,
+12
+],
+"what s new blue 1": [
+4,
+5
+],
+"what s so funny": [
+3,
+20
+],
+"what s that sound": [
+3,
+4
+],
+"what story does blue want to play": [
+1,
+20
+],
+"what time is it for blue": [
+1,
+2
+],
+"what was blue s dream about": [
+2,
+9
+],
+"words": [
+3,
+26
+]
+},
 "8785": {
 "chaos": [
 1,
@@ -153902,6 +154616,7 @@
 "bewitched": 826,
 "big o": 9050,
 "birdman and the galaxy trio": 53386,
+"blue's clues": 8601,
 "brak show": 6234,
 "captain america": 47270,
 "captain scarlet and the mysterons": 3650,

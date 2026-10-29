@@ -1,15 +1,16 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-10-28 09:18 UTC)
-#   episode-specific: 879
-#   fixed show-blurb: 10  (hand-supplied, intentional)
-#   generic (blurb) : 109
-#   none            : 65
+# DESCRIPTION REPORT  (2026-10-29 09:19 UTC)
+#   episode-specific: 795
+#   fixed show-blurb: 12  (hand-supplied, intentional)
+#   generic (blurb) : 106
+#   none            : 62
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
 # (epNum=, blank = the API gave none). To set a real one, paste into
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
+    ("A Home of Our Own", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("A Pinch to Grow an Ed", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Berserk The Golden Age Arc 3 - Descent", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Birdman and the Galaxy Trio", "Mentor, the Mind Taker"): "",   # epNum=18  pinned cartoon: no synopsis supplied for this segment
@@ -19,6 +20,7 @@
     ("Coffins and Cradles", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Courage Meets Bigfoot", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Cow with Four Eyes", "(no episode name)"): "",   # epNum=  no description found anywhere
+    ("Cowboy Bebop The Movie", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Mystical Island"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("DBZ Abridged Halloween Special", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Dead Before Dawn!", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
@@ -34,6 +36,8 @@
     ("Genocyber Part 3", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Genocyber Part 4", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Genocyber Part 5", "(no episode name)"): "",   # epNum=  no description found anywhere
+    ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): "",   # epNum=3  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "Requiem from the Dead - Elise"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Goosebumps The Haunted Mask Part 1", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Goosebumps The Haunted Mask Part 2", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Goosebumps Werewolf Skin Part 1", "(no episode name)"): "",   # epNum=  no description found anywhere
@@ -44,13 +48,10 @@
     ("Kakurenbo", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Key to my Ed", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Lupin the Third: Part II", "Lair of the Land-Shark"): "",   # epNum=25  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Rats to You"): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Shot Through the Heart"): "",   # epNum=26  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Little Princess of Darkness"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Moon of the Wolf", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Night of the Weremole", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Paranorman", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Ranma ½", "Cool Runnings! The Race of the Snowmen"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Ranma ½", "Danger at the Tendo Dojo!"): "",   # epNum=28  no S/E resolved -> show-level blurb
     ("Ranma ½", "Ranma Trains on Mt. Terror"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Ranma ½", "The Breaking Point!? Ryoga's Great Revenge"): "",   # epNum=30  no S/E resolved -> show-level blurb
@@ -60,11 +61,9 @@
     ("Sailor Moon", "Tough Kindness"): "",   # epNum=120  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Wake Up Call (Shadows of Destruction! The Awakening of the Messiah of Silence)"): "",   # epNum=116  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Who's Really Who? (The Horror of the Approaching Shadow! Eight Soldiers in Tough Battle)"): "",   # epNum=117  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Big Bang! Battle of Taurus Temple"): "",   # epNum=43  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Gemini! Maze of Light and Dark"): "",   # epNum=44  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Panic! Adrift in a Different Dimension"): "",   # epNum=45  no S/E resolved -> show-level blurb
     ("Spider-Man: The Animated Series", "The Alien Costume (Part Three)"): "",   # epNum=9  no S/E resolved -> show-level blurb
-    ("Spider-Man: The Animated Series", "The Alien Costume (Part Two)"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("The Batman vs Dracula", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("The Ghost of Maidens Peak", "(no episode name)"): "",   # epNum=  no description found anywhere
@@ -73,7 +72,5 @@
     ("Trick or Treehouse", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Vampire Hunter D", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Chuck Wood Pie Yourself"): "",   # epNum=6  S/E set but no DB/OMDb/TAM episode overview
-    ("What Would You Do? (1991)", "Wear Something On Your Back"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
-    ("X-Men: The Animated Series", "Beyond Good and Evil (Part 2): Promise of Apocalypse"): "",   # epNum=63  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 3): The Lazarus Chamber"): "",   # epNum=64  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Beyond Good and Evil (Part 4): End and Beginning"): "",   # epNum=65  no S/E resolved -> show-level blurb
