@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-10-30 09:36 UTC)
+# RUN STATUS  (2026-10-31 09:18 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 799 episode-specific, 12 fixed show-blurb, 92 generic, 47 none (see generic_desc.txt)
+#   descriptions     : 845 episode-specific, 10 fixed show-blurb, 68 generic, 31 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 446  (manual pins: 0)
-#   S/E by absolute  : 10
-#   S/E + desc / TAM : 12  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 6  (S/E from your hand-verified sheet)
+#   S/E by name      : 487  (manual pins: 0)
+#   S/E by absolute  : 16
+#   S/E + desc / TAM : 11  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 12  (S/E from your hand-verified sheet)
 #   episode guide    : 177  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 117  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   abs-resolve Snick: 114  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 218
-#   S/E withheld     : 47  (listed below)
+#   names from TAM   : 212
+#   S/E withheld     : 30  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,23 +22,16 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cyborg 009", "Mystical Island"): (, ),   # epNum=12
     ("Fantastic Four", "It Started On Yancy Street"): (, ),   # epNum=13
     ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): (, ),   # epNum=3
-    ("Ghost Stories", "Requiem from the Dead - Elise"): (, ),   # epNum=4
-    ("Iron Man", "Enter Hawkeye, So Spins the Web, Triple Jeopardy"): (, ),   # epNum=6
+    ("Lupin the Third: Part II", "Fry Me to the Moon"): (, ),   # epNum=29
     ("Lupin the Third: Part II", "Revenge of Le Nerd"): (, ),   # epNum=28
-    ("Lupin the Third: Part II", "Shot Through the Heart"): (, ),   # epNum=26
     ("Lupin the Third: Part II", "The Little Princess of Darkness"): (, ),   # epNum=27
-    ("Ranma ½", "Ranma Trains on Mt. Terror"): (, ),   # epNum=29
     ("Ranma ½", "The Breaking Point!? Ryoga's Great Revenge"): (, ),   # epNum=30
-    ("Sailor Moon", "Darkness, My Old Friend (A Bright Shooting Star! Saturn, and the Messiah)"): (, ),   # epNum=118
     ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): (, ),   # epNum=121
-    ("Sailor Moon", "Second Chance (A New Life! Time for Separation of the Destined Stars)"): (, ),   # epNum=119
-    ("Sailor Moon", "Tough Kindness"): (, ),   # epNum=120
+    ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): (, ),   # epNum=48
     ("Saint Seiya: Knights of the Zodiac", "Farewell Hyoga! Sleep, O Brave One!"): (, ),   # epNum=47
-    ("Saint Seiya: Knights of the Zodiac", "Panic! Adrift in a Different Dimension"): (, ),   # epNum=45
     ("Spider-Man: The Animated Series", "The Hobgoblin (Part Two)"): (, ),   # epNum=12
     ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): (, ),   # epNum=22
-    ("X-Men: The Animated Series", "Beyond Good and Evil (Part 4): End and Beginning"): (, ),   # epNum=65
+    ("X-Men: The Animated Series", "Storm Front (Part 1)"): (, ),   # epNum=68
     ("X-Men: The Animated Series", "The Phalanx Covenant (Part 2)"): (, ),   # epNum=67
