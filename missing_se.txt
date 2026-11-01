@@ -1,17 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-10-31 09:18 UTC)
+# RUN STATUS  (2026-11-01 10:05 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 845 episode-specific, 10 fixed show-blurb, 68 generic, 31 none (see generic_desc.txt)
+#   descriptions     : 884 episode-specific, 8 fixed show-blurb, 50 generic, 16 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 487  (manual pins: 0)
-#   S/E by absolute  : 16
-#   S/E + desc / TAM : 11  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 12  (S/E from your hand-verified sheet)
-#   episode guide    : 177  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 114  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 528  (manual pins: 0)
+#   S/E by absolute  : 18
+#   S/E + desc / TAM : 9  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 18  (S/E from your hand-verified sheet)
+#   episode guide    : 175  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 128  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 212
+#   names from TAM   : 179
 #   S/E withheld     : 30  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
@@ -24,14 +24,15 @@
 # ============================================================
     ("Fantastic Four", "It Started On Yancy Street"): (, ),   # epNum=13
     ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): (, ),   # epNum=3
+    ("Harvey Birdman", "The Death of Harvey (Finale)"): (, ),   # epNum=39
     ("Lupin the Third: Part II", "Fry Me to the Moon"): (, ),   # epNum=29
+    ("Lupin the Third: Part II", "Morocco Horror Picture Show"): (, ),   # epNum=30
     ("Lupin the Third: Part II", "Revenge of Le Nerd"): (, ),   # epNum=28
-    ("Lupin the Third: Part II", "The Little Princess of Darkness"): (, ),   # epNum=27
-    ("Ranma ½", "The Breaking Point!? Ryoga's Great Revenge"): (, ),   # epNum=30
     ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): (, ),   # epNum=121
     ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): (, ),   # epNum=48
     ("Saint Seiya: Knights of the Zodiac", "Farewell Hyoga! Sleep, O Brave One!"): (, ),   # epNum=47
     ("Spider-Man: The Animated Series", "The Hobgoblin (Part Two)"): (, ),   # epNum=12
     ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): (, ),   # epNum=22
     ("X-Men: The Animated Series", "Storm Front (Part 1)"): (, ),   # epNum=68
+    ("X-Men: The Animated Series", "Storm Front (Part 2)"): (, ),   # epNum=69
     ("X-Men: The Animated Series", "The Phalanx Covenant (Part 2)"): (, ),   # epNum=67
