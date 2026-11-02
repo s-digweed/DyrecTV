@@ -34,6 +34,11 @@
   "show": "Scooby-Doo and the Monster of Mexico (2003)",
   "t": 1793577629.959192
  },
+ "movie|Shrek 2": {
+  "desc": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+  "show": "Shrek 2 (2004)",
+  "t": 1793623420.6090782
+ },
  "movie|Shrek Forever After": {
   "desc": "Rumpelstiltskin tricks a mid-life crisis burdened Shrek into allowing himself to be erased from existence and cast in a dark alternate timeline where Rumpelstiltskin rules supreme.",
   "show": "Shrek Forever After (2010)",
@@ -64,6 +69,16 @@
   "show": "2 Stupid Dogs",
   "t": 1793577628.9923098
  },
+ "series|Augie Doggie": {
+  "desc": "The misadventures of Augie Doggie and Doggie Daddy.",
+  "show": "Augie Doggie",
+  "t": 1793623420.4295695
+ },
+ "series|Cartoon Planet": {
+  "desc": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
+  "show": "Cartoon Planet",
+  "t": 1793623421.6939924
+ },
  "series|Centurions": {
   "desc": "The adventures of a unit of elite soldiers who wear special frames that accept various weapons and transportation equipment teleported from a space station.",
   "show": "Centurions",
@@ -83,6 +98,11 @@
   "desc": "Goku is settled with his family and is living in peace. Unfortunately, his peaceful time is momentary as a visitor crashes into the planet claiming to be his brother.",
   "show": "Dragon Ball Z Kai",
   "t": 1793577630.1408563
+ },
+ "series|Extreme Ghostbusters": {
+  "desc": "Several years after the events of the original show and the movies, Dr. Egon Spengler agrees to help a group of his young students re-form the Ghostbusters under his mentorship.",
+  "show": "Extreme Ghostbusters",
+  "t": 1793623421.9003158
  },
  "series|Fantastic Four": {
   "desc": "Four costumed superheroes battle the world's most terrifying villains.",
@@ -143,6 +163,11 @@
   "desc": "An up-and-coming pop-music group and its entourage get involved with strange mysteries while touring the world.",
   "show": "Josie and the Pussycats",
   "t": 1793577628.1223307
+ },
+ "series|Kimba, the White Lion": {
+  "desc": "The adventures of a brave and optimistic little white lion, moral leader for good animals in a jungle surrounded by dangers.",
+  "show": "Kimba, the White Lion",
+  "t": 1793623421.2326863
  },
  "series|Lippy the Lion and Hardy Har Har": {
   "desc": "The cartoon adventures of a Lion (Lippy) and his Hyena friend (Hardy Har Har)",
@@ -224,6 +249,11 @@
   "show": "Ruff and Reddy",
   "t": 1793577628.7166307
  },
+ "series|SWAT Kats: The Radical Squadron": {
+  "desc": "In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.",
+  "show": "SWAT Kats: The Radical Squadron",
+  "t": 1793623421.1511917
+ },
  "series|Sealab 2020": {
   "desc": "Cartoon adventure series that focused on a group of Oceanauts in their experimental complex on the ocean floor.",
   "show": "Sealab 2020",
@@ -234,10 +264,20 @@
   "show": "Secret Squirrel",
   "t": 1793577627.1312096
  },
+ "series|Snagglepuss": {
+  "desc": "The misadventures of a pink mountain lion.",
+  "show": "Snagglepuss",
+  "t": 1793623420.521955
+ },
  "series|Snooper and Blabber": {
   "desc": "Snooper and Blabber form a pair of cat and mouse detectives, respectively. Super Snooper is more or less the one in command whenever the pair takes on a case while Blabber Mouse follows whatever orders Snooper gives him.",
   "show": "Snooper and Blabber",
   "t": 1793577632.402436
+ },
+ "series|Space Ghost and Dino Boy": {
+  "desc": "Intergalactic policeman Space Ghost navigates the cosmos in his tricked-out spaceship, The Phantom Cruiser, battling villains like Brak and Zorak in his legendary suit and powerful wristbands. Dino Boy teams with caveman Ugh and dinosaur Bronty to go primeval on the ancient menaces of their primitive home.",
+  "show": "Space Ghost and Dino Boy",
+  "t": 1793623421.59404
  },
  "series|Space Ghost: Coast to Coast": {
   "desc": "Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.",
@@ -329,6 +369,11 @@
   "show": "The New Adventures of Flash Gordon",
   "t": 1793577631.3162105
  },
+ "series|The New Adventures of Speed Racer": {
+  "desc": "The New Adventures of Speed Racer was a short-lived update of the classic Speed Racer cartoon series. This new Americanized version did not catch on and only lasted a single 13-episode season, albeit it proved very popular with the Russian audience. A new theme song was written. The show was animated by Fred Wolf.\n\nThe “New Adventures” part of the title comes from official documents used for TV listings. The show itself is referred to onscreen as simply “Speed Racer.” Coincidentally, Speed Racer X is known in Brazil as “As Novas Aventuras de Speed Racer,” which literally translates into “The New Adventures of Speed Racer.”",
+  "show": "The New Adventures of Speed Racer",
+  "t": 1793623421.060027
+ },
  "series|The New Fred and Barney Show": {
   "desc": "Just when you thought TV was finally \"civilized,\" it's back to the Stone Ages for a brand new series featuring the entire Flintstone gang! Join the fun in the town of Bedrock with this fabulously famous modern Stone-Age family. Mo...",
   "show": "The New Fred and Barney Show",
@@ -348,6 +393,16 @@
   "desc": "A classy, resourceful panther has plenty of hilarious misadventures, outwitting those who annoy him with his clever tricks.",
   "show": "The Pink Panther Show",
   "t": 1793577627.6053765
+ },
+ "series|The Powerpuff Girls": {
+  "desc": "Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.",
+  "show": "The Powerpuff Girls",
+  "t": 1793623420.7047744
+ },
+ "series|The Real Adventures of Jonny Quest": {
+  "desc": "A teenager and his extended family investigate the supernatural and other mysteries around the world.",
+  "show": "The Real Adventures of Jonny Quest",
+  "t": 1793623421.8136387
  },
  "series|The Rocky and Bullwinkle Show": {
   "desc": "A variety show, with the main feature being the serialized adventures of the two title characters, the anthropomorphic moose Bullwinkle and flying squirrel Rocky. The main adversaries in most of their adventures are the Russian-like spies Boris Badenov and Natasha Fatale. Supporting segments include Dudley Do-Right, Peabody's Improbable History, and Fractured Fairy Tales, among others.",
@@ -378,6 +433,11 @@
   "desc": "Top Cat is the leader of a group of alley cats, always trying to cheat someone.",
   "show": "Top Cat",
   "t": 1793577624.7029545
+ },
+ "series|Underdog": {
+  "desc": "The adventures of a rhyming canine superhero.",
+  "show": "Underdog",
+  "t": 1793623421.3339016
  },
  "series|Valley of the Dinosaurs": {
   "desc": "American science teacher John Butler along with his wife Kim and their two children Katie and Greg, as well as their dog Digger, are on a rafting trip on the Amazon river. As they are going down the river, their boat gets caught i...",
