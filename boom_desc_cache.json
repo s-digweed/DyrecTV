@@ -1,4 +1,916 @@
 {
+ "cn|.hack//SIGN (and friends)": {
+  "desc": "",
+  "t": 1793639408.3876765
+ },
+ "cn|2 Stupid Dogs/Super Secret Secret Squirrel": {
+  "desc": "“Two Stupid Dogs” follows the lives of two dogs: the overly excited Little Dog (the dachshund) and easy-paced Big Dog (the sheepdog). These crazy canines don't know how to fit in the world, and they definitely don't have any know-how. They often find themselves in commonplace situations (going to the drive-in, walking through the mall, working on the farm), some not so common situations (stuck on a space shuttle, a contestant on a game show, getting mistaken for the prime minister) and even in some familiar situations (little red riding hood, Noah's ark, and Hanzel and Gretel). But no matter the situation, their stupidity usually leads them to calamitous results.",
+  "t": 1793639427.093546
+ },
+ "cn|Adventure Time": {
+  "desc": "A 12-year-old boy and his best friend, a wise 28-year-old dog with magical powers, go on a series of surreal adventures in a remote future.",
+  "t": 1793639424.160754
+ },
+ "cn|American Dad": {
+  "desc": "The escapades of Stan Smith, a conservative C.I.A. Agent dealing with family life, while keeping America safe.",
+  "t": 1793639428.025714
+ },
+ "cn|Aqua Teen Hunger Force": {
+  "desc": "The misadventures of a milkshake, an order of fries, a meatball, and their retired next door neighbor in the suburbs of New Jersey.",
+  "t": 1793639409.3817782
+ },
+ "cn|Assy McGee": {
+  "desc": "Animated cop drama satire focusing on a grizzled, short tempered cop and his straight man partner, the former of which is simply a lower male torso.",
+  "t": 1793639429.4930296
+ },
+ "cn|Astro Boy (2003)": {
+  "desc": "Originally intended to be kept a secret, the Pinocchio-like character becomes a publicly renowned superhero -- complete with devices like laser-firing fingers, uncanny hearing, and jet-powered boots -- all eventually used to repul...",
+  "t": 1793639430.2703507
+ },
+ "cn|Baby Looney Tunes": {
+  "desc": "The characters of Looney Tunes are all babies and live with Granny.",
+  "t": 1793639417.5442734
+ },
+ "cn|Bakugan Battle Brawlers": {
+  "desc": "A boy wants to be the best in ranking of an inter-dimensional game.",
+  "t": 1793639426.3933537
+ },
+ "cn|Batman Beyond": {
+  "desc": "Fuelled by remorse and vengeance, a high schooler named Terry McGinnis revives the mantle of Batman and fights crime in a futuristic Gotham under the supervision of an elderly Bruce Wayne.",
+  "t": 1793639410.3158414
+ },
+ "cn|Batman: The Animated Series": {
+  "desc": "Billionaire Bruce Wayne leads a double life as Batman, defending Gotham City from ruthless mobsters and costumed villains with help from Robin and a small circle of trusted allies.",
+  "t": 1793639410.8602312
+ },
+ "cn|Batman: The Brave and the Bold": {
+  "desc": "An updated animated series centering on the Caped Crusader himself as he partners and deals with his fellow superheroes in the DC Comics universe.",
+  "t": 1793639418.5667174
+ },
+ "cn|Beast Wars: Transformers": {
+  "desc": "The Transformers' war continues in an older time, through a new generation. On pliocenic Earth, the heroic Maximals and the evil Predacons battle for survival against each other and against a violent planet.",
+  "t": 1793639426.3102913
+ },
+ "cn|Ben 10": {
+  "desc": "The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species.",
+  "t": 1793639418.6504314
+ },
+ "cn|Beyblade": {
+  "desc": "Four Beybladers and their genius friend travel the world as team 'Bladebreakers' to win a championship, realizing there's much more at stake on the go.",
+  "t": 1793639428.72272
+ },
+ "cn|Black Dynamite": {
+  "desc": "An ex-C. I. A. Agent and full-time ladies man, Black Dynamite, who's out to avenge the death of his brother against kung-fu masters, drug-dealing pimps, and The Man.",
+  "t": 1793639409.9296582
+ },
+ "cn|Black Jesus": {
+  "desc": "The hijinks of a street-smart savior living in modern-day Compton, on a mission to spread love and kindness throughout the crime-ridden L.A. neighborhood with his small group of followers.",
+  "t": 1793639410.0027852
+ },
+ "cn|Bleach": {
+  "desc": "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from \"Hollows\".",
+  "t": 1793639414.520847
+ },
+ "cn|Bob's Burgers": {
+  "desc": "Bob Belcher runs a struggling burger shop with his wife and three children.",
+  "t": 1793639427.9448326
+ },
+ "cn|Bobobo-bo Bo-bobo": {
+  "desc": "The impossible adventures of Bobobo-bo Bo-bobo, a warrior who fights using his nose hairs to defeat an evil empire that wants to turn the human race bald.",
+  "t": 1793639419.2992706
+ },
+ "cn|Brad Neely's Harg Nallin' Sclopio Peepio": {
+  "desc": "Brad Neely brings together and presents a humorous collection of chaotic and frantic \"one-off\" segments, as well as shorts and comedic songs.",
+  "t": 1793639425.970301
+ },
+ "cn|C.O.P.S.": {
+  "desc": "A team of specially enhanced policemen fights crime in the year 2020.",
+  "t": 1793639405.282031
+ },
+ "cn|Camp Lazlo": {
+  "desc": "Bean Scout Lazlo, a fun-loving, free-spirited monkey, and his two bunkmates Raj and Clam, wreak havoc on a very structured summer camp.",
+  "t": 1793639424.2669783
+ },
+ "cn|Camp Lazlo!": {
+  "desc": "Bean Scout Lazlo, a fun-loving, free-spirited monkey, and his two bunkmates Raj and Clam, wreak havoc on a very structured summer camp.",
+  "t": 1793639411.723131
+ },
+ "cn|Captain Planet": {
+  "desc": "Five teenagers from across the globe unite to fight pollution and protect the planet. With their elemental powers combined, they summon the Eco-hero Captain Planet to battle environmental disasters and villains threatening Earth's...",
+  "t": 1793639429.8351822
+ },
+ "cn|Cardcaptors": {
+  "desc": "CardCaptors is the North American version of the Japanese anime Card Captor Sakura.",
+  "t": 1793639430.426813
+ },
+ "cn|Cartoon Planet": {
+  "desc": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
+  "t": 1793639429.5766003
+ },
+ "cn|Case Closed": {
+  "desc": "A reality television series involving real life cases occurring during it's time on the air. Many different cases are showcased on the show, ranging from stalking cases to finding missing people. Each episode has a different case ...",
+  "t": 1793639415.9948077
+ },
+ "cn|China, IL": {
+  "desc": "Steve and Frank Smith are brothers who teach the history department in the worst university in America.",
+  "t": 1793639409.4574516
+ },
+ "cn|Chowder": {
+  "desc": "In Marzipan City, excitable young food-loving Chowder is the apprentice of Mung Daal, a very old chef who runs a catering company with his wife Truffles and assistant Shnitzel.",
+  "t": 1793639410.7862005
+ },
+ "cn|Clarence": {
+  "desc": "Life is just one big adventure for Clarence and his two best friends, Jeff &amp; Sumo.",
+  "t": 1793639411.5670848
+ },
+ "cn|Class of 3000": {
+  "desc": "Animated series about an Atlanta performing arts school grad who ditches a successful music career to become a music teacher.",
+  "t": 1793639423.9083033
+ },
+ "cn|Code Lyoko": {
+  "desc": "When a group of four boarding school students discover a supercomputer housed inside an abandoned factory, they find a virtual world called Lyoko and awaken a sentient multi-agent system virus that tries to take over the real world.",
+  "t": 1793639412.0038595
+ },
+ "cn|Codename: Kids Next Door": {
+  "desc": "The adventures of a group of ten-year-old friends who fight for the right to do everything that adults restrict from them.",
+  "t": 1793639412.5510473
+ },
+ "cn|Courage The Cowardly Dog": {
+  "desc": "The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.",
+  "t": 1793639411.640062
+ },
+ "cn|Courage the Cowardly Dog": {
+  "desc": "The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.",
+  "t": 1793639419.137867
+ },
+ "cn|Cow and Chicken/I am Weasel": {
+  "desc": "Follows the surreal adventures of a cow, named Cow, and her chicken brother, named Chicken. They are often antagonized by \"The Red Guy\", who poses as various characters to scam them.",
+  "t": 1793639418.9699438
+ },
+ "cn|Cowboy Bebop": {
+  "desc": "Intergalactic loners team up to track down fugitives and turn them in for cold hard cash.",
+  "t": 1793639403.0368474
+ },
+ "cn|Dan Vs.": {
+  "desc": "A rude, crude, and scruffy curmudgeon named Dan tries to get revenge on anyone and anything that angers him.",
+  "t": 1793639425.326176
+ },
+ "cn|Darling in the FRANXX": {
+  "desc": "In a future world where humanity has been driven to endangerment by giant beasts, a strike force is assembled to destroy the monsters and save the world.",
+  "t": 1793639408.9220586
+ },
+ "cn|Darling in the Franxx": {
+  "desc": "In a future world where humanity has been driven to endangerment by giant beasts, a strike force is assembled to destroy the monsters and save the world.",
+  "t": 1793639421.2509987
+ },
+ "cn|Date A Live": {
+  "desc": "Shido meets Tohka, a spirit who destroyed the Earth 30 years ago. To prevent another catastrophe, he must romance her to seal her unstable powers.",
+  "t": 1793639421.9179144
+ },
+ "cn|Deadman Wonderland": {
+  "desc": "After being falsely convicted for the murder of his entire class, a young man must learn to survive in a mysterious prison with a perverted take on incarceration while also looking to clear his name.",
+  "t": 1793639414.2757587
+ },
+ "cn|Death Note": {
+  "desc": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+  "t": 1793639414.3603652
+ },
+ "cn|Delocated": {
+  "desc": "A man who's in the witness protection program creates a TV reality show about his situation. He has to wear a black ski mask all the time, but other than that he and his family try to live a \"normal\" life in front of the camera.",
+  "t": 1793639428.4240198
+ },
+ "cn|Deltora Quest": {
+  "desc": "Leif must restore the seven gems and the belt of Deltora to save his homeland. Along with his companions Barda and Jasmine, Lief must face devious enemies and dangerous beasts to oust the Shadow Lord and return peace to Deltora.",
+  "t": 1793639420.0071256
+ },
+ "cn|Desert Punk": {
+  "desc": "In the future, Japan is a wasteland with scattered humans in the Great Kanto Desert. A short-statured man named \"Sunabozu\" makes a living as a bounty hunter, but he has a weakness for the opposite sex.",
+  "t": 1793639421.1674879
+ },
+ "cn|Digimon: Digital Monsters": {
+  "desc": "While at summer camp, seven kids come across seven Digivices and are transported to a strange digital world. In this new world they make friends with creatures that call themselves Digimon who were born to defend their world from various evil forces.",
+  "t": 1793639406.1465948
+ },
+ "cn|Dino-Riders": {
+  "desc": "Pursued by intergalactic warlord Krulos and his Rulons, human Valorians fly through a wormhole and end up on the prehistoric Earth. Krulos follows and becomes stuck in prehistory as well. Both sides build dinosaur armies and engage.",
+  "t": 1793639430.007123
+ },
+ "cn|Don't Hug Me.  I'm Scared!": {
+  "desc": "Follow Red Guy, Yellow Guy, and Green Duck as they learn about family, electricity, and death. Beware the strange and dangerous twists that come their way as their seemingly-safe house reveals that they live in an actual nightmare.",
+  "t": 1793639409.6107712
+ },
+ "cn|Dragon Ball Z": {
+  "desc": "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.",
+  "t": 1793639407.1604137
+ },
+ "cn|Dragon Ball Z: Ocean Dub": {
+  "desc": "",
+  "t": 1793639415.539568
+ },
+ "cn|Dragonball": {
+  "desc": "Dragonball Gohanverse is a web-animated series based on the Dragon Ball franchise, created by Daitomodachi. It revolves around Emo Gohan, a depressed, foul-mouthed and hard-drinking version of Gohan from Universe 7DT.",
+  "t": 1793639408.5710812
+ },
+ "cn|Dragonball Z": {
+  "desc": "Now happily married and with a son, martial arts champion Goku must defend Earth from a series of extraterrestrial invaders bent on destruction.",
+  "t": 1793639427.4912474
+ },
+ "cn|Dream Corp LLC": {
+  "desc": "An absurd workplace comedy set in a neglected dream therapy facility where a rotating cast of desperate patients have their dreams recorded and analyzed by Dream Corp's absent-minded professor.",
+  "t": 1793639425.893982
+ },
+ "cn|Duck Dodgers": {
+  "desc": "Animated science fiction series based on the alter ego of Looney Tunes star Daffy Duck, the semi-heroic, yet incompetent, space captain Duck Dodgers.",
+  "t": 1793639404.8513715
+ },
+ "cn|Durarara!!": {
+  "desc": "Tired of his mundane life, Mikado Ryugamine decides to move to Ikebukuro, a district in Tokyo, when a friend invites him. Ikebukuro is full of connected mysteries where people's pasts intertwine with the present.",
+  "t": 1793639415.8411372
+ },
+ "cn|Ed, Edd, and Eddy": {
+  "desc": "",
+  "t": 1793639413.7604575
+ },
+ "cn|Evil Con Carne": {
+  "desc": "The series exploits the failed tries of an unlucky bad guy, Hector Con Carne, to dominate the world, along with a stupid bear, an optimistic and annoying mad scientist and a grouchy army official.",
+  "t": 1793639410.4957466
+ },
+ "cn|Extreme Ghostbusters": {
+  "desc": "Several years after the events of the original show and the movies, Dr. Egon Spengler agrees to help a group of his young students re-form the Ghostbusters under his mentorship.",
+  "t": 1793639405.0239925
+ },
+ "cn|FLCL": {
+  "desc": "Mysterious things start happening when 12-year-old Naota meets a strange woman on a Vespa wielding a big guitar.",
+  "t": 1793639403.3119378
+ },
+ "cn|Family Guy": {
+  "desc": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
+  "t": 1793639427.7973251
+ },
+ "cn|Fire Force": {
+  "desc": "A superhuman firefighter force is formed to deal with supernatural fire incidents.",
+  "t": 1793639408.748173
+ },
+ "cn|Foster's Home for Imaginary Friends": {
+  "desc": "A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children.",
+  "t": 1793639412.708905
+ },
+ "cn|Freakazoid!": {
+  "desc": "Washington, D.C. has a new defender: Freakazoid. The comedy and insanity never stop when he's around, and he's only one of the weird heroes of the series. It's better than a nice tub of good things.",
+  "t": 1793639405.8811347
+ },
+ "cn|Fruits Baskets": {
+  "desc": "Hundreds of years ago, the Chinese Zodiac spirits and their gods swore to stay together eternally. United by this promise, the possessed members of the Souma shall always return to each other under any circumstances. Yet, when these bonds shackle them from their freedom, it becomes an undesirable burden - a curse. As head of the clan, Akito is convinced that he shares a special connection with the other Soumas. While he desperately clings to this fantasy, the rest of the family remains isolated and suppressed by the fear of punishment. Tooru Honda, who as grown attached to the Soumas, is determined to break the chains that bind them. The companionship with her family and her friends encourages her to move forward with lifting the curse. However, due to confounding revelations, she struggles to find the tenacity to continue with her endeavours. With time slowly withering away, Tooru contends with an uncertain furture in hopes of reaching tranquility that may lie beyond all this commotion.There is also Fruits Basket: Prologue, a theatrical release movie that provides a prologue story and an epilogue after the TV anime.",
+  "t": 1793639423.5768774
+ },
+ "cn|Full Metal Panic": {
+  "desc": "Sousuke Sagara, a member of a covert anti-terrorist private military organization known as Mithril, tasked with protecting Kaname Chidori, a spirited Japanese high school girl.",
+  "t": 1793639408.8253381
+ },
+ "cn|Fullmetal Alchemist": {
+  "desc": "When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, they begin searching for the one thing that can save them: the fabled philosopher's stone.",
+  "t": 1793639403.2320607
+ },
+ "cn|Futurama": {
+  "desc": "Philip J. Fry, a pizza delivery boy, is accidentally frozen in 1999 and thawed out on New Year's Eve 2999.",
+  "t": 1793639425.405231
+ },
+ "cn|G.I. Joe": {
+  "desc": "An elite special missions force fights against the terrorist forces of Cobra.",
+  "t": 1793639430.1127634
+ },
+ "cn|G.I. Joe: A Real American Hero": {
+  "desc": "The GI Joe Special Missions force must battle to build a counterweapon to Cobra's teleportation device.",
+  "t": 1793639406.846339
+ },
+ "cn|Ghost in the Shell: Stand Alone Complex 2nd Gig": {
+  "desc": "In the future when technological enhancements and robotics are a way of life, Major Motoko Kusanagi and Section 9 take care of the jobs that are too difficult for the police. Section 9 employs hackers, sharpshooters, detectives and cyborgs all in an effort to thwart cyber criminals and their plans to attack the innocent.",
+  "t": 1793639403.5971563
+ },
+ "cn|Girls Bravo": {
+  "desc": "Yukinari is allergic to girls except Miharu, a cheerful girl from a female-dominated realm. When she becomes his roommate, their escapades take them to suggestive places.",
+  "t": 1793639421.7304409
+ },
+ "cn|Gonna Be the Twin-Tail!": {
+  "desc": "Mitsuka Souji, enamored with twin tails, gains powers from Twoearle to defeat the Ultimaguil. Alongside friends Erina and Aika, he battles the enemy leader while navigating romantic feelings.",
+  "t": 1793639409.2402387
+ },
+ "cn|Grim Adventures of Billy and Mandy": {
+  "desc": "The exploits of the Grim Reaper, who has been forced into being the best friend of two children. A spin-off of the show Grim & Evil.",
+  "t": 1793639424.9434903
+ },
+ "cn|Haganai: I Don't Have Many Friends": {
+  "desc": "A friendless teenager, feared by his fellow classmates, joins a club hoping to finally make some friends.",
+  "t": 1793639419.7104087
+ },
+ "cn|Hamtaro": {
+  "desc": "The story of hamsters who get together at meetings to talk about their adventures.",
+  "t": 1793639427.2422078
+ },
+ "cn|Harvey Birdman, Attorney At Law": {
+  "desc": "Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.",
+  "t": 1793639428.1914566
+ },
+ "cn|Harvey Birdman, Attorney at Law": {
+  "desc": "Third-rate superhero Harvey Birdman gets a new lease on life when he becomes a lawyer.",
+  "t": 1793639409.6940644
+ },
+ "cn|He-Man and the Masters of the Universe": {
+  "desc": "The most powerful man in the universe, He-Man, goes against the evil forces of Skeletor to save the planet Eternia and to protect the secrets of Castle Grayskull.",
+  "t": 1793639406.4071004
+ },
+ "cn|Heaven's Lost Property": {
+  "desc": "Girl-crazy Tomoki's quiet life gets turned upside down when beautiful, winged Ikaros falls from the sky -- and starts calling him master.",
+  "t": 1793639414.6647217
+ },
+ "cn|Hero 108": {
+  "desc": "Big Green, a peacekeeping force of superhumans and animals, work to establish peace between the kingdoms of humans and animals.",
+  "t": 1793639428.8028712
+ },
+ "cn|Hi Hi Puffy Ami Yumi": {
+  "desc": "Hi Hi Puffy AmiYumi follows the adventures of two very cool, but very different pop stars as they travel from gig to gig or just hang out in their tour bus. Being famous rock stars, Ami and Yumi tour the globe in their customized Puffy bus, a veritable condo on wheels with all the major amenities and an ever-changing interior. Ami is the peppy, positive, and resourceful one. Yumi is the hard-rocking, no-nonsense cynic with an absolutely infallible sense of cool. Together, these superstars take the world by storm with musical talent, trend-setting style and humor, despite occasional misjudgments from their well-meaning but tragically square manager, Kaz.",
+  "t": 1793639412.3563745
+ },
+ "cn|Home Movies": {
+  "desc": "Brendon Small, an ambitious eight-year-old filmmaker, shoots movies with his two best friends, while coming to terms with adolescence, life, and relationships.",
+  "t": 1793639409.5372207
+ },
+ "cn|I am Weasel": {
+  "desc": "The adventures of a highly intelligent, talented and rather generous weasel and a stupid baboon who has no talent at most things.",
+  "t": 1793639424.4309347
+ },
+ "cn|IGPX": {
+  "desc": "In the year 2048, a popular sport called the Immortal Grand Prix (IGPX) showcases teams of humans piloting mechanized fighting suits on an amplified racing track.",
+  "t": 1793639416.1502264
+ },
+ "cn|InuYasha": {
+  "desc": "A teenage girl periodically travels back in time to feudal Japan to help a young half-demon recover the shards of a jewel of great power.",
+  "t": 1793639419.5360289
+ },
+ "cn|Is It Wrong to Pickup Girls in a Dungeon?": {
+  "desc": "In a world, where the deities have descended from the heavens lies the town of Orario that features the Dungeon, which contains an assortment of monsters from goblins to dragons. Adventurers slay those monsters and take their shards, which are then used to craft magic items. To become an adventurer, people join groups called Familia. Each of which is named after and serves a resident deity. The adventurers and their attributes and abilities are ranked by level, improved by experience and supervised by their Familia's deity.\r\nBell Cranel, a novice adventurer, is the sole member of the Familia under the goddess Hestia. After being saved by top level adventurer Ais Wallenstein of the Loki Familia, he falls in love with her and decides to improve and become worthy of her attention. All the while mostly unaware that other girls, deities and mortals, also develop feelings for him. Especially Hestia herself.",
+  "t": 1793639421.0947142
+ },
+ "cn|Is this a Zombie?": {
+  "desc": "Ayumu has no pulse and very little luck. Instead of dying (again), Ayumu became the world's first magical girl zombie.",
+  "t": 1793639409.1580963
+ },
+ "cn|Jackie Chan Adventures": {
+  "desc": "Jackie Chan teams up with his 11-year-old niece, Jade, traveling the globe to locate a dozen magical talismans before the sinister Dark Hand does. Helping Jackie and Jade is Uncle, a cantankerous but wise antiquities expert.",
+  "t": 1793639406.2356308
+ },
+ "cn|JoJo's Bizarre Adventure": {
+  "desc": "The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives.",
+  "t": 1793639414.0474744
+ },
+ "cn|Johnny Bravo": {
+  "desc": "The misadventures of a dumb blond egomaniac who severely overestimates his own manliness and his supposed \"success\" with women.",
+  "t": 1793639418.7286572
+ },
+ "cn|Johnny Test": {
+  "desc": "The adventures of average suburban boy Johnny Test, who wittingly plays test subject for his genius twin sisters' various experiments, reluctantly fighting evil villains in the process.",
+  "t": 1793639424.5110776
+ },
+ "cn|Justice League": {
+  "desc": "Seven of the most formidable heroes form arguably the most powerful team ever.",
+  "t": 1793639410.9441257
+ },
+ "cn|KONOSUBA - God's blessing on this wonderful world!": {
+  "desc": "It was a happy day for Kazuma - right up to the moment he died. A goddess intervenes and offers him a second chance in a magical land.",
+  "t": 1793639421.4144778
+ },
+ "cn|Kanakon": {
+  "desc": "Kanokon's story revolves around Kouta Oyamada, a young first-year high school student who moves from the country to the city and thus transfers to Kunpo High School. On his first day at his new school, a beautiful second-year female student named Chizuru Minamoto asks him to meet her alone in the music room. When he arrives, she reveals her that she is in fact a fox deity and from that day on the two hang out together. Nozomu is a first year female student at Kouta's school, she is in fact a wolf deity and in love with Kouta, and a rival of Chizuru for Kouta's affections.",
+  "t": 1793639422.6564455
+ },
+ "cn|Kill La Kill": {
+  "desc": "A young girl arrives at a school of superhumans to find out the truth behind her father's murder.",
+  "t": 1793639403.790446
+ },
+ "cn|King of the Hill": {
+  "desc": "A straight-laced propane salesman in Arlen, Texas tries to deal with the wacky antics of his family and friends, while also trying to keep his son in line.",
+  "t": 1793639425.026965
+ },
+ "cn|Kirby Right Back At Ya!": {
+  "desc": "Kirby, a space-faring hero crashes his starship into the kingdom of Dream Land, where he stays in order to battle monsters summoned by the land's greedy and tyrannical King Dedede from evil intergalactic corporation Nightmare Ente...",
+  "t": 1793639404.402493
+ },
+ "cn|Krypto the Superdog": {
+  "desc": "The adventures of the Kryptonian superhero dog and his friends.",
+  "t": 1793639426.5491984
+ },
+ "cn|Looney Tune's Show": {
+  "desc": "An updated iteration of the Looney Tunes characters focusing on their satirical misadventures living in suburbia.",
+  "t": 1793639416.9642546
+ },
+ "cn|Looney Tunes": {
+  "desc": "The classic 1,034-short collection features Road Runner, Bugs Bunny, Daffy Duck, Porky Pig, Tweety, Speedy Gonzales, and much, much, much more. P.S. much, much, much more.",
+  "t": 1793639426.7109134
+ },
+ "cn|Lucky Star": {
+  "desc": "Having fun at school, doing homework together, cooking and eating, playing video games, watching anime. All these little things make up the daily life of anime and chocolate lover Izumi Konata and her friends.",
+  "t": 1793639423.655077
+ },
+ "cn|Lupin The Third": {
+  "desc": "The adventures of the master thief Lupin III and his cohorts as they dive into various escapades, all the while in pursuit by the tenacious Inspector Zenigata.",
+  "t": 1793639404.0623794
+ },
+ "cn|MAD!": {
+  "desc": "A drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's most mysterious but extremely talented ad executives, Donald Draper.",
+  "t": 1793639430.7550209
+ },
+ "cn|Made in Abyss": {
+  "desc": "A girl and her robot companion search for her mother, who's lost within a vast chasm.",
+  "t": 1793639409.0058703
+ },
+ "cn|Magical DoReMi": {
+  "desc": "Doremi and friends, who promised the queen to become witches, awaited news from the witch world daily. With no contact, they eventually entered a new semester.",
+  "t": 1793639404.4891295
+ },
+ "cn|Medabots": {
+  "desc": "10-year-old Ikki Tenrio has always dreamed about becoming a top-ranked medafighter, and now that he has his own medabot he can finally pursue his dream.",
+  "t": 1793639424.6018806
+ },
+ "cn|Megas XLR": {
+  "desc": "Two teenage slackers find a mecha from the future that had been lying in a New Jersey junkyard for nearly 60 years and make modifications much to the dismay of the robot's attractive creator.",
+  "t": 1793639429.15043
+ },
+ "cn|Men in Black: The Series": {
+  "desc": "The continuing adventures of Agents K and J as they deal with problems with extraterrestrials in New York City.",
+  "t": 1793639405.113987
+ },
+ "cn|Metalocalypse": {
+  "desc": "The epic and over-the-top adventures of Dethklok, the world's most successful death metal band.",
+  "t": 1793639426.2223773
+ },
+ "cn|Mew Mew Power": {
+  "desc": "On her first date with the cutest boy in school, Ichigo is zapped by a  mysterious ray that scrambles her DNA with that of the endangered Iriomote wildcat. The next day, Ichigo discovers that she has developed the agility (and occasionally the ears and tail) of a cat, as well as the power to transform into a pink-haired superheroine, Mew Ichigo. She and four other girls, each endowed with the genes of a different \"Red Data\" animal, have been selected for the top-secret Mew Project, which aims to protect the Earth from an alien menace known as Deep Blue.",
+  "t": 1793639404.771038
+ },
+ "cn|Mike Tyson Mysteries": {
+  "desc": "In this macabre comedy, retired boxing champion Mike Tyson, his brainy adopted Asian-American daughter, a friendly but wimpy gay gentleman ghost and a cursed perverse mean-spirited talking pigeon solve weird mysteries together.",
+  "t": 1793639428.343976
+ },
+ "cn|Million Dollar Extreme Presents: World Peace": {
+  "desc": "Million Dollar Extreme Presents: World Peace, a satiric vision largely set in a post-apocalyptic world. The popular sketch group is comprised of Sam Hyde, Charls Carroll, and Nick Rochefort.",
+  "t": 1793639428.4994564
+ },
+ "cn|Misadventures of Flapjack": {
+  "desc": "The comical seafaring adventures of a young, enthusiastic boy, his pirate captain mentor, and the talking whale that raised him from birth.",
+  "t": 1793639424.0839295
+ },
+ "cn|Mission Hill": {
+  "desc": "The misadventures of a group of disparate roommates who live in a hip neighborhood in a major city.",
+  "t": 1793639426.0505698
+ },
+ "cn|Mob Psycho 100": {
+  "desc": "A psychic middle school boy tries to live a normal life and keep his growing powers under control, even though he constantly gets into trouble.",
+  "t": 1793639409.084544
+ },
+ "cn|Mobile Suit Gundam": {
+  "desc": "In the war between the Earth Federation and Zeon, a young and inexperienced crew find themselves on a new spaceship. Their best hope of making it through the conflict is the Gundam, a giant humanoid robot, and its gifted teenage p...",
+  "t": 1793639415.616102
+ },
+ "cn|Mobile Suit Gundam Wing": {
+  "desc": "A squadron of giant robot pilots of a beleaguered Earth colony bring the war to their oppressive home planet.",
+  "t": 1793639407.2416115
+ },
+ "cn|Moral Orel": {
+  "desc": "A parody of past religious-geared animated shows starring Orel, an optimistic God-fearing young boy in a world of cynicism.",
+  "t": 1793639428.6484563
+ },
+ "cn|Mucha Lucha": {
+  "desc": "The story of three masked wrestlers in wrestling school.",
+  "t": 1793639426.4703193
+ },
+ "cn|My Gym Partner's a Monkey": {
+  "desc": "A clerical error sends 12-year-old Adam Lyon to a middle school for zoo animals, but his best friend, Jake the Monkey, is standing by him every step of the way to help him adjust.",
+  "t": 1793639411.8164303
+ },
+ "cn|My Hero Academia": {
+  "desc": "A superhero-admiring boy enrolls in a prestigious hero academy and learns what it really means to be a hero, after the strongest superhero grants him his own powers.",
+  "t": 1793639419.8846917
+ },
+ "cn|MÄR": {
+  "desc": "Dreaming of a magical world every night, the young Toramizu Ginta yearns to be able to go there. With only his friend Koyuki believing in his dreams, Ginta remains positive despite the slander he receives from others over his drea...",
+  "t": 1793639404.3166475
+ },
+ "cn|NTSF:SD:SUV::": {
+  "desc": "Never forget? Terrorism hasn't, and neither will the NTSF:SD:SUV. In a world where threatening danger looms large and Homeland Security won't secure itself, San Diego's citizens can't afford not to trust in the NTSF.",
+  "t": 1793639426.1354175
+ },
+ "cn|Naruto": {
+  "desc": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+  "t": 1793639408.6676698
+ },
+ "cn|Neon Genesis Evangelion": {
+  "desc": "In a post-cataclysmic future, reluctant teen Shinji Ikari is called by his estranged father to pilot an Evangelion for NERV, humanity's last defense against invading Angels threatening Tokyo-3.",
+  "t": 1793639415.9125063
+ },
+ "cn|Nerima Daikon Brothers": {
+  "desc": "A musical series about two brothers and their cousin working on a daikon farm and trying to raise enough money to build their own concert dome, all while getting involved in absurd hijinks.",
+  "t": 1793639421.324634
+ },
+ "cn|Ninjago: Masters of Spinjitzu": {
+  "desc": "When the fate of their world, Ninjago, is challenged by great threats, it's up to the ninja: Kai, Jay, Cole, Zane, Lloyd and Nya to save the world.",
+  "t": 1793639411.1877835
+ },
+ "cn|OK K.O.! Let's Be Heroes!": {
+  "desc": "An enthusiastic young boy earns a job at a hero supply store and trains to become the \"Greatest Hero Ever.\"",
+  "t": 1793639430.6786206
+ },
+ "cn|One Piece": {
+  "desc": "A spirited young pirate sets sail with a growing crew in search of the legendary One Piece, facing dangerous seas and powerful rivals on his quest to become King of the Pirates.",
+  "t": 1793639423.7387838
+ },
+ "cn|Ouran High School Host Club": {
+  "desc": "You'll fall for the Ouran Host Club: Tamaki's truly romantic. Kaoru and Hikaru display brotherly love, Kyoya's brainy, Honey's innocent, and Mori's manly. Oh, and don't forget Haruhi. He knows what girls want, because he's a girl ...",
+  "t": 1793639419.37909
+ },
+ "cn|Outlaw Star": {
+  "desc": "Gene gets his dream outlaw job, but complications leave him with a stolen advanced spaceship. With partner Jim and Melfina, he fights pirates and assassins while uncovering the ship's mysteries.",
+  "t": 1793639427.6414943
+ },
+ "cn|Overlord": {
+  "desc": "When a popular MMORPG is scheduled to be shut down permanently, veteran player Momonga refuses to log out. As NPCs begin to develop personalities and minds of their own he decides to put his skills to use as the game's new overlord.",
+  "t": 1793639419.7958753
+ },
+ "cn|Ozzy & Drix": {
+  "desc": "The further adventures of Osmosis Jones and Drix as they defend the body of a young boy.",
+  "t": 1793639429.2454169
+ },
+ "cn|Panty & Stocking with Garterbelt": {
+  "desc": "Two Angels, Panty and Stocking, are kicked out of Heaven for bad behaviour and sent Ghost hunting by Garterbelt, a Priest of Daten City.",
+  "t": 1793639423.8188906
+ },
+ "cn|Paranoia Agent": {
+  "desc": "Two detectives try to uncover the identity of a mysterious, roller-blading boy who has been terrorizing Tokyo by assaulting seemingly random citizens with a golden baseball bat.",
+  "t": 1793639415.769068
+ },
+ "cn|Parasyte: The Maxim": {
+  "desc": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, par...",
+  "t": 1793639415.693803
+ },
+ "cn|Pee-Wee's Playhouse": {
+  "desc": "Pee-Wee Herman and his friends have wacky, imaginative fun in his unique playhouse.",
+  "t": 1793639428.5747395
+ },
+ "cn|Pokemon": {
+  "desc": "Ash and his Pikachu travel to the Kalos Region where he explores and battle Pokémon with new friends along the way.",
+  "t": 1793639424.699455
+ },
+ "cn|Popeye the Sailor": {
+  "desc": "The continuing animated adventures of Olive Oyl, Wimpy, Swee'pea and Popeye.",
+  "t": 1793639416.2230787
+ },
+ "cn|Powerpuff Girls Z": {
+  "desc": "Three ordinary girls gain superpowers and protect their home city from a variety of villains.",
+  "t": 1793639430.1866791
+ },
+ "cn|Prince of Tennis": {
+  "desc": "Tennis prodigy Ryoma returns to Japan, joins Seishun Academy's elite team. His talent convinces teammates to accept him despite reluctance. Together they battle through tournaments, striving for the National championship.",
+  "t": 1793639414.121575
+ },
+ "cn|Prison School": {
+  "desc": "Hachimitsu Academy, once an all-girls school, has become co-ed, and teen Kiyoshi is one of five boys to enroll. When he is caught peeping, Kiyoshi is sent to the schools prison, where his punishment is carried out.",
+  "t": 1793639421.8267505
+ },
+ "cn|Ranma ½": {
+  "desc": "A girl is involuntarily engaged to a boy who turns female when hit with cold water and male when hit with hot.",
+  "t": 1793639403.9793162
+ },
+ "cn|Rave Master": {
+  "desc": "Haru Glory is a boy who lives with his sister, Cattleya, in Garage Island. After fishing out a thing called Plue, he meets Shiba who entrusted him with Rave Stone or more known as Holy Bring. From there on, he embarks on a quest l...",
+  "t": 1793639430.344906
+ },
+ "cn|ReBoot": {
+  "desc": "Follows an early 2000s family sitcom that Hulu has rebooted and their dysfunctional cast that must deal with their unresolved issues in today's fast-changing world.",
+  "t": 1793639406.313696
+ },
+ "cn|Regular Show": {
+  "desc": "The surreal misadventures of two best friends--a blue jay and a raccoon--as they seek to liven up their mundane jobs as groundskeepers at the local park.",
+  "t": 1793639410.7109916
+ },
+ "cn|Rescue Heroes": {
+  "desc": "An elite team of rescue personnel respond to emergencies around the world.",
+  "t": 1793639405.1986852
+ },
+ "cn|Rick and Morty": {
+  "desc": "The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.",
+  "t": 1793639427.8704312
+ },
+ "cn|Robot Chicken": {
+  "desc": "Pop culture references fly thick and fast as stop-motion animation is featured in sketches lampooning everything from entertainment.",
+  "t": 1793639409.311338
+ },
+ "cn|Robotboy": {
+  "desc": "Robotboy is a cute, cutting-edge, butt-kicking battle-robot, who dreams of becoming a real boy. Created by world-renowned scientist Professor Moshimo.",
+  "t": 1793639426.7973373
+ },
+ "cn|Robotech": {
+  "desc": "An alien spaceship crash lands on Earth and the technology and secrets she bears lead Earth into three destructive interplanetary wars.",
+  "t": 1793639406.993
+ },
+ "cn|Ronin Warriors": {
+  "desc": "After a thousand years of exile, Talpa, ruler of the Netherworld, returns to claim the Earth as his own. The only thing that can stop him and his minions are five young men and their mystical suits of armor.",
+  "t": 1793639427.566924
+ },
+ "cn|Rosario + Vampire": {
+  "desc": "Tsukune takes a bus to his new school on his first day. Unbeknownst to him, the school is for monsters who go berserk at the scent of humans.",
+  "t": 1793639422.7741122
+ },
+ "cn|Rurouni Kenshin": {
+  "desc": "The adventures of a young wandering swordsman who stumbles upon a struggling martial arts school in Meiji era Japan.",
+  "t": 1793639404.227266
+ },
+ "cn|Sailor Moon": {
+  "desc": "The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.",
+  "t": 1793639407.0822108
+ },
+ "cn|Samurai Champloo": {
+  "desc": "Fuu, a waitress who works in a teahouse, rescues two master swordsmen, Mugen and Jin, from their execution to help her find the \"samurai who smells of sunflowers.\"",
+  "t": 1793639419.6184626
+ },
+ "cn|Samurai Jack": {
+  "desc": "A samurai, sent through time, fights to return home and save the world.",
+  "t": 1793639427.7216618
+ },
+ "cn|Scooby-Doo, Where are You!?!": {
+  "desc": "Four teenage friends, (Fred Jones, Daphne Blake, Velma Dinkley, and Norville \"Shaggy\" Rogers), and their talking dog, (Scooby-Doo), travel around in their van, The Mystery Machine, solving strange, spooky, and hilariously kooky my...",
+  "t": 1793639417.629016
+ },
+ "cn|Sealab 2021": {
+  "desc": "The drama of an oft-doomed aquatic colony and its personnel, who hate each other.",
+  "t": 1793639429.7436645
+ },
+ "cn|Sekirei": {
+  "desc": "Minato fails college exams twice leaving him feeling worthless. A woman Musubi falls from the sky and bonds with Minato via a kiss awakening his powers. This draws Minato into a dangerous competition against others with special ab...",
+  "t": 1793639403.8830256
+ },
+ "cn|Shin Chan": {
+  "desc": "English language version based on the Japanese series Shinchan (1992) following the adventures of a 5 year old boy named Shin.",
+  "t": 1793639404.1417139
+ },
+ "cn|Slayers": {
+  "desc": "The adventures of a teenage sorceress and her companions as they quest for gold and glory (especially gold).",
+  "t": 1793639413.8675694
+ },
+ "cn|Smiling Friends": {
+  "desc": "In a colorful yet bizarre world, the employees at a small firm dedicated to making its customers smile discover that their jobs are rarely as simple as they seem.",
+  "t": 1793639425.6058595
+ },
+ "cn|Snorks": {
+  "desc": "The Snorks are playful, multicolored underwater creatures that use their built-in snorkels to dart about and make music.",
+  "t": 1793639417.2923443
+ },
+ "cn|Sonic X": {
+  "desc": "A slight malfunction causes Chaos Control, and sends Sonic the Hedgehog to Earth. While there, Sonic meets Chris Thorndyke, who aids at collecting the Chaos Emeralds, so Sonic and friends can go home.",
+  "t": 1793639420.0911021
+ },
+ "cn|South Park": {
+  "desc": "The misadventures of four foul-mouthed, dirty-minded, irreverent grade-schoolers who live in the quiet, dysfunctional mountain town of South Park, Colorado.",
+  "t": 1793639429.4008484
+ },
+ "cn|Space Ghost Coast to Coast": {
+  "desc": "Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.",
+  "t": 1793639425.2538245
+ },
+ "cn|Spider-Man: The Animated Series": {
+  "desc": "When college student, Peter Parker, is bitten by a genetically altered spider, he gains Spider-like powers and must use his gifts to fight crime in New York City as the superhero, Spider-Man, whilst trying to have a normal persona...",
+  "t": 1793639420.1834965
+ },
+ "cn|Squidbillies": {
+  "desc": "Follows the adventures of the Cuylers, an impoverished and dysfunctional family of anthropomorphic, air-breathing, redneck squids who live in a rural Appalachian community in the state of Georgia.",
+  "t": 1793639410.0758862
+ },
+ "cn|Star Blazers": {
+  "desc": "In the year 2199, a starship must make a dangerous voyage to the distant planet Iscandar and back to save Earth from an alien invasion.",
+  "t": 1793639416.072754
+ },
+ "cn|Star Wars: The Clone Wars": {
+  "desc": "Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+  "t": 1793639410.2439685
+ },
+ "cn|Static Shock": {
+  "desc": "In the city of Dakota, a teenage boy with electricity based powers, with the help of his inventive friend, fights crime as a superhero.",
+  "t": 1793639428.8981028
+ },
+ "cn|Steven Universe": {
+  "desc": "A team of intergalactic warriors fight to protect the Earth, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that they face.",
+  "t": 1793639411.2718427
+ },
+ "cn|Street Fighter II V": {
+  "desc": "Ken, Ryu and friends use their martial arts skills to fight criminals.",
+  "t": 1793639404.9499261
+ },
+ "cn|Stripperella": {
+  "desc": "Pamela Anderson provides the voice of Erotica Jones who is stripper by night and superhero Stripperella by even later at night.",
+  "t": 1793639428.27276
+ },
+ "cn|Super Milk Chan!": {
+  "desc": "A heavily edited US version of the series that has Americanized jokes and humor and featuring English voice cast live action segments replacing the original Japanese segments.",
+  "t": 1793639403.6807816
+ },
+ "cn|Superjail!": {
+  "desc": "In a surreal world, a large maximum security prison, which houses thousands of dangerous inmates is run by an eccentric warden and his equally odd staff.",
+  "t": 1793639410.155127
+ },
+ "cn|Swat Kats: The Radical Squadron": {
+  "desc": "In a world of anthropomorphic felines, two demoted fighter pilots battle evil as high flying masked vigilantes.",
+  "t": 1793639429.9112713
+ },
+ "cn|Sym-Bionic Titan": {
+  "desc": "Three young alien beings with the ability to form a giant robotic warrior attempt to blend into suburbia, all while battling the tyrannical forces that ravaged their home world.",
+  "t": 1793639410.4046242
+ },
+ "cn|Taz-Mania!": {
+  "desc": "The daily satirical adventures of Looney Tunes star the Tazmanian Devil, along with his extended family, friends, and enemies on the island of Tasmania.",
+  "t": 1793639417.4528744
+ },
+ "cn|Teen Titans": {
+  "desc": "A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.",
+  "t": 1793639412.0809648
+ },
+ "cn|Teen Titans Go": {
+  "desc": "Superhero roommates Robin, Cyborg, Starfire, Raven and Beast Boy love saving the day, but what happens when they're done fighting crime?",
+  "t": 1793639430.596009
+ },
+ "cn|Teenage Mutant Ninja Turtles": {
+  "desc": "Four mutated turtles (Leonardo, Donatello, Raphael and Michelangelo), fight crime and eat pizza, whilst battling the evil Shredder and his foot robot ninjas as well as aliens, mad scientists, comedic gangsters and other weird muta...",
+  "t": 1793639427.1689565
+ },
+ "cn|Tenchi Universe": {
+  "desc": "An alternate re-telling of 'Tenchi Muyo'.",
+  "t": 1793639407.3228185
+ },
+ "cn|The Adventures of Sonic the Hedgehog": {
+  "desc": "A blue hedgehog that can run at incredible speeds, his best friend, a two-tailed flying fox, defend planet Mobius from the evil Dr. Robotnik and his bumbling mechanical goons.",
+  "t": 1793639405.6066012
+ },
+ "cn|The Amazing World of Gumball": {
+  "desc": "The life of a twelve-year-old boy who happens to be a blue cat as he lives with his family and other strange creatures.",
+  "t": 1793639410.629065
+ },
+ "cn|The Big O": {
+  "desc": "In a futuristic city with lost memories, an expert negotiator fights threats to the city with the help of an android and his own giant robot.",
+  "t": 1793639414.7432113
+ },
+ "cn|The Boondocks": {
+  "desc": "Brothers Huey and Riley Freeman experience a culture clash when they leave Chicago to move in with their grandfather in the suburbs.",
+  "t": 1793639425.1764596
+ },
+ "cn|The Brak Show": {
+  "desc": "Former 'Space Ghost' villains Brak and Zorak live their lives in sitcom form.",
+  "t": 1793639429.6585636
+ },
+ "cn|The Cleveland Show": {
+  "desc": "Cleveland Brown moves back to his hometown in Virginia with his son, where he finds his high school sweetheart and her two troublemaking kids.",
+  "t": 1793639425.4858909
+ },
+ "cn|The Flintstones": {
+  "desc": "The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.",
+  "t": 1793639417.3785398
+ },
+ "cn|The Grim & Evil Show": {
+  "desc": "",
+  "t": 1793639418.4534976
+ },
+ "cn|The Grim Adventures of Billy and Mandy": {
+  "desc": "The exploits of the Grim Reaper, who has been forced into being the best friend of two children. A spin-off of the show Grim & Evil.",
+  "t": 1793639412.941296
+ },
+ "cn|The Legend of Zelda": {
+  "desc": "Link and Princess Zelda protect the mystical artifact, the Triforce of Wisdom, from falling into the hands of the evil sorcerer Ganon.",
+  "t": 1793639405.7990928
+ },
+ "cn|The Life and Times of Juniper Lee": {
+  "desc": "Juniper Lee is an 11 year old girl who can fight the force of chaos and curses. One day she skipped one of her friends' birthdays and fights the chaos again.",
+  "t": 1793639411.9235861
+ },
+ "cn|The Marvelous Misadventures of Flapjack": {
+  "desc": "The comical seafaring adventures of a young, enthusiastic boy, his pirate captain mentor, and the talking whale that raised him from birth.",
+  "t": 1793639411.3532066
+ },
+ "cn|The Oblongs": {
+  "desc": "The misadventures of a goofy family deformed by toxic waste.",
+  "t": 1793639425.8171942
+ },
+ "cn|The PowerPuff Girls": {
+  "desc": "Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.",
+  "t": 1793639419.2230265
+ },
+ "cn|The Powerpuff Girls": {
+  "desc": "Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.",
+  "t": 1793639424.345942
+ },
+ "cn|The Secret Saturdays": {
+  "desc": "An adventuresome family of experts in the field of creatures known as cryptids attempts to protect their secrets and powers from the forces of evil.",
+  "t": 1793639428.9754486
+ },
+ "cn|The Simpsons": {
+  "desc": "The satiric half-hour adventures of a working-class family in the misfit city of Springfield.",
+  "t": 1793639428.1121464
+ },
+ "cn|The Smurfs": {
+  "desc": "The Smurfs are tiny blue creatures that live in mushroom houses in a peaceful forest. They repeatedly try to outwit Gargamel, an evil sorcerer, his apprentice, Scruple, and his mangy cat, Azrael.",
+  "t": 1793639417.2157533
+ },
+ "cn|The Super Mario Bros. Super Show!": {
+  "desc": "The Mario Brothers, Princess Toadstool, and Toad go on various adventures while battling the evil King Koopa.",
+  "t": 1793639405.7037008
+ },
+ "cn|The Venture Bros.": {
+  "desc": "The bizarre escapades of pseudo-heroic scientist Dr. Rusty Venture, his competent, high-strung bodyguard, and his two overenthusiastic sons.",
+  "t": 1793639425.100953
+ },
+ "cn|The Yogi Bear Show": {
+  "desc": "Yogi, a smooth, talkative forest bear looks to raid park goers' picnic baskets, while Park Ranger Smith tries to stop him.",
+  "t": 1793639417.126931
+ },
+ "cn|Thunder Cats": {
+  "desc": "The ThunderCats are on the move! After the kingdom of Thundera is attacked by the lizard people, Lion-O leads Tygra, Cheetara and the other heroes on a quest for the Book of Omens and the magic stones of legend. But he'll have to face villains like Mumm-Ra, the ancient evil sorceror, and Slithe, the dangerous lizard general. Luckily, he has the Sword of Omens and its amazing powers at his disposal.",
+  "t": 1793639406.7725565
+ },
+ "cn|Tim and Eric Awesome Show, Great Job!": {
+  "desc": "Two comedians, average nobodies, and celebrity guest stars perform bizarre low-budget comedy sketches.",
+  "t": 1793639409.767155
+ },
+ "cn|To LOVE-Ru": {
+  "desc": "When an alien from the planet Deviluke runs away and goes into hiding on earth,she meets a human named Yuuki Rito. Watch as she wants to get married to him while he wants no part of it",
+  "t": 1793639422.8554823
+ },
+ "cn|Tom Goes to the Mayor": {
+  "desc": "Hapless Tom Peters takes meetings with a bizarre and moronic mayor to share his ideas for bettering the town, always with disastrous results.",
+  "t": 1793639425.70383
+ },
+ "cn|Total Drama": {
+  "desc": "Animated satire of survivor reality shows featuring random teenage archetypes vying for the final prize by any means necessary.",
+  "t": 1793639419.0576773
+ },
+ "cn|Totally Spies!": {
+  "desc": "A trio of boy-crazy, fashionista teen girls from Beverly Hills balance their personal and school lives with their work as super-spies.",
+  "t": 1793639412.635492
+ },
+ "cn|Transformers: Animated": {
+  "desc": "Transformers crash land on present day Earth and inadvertently cause a technological revolution. They wake up 50 years later in a world where robots are used in everyday life. StarScream arrives looking for their AllSpark.",
+  "t": 1793639429.0725665
+ },
+ "cn|Trigun": {
+  "desc": "Vash the Stampede is the most infamous outlaw on the planet Gunsmoke and with a 60 billion double dollar price on his head the most sought after.",
+  "t": 1793639403.1428356
+ },
+ "cn|Trinity Blood": {
+  "desc": "In a futuristic world of an unsteady truce between humans and vampires a superhuman priest battles to secure a peaceful co-existence.",
+  "t": 1793639414.4398344
+ },
+ "cn|Uncle Grandpa": {
+  "desc": "The misadventures of a magical uncle and grandpa to everyone in the world and his friends.",
+  "t": 1793639430.518859
+ },
+ "cn|Voltron: Legendary Defender": {
+  "desc": "Five teenagers become the last line of defense for the galaxy in an intergalactic battle against the evil alien force led by King Zarkon.",
+  "t": 1793639408.461662
+ },
+ "cn|Wacky Races": {
+  "desc": "The participants of an unusual car race compete around America.",
+  "t": 1793639417.0463789
+ },
+ "cn|Whatever Happened to... Robot Jones?": {
+  "desc": "In a town set in the retro 1980's, a young robot must collect data on humans and do whatever he can to fit in with them.",
+  "t": 1793639426.629633
+ },
+ "cn|Winx Club": {
+  "desc": "Bloom finds her secret life in the world of Magix, she and her new friends must unlock new powers to defeat threats and find the truth about Bloom's birth parents.",
+  "t": 1793639429.3219619
+ },
+ "cn|Witch Hunter Robin": {
+  "desc": "Witches exist, and it is the mysterious organization STNJ's job to hunt them down. Robin is a recent trainee who joins up, and begins unraveling the secrets of both the witches and STNJ.",
+  "t": 1793639414.2016366
+ },
+ "cn|Xavier: Renegade Angel": {
+  "desc": "Xavier is a faun-like wanderer who travels across the land to find about his mysterious origin. Facing rednecks, inflicting righteousness and preaching about the 'strong, silent types' and morality, this hero has his work cut out ...",
+  "t": 1793639409.8508
+ },
+ "cn|Xiaolin Showdown": {
+  "desc": "A young Xiaolin monk named Omi with a giant yellow head leads a trio of other students to collect powerful items known as Shen Gong Wu while battling the evil Jack Spicer who is also after the artifacts",
+  "t": 1793639411.4700537
+ },
+ "cn|Yamada's First Time: B Gata H Kei": {
+  "desc": "A 15-year-old girl has a goal of bedding 100 boys. The trouble is she's a virgin who knows nothing about dating, relationships, or sex.",
+  "t": 1793639421.6524646
+ },
+ "cn|Yu Yu Hakusho": {
+  "desc": "A teenager dies while saving a young kid and is given a chance to be resurrected, provided he works for the Spirit World as an investigator of supernatural crimes with his newly-given powers.",
+  "t": 1793639419.4610143
+ },
+ "cn|Yu-Gi-Oh!": {
+  "desc": "Yugi Moto solves an Ancient Egyptian Puzzle and brings forth a dark and powerful alter ego. Whenever he and his friends are threatened by evil in Duel Monster Card Game, this alter ego breaks out to save them.",
+  "t": 1793639423.984554
+ },
+ "cn|Zatch Bell!": {
+  "desc": "Kiyo Takamine meets a momoto (demons from another world) boy zatch bell and set out to compete in the momoto games held every 1000 years to become their king.",
+  "t": 1793639413.971519
+ },
  "movie|Alvin and the Chipmunks Meet Frankenstein": {
   "desc": "Alvin, Simon and Theodore revel in their new gig at a movie theme park by wandering the grounds after hours. Among the attractions is the spooky Frankenstein's Castle, where a real mad ...",
   "show": "Alvin and the Chipmunks Meet Frankenstein (1999)",

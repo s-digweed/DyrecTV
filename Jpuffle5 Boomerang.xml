@@ -25,7 +25,7 @@
   </programme>
   <programme start="20261030070000 -0500" stop="20261030073000 -0500" channel="Jpuffle5">
     <title>Tom and Jerry</title>
-    <desc lang="en">A weekly Saturday (later Sunday) Morning repackaged compilation with new wraparounds featuring two Tom and Jerry cartoons sandwiching other MGM animated theatrical shorts.</desc>
+    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061429991/8EBE83E7EEA13333D8678188983E8F7775A7A1A0/" />
   </programme>
   <programme start="20261030073000 -0500" stop="20261030080000 -0500" channel="Jpuffle5">
@@ -40,12 +40,12 @@
   </programme>
   <programme start="20261030083000 -0500" stop="20261030090000 -0500" channel="Jpuffle5">
     <title>The Jetsons</title>
-    <desc lang="en">The misadventures of a futuristic family.</desc>
+    <desc lang="en">Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. Living in the automated, push-button world of the future hasn't made life any easier for the harried husband and father, who gets into one comical misadventure after another!</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061413963/1D34A02A066E45F75CD85239224DF4BA4EE0611D/" />
   </programme>
   <programme start="20261030090000 -0500" stop="20261030093000 -0500" channel="Jpuffle5">
     <title>Dexter's Laboratory</title>
-    <desc lang="en">The misadventures of a boy genius and his annoying sister.</desc>
+    <desc lang="en">Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, who always gains access despite his best efforts to keep her out, as well as his arch-rival and neighbor, Mandark.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330059107/65E1720B340630CC6446069D91E0C3EC3A735C15/" />
   </programme>
   <programme start="20261030093000 -0500" stop="20261030100000 -0500" channel="Jpuffle5">
@@ -576,7 +576,7 @@
   </programme>
   <programme start="20261102080000 -0500" stop="20261102083000 -0500" channel="Jpuffle5">
     <title>Tom and Jerry</title>
-    <desc lang="en">A weekly Saturday (later Sunday) Morning repackaged compilation with new wraparounds featuring two Tom and Jerry cartoons sandwiching other MGM animated theatrical shorts.</desc>
+    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061429991/8EBE83E7EEA13333D8678188983E8F7775A7A1A0/" />
   </programme>
   <programme start="20261102083000 -0500" stop="20261102090000 -0500" channel="Jpuffle5">
@@ -591,12 +591,12 @@
   </programme>
   <programme start="20261102093000 -0500" stop="20261102100000 -0500" channel="Jpuffle5">
     <title>The Jetsons</title>
-    <desc lang="en">The misadventures of a futuristic family.</desc>
+    <desc lang="en">Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. Living in the automated, push-button world of the future hasn't made life any easier for the harried husband and father, who gets into one comical misadventure after another!</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061413963/1D34A02A066E45F75CD85239224DF4BA4EE0611D/" />
   </programme>
   <programme start="20261102100000 -0500" stop="20261102103000 -0500" channel="Jpuffle5">
     <title>Dexter's Laboratory</title>
-    <desc lang="en">The misadventures of a boy genius and his annoying sister.</desc>
+    <desc lang="en">Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, who always gains access despite his best efforts to keep her out, as well as his arch-rival and neighbor, Mandark.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330059107/65E1720B340630CC6446069D91E0C3EC3A735C15/" />
   </programme>
   <programme start="20261102103000 -0500" stop="20261102110000 -0500" channel="Jpuffle5">
@@ -776,7 +776,7 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103080000 -0500" stop="20261103083000 -0500" channel="Jpuffle5">
     <title>Tom and Jerry</title>
-    <desc lang="en">A weekly Saturday (later Sunday) Morning repackaged compilation with new wraparounds featuring two Tom and Jerry cartoons sandwiching other MGM animated theatrical shorts.</desc>
+    <desc lang="en">Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common enemy; other times one of them sides with the enemy against the other.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061429991/8EBE83E7EEA13333D8678188983E8F7775A7A1A0/" />
   </programme>
   <programme start="20261103083000 -0500" stop="20261103090000 -0500" channel="Jpuffle5">
@@ -791,12 +791,12 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103093000 -0500" stop="20261103100000 -0500" channel="Jpuffle5">
     <title>The Jetsons</title>
-    <desc lang="en">The misadventures of a futuristic family.</desc>
+    <desc lang="en">Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. Living in the automated, push-button world of the future hasn't made life any easier for the harried husband and father, who gets into one comical misadventure after another!</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061413963/1D34A02A066E45F75CD85239224DF4BA4EE0611D/" />
   </programme>
   <programme start="20261103100000 -0500" stop="20261103103000 -0500" channel="Jpuffle5">
     <title>Dexter's Laboratory</title>
-    <desc lang="en">The misadventures of a boy genius and his annoying sister.</desc>
+    <desc lang="en">Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, who always gains access despite his best efforts to keep her out, as well as his arch-rival and neighbor, Mandark.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330059107/65E1720B340630CC6446069D91E0C3EC3A735C15/" />
   </programme>
   <programme start="20261103103000 -0500" stop="20261103110000 -0500" channel="Jpuffle5">
