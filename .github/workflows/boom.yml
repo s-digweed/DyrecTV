@@ -1,13 +1,18 @@
-name: Normalize Jpuffle5 Boomerang
+name: Normalize Jpuffle5 Boomerang + CN Classic
 
 # Runs whenever boom.sh pushes the day's "Jpuffle5 Boomerang.xml":
 # fixes titles, adds (Year) to films, adds IMDb descriptions (OMDb, then TMDB).
 # The commit below uses GITHUB_TOKEN, so it does not trigger this workflow again.
+# CN Classic descriptions are filled in over a few days (OMDb free key = ~1,000
+# calls/day), so it also runs once a day; cached titles cost nothing.
 on:
   push:
     paths:
       - "Jpuffle5 Boomerang.xml"
+      - "CNClassic.xml"
       - "boom_enrich.py"
+  schedule:
+    - cron: "17 1 * * *"          # 04:17 KSA
   workflow_dispatch: {}
 
 permissions:
@@ -32,19 +37,21 @@ jobs:
         env:
           OMDB_API_KEY2: ${{ secrets.OMDB_API_KEY2 }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
         run: |
           pip install -q requests
           python3 -u boom_enrich.py "Jpuffle5 Boomerang.xml"
+          BOOM_OMDB_BUDGET=250 python3 -u boom_enrich.py CNClassic.xml
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Jpuffle5 Boomerang.xml" boom_desc_cache.json
+          git add "Jpuffle5 Boomerang.xml" CNClassic.xml boom_desc_cache.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "Jpuffle5: titles + descriptions [skip ci]"
+            git commit -m "Jpuffle5 + CN Classic: titles + descriptions [skip ci]"
             git pull --rebase origin main
             git push
           fi
