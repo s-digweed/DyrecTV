@@ -1,9 +1,9 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-01 10:05 UTC)
-#   episode-specific: 884
-#   fixed show-blurb: 8  (hand-supplied, intentional)
-#   generic (blurb) : 50
-#   none            : 16
+# DESCRIPTION REPORT  (2026-11-02 10:32 UTC)
+#   episode-specific: 944
+#   fixed show-blurb: 9  (hand-supplied, intentional)
+#   generic (blurb) : 43
+#   none            : 2
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
 # (epNum=, blank = the API gave none). To set a real one, paste into
@@ -11,33 +11,21 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("A Home of Our Own", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Berserk The Golden Age Arc 3 - Descent", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Boogie Frights", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Cowboy Bebop The Movie", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Devilman I - The Birth", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Devilman II - The Demon Bird", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Fantastic Four", "It Started On Yancy Street"): "",   # epNum=13  no S/E resolved -> show-level blurb
-    ("Genocyber Part 1", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Genocyber Part 2", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Genocyber Part 3", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Genocyber Part 4", "(no episode name)"): "",   # epNum=  no description found anywhere
-    ("Genocyber Part 5", "(no episode name)"): "",   # epNum=  no description found anywhere
     ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): "",   # epNum=3  no S/E resolved -> show-level blurb
     ("Harvey Birdman", "The Death of Harvey (Finale)"): "",   # epNum=39  no S/E resolved -> show-level blurb
     ("I.M. Vampire", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Kakurenbo", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Fry Me to the Moon"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Morocco Horror Picture Show"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Revenge of Le Nerd"): "",   # epNum=28  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Twins Pique"): "",   # epNum=31  no S/E resolved -> show-level blurb
     ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): "",   # epNum=121  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): "",   # epNum=48  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Farewell Hyoga! Sleep, O Brave One!"): "",   # epNum=47  no S/E resolved -> show-level blurb
     ("Space Jam", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Spider-Man: The Animated Series", "The Hobgoblin (Part Two)"): "",   # epNum=12  no S/E resolved -> show-level blurb
-    ("The Batman vs Dracula", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): "",   # epNum=22  no S/E resolved -> show-level blurb
-    ("The Halloween Tree", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Vampire Hunter D", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Chuck Wood Pie Yourself"): "",   # epNum=6  S/E set but no DB/OMDb/TAM episode overview
     ("What Would You Do? (1991)", "Jumping Off a Wall"): "",   # epNum=7  S/E set but no DB/OMDb/TAM episode overview
     ("X-Men: The Animated Series", "Storm Front (Part 1)"): "",   # epNum=68  no S/E resolved -> show-level blurb

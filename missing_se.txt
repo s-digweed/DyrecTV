@@ -1,17 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-11-01 10:05 UTC)
+# RUN STATUS  (2026-11-02 10:32 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 884 episode-specific, 8 fixed show-blurb, 50 generic, 16 none (see generic_desc.txt)
+#   descriptions     : 944 episode-specific, 9 fixed show-blurb, 43 generic, 2 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 528  (manual pins: 0)
-#   S/E by absolute  : 18
-#   S/E + desc / TAM : 9  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 18  (S/E from your hand-verified sheet)
-#   episode guide    : 175  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 128  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 593  (manual pins: 0)
+#   S/E by absolute  : 19
+#   S/E + desc / TAM : 11  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 28  (S/E from your hand-verified sheet)
+#   episode guide    : 162  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 129  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 179
+#   names from TAM   : 186
 #   S/E withheld     : 30  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
@@ -22,12 +22,12 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Fantastic Four", "It Started On Yancy Street"): (, ),   # epNum=13
     ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): (, ),   # epNum=3
     ("Harvey Birdman", "The Death of Harvey (Finale)"): (, ),   # epNum=39
     ("Lupin the Third: Part II", "Fry Me to the Moon"): (, ),   # epNum=29
     ("Lupin the Third: Part II", "Morocco Horror Picture Show"): (, ),   # epNum=30
     ("Lupin the Third: Part II", "Revenge of Le Nerd"): (, ),   # epNum=28
+    ("Lupin the Third: Part II", "Twins Pique"): (, ),   # epNum=31
     ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): (, ),   # epNum=121
     ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): (, ),   # epNum=48
     ("Saint Seiya: Knights of the Zodiac", "Farewell Hyoga! Sleep, O Brave One!"): (, ),   # epNum=47
