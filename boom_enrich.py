@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Jpuffle5 Boomerang normalizer.
+"""Jpuffle5 Boomerang normalizer + CN Classic descriptions.
+
+Two guides go through here:
+  * "Jpuffle5 Boomerang.xml" - full treatment (titles, film years, descriptions)
+  * "CNClassic.xml"          - descriptions only; titles stay exactly as the
+                               calendar has them
 
 Runs after boom.sh pushes the day's "Jpuffle5 Boomerang.xml" (see
 .github/workflows/boom.yml). For every programme it:
   1. fixes the title (house style, typos, en-dash, stray spaces)
   2. films (slot >= 60 min, or a known film) get "Title (Year)"
-  3. adds a <desc>: OMDb (IMDb short plot) first, TMDB as fallback
+  3. adds a <desc>: our own FIXED_DESC first, then OMDb (IMDb short plot),
+     then TMDB, TVmaze, TVDB
 
 Lookups are cached in boom_desc_cache.json (hits and misses, 60 days), so a
 normal day costs only a handful of OMDb calls. Uses OMDB_API_KEY2 (its own
@@ -23,6 +29,7 @@ CACHE_FILE = "boom_desc_cache.json"
 TTL        = 60 * 86400
 OMDB_KEY   = os.environ.get("OMDB_API_KEY2", "").strip()
 TMDB_KEY   = os.environ.get("TMDB_API_KEY", "").strip()
+TVDB_KEY   = os.environ.get("TVDB_API_KEY", "").strip()
 BUDGET     = int(os.environ.get("BOOM_OMDB_BUDGET", "300"))
 
 # ── 1. title fixes: Jpuffle5's name -> our name ─────────────────────────────
@@ -79,6 +86,24 @@ LOOKUP = {
     "Pink Panther and Pals": "Pink Panther and Pals",
     "Pixie and Dixie": "Pixie and Dixie and Mr. Jinks",
 }
+# Our own descriptions - win over every lookup, and replace any existing <desc>.
+# Same text is used on CCN (Whiplash generate.py FIXED_DESC).
+_TJ = ("Tom the cat and Jerry the mouse are frenemies whose small squabbles spiral into "
+       "traps, crashes and all-out cartoon mayhem. Sometimes they team up against a common "
+       "enemy; other times one of them sides with the enemy against the other.")
+_DL = ("Dexter, a boy-genius with a secret laboratory, constantly battles his sister Dee Dee, "
+       "who always gains access despite his best efforts to keep her out, as well as his arch-rival "
+       "and neighbor, Mandark.")
+_JS = ("Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. "
+       "Living in the automated, push-button world of the future hasn't made life any easier "
+       "for the harried husband and father, who gets into one comical misadventure after another!")
+FIXED_DESC = {
+    "Tom and Jerry": _TJ, "Tom & Jerry": _TJ,
+    "Dexter's Laboratory": _DL, "Dexter's Lab": _DL,
+    "The Jetsons": _JS,
+}
+# CN Classic: titles stay as the calendar has them, except these
+CN_RENAME = {"Dexter's Lab": "Dexter's Laboratory"}
 YEAR_RE = re.compile(r"\s\((19|20)\d\d\)$")
 
 
@@ -99,7 +124,7 @@ def minutes(p):
 
 # ── lookups ─────────────────────────────────────────────────────────────────
 cache = {}
-calls = {"omdb": 0, "tmdb": 0}
+calls = {"omdb": 0, "tmdb": 0, "tvmaze": 0, "tvdb": 0}
 left = BUDGET
 
 
@@ -150,6 +175,45 @@ def tmdb_plot(name, kind, year=None):
         return ""
 
 
+def tvmaze_plot(name):
+    calls["tvmaze"] += 1
+    try:
+        r = requests.get("https://api.tvmaze.com/singlesearch/shows", params={"q": name}, timeout=20)
+        if r.status_code != 200:
+            return ""
+        return re.sub(r"<[^>]+>", "", r.json().get("summary") or "").strip()
+    except Exception:
+        return ""
+
+
+_tvdb_tok = None
+def tvdb_plot(name):
+    global _tvdb_tok
+    if not TVDB_KEY or _tvdb_tok == "":
+        return ""
+    calls["tvdb"] += 1
+    try:
+        if _tvdb_tok is None:
+            r = requests.post("https://api4.thetvdb.com/v4/login", json={"apikey": TVDB_KEY}, timeout=20)
+            _tvdb_tok = (r.json().get("data") or {}).get("token") or ""
+            if not _tvdb_tok:
+                return ""
+        r = requests.get("https://api4.thetvdb.com/v4/search", params={"query": name, "type": "series"},
+                         headers={"Authorization": f"Bearer {_tvdb_tok}"}, timeout=20).json()
+        for hit in r.get("data") or []:
+            ov = (hit.get("overviews") or {}).get("eng") or hit.get("overview") or ""
+            if ov.strip():
+                return ov.strip()
+    except Exception:
+        pass
+    return ""
+
+
+def series_rest(name):
+    """fallbacks after OMDb for a show: TMDB -> TVmaze -> TVDB"""
+    return tmdb_plot(name, "tv") or tvmaze_plot(name) or tvdb_plot(name)
+
+
 def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
@@ -187,9 +251,44 @@ def resolve(title, mins):
     if not film:
         r = omdb_find(name, "series")
         if r is None: return base, ""
-        desc = r.get("plot", "") or tmdb_plot(name, "tv")
+        desc = r.get("plot", "") or series_rest(name)
     cache[key] = {"t": time.time(), "show": show, "desc": desc}
     return show, desc
+
+
+def resolve_cn(title, mins):
+    """CN Classic: title untouched, description only. Shows first (a 60-min slot
+    there is usually two episodes), films only when OMDb has no show by that name."""
+    key = f"cn|{title}"
+    ent = cache.get(key)
+    if ent and time.time() - ent.get("t", 0) < TTL:
+        return ent["desc"]
+    name = LOOKUP.get(title, YEAR_RE.sub("", title))
+    r = omdb_find(name, "series")
+    if r is None:
+        return ""                                       # out of budget: retry next run
+    desc = r.get("plot", "")
+    if not desc and mins >= 80:                         # feature-length slot: try it as a film
+        j = omdb(t=name, type="movie", plot="short")
+        if j is None:
+            return ""
+        if j.get("Response") == "True" and norm(j.get("Title", "")) == norm(name):
+            desc = "" if j.get("Plot") in (None, "N/A") else j["Plot"].strip()
+        desc = desc or tmdb_plot(name, "movie")
+    desc = desc or series_rest(name)
+    cache[key] = {"t": time.time(), "desc": desc}
+    return desc
+
+
+def set_desc(p, te, desc, force=False):
+    de = p.find("desc")
+    if de is not None and not force:
+        return
+    if de is None:
+        de = ET.Element("desc", {"lang": "en"})
+        de.tail = te.tail
+        p.insert(list(p).index(te) + 1, de)            # title, desc, icon - XMLTV order
+    de.text = desc
 
 
 def main():
@@ -200,33 +299,48 @@ def main():
         cache = {}
     tree = ET.parse(XML_FILE)
     root = tree.getroot()
-    if root.find("channel[@id='Jpuffle5']") is None:
-        sys.exit("not the Jpuffle5 guide - skipped")
+    cn = root.find("channel[@id='CNClassic']") is not None
+    if not cn and root.find("channel[@id='Jpuffle5']") is None:
+        sys.exit("not the Jpuffle5 or CN Classic guide - skipped")
     n = renamed = films = descs = 0
     for p in root.iter("programme"):
         te = p.find("title")
         if te is None or not (te.text or "").strip():
             continue
         n += 1
-        old = te.text
-        t = fix_title(old)
-        show, desc = resolve(t, minutes(p))
-        if show != old:
-            te.text = show; renamed += 1
-        if YEAR_RE.search(show):
-            films += 1
-        de = p.find("desc")
-        if desc and de is None:
-            de = ET.Element("desc", {"lang": "en"}); de.text = desc
-            p.insert(list(p).index(te) + 1, de)        # title, desc, icon - XMLTV order
+        if cn:                                          # CN Classic: description only
+            t = te.text.strip()
+            if t in CN_RENAME:
+                t = te.text = CN_RENAME[t]; renamed += 1
+            if t in FIXED_DESC:
+                set_desc(p, te, FIXED_DESC[t], force=True)
+            elif p.find("desc") is None:
+                d = resolve_cn(t, minutes(p))
+                if d: set_desc(p, te, d)
+        else:
+            old = te.text
+            t = fix_title(old)
+            show, desc = resolve(t, minutes(p))
+            if show != old:
+                te.text = show; renamed += 1
+            if YEAR_RE.search(show):
+                films += 1
+            base = YEAR_RE.sub("", show)
+            if base in FIXED_DESC:
+                set_desc(p, te, FIXED_DESC[base], force=True)
+            elif desc:
+                set_desc(p, te, desc)
         if p.find("desc") is not None:
             descs += 1
-    ET.indent(tree, space="  ")
+    if not cn:
+        ET.indent(tree, space="  ")                     # CN Classic keeps its one-line layout
     tree.write(XML_FILE, encoding="UTF-8", xml_declaration=True)
     json.dump(cache, open(CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
-    print(f"Jpuffle5: {n} programmes · {renamed} titles fixed · {films} films with (Year) · "
-          f"{descs} with descriptions · OMDb calls {calls['omdb']}"
-          f"{'' if OMDB_KEY else ' (no OMDB_API_KEY2 secret)'} · TMDB calls {calls['tmdb']}")
+    label = "CN Classic" if cn else "Jpuffle5"
+    extra = f" · {renamed} titles fixed" + ("" if cn else f" · {films} films with (Year)")
+    print(f"{label}: {n} programmes{extra} · {descs} with descriptions · OMDb calls {calls['omdb']}"
+          f"{'' if OMDB_KEY else ' (no OMDB_API_KEY2 secret)'} · TMDB {calls['tmdb']} · "
+          f"TVmaze {calls['tvmaze']} · TVDB {calls['tvdb']}")
 
 
 if __name__ == "__main__":
