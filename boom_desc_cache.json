@@ -1506,6 +1506,11 @@
   "show": "Scooby-Doo and the Monster of Mexico (2003)",
   "t": 1793577629.959192
  },
+ "movie|Shrek": {
+  "desc": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+  "show": "Shrek (2001)",
+  "t": 1793711099.8784711
+ },
  "movie|Shrek 2": {
   "desc": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
   "show": "Shrek 2 (2004)",
@@ -1515,6 +1520,11 @@
   "desc": "Rumpelstiltskin tricks a mid-life crisis burdened Shrek into allowing himself to be erased from existence and cast in a dark alternate timeline where Rumpelstiltskin rules supreme.",
   "show": "Shrek Forever After (2010)",
   "t": 1793577626.911364
+ },
+ "movie|Space Stars": {
+  "desc": "The show was made up of four different cartoon segments, these being: Space Ghost, The Herculoids, Teen Force, and Astro and the Space Mutts.",
+  "show": "Space Stars",
+  "t": 1793711100.0198646
  },
  "movie|The Book of Life": {
   "desc": "Manolo, a young man who is torn between fulfilling the expectations of his family and following his heart, embarks on an adventure that spans three fantastic worlds where he must face his greatest fears.",
@@ -1695,6 +1705,11 @@
   "desc": "The continuing animated adventures of Olive Oyl, Wimpy, Swee'pea and Popeye.",
   "show": "Popeye",
   "t": 1793577628.033951
+ },
+ "series|Powerpuff Girls Z": {
+  "desc": "Three ordinary girls gain superpowers and protect their home city from a variety of villains.",
+  "show": "Powerpuff Girls Z",
+  "t": 1793711100.0925436
  },
  "series|Puppy in My Pocket: Adventures in Pocketville": {
   "desc": "Flo and Magic go to Pocketville and have many adventures. They help puppies, that are destined for certain children, come to the real world.",
