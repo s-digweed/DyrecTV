@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-02 10:32 UTC)
+# RUN STATUS  (2026-11-03 10:28 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 944 episode-specific, 9 fixed show-blurb, 43 generic, 2 none (see generic_desc.txt)
+#   descriptions     : 1080 episode-specific, 6 fixed show-blurb, 37 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 593  (manual pins: 0)
-#   S/E by absolute  : 19
-#   S/E + desc / TAM : 11  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 28  (S/E from your hand-verified sheet)
-#   episode guide    : 162  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 129  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 665  (manual pins: 0)
+#   S/E by absolute  : 22
+#   S/E + desc / TAM : 13  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 38  (S/E from your hand-verified sheet)
+#   episode guide    : 184  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 136  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 186
-#   S/E withheld     : 30  (listed below)
+#   names from TAM   : 227
+#   S/E withheld     : 28  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,17 +22,16 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Ghost Stories", "Raise the Curtains! The Cursed School Arts Festival! Kutabe"): (, ),   # epNum=3
+    ("Cyborg 009", "Chang Changku's Struggling Restaurant"): (, ),   # epNum=18
     ("Harvey Birdman", "The Death of Harvey (Finale)"): (, ),   # epNum=39
     ("Lupin the Third: Part II", "Fry Me to the Moon"): (, ),   # epNum=29
+    ("Lupin the Third: Part II", "Lupin the Interred"): (, ),   # epNum=32
     ("Lupin the Third: Part II", "Morocco Horror Picture Show"): (, ),   # epNum=30
     ("Lupin the Third: Part II", "Revenge of Le Nerd"): (, ),   # epNum=28
     ("Lupin the Third: Part II", "Twins Pique"): (, ),   # epNum=31
-    ("Sailor Moon", "Meeting of Fate! The Night where a Pegasus Flies"): (, ),   # epNum=121
     ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): (, ),   # epNum=48
     ("Saint Seiya: Knights of the Zodiac", "Farewell Hyoga! Sleep, O Brave One!"): (, ),   # epNum=47
     ("Spider-Man: The Animated Series", "The Hobgoblin (Part Two)"): (, ),   # epNum=12
-    ("The Brak Show", "The Vacuum Cleaner Coma Dilemma (Coma)"): (, ),   # epNum=22
     ("X-Men: The Animated Series", "Storm Front (Part 1)"): (, ),   # epNum=68
     ("X-Men: The Animated Series", "Storm Front (Part 2)"): (, ),   # epNum=69
     ("X-Men: The Animated Series", "The Phalanx Covenant (Part 2)"): (, ),   # epNum=67

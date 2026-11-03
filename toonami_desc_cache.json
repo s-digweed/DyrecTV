@@ -204,6 +204,10 @@
 "n": "Magenta Gets Glasses",
 "o": "Magenta has been trouble seeing lately and so she goes to the eye doctor to get glasses. Steve and Blue help her out and we get to see how an eye test works. Later, we help her pick out her glasses and also help out when she's a bit shy about wearing them in public."
 },
+"10821|3|29": {
+"n": "Environments",
+"o": "We explore various environments with Mother Nature"
+},
 "1087|1|1": {
 "n": "Layer:01 – WEIRD",
 "o": "Lain Iwakura, a shy, 13-year-old schoolgirl, receives an email from a schoolmate after her suicide. Is it a prank? Lain doesn't feel horror, but curiosity."
@@ -399,6 +403,14 @@
 "1168|2|10": {
 "n": "Ghost Quest",
 "o": "En route to Nova Scotia in the newly christened Questor II, Jonny, Jessie and Hadji come upon a fog-enveloped island with a tragic history."
+},
+"1168|2|11": {
+"n": "Nuclear Netherworld",
+"o": "Jonny and Hadji discovers a nearby biodome experiment is really a cover for a plant making uranium casted weapons when they visited Jonny's Grandpa, Doug Wildey on his ranch."
+},
+"1168|2|12": {
+"n": "Eclipse",
+"o": "When Hadji rescues a beautiful girl in New Orleans, she exerts a strange influence over him."
 },
 "1168|2|3": {
 "n": "Bloodlines",
@@ -612,6 +624,10 @@
 "n": "Cathy, the Rebel",
 "o": "Cathy, writes a letter to the Chronicle criticizing an editorial and calling the author a \"man with the mentality of a dinosaur.\""
 },
+"12444|2|32": {
+"n": "Patty the Folk Singer",
+"o": "Patty becomes a folk singer at a local coffee shop."
+},
 "12504|1|1": {
 "n": "The Origin Story",
 "o": "After an intergalactic criminal escapes from prison and is turned into an android monster, Earth dispatches bio-mechanical androids called SilverHawks to battle the villain and his army."
@@ -707,6 +723,10 @@
 "12662|4|2": {
 "n": "The Unlucky Number",
 "o": "Guess the number of jelly beans in the jar. With superman's help, it's possible to win a fixed contest."
+},
+"12662|4|3": {
+"n": "The Big Freeze",
+"o": "They'll stop him cold! Thugs think a freezer will keep Superman on ice during a rigged election."
 },
 "12971|1|1": {
 "n": "The New Threat",
@@ -1260,9 +1280,17 @@
 "n": "Hour of Temptation",
 "o": "Vegeta quickly pounds Cell six feet into the ground! With his back against the wall, the monstrous android attacks Vegeta’s weakest point: his arrogance! Can the Saiyan Prince resist Cell’s tempting challenge?"
 },
+"12971|5|19": {
+"n": "Krillin's Decision",
+"o": "With beautiful Android 18 in his sights, Krillin clutches the controller that will shut her down forever. But when the moment arrives, the little man hesitates! All the while, Cell looms overhead, hungry for perfection!"
+},
 "12971|5|2": {
 "n": "The Reunion",
 "o": "An insect-like monster threatens to turn Gingertown into a ghastly graveyard! In response to this new menace, Kami fuses with Piccolo, and the resulting Super Namekian flies to Gingertown for a showdown of epic proportions!"
+},
+"12971|5|20": {
+"n": "The Last Defense",
+"o": "With the remote control smashed, Krillin and Trunks must save Android 18 from Cell’s power-hungry grasp. But Vegeta has other plans in mind. Will trunks attack his own father to save humanity?"
 },
 "12971|5|23": {
 "n": "Trunks Ascends",
@@ -1592,6 +1620,10 @@
 "n": "Toys in the Hood",
 "o": "Static teams up with Superman when the Man of Steel's old nemesis Toyman appears in Dakota."
 },
+"1487|3|13": {
+"n": "The Parent Trap",
+"o": "Shebang returns to Dakota to enlist Static and Gear's help when her parents go missing and are feared kidnapped."
+},
 "1487|3|3": {
 "n": "Static in Africa",
 "o": "While visiting Africa as his secret identity, Static teams up with an African superhero, Anansi, to defeat the villain Osebo, before he blows up a dam."
@@ -1659,6 +1691,10 @@
 "15130|3|21": {
 "n": "Mum Mew Risks It All",
 "o": "Mum Mew, Gobi and Weed tries to capture the gang by issuing wanted posters. When an old hotel owner turns up with the bounty, Mum Mew could neither keep her side of the bargain nor defeat the old hotel owner who is surprisingly well armed!\n\nMum Mew is forced to find money to pay the old man in exchange for the gang! She tries to rob a bank but finds herself in the middle of a bank robbery by ganstars!\n\nWill Mum Mew finally capture the gang and what will she bring back for General Durahan?"
+},
+"15130|3|22": {
+"n": "Legend Cup: Mocchi vs Poritoka",
+"o": "An airplane lifts off from the crash site of General Durahan's ship.  Genki and gang made it to the International Monster Association headquarters to register for the Legend Cup. During the conversation with the official, we discovered that Suezo does not know that Mocchi had to fight two monsters to win the Legend Cup. Everyone is surprised and taunts Suezo about it. Suezo felt embarrassed and tried to save his face by saying that he was just trying to make everyone relax."
 },
 "1530|1|10": {
 "n": "Lonesome George",
@@ -1767,6 +1803,10 @@
 "1584|1997|9": {
 "n": "",
 "o": ""
+},
+"1584|1|1": {
+"n": "The Powerpuff Girls: Meat Fuzzy Lumpkins",
+"o": "The Powerpuff Girls fight to stop Fuzzy Lumpkins' plot to turn everything into meat."
 },
 "1584|1|42": {
 "n": "Sledgehammer O'Possum: What's Goin' on Back There!?",
@@ -1968,6 +2008,14 @@
 "n": "Hot Rod Herman",
 "o": "Eddie, under the impression that his father is the greatest driver in the world, volunteers Herman in a drag-strip competition.  After souping up the Munster Coach and dressing up like Marlon Brando in his Wild One days, Herman loses his car in a drag race.  In a rematch, Grandpa races in the Dragula, a motorized coffin on wheels."
 },
+"1712|1|37": {
+"n": "Herman’s Raise",
+"o": "Egged on by Lily, Herman demands a raise from his boss Mr. Gateman. He is promptly fired. Herman is afraid of Lily’s reaction, so he pretends that he is still going to work when in fact he is searching for employment. He gets fired from a number of blue-collar jobs – including one at a Chinese laundry, where he wreaks total slapstick chaos."
+},
+"177|4|11": {
+"n": "The Sackless Games",
+"o": "Weasel & Baboon join Red Guys version of Olympians: The Sackless Games!"
+},
 "177|4|2": {
 "n": "I Am Clichéd",
 "o": "The director of Weasel and I.R.'s cartoons does nothing but stealing old clichés from classic cartoons."
@@ -2011,6 +2059,10 @@
 "18241|1|3": {
 "n": "Electric City",
 "o": "Recently, there's been a number of power outages in Paradigm. Roger is hired by Paradigm Power Management to go to the Electric City and negotiate with the locals the reactivation of the hydroelectric power plant. They say a god lives in the water."
+},
+"18241|1|4": {
+"n": "Underground Terror",
+"o": "A woman named Patricia Lovejoy (the same woman called Angel in Electric City) approaches Roger Smith about a job with Paradigm.  He is supposed to convince a reporter named Michael Seebach to hand over his manuscript, but as it turns out, Seebach had disappeared months earlier.  Using his connections with Major Dastun, Roger tracks down an apartment Seebach is renting.  There he discovers a typewriter and a large stack of papers, which he begins to read when gasoline pours in under the door and lights.  Roger jumps out the window to escape and is confronted by Seebach, now calling himself Schwartzvald and wrapped in bandages.  Seebach tells Roger to report to Paradigm that they will never see him in the city again, then disappears."
 },
 "1835|2|13": {
 "n": "Bye-Bye Kenan (2)",
@@ -2083,6 +2135,10 @@
 "1890|1|10": {
 "n": "Water, Water Everywhere",
 "o": "The \"Transport\" Bug that was found bringing reinforcements and eggs to Pluto is followed back to the watery planet Hydora, where it releases barb-shooting flying bugs of a previously unknown type. Is this the bug home world?"
+},
+"1890|1|11": {
+"n": "Search & Destroy",
+"o": "Searching for the Rippler nest on Hydora, the Roughnecks come under heavy fire and Jenkins is severely wounded by an acid-tipped barb. Can Jenkins survive his wound and can they find the nest?"
 },
 "1890|1|2": {
 "n": "Plasma Bugs of Navarone",
@@ -2380,6 +2436,10 @@
 "n": "No Need for Carnivals!",
 "o": "Sasami and Tenchi visit the annual shrine festival, but disaster ensues when the girls bring their own brand of mayhem and catastrophe to the stalls they are running, from monster fish on Ryoko's fish catching game to Washu's uncontrollable cotton candy machine!"
 },
+"20451|1|8": {
+"n": "No Need for a Genius!",
+"o": "Washu creates a robotic duplicate of herself to help out with her experiments. Unfortunately, an accident occurs when Washu's brain patterns are being transferred to the robot, and it ends up with Mihoshi's personality and intelligence instead!"
+},
 "2085|1|2": {
 "n": "Cajun Granny Stew",
 "o": "A fox searches for the missing ingredient for his Cajun Granny Stew."
@@ -2463,6 +2523,10 @@
 "2098|1|46": {
 "n": "The Laughing Fish",
 "o": "The Joker becomes enraged when the Gotham copyright office rejects his demand for a copyright for his grinning Joker fish."
+},
+"2098|1|47": {
+"n": "Harley and Ivy",
+"o": "Harley Quinn has broken off with the Joker and teams up with Poison Ivy. Together they wreck havoc on Gotham and now Joker wants a piece of the action."
 },
 "2098|1|49": {
 "n": "The Man Who Killed Batman",
@@ -2708,6 +2772,10 @@
 "n": "Lucy and George Burns",
 "o": "George Burns arrives at the bank to pick up his statement, but Mr. Mooney has problems locating it.  While waiting for Lucy to return to work, Mooney and Burns chat, and Mr. Burns reveals that he's having trouble finding another girl to be in his act.  Enter Lucy, who goes on to explain her rather unique filing system, impressing George so much that he asks her to be his new comedy partner.  The two go on to do a hit show and are offered a gig in Las Vegas, but Lucy declines, saying that she could never leave Mr. Mooney behind."
 },
+"2144|5|10": {
+"n": "Lucy and John Wayne",
+"o": "When Mr. Mooney sends Lucy to the movie studio to deliver some papers regarding the financing on John Wayne's new film, she ignores his warning not to bother Mr. Wayne and finds herself lunching with him.  Nervous and excited, Lucy proceeds to talk his ear off and finally splatters him with ketchup.  Mr. Wayne takes that as his exit cue, but Lucy soon tracks him to the set of his film, where she continuously screws up the production."
+},
 "2144|5|2": {
 "n": "Lucy and the Submarine",
 "o": "When Lucy accidentally gets Mr. Mooney stationed on a submarine by talking too much, she sneaks onto the submarine dressed as a sailor to get him to sign some important contracts, but the submarine takes off before Lucy can exit."
@@ -2775,6 +2843,10 @@
 "2164|1|3": {
 "n": "Enter Red Skull",
 "o": "A quick recap of how Steve Rodgers became Captain America/Captain America's main focus is on saboteurs as he keeps his identity secret by being an army private/Captain America learns that the Red Skull is behind the sabotage."
+},
+"2164|1|4": {
+"n": "Double Disaster",
+"o": "While Tony Stark is busy with his new race car one of his scientists plots to destroy him."
 },
 "2164|1|5": {
 "n": "Enter Happy Hogan",
@@ -2855,6 +2927,10 @@
 "21730|1|29": {
 "n": "The Heroine of the Battlefield",
 "o": "Romefeller is gaining ground on Earth very quickly and Treize and his troops seem to be losing the battle. When Heero realizes that Treize is now fighting Romefeller, he joins his army as a mercenary and finds himself working alongside Sally Po and Lucrezia Noin."
+},
+"21730|1|3": {
+"n": "Five Gundams Confirmed",
+"o": "Heero is injured and is kept for treatment at the Alliance hospital. At the Corsican base of the Mediterranean, the Gundam Heavyarms, piloted by L3's Trowa Barton, annihilates everything in its path. Then things get even worse for the Alliance when the Gundam Sandrock shows up."
 },
 "21730|1|30": {
 "n": "The Reunion with Relena",
@@ -3116,6 +3192,10 @@
 "n": "The Unregistered Nurse",
 "o": "Dobie falls for an older nurse and feigns a disease so he can be near her."
 },
+"221|1|36": {
+"n": "The Long Arm of the Law",
+"o": "Dobie's new date's father turns out to be a cop with whom he had a disagreement about picking flowers in the park."
+},
 "2251|3|11": {
 "n": "Elaine's Old Friend",
 "o": "In her cab, Elaine picks up a woman who turns out to be her old high-school rival, Mary. Elaine is embarrassed that she is a cab driver, especially since Mary heads a prestigious ad agency, so to save face, Elaine makes up a story about having a wonderful boyfriend who is a Columbia University professor.  Over the next few days, Mary calls Elaine to try to arrange a dinner with their respective boyfriend's, but Elaine keeps making excuses, as she is ashamed that she made up a lie about having a boyfriend.  When Elaine is about ready to confess her lie to Mary over the phone, Alex grabs the phone, pretending to be Elaine's boyfriend, and accepts her dinner invitation for that evening.  At dinner, Alex is so charming, in an effort to make their relationship look very loving, that all of a sudden, Mary and her boyfriend become jealous that they don't have such an exciting relationship.  Meanwhile, even Elaine is swept up in the moment, and is taken by Alex's romantic acting job.  Having d"
@@ -3240,6 +3320,10 @@
 "n": "Psycho-Delicate",
 "o": "Brendon, Jason and Melissa try their hand at a Hitchcock-style thriller. They want to get into a film festival run by a local video store clerk. Coach McGuirk spends all his time at a diner, trying to woo a roller-skating waitress/actress named Fred. Meanwhile, Paula tries to get a refund from her hairdresser."
 },
+"2274|4|7": {
+"n": "Curses",
+"o": "Brendon gets in trouble for making a movie about a foul-mouthed robot. The neighborhood kids love it; the parents hate it, and Paula orders Brendon to re-shoot and make a G-rated version. Meanwhile, Melissa gets jealous when her dad, Erik, wants to date a woman from his journal writing class."
+},
 "22888|1|1": {
 "n": "The Music Ball / Shrink-a-Dink / Hatching Out",
 "o": "The Music Ball:\n\nA package parachutes into Gumby's ranch. The only writing on it are the words \"Top Secret\". \"Let's open it!\" It turns out to be a golden ball that randomly freaks out whenever Gumby and friends play music. They decide to use the strange object to get on Johnny Carson and MTV, after lunch, of course. Wouldn't you know it, the Blockheads steal it while they're eating, and they have a downright unnessecary chase scene to recover it. The short ends with Gumby's strange, phantasmagoric concert.\n\nShrink-a-Dink:\n\nPokey's unsure about a visit to Professor Kapp's lab, but eventually gives into his peers. They all go to the lab where the Professor unveils his shrinking machine. As everyone but Pokey patiently wait in the machine's area of influence, Pokey accidentally turns the machine on, shrinking everyone to the size of an ant. When enough time has been killed by unimportant events, Pokey unshrinks everyone and vows never to eat candy again.\n\nHatching Out:\n\nThe first half of this cartoon features Gumby being stalked and horribly devoured by a Tyrannosaurus, both in the Toy Store and on his ranch. A second later, everyone else arrives to find the dinosaur napping in the hay. Fortunately, Denali scares it off with a few ice cubes, but it left behind an egg. Prickle decides to dump it in a passing garbage truck. It hatches moments later, with Gumby inside. Turns out the whole thing was a dream brought on by too many nature documentaries about the mating habits of dinosaurs before bedtime."
@@ -3287,6 +3371,10 @@
 "22888|1|21": {
 "n": "Geese Grief / Fox Hunt / Goo's Pies",
 "o": "Geese Grief:\n\nGumbo tells Prickle that Minga is forbidden to go into the \"Sorcerer's Apprentice\" book.  Minga go on the slide and accidentally slid into the book.  Prickle went inside to get Minga, but the sorcerer turned them into geese.  They flew away.  Gumba thought Prickle and Minga are geese, but she quickly recognizes her daughter's voice.  Gumby comes outside to see the geese, and Prickle explained the whole situation.  Gumb took them to see the wizard to reverse the spell.  The wizard accidentally dropped his bottle of wind.  His room becomes a real mess.  Prickle and Minga become depressed, until Gumby found the antidote.  They turn back to normal once again. \n\nFox Hunt:\n\nThe fox comes to the farm to find the chicken to eat.  While Gumby and his friends were practicing their music, Chilly is being attacked by the fox.  Gumby devises a plan to hunt it down, and teach him a lesson.  After the capture, he and his friends pretend to try and roast the fox.  Chilly comes in a tells Gumby don't roast the fox.  The fox becomes friends with Gumby and enjoyed lunch together.\n\nGoo's Pies:\n\nPokey and Prickle are giving out ads to the people in different books.  Goo ordered robots to work on baking pies.  On their lunch break, the Bockheads mess with the controls and cause chaos in the kitchen.  Gumby checked on the pies.  Pokey, Prickle, and Goo get trapped in giant pies.  The robots start throwing pies at the customers.  The Blockheads were laughing at Gumby and his friends, until Chilly found out with they're up to.  Gumby and his friends punish the Blockheads by throwing pies in his faces."
+},
+"22888|1|22": {
+"n": "Moving Experience / Gumby's Close Encounters / Flying Carpet",
+"o": "Moving Experience:\n\nGumby's family is moving to a new house, seeing as how they have an afternoon and nothing better to do.  Unfortunately, they hire the Blockheads as their furniture movers and, as one would expect, G and J spend the entire cartoon destroying everything Gumby's family holds dear as the furniture makes its way into their van, even going so far as to crash their van into the front of the new house and dump everything out on the front lawn.  Art Clokey can't write his way out of this mess, so it turns out that it was just Gumby's mom's nightmare.\n\nGumby's Close Encounters:\n\nOne day, while driving through the country with his friends, Gumby finds himself to be the victim of a horrible abduction by aliens, who need his strong genes to rebuild their race.  Unfortunately, Gumby isn't in a very charitable mood, and demands that the aliens give him the ultimate fuel source in exchange for his tissue sample.   Since he's in no position to be making demands, the aliens agree and arrange to drop off an ultimate fuel source kit at Kapp's lab.  Gumby and friends drive to the rendezvous point, stopping to tell two gas station attendants (the Blockheads) about how they're going to have the ultimate fuel source and that gas will soon be obsolete.   So it's really their own fault that the Blockheads follow them to the lab and try to swipe the device when Kapp is distracted.  Fortunately, the aliens have the technology to avoid pointless chase scenes by mentally taking the device out of their arms and flying it back to the lab.  Kapp hooks it up to Granny's car and steals it.\n\nFlying Carpet:\n\nThe Blockheads, via an evil Cyclopic robot car salesman, convince Granny to spend yet another life savings on a car which lives up to its 10 mile warranty.   Gumby and friends return with her to the salesman and demand her money back.   The robot assures them that a refund is on its way, and in the meantime, invites them to test-drive a flying carpet in hopes that a ride on the defective carpet will kill them, eliminating the need for a refund.  Unfortunately, only Gumby and Prickle fall for the scheme, and they manage to survive by landing in a swimming pool, so the Blockheads decide to strip and make a break for it.  They try to fly off on one of their own defective carpets, and what do you know, they're captured and Granny gets her live savings back again."
 },
 "22888|1|4": {
 "n": "Gumbot / Guitar Magic / Gumbitty Doo Dah",
@@ -3339,6 +3427,10 @@
 "2405|3|32": {
 "n": "Lone Star Bravo",
 "o": "While looking at the family scrapbook, Mama tells Johnny the tail of Lonestar Bravo and how he became the sherrif of Moist Rock to impress frontier chicks."
+},
+"2405|3|34": {
+"n": "The Great Bunny Book Ban",
+"o": "The Harold And The Fuzzy Bunny Book has been taken off all library shelves by a greedy censorer named Mr Blowhart and Suzy must make him change his mind!"
 },
 "2405|3|35": {
 "n": "Toy Boy Johnny",
@@ -3519,6 +3611,10 @@
 "24710|1|25": {
 "n": "The First Kiss",
 "o": "As a result of Nadia's foolishness, the children only have meat for food.  This infuriates Nadia so much that she declares to starve... until she becomes desperate to eat a can of rotten spinach, getting sick.  Jean sets off to find a cure, only to become intoxicated by hallucinogetic mushrooms(!).  Overwhelmingly grateful, and stupidly unaware that Jean is not himself, she gives him his first real kiss...."
+},
+"24710|1|26": {
+"n": "King, the Lonely Lion",
+"o": "King gets jealous of Jean and Nadia becoming more intimate and runs away.  Jean sets off to find him... but not before Nadia goes ballastic upon realizing that he does not remember the kiss she gave him (he had been stoned from the hallucinogetic mushrooms)."
 },
 "24710|1|3": {
 "n": "The Riddle of the Giant Sea Monsters",
@@ -3776,6 +3872,10 @@
 "n": "Day of the Dot",
 "o": "Ellen wants to be letter-perfect when she's chosen to dot the \"i\" in a marching-band formation at the regional championship competition."
 },
+"2824|1|3": {
+"n": "The Nightcrawlers",
+"o": "Little Pete is losing sleep over the matter of arbitrary bedtimes, so he decides to take on Mom and the whole \"international adult conspiracy.\""
+},
 "2824|3|1": {
 "n": "35 Hours",
 "o": "Dad gives the Petes the ultimate test of responsibility - a weekend with the house all to themselves. But when Little Pete sells the house to another family, it's up to Big Pete to set things right before Mom and Dad return home."
@@ -3867,6 +3967,10 @@
 "2849|1|6": {
 "n": "The Wedding That Almost Wasn't",
 "o": "It is wintertime in the forest, and David and Lisa are going to a friend's wedding. David explains that trolls love to ruin weddings, so the gnomes had already set up some clever traps. David performs the wedding for the new couple, and all the guests go to their new house. The trolls also come to the house and start a fire outside so the gnomes would be suffocated by smoke. Once all of the gnomes were out, David found Pat the troll in one of the gnome traps. Pat tells the gnomes that the other trolls have gone to the mountains, so the gnomes follow him there. Next the gnomes and animals barrage the trolls with snow and put them to sleep."
+},
+"2849|1|7": {
+"n": "To Grandfather's House We Go",
+"o": "David is expecting a visit from his granddaughter, Susan. In a deep part of the forest lives a real witch with her cat. Once the witch leaves for the day, her cat goes wandering in the woods. Lisa goes to pick up Susan, and they meet a friendly porcupine family. The witch's cat sees the gnome house, and he knows the gnomes have mice as pets. But when he tries to get into David and Lisa's house, he falls into the trap designed to catch small animals. Later that evening, David lets the cat out. The cat gets scared of Swift and runs back home. That night the witch comes home and listens to the cat's adventures. This inspires her to write a story, \"Little Red Riding Hood\"."
 },
 "286267|1|18": {
 "n": "Irina - Rachael - Ricardo",
@@ -4000,6 +4104,10 @@
 "n": "An Errand for Flipper",
 "o": "Porter is frustrated as he waits in the middle of the ocean for Flipper to deliver the tools to repair his broken plane.  His anger soon dissipates when he realises that Flipper was busy saving lives all day."
 },
+"2886|3|8": {
+"n": "Whale Ahoy",
+"o": "While researching his book report, Bud dreams of sailing the deep blue seas with Moby Dick."
+},
 "2901|1|10": {
 "n": "The Mask of Doom (3)",
 "o": "Reed, Johnny, and Ben arrive in ancient Greece, with only forty-eight hours to find the casket. Their problems multiply, however, when they get into the middle of The Battle of Thermopylae"
@@ -4107,6 +4215,14 @@
 "291637|1|2": {
 "n": "The Lizard Slavers / The Moss Men / The Web",
 "o": "\"The Lizard Slavers\": Lizard-like slavers capture Jan and Jace for stumbling across their base. \"The Moss Men\": While running from a T-rex, Dino Boy and Ugh are captured by the Moss Men after falling into a water-filled hole that leads to their lair. The Moss Men plan to use Dino Boy as a sacrifice. Ugh must defeat the Moss Men and rescue Dino Boy before it is too late. \"The Web\": The Black Widow plans to kill Space Ghost with her minions the Tarantopods on her planet."
+},
+"291637|1|21": {
+"n": "",
+"o": ""
+},
+"291637|1|22": {
+"n": "",
+"o": ""
 },
 "291637|1|23": {
 "n": "",
@@ -4384,6 +4500,10 @@
 "n": "Surgery Circus",
 "o": "While Shark and the Rectangular Business Man think Liquor is dead, Mouse, Skillet, and the New Guy bring the Eye to Liquor's store to get him a new leg. But before that, Liquor must reveal to them...the twin eyeballs."
 },
+"3043|2|3": {
+"n": "Booger Haze",
+"o": "The Eye's surgery was a success, and he joins his twin in tap-dancing. Liquor manages to trap the hand attacking the Cop and Golden Joe in a jar. Meanwhile, the Spider brings Roostre to a cave in the desert and plays on the piano \"Booger Haze\", summoning thousands of musical notes that attack Mouse and Skillet. Eventually they find protection in Roostre's secret ammo hold."
+},
 "30623|1|1": {
 "n": "Running an Errand",
 "o": "Misae sends Shin-Chan to the market on an errand"
@@ -4399,6 +4519,10 @@
 "30623|1|12": {
 "n": "Going on a Picnic (2)",
 "o": "The Nohara family goes on a picnic."
+},
+"30623|1|13": {
+"n": "Going to the Movies",
+"o": "Misae and Shin-chan go to see a movie, but Shin-chan bothers her and everyone watching the film."
 },
 "30623|1|2": {
 "n": "Mama's Mornings are Busy",
@@ -4536,6 +4660,10 @@
 "n": "Departing Living World",
 "o": "Hiei and Kurama are visited by two of the kings of Demon World with a very dangerous proposition. Meanwhile, Yusuke prepares himself for his own long journey home. He finds out that the only thing more difficult than making an irreversible decision is trying to convince Kayko that everything will be all right. Won't it?"
 },
+"30669|4|4": {
+"n": "Return to Demon World",
+"o": "Control of Demon World is divided among three rulers: Raizen, Yomi and Mukuro. From his deathbed, Raizen has invited his descendant, Yusuke Urameshi, to return to Demon World to train under him for one climactic battle. Yusuke's first challenge is to defeat his ancestor. If he cannot defeat one of the three kings, how could he expect to stand up to the other two?!"
+},
 "30991|1|18": {
 "n": "Mushroom Samba",
 "o": "After the Bebop crash lands, Ed and Ein’s search for food turns up some very expensive mushrooms with psychedelic side effects!"
@@ -4575,6 +4703,10 @@
 "3107|1|10": {
 "n": "Rhythm & Rhyme All the Time",
 "o": "Flower, shower; Spring, swing; Cat, hat--on Gullah Gullah Island the beat goes on as rhyming fever spreads like wildfire among the Alstons and their friends."
+},
+"3107|1|11": {
+"n": "Baby Animals",
+"o": "When Natalie goes through a basket of James' and Shaina's baby clothes, thoughts on Gullah Gullah island turn to babies and little things. Marisol and Armando show off their new pet chicks and they learn about baby birds."
 },
 "3107|1|2": {
 "n": "Ron's Birthday",
@@ -4844,6 +4976,10 @@
 "n": "Disorient Express",
 "o": "The Transeurope Superexpress is transporting a racehorse from Italy to France. But the collected valuables of crime boss Don Marcino is also aboard that train. His true objective is to get his ill-gotten gains out of the country. Lupin and company pull off a beautiful theft, but Marcino mounts his own counterattack, and the Superexpress is on a collision course!!"
 },
+"31572|2|9": {
+"n": "Now Museum, Now You Don't",
+"o": "An old man Lupin meets by chance turns out to be the grandson of Ukiyoe master Tooshuusai Sharaku. In order to test his own skill he has been switching his own works for Sharaku's originals, but suffered a heart attack just as he was about to make the last switch. At Fujiko's request, and after much trouble, Lupin succeeds in acting as Sharaku III's stand-in. But the old man has already died by that time. Where have the Ukiyoe gone?"
+},
 "31713|1|24": {
 "n": "Nightmare Reunion",
 "o": "Ken discovers that both Chun Li and Ryu have been somewhat subjugated and tries, slowly but surely, to summon the Hadou-Shoryuken to break the wall that separates him from them. Bison orders Ryu to focus on summoning the Hadouken. Guile and Nash infiltrate the fortress and decide to go separate ways to cover more ground. Ken's escape is discovered by Bison, who understands that also him is capable of harvesting ki. Ken finally breaks the wall and tries to escape with Ryu, only to find his friend menacingly adopting an attack stance."
@@ -4991,6 +5127,10 @@
 "34782|1|1": {
 "n": "On the Ancient Stage of Stone",
 "o": "Yushiro's movements, as part of a Gowa experiment, bring into existence a singularity sought by the Gowa Consortium. Suddenly, another dancer cries out from elsewhere pleading, \"\"Don't bring back the terror!\"\" Sensing the chilling voice, Yushiro falls out of his trance and the experiment fails."
+},
+"34782|1|2": {
+"n": "Opening Movements",
+"o": "As the Gowa Consortium evaluates the failure of their experiment with Yushiro, the United Nations responds to what seems to be a weapons test in the renegade post-Soviet Republic of Belgistan. After a successful air attack, the allied ground forces suffer a startling defeat, leading the Japanese company to reveal the secret of the Tactical Armor systems. It seems these units may have been responsible for the U.N. defeat at the hands of the Belgistanians."
 },
 "35106|1|10": {
 "n": "Gathering for the Space Race",
@@ -5244,6 +5384,10 @@
 "n": "Phony Fairy",
 "o": "Chibi-Usa befriends a young man, an artist fixated on the existence of fairies, who is targeted by Fish-eye."
 },
+"3570|4|11": {
+"n": "Driven Dreamer",
+"o": "Ami befriends Mamoru's colleague Natsumi, a widow who is trying to restore a classic car."
+},
 "3570|4|2": {
 "n": "No Ordinary Horsepower",
 "o": "When Reika returns from Africa, Usagi becomes concerned that she and Motoki are having relationship problems. Meanwhile, Tiger's Eye selects Reika as a target."
@@ -5295,6 +5439,10 @@
 "35935|1|10": {
 "n": "Nobleman",
 "o": "Guts, sent by Griffith, assassinates Yurius and his son Adonis. Griffith gets closer to Charlotte. The Hawks depart for yet another mission."
+},
+"35935|1|11": {
+"n": "The Battle",
+"o": "On a stormy battlefield, Casca, Griffith's second in command, is wounded while fighting the leader of an enemy army. Guts runs to her rescue but when she passes out at the edge of a cliff, he cannot catch her in time and they both fall into the river below."
 },
 "35935|1|2": {
 "n": "Band of the Hawk",
@@ -5371,6 +5519,10 @@
 "3611|2|4": {
 "n": "Pirate Lessons",
 "o": "The Red Guy is now Captain Butz Pirate, and wants to give Cow and Chicken pirate lessons. He takes them aboard his pirate ship in the middle of the duck pond, and teaches them how to say \"\"argh\"\", carve peglegs, hold worms for ransom, and sink Flem and Earl's boat. But after that incident, Cow, Chicken, and their flag/man Jolly Roger declare mutiny."
+},
+"3611|2|5": {
+"n": "Halloween with Dead Ghost, Coast to Coast",
+"o": "The Red Guy hosts a new late night talk show called \"\"Dead Ghost, Coast to Coast\"\", and reminds the viewers that tonight's Halloween. Chicken calls in, and is instructed to dress as a human being. So, Cow and Chicken go trick or treating as Mom and Dad, only to find that the neighbors assume that a grown man and woman are trick or treating. With that, Super Cow and Chicken teach The Red Guy a lesson."
 },
 "363|1|18": {
 "n": "Galileo's Cannonball",
@@ -5704,6 +5856,10 @@
 "n": "Clear Case",
 "o": "South African diamond miners are terrorized by a ghost who is actually a M.A.D. scientist using diamond dust to create invisibility suits."
 },
+"4035|1|32": {
+"n": "Dutch Treat",
+"o": "Inspector Gadget hunts for diamond smugglers in the land of tulips and chocolate."
+},
 "4035|1|4": {
 "n": "The Amazon",
 "o": "Dr. Claw kidnaps Professor Von Slickstein, the brilliant scientist who invented all of Gadget's gadgets, and takes him to the Amazon to build an army of Gadget-like robots."
@@ -5776,6 +5932,10 @@
 "n": "Episode 20",
 "o": ""
 },
+"416|1|1": {
+"n": "Bannon Custody Battle",
+"o": "Harvey represents Dr. Quest in a parental custody battle with Race Bannon over Jonny and Hadji."
+},
 "416|4|7": {
 "n": "The Death of Harvey Birdman",
 "o": "Harvey is upset when he must redo all of his cases. He soon realizes he has a much bigger problem to deal with, and he'll need Peanut and Judy's help."
@@ -5815,6 +5975,10 @@
 "4229|2|93": {
 "n": "Sun, Surf, and Science",
 "o": "Mandark tries to impress Dee Dee by getting into a surfing contest."
+},
+"4229|2|94": {
+"n": "Big Bots",
+"o": "Dexter makes Dee Dee a robot for herself, at the same time a volcano is going to burst on an island in the middle of the ocean."
 },
 "42444|1|25": {
 "n": "Fight! The Rise of Athena!",
@@ -5907,6 +6071,10 @@
 "42671|1|1": {
 "n": "A Chance Encounter",
 "o": "An unknown girl with invisible hands, or vectors, and telepathic powers escapes from a secret facility. The next day two cousins, Kouta and Yuka, find her. But she is different from before. She can only say one word, nyuu. Not knowing anything about her, the two cousins take her in. Kurama, the head scientist from th efacility where she escaped, has sent a merciless man, Bando, after her."
+},
+"42671|1|10": {
+"n": "Infant",
+"o": "Lucy and Nana start to fight, but Mayu stops them and Lucy turns back to Nyuu, hugging Kouta and telling him she likes him. Later, Kurama's past is revealed and so is more about the dicloniuses."
 },
 "42671|1|2": {
 "n": "Annihilation",
@@ -6148,6 +6316,10 @@
 "n": "Without Feathers",
 "o": "Alex plays matchmaker and sets Louis up with Hannah Mercury. Meanwhile, Ray gets a fancy new job and Alex falls in love with Hunter!"
 },
+"4289|4|18": {
+"n": "24 Hours",
+"o": "After coming to school like every day in her life, Alex notices that her parents, friends and teachers have started to act strangely. First she gets into detention with no reason and after escaping, everybody starts haunting her. But, what is really going on?"
+},
 "4289|4|2": {
 "n": "Green Day",
 "o": "When Robyn joins an environmental group the donut shop is threatened and Alex's friendship with Gloria is tested."
@@ -6216,12 +6388,20 @@
 "n": "Superman's Pal",
 "o": "Jimmy becomes known as Superman's pal, which although may sound cool at first, it certainly attracts lots of trouble to Jimmy."
 },
+"4303|3|9": {
+"n": "A Fish Story",
+"o": "Marine animals attack Metropolis because Lex Luthor has captured Aquaman."
+},
 "43186|3|17": {
 "n": "Episode 17",
 "o": ""
 },
 "43186|3|18": {
 "n": "Episode 18",
+"o": ""
+},
+"43186|3|20": {
+"n": "Episode 20",
 "o": ""
 },
 "4334|1|28": {
@@ -6263,6 +6443,10 @@
 "4334|2|5": {
 "n": "Hero Boy",
 "o": "Guitierrez returns with a device that could vaporize the entire world."
+},
+"4334|2|6": {
+"n": "A Matter of Love",
+"o": "Cosgrove's girlfriend takes up all his time and is a fire-breathing monster."
 },
 "4378|1|10": {
 "n": "Space Pen",
@@ -6392,6 +6576,10 @@
 "n": "To Sire, with Love  (2)",
 "o": "Max tries to test his and agent 99's relationship by dressing up like the king. In the mean time, the real king is kidnapped by KAOS. It is up to Max to rescue him."
 },
+"4455|4|22": {
+"n": "Shock It to Me",
+"o": "Dr. Erick Zharko and his assistant Bruce wire Max and 99 to a Dr. Frankenstein-like apparatus. Zharko figures that a jolt of his specially controlled electricity will shock Max and 99 into a five year sleep."
+},
 "4455|4|6": {
 "n": "The Worst Best Man",
 "o": "Each time Smart picks a best man for his upcoming wedding to Agent 99, the man meets with a mysterious accident. The Chief deducts that there must be a link between all of the accidents and KAOS because all of Max's prospects are fellow agents. To prevent further loss of manpower a t CONTROL, Hymie is appointed best man. KAOS then reveals it's true interest in Max's choice of best man - nearly to the extinction of CONTROL."
@@ -6451,6 +6639,10 @@
 "45116|1|1": {
 "n": "The King of Braves Is Born!",
 "o": "While on a field trip gone wrong, Mamoru has a chance encounter with the mechanical lion that delivered him to his parents eight years earlier."
+},
+"45116|1|2": {
+"n": "The Boy with Green Hair",
+"o": "After Mamoru stops Guy from crushing the enemy's core, the GGG scramble to make sense of the boy's actions while preparing for another attack."
 },
 "45140|1|10": {
 "n": "La Larva de Amor",
@@ -6563,6 +6755,10 @@
 "45194|2|18": {
 "n": "The Big Prophet",
 "o": "Friday and Gannon confront \"Brother\" William Bentley at his Temple of the Expanded Mind. They think he is using his new age religion as a front to push drugs to the nearby elementary school."
+},
+"45194|2|19": {
+"n": "The Big Amateur",
+"o": "Citizens are full of praise for Officer Gideon C. Dengle - they want to bestow him with awards, honors and home-baked cookies.  There's only one problem: there's no such officer in the LAPD."
 },
 "45194|2|5": {
 "n": "The Big Neighbor",
@@ -6932,6 +7128,10 @@
 "n": "Coma",
 "o": "Brak's father offers to help Thundercleese win the heart of his true love. Zorak burns things."
 },
+"481|3|3": {
+"n": "Shadows of Heat",
+"o": "Brak's father enlists the aid of a secret agent to pull off a caper."
+},
 "486|1|15": {
 "n": "Seek and Destroy",
 "o": "In a plot to kill the spectrum Angels, the Mysterons get into a thrilling mid-air dogfight with Melody, Rhapsody and Harmony."
@@ -7028,6 +7228,10 @@
 "n": "Mind Games",
 "o": "Terry has mysterious visions of a young girl asking him for help. His search for her leads him into confrontation with a group of people with incredible psychic powers known as the Brain Trust."
 },
+"513|2|11": {
+"n": "Revenant",
+"o": "When strange things start happening around the school, the students are quick to blame the ghost of Garrison Jacobs, a student who was killed during the construction of the school's new wing. Terry is suspicious but skeptical until Nelson, one of the jocks, interrupts a séance the girls are having for fun. Everything in the gym comes alive, threatening to kill Nelson until Terry intervenes as Batman. When popular cheerleader Blade later receives a mysterious message from the ghost, Terry begins to put the pieces together."
+},
 "513|2|2": {
 "n": "Earth Mover",
 "o": "Terry's friend Jackie, the foster daughter of wealthy industrialist Bill Wallace, is being stalked by a creature that can reform itself out of the earth and control the earth around it. When an attack reveals canisters of radioactive toxic waste from underground, Batman tries to find the connection between the creatures, Wallace, and Jackie's late father, Wallace's former partner."
@@ -7079,6 +7283,10 @@
 "5368|1|13": {
 "n": "Sale of Lassie",
 "o": "Jeff overhears the wrong conversation, and, thinking Gramps needs an expensive operation, attempts to sell Lassie to raise the money."
+},
+"5368|1|14": {
+"n": "The Rustlers",
+"o": "The calf Jeff is raising for the county fair vanishes the same night Lassie comes home injured and covered with mud--then she mysteriously starts chasing Ellen's car."
 },
 "5368|1|3": {
 "n": "The Colt",
@@ -7376,6 +7584,10 @@
 "n": "Assault on the Girls' Locker Room",
 "o": "Ranma is determined to infiltrate the Furinkan High girl's locker room when he gets a map from Ryoga that shows there's a old spring beneath it that can cure his curse. It proves harder than Ranma thought though, since the girls are on high alert due to the recent raids by Happosai."
 },
+"57706|1|35": {
+"n": "Kuno's House of Gadgets! Guests Check in, But They Don't Check Out",
+"o": "Ranma's found the first of the three magic urns needed to summon the spring. And where's the next one's hidden? Deep in the bowels of the Kuno estate, full of traps, tricks and hot and cold water..."
+},
 "57706|1|9": {
 "n": "True Confessions! A Girl's Hair is Her Life!",
 "o": "Akane's accidental haircut brings a temporary reprieve in Ranma and Ryoga's fighting. Stunned, she wanders off alone, thinking about the loss of the one thing that wasn't 'tomboyish' about her."
@@ -7512,6 +7724,10 @@
 "n": "Fool on the Ed",
 "o": "The Eds decide to play practical jokes on the neighborhood children."
 },
+"606|1|16": {
+"n": "A Boy and His Ed",
+"o": "The Eds try to befriend Kevin in order to gain access to his jawbreaker stash."
+},
 "606|1|17": {
 "n": "It's Way Ed",
 "o": "After missing a fad, Eddy decides to start a new one."
@@ -7567,6 +7783,10 @@
 "607|1|11": {
 "n": "Telephonies",
 "o": "The Ganggreen Gang gets hold of the Mayor's hotline to the Powerpuff Girls and makes prank calls, sending the Girls on a wild goose chase all over town. However, when it's the notorious villain's Mojo Jojo, Fuzzy, and Him that the gang disturbs, they learn the price of making prank calls."
+},
+"607|1|12": {
+"n": "Tough Love",
+"o": "The citizens of Townsville loves The Powerpuff Girls and its annoying Him, so Him turns everyone's love for the Powerpuff Girls into hate."
 },
 "607|1|3": {
 "n": "Insect Inside",
@@ -7624,6 +7844,10 @@
 "n": "How to Enlarge a Bedroom",
 "o": "After Lisa delivers an ultimatum, Oliver hires incompetent carpenters Alf and Ralph Monroe to enlarge the tiny bedroom. The Monroes have just begun moving the walls when the building inspector, the father of Eb's girlfriend, \"disapproves\" the project and condemns the whole house. Oliver is left with an open air bedroom without a roof."
 },
+"609|1|16": {
+"n": "Give Me Land, Lots Of Land",
+"o": "Lisa is against buying neighboring property owned by the Watsons until she see their farmhouse. Thinking the house is part of the deal, Lisa sells the Watsons' furniture to Mr. Haney and has their things brought over. All of this happens while Oliver is in New York arranging the financing."
+},
 "609|1|2": {
 "n": "Lisa's First Day On the Farm",
 "o": "Lisa gets her first look at their dilipidated--and empty--farmhouse and is horrified. Oily Mr. Haney, who previously owned the dump, took everything with him, including the bathroom fixtures, and tries to resell them to Oliver. Eb, one of Haney's workers, is hired on as their farm hand. Lisa goes out to meet the locals, most of whom have entered a pool wagering on how long the Douglases will stay. Lisa is ready to immediately return to New York, but after a chat with Kate Bradley, she decides to give farm life a try."
@@ -7663,6 +7887,10 @@
 "6223|1|10": {
 "n": "That's a Moray! (aka Skeleton Garden)",
 "o": "After an underwater photographer and her pet moray turn up, so do a couple of corpses."
+},
+"6223|1|11": {
+"n": "Fish out of Water",
+"o": "Flipper and Pam try to help a plane-crash survivor."
 },
 "6223|1|2": {
 "n": "Treasure Hunt",
@@ -7976,6 +8204,10 @@
 "n": "Trout!",
 "o": "Jim must seek the Fur-Bearin' trout and protect him from Queen-Slug-For-A-Butt's fur-powered death machine"
 },
+"6592|2|1": {
+"n": "The Origin of Peter Puppy",
+"o": "Jim has put up with Peter's monsterous alter-ego long enough, and seeks to cure him. However, the cure might turn Peter into a plain ol' dumb dog"
+},
 "6636|1|10": {
 "n": "The Capture (2)",
 "o": "Jake is acting pretty normal after falling into a Yeerk pool. The Animorphs keep Jake under close watch."
@@ -8088,6 +8320,10 @@
 "n": "The Final Battle",
 "o": "While the cyborgs are on the loose in Black Ghost headquarters, 009 has a final confrontation with Skull."
 },
+"69113|1|18": {
+"n": "Story of a Struggling Restaurant",
+"o": "In a rare time of peace, Chang Changku opens his own Chinese restaurant, but is a nervous wreck when a famous food critic drops by."
+},
 "69113|1|2": {
 "n": "The Escape",
 "o": "The 00 cyborgs are free, but fugitives from Black Ghost, the evil organization that created them."
@@ -8168,6 +8404,10 @@
 "n": "Gundamjack",
 "o": "In the prologue (set during the Battle of A Baoa Qu in December U.C.0079), Zeon ace pilot Anavel Gato returns from combat to find Admiral Aiguille Delaz telling him of the deaths of Gihren Zabi and Kycilia Zabi, as the Zeon forces surrender. Despite the shock defeat, both men retreat and plan the return of Zeon. In October U.C.0083, the Federation space carrier Albion delivers two Gundam Development Project (GDP) prototypes, the RX-78 GP01 Zephyranthes and the GP02A Physalis, to the Torrington Base in Australia for ground testing under the aegis of Anaheim Electronics engineer Nina Purpleton. Because of lax security, a Zeon mole helps Gato infiltrate the base and hijack the GP02 just after its nuclear weapon is loaded in the middle of the night. Having witnessed Gato activate the mobile suit, Ensign Kou Uraki takes over the Zephyranthes and prepares to face him just as Zeon forces assault the base."
 },
+"72677|1|10": {
+"n": "Colliding War Zones",
+"o": "Gato retreats after the nuclear strike destroys two-thirds of the Federation's fleet, but runs into Kou. As Nina breaks down watching them fight, both of their mobile suits take heavy damage and the pilots flee before they explode. Meanwhile, Cima's fleet hijacks two colonies in transport and later blow off one mirror each from them. When the Albion crew is informed of the colonyjack, Nina correctly theorizes that the colonies will crash into each other, with one in direct course for the Moon. She also reveals the existence of a third Gundam built under the GDP."
+},
 "72677|1|2": {
 "n": "Endless Pursuit",
 "o": "Kou, his friend Chuck Keith, and veterans South Burning and Dick Allen follow Gato through the outback in an attempt to recapture the Physalis. Zeon forces ambush them and kill Allen as Gato awaits a Komusai shuttle for extraction. Kou destroys the shuttle but it is actually a diversion - Gato escapes on a submarine that provided covering fire during the Torrington base attack."
@@ -8195,6 +8435,10 @@
 "72677|1|8": {
 "n": "Conspiracy Sector",
 "o": "A few days out of Von Braun, Burning continues to train Kou and Keith, who later eggs him to try giving Nina a chance. Keith also earns Mora's ire for showing him Monsha's private collection of Nina pictures. A resupply rendezvous by a Federation ship is cut short as the Albion detects the Federation flagship Birmingham, with General Green Wyatt aboard - meeting with Cima. In the midst of the ensuing battle, Burning retrieves a briefcase that contains files for something called \"Operation Stardust\" and talks with Kou about them. However, a minor hit on Burning's GM Custom during the battle turns fatal, as the mobile suit careens out of control and explodes. Uraki is promoted to junior lieutenant as the crew mourns Burning's death."
+},
+"72677|1|9": {
+"n": "The Nightmare of Solomon",
+"o": "Kou and Keith continue to fight Zeon forces while on patrol near Konpeitoh (Solomon). As Delaz welcomes the Axis Advance Fleet into the Earth Sphere, Gato prepares for his own part of an attack on Konpeitoh, which is hosting the Naval Review. The Delaz Fleet keeps probing the Federation defenses, keeping Kou occupied. A defense satellite detects Gato breaking through another sector and Uraki is ordered to intercept him before he crashes the Review. He fails to get to Gato in time, as the Zeon pilot fires the GP02's MK82 nuclear bazooka at the Federation fleet with the Birmingham in the center of his sights."
 },
 "7330|1|3": {
 "n": "Secrets and Lies",
@@ -8263,6 +8507,10 @@
 "82|1|113": {
 "n": "Useless Fact",
 "o": "Bridging segments: Yakko reveals pieces of completely useless information."
+},
+"82|1|117": {
+"n": "Mary Tyler Dot Song",
+"o": "Dot stars in a parody of the \"Mary Tyler Moore\" show opening sequence."
 },
 "82|1|87": {
 "n": "Very Special Opening",
@@ -8340,6 +8588,10 @@
 "n": "A Night of Fright is No Delight",
 "o": "Scooby-Doo inherits a mansion after saving Colonel Beauregard Sanders from drowning some years ago. He and some other heirs will each get a fortune if they stay the night but there's a warning that the house is haunted. The warning appears justified when someone (or something) comes to frighten the heirs away."
 },
+"926|1|17": {
+"n": "That's Snow Ghost",
+"o": "While on vacation in the Himalayas, the gang goes to a winter lodge where the owner tells them about the ghost of a Yeti that is out to get revenge on the man that caused his death and will turn anyone into ghosts."
+},
 "926|1|2": {
 "n": "A Clue for Scooby-Doo",
 "o": "While Scooby-Doo is surfing, he encounters a creature in a diving suit. An old sea salt tells the gang that it's the ghost of Captain Cutler who is responsible for the disappearance of many ships."
@@ -8371,6 +8623,10 @@
 "926|1|9": {
 "n": "The Backstage Rage",
 "o": "While coming home from getting pizza, Shaggy finds a violin case full of money. While calling the gang Scooby-Doo goes to help an injured poodle and the money is taken. The gang suspects that the money was fake."
+},
+"926|2|1": {
+"n": "Nowhere to Hyde",
+"o": "While driving back from the movies, the gang finds a strange man in the back of the Mystery Machine. They recognize it as the ghost of Mr. Hyde who is a jewel thief. They follow him to a house where they meet a descendent of Dr. Jekyll who claims to be the ghost of Hyde, but is he telling the truth?"
 },
 "926|2|5": {
 "n": "Haunted House Hang-Up",
@@ -8428,6 +8684,10 @@
 "n": "Revelations: Apocalypse (3)",
 "o": "Nightscream fights to retrieve Blackarachnia's stolen Spark. Meanwhile, Optimus is able to contact Rhinox's Spark, but Rhinox deals him a major surprise."
 },
+"932|2|1": {
+"n": "Fallout",
+"o": "Having destroyed his world, Optimus must face the consequences before The Matrix."
+},
 "958|1|1": {
 "n": "Beast Wars (1)",
 "o": "A band of benevolent Maximals follows a pack of power-seeking Predacons to a new planet."
@@ -8451,6 +8711,10 @@
 "962|1|1": {
 "n": "The Mystery of the Lizard Men",
 "o": "While investigating the disappearance of multiple ships in the Sargasso Sea, Dr. Quest discovers a secret laser base (operated by a foreign provocateur and protected by lizard-suited scuba divers) hidden aboard an 18th-century shipwreck."
+},
+"962|1|10": {
+"n": "Shadow of the Condor",
+"o": "After an emergency landing in the Andes Mountains, Race is challenged to an aerial dogfight by Baron Heinrich von Frohleich, an old German fighter ace of World War I fame (who keeps a collection of vintage aircraft at his Bavarian-style castle in South America). The Baron's machine guns, however, are loaded — Race's are not."
 },
 "962|1|2": {
 "n": "Arctic Splashdown",
@@ -8594,6 +8858,10 @@
 "nm": "",
 "ov": ""
 },
+"12 oz mouse|2|3": {
+"nm": "",
+"ov": ""
+},
 "2 stupid dogs|1|14": {
 "nm": "",
 "ov": ""
@@ -8689,6 +8957,10 @@
 "adventures of superman|4|2": {
 "nm": "",
 "ov": ""
+},
+"adventures of superman|4|3": {
+"nm": "The Big Freeze",
+"ov": "Dishonest politician Duke Taylor (George E. Stone) and his henchman Little Jack (Richard Reeves) conspire with crooked Dr. Watts (Rolfe Sedan) to rid Metropolis of Superman (George Reeves) just before an important election. Luring..."
 },
 "alfred hitchcock presents|4|10": {
 "nm": "Tea Time",
@@ -8814,6 +9086,10 @@
 "nm": "",
 "ov": ""
 },
+"animaniacs|1|117": {
+"nm": "",
+"ov": ""
+},
 "animaniacs|1|94": {
 "nm": "",
 "ov": ""
@@ -8898,6 +9174,10 @@
 "nm": "Mind Games",
 "ov": "A young girl with telepathic powers calls to Batman for help."
 },
+"batman beyond|2|11": {
+"nm": "Revenant",
+"ov": "McGinnis' high school seems to be haunted by a poltergeist."
+},
 "batman beyond|2|4": {
 "nm": "Lost Soul",
 "ov": "When a digitized consciousness of a deceased computer genius is revived, it starts causing havoc throughout the city before it decides to take over the systems of Terry's batsuit next."
@@ -8966,6 +9246,10 @@
 "nm": "The Laughing Fish",
 "ov": "The Joker becomes enraged when the Gotham copyright office rejects his demand for a copyright for his grinning Joker fish."
 },
+"batman the animated series|1|47": {
+"nm": "Harley and Ivy",
+"ov": "Harley Quinn teams up with Poison Ivy and both become the Queens of Crime, after the Joker and Batman find out."
+},
 "batman the animated series|1|49": {
 "nm": "The Man Who Killed Batman",
 "ov": "Sidney Debris, a small-time mobster, earns the hatred of all of Batman's enemies when he claims to have accidentally killed Batman during a brawl."
@@ -9017,6 +9301,10 @@
 "beast machines|1|9": {
 "nm": "Revelations Part 3: Apocalypse",
 "ov": "Nightscream fights to retrieve Black Arachnia's stolen Spark. Meanwhile, Optimus is able to contact Rhinox's Spark, but Rhinox deals him a major surprise."
+},
+"beast machines|2|1": {
+"nm": "Fallout",
+"ov": "Having destroyed his world, Optimus must face the consequences before The Matrix."
 },
 "beast wars|1|1": {
 "nm": "Beast Wars: Part 1",
@@ -9122,6 +9410,10 @@
 "nm": "Electric City",
 "ov": "Mysterious power outages have been happening all over the city. Roger is hired by Casey Jenkins to convince the people that isn't the work of some angry god do he can reactivate the hydroelectric plant."
 },
+"big o|1|4": {
+"nm": "Underground Terror",
+"ov": "Journalist Michael Seebach has been missing for three months and his secretary, Angel, hires Roger to find his missing manuscript. However, as Roger investigates, he learns there is more to the reporter than initially presumed."
+},
 "blue s clues|3|19": {
 "nm": "Blue's Play",
 "ov": "We're putting on a play in the living room and everyone has a part -- Steve is the mouse, Blue is the hippo and we are the cow! Only we're not sure how the play should end, so we play Blue's Clues to figure it out."
@@ -9162,7 +9454,15 @@
 "nm": "Stormy Weather",
 "ov": "Steve and Blue are getting ready for their nature walk -- but first we have to check the weather. We play Blue's Clues to figure out what kind of weather Blue thinks is coming."
 },
+"blue s clues|3|29": {
+"nm": "Shy",
+"ov": "Blue is feeling shy, so we play Blue's Clues to figure out what she is feeling shy about. Along the way, we meet Pail's friend Sifter and Miranda, who lives with Magenta. We help Shovel figure out how to play with Sifter."
+},
 "captain america|1|3": {
+"nm": "",
+"ov": ""
+},
+"captain america|1|4": {
 "nm": "",
 "ov": ""
 },
@@ -9390,6 +9690,10 @@
 "nm": "",
 "ov": ""
 },
+"cow and chicken|2|5": {
+"nm": "",
+"ov": ""
+},
 "cowboy bebop|1|22": {
 "nm": "Cowboy Funk",
 "ov": "A serial bomber is trying to blow up skyscrapers, but Spike is more concerned about an American Western-styled cowboy on horseback that hinders his attempts to catch the bounty."
@@ -9482,6 +9786,10 @@
 "nm": "",
 "ov": ""
 },
+"dexter s laboratory|2|94": {
+"nm": "",
+"ov": ""
+},
 "digimon adventure|1|37": {
 "nm": "Kanzentai Sô-shingeki! Kirameku Enjiwomon",
 "ov": "Hikari gets her DigiDevice, but while doing so Wizardmon sacrifices himself. Because of that experience, Gatomon transforms into Angewomon"
@@ -9569,6 +9877,10 @@
 "dragnet 1967|2|18": {
 "nm": "The Prophet",
 "ov": "Gannon and Friday visit a self-described guru who advocates mind-expansion through drugs. Brother William is suspected of giving or selling LSD to minors. The detectives debate their ideas of drug use with the suspect."
+},
+"dragnet 1967|2|19": {
+"nm": "The Big Amateur",
+"ov": "The police department starts to get calls of praise for Officer Dengle who has been helpful and gone above the call of duty. Since there is no Officer Dengle, Friday and Gannon track down the person impersonating an officer."
 },
 "dragnet 1967|2|5": {
 "nm": "The Big Neighbor",
@@ -10034,9 +10346,17 @@
 "nm": "",
 "ov": ""
 },
+"dragon ball z|5|19": {
+"nm": "",
+"ov": ""
+},
 "dragon ball z|5|2": {
 "nm": "Black Fog of Terror",
 "ov": "The Black Water Mist begins to infect some of the Z-Fighters."
+},
+"dragon ball z|5|20": {
+"nm": "",
+"ov": ""
 },
 "dragon ball z|5|3": {
 "nm": "Battle in Kami's Lookout",
@@ -10190,6 +10510,10 @@
 "nm": "",
 "ov": ""
 },
+"dragon ball|2|17": {
+"nm": "",
+"ov": ""
+},
 "dragon ball|2|2": {
 "nm": "",
 "ov": ""
@@ -10274,6 +10598,10 @@
 "nm": "Trout!",
 "ov": "Jim and Peter embark on a road trip to find The Legendary Giant Fur-Bearin' Trout. But when Queen Pulsating Bloated Festering Sweaty Pus-Filled Malformed Slug-for-a-Butt receives a weapon powered by fish hair, Jim, the Queen and P..."
 },
+"earthworm jim|2|1": {
+"nm": "The Origin of Peter Puppy",
+"ov": "Jim, having had enough of Peter's deadly tantrums, sets about finding away to cure his transformation problems. The quest leads us back to how and why Peter is so intelligent."
+},
 "ed edd n eddy|1|10": {
 "nm": "Laugh, Ed, Laugh/It's Way Ed",
 "ov": "Eddy literally begins to lose his marbles when all kids are down from a chicken pox. No kids, no schemes for Eddy./ Ed, Edd and Eddy come up with their own fad, called Fad Freaky."
@@ -10291,6 +10619,10 @@
 "ov": ""
 },
 "ed edd n eddy|1|15": {
+"nm": "",
+"ov": ""
+},
+"ed edd n eddy|1|16": {
 "nm": "",
 "ov": ""
 },
@@ -10337,6 +10669,10 @@
 "elfen lied|1|1": {
 "nm": "Encounter",
 "ov": "After escaping from her prison in a bloody rampage, murderous diclonious Lucy is shot in the head. She survives, but suffers brain damage, causing her to become harmless and baby-ish. Two university students find her and decide to..."
+},
+"elfen lied|1|10": {
+"nm": "Suckling",
+"ov": "Kurama remembers his past. After graduating college, professor Kakuzawa offers him a chance at top secret research. While at the offshore facility, Kurama witnesses first-hand the terror of the diclonius."
 },
 "elfen lied|1|2": {
 "nm": "Wipe Out",
@@ -10403,6 +10739,10 @@
 "ov": "Jane's cousin helps O'Rourke replace the F Troop pension fund by entering a poker game."
 },
 "family double dare|3|18": {
+"nm": "",
+"ov": ""
+},
+"family double dare|3|20": {
 "nm": "",
 "ov": ""
 },
@@ -10622,11 +10962,19 @@
 "nm": "",
 "ov": ""
 },
+"flipper 1964|3|8": {
+"nm": "Whale Ahoy",
+"ov": "Bud has an essay to write about whale-hunting. While thinking about it he goes to sleep in his skiff and has a strange dream. Before his eyes, Captain Peabody is about to harpoon the animal but the whale flips the skiff over."
+},
 "flipper 1995|1|1": {
 "nm": "Pilot",
 "ov": "Dr. Pam Blondel, a U.S. Navy officer, is hired to join Dr. Ricks' dolphin research team, but her son isn't happy to be living in remote Bal Harbor."
 },
 "flipper 1995|1|10": {
+"nm": "",
+"ov": ""
+},
+"flipper 1995|1|11": {
 "nm": "",
 "ov": ""
 },
@@ -10782,6 +11130,10 @@
 "nm": "Hero Boy",
 "ov": "Guitierrez returns with a device that could vaporize the entire world."
 },
+"freakazoid|2|6": {
+"nm": "A Matter of Love",
+"ov": "Cosgrove's girlfriend takes up all his time and is a fire-breathing monster."
+},
 "fullmetal alchemist|1|45": {
 "nm": "A Rotted Heart",
 "ov": "The confrontation between Hohenheim and the leader of the Homonculi continues, and we finally discover the \"truth behind truths.\" As Al receives a mysterious phone call, Ed proves he will do whatever it takes to stop the Homunculi..."
@@ -10846,6 +11198,10 @@
 "nm": "Powerful Enemy! Chapman's Heroic Challenge",
 "ov": "Domon tries to defeat Neo England Gundam Fighter, Gentle Chapman to enjoys cheating in his Gundam fights."
 },
+"gaogaigar|1|2": {
+"nm": "",
+"ov": ""
+},
 "garfield and friends|1|20": {
 "nm": "",
 "ov": ""
@@ -10861,6 +11217,10 @@
 "gasaraki|1|1": {
 "nm": "Ishi butai",
 "ov": "The SSDF's TAs fight against the mysterious TAs that have been supporting Belgistan, and the whole world watches as war journalist Ronald Feigen catches it on camera."
+},
+"gasaraki|1|2": {
+"nm": "Jo no mai",
+"ov": "As the United Nations pushes for a response to the Belgistani saber-rattling, the Gowa Corporation seeks to demonstrate the power of Tactical Armors to the modern militaries in hopes for widescale adoption."
 },
 "get smart 1965|4|10": {
 "nm": "The Laser Blazer",
@@ -10910,6 +11270,10 @@
 "nm": "To Sire, with Love: Part 2",
 "ov": "The King of Caronia, Max's double, is in Washington staying with the Smarts. Even his wife 99 can't tell them apart."
 },
+"get smart 1965|4|22": {
+"nm": "Shock It to Me",
+"ov": "Electronic equipment shipments by truck are being stolen by those who are listed as deceased. Can KAOS bring back its agents for an encore performance?"
+},
 "get smart 1965|4|8": {
 "nm": "The Return of the Ancient Mariner",
 "ov": "With an attempt to kidnap Admiral Hardgrade in the works, Max has him stay in his apartment."
@@ -10945,6 +11309,10 @@
 "green acres|1|15": {
 "nm": "How to Enlarge a Bedroom",
 "ov": "Alf and Ralph begin work on the bedroom but their work gets condemned."
+},
+"green acres|1|16": {
+"nm": "",
+"ov": ""
 },
 "green acres|1|2": {
 "nm": "",
@@ -10991,6 +11359,10 @@
 "ov": ""
 },
 "gullah gullah island|1|10": {
+"nm": "",
+"ov": ""
+},
+"gullah gullah island|1|11": {
 "nm": "",
 "ov": ""
 },
@@ -11170,6 +11542,10 @@
 "nm": "",
 "ov": ""
 },
+"gumby adventures|1|22": {
+"nm": "Cottage for Granny",
+"ov": "Gumby and his friends as they build a cottage for Granny. The gang realizes that Granny doesn't have a place to stay and decide to surprise her with a cozy new cottage."
+},
 "gumby adventures|1|4": {
 "nm": "",
 "ov": ""
@@ -11222,6 +11598,10 @@
 "nm": "Gundamjack",
 "ov": "The Gundam model GP02 is stolen by Gato and Kou Uraki gets in the RX-78GP01 Gundam model and goes aster him to get it back."
 },
+"gundam 0083|1|10": {
+"nm": "Colliding War Zones",
+"ov": "With the Federal Fleet devastated, Kou's and Gato's Gundams engage each other in a fierce showdown."
+},
 "gundam 0083|1|2": {
 "nm": "Endless Pursuit",
 "ov": "Kou and his Mobile Suit squad are tasked with tracking the stolen Gundam in rocky shores before Gato can make his escape."
@@ -11249,6 +11629,14 @@
 "gundam 0083|1|8": {
 "nm": "Conspiracy Sector",
 "ov": "Lt Burning returns to combat duty and discovers the plans for Operation Stardust in a pitched battle."
+},
+"gundam 0083|1|9": {
+"nm": "The Nightmare of Solomon",
+"ov": "As the Albion defends Federation's Naval Review, Gato launches a deadly attack."
+},
+"harvey birdman|1|1": {
+"nm": "Bannon Custody Case",
+"ov": "Race Bannon ends his longtime association with Dr. Benton Quest and sues for custody of Jonny and Hadji. Harvey, as always, takes the case."
 },
 "hey arnold|1|33": {
 "nm": "",
@@ -11389,6 +11777,14 @@
 "home movies|4|6": {
 "nm": "Psycho-Delicate",
 "ov": "Brendon, Melissa and Jason do a Hitchcock film for a contest at the local video store. And McGuirk has the perfect blonde bombshell -- a waitress at the local diner that he's intent on picking up."
+},
+"home movies|4|7": {
+"nm": "Curses",
+"ov": "Brendon gets in trouble for making a movie about a foul-mouthed robot, and Paula gets out the curse jar. Meanwhile, Melissa gets jealous when her dad, Erik, wants to date a woman from his journal writing class."
+},
+"i am weasel|4|11": {
+"nm": "The Sackless Games",
+"ov": "Lance Sackless (the Red Guy) creates his own athletic games, with Weasel and I.R. as his only contestants."
 },
 "i am weasel|4|2": {
 "nm": "I Am Clichéd",
@@ -11638,6 +12034,10 @@
 "nm": "Arabian Nights",
 "ov": "Inspector Gadget battles in the deserts of Yetzanistand to stop M.A.D. agent, Fast Adbul, from stealing the sacred scimitar from Prince Abar. Safety Tip: Adjust eating habits when in the sun, avoid dehydration, drink plenty of liq..."
 },
+"inspector gadget|1|32": {
+"nm": "",
+"ov": ""
+},
 "inspector gadget|1|4": {
 "nm": "Gadget at the Circus",
 "ov": "The M.A.D. agents trying to destroy the circus are no match for Inspector Gadget, Penny and Chief Quimby."
@@ -11706,9 +12106,17 @@
 "nm": "",
 "ov": ""
 },
+"johnny bravo|3|34": {
+"nm": "",
+"ov": ""
+},
 "johnny bravo|3|35": {
 "nm": "",
 "ov": ""
+},
+"jonny quest|1|10": {
+"nm": "Shadow of the Condor",
+"ov": "The Quests make an emergency landing in the Andeas where a German World War I ex-fighter pilot wants to take on and kill Race in an aerial dogfight."
 },
 "jonny quest|1|3": {
 "nm": "The Curse of Anubis",
@@ -11829,6 +12237,10 @@
 "lassie 1954|1|13": {
 "nm": "Sale of Lassie",
 "ov": "When Gramps has back problems, Jeff thinks Gramps will die if he does not have an operation the family can not afford and begins a twenty mile hike to Creston to sell Lassie to Porky's cousin to get the operation money."
+},
+"lassie 1954|1|14": {
+"nm": "The Rustlers",
+"ov": "Gramps and Ellen think that Lassie has developed a bad habit of chasing vehicles but Jeff's discovery about the selectivity of what Lassie chases uncovers an illegal cattle slaughtering operation."
 },
 "lassie 1954|1|3": {
 "nm": "The Colt",
@@ -12230,6 +12642,10 @@
 "nm": "Senjo no Hiroin",
 "ov": "Sally is captured by OZ, but is able to hide the Wing Gundam until Noin arrives and helps her recover it. Relena, now leader of the Sanc Kingdom, clashes ideals with Dorothy Catalonia, a new transfer student and granddaughter of D..."
 },
+"mobile suit gundam wing|1|3": {
+"nm": "",
+"ov": ""
+},
 "mobile suit gundam wing|1|30": {
 "nm": "",
 "ov": ""
@@ -12363,6 +12779,10 @@
 "ov": ""
 },
 "monster rancher|3|21": {
+"nm": "",
+"ov": ""
+},
+"monster rancher|3|22": {
 "nm": "",
 "ov": ""
 },
@@ -12593,6 +13013,10 @@
 "nadia the secret of blue water|1|25": {
 "nm": "The First Kiss",
 "ov": "Because Nadia has stolen food from their camp, all they have left to eat is meat. Nadia refuses to cooperate and declares instead to starve. Later she becomes desperate and finds a can of spinach"
+},
+"nadia the secret of blue water|1|26": {
+"nm": "King, the Lonely Lion",
+"ov": "Nadia spends a whole day being romantic with Jean, culminating with another kiss under the stars"
 },
 "nadia the secret of blue water|1|3": {
 "nm": "The Riddle of the Giant Sea Monsters",
@@ -13202,6 +13626,10 @@
 "nm": "",
 "ov": ""
 },
+"sailor moon|4|11": {
+"nm": "",
+"ov": ""
+},
 "sailor moon|4|2": {
 "nm": "",
 "ov": ""
@@ -13390,6 +13818,10 @@
 "nm": "A Night of Fright Is No Delight",
 "ov": "An eccentric colonel leaves part of his fortune to Scooby Doo on the condition that he spend the night in a castle haunted by green phantoms."
 },
+"scooby doo where are you|1|17": {
+"nm": "That's Snow Ghost",
+"ov": "The ghost of the Yeti interrupts the gang's skiing trip."
+},
 "scooby doo where are you|1|2": {
 "nm": "A Clue for Scooby Doo",
 "ov": "The kids suspect an old ghost in a green-glowing sea-diver suit is connected with the disappearance of several boats."
@@ -13421,6 +13853,10 @@
 "scooby doo where are you|1|9": {
 "nm": "The Backstage Rage",
 "ov": "Scooby and Shaggy find a violin case filled with counterfeit money. The gang's search for clues to this mystery leads them to a puppet theater--and a sinister puppet master."
+},
+"scooby doo where are you|2|1": {
+"nm": "Nowhere to Hyde",
+"ov": "The gang discovers the ghost of Mr. Hyde in the Mystery Machine."
 },
 "sealab 2021|4|10": {
 "nm": "Sharko's Machine",
@@ -13515,6 +13951,10 @@
 "ov": ""
 },
 "shin chan|1|12": {
+"nm": "",
+"ov": ""
+},
+"shin chan|1|13": {
 "nm": "",
 "ov": ""
 },
@@ -13670,6 +14110,14 @@
 "nm": "",
 "ov": ""
 },
+"space ghost|1|21": {
+"nm": "Episode #1.21",
+"ov": ""
+},
+"space ghost|1|22": {
+"nm": "",
+"ov": ""
+},
 "space ghost|1|23": {
 "nm": "",
 "ov": ""
@@ -13754,6 +14202,10 @@
 "nm": "",
 "ov": ""
 },
+"starship troopers|1|11": {
+"nm": "",
+"ov": ""
+},
 "starship troopers|1|3": {
 "nm": "Maria",
 "ov": ""
@@ -13793,6 +14245,10 @@
 "static shock|3|12": {
 "nm": "Flashback",
 "ov": "Static and Gear meet Timezone, a girl with the power to travel through time. Static conceives a plan to travel back five years to the riots in which his mother died."
+},
+"static shock|3|13": {
+"nm": "Blast from the Past",
+"ov": "Soul Power, a hero from the 1960s, calls on Static for help when Dakota is threatened by his old enemy Professor Menace."
 },
 "static shock|3|5": {
 "nm": "",
@@ -13934,6 +14390,10 @@
 "nm": "Superman's Pal",
 "ov": "Jimmy Olsen finds his life complicated when his friendship with Superman publicly blows out of proportion."
 },
+"superman the animated series|3|9": {
+"nm": "A Fish Story",
+"ov": "Lois and Jimmy investigate a series of bizarre marine animal attacks."
+},
 "taxi|3|12": {
 "nm": "",
 "ov": ""
@@ -14022,6 +14482,10 @@
 "nm": "",
 "ov": ""
 },
+"tenchi universe|1|8": {
+"nm": "",
+"ov": ""
+},
 "the adventures of pete pete|1|1": {
 "nm": "The King of the Road",
 "ov": "The Wrigleys' annual trip to the Hoover Dam turns into a competition with another family. Don, who wants to keep his title as \"King Of The Road\", tries to beat them there, but his efforts are threatened by frequent bathroom breaks..."
@@ -14029,6 +14493,10 @@
 "the adventures of pete pete|1|2": {
 "nm": "Day of the Dot",
 "ov": "When their school marching band is invited to the Regional Championship Ellen is picked to be the dot in the \"i\" of \"Squid.\" Big Pete takes it upon himself to free the band and Ellen from Mr. Markle's \"full frontal mind meld.\" Mea..."
+},
+"the adventures of pete pete|1|3": {
+"nm": "The Nightcrawlers",
+"ov": "Believing that his early bedtime has resulted in countless hours of lost fun, Little Pete defies the International Adult Conspiracy by attempting to stay up 11 days in a row."
 },
 "the adventures of pete pete|3|10": {
 "nm": "Pinned",
@@ -14178,6 +14646,10 @@
 "nm": "",
 "ov": ""
 },
+"the brak show|3|3": {
+"nm": "",
+"ov": ""
+},
 "the busy world of richard scarry|1|26": {
 "nm": "",
 "ov": ""
@@ -14267,6 +14739,10 @@
 "ov": ""
 },
 "the lucy show|5|1": {
+"nm": "",
+"ov": ""
+},
+"the lucy show|5|10": {
 "nm": "",
 "ov": ""
 },
@@ -14362,6 +14838,10 @@
 "nm": "The Unregistered Nurse",
 "ov": "The latest object of Dobie's affections is the slightly older Valerie Brown, a nurse receptionist at Dr. Simpson's medical practice. Valerie believes Dobie is a sweet and harmless teenager, she who humors his obvious come-ons. As none of his ploys on Valerie work, Dobie feels he needs to get a little underhanded and play on Valerie's sympathies by feigning an illness, symptoms which he believes he can fool both Valerie and Dr. Simpson into believing he has. He needs to use a slightly different tactic to convince his parents that he's sick. Dobie finds that his medical check-up isn't quite as easy and straightforward as he thought it was going to be. He has to do a little more underhanded work to make sure his tests come back the way he wants. Other problems for Dobie in this matter are his chosen illness which is a little more serious than he believed, and an issue unknown to him specifically about Valerie's personal life."
 },
+"the many loves of dobie gillis|1|36": {
+"nm": "The Long Arm of the Law",
+"ov": "After getting into a bit with a disgruntled police officer over picking flowers in the park Dobie goes to visit his new date that just so happens to be the officer's daughter."
+},
 "the mary tyler moore show|6|10": {
 "nm": "",
 "ov": ""
@@ -14446,6 +14926,10 @@
 "nm": "Hot Rod Herman",
 "ov": "Eddie tells his friend Sandy Baylor that his father can beat Mr. Baylor at the Mockingbird Heights drag strip. Instead, Herman ends up losing the Munsters Koach on a bet. Determined to win it back, Grandpa constructs his own roadster, the Drag-u-la, to beat 'Leadfoot' Baylor at his own game and win back the family's beloved Koach."
 },
+"the munsters|1|37": {
+"nm": "Herman's Raise",
+"ov": "Herman's fired because he asks for a raise."
+},
 "the mysterious cities of gold|1|35": {
 "nm": "The Olmec Machine",
 "ov": "Esteban, Zia and Tao are waiting outside the base when Gaspard and Gomez take them by surprise and demand to be taken to the Cities of Gold. Meanwhile, Wanacocha arrives to announce their victory to Mendoza, but the latter becomes..."
@@ -14514,6 +14998,10 @@
 "nm": "",
 "ov": ""
 },
+"the patty duke show|2|32": {
+"nm": "Patty the Folk Singer",
+"ov": "Even though her father forbids it, Patty wants to be a folk singer at the local coffee house. And brings Richard along as her manager."
+},
 "the phil silvers show|4|10": {
 "nm": "Bilko and the Chaplain",
 "ov": "Bilko is sent to San Francisco & the Col. asks the Chaplain to accompany him. The Chaplain takes Bilko to see his pet project - a center for military kids. Bilko realizes that the Chaplain has been duped by a crooked real estate dealer."
@@ -14537,6 +15025,10 @@
 "the powerpuff girls|1|11": {
 "nm": "Just Another Manic Mojo/Mime for a Change",
 "ov": "In \"Just Another Manic Mojo\", Mojo Jojo's morning routine is disrupted by the Powerpuff Girls when their ball that they are playing with ends up in his lair. Mojo then uses this opportunity to try and eliminate his nemeses for goo..."
+},
+"the powerpuff girls|1|12": {
+"nm": "The Rowdyruff Boys",
+"ov": "Mojo Jojo is so outraged at his constant defeats against the Powerpuff Girls that he decides to beat them at their own games, by creating The Rowdyruff Boys, who prove superior fighters to the girls."
 },
 "the powerpuff girls|1|3": {
 "nm": "Octi Evil/Geshundfight",
@@ -14605,6 +15097,14 @@
 "the real adventures of jonny quest|2|10": {
 "nm": "Ghost Quest",
 "ov": "Jonny, Jessie and Hadji stumble upon a tragic island."
+},
+"the real adventures of jonny quest|2|11": {
+"nm": "Nuclear Netherworld",
+"ov": "On a visit to Jonny's grandfather's ranch, the kids discover a uranium mine hidden beneath a biodome."
+},
+"the real adventures of jonny quest|2|12": {
+"nm": "Eclipse",
+"ov": "Hadja falls under the spell of a beautiful New Orleans girl."
 },
 "the real adventures of jonny quest|2|3": {
 "nm": "",
@@ -14677,6 +15177,10 @@
 "the secret world of alex mack|4|17": {
 "nm": "Without Feathers",
 "ov": "Alex plays matchmaker for Louis and sets up a date between him and Hannah Mercury, with Alex and Hunter tagging along. Ray, on the other hand, is occupied with his new job at a fancy restaurant."
+},
+"the secret world of alex mack|4|18": {
+"nm": "24 Hours",
+"ov": "Alex becomes suspicious when everybody in town seems to know something about her that she doesn't. Has somebody discovered her secret powers? Alex isn't sure, but she intends to find out."
 },
 "the secret world of alex mack|4|2": {
 "nm": "Green Day",
@@ -14770,6 +15274,10 @@
 "nm": "",
 "ov": ""
 },
+"the world of david the gnome|1|7": {
+"nm": "",
+"ov": ""
+},
 "thundercats|1|10": {
 "nm": "Mandora: The Evil Chaser",
 "ov": "Lion-O helps Mandora, an interstellar police officer, retrieve three of the worst criminals in the galaxy after he accidentally releases them."
@@ -14855,6 +15363,10 @@
 "ov": ""
 },
 "what a cartoon|1997|9": {
+"nm": "",
+"ov": ""
+},
+"what a cartoon|1|1": {
 "nm": "",
 "ov": ""
 },
@@ -15019,6 +15531,10 @@
 "ov": ""
 },
 "yuyu hakusho|4|3": {
+"nm": "",
+"ov": ""
+},
+"yuyu hakusho|4|4": {
 "nm": "",
 "ov": ""
 },
@@ -15368,6 +15884,7 @@
 "The Patty Duke Show": "The Patty Duke Show is an American sitcom which ran on ABC from September 18, 1963 to April 27, 1966, with reruns airing through August 31, 1966. The show was created as a vehicle for rising star Patty Duke. A total of 104 episodes were produced, most written by Sidney Sheldon.",
 "The Real Adventures of Jonny Quest": "The Real Adventures of Jonny Quest is an American animated action-adventure television series.",
 "The Ren & Stimpy Show": "Ren and Stimpy are a mismatch made in animation heaven with nothing in common but a life-long friendship and an incredible knack for getting into trouble. Join them in their bizarre and gross world for some outlandish situations coupled with hilarious jokes.",
+"The Return Of Cooler": "Cooler has resurrected himself as a robot and is enslaving the people of New Namek. Goku and the gang must help.",
 "The Rocky and Bullwinkle Show": "A variety show, with the main feature being the serialized adventures of the two title characters, the anthropomorphic moose Bullwinkle and flying squirrel Rocky. The main adversaries in most of their adventures are the Russian-like spies Boris Badenov and Natasha Fatale. Supporting segments include Dudley Do-Right, Peabody's Improbable History, and Fractured Fairy Tales, among others.",
 "The Secret World of Alex Mack": "Thanks to a dousing in a top-secret chemical from an overturned truck, teenager Alex Mack is given amazing powers that make her the envy of her sister and best friend... and the target of a search by the chemical company, which wants to find her at all costs.",
 "The Tick": "In a world where superheroes have been real for decades, an accountant with zero powers comes to realize his city is owned by a super villain. As he struggles to uncover this conspiracy, he falls in league with a strange blue superhero.",
@@ -18708,6 +19225,14 @@
 "n": "Getting Played",
 "o": "Yugi keeps having reoccurring nightmare of being attacked by a shadowy being with many arms. When Yugi wakes up and heads off to school, he wonders where his Grandpa could be as he had gone on a secret expedition a week earlier and had not returned yet.\r\nJoey ends up winning a trip to India and invites Yugi, Téa and Tristan to come along. On their way to India, their plane crashes and they decide to look around the area while the pilots wait for help to arrive. They come across Dr. Alex Brisbane, a colleague of Yugi’s grandfather, Solomon Motto. He tells the gang that Solomon has disappeared and shows them a giant pyramid that they had been exploring together. Dr. Brisbane leads the gang to a giant map where Joey steps on it and disappears. Yugi, Téa, and Tristan go after Joey and find themselves transported into another world with devices on their arms and belts around their wastes. All of a sudden, Yugi, Téa, and Tristan are ambushed by Gokibore and a Kamakiriman and become separated in the frenzy. After gaining Celtic Guardian and using him to defeat Kamakiriman, Yugi realizes that somehow they have been transported into the world of Capsule Monsters."
 },
+"335679|1|21": {
+"n": "Attack of the Saucer Crab",
+"o": "An intergalactic UFO threatens Space Ghost's sector."
+},
+"335679|1|22": {
+"n": "Space Birds",
+"o": "Space Ghost investigates the destruction of satellites by robotic birds."
+},
 "335679|1|23": {
 "n": "The Time Machine",
 "o": "Jace invents a time machine that accidentally sends Jan back to the age of Vikings."
@@ -18766,6 +19291,10 @@
 },
 "70977|3|18": {
 "n": "Fluffy Hippos vs. Blue Bullets",
+"o": ""
+},
+"70977|3|20": {
+"n": "Red Indians vs. Blue Angels",
 "o": ""
 },
 "71335|1|18": {
@@ -63275,6 +63804,572 @@
 16
 ]
 },
+"76536": {
+"100th episode celebration": [
+5,
+5
+],
+"a brand new game": [
+5,
+15
+],
+"a snowy day": [
+1,
+9
+],
+"a surprise guest": [
+5,
+16
+],
+"adventure": [
+4,
+2
+],
+"adventures in art": [
+1,
+7
+],
+"anatomy": [
+3,
+12
+],
+"animal behavior": [
+3,
+5
+],
+"animals in our house": [
+5,
+34
+],
+"art appreciation": [
+3,
+2
+],
+"bedtime business": [
+5,
+11
+],
+"blocks": [
+4,
+13
+],
+"blue goes to the beach": [
+1,
+8
+],
+"blue goes to the doctor": [
+5,
+13
+],
+"blue is frustrated": [
+2,
+19
+],
+"blue s abcs": [
+2,
+3
+],
+"blue s backyard ballgame bonanza": [
+4,
+15
+],
+"blue s big band": [
+5,
+18
+],
+"blue s big car trip": [
+5,
+31
+],
+"blue s big costume party": [
+3,
+21
+],
+"blue s big holiday": [
+3,
+10
+],
+"blue s big musical": [
+3,
+19
+],
+"blue s big mystery": [
+3,
+17
+],
+"blue s big pajama party": [
+3,
+6
+],
+"blue s big treasure hunt": [
+3,
+1
+],
+"blue s birthday": [
+2,
+8
+],
+"blue s book nook": [
+4,
+19
+],
+"blue s collection": [
+3,
+31
+],
+"blue s favorite song": [
+1,
+5
+],
+"blue s first holiday": [
+5,
+36
+],
+"blue s new place": [
+4,
+6
+],
+"blue s news": [
+1,
+18
+],
+"blue s play": [
+3,
+23
+],
+"blue s predictions": [
+5,
+23
+],
+"blue s sad day": [
+2,
+11
+],
+"blue s school": [
+4,
+20
+],
+"blue s senses": [
+2,
+6
+],
+"blue s story time": [
+1,
+4
+],
+"blue s surprise at two o clock": [
+2,
+13
+],
+"blue s wishes": [
+6,
+3
+],
+"blue takes you to school": [
+5,
+25
+],
+"blue wants to play a game": [
+1,
+12
+],
+"blue wants to play a song game": [
+1,
+14
+],
+"bluestock": [
+6,
+9
+],
+"body language": [
+5,
+30
+],
+"bugs": [
+4,
+10
+],
+"caf blue": [
+3,
+32
+],
+"can you help": [
+5,
+1
+],
+"colors everywhere": [
+5,
+2
+],
+"contraptions": [
+5,
+14
+],
+"draw along with blue": [
+3,
+7
+],
+"dress up day": [
+5,
+17
+],
+"environments": [
+3,
+29
+],
+"geography": [
+3,
+15
+],
+"hide and seek": [
+3,
+8
+],
+"i did that": [
+5,
+33
+],
+"i m so happy": [
+5,
+9
+],
+"imagine nation": [
+4,
+1
+],
+"inventions": [
+3,
+22
+],
+"joe gets a clue": [
+4,
+23
+],
+"joe s clues": [
+6,
+4
+],
+"joe s first day": [
+4,
+22
+],
+"joe s surprise party": [
+5,
+8
+],
+"let s boogie": [
+4,
+14
+],
+"let s plant": [
+4,
+16
+],
+"let s write": [
+5,
+28
+],
+"look carefully": [
+5,
+32
+],
+"love day": [
+6,
+2
+],
+"magenta comes over": [
+1,
+15
+],
+"magenta gets glasses": [
+3,
+28
+],
+"magenta s messages": [
+5,
+29
+],
+"mailbox s birthday": [
+1,
+3
+],
+"making changes": [
+4,
+9
+],
+"math": [
+2,
+4
+],
+"mechanics": [
+2,
+21
+],
+"meet polka dots": [
+5,
+26
+],
+"morning music": [
+5,
+35
+],
+"mr salt and mrs pepper day": [
+4,
+7
+],
+"nature": [
+3,
+14
+],
+"numbers everywhere": [
+5,
+22
+],
+"nurture": [
+2,
+18
+],
+"occupations": [
+3,
+16
+],
+"our neighborhood festival": [
+5,
+24
+],
+"patience": [
+5,
+7
+],
+"periwinkle misses his friend": [
+3,
+18
+],
+"playdates": [
+6,
+6
+],
+"playing store": [
+5,
+6
+],
+"pool party": [
+3,
+11
+],
+"prehistoric blue": [
+3,
+24
+],
+"pretend time": [
+1,
+11
+],
+"puppets": [
+4,
+18
+],
+"rhyme time": [
+4,
+17
+],
+"shape searchers": [
+5,
+12
+],
+"shy": [
+3,
+27
+],
+"signs": [
+3,
+13
+],
+"skidoo adventure": [
+6,
+5
+],
+"snack time": [
+1,
+1
+],
+"soccer practice": [
+6,
+8
+],
+"something to do blue": [
+4,
+21
+],
+"steve gets the sniffles": [
+2,
+1
+],
+"steve goes to college": [
+4,
+24
+],
+"stormy weather": [
+3,
+30
+],
+"superfriends": [
+4,
+4
+],
+"thankful": [
+3,
+9
+],
+"the alphabet train": [
+5,
+21
+],
+"the anything box": [
+4,
+3
+],
+"the baby s here": [
+4,
+8
+],
+"the big book about us": [
+5,
+4
+],
+"the boat float": [
+5,
+10
+],
+"the fairy tale ball": [
+6,
+7
+],
+"the grow show": [
+1,
+13
+],
+"the legend of the blue puppy": [
+6,
+1
+],
+"the lost episode": [
+2,
+14
+],
+"the scavenger hunt": [
+5,
+27
+],
+"the snack chart": [
+5,
+3
+],
+"the story wall": [
+5,
+20
+],
+"the trying game": [
+1,
+10
+],
+"the wrong shirt": [
+3,
+25
+],
+"tickety s favorite nursery rhyme": [
+1,
+16
+],
+"un d a con plum": [
+4,
+11
+],
+"up down all around": [
+5,
+19
+],
+"weight and balance": [
+3,
+3
+],
+"what did blue see": [
+2,
+17
+],
+"what does blue need": [
+1,
+6
+],
+"what does blue want to build": [
+2,
+2
+],
+"what does blue want to do on a rainy day": [
+2,
+12
+],
+"what does blue want to do with her picture": [
+2,
+10
+],
+"what does blue want to make": [
+1,
+17
+],
+"what does blue want to make out of recycled things": [
+2,
+7
+],
+"what experiment does blue want to try": [
+2,
+5
+],
+"what game does blue want to learn": [
+2,
+15
+],
+"what is blue afraid of": [
+1,
+19
+],
+"what is blue trying to do": [
+2,
+20
+],
+"what s inside": [
+4,
+12
+],
+"what s new blue": [
+4,
+5
+],
+"what s so funny": [
+3,
+20
+],
+"what s that sound": [
+3,
+4
+],
+"what story does blue want to play": [
+2,
+16
+],
+"what time is it for blue": [
+1,
+2
+],
+"what was blue s dream about": [
+2,
+9
+],
+"words": [
+3,
+26
+]
+},
 "76688": {
 "a mess sergeant can t win": [
 2,
@@ -67929,6 +69024,100 @@
 "where s the beach": [
 1,
 17
+]
+},
+"76993": {
+"assault and battery": [
+1,
+3
+],
+"bring me the head of earthworm jim": [
+1,
+11
+],
+"conqueror worm": [
+1,
+5
+],
+"darwin s nightmare": [
+2,
+3
+],
+"day of the fish": [
+1,
+4
+],
+"evil in love": [
+2,
+5
+],
+"for whom the jingle bell tolls": [
+2,
+10
+],
+"hyper psy crow": [
+2,
+6
+],
+"lounge day s journey into night": [
+2,
+8
+],
+"opposites attack": [
+2,
+2
+],
+"peanut of the apes": [
+2,
+7
+],
+"queen what s her name": [
+1,
+12
+],
+"sidekicked": [
+1,
+1
+],
+"sword of righteousness": [
+1,
+7
+],
+"the anti fish": [
+1,
+13
+],
+"the book of doom": [
+1,
+2
+],
+"the egg beater": [
+1,
+8
+],
+"the exile of lucy": [
+2,
+4
+],
+"the great secret of the universe": [
+1,
+10
+],
+"the origins of peter puppy": [
+2,
+1
+],
+"trout": [
+1,
+9
+],
+"upholstered peril": [
+1,
+6
+],
+"wizard of ooze": [
+2,
+9
 ]
 },
 "77010": {
@@ -82939,6 +84128,7 @@
 "berserk": "412440",
 "berserk the golden age arc 3 - descent": null,
 "bewitched": "71528",
+"blue's clues": "76536",
 "boogie frights": null,
 "brak show": "77118",
 "bugs bunny's halloween hijinks": null,
@@ -82979,6 +84169,7 @@
 "dragon ball z abridged": "248580",
 "dragon ball z abridged: celloween": "248580",
 "dreams in darkness": null,
+"earthworm jim": "76993",
 "ed, edd n eddy": "77466",
 "f troop": "73154",
 "fairytale a true story": null,
@@ -83141,6 +84332,7 @@
 "the phil silvers show": "76688",
 "the real adventures of jonny quest": "71786",
 "the ren & stimpy show": "76088",
+"the return of cooler": null,
 "the rocky and bullwinkle show": "76705",
 "the secret world of alex mack": "75497",
 "the tick": "317654",
@@ -83363,6 +84555,10 @@
 "n": "",
 "o": ""
 },
+"22450|3|20": {
+"n": "",
+"o": ""
+},
 "27178|1|10": {
 "n": "Donnel's Birthday Party",
 "o": ""
@@ -83470,6 +84666,14 @@
 "4485|1|59": {
 "n": "Match-Up",
 "o": "In the far-flung future, the Galaxy of Limbo is in dire need of some heroes. Terrorized by the ruthless villain Mon-Star and his intergalactic horde."
+},
+"53559|1|21": {
+"n": "The Time Master",
+"o": ""
+},
+"53559|1|22": {
+"n": "Spacecube of Doom",
+"o": ""
 },
 "53559|1|23": {
 "n": "",
