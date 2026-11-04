@@ -1556,6 +1556,11 @@
   "show": "Augie Doggie",
   "t": 1793623420.4295695
  },
+ "series|Augie Doggie and Doggie Daddy": {
+  "desc": "The misadventures of Augie Doggie and Doggie Daddy.",
+  "show": "Augie Doggie and Doggie Daddy",
+  "t": 1793759974.4895227
+ },
  "series|Cartoon Planet": {
   "desc": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
   "show": "Cartoon Planet",
@@ -1830,6 +1835,11 @@
   "desc": "King Zandor and a group of bizarre creatures protect their futuristic kingdom from creatures from other galaxies.",
   "show": "The Herculoids",
   "t": 1793577632.7744868
+ },
+ "series|The Huckleberry Hound Show": {
+  "desc": "The adventures of a blue dog with a southern accent.",
+  "show": "The Huckleberry Hound Show",
+  "t": 1793759974.3888576
  },
  "series|The Jetsons": {
   "desc": "The misadventures of a futuristic family.",

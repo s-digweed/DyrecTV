@@ -5,8 +5,8 @@
     <icon src="https://images.steamusercontent.com/ugc/13227297213592898534/FC2256036E4B35E7B9382C0D6BE37361CAD7A442/" />
   </channel>
   <programme start="20261030050000 -0500" stop="20261030053000 -0500" channel="Jpuffle5">
-    <title>Flintstone Frolics</title>
-    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
+    <title>The Flintstone Comedy Show</title>
+    <desc lang="en">Fred and Barney have new positions as police officers, Wilma and Betty have jobs as newspaper reporters at The Bedrock Gazette with Captain Caveman. Pebbles and Bamm-Bamm are teenagers and they solve mysteries with Dino in a similar fashion to Scooby-Doo. The Flintstones have new neighbors named the Frankenstones, a family reminiscent of the Munsters.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431923/2DD797755C6707280CB287024160DD5EBC25361C/" />
   </programme>
   <programme start="20261030053000 -0500" stop="20261030060000 -0500" channel="Jpuffle5">
@@ -15,7 +15,8 @@
     <icon src="https://images.steamusercontent.com/ugc/2431453671043396616/B957D83409D9244E44EA4F32CFC6384AD85EC350/" />
   </programme>
   <programme start="20261030060000 -0500" stop="20261030063000 -0500" channel="Jpuffle5">
-    <title>The Snorks</title>
+    <title>Snorks</title>
+    <desc lang="en">The Snorks are playful, multicolored underwater creatures that use their built-in snorkels to dart about and make music.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330026084/4D707D87D58A1740FDCABF683D0BE46B40E6965C/" />
   </programme>
   <programme start="20261030063000 -0500" stop="20261030070000 -0500" channel="Jpuffle5">
@@ -54,8 +55,8 @@
     <icon src="https://images.steamusercontent.com/ugc/2462984028330054950/B49C744B0670E80A1C429D11D21AE4F3946AB33B/" />
   </programme>
   <programme start="20261030100000 -0500" stop="20261030103000 -0500" channel="Jpuffle5">
-    <title>The Banana Splits</title>
-    <desc lang="en">The Banana Splits Adventure Hour was an hour-long, packaged television variety program featuring The Banana Splits, a fictional rock band composed of four funny animal characters. The series was produced by Hanna-Barbera, and ran for 31 episodes on NBC Saturday mornings, from September 7, 1968, to September 5, 1970.</desc>
+    <title>The Banana Splits Adventure Hour</title>
+    <desc lang="en">A pop group consisting of four anthropomorphic animals host a variety of cartoons, songs, and skits.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060860672/EB98A390A0D2074DDE1FFFC5B70ACD10F69CE120/" />
   </programme>
   <programme start="20261030103000 -0500" stop="20261030110000 -0500" channel="Jpuffle5">
@@ -74,7 +75,7 @@
     <icon src="https://images.steamusercontent.com/ugc/2489997299057394585/4014F02F073E24C1CAB007D36D8C7FDD12C073AB/" />
   </programme>
   <programme start="20261030120000 -0500" stop="20261030123000 -0500" channel="Jpuffle5">
-    <title>Huckleberry Hound</title>
+    <title>The Huckleberry Hound Show</title>
     <desc lang="en">The adventures of a blue dog with a southern accent.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299057124393/341FEF9D08300E927CA0CBED820B71E9E046F0A6/" />
   </programme>
@@ -85,7 +86,7 @@
   </programme>
   <programme start="20261030130000 -0500" stop="20261030133000 -0500" channel="Jpuffle5">
     <title>Heathcliff and the Catillac Cats</title>
-    <desc lang="en">Heathcliff knows he is the best cat around! Never have we seen such self-confidence topped off with a heavy dose of vanity, cunning, ruthlessness, and a mischievous love of gags. He cruises and struts down the street and watch out any person, cat, or dog who gets in his way! Although he may terrorize the neighborhood, let an outsider try to push anyone around and he is a veritable tiger of defense. On the other side of town are The Catillac Cats, which typically revolve around leader Riff-Raff's get-rich-quick schemes or searches for food.</desc>
+    <desc lang="en">Heathcliff is a streetwise orange house cat with thin black stripes. The Catillac Cats are a gang of alley cats run by Riff Raff. Together, they prowl the streets of Westfinster and get in trouble.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2431453671043381285/7E6A8839BF9F8C3BCF5DC0018315D731E6525323/" />
   </programme>
   <programme start="20261030133000 -0500" stop="20261030140000 -0500" channel="Jpuffle5">
@@ -105,7 +106,7 @@
   </programme>
   <programme start="20261030150000 -0500" stop="20261030153000 -0500" channel="Jpuffle5">
     <title>Wally Gator</title>
-    <desc lang="en">The misadventures of a friendly gator.</desc>
+    <desc lang="en">Wally Gator is a friendly anthropomorphic alligator with a happy-go-lucky attitude. He is a permanent resident of a city zoo, but regularly escapes to experience some freedom. No matter how much he struggles to fit in the society of the outside world, Wally is always returned to captivity.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061434989/AA18E553376D6437F1263B98F1337D34AD2F619D/" />
   </programme>
   <programme start="20261030153000 -0500" stop="20261030160000 -0500" channel="Jpuffle5">
@@ -149,17 +150,18 @@
     <icon src="https://images.steamusercontent.com/ugc/2489997299060738171/3ADC95FFF6DA9C7898399C4F7F6BAB17F5415090/" />
   </programme>
   <programme start="20261031023000 -0500" stop="20261031030000 -0500" channel="Jpuffle5">
-    <title>Pixie and Dixie</title>
-    <desc lang="en">The misadventures of a talking Cat and two talking mice.</desc>
+    <title>Pixie and Dixie and Mr. Jinks</title>
+    <desc lang="en">Pixie and Dixie are two mice who have to deal with a Beatnik cat — Mr. Jinks — who lives in the house as well. And boy, does he hate those "meeces to pieces".</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060923231/F62A592BC15D6BE4924E8A999374A6E8CA80CED3/" />
   </programme>
   <programme start="20261031030000 -0500" stop="20261031033000 -0500" channel="Jpuffle5">
-    <title>MGM</title>
+    <title>MGM Cartoons</title>
+    <desc lang="en">A compilation of theatrical shorts that were produced by Metro-Goldwyn-Mayer studios, spanning from the 1930s to the 1960s.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997394333976027/120A6CA86B4DC716B7B247E168F7DB4EDF899D8D/" />
   </programme>
   <programme start="20261031033000 -0500" stop="20261031040000 -0500" channel="Jpuffle5">
     <title>The Kwicky Koala Show</title>
-    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shre...</desc>
+    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shreds, particularly his would-be captors, such as trapper Rawhide Clyde. Dirty Dawg and his sidekick Ratso are bums.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2467489697488819475/0203F1C48F500673DAAC5733A85D68902B9FCBE0/" />
   </programme>
   <programme start="20261031040000 -0500" stop="20261031043000 -0500" channel="Jpuffle5">
@@ -169,7 +171,7 @@
   </programme>
   <programme start="20261031043000 -0500" stop="20261031050000 -0500" channel="Jpuffle5">
     <title>The New Fred and Barney Show</title>
-    <desc lang="en">Just when you thought TV was finally "civilized," it's back to the Stone Ages for a brand new series featuring the entire Flintstone gang! Join the fun in the town of Bedrock with this fabulously famous modern Stone-Age family. Mo...</desc>
+    <desc lang="en">The lives of the modern stone age families Fred, Wilma, Barney and Betty residing in Bedrock. They deal with prehistoric quirks like dinosaur lawnmowers, mammoth showers and encounters with saber-toothed creatures in a humorous manner.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431060/A915C256A6630609073AE10D0F5F7A0512AC79E9/" />
   </programme>
   <programme start="20261031050000 -0500" stop="20261031053000 -0500" channel="Jpuffle5">
@@ -556,8 +558,8 @@
     <icon src="https://images.steamusercontent.com/ugc/2462984028330119634/BBA54572A1E40B3C5976CA6FEC24646E8ED8FBAB/" />
   </programme>
   <programme start="20261102060000 -0500" stop="20261102063000 -0500" channel="Jpuffle5">
-    <title>Flintstone Frolics</title>
-    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
+    <title>The Flintstone Comedy Show</title>
+    <desc lang="en">Fred and Barney have new positions as police officers, Wilma and Betty have jobs as newspaper reporters at The Bedrock Gazette with Captain Caveman. Pebbles and Bamm-Bamm are teenagers and they solve mysteries with Dino in a similar fashion to Scooby-Doo. The Flintstones have new neighbors named the Frankenstones, a family reminiscent of the Munsters.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431923/2DD797755C6707280CB287024160DD5EBC25361C/" />
   </programme>
   <programme start="20261102063000 -0500" stop="20261102070000 -0500" channel="Jpuffle5">
@@ -566,7 +568,8 @@
     <icon src="https://images.steamusercontent.com/ugc/2431453671043396616/B957D83409D9244E44EA4F32CFC6384AD85EC350/" />
   </programme>
   <programme start="20261102070000 -0500" stop="20261102073000 -0500" channel="Jpuffle5">
-    <title>The Snorks</title>
+    <title>Snorks</title>
+    <desc lang="en">The Snorks are playful, multicolored underwater creatures that use their built-in snorkels to dart about and make music.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330026084/4D707D87D58A1740FDCABF683D0BE46B40E6965C/" />
   </programme>
   <programme start="20261102073000 -0500" stop="20261102080000 -0500" channel="Jpuffle5">
@@ -605,8 +608,8 @@
     <icon src="https://images.steamusercontent.com/ugc/2462984028330054950/B49C744B0670E80A1C429D11D21AE4F3946AB33B/" />
   </programme>
   <programme start="20261102110000 -0500" stop="20261102113000 -0500" channel="Jpuffle5">
-    <title>The Banana Splits</title>
-    <desc lang="en">The Banana Splits Adventure Hour was an hour-long, packaged television variety program featuring The Banana Splits, a fictional rock band composed of four funny animal characters. The series was produced by Hanna-Barbera, and ran for 31 episodes on NBC Saturday mornings, from September 7, 1968, to September 5, 1970.</desc>
+    <title>The Banana Splits Adventure Hour</title>
+    <desc lang="en">A pop group consisting of four anthropomorphic animals host a variety of cartoons, songs, and skits.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060860672/EB98A390A0D2074DDE1FFFC5B70ACD10F69CE120/" />
   </programme>
   <programme start="20261102113000 -0500" stop="20261102120000 -0500" channel="Jpuffle5">
@@ -625,7 +628,7 @@
     <icon src="https://images.steamusercontent.com/ugc/2489997299061433800/0362BA5DBC2E079B54B68D6231F932D9317C6236/" />
   </programme>
   <programme start="20261102130000 -0500" stop="20261102133000 -0500" channel="Jpuffle5">
-    <title>Huckleberry Hound</title>
+    <title>The Huckleberry Hound Show</title>
     <desc lang="en">The adventures of a blue dog with a southern accent.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299057124393/341FEF9D08300E927CA0CBED820B71E9E046F0A6/" />
   </programme>
@@ -636,7 +639,7 @@
   </programme>
   <programme start="20261102140000 -0500" stop="20261102143000 -0500" channel="Jpuffle5">
     <title>Heathcliff and the Catillac Cats</title>
-    <desc lang="en">Heathcliff knows he is the best cat around! Never have we seen such self-confidence topped off with a heavy dose of vanity, cunning, ruthlessness, and a mischievous love of gags. He cruises and struts down the street and watch out any person, cat, or dog who gets in his way! Although he may terrorize the neighborhood, let an outsider try to push anyone around and he is a veritable tiger of defense. On the other side of town are The Catillac Cats, which typically revolve around leader Riff-Raff's get-rich-quick schemes or searches for food.</desc>
+    <desc lang="en">Heathcliff is a streetwise orange house cat with thin black stripes. The Catillac Cats are a gang of alley cats run by Riff Raff. Together, they prowl the streets of Westfinster and get in trouble.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2431453671043381285/7E6A8839BF9F8C3BCF5DC0018315D731E6525323/" />
   </programme>
   <programme start="20261102143000 -0500" stop="20261102150000 -0500" channel="Jpuffle5">
@@ -651,17 +654,17 @@
   </programme>
   <programme start="20261102153000 -0500" stop="20261102160000 -0500" channel="Jpuffle5">
     <title>Wally Gator</title>
-    <desc lang="en">The misadventures of a friendly gator.</desc>
+    <desc lang="en">Wally Gator is a friendly anthropomorphic alligator with a happy-go-lucky attitude. He is a permanent resident of a city zoo, but regularly escapes to experience some freedom. No matter how much he struggles to fit in the society of the outside world, Wally is always returned to captivity.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061434989/AA18E553376D6437F1263B98F1337D34AD2F619D/" />
   </programme>
   <programme start="20261102160000 -0500" stop="20261102163000 -0500" channel="Jpuffle5">
-    <title>Augie Doggie</title>
+    <title>Augie Doggie and Doggie Daddy</title>
     <desc lang="en">The misadventures of Augie Doggie and Doggie Daddy.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061405409/612F5309D2EE8BB466808D40D58C666547D753F3/" />
   </programme>
   <programme start="20261102163000 -0500" stop="20261102170000 -0500" channel="Jpuffle5">
     <title>Snagglepuss</title>
-    <desc lang="en">The misadventures of a pink mountain lion.</desc>
+    <desc lang="en">Despite being a pink mountain lion, Snagglepuss is a rather sophisticated individual who merely seeks to better himself and his living situation.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061411486/43E274B4F10DC9D248F46E9E0E2F77897062D0EA/" />
   </programme>
   <programme start="20261102170000 -0500" stop="20261102190000 -0500" channel="Jpuffle5">
@@ -686,9 +689,7 @@
   </programme>
   <programme start="20261102230000 -0500" stop="20261102233000 -0500" channel="Jpuffle5">
     <title>The New Adventures of Speed Racer</title>
-    <desc lang="en">The New Adventures of Speed Racer was a short-lived update of the classic Speed Racer cartoon series. This new Americanized version did not catch on and only lasted a single 13-episode season, albeit it proved very popular with the Russian audience. A new theme song was written. The show was animated by Fred Wolf.
-
-The “New Adventures” part of the title comes from official documents used for TV listings. The show itself is referred to onscreen as simply “Speed Racer.” Coincidentally, Speed Racer X is known in Brazil as “As Novas Aventuras de Speed Racer,” which literally translates into “The New Adventures of Speed Racer.”</desc>
+    <desc lang="en">A new story arc of Speed Racer that involves time travel and mutants from the future interfering in present-day affairs.</desc>
     <icon src="https://images.steamusercontent.com/ugc/11108358427200924772/30587A1F071D60D1663C1D40107A0BE52CECF32C/" />
   </programme>
   <programme start="20261102233000 -0500" stop="20261103000000 -0500" channel="Jpuffle5">
@@ -732,17 +733,18 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2489997299060738171/3ADC95FFF6DA9C7898399C4F7F6BAB17F5415090/" />
   </programme>
   <programme start="20261103033000 -0500" stop="20261103040000 -0500" channel="Jpuffle5">
-    <title>Pixie and Dixie</title>
-    <desc lang="en">The misadventures of a talking Cat and two talking mice.</desc>
+    <title>Pixie and Dixie and Mr. Jinks</title>
+    <desc lang="en">Pixie and Dixie are two mice who have to deal with a Beatnik cat — Mr. Jinks — who lives in the house as well. And boy, does he hate those "meeces to pieces".</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060923231/F62A592BC15D6BE4924E8A999374A6E8CA80CED3/" />
   </programme>
   <programme start="20261103040000 -0500" stop="20261103043000 -0500" channel="Jpuffle5">
-    <title>MGM</title>
+    <title>MGM Cartoons</title>
+    <desc lang="en">A compilation of theatrical shorts that were produced by Metro-Goldwyn-Mayer studios, spanning from the 1930s to the 1960s.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997394333976027/120A6CA86B4DC716B7B247E168F7DB4EDF899D8D/" />
   </programme>
   <programme start="20261103043000 -0500" stop="20261103050000 -0500" channel="Jpuffle5">
     <title>The Kwicky Koala Show</title>
-    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shre...</desc>
+    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shreds, particularly his would-be captors, such as trapper Rawhide Clyde. Dirty Dawg and his sidekick Ratso are bums.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2467489697488819475/0203F1C48F500673DAAC5733A85D68902B9FCBE0/" />
   </programme>
   <programme start="20261103050000 -0500" stop="20261103053000 -0500" channel="Jpuffle5">
@@ -752,12 +754,12 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103053000 -0500" stop="20261103060000 -0500" channel="Jpuffle5">
     <title>The New Fred and Barney Show</title>
-    <desc lang="en">Just when you thought TV was finally "civilized," it's back to the Stone Ages for a brand new series featuring the entire Flintstone gang! Join the fun in the town of Bedrock with this fabulously famous modern Stone-Age family. Mo...</desc>
+    <desc lang="en">The lives of the modern stone age families Fred, Wilma, Barney and Betty residing in Bedrock. They deal with prehistoric quirks like dinosaur lawnmowers, mammoth showers and encounters with saber-toothed creatures in a humorous manner.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431060/A915C256A6630609073AE10D0F5F7A0512AC79E9/" />
   </programme>
   <programme start="20261103060000 -0500" stop="20261103063000 -0500" channel="Jpuffle5">
-    <title>Flintstone Frolics</title>
-    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
+    <title>The Flintstone Comedy Show</title>
+    <desc lang="en">Fred and Barney have new positions as police officers, Wilma and Betty have jobs as newspaper reporters at The Bedrock Gazette with Captain Caveman. Pebbles and Bamm-Bamm are teenagers and they solve mysteries with Dino in a similar fashion to Scooby-Doo. The Flintstones have new neighbors named the Frankenstones, a family reminiscent of the Munsters.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431923/2DD797755C6707280CB287024160DD5EBC25361C/" />
   </programme>
   <programme start="20261103063000 -0500" stop="20261103070000 -0500" channel="Jpuffle5">
@@ -766,7 +768,8 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2431453671043396616/B957D83409D9244E44EA4F32CFC6384AD85EC350/" />
   </programme>
   <programme start="20261103070000 -0500" stop="20261103073000 -0500" channel="Jpuffle5">
-    <title>The Snorks</title>
+    <title>Snorks</title>
+    <desc lang="en">The Snorks are playful, multicolored underwater creatures that use their built-in snorkels to dart about and make music.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330026084/4D707D87D58A1740FDCABF683D0BE46B40E6965C/" />
   </programme>
   <programme start="20261103073000 -0500" stop="20261103080000 -0500" channel="Jpuffle5">
@@ -805,8 +808,8 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2462984028330054950/B49C744B0670E80A1C429D11D21AE4F3946AB33B/" />
   </programme>
   <programme start="20261103110000 -0500" stop="20261103113000 -0500" channel="Jpuffle5">
-    <title>The Banana Splits</title>
-    <desc lang="en">The Banana Splits Adventure Hour was an hour-long, packaged television variety program featuring The Banana Splits, a fictional rock band composed of four funny animal characters. The series was produced by Hanna-Barbera, and ran for 31 episodes on NBC Saturday mornings, from September 7, 1968, to September 5, 1970.</desc>
+    <title>The Banana Splits Adventure Hour</title>
+    <desc lang="en">A pop group consisting of four anthropomorphic animals host a variety of cartoons, songs, and skits.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060860672/EB98A390A0D2074DDE1FFFC5B70ACD10F69CE120/" />
   </programme>
   <programme start="20261103113000 -0500" stop="20261103120000 -0500" channel="Jpuffle5">
@@ -825,7 +828,7 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2489997299061433800/0362BA5DBC2E079B54B68D6231F932D9317C6236/" />
   </programme>
   <programme start="20261103130000 -0500" stop="20261103133000 -0500" channel="Jpuffle5">
-    <title>Huckleberry Hound</title>
+    <title>The Huckleberry Hound Show</title>
     <desc lang="en">The adventures of a blue dog with a southern accent.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299057124393/341FEF9D08300E927CA0CBED820B71E9E046F0A6/" />
   </programme>
@@ -836,7 +839,7 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103140000 -0500" stop="20261103143000 -0500" channel="Jpuffle5">
     <title>Heathcliff and the Catillac Cats</title>
-    <desc lang="en">Heathcliff knows he is the best cat around! Never have we seen such self-confidence topped off with a heavy dose of vanity, cunning, ruthlessness, and a mischievous love of gags. He cruises and struts down the street and watch out any person, cat, or dog who gets in his way! Although he may terrorize the neighborhood, let an outsider try to push anyone around and he is a veritable tiger of defense. On the other side of town are The Catillac Cats, which typically revolve around leader Riff-Raff's get-rich-quick schemes or searches for food.</desc>
+    <desc lang="en">Heathcliff is a streetwise orange house cat with thin black stripes. The Catillac Cats are a gang of alley cats run by Riff Raff. Together, they prowl the streets of Westfinster and get in trouble.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2431453671043381285/7E6A8839BF9F8C3BCF5DC0018315D731E6525323/" />
   </programme>
   <programme start="20261103143000 -0500" stop="20261103150000 -0500" channel="Jpuffle5">
@@ -851,17 +854,17 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103153000 -0500" stop="20261103160000 -0500" channel="Jpuffle5">
     <title>Wally Gator</title>
-    <desc lang="en">The misadventures of a friendly gator.</desc>
+    <desc lang="en">Wally Gator is a friendly anthropomorphic alligator with a happy-go-lucky attitude. He is a permanent resident of a city zoo, but regularly escapes to experience some freedom. No matter how much he struggles to fit in the society of the outside world, Wally is always returned to captivity.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061434989/AA18E553376D6437F1263B98F1337D34AD2F619D/" />
   </programme>
   <programme start="20261103160000 -0500" stop="20261103163000 -0500" channel="Jpuffle5">
-    <title>Augie Doggie</title>
+    <title>Augie Doggie and Doggie Daddy</title>
     <desc lang="en">The misadventures of Augie Doggie and Doggie Daddy.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061405409/612F5309D2EE8BB466808D40D58C666547D753F3/" />
   </programme>
   <programme start="20261103163000 -0500" stop="20261103170000 -0500" channel="Jpuffle5">
     <title>Snagglepuss</title>
-    <desc lang="en">The misadventures of a pink mountain lion.</desc>
+    <desc lang="en">Despite being a pink mountain lion, Snagglepuss is a rather sophisticated individual who merely seeks to better himself and his living situation.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061411486/43E274B4F10DC9D248F46E9E0E2F77897062D0EA/" />
   </programme>
   <programme start="20261103170000 -0500" stop="20261103190000 -0500" channel="Jpuffle5">
@@ -906,9 +909,7 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261103230000 -0500" stop="20261103233000 -0500" channel="Jpuffle5">
     <title>The New Adventures of Speed Racer</title>
-    <desc lang="en">The New Adventures of Speed Racer was a short-lived update of the classic Speed Racer cartoon series. This new Americanized version did not catch on and only lasted a single 13-episode season, albeit it proved very popular with the Russian audience. A new theme song was written. The show was animated by Fred Wolf.
-
-The “New Adventures” part of the title comes from official documents used for TV listings. The show itself is referred to onscreen as simply “Speed Racer.” Coincidentally, Speed Racer X is known in Brazil as “As Novas Aventuras de Speed Racer,” which literally translates into “The New Adventures of Speed Racer.”</desc>
+    <desc lang="en">A new story arc of Speed Racer that involves time travel and mutants from the future interfering in present-day affairs.</desc>
     <icon src="https://images.steamusercontent.com/ugc/11108358427200924772/30587A1F071D60D1663C1D40107A0BE52CECF32C/" />
   </programme>
   <programme start="20261103233000 -0500" stop="20261104000000 -0500" channel="Jpuffle5">
@@ -952,17 +953,18 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2489997299060738171/3ADC95FFF6DA9C7898399C4F7F6BAB17F5415090/" />
   </programme>
   <programme start="20261104033000 -0500" stop="20261104040000 -0500" channel="Jpuffle5">
-    <title>Pixie and Dixie</title>
-    <desc lang="en">The misadventures of a talking Cat and two talking mice.</desc>
+    <title>Pixie and Dixie and Mr. Jinks</title>
+    <desc lang="en">Pixie and Dixie are two mice who have to deal with a Beatnik cat — Mr. Jinks — who lives in the house as well. And boy, does he hate those "meeces to pieces".</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060923231/F62A592BC15D6BE4924E8A999374A6E8CA80CED3/" />
   </programme>
   <programme start="20261104040000 -0500" stop="20261104043000 -0500" channel="Jpuffle5">
-    <title>MGM</title>
+    <title>MGM Cartoons</title>
+    <desc lang="en">A compilation of theatrical shorts that were produced by Metro-Goldwyn-Mayer studios, spanning from the 1930s to the 1960s.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997394333976027/120A6CA86B4DC716B7B247E168F7DB4EDF899D8D/" />
   </programme>
   <programme start="20261104043000 -0500" stop="20261104050000 -0500" channel="Jpuffle5">
     <title>The Kwicky Koala Show</title>
-    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shre...</desc>
+    <desc lang="en">Kwicky can move very quickly, which means he essentially disappears whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shreds, particularly his would-be captors, such as trapper Rawhide Clyde. Dirty Dawg and his sidekick Ratso are bums.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2467489697488819475/0203F1C48F500673DAAC5733A85D68902B9FCBE0/" />
   </programme>
   <programme start="20261104050000 -0500" stop="20261104053000 -0500" channel="Jpuffle5">
@@ -972,12 +974,12 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261104053000 -0500" stop="20261104060000 -0500" channel="Jpuffle5">
     <title>The New Fred and Barney Show</title>
-    <desc lang="en">Just when you thought TV was finally "civilized," it's back to the Stone Ages for a brand new series featuring the entire Flintstone gang! Join the fun in the town of Bedrock with this fabulously famous modern Stone-Age family. Mo...</desc>
+    <desc lang="en">The lives of the modern stone age families Fred, Wilma, Barney and Betty residing in Bedrock. They deal with prehistoric quirks like dinosaur lawnmowers, mammoth showers and encounters with saber-toothed creatures in a humorous manner.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431060/A915C256A6630609073AE10D0F5F7A0512AC79E9/" />
   </programme>
   <programme start="20261104060000 -0500" stop="20261104063000 -0500" channel="Jpuffle5">
-    <title>Flintstone Frolics</title>
-    <desc lang="en">The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.</desc>
+    <title>The Flintstone Comedy Show</title>
+    <desc lang="en">Fred and Barney have new positions as police officers, Wilma and Betty have jobs as newspaper reporters at The Bedrock Gazette with Captain Caveman. Pebbles and Bamm-Bamm are teenagers and they solve mysteries with Dino in a similar fashion to Scooby-Doo. The Flintstones have new neighbors named the Frankenstones, a family reminiscent of the Munsters.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299061431923/2DD797755C6707280CB287024160DD5EBC25361C/" />
   </programme>
   <programme start="20261104063000 -0500" stop="20261104070000 -0500" channel="Jpuffle5">
@@ -986,7 +988,8 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2431453671043396616/B957D83409D9244E44EA4F32CFC6384AD85EC350/" />
   </programme>
   <programme start="20261104070000 -0500" stop="20261104073000 -0500" channel="Jpuffle5">
-    <title>The Snorks</title>
+    <title>Snorks</title>
+    <desc lang="en">The Snorks are playful, multicolored underwater creatures that use their built-in snorkels to dart about and make music.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2462984028330026084/4D707D87D58A1740FDCABF683D0BE46B40E6965C/" />
   </programme>
   <programme start="20261104073000 -0500" stop="20261104080000 -0500" channel="Jpuffle5">
@@ -1025,8 +1028,8 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2462984028330054950/B49C744B0670E80A1C429D11D21AE4F3946AB33B/" />
   </programme>
   <programme start="20261104110000 -0500" stop="20261104113000 -0500" channel="Jpuffle5">
-    <title>The Banana Splits</title>
-    <desc lang="en">The Banana Splits Adventure Hour was an hour-long, packaged television variety program featuring The Banana Splits, a fictional rock band composed of four funny animal characters. The series was produced by Hanna-Barbera, and ran for 31 episodes on NBC Saturday mornings, from September 7, 1968, to September 5, 1970.</desc>
+    <title>The Banana Splits Adventure Hour</title>
+    <desc lang="en">A pop group consisting of four anthropomorphic animals host a variety of cartoons, songs, and skits.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299060860672/EB98A390A0D2074DDE1FFFC5B70ACD10F69CE120/" />
   </programme>
   <programme start="20261104113000 -0500" stop="20261104120000 -0500" channel="Jpuffle5">
@@ -1045,7 +1048,7 @@ The “New Adventures” part of the title comes from official documents used fo
     <icon src="https://images.steamusercontent.com/ugc/2489997299061433800/0362BA5DBC2E079B54B68D6231F932D9317C6236/" />
   </programme>
   <programme start="20261104130000 -0500" stop="20261104133000 -0500" channel="Jpuffle5">
-    <title>Huckleberry Hound</title>
+    <title>The Huckleberry Hound Show</title>
     <desc lang="en">The adventures of a blue dog with a southern accent.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2489997299057124393/341FEF9D08300E927CA0CBED820B71E9E046F0A6/" />
   </programme>
@@ -1056,7 +1059,7 @@ The “New Adventures” part of the title comes from official documents used fo
   </programme>
   <programme start="20261104140000 -0500" stop="20261104143000 -0500" channel="Jpuffle5">
     <title>Heathcliff and the Catillac Cats</title>
-    <desc lang="en">Heathcliff knows he is the best cat around! Never have we seen such self-confidence topped off with a heavy dose of vanity, cunning, ruthlessness, and a mischievous love of gags. He cruises and struts down the street and watch out any person, cat, or dog who gets in his way! Although he may terrorize the neighborhood, let an outsider try to push anyone around and he is a veritable tiger of defense. On the other side of town are The Catillac Cats, which typically revolve around leader Riff-Raff's get-rich-quick schemes or searches for food.</desc>
+    <desc lang="en">Heathcliff is a streetwise orange house cat with thin black stripes. The Catillac Cats are a gang of alley cats run by Riff Raff. Together, they prowl the streets of Westfinster and get in trouble.</desc>
     <icon src="https://images.steamusercontent.com/ugc/2431453671043381285/7E6A8839BF9F8C3BCF5DC0018315D731E6525323/" />
   </programme>
   <programme start="20261104143000 -0500" stop="20261104150000 -0500" channel="Jpuffle5">
