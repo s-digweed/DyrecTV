@@ -1779,6 +1779,11 @@
   "show": "Ghostbusters (1984)",
   "t": 1793577627.0431745
  },
+ "movie|Madagascar": {
+  "desc": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
+  "show": "Madagascar (2005)",
+  "t": 1793791936.618498
+ },
  "movie|Monster House": {
   "desc": "Three teens discover that their neighbor's house is really a living, breathing, scary monster.",
   "show": "Monster House (2006)",
@@ -2153,6 +2158,11 @@
   "desc": "",
   "show": "The New Adventures of Flash Gordon",
   "t": 1793577631.3162105
+ },
+ "series|The New Adventures of Jonny Quest": {
+  "desc": "The story of the adventurous Jonny Quest who travels with his father and his friends around the world.",
+  "show": "The New Adventures of Jonny Quest",
+  "t": 1793791936.5563354
  },
  "series|The New Adventures of Speed Racer": {
   "desc": "The New Adventures of Speed Racer was a short-lived update of the classic Speed Racer cartoon series. This new Americanized version did not catch on and only lasted a single 13-episode season, albeit it proved very popular with the Russian audience. A new theme song was written. The show was animated by Fred Wolf.\n\nThe “New Adventures” part of the title comes from official documents used for TV listings. The show itself is referred to onscreen as simply “Speed Racer.” Coincidentally, Speed Racer X is known in Brazil as “As Novas Aventuras de Speed Racer,” which literally translates into “The New Adventures of Speed Racer.”",
