@@ -387,6 +387,64 @@ def resolve_cn(title, mins):
     return desc
 
 
+# ── Animax NA (animax_na.xml): official English titles + descriptions ──────────
+AX_RENAME = {
+    "Beyblade: Metal Saga": "Beyblade: Metal Fusion",
+    "Bakugan: Battle Brawlers": "Bakugan Battle Brawlers",
+    "Kimba The White Lion": "Kimba the White Lion",
+    "Lupin The 3rd": "Lupin the 3rd",
+    "Lupin The 3rd: The Castle of Cagliostro (1979)": "Lupin the 3rd: The Castle of Cagliostro (1979)",
+    "Popee The Performer": "Popee the Performer",
+    "Pokemon: DP": "Pokémon: Diamond and Pearl",
+    "Gundam Wing": "Mobile Suit Gundam Wing",
+    "Frieren": "Frieren: Beyond Journey's End",
+    "Jojo's Bizarre Adventure": "JoJo's Bizarre Adventure",
+    "Jojo's Bizarre Adventure (1993/2000 OVA)": "JoJo's Bizarre Adventure (1993/2000 OVA)",
+    "Re:ZERO": "Re:ZERO -Starting Life in Another World-",
+    "86: Eighty Six": "86 EIGHTY-SIX",
+    "Ranma 1/2 (2024)": "Ranma ½ (2024)",
+    "Cowboy Bebop: The Movie - Knockin' on Heaven's Door (2001)": "Cowboy Bebop: The Movie (2001)",
+}
+# name to look up when it differs from the on-air title
+AX_LOOKUP = {
+    "Re:ZERO -Starting Life in Another World-": "Re:Zero - Starting Life in Another World",
+    "86 EIGHTY-SIX": "86: Eighty Six",
+    "Pokémon: Diamond and Pearl": "Pokémon: Diamond and Pearl",
+    "Hare+Guu": "Jungle wa Itsumo Hare nochi Guu",
+    "Ninja Warrior (G4)": "Sasuke",
+    "Shin-chan (Funimation)": "Crayon Shin-chan",
+    "Super Milk-chan (Vintage Shorts)": "Super Milk-chan",
+    "Laid-Back Camp (S1)": "Laid-Back Camp",
+    "The Ghost in the Shell (2026) [Sneak Preview]": "The Ghost in the Shell (2026)",
+}
+
+def resolve_ax(title, mins):
+    """Animax: description only. '(YYYY)' pins the year; a film is 80+ min with a year."""
+    key = f"ax|{title}"
+    ent = cache.get(key)
+    if ent and time.time() - ent.get("t", 0) < TTL:
+        return ent["desc"]
+    look = AX_LOOKUP.get(title, title)
+    ym = re.search(r"\((19|20)\d\d\)", look)
+    year = ym.group(0)[1:-1] if ym else None
+    name = re.sub(r"\s*[\(\[][^\)\]]*[\)\]]", "", look).strip()     # drop (1963) / (S1) / [Sneak Preview]
+    # a film = feature-length AND carries its year; long slots without one are marathons
+    film = bool(year) and mins >= 80
+    kinds = ("movie", "series") if film else ("series", "movie")
+    desc = ""
+    for kind in kinds:
+        r = omdb_find(name, kind, year)
+        if r is None:
+            return ""                                   # out of budget: retry next run
+        desc = r.get("plot", "")
+        if desc:
+            break
+    if not desc:
+        desc = tmdb_plot(name, "movie" if film else "tv", year) or series_rest(name)
+    cache[key] = {"t": time.time(), "desc": desc}
+    return desc
+
+
 def set_desc(p, te, desc, force=False):
     de = p.find("desc")
     if de is not None and not force:
@@ -407,15 +465,25 @@ def main():
     tree = ET.parse(XML_FILE)
     root = tree.getroot()
     cn = root.find("channel[@id='CNClassic']") is not None
-    if not cn and root.find("channel[@id='Jpuffle5']") is None:
-        sys.exit("not the Jpuffle5 or CN Classic guide - skipped")
+    ax = root.find("channel[@id='animax-na']") is not None
+    if not (cn or ax) and root.find("channel[@id='Jpuffle5']") is None:
+        sys.exit("not the Jpuffle5, CN Classic or Animax guide - skipped")
     n = renamed = films = descs = 0
     for p in root.iter("programme"):
         te = p.find("title")
         if te is None or not (te.text or "").strip():
             continue
         n += 1
-        if cn:                                          # CN Classic: description only
+        if ax:                                          # Animax: official titles + descriptions
+            t = te.text.strip()
+            if t in AX_RENAME:
+                t = te.text = AX_RENAME[t]; renamed += 1
+            if t in FIXED_DESC:
+                set_desc(p, te, FIXED_DESC[t], force=True)
+            elif p.find("desc") is None:
+                d = resolve_ax(t, minutes(p))
+                if d: set_desc(p, te, d)
+        elif cn:                                        # CN Classic: description only
             t = te.text.strip()
             if t in CN_RENAME:
                 t = te.text = CN_RENAME[t]; renamed += 1
@@ -439,12 +507,12 @@ def main():
                 set_desc(p, te, desc)
         if p.find("desc") is not None:
             descs += 1
-    if not cn:
-        ET.indent(tree, space="  ")                     # CN Classic keeps its one-line layout
+    if not (cn or ax):
+        ET.indent(tree, space="  ")                     # CN Classic / Animax keep their one-line layout
     tree.write(XML_FILE, encoding="UTF-8", xml_declaration=True)
     json.dump(cache, open(CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
-    label = "CN Classic" if cn else "Jpuffle5"
-    extra = f" · {renamed} titles fixed" + ("" if cn else f" · {films} films with (Year)")
+    label = "Animax NA" if ax else "CN Classic" if cn else "Jpuffle5"
+    extra = f" · {renamed} titles fixed" + ("" if (cn or ax) else f" · {films} films with (Year)")
     print(f"{label}: {n} programmes{extra} · {descs} with descriptions · OMDb calls {calls['omdb']}"
           f"{'' if OMDB_KEY else ' (no OMDB_API_KEY2 secret)'} · TMDB {calls['tmdb']} · "
           f"TVmaze {calls['tvmaze']} · TVDB {calls['tvdb']}")
