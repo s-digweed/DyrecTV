@@ -36,7 +36,14 @@ BUDGET     = int(os.environ.get("BOOM_OMDB_BUDGET", "300"))
 RENAME = {
     "Tom & Jerry": "Tom and Jerry",
     "Garfield & Friends": "Garfield and Friends",
-    "Pixie & Dixie": "Pixie and Dixie",
+    "Pixie & Dixie": "Pixie and Dixie and Mr. Jinks",
+    "Pixie and Dixie": "Pixie and Dixie and Mr. Jinks",
+    "Augie Doggie": "Augie Doggie and Doggie Daddy",
+    "Huckleberry Hound": "The Huckleberry Hound Show",
+    "The Banana Splits": "The Banana Splits Adventure Hour",
+    "The Snorks": "Snorks",
+    "Flintstone Frolics": "The Flintstone Comedy Show",
+    "MGM": "MGM Cartoons",
     "Ed, Edd, n Eddy": "Ed, Edd n Eddy",
     "Bucky O' Hare and the Toad Wars!": "Bucky O'Hare and the Toad Wars!",
     "All Dogs Go To Heaven": "All Dogs Go to Heaven",
@@ -75,16 +82,14 @@ FILM_YEAR = {
     "It's the Great Pumpkin, Charlie Brown": 1966,
 }
 # long slots that are series, not films
-NOT_FILM = {"The New Scooby-Doo Movies", "Sign Off", "MGM"}
+NOT_FILM = {"The New Scooby-Doo Movies", "Sign Off", "MGM", "MGM Cartoons"}
 # blocks / filler: no lookup
-NO_LOOKUP = {"Sign Off", "MGM"}
+NO_LOOKUP = {"Sign Off", "MGM", "MGM Cartoons"}
 # lookup alias for OMDb/TMDB when the on-air name differs from IMDb's
 LOOKUP = {
     "Tom and Jerry": "Tom and Jerry", "Looney Tunes": "Looney Tunes",
     "The Rocky and Bullwinkle Show": "Rocky and His Friends",
-    "Flintstone Frolics": "The Flintstones",
     "Pink Panther and Pals": "Pink Panther and Pals",
-    "Pixie and Dixie": "Pixie and Dixie and Mr. Jinks",
 }
 # Our own descriptions - win over every lookup, and replace any existing <desc>.
 # Same text is used on CCN (Whiplash generate.py FIXED_DESC).
@@ -101,6 +106,40 @@ FIXED_DESC = {
     "Tom and Jerry": _TJ, "Tom & Jerry": _TJ,
     "Dexter's Laboratory": _DL, "Dexter's Lab": _DL,
     "The Jetsons": _JS,
+    # Hanna-Barbera & friends (Jpuffle5) - Taqi's write-ups
+    "Snagglepuss": "Despite being a pink mountain lion, Snagglepuss is a rather sophisticated "
+                   "individual who merely seeks to better himself and his living situation.",
+    "Wally Gator": "Wally Gator is a friendly anthropomorphic alligator with a happy-go-lucky attitude. "
+                   "He is a permanent resident of a city zoo, but regularly escapes to experience some "
+                   "freedom. No matter how much he struggles to fit in the society of the outside world, "
+                   "Wally is always returned to captivity.",
+    "Heathcliff and the Catillac Cats": "Heathcliff is a streetwise orange house cat with thin black "
+                   "stripes. The Catillac Cats are a gang of alley cats run by Riff Raff. Together, they "
+                   "prowl the streets of Westfinster and get in trouble.",
+    "The Banana Splits Adventure Hour": "A pop group consisting of four anthropomorphic animals host a "
+                   "variety of cartoons, songs, and skits.",
+    "Snorks": "The Snorks are playful, multicolored underwater creatures that use their built-in "
+              "snorkels to dart about and make music.",
+    "The Flintstone Comedy Show": "Fred and Barney have new positions as police officers, Wilma and "
+                   "Betty have jobs as newspaper reporters at The Bedrock Gazette with Captain Caveman. "
+                   "Pebbles and Bamm-Bamm are teenagers and they solve mysteries with Dino in a similar "
+                   "fashion to Scooby-Doo. The Flintstones have new neighbors named the Frankenstones, a "
+                   "family reminiscent of the Munsters.",
+    "The New Fred and Barney Show": "The lives of the modern stone age families Fred, Wilma, Barney and "
+                   "Betty residing in Bedrock. They deal with prehistoric quirks like dinosaur lawnmowers, "
+                   "mammoth showers and encounters with saber-toothed creatures in a humorous manner.",
+    "The Kwicky Koala Show": "Kwicky can move very quickly, which means he essentially disappears "
+                   "whenever Wilferd Wolf is close to catching him. George and Joey are two stupid circus "
+                   "dogs, the Bungle Brothers. Crazy Claws is a wildcat that rips things to shreds, "
+                   "particularly his would-be captors, such as trapper Rawhide Clyde. Dirty Dawg and his "
+                   "sidekick Ratso are bums.",
+    "MGM Cartoons": "A compilation of theatrical shorts that were produced by Metro-Goldwyn-Mayer "
+                   "studios, spanning from the 1930s to the 1960s.",
+    "Pixie and Dixie and Mr. Jinks": "Pixie and Dixie are two mice who have to deal with a Beatnik cat "
+                   "\u2014 Mr. Jinks \u2014 who lives in the house as well. And boy, does he hate those "
+                   "\"meeces to pieces\".",
+    "The New Adventures of Speed Racer": "A new story arc of Speed Racer that involves time travel and "
+                   "mutants from the future interfering in present-day affairs.",
 }
 # CN Classic: titles stay as the calendar has them, except these
 CN_RENAME = {
@@ -290,8 +329,8 @@ def resolve(title, mins):
     """-> (display title, desc). Films are slots of 60+ min (Beetlejuice/Underdog/
     Scooby-Doo air both as a 30-min series and as a film)."""
     base = YEAR_RE.sub("", title)                       # already has (Year) from an earlier run
-    if base in NO_LOOKUP:
-        return base, ""
+    if base in NO_LOOKUP or base in FIXED_DESC:         # our own text covers it - no lookup
+        return base, FIXED_DESC.get(base, "")
     film = mins >= 60 and base not in NOT_FILM
     key = f"{'movie' if film else 'series'}|{base}"
     ent = cache.get(key)
