@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-04 17:58 UTC)
-#   episode-specific: 1084
-#   fixed show-blurb: 6  (hand-supplied, intentional)
-#   generic (blurb) : 35
+# DESCRIPTION REPORT  (2026-11-05 10:20 UTC)
+#   episode-specific: 980
+#   fixed show-blurb: 10  (hand-supplied, intentional)
+#   generic (blurb) : 50
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -16,14 +16,19 @@
     ("Fighting Spirit", "Anticipating a Fierce Fight"): "",   # epNum=16  no S/E resolved -> show-level blurb
     ("GaoGaiGar", "The Holy Left Arm"): "",   # epNum=3  S/E set but no DB/OMDb/TAM episode overview
     ("Ghost Stories", "The Bloody Sports Festival - Datto!!"): "",   # epNum=5  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "The Circuit Connects to Hell - Demon of the Underworld"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Demon's Hand Splits the Door - Night of Tragedy"): "",   # epNum=6  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "The Soul-Stealing Mirror!! Utsushimi"): "",   # epNum=7  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "SA: Public Security Section 9 - SECTION-9"): "",   # epNum=1  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "SA: Runaway Evidence - TESTATION"): "",   # epNum=2  no S/E resolved -> show-level blurb
     ("Harvey Birdman", "The Death of Harvey (Finale)"): "",   # epNum=39  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Fry Me to the Moon"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Lupin the Interred"): "",   # epNum=32  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Morocco Horror Picture Show"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Twins Pique"): "",   # epNum=31  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): "",   # epNum=48  no S/E resolved -> show-level blurb
+    ("Samurai Champloo", "The Disorder Diaries (Recap)"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("The Phil Silvers Show", "Bilko Presents the McGuire Sisters"): "",   # epNum=118  S/E set but no DB/OMDb/TAM episode overview
     ("The Return Of Cooler", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("The War", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Jumping Off a Wall"): "",   # epNum=7  S/E set but no DB/OMDb/TAM episode overview
-    ("X-Men: The Animated Series", "Storm Front (Part 1)"): "",   # epNum=68  no S/E resolved -> show-level blurb
+    ("Whisper of the Heart", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb

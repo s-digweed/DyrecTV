@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-04 17:58 UTC)
+# RUN STATUS  (2026-11-05 10:20 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1084 episode-specific, 6 fixed show-blurb, 35 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 980 episode-specific, 10 fixed show-blurb, 50 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 668  (manual pins: 0)
-#   S/E by absolute  : 20
-#   S/E + desc / TAM : 20  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 42  (S/E from your hand-verified sheet)
-#   episode guide    : 191  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 102  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 596  (manual pins: 0)
+#   S/E by absolute  : 12
+#   S/E + desc / TAM : 12  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 36  (S/E from your hand-verified sheet)
+#   episode guide    : 175  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 280
-#   S/E withheld     : 26  (listed below)
+#   names from TAM   : 228
+#   S/E withheld     : 30  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -26,11 +26,13 @@
     ("Fantastic Four", "Galactus"): (, ),   # epNum=14
     ("Fighting Spirit", "Anticipating a Fierce Fight"): (, ),   # epNum=16
     ("Ghost Stories", "The Bloody Sports Festival - Datto!!"): (, ),   # epNum=5
+    ("Ghost Stories", "The Circuit Connects to Hell - Demon of the Underworld"): (, ),   # epNum=8
     ("Ghost Stories", "The Demon's Hand Splits the Door - Night of Tragedy"): (, ),   # epNum=6
+    ("Ghost Stories", "The Soul-Stealing Mirror!! Utsushimi"): (, ),   # epNum=7
+    ("Ghost in the Shell", "SA: Public Security Section 9 - SECTION-9"): (, ),   # epNum=1
+    ("Ghost in the Shell", "SA: Runaway Evidence - TESTATION"): (, ),   # epNum=2
     ("Harvey Birdman", "The Death of Harvey (Finale)"): (, ),   # epNum=39
-    ("Lupin the Third: Part II", "Fry Me to the Moon"): (, ),   # epNum=29
     ("Lupin the Third: Part II", "Lupin the Interred"): (, ),   # epNum=32
     ("Lupin the Third: Part II", "Morocco Horror Picture Show"): (, ),   # epNum=30
     ("Lupin the Third: Part II", "Twins Pique"): (, ),   # epNum=31
-    ("Saint Seiya: Knights of the Zodiac", "Dragon! Revival in the Land of Death"): (, ),   # epNum=48
-    ("X-Men: The Animated Series", "Storm Front (Part 1)"): (, ),   # epNum=68
+    ("Samurai Champloo", "The Disorder Diaries (Recap)"): (, ),   # epNum=12
