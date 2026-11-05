@@ -1759,6 +1759,11 @@
   "desc": "A strange environmental phenomenon 22 years ago in the Kanazawa prefecture caused the land to split and protrude upwards reaching unprecedented heights, creating the secluded area known as The Lost Ground. Kazuma is a young mercen...",
   "t": 1793642113.1316953
  },
+ "movie|A Monsterous Holiday": {
+  "desc": "A young scientist must save his town when he accidentally creates a monster.",
+  "show": "A Monsterous Holiday (2013)",
+  "t": 1793888553.7663307
+ },
  "movie|Alvin and the Chipmunks Meet Frankenstein": {
   "desc": "Alvin, Simon and Theodore revel in their new gig at a movie theme park by wandering the grounds after hours. Among the attractions is the spooky Frankenstein's Castle, where a real mad ...",
   "show": "Alvin and the Chipmunks Meet Frankenstein (1999)",
@@ -1833,6 +1838,11 @@
   "desc": "Four children learn the origins of Halloween customs while trying to save the life of their friend.",
   "show": "The Halloween Tree (1993)",
   "t": 1793577629.455199
+ },
+ "movie|The Naughty List": {
+  "desc": "Mild mannered Evie Sanders works as a waitress in Colorado and is hopelessly in love with her manager , Jace Winters. Although she has been there for four years she has never made her move on Jace. This may change once she complet...",
+  "show": "The Naughty List (2019)",
+  "t": 1793888553.8286045
  },
  "movie|The Polar Express": {
   "desc": "On Christmas Eve, a young boy embarks on a magical adventure to the North Pole on the Polar Express, while learning about friendship, bravery, and the spirit of Christmas.",
