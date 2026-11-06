@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-05 10:20 UTC)
-#   episode-specific: 980
+# DESCRIPTION REPORT  (2026-11-06 10:23 UTC)
+#   episode-specific: 959
 #   fixed show-blurb: 10  (hand-supplied, intentional)
-#   generic (blurb) : 50
+#   generic (blurb) : 51
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,25 +10,27 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
+    ("Allegra's Window", "Small Is Beautiful"): "",   # epNum=4  S/E set but no DB/OMDb/TAM episode overview
     ("Cyborg 009", "Chang Changku's Struggling Restaurant"): "",   # epNum=18  no S/E resolved -> show-level blurb
+    ("Cyborg 009", "The Hero's Conditions"): "",   # epNum=19  no S/E resolved -> show-level blurb
+    ("Dragon Ball", "Deep Sea Blue"): "",   # epNum=48  no S/E resolved -> show-level blurb
     ("Family Double Dare", "Episode 20"): "",   # epNum=72  S/E set but no DB/OMDb/TAM episode overview
     ("Fantastic Four", "Galactus"): "",   # epNum=14  no S/E resolved -> show-level blurb
-    ("Fighting Spirit", "Anticipating a Fierce Fight"): "",   # epNum=16  no S/E resolved -> show-level blurb
     ("GaoGaiGar", "The Holy Left Arm"): "",   # epNum=3  S/E set but no DB/OMDb/TAM episode overview
-    ("Ghost Stories", "The Bloody Sports Festival - Datto!!"): "",   # epNum=5  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Circuit Connects to Hell - Demon of the Underworld"): "",   # epNum=8  no S/E resolved -> show-level blurb
-    ("Ghost Stories", "The Demon's Hand Splits the Door - Night of Tragedy"): "",   # epNum=6  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Soul-Stealing Mirror!! Utsushimi"): "",   # epNum=7  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "SA: Public Security Section 9 - SECTION-9"): "",   # epNum=1  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "SA: Runaway Evidence - TESTATION"): "",   # epNum=2  no S/E resolved -> show-level blurb
-    ("Harvey Birdman", "The Death of Harvey (Finale)"): "",   # epNum=39  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "A Rumble Royal"): "",   # epNum=33  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Lupin the Interred"): "",   # epNum=32  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Morocco Horror Picture Show"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Twins Pique"): "",   # epNum=31  no S/E resolved -> show-level blurb
+    ("Once Upon A Forest", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): "",   # epNum=52  no S/E resolved -> show-level blurb
     ("Samurai Champloo", "The Disorder Diaries (Recap)"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("The Phil Silvers Show", "Bilko Presents the McGuire Sisters"): "",   # epNum=118  S/E set but no DB/OMDb/TAM episode overview
     ("The Return Of Cooler", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The War", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("What Would You Do? (1991)", "Being Elvis"): "",   # epNum=8  S/E set but no DB/OMDb/TAM episode overview
     ("What Would You Do? (1991)", "Jumping Off a Wall"): "",   # epNum=7  S/E set but no DB/OMDb/TAM episode overview
     ("Whisper of the Heart", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
