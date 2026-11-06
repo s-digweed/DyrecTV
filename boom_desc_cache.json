@@ -1779,6 +1779,11 @@
   "show": "Casper's Scare School (2006)",
   "t": 1793577626.5386918
  },
+ "movie|Dr. Seuss' The Cat in the Hat": {
+  "desc": "",
+  "show": "Dr. Seuss' The Cat in the Hat",
+  "t": 1793975713.5225723
+ },
  "movie|Ghostbusters": {
   "desc": "Armed with proton packs, four paranormal investigators battle mischievous ghouls in New York.",
   "show": "Ghostbusters (1984)",
@@ -1803,6 +1808,11 @@
   "desc": "Join Scooby, Shaggy and the gang as they visit a friend in Mexico to celebrate the Day of the Dead! Only this time it's a monster that terrorizes the town.",
   "show": "Scooby-Doo and the Monster of Mexico (2003)",
   "t": 1793577629.959192
+ },
+ "movie|Scooby-Doo and the Witch's Ghost": {
+  "desc": "Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored be a witch.",
+  "show": "Scooby-Doo and the Witch's Ghost (1999)",
+  "t": 1793975713.6322222
  },
  "movie|Shrek": {
   "desc": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
@@ -1879,10 +1889,25 @@
   "show": "Courage the Cowardly Dog",
   "t": 1793577629.2654414
  },
+ "series|Daisy-Head Mayzie": {
+  "desc": "",
+  "show": "Daisy-Head Mayzie",
+  "t": 1793975710.9126754
+ },
  "series|Dexter's Laboratory": {
   "desc": "The misadventures of a boy genius and his annoying sister.",
   "show": "Dexter's Laboratory",
   "t": 1793577624.9813426
+ },
+ "series|Dr. Seuss on the Loose": {
+  "desc": "",
+  "show": "Dr. Seuss on the Loose",
+  "t": 1793975710.055364
+ },
+ "series|Dr. Seuss' The Cat in the Hat": {
+  "desc": "",
+  "show": "Dr. Seuss' The Cat in the Hat",
+  "t": 1793975712.6811259
  },
  "series|Dragon Ball Z Kai": {
   "desc": "Goku is settled with his family and is living in peace. Unfortunately, his peaceful time is momentary as a visitor crashes into the planet claiming to be his brother.",
@@ -1978,6 +2003,11 @@
   "desc": "Magilla Gorilla is a gorilla who spends his time languishing in the front display window of Melvin Peebles' pet shop, eating bananas and being a drain on the businessman's finances.",
   "show": "Magilla Gorilla",
   "t": 1793577625.3488479
+ },
+ "series|Merry Madagascar": {
+  "desc": "",
+  "show": "Merry Madagascar",
+  "t": 1793975709.1927102
  },
  "series|Moby Dick and Mighty Mightor": {
   "desc": "The adventures of a white whale who has become friends with two twelve-year-olds and a man endowed with incredible powers.",
@@ -2133,6 +2163,11 @@
   "desc": "The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses.",
   "show": "The Grim Adventures of Billy & Mandy",
   "t": 1793577629.1779077
+ },
+ "series|The Grinch Grinches the Cat in the Hat": {
+  "desc": "",
+  "show": "The Grinch Grinches the Cat in the Hat",
+  "t": 1793975711.8373978
  },
  "series|The Herculoids": {
   "desc": "King Zandor and a group of bizarre creatures protect their futuristic kingdom from creatures from other galaxies.",
