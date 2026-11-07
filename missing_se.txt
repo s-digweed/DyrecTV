@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-06 10:23 UTC)
+# RUN STATUS  (2026-11-07 09:38 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 959 episode-specific, 10 fixed show-blurb, 51 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 971 episode-specific, 8 fixed show-blurb, 41 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 568  (manual pins: 0)
-#   S/E by absolute  : 12
-#   S/E + desc / TAM : 16  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 34  (S/E from your hand-verified sheet)
-#   episode guide    : 173  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 124  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 569  (manual pins: 0)
+#   S/E by absolute  : 14
+#   S/E + desc / TAM : 19  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 28  (S/E from your hand-verified sheet)
+#   episode guide    : 176  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 125  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 219
-#   S/E withheld     : 25  (listed below)
+#   names from TAM   : 212
+#   S/E withheld     : 20  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -26,12 +26,8 @@
     ("Cyborg 009", "The Hero's Conditions"): (, ),   # epNum=19
     ("Dragon Ball", "Deep Sea Blue"): (, ),   # epNum=48
     ("Fantastic Four", "Galactus"): (, ),   # epNum=14
-    ("Ghost Stories", "The Circuit Connects to Hell - Demon of the Underworld"): (, ),   # epNum=8
-    ("Ghost Stories", "The Soul-Stealing Mirror!! Utsushimi"): (, ),   # epNum=7
-    ("Ghost in the Shell", "SA: Public Security Section 9 - SECTION-9"): (, ),   # epNum=1
-    ("Ghost in the Shell", "SA: Runaway Evidence - TESTATION"): (, ),   # epNum=2
     ("Lupin the Third: Part II", "A Rumble Royal"): (, ),   # epNum=33
+    ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): (, ),   # epNum=34
     ("Lupin the Third: Part II", "Lupin the Interred"): (, ),   # epNum=32
-    ("Lupin the Third: Part II", "Twins Pique"): (, ),   # epNum=31
     ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): (, ),   # epNum=52
     ("Samurai Champloo", "The Disorder Diaries (Recap)"): (, ),   # epNum=12
