@@ -1784,6 +1784,11 @@
   "show": "Dr. Seuss' The Cat in the Hat",
   "t": 1793975713.5225723
  },
+ "movie|Dragon Ball Z: Cooler's Revenge": {
+  "desc": "Frieza's older brother Cooler travels to Earth to take revenge against Goku for Frieza's defeat on planet Namek.",
+  "show": "Dragon Ball Z: Cooler's Revenge (2002)",
+  "t": 1794067314.5946474
+ },
  "movie|Ghostbusters": {
   "desc": "Armed with proton packs, four paranormal investigators battle mischievous ghouls in New York.",
   "show": "Ghostbusters (1984)",
@@ -1794,10 +1799,20 @@
   "show": "Madagascar (2005)",
   "t": 1793791936.618498
  },
+ "movie|Madagascar: Escape 2 Africa": {
+  "desc": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve in Kenya, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride.",
+  "show": "Madagascar: Escape 2 Africa (2008)",
+  "t": 1794067314.5173378
+ },
  "movie|Monster House": {
   "desc": "Three teens discover that their neighbor's house is really a living, breathing, scary monster.",
   "show": "Monster House (2006)",
   "t": 1793577632.5025105
+ },
+ "movie|My Little Pony: Equestria Girls – Forgotten Friendship": {
+  "desc": "When Sunset Shimmer finds out that her friends have no memory of her, Sunset is determined to recoup her friends' memories of her and find the perpetrator responsible.",
+  "show": "My Little Pony: Equestria Girls – Forgotten Friendship (2018)",
+  "t": 1794067314.4279068
  },
  "movie|Scooby-Doo": {
   "desc": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
@@ -1873,6 +1888,16 @@
   "desc": "The misadventures of Augie Doggie and Doggie Daddy.",
   "show": "Augie Doggie and Doggie Daddy",
   "t": 1793759974.4895227
+ },
+ "series|Bakugan Battle Brawlers": {
+  "desc": "A boy wants to be the best in ranking of an inter-dimensional game.",
+  "show": "Bakugan Battle Brawlers",
+  "t": 1794067314.741767
+ },
+ "series|Boruto: Naruto Next Generations": {
+  "desc": "Son of Naruto Uzumaki, Boruto, follows his father's footsteps along with his friends to become great ninja. Throughout all their adventures, Boruto is determined to make his mark in the ninja world and live outside of his father's...",
+  "show": "Boruto: Naruto Next Generations",
+  "t": 1794067314.6682239
  },
  "series|Cartoon Planet": {
   "desc": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
@@ -2079,6 +2104,16 @@
   "show": "SWAT Kats: The Radical Squadron",
   "t": 1793623421.1511917
  },
+ "series|Sailor Moon": {
+  "desc": "The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.",
+  "show": "Sailor Moon",
+  "t": 1794067314.934963
+ },
+ "series|Scan2Go": {
+  "desc": "Sometime in the near future, in an age in which we have established contact and communications with planets outside our galaxy, Scan2Go has become a huge phenomenon throughout all of outer space. Giant races are held at every loca...",
+  "show": "Scan2Go",
+  "t": 1794067314.8056724
+ },
  "series|Sealab 2020": {
   "desc": "Cartoon adventure series that focused on a group of Oceanauts in their experimental complex on the ocean floor.",
   "show": "Sealab 2020",
@@ -2088,6 +2123,11 @@
   "desc": "A bucktoothed squirrel is the James Bond of the rodent world.",
   "show": "Secret Squirrel",
   "t": 1793577627.1312096
+ },
+ "series|Shaggy & Scooby-Doo Get a Clue!": {
+  "desc": "Adventures of Mystery, Inc. members Shaggy and Scooby-Doo as they solve various crimes around the world with the help of inherited cash and inventions from Shaggy's uncle.",
+  "show": "Shaggy & Scooby-Doo Get a Clue!",
+  "t": 1794067314.2935193
  },
  "series|Snagglepuss": {
   "desc": "The misadventures of a pink mountain lion.",
@@ -2113,6 +2153,11 @@
   "desc": "The greatest of the DC Comics superheroes work together to uphold the good with the help of some young proteges.",
   "show": "Super Friends",
   "t": 1793577630.774576
+ },
+ "series|Sym-Bionic Titan": {
+  "desc": "Three young alien beings with the ability to form a giant robotic warrior attempt to blend into suburbia, all while battling the tyrannical forces that ravaged their home world.",
+  "show": "Sym-Bionic Titan",
+  "t": 1794067314.8713882
  },
  "series|Teen Titans": {
   "desc": "A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.",
@@ -2264,6 +2309,11 @@
   "show": "Thundarr the Barbarian",
   "t": 1793577630.5944066
  },
+ "series|Thundercats": {
+  "desc": "Follows a group of feline humanoids called the Thundercats, who have fled their destroyed home planet, Thundera, to seek refuge on the distant planet Third Earth (our earth in the far future) as they make new friends and enemies.",
+  "show": "Thundercats",
+  "t": 1794067315.0050366
+ },
  "series|Tom and Jerry": {
   "desc": "A weekly Saturday (later Sunday) Morning repackaged compilation with new wraparounds featuring two Tom and Jerry cartoons sandwiching other MGM animated theatrical shorts.",
   "show": "Tom and Jerry",
@@ -2308,5 +2358,10 @@
   "desc": "Yogi Bear and his friends enter a race to different galaxies in space, but must battle a variety of space creatures out to see that they don't finish the race.",
   "show": "Yogi's Space Race",
   "t": 1793577624.7952142
+ },
+ "series|Yogi's Treasure Hunt": {
+  "desc": "Yogi and the gang go on treasure hunts all around the world, as assigned by Top Cat. They travel on board their ship, the S.S. Jelly Roger. Dick Dastardly and Muttley follow them with their ship, the S.S. Dirty Tricks, and try to ...",
+  "show": "Yogi's Treasure Hunt",
+  "t": 1794067314.356103
  }
 }
