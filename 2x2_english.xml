@@ -759,11 +759,90 @@ On a quest for a tale of familial lore, Lucas seeks out the story of how Sarah's
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
   </programme>
-  <programme start="20261113160000 +0000" stop="20261114040000 +0000" channel="2x2_english">
+  <programme start="20261113160000 +0000" stop="20261114000000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
   </programme>
-  <programme start="20261114040000 +0000" stop="20261114160000 +0000" channel="2x2_english">
+  <programme start="20261114000000 +0000" stop="20261114003000 +0000" channel="2x2_english">
+    <title lang="en">Adventure Time</title>
+    <sub-title lang="en">Loyalty to the King / Blood Under the Skin</sub-title>
+    <desc lang="en">Finn and Jake are excited to meet the Nice King who has come to Ooo. They soon realize that he looks suspiciously like someone else they know; the Ice King.
+
+When Finn gets a splinter on his finger, he wants to get the best armor. In order to receive it, he must go on a quest to get the Magical Armor of Zelderon and survive one embarrassing situation after another.</desc>
+    <episode-num system="onscreen">S02 E03-E04</episode-num>
+  </programme>
+  <programme start="20261114003000 +0000" stop="20261114010000 +0000" channel="2x2_english">
+    <title lang="en">The Powerpuff Girls</title>
+    <sub-title lang="en">Schoolhouse Rocked</sub-title>
+    <desc lang="en">After being arrested by a truant officer, the Gang Green Gang goes back to kindergarten and invades Pokey Oaks with tricks up their sleeves.</desc>
+    <episode-num system="onscreen">S02 E02</episode-num>
+    <episode-num system="xmltv_ns">1.1.</episode-num>
+  </programme>
+  <programme start="20261114010000 +0000" stop="20261114013000 +0000" channel="2x2_english">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">Beware of Robot</sub-title>
+    <desc lang="en">Goku and Krillin fight a robot that is guarding the pirates' secret hideout.</desc>
+    <episode-num system="onscreen">S01 E51</episode-num>
+    <episode-num system="xmltv_ns">0.50.</episode-num>
+  </programme>
+  <programme start="20261114013000 +0000" stop="20261114020000 +0000" channel="2x2_english">
+    <title lang="en">One Piece - East Blue</title>
+    <sub-title lang="en">Luffy in Big Trouble! Fishmen vs. The Luffy Pirates!</sub-title>
+    <desc lang="en">Luffy battles Arlong head-on but becomes trapped underwater by a concrete anchor. As Zoro, Sanji, and Usopp fight Arlong's officers, Nami races to free Luffy before his last breath slips away.</desc>
+    <episode-num system="onscreen">S01 E38</episode-num>
+    <episode-num system="xmltv_ns">0.37.</episode-num>
+  </programme>
+  <programme start="20261114020000 +0000" stop="20261114023000 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">Burgerboss</sub-title>
+    <desc lang="en">Bob becomes obsessed with an old-school burger-flipping video game.</desc>
+    <episode-num system="onscreen">S02 E04</episode-num>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+  </programme>
+  <programme start="20261114023000 +0000" stop="20261114030000 +0000" channel="2x2_english">
+    <title lang="en">The Simpsons</title>
+    <desc lang="en">The satiric half-hour adventures of a working-class family in the misfit city of Springfield.</desc>
+  </programme>
+  <programme start="20261114030000 +0000" stop="20261114032500 +0000" channel="2x2_english">
+    <title lang="en">The Venture Bros.</title>
+    <sub-title lang="en">Dia de los Dangerous!</sub-title>
+    <desc lang="en">Dr. Venture and his family are in Mexico, where the boys get kidnapped by the Monarch's henchmen. Brock goes on a rampage to get them back and Dr. Venture wakes up in a bathtub of ice to find he has no kidneys.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261114032500 +0000" stop="20261114035000 +0000" channel="2x2_english">
+    <title lang="en">Common Side Effects</title>
+    <sub-title lang="en">Dumpsite</sub-title>
+    <desc lang="en">Marshall buys a plot of land near a chemical waste site with a plan to grow more mushrooms; Frances rushes home from Europe after a huge development; Copano and Harrington investigate a connection between Marshall and Frances.</desc>
+    <episode-num system="onscreen">S01 E04</episode-num>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+  </programme>
+  <programme start="20261114035000 +0000" stop="20261114041500 +0000" channel="2x2_english">
+    <title lang="en">FLCL</title>
+    <sub-title lang="en">Fooly Cooly</sub-title>
+    <desc lang="en">Naota wonders why a young woman has started stalking him.</desc>
+    <episode-num system="onscreen">S01 E01</episode-num>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+  </programme>
+  <programme start="20261114041500 +0000" stop="20261114044000 +0000" channel="2x2_english">
+    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
+    <sub-title lang="en">Hidden Truths</sub-title>
+    <desc lang="en">The Elrics discover the horrific ingredient needed to create a Philosopher's Stone. When night falls, they prowl the grounds of a secret laboratory in search of more facts - but the brothers find only danger.</desc>
+    <episode-num system="onscreen">S01 E07</episode-num>
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+  </programme>
+  <programme start="20261114044000 +0000" stop="20261114050500 +0000" channel="2x2_english">
+    <title lang="en">Revolutionary Girl Utena</title>
+    <sub-title lang="en">The Rose Crest</sub-title>
+    <desc lang="en">Utena, Anthy, and Akio all go to see a play being put on by the school's drama club. The play, however, rings a little closer to truth than it does to fairy-tale.</desc>
+    <episode-num system="onscreen">S01 E34</episode-num>
+    <episode-num system="xmltv_ns">0.33.</episode-num>
+  </programme>
+  <programme start="20261114050500 +0000" stop="20261114063000 +0000" channel="2x2_english">
+    <title lang="en">SpongeBob SquarePants</title>
+    <desc lang="en">The mishaps of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in a pineapple under the sea.</desc>
+  </programme>
+  <programme start="20261114063000 +0000" stop="20261114160000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now. Check the latest in 2x2 news on our Discord server</desc>
   </programme>
