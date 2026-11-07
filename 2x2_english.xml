@@ -1108,13 +1108,92 @@ Check the latest in 2x2 news on our Discord server.</desc>
 
 Check the latest in 2x2 news on our Discord server.</desc>
   </programme>
-  <programme start="20261120160000 +0000" stop="20261121040000 +0000" channel="2x2_english">
+  <programme start="20261120160000 +0000" stop="20261121000000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now.
 
 Check the latest in 2x2 news on our Discord server.</desc>
   </programme>
-  <programme start="20261121040000 +0000" stop="20261121160000 +0000" channel="2x2_english">
+  <programme start="20261121000000 +0000" stop="20261121003000 +0000" channel="2x2_english">
+    <title lang="en">Adventure Time</title>
+    <sub-title lang="en">Storytelling / Slow Love</sub-title>
+    <desc lang="en">Jake is sick and demands to hear a good story full of romance, fighting and suspense.
+
+Finn and Jake agree to help a snail named Snorlock find a girlfriend.</desc>
+    <episode-num system="onscreen">S02 E05-E06</episode-num>
+  </programme>
+  <programme start="20261121003000 +0000" stop="20261121010000 +0000" channel="2x2_english">
+    <title lang="en">The Powerpuff Girls</title>
+    <sub-title lang="en">Collect Her</sub-title>
+    <desc lang="en">Nerd boy Lenny Baxter has every single Powerpuff merchandise on the entire planet and now he decides to collect The Powerpuff Girls.</desc>
+    <episode-num system="onscreen">S02 E03</episode-num>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+  </programme>
+  <programme start="20261121010000 +0000" stop="20261121013000 +0000" channel="2x2_english">
+    <title lang="en">Dragon Ball</title>
+    <sub-title lang="en">The Pirate Treasure</sub-title>
+    <desc lang="en">Goku fights a giant octopus. Krillin and Bulma look for the pirate treasure, and they have a run-in with General Blue.</desc>
+    <episode-num system="onscreen">S01 E52</episode-num>
+    <episode-num system="xmltv_ns">0.51.</episode-num>
+  </programme>
+  <programme start="20261121013000 +0000" stop="20261121020000 +0000" channel="2x2_english">
+    <title lang="en">One Piece - East Blue</title>
+    <sub-title lang="en">Luffy Submerged! Zoro vs. Hatchan the Octopus!</sub-title>
+    <desc lang="en">With Luffy still immobilized, Zoro duels octopus-swordsman Hachi despite his own wounds, and Sanji takes to the sea against the ruthless Kuroobi. Every second counts as Nami dives to unshackle her captain.</desc>
+    <episode-num system="onscreen">S01 E39</episode-num>
+    <episode-num system="xmltv_ns">0.38.</episode-num>
+  </programme>
+  <programme start="20261121020000 +0000" stop="20261121023000 +0000" channel="2x2_english">
+    <title lang="en">Bob's Burgers</title>
+    <sub-title lang="en">Food Truckin'</sub-title>
+    <desc lang="en">Bob gives the food truck business a try.</desc>
+    <episode-num system="onscreen">S02 E05</episode-num>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+  </programme>
+  <programme start="20261121023000 +0000" stop="20261121030000 +0000" channel="2x2_english">
+    <title lang="en">The Simpsons</title>
+    <desc lang="en">The satiric half-hour adventures of a working-class family in the misfit city of Springfield.</desc>
+  </programme>
+  <programme start="20261121030000 +0000" stop="20261121032500 +0000" channel="2x2_english">
+    <title lang="en">The Venture Bros.</title>
+    <sub-title lang="en">Careers in Science</sub-title>
+    <desc lang="en">The Venture family must travel to space to repair an orbiting space station that Dr. Venture's father built in the 1970s, but a mysterious space phantom could be haunting the station!</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261121032500 +0000" stop="20261121035000 +0000" channel="2x2_english">
+    <title lang="en">Common Side Effects</title>
+    <sub-title lang="en">Star-Tel-Lite</sub-title>
+    <desc lang="en">Marshall, Frances, and their crazy neighbors deal with the aftermath of a dangerous incident.</desc>
+    <episode-num system="onscreen">S01 E05</episode-num>
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+  </programme>
+  <programme start="20261121035000 +0000" stop="20261121041500 +0000" channel="2x2_english">
+    <title lang="en">FLCL</title>
+    <sub-title lang="en">Fire Starter</sub-title>
+    <desc lang="en">"Nurse" Haruko X-rays Naota's head to show him that his brain has gone missing.</desc>
+    <episode-num system="onscreen">S01 E02</episode-num>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+  </programme>
+  <programme start="20261121041500 +0000" stop="20261121044000 +0000" channel="2x2_english">
+    <title lang="en">Fullmetal Alchemist: Brotherhood</title>
+    <sub-title lang="en">The Fifth Laboratory</sub-title>
+    <desc lang="en">Ed and Al furiously battle the Fifth Laboratory's psychotic guards. In the chaos, the truth behind the Philosopher's Stone is buried beneath rubble - and disturbing new questions are unearthed.</desc>
+    <episode-num system="onscreen">S01 E08</episode-num>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
+  </programme>
+  <programme start="20261121044000 +0000" stop="20261121050500 +0000" channel="2x2_english">
+    <title lang="en">Revolutionary Girl Utena</title>
+    <sub-title lang="en">The Love That Blossomed in Wintertime</sub-title>
+    <desc lang="en">Touga's carried out Akio's will without question, up until now.</desc>
+    <episode-num system="onscreen">S01 E35</episode-num>
+    <episode-num system="xmltv_ns">0.34.</episode-num>
+  </programme>
+  <programme start="20261121050500 +0000" stop="20261121063000 +0000" channel="2x2_english">
+    <title lang="en">SpongeBob SquarePants</title>
+    <desc lang="en">The mishaps of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in a pineapple under the sea.</desc>
+  </programme>
+  <programme start="20261121063000 +0000" stop="20261121160000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now.
 
