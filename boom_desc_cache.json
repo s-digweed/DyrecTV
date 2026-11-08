@@ -1799,6 +1799,11 @@
   "show": "Madagascar (2005)",
   "t": 1793791936.618498
  },
+ "movie|Madagascar 3: Europe's Most Wanted": {
+  "desc": "The Madagascar animals join a struggling European circus to get back to New York, but find themselves being pursued by a psychotic animal-control officer.",
+  "show": "Madagascar 3: Europe's Most Wanted (2012)",
+  "t": 1794153368.3044248
+ },
  "movie|Madagascar: Escape 2 Africa": {
   "desc": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve in Kenya, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride.",
   "show": "Madagascar: Escape 2 Africa (2008)",
@@ -1899,6 +1904,11 @@
   "show": "Boruto: Naruto Next Generations",
   "t": 1794067314.6682239
  },
+ "series|Captain Caveman and the Teen Angels": {
+  "desc": "The adventures of a superhero caveman and a trio of female amateur detectives.",
+  "show": "Captain Caveman and the Teen Angels",
+  "t": 1794153368.2253718
+ },
  "series|Cartoon Planet": {
   "desc": "Following success as a late night talk show host, Space Ghost recruits Brak (now somewhat brain-damaged) to his cast for his very own variety show. Zorak (from Coast to Coast) serves as the third host.",
   "show": "Cartoon Planet",
@@ -1979,10 +1989,20 @@
   "show": "Help! It's the Hair Bear Bunch",
   "t": 1793577628.320208
  },
+ "series|Hong Kong Phooey": {
+  "desc": "A kung-fu-fighting pup and his snickering cat sidekick battle crime.",
+  "show": "Hong Kong Phooey",
+  "t": 1794153368.0385323
+ },
  "series|Huckleberry Hound": {
   "desc": "The adventures of a blue dog with a southern accent.",
   "show": "Huckleberry Hound",
   "t": 1793577625.6298797
+ },
+ "series|Jabberjaw": {
+  "desc": "The futuristic undersea adventures of a goofy talking shark and his human musical band companions.",
+  "show": "Jabberjaw",
+  "t": 1794153368.1288662
  },
  "series|Johnny Bravo": {
   "desc": "The misadventures of a dumb blond egomaniac who severely overestimates his own manliness and his supposed \"success\" with women.",
