@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-07 09:38 UTC)
+# RUN STATUS  (2026-11-08 09:52 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 971 episode-specific, 8 fixed show-blurb, 41 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 961 episode-specific, 10 fixed show-blurb, 46 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 569  (manual pins: 0)
-#   S/E by absolute  : 14
-#   S/E + desc / TAM : 19  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 28  (S/E from your hand-verified sheet)
-#   episode guide    : 176  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 125  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 572  (manual pins: 0)
+#   S/E by absolute  : 16
+#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 22  (S/E from your hand-verified sheet)
+#   episode guide    : 173  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 141  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 212
-#   S/E withheld     : 20  (listed below)
+#   names from TAM   : 180
+#   S/E withheld     : 28  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,12 +22,14 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cyborg 009", "Chang Changku's Struggling Restaurant"): (, ),   # epNum=18
     ("Cyborg 009", "The Hero's Conditions"): (, ),   # epNum=19
+    ("Dragon Ball", "Beware of Robot"): (, ),   # epNum=51
     ("Dragon Ball", "Deep Sea Blue"): (, ),   # epNum=48
+    ("Elfen Lied", "No Return (Finale)"): (, ),   # epNum=13
     ("Fantastic Four", "Galactus"): (, ),   # epNum=14
     ("Lupin the Third: Part II", "A Rumble Royal"): (, ),   # epNum=33
     ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): (, ),   # epNum=34
-    ("Lupin the Third: Part II", "Lupin the Interred"): (, ),   # epNum=32
+    ("Lupin the Third: Part II", "Gorilla Tactics"): (, ),   # epNum=35
     ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): (, ),   # epNum=52
     ("Samurai Champloo", "The Disorder Diaries (Recap)"): (, ),   # epNum=12
+    ("The Brak Show", "Splat of Deadliness"): (, ),   # epNum=24

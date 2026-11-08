@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-07 09:38 UTC)
-#   episode-specific: 971
-#   fixed show-blurb: 8  (hand-supplied, intentional)
-#   generic (blurb) : 41
+# DESCRIPTION REPORT  (2026-11-08 09:52 UTC)
+#   episode-specific: 961
+#   fixed show-blurb: 10  (hand-supplied, intentional)
+#   generic (blurb) : 46
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -12,18 +12,20 @@
 # ============================================================
     ("Allegra's Window", "Small Is Beautiful"): "",   # epNum=4  S/E set but no DB/OMDb/TAM episode overview
     ("Allegra's Window", "The Imaginary Zoo"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
-    ("Cyborg 009", "Chang Changku's Struggling Restaurant"): "",   # epNum=18  no S/E resolved -> show-level blurb
     ("Cyborg 009", "The Hero's Conditions"): "",   # epNum=19  no S/E resolved -> show-level blurb
+    ("Dragon Ball", "Beware of Robot"): "",   # epNum=51  no S/E resolved -> show-level blurb
     ("Dragon Ball", "Deep Sea Blue"): "",   # epNum=48  no S/E resolved -> show-level blurb
+    ("Elfen Lied", "No Return (Finale)"): "",   # epNum=13  no S/E resolved -> show-level blurb
     ("Family Double Dare", "Episode 20"): "",   # epNum=72  S/E set but no DB/OMDb/TAM episode overview
     ("Fantastic Four", "Galactus"): "",   # epNum=14  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "A Rumble Royal"): "",   # epNum=33  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): "",   # epNum=34  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Lupin the Interred"): "",   # epNum=32  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Gorilla Tactics"): "",   # epNum=35  no S/E resolved -> show-level blurb
     ("Once Upon A Forest", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): "",   # epNum=52  no S/E resolved -> show-level blurb
     ("Samurai Champloo", "The Disorder Diaries (Recap)"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("The Brak Show", "Splat of Deadliness"): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("The Return Of Cooler", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The War", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Being Elvis"): "",   # epNum=8  S/E set but no DB/OMDb/TAM episode overview
