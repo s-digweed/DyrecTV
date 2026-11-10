@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-09 10:54 UTC)
+# RUN STATUS  (2026-11-10 10:46 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 974 episode-specific, 7 fixed show-blurb, 46 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 1078 episode-specific, 4 fixed show-blurb, 54 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 675  (manual pins: 0)
-#   S/E by absolute  : 18
-#   S/E + desc / TAM : 14  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 12  (S/E from your hand-verified sheet)
-#   episode guide    : 162  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 90  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 682  (manual pins: 2)
+#   S/E by absolute  : 20
+#   S/E + desc / TAM : 4  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 14  (S/E from your hand-verified sheet)
+#   episode guide    : 192  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 148  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 273
-#   S/E withheld     : 34  (listed below)
+#   names from TAM   : 231
+#   S/E withheld     : 41  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,17 +22,21 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
+    ("Aqua Teen Hunger Force", "Baffler Meal (Space Ghost Coast to Coast)"): (, ),   # epNum=78
     ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): (, ),   # epNum=22
+    ("Cyborg 009", "Mythology Arises (Mythos Arc)"): (, ),   # epNum=23
     ("Cyborg 009", "The Hero's Conditions"): (, ),   # epNum=19
     ("Dragon Ball", "Beware of Robot"): (, ),   # epNum=51
     ("Dragon Ball", "Deep Sea Blue"): (, ),   # epNum=48
     ("Elfen Lied", "No Return (Finale)"): (, ),   # epNum=13
+    ("GaoGaiGar", "Runaway Zonder"): (, ),   # epNum=4
+    ("Iron Man", "If I Die, Let It Be With Honor; Fight On, For A World Is Watching; What Price Victory?"): (, ),   # epNum=7
     ("Lupin the Third: Part II", "A Rumble Royal"): (, ),   # epNum=33
     ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): (, ),   # epNum=34
     ("Lupin the Third: Part II", "Gorilla Tactics"): (, ),   # epNum=35
+    ("Lupin the Third: Part II", "Khan Job"): (, ),   # epNum=37
     ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): (, ),   # epNum=36
     ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): (, ),   # epNum=52
     ("Saint Seiya: Knights of the Zodiac", "Fellowship of Harm! Athena's Cry"): (, ),   # epNum=55
-    ("Samurai Champloo", "The Disorder Diaries (Recap)"): (, ),   # epNum=12
     ("The Brak Show", "Splat of Deadliness"): (, ),   # epNum=24
     ("X-Men: The Animated Series", "Graduation Day (Finale)"): (, ),   # epNum=75

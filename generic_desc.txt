@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-09 10:54 UTC)
-#   episode-specific: 974
-#   fixed show-blurb: 7  (hand-supplied, intentional)
-#   generic (blurb) : 46
+# DESCRIPTION REPORT  (2026-11-10 10:46 UTC)
+#   episode-specific: 1078
+#   fixed show-blurb: 4  (hand-supplied, intentional)
+#   generic (blurb) : 54
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,23 +10,27 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
+    ("Allegra's Window", "Lots of Turkey Pox"): "",   # epNum=8  S/E set but no DB/OMDb/TAM episode overview
+    ("Aqua Teen Hunger Force", "Baffler Meal (Space Ghost Coast to Coast)"): "",   # epNum=78  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): "",   # epNum=22  no S/E resolved -> show-level blurb
+    ("Cyborg 009", "Mythology Arises (Mythos Arc)"): "",   # epNum=23  no S/E resolved -> show-level blurb
     ("Cyborg 009", "The Hero's Conditions"): "",   # epNum=19  no S/E resolved -> show-level blurb
     ("Dragon Ball", "Beware of Robot"): "",   # epNum=51  no S/E resolved -> show-level blurb
     ("Dragon Ball", "Deep Sea Blue"): "",   # epNum=48  no S/E resolved -> show-level blurb
     ("Elfen Lied", "No Return (Finale)"): "",   # epNum=13  no S/E resolved -> show-level blurb
+    ("GaoGaiGar", "Runaway Zonder"): "",   # epNum=4  no S/E resolved -> show-level blurb
+    ("Hulk", "Within this Monster Dwells a Man; Another World, Another Foe; The Wisdom of the Watcher"): "",   # epNum=7  pinned cartoon: no synopsis supplied for this segment
+    ("Iron Man", "If I Die, Let It Be With Honor; Fight On, For A World Is Watching; What Price Victory?"): "",   # epNum=7  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "A Rumble Royal"): "",   # epNum=33  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): "",   # epNum=34  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Gorilla Tactics"): "",   # epNum=35  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Khan Job"): "",   # epNum=37  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): "",   # epNum=36  no S/E resolved -> show-level blurb
     ("Once Upon A Forest", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Ares! The Demon Emperor Plots"): "",   # epNum=52  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Fellowship of Harm! Athena's Cry"): "",   # epNum=55  no S/E resolved -> show-level blurb
-    ("Samurai Champloo", "The Disorder Diaries (Recap)"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("Super Android 13", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The Brak Show", "Splat of Deadliness"): "",   # epNum=24  no S/E resolved -> show-level blurb
-    ("The Return Of Cooler", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("The War", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Being Elvis"): "",   # epNum=8  S/E set but no DB/OMDb/TAM episode overview
     ("What Would You Do? (1991)", "Training Your Family"): "",   # epNum=9  S/E set but no DB/OMDb/TAM episode overview
-    ("Whisper of the Heart", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("X-Men: The Animated Series", "Graduation Day (Finale)"): "",   # epNum=75  no S/E resolved -> show-level blurb
