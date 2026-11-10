@@ -1779,6 +1779,11 @@
   "show": "Casper's Scare School (2006)",
   "t": 1793577626.5386918
  },
+ "movie|Charlie and the Chocolate Factory": {
+  "desc": "A young boy from an impoverished family joins four other kids on a tour of an amazing chocolate factory run by an imaginative chocolatier.",
+  "show": "Charlie and the Chocolate Factory (2005)",
+  "t": 1794326999.5574415
+ },
  "movie|Dr. Seuss' The Cat in the Hat": {
   "desc": "",
   "show": "Dr. Seuss' The Cat in the Hat",
@@ -2054,6 +2059,11 @@
   "show": "Merry Madagascar",
   "t": 1793975709.1927102
  },
+ "series|Mighty Man and Yukk": {
+  "desc": "Millionaire Brandon Brewster uses a machine to reduce himself to only a few inches in height and give himself superpowers, including super-strength and flight; in this form, he's the costumed crime fighter Mighty Man.",
+  "show": "Mighty Man and Yukk",
+  "t": 1794326999.618825
+ },
  "series|Moby Dick and Mighty Mightor": {
   "desc": "The adventures of a white whale who has become friends with two twelve-year-olds and a man endowed with incredible powers.",
   "show": "Moby Dick and Mighty Mightor",
@@ -2298,6 +2308,11 @@
   "desc": "A classy, resourceful panther has plenty of hilarious misadventures, outwitting those who annoy him with his clever tricks.",
   "show": "The Pink Panther Show",
   "t": 1793577627.6053765
+ },
+ "series|The Plastic Man Comedy/Adventure Show": {
+  "desc": "The Plastic Man Comedy/Adventure Show is an animated television series produced by Ruby-Spears Productions from 1979 to 1981; it was shown right after Super Friends on the ABC Network. It featured various adventures of the DC Comics superhero Plastic Man. The show features many adventures in different segments: Plastic Man, Baby Plas, Plastic Family, Mighty Man and Yukk, Fangface and Fangpuss, and Rickety Rocket. The show was repackaged by Arlington Television into 130 half-hour episodes, and released into national, first-run-off-network daily syndication in 1984. The Plastic Man Comedy Show was produced and directed by Steve Whiting and featured a live-action \"Plastic Man\", played by Taylor Marks.",
+  "show": "The Plastic Man Comedy/Adventure Show",
+  "t": 1794326999.9467475
  },
  "series|The Powerpuff Girls": {
   "desc": "Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.",
