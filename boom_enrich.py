@@ -102,6 +102,10 @@ _DL = ("Dexter, a boy-genius with a secret laboratory, constantly battles his si
 _JS = ("Meet George Jetson and his quirky family: wife Jane, son Elroy and daughter Judy. "
        "Living in the automated, push-button world of the future hasn't made life any easier "
        "for the harried husband and father, who gets into one comical misadventure after another!")
+_QD = ("Quick Draw McGraw is a dimwitted, lanky horse who causes chaos across the Old West. If he can get "
+       "his six-shooter out of its holster at all, he usually shoots the wrong man. His partner, a Mexican burro "
+       "named Baba Looey, does his best to help. Also on the show: cartoons featuring Snooper and Blabber, and "
+       "Augie Doggie and Doggie Daddy.")
 FIXED_DESC = {
     "Tom and Jerry": _TJ, "Tom & Jerry": _TJ,
     "Dexter's Laboratory": _DL, "Dexter's Lab": _DL,
@@ -140,6 +144,15 @@ FIXED_DESC = {
                    "\"meeces to pieces\".",
     "The New Adventures of Speed Racer": "A new story arc of Speed Racer that involves time travel and "
                    "mutants from the future interfering in present-day affairs.",
+    # Quick Draw McGraw family (also used on Boomerang Reborn) - Taqi's write-ups
+    "Quick Draw McGraw": _QD,
+    "The Quick Draw McGraw Show": _QD,
+    "Augie Doggie and Doggie Daddy": "The domestic adventures of Doggie Daddy, a single-parent dog raising his "
+                   "son, Augie Doggie. Augie sometimes gets his dear old dad in trouble, but the love between "
+                   "father and son usually wins out.",
+    "Snooper and Blabber": "Snooper and Blabber are a cat-and-mouse detective duo. Super Snooper, the cat, is "
+                   "more or less in charge whenever they take on a case, while Blabber Mouse follows whatever "
+                   "orders Snooper gives him.",
 }
 # CN Classic: titles stay as the calendar has them, except these
 CN_RENAME = {
