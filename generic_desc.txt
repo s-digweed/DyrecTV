@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-11 10:19 UTC)
-#   episode-specific: 1054
-#   fixed show-blurb: 10  (hand-supplied, intentional)
-#   generic (blurb) : 63
+# DESCRIPTION REPORT  (2026-11-12 10:39 UTC)
+#   episode-specific: 946
+#   fixed show-blurb: 12  (hand-supplied, intentional)
+#   generic (blurb) : 77
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -15,21 +15,26 @@
     ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Mythology Arises (Mythos Arc)"): "",   # epNum=23  no S/E resolved -> show-level blurb
     ("Dragon Ball", "Beware of Robot"): "",   # epNum=51  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "Deep Sea Blue"): "",   # epNum=48  no S/E resolved -> show-level blurb
     ("Elfen Lied", "No Return (Finale)"): "",   # epNum=13  no S/E resolved -> show-level blurb
     ("Fighting Spirit", "Dream of a KO"): "",   # epNum=19  no S/E resolved -> show-level blurb
     ("GaoGaiGar", "Blue and Red"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
     ("GaoGaiGar", "Runaway Zonder"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Corpse that Roams in the Night - Shirotabi"): "",   # epNum=9  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "The Nurse Who Tells Your Death - Mother's Feelings"): "",   # epNum=12  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "The Talking Merry Doll!! Shadow of Terror"): "",   # epNum=11  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Tunnel with No Exit - Anamaneki"): "",   # epNum=10  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): "",   # epNum=6  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "C: The Inviting Bird will Chant - DECOY"): "",   # epNum=5  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "C: The Visual Device will Laugh - INTERCEPTER"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "SA: A Modest Rebellion - ANDROID AND I"): "",   # epNum=3  no S/E resolved -> show-level blurb
+    ("Home Alone", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Howl's Moving Castle", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Hulk", "Within this Monster Dwells a Man; Another World, Another Foe; The Wisdom of the Watcher"): "",   # epNum=7  pinned cartoon: no synopsis supplied for this segment
     ("Initial D: First Stage", "Beyond The Impact Blue"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Initial D: First Stage", "Sentimental White"): "",   # epNum=28  no S/E resolved -> show-level blurb
+    ("Initial D: First Stage", "The Law-breaking Super Weapon!"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Iron Man", "If I Die, Let It Be With Honor; Fight On, For A World Is Watching; What Price Victory?"): "",   # epNum=7  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): "",   # epNum=34  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Gorilla Tactics"): "",   # epNum=35  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Khan Job"): "",   # epNum=37  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): "",   # epNum=36  no S/E resolved -> show-level blurb

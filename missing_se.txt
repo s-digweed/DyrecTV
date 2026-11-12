@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-11 10:19 UTC)
+# RUN STATUS  (2026-11-12 10:39 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1054 episode-specific, 10 fixed show-blurb, 63 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 946 episode-specific, 12 fixed show-blurb, 77 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 646  (manual pins: 6)
-#   S/E by absolute  : 16
-#   S/E + desc / TAM : 3  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 13  (S/E from your hand-verified sheet)
-#   episode guide    : 198  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 141  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 592  (manual pins: 6)
+#   S/E by absolute  : 12
+#   S/E + desc / TAM : 2  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 10  (S/E from your hand-verified sheet)
+#   episode guide    : 181  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 114  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 229
-#   S/E withheld     : 50  (listed below)
+#   names from TAM   : 234
+#   S/E withheld     : 57  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -26,18 +26,21 @@
     ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): (, ),   # epNum=22
     ("Cyborg 009", "Mythology Arises (Mythos Arc)"): (, ),   # epNum=23
     ("Dragon Ball", "Beware of Robot"): (, ),   # epNum=51
-    ("Dragon Ball", "Deep Sea Blue"): (, ),   # epNum=48
     ("Elfen Lied", "No Return (Finale)"): (, ),   # epNum=13
     ("Fighting Spirit", "Dream of a KO"): (, ),   # epNum=19
     ("GaoGaiGar", "Runaway Zonder"): (, ),   # epNum=4
     ("Ghost Stories", "The Corpse that Roams in the Night - Shirotabi"): (, ),   # epNum=9
+    ("Ghost Stories", "The Nurse Who Tells Your Death - Mother's Feelings"): (, ),   # epNum=12
+    ("Ghost Stories", "The Talking Merry Doll!! Shadow of Terror"): (, ),   # epNum=11
     ("Ghost Stories", "The Tunnel with No Exit - Anamaneki"): (, ),   # epNum=10
+    ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): (, ),   # epNum=6
+    ("Ghost in the Shell", "C: The Inviting Bird will Chant - DECOY"): (, ),   # epNum=5
     ("Ghost in the Shell", "C: The Visual Device will Laugh - INTERCEPTER"): (, ),   # epNum=4
     ("Ghost in the Shell", "SA: A Modest Rebellion - ANDROID AND I"): (, ),   # epNum=3
     ("Initial D: First Stage", "Beyond The Impact Blue"): (, ),   # epNum=27
     ("Initial D: First Stage", "Sentimental White"): (, ),   # epNum=28
+    ("Initial D: First Stage", "The Law-breaking Super Weapon!"): (, ),   # epNum=29
     ("Iron Man", "If I Die, Let It Be With Honor; Fight On, For A World Is Watching; What Price Victory?"): (, ),   # epNum=7
-    ("Lupin the Third: Part II", "But your Brother was Such a Nice Guy"): (, ),   # epNum=34
     ("Lupin the Third: Part II", "Gorilla Tactics"): (, ),   # epNum=35
     ("Lupin the Third: Part II", "Khan Job"): (, ),   # epNum=37
     ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): (, ),   # epNum=36
