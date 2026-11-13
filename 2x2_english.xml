@@ -1018,11 +1018,11 @@ Check the latest in 2x2 news on our Discord server.</desc>
     <episode-num system="onscreen">S01 E34</episode-num>
     <episode-num system="xmltv_ns">0.33.</episode-num>
   </programme>
-  <programme start="20261114050500 +0000" stop="20261114063000 +0000" channel="2x2_english">
+  <programme start="20261114050500 +0000" stop="20261114053000 +0000" channel="2x2_english">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">The mishaps of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in a pineapple under the sea.</desc>
   </programme>
-  <programme start="20261114063000 +0000" stop="20261114160000 +0000" channel="2x2_english">
+  <programme start="20261114053000 +0000" stop="20261114160000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now.
 
@@ -1179,11 +1179,11 @@ Check the latest in 2x2 news on our Discord server.</desc>
     <episode-num system="onscreen">S01 E35</episode-num>
     <episode-num system="xmltv_ns">0.34.</episode-num>
   </programme>
-  <programme start="20261121050500 +0000" stop="20261121063000 +0000" channel="2x2_english">
+  <programme start="20261121050500 +0000" stop="20261121053000 +0000" channel="2x2_english">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">The mishaps of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in a pineapple under the sea.</desc>
   </programme>
-  <programme start="20261121063000 +0000" stop="20261121160000 +0000" channel="2x2_english">
+  <programme start="20261121053000 +0000" stop="20261121160000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now.
 
@@ -1340,11 +1340,11 @@ Check the latest in 2x2 news on our Discord server.</desc>
     <episode-num system="onscreen">S01 E36</episode-num>
     <episode-num system="xmltv_ns">0.35.</episode-num>
   </programme>
-  <programme start="20261128050500 +0000" stop="20261128063000 +0000" channel="2x2_english">
+  <programme start="20261128050500 +0000" stop="20261128053000 +0000" channel="2x2_english">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">The mishaps of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in a pineapple under the sea.</desc>
   </programme>
-  <programme start="20261128063000 +0000" stop="20261128160000 +0000" channel="2x2_english">
+  <programme start="20261128053000 +0000" stop="20261128160000 +0000" channel="2x2_english">
     <title lang="en">DO NOT DISTURB!</title>
     <desc lang="en">2x2's resting now.
 
