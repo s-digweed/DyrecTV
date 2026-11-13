@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-12 10:39 UTC)
-#   episode-specific: 946
-#   fixed show-blurb: 12  (hand-supplied, intentional)
-#   generic (blurb) : 77
+# DESCRIPTION REPORT  (2026-11-13 10:31 UTC)
+#   episode-specific: 934
+#   fixed show-blurb: 10  (hand-supplied, intentional)
+#   generic (blurb) : 67
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,23 +10,18 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Allegra's Window", "Lots of Turkey Pox"): "",   # epNum=8  S/E set but no DB/OMDb/TAM episode overview
     ("Aqua Teen Hunger Force", "Baffler Meal (Space Ghost Coast to Coast)"): "",   # epNum=78  no S/E resolved -> show-level blurb
+    ("Cyborg 009", "Artemis (Mythos Arc)"): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): "",   # epNum=22  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Mythology Arises (Mythos Arc)"): "",   # epNum=23  no S/E resolved -> show-level blurb
-    ("Dragon Ball", "Beware of Robot"): "",   # epNum=51  no S/E resolved -> show-level blurb
-    ("Elfen Lied", "No Return (Finale)"): "",   # epNum=13  no S/E resolved -> show-level blurb
-    ("Fighting Spirit", "Dream of a KO"): "",   # epNum=19  no S/E resolved -> show-level blurb
+    ("Dragon Ball Z", "Gohan's Desperate Plea"): "",   # epNum=168  no S/E resolved -> show-level blurb
+    ("Dragon Ball Z", "The Unleashing"): "",   # epNum=171  no S/E resolved -> show-level blurb
     ("GaoGaiGar", "Blue and Red"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
     ("GaoGaiGar", "Runaway Zonder"): "",   # epNum=4  no S/E resolved -> show-level blurb
-    ("Ghost Stories", "The Corpse that Roams in the Night - Shirotabi"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Nurse Who Tells Your Death - Mother's Feelings"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("Ghost Stories", "The Talking Merry Doll!! Shadow of Terror"): "",   # epNum=11  no S/E resolved -> show-level blurb
-    ("Ghost Stories", "The Tunnel with No Exit - Anamaneki"): "",   # epNum=10  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): "",   # epNum=6  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "C: The Inviting Bird will Chant - DECOY"): "",   # epNum=5  no S/E resolved -> show-level blurb
-    ("Ghost in the Shell", "C: The Visual Device will Laugh - INTERCEPTER"): "",   # epNum=4  no S/E resolved -> show-level blurb
-    ("Ghost in the Shell", "SA: A Modest Rebellion - ANDROID AND I"): "",   # epNum=3  no S/E resolved -> show-level blurb
     ("Home Alone", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Howl's Moving Castle", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Hulk", "Within this Monster Dwells a Man; Another World, Another Foe; The Wisdom of the Watcher"): "",   # epNum=7  pinned cartoon: no synopsis supplied for this segment
@@ -34,14 +29,15 @@
     ("Initial D: First Stage", "Sentimental White"): "",   # epNum=28  no S/E resolved -> show-level blurb
     ("Initial D: First Stage", "The Law-breaking Super Weapon!"): "",   # epNum=29  no S/E resolved -> show-level blurb
     ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Iron Man", "If I Die, Let It Be With Honor; Fight On, For A World Is Watching; What Price Victory?"): "",   # epNum=7  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Gorilla Tactics"): "",   # epNum=35  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Happy Betrayals to You"): "",   # epNum=38  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Khan Job"): "",   # epNum=37  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): "",   # epNum=36  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Fellowship of Harm! Athena's Cry"): "",   # epNum=55  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "The Fear of Nothingness! The Open Eyes of Shaka"): "",   # epNum=57  no S/E resolved -> show-level blurb
     ("Super Android 13", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Superman: The Animated Series", "Legacy (Part 1)"): "",   # epNum=53  no S/E resolved -> show-level blurb
-    ("The Brak Show", "Splat of Deadliness"): "",   # epNum=24  no S/E resolved -> show-level blurb
+    ("The Land Before Time", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("The Littl' Bits", "Let's Go to the Sea: Part 2"): "",   # epNum=21  S/E set but no DB/OMDb/TAM episode overview
+    ("What Would You Do? (1991)", "Family Weight Guessing"): "",   # epNum=10  S/E set but no DB/OMDb/TAM episode overview
     ("What Would You Do? (1991)", "Training Your Family"): "",   # epNum=9  S/E set but no DB/OMDb/TAM episode overview
     ("X-Men: The Animated Series", "Graduation Day (Finale)"): "",   # epNum=75  no S/E resolved -> show-level blurb
