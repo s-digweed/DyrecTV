@@ -1784,6 +1784,11 @@
   "show": "Charlie and the Chocolate Factory (2005)",
   "t": 1794326999.5574415
  },
+ "movie|Cloudy with a Chance of Meatballs": {
+  "desc": "An eccentric inventor is regarded as a failure within his isolated community until he creates a machine that can make it rain food.",
+  "show": "Cloudy with a Chance of Meatballs (2009)",
+  "t": 1794577807.399205
+ },
  "movie|Dr. Seuss' The Cat in the Hat": {
   "desc": "",
   "show": "Dr. Seuss' The Cat in the Hat",
@@ -1793,6 +1798,16 @@
   "desc": "Frieza's older brother Cooler travels to Earth to take revenge against Goku for Frieza's defeat on planet Namek.",
   "show": "Dragon Ball Z: Cooler's Revenge (2002)",
   "t": 1794067314.5946474
+ },
+ "movie|Dragon Ball Z: The Return of Cooler": {
+  "desc": "Cooler has resurrected himself as a robot and is enslaving the people of New Namek. Goku and the gang must help.",
+  "show": "Dragon Ball Z: The Return of Cooler (2002)",
+  "t": 1794577809.0325663
+ },
+ "movie|Evan Almighty": {
+  "desc": "God contacts Congressman Evan Baxter and tells him to build an ark in preparation for a great flood.",
+  "show": "Evan Almighty (2007)",
+  "t": 1794577808.9411051
  },
  "movie|Ghostbusters": {
   "desc": "Armed with proton packs, four paranormal investigators battle mischievous ghouls in New York.",
@@ -1823,6 +1838,11 @@
   "desc": "When Sunset Shimmer finds out that her friends have no memory of her, Sunset is determined to recoup her friends' memories of her and find the perpetrator responsible.",
   "show": "My Little Pony: Equestria Girls – Forgotten Friendship (2018)",
   "t": 1794067314.4279068
+ },
+ "movie|Noah's Ark": {
+  "desc": "Adaptation of the Biblical stories of Noah and Lot and how God destroyed the world due to the wickedness of mankind.",
+  "show": "Noah's Ark",
+  "t": 1794577808.8594098
  },
  "movie|Scooby-Doo": {
   "desc": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
@@ -1869,10 +1889,20 @@
   "show": "The Flintstones Meet Rockula and Frankenstone (1979)",
   "t": 1793577626.8163812
  },
+ "movie|The Good, the Bad, and Huckleberry Hound": {
+  "desc": "It's the gold rush era in the Wild West. A mysterious stranger (Huckleberry Hound) arrives in a small desert town carrying a huge golden nugget. The notorious Dalton brothers steal it. The town asks \"the stranger\" to go after them.",
+  "show": "The Good, the Bad, and Huckleberry Hound (1988)",
+  "t": 1794577807.2267194
+ },
  "movie|The Halloween Tree": {
   "desc": "Four children learn the origins of Halloween customs while trying to save the life of their friend.",
   "show": "The Halloween Tree (1993)",
   "t": 1793577629.455199
+ },
+ "movie|The LEGO Movie": {
+  "desc": "An ordinary LEGO construction worker, thought to be the prophesied as \"special\", is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
+  "show": "The LEGO Movie (2014)",
+  "t": 1794577807.3169043
  },
  "movie|The Naughty List": {
   "desc": "Mild mannered Evie Sanders works as a waitress in Colorado and is hopelessly in love with her manager , Jace Winters. Although she has been there for four years she has never made her move on Jace. This may change once she complet...",
@@ -1883,6 +1913,16 @@
   "desc": "On Christmas Eve, a young boy embarks on a magical adventure to the North Pole on the Polar Express, while learning about friendship, bravery, and the spirit of Christmas.",
   "show": "The Polar Express (2004)",
   "t": 1793577632.588776
+ },
+ "movie|Top Cat and the Beverly Hills Cats": {
+  "desc": "Top Cat and the gang help a teenager claim her inheritance.",
+  "show": "Top Cat and the Beverly Hills Cats (1988)",
+  "t": 1794577807.4819095
+ },
+ "movie|Yogi's Ark Lark": {
+  "desc": "",
+  "show": "Yogi's Ark Lark",
+  "t": 1794577808.6851993
  },
  "series|2 Stupid Dogs": {
   "desc": "A not-too-bright canine duo get into all sorts of mischief and trouble.",
