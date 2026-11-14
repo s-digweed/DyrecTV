@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-13 10:31 UTC)
+# RUN STATUS  (2026-11-14 09:48 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 934 episode-specific, 10 fixed show-blurb, 67 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 922 episode-specific, 12 fixed show-blurb, 73 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 562  (manual pins: 6)
-#   S/E by absolute  : 8
-#   S/E + desc / TAM : 16  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 10  (S/E from your hand-verified sheet)
-#   episode guide    : 182  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 119  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 536  (manual pins: 6)
+#   S/E by absolute  : 6
+#   S/E + desc / TAM : 24  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 14  (S/E from your hand-verified sheet)
+#   episode guide    : 183  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 120  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 225
-#   S/E withheld     : 44  (listed below)
+#   names from TAM   : 217
+#   S/E withheld     : 54  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -23,23 +23,25 @@
 # gave none, so a guide can't key on it).
 # ============================================================
     ("Aqua Teen Hunger Force", "Baffler Meal (Space Ghost Coast to Coast)"): (, ),   # epNum=78
+    ("Cromartie High School", "Let Me Tell You My Name"): (, ),   # epNum=17
     ("Cyborg 009", "Artemis (Mythos Arc)"): (, ),   # epNum=24
-    ("Cyborg 009", "Attack of the Gods (Mythos Arc)"): (, ),   # epNum=22
     ("Cyborg 009", "Mythology Arises (Mythos Arc)"): (, ),   # epNum=23
+    ("Cyborg 009", "Mythos, The Final Chapter (Mythos Arc)"): (, ),   # epNum=25
+    ("Dragon Ball Z", "Cell's Mighty Breakdown"): (, ),   # epNum=173
     ("Dragon Ball Z", "Gohan's Desperate Plea"): (, ),   # epNum=168
     ("Dragon Ball Z", "The Unleashing"): (, ),   # epNum=171
     ("GaoGaiGar", "Runaway Zonder"): (, ),   # epNum=4
-    ("Ghost Stories", "The Nurse Who Tells Your Death - Mother's Feelings"): (, ),   # epNum=12
-    ("Ghost Stories", "The Talking Merry Doll!! Shadow of Terror"): (, ),   # epNum=11
     ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): (, ),   # epNum=6
-    ("Ghost in the Shell", "C: The Inviting Bird will Chant - DECOY"): (, ),   # epNum=5
+    ("Home Movies", "Focus Grill (Finale)"): (, ),   # epNum=52
     ("Initial D: First Stage", "Beyond The Impact Blue"): (, ),   # epNum=27
     ("Initial D: First Stage", "Sentimental White"): (, ),   # epNum=28
     ("Initial D: First Stage", "The Law-breaking Super Weapon!"): (, ),   # epNum=29
     ("Lupin the Third: Part II", "Happy Betrayals to You"): (, ),   # epNum=38
     ("Lupin the Third: Part II", "Khan Job"): (, ),   # epNum=37
-    ("Lupin the Third: Part II", "The Riddle of Tsukikage Castle"): (, ),   # epNum=36
-    ("Saint Seiya: Knights of the Zodiac", "Fellowship of Harm! Athena's Cry"): (, ),   # epNum=55
+    ("Lupin the Third: Part II", "Pretty Cluckin' Insane"): (, ),   # epNum=39
+    ("Mega Man", "Crime of the Century (Finale)"): (, ),   # epNum=27
+    ("Pokemon Origins", "Charizard (Finale)"): (, ),   # epNum=4
+    ("Ranma ½", "Ryoga & Akane: 2-Gether, 4-Ever"): (, ),   # epNum=42
+    ("Saint Seiya: Knights of the Zodiac", "Hero! Ikki Destroyed For Brotherly Love"): (, ),   # epNum=58
     ("Saint Seiya: Knights of the Zodiac", "The Fear of Nothingness! The Open Eyes of Shaka"): (, ),   # epNum=57
-    ("Superman: The Animated Series", "Legacy (Part 1)"): (, ),   # epNum=53
-    ("X-Men: The Animated Series", "Graduation Day (Finale)"): (, ),   # epNum=75
+    ("Teen Titans", "Aftershock (Part 1)"): (, ),   # epNum=25
