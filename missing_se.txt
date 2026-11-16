@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-15 10:24 UTC)
+# RUN STATUS  (2026-11-16 10:38 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 924 episode-specific, 13 fixed show-blurb, 75 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 940 episode-specific, 8 fixed show-blurb, 77 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 550  (manual pins: 4)
-#   S/E by absolute  : 8
-#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 17  (S/E from your hand-verified sheet)
-#   episode guide    : 171  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 139  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 604  (manual pins: 0)
+#   S/E by absolute  : 14
+#   S/E + desc / TAM : 8  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 25  (S/E from your hand-verified sheet)
+#   episode guide    : 157  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 134  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 184
-#   S/E withheld     : 56  (listed below)
+#   names from TAM   : 188
+#   S/E withheld     : 59  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,26 +22,28 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cromartie High School", "Let Me Tell You My Name"): (, ),   # epNum=17
+    ("Cromartie High School", "Pootan Gets Fired"): (, ),   # epNum=18
     ("Cyborg 009", "Artemis (Mythos Arc)"): (, ),   # epNum=24
     ("Cyborg 009", "Gilmore's Notes (Recap)"): (, ),   # epNum=26
     ("Cyborg 009", "Mythos, The Final Chapter (Mythos Arc)"): (, ),   # epNum=25
     ("Dragon Ball Z", "Cell's Mighty Breakdown"): (, ),   # epNum=173
     ("Dragon Ball Z", "Gohan's Desperate Plea"): (, ),   # epNum=168
     ("Dragon Ball Z", "The Unleashing"): (, ),   # epNum=171
-    ("GaoGaiGar", "Runaway Zonder"): (, ),   # epNum=4
     ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): (, ),   # epNum=6
     ("Home Movies", "Focus Grill (Finale)"): (, ),   # epNum=52
-    ("Initial D: First Stage", "Beyond The Impact Blue"): (, ),   # epNum=27
     ("Initial D: First Stage", "Sentimental White"): (, ),   # epNum=28
     ("Initial D: First Stage", "The Law-breaking Super Weapon!"): (, ),   # epNum=29
     ("Lupin the Third: Part II", "Happy Betrayals to You"): (, ),   # epNum=38
+    ("Lupin the Third: Part II", "Heroes and Vixens"): (, ),   # epNum=41
     ("Lupin the Third: Part II", "Payload"): (, ),   # epNum=40
     ("Lupin the Third: Part II", "Pretty Cluckin' Insane"): (, ),   # epNum=39
     ("Mega Man", "Crime of the Century (Finale)"): (, ),   # epNum=27
     ("Pokemon Origins", "Charizard (Finale)"): (, ),   # epNum=4
     ("Ranma ½", "Ryoga & Akane: 2-Gether, 4-Ever"): (, ),   # epNum=42
     ("Saint Seiya: Knights of the Zodiac", "Hero! Ikki Destroyed For Brotherly Love"): (, ),   # epNum=58
+    ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): (, ),   # epNum=60
     ("Saint Seiya: Knights of the Zodiac", "The Fear of Nothingness! The Open Eyes of Shaka"): (, ),   # epNum=57
     ("Teen Titans", "Aftershock (Part 1)"): (, ),   # epNum=25
+    ("Teen Titans", "Aftershock (Part 2)"): (, ),   # epNum=26
+    ("Voltron", "Escape to Another Planet"): (, ),   # epNum=2
     ("Voltron", "Space Explorers Captured"): (, ),   # epNum=1

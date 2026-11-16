@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-15 10:24 UTC)
-#   episode-specific: 924
-#   fixed show-blurb: 13  (hand-supplied, intentional)
-#   generic (blurb) : 75
+# DESCRIPTION REPORT  (2026-11-16 10:38 UTC)
+#   episode-specific: 940
+#   fixed show-blurb: 8  (hand-supplied, intentional)
+#   generic (blurb) : 77
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -10,7 +10,7 @@
 # DESC_OVERRIDE (titles / sub-titles / S-E stay untouched):
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
-    ("Cromartie High School", "Let Me Tell You My Name"): "",   # epNum=17  no S/E resolved -> show-level blurb
+    ("Cromartie High School", "Pootan Gets Fired"): "",   # epNum=18  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Artemis (Mythos Arc)"): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Gilmore's Notes (Recap)"): "",   # epNum=26  no S/E resolved -> show-level blurb
     ("Cyborg 009", "Mythos, The Final Chapter (Mythos Arc)"): "",   # epNum=25  no S/E resolved -> show-level blurb
@@ -19,25 +19,26 @@
     ("Dragon Ball Z", "The Unleashing"): "",   # epNum=171  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "The Return of Radditz... Wait/And They All Lived Happily Ever... Oh..."): "",   # epNum=1  no S/E resolved -> show-level blurb
     ("Family Double Dare", "Episode 21"): "",   # epNum=73  S/E set but no DB/OMDb/TAM episode overview
-    ("GaoGaiGar", "Runaway Zonder"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "C: The Copycat will Dance - MEME"): "",   # epNum=6  no S/E resolved -> show-level blurb
     ("Home Alone", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Home Movies", "Focus Grill (Finale)"): "",   # epNum=52  no S/E resolved -> show-level blurb
     ("Howl's Moving Castle", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Initial D: First Stage", "Beyond The Impact Blue"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Initial D: First Stage", "Sentimental White"): "",   # epNum=28  no S/E resolved -> show-level blurb
     ("Initial D: First Stage", "The Law-breaking Super Weapon!"): "",   # epNum=29  no S/E resolved -> show-level blurb
-    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Happy Betrayals to You"): "",   # epNum=38  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Heroes and Vixens"): "",   # epNum=41  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Payload"): "",   # epNum=40  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Pretty Cluckin' Insane"): "",   # epNum=39  no S/E resolved -> show-level blurb
     ("Mega Man", "Crime of the Century (Finale)"): "",   # epNum=27  no S/E resolved -> show-level blurb
     ("Pokemon Origins", "Charizard (Finale)"): "",   # epNum=4  no S/E resolved -> show-level blurb
     ("Ranma ½", "Ryoga & Akane: 2-Gether, 4-Ever"): "",   # epNum=42  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "Hero! Ikki Destroyed For Brotherly Love"): "",   # epNum=58  no S/E resolved -> show-level blurb
+    ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): "",   # epNum=60  no S/E resolved -> show-level blurb
     ("Saint Seiya: Knights of the Zodiac", "The Fear of Nothingness! The Open Eyes of Shaka"): "",   # epNum=57  no S/E resolved -> show-level blurb
     ("Super Android 13", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Teen Titans", "Aftershock (Part 1)"): "",   # epNum=25  no S/E resolved -> show-level blurb
+    ("Teen Titans", "Aftershock (Part 2)"): "",   # epNum=26  no S/E resolved -> show-level blurb
     ("The Land Before Time", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Voltron", "Escape to Another Planet"): "",   # epNum=2  no S/E resolved -> show-level blurb
     ("Voltron", "Space Explorers Captured"): "",   # epNum=1  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Family Weight Guessing"): "",   # epNum=10  S/E set but no DB/OMDb/TAM episode overview
