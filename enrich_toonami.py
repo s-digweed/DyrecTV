@@ -823,7 +823,8 @@ def load_cache():
         c = {}
     for k in ("shows", "episodes", "tvmaze_shows", "tvmaze_episodes", "tmdb_seasons",
               "tvmaze_eplist", "tvdb_shows", "tvdb_episodes", "tvmaze_namemap",
-              "tvdb_namemap", "show_syn", "simkl_id", "simkl_namemap", "omdb_ep"):
+              "tvdb_namemap", "show_syn", "simkl_id", "simkl_namemap", "omdb_ep",
+              "movie_year"):
         c.setdefault(k, {})
     return c
 
@@ -1699,6 +1700,49 @@ def _prog_start_ts(prog):
         return None
 
 
+def _prog_len_min(prog):
+    """Programme length in minutes (None if unparseable)."""
+    try:
+        a = datetime.strptime((prog.get("start") or "").split()[0], "%Y%m%d%H%M%S")
+        b = datetime.strptime((prog.get("stop") or "").split()[0], "%Y%m%d%H%M%S")
+        return (b - a).total_seconds() / 60
+    except ValueError:
+        return None
+
+
+MOVIE_MIN_LEN = 60      # a slot this long with no S/E and no sub-title is checked as a film
+MOVIE_MAX_LEN = 240     # ...but not all-day filler blocks (12h "Radio", "Music Videos")
+NOT_MOVIES = {"radio", "music videos"}   # block titles that share a name with a real film
+
+def movie_year(title, feed_year, cache):
+    """Release year if `title` is a film on TMDB (matching title, and the feed's year
+    when it has one), else None. Cached per title; '' = checked, not a film."""
+    key = f"{_norm(title)}|{feed_year or ''}"
+    if key in cache["movie_year"]:
+        return cache["movie_year"][key] or None
+    yr = ""
+    if TMDB_KEY:
+        params = {"query": title}
+        if feed_year:
+            params["year"] = feed_year
+        data = _tmdb_get("/search/movie", **params) or {}
+        for res in (data.get("results") or [])[:5]:
+            names = {_norm(res.get("title")), _norm(res.get("original_title"))}
+            rd = (res.get("release_date") or "")[:4]
+            if _norm(title) in names and rd.isdigit():
+                yr = rd
+                break
+    elif feed_year and str(feed_year).isdigit():
+        yr = str(feed_year)                    # no TMDB key: trust the feed's own year
+    cache["movie_year"][key] = yr
+    return yr or None
+
+
+def _dash(text):
+    """House style: an en dash with spaces, never a spaced hyphen or double hyphen."""
+    return re.sub(r"\s+--?\s+", " \u2013 ", text) if text else text
+
+
 def enrich(path):
     tree = ET.parse(path)
     root = tree.getroot()
@@ -1821,6 +1865,7 @@ def enrich(path):
         feed_ep   = (feed or {}).get("episode", "")   # the real episode sub-title
         feed_num  = (feed or {}).get("num")           # absolute episodeNumber
         feed_img  = (feed or {}).get("image", "")     # poster
+        feed_year = (feed or {}).get("year", "")      # release year (films)
         # Episode-name precedence: the Toonami feed's own info.episode, else the
         # TAM feed's name for Snick (the feed itself has none), else the grabber's.
         grab_sub = (prog.findtext("sub-title") or "").strip()
@@ -2166,12 +2211,26 @@ def enrich(path):
         if season is not None and show in SEASON_TITLE and season in SEASON_TITLE[show]:
             disp_title = f"{show} - {SEASON_TITLE[show][season]}"
 
+        # Films: a long slot with no S/E and no sub-title that TMDB confirms is a movie
+        # -> "Title (YYYY)" plus a <date> (e.g. The Land Before Time (1988)).
+        if (not ovr and not sp and season is None and not year
+                and not (prog.findtext("sub-title") or "").strip()
+                and MOVIE_MIN_LEN <= (_prog_len_min(prog) or 0) <= MOVIE_MAX_LEN
+                and _norm(disp_title or raw) not in NOT_MOVIES):
+            _base = disp_title or raw
+            if not _QYEAR.search(_base):
+                _yr = movie_year(_base, feed_year, cache)
+                if _yr:
+                    disp_title, year = f"{_base} ({_yr})", _yr
+                    stats["movie_years"] = stats.get("movie_years", 0) + 1
+
         if disp_title:
             te = prog.find("title")
             if te is not None:
                 te.text = disp_title
 
         if desc:
+            desc = _dash(desc)
             _set_child(prog, "desc", desc, {"lang": "en"})
         else:
             stats["no_desc"] += 1
@@ -2237,6 +2296,12 @@ def enrich(path):
         _reorder(prog)
         rec.update(kind="episode", reason="", se=(s, e), desc=dsc)
         stats["by_repeat"] += 1
+
+    # ── house style on EVERY description (incl. ones kept straight from the grab) ──
+    for prog in progs:
+        for d in prog.findall("desc"):
+            if d.text:
+                d.text = _dash(d.text)
 
     # ── classify every programme's <desc> (AFTER repeat-fill) for the report ──
     for rec in records:
