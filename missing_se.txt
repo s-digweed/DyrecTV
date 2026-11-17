@@ -1,5 +1,5 @@
 # ============================================================
-# RUN STATUS  (2026-11-17 01:02 UTC)
+# RUN STATUS  (2026-11-17 11:29 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
 #   descriptions     : 1045 episode-specific, 6 fixed show-blurb, 77 generic, 1 none (see generic_desc.txt)
