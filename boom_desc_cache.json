@@ -1759,6 +1759,11 @@
   "desc": "A strange environmental phenomenon 22 years ago in the Kanazawa prefecture caused the land to split and protrude upwards reaching unprecedented heights, creating the secluded area known as The Lost Ground. Kazuma is a young mercen...",
   "t": 1793642113.1316953
  },
+ "movie|A Flintstones Christmas Carol": {
+  "desc": "Fred is cast as Ebenezer Scrooge in a stage adaptation of the story, but is acting a bit stingy in real-life.",
+  "show": "A Flintstones Christmas Carol (1994)",
+  "t": 1795025365.975379
+ },
  "movie|A Monsterous Holiday": {
   "desc": "A young scientist must save his town when he accidentally creates a monster.",
   "show": "A Monsterous Holiday (2013)",
@@ -1818,6 +1823,11 @@
   "desc": "Armed with proton packs, four paranormal investigators battle mischievous ghouls in New York.",
   "show": "Ghostbusters (1984)",
   "t": 1793577627.0431745
+ },
+ "movie|He-Man & She-Ra: A Christmas Special": {
+  "desc": "",
+  "show": "He-Man & She-Ra: A Christmas Special",
+  "t": 1795025365.8614755
  },
  "movie|Madagascar": {
   "desc": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
@@ -2214,6 +2224,11 @@
   "show": "Shaggy & Scooby-Doo Get a Clue!",
   "t": 1794067314.2935193
  },
+ "series|Shazzan": {
+  "desc": "Nancy and Chuck find a ring in the desert in two pieces. When they are joined, Shazzan the genie appears. He will help them every time they get in trouble.",
+  "show": "Shazzan",
+  "t": 1795025366.176161
+ },
  "series|Snagglepuss": {
   "desc": "The misadventures of a pink mountain lion.",
   "show": "Snagglepuss",
@@ -2233,6 +2248,11 @@
   "desc": "Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.",
   "show": "Space Ghost: Coast to Coast",
   "t": 1793577630.3306217
+ },
+ "series|Speed Racer": {
+  "desc": "Teenager Gô Mifune aspires to be the world's best race-car champion with the help of his friends, family and his father's high-tech race-car, the Mach 5.",
+  "show": "Speed Racer",
+  "t": 1795025366.077434
  },
  "series|Super Friends": {
   "desc": "The greatest of the DC Comics superheroes work together to uphold the good with the help of some young proteges.",
