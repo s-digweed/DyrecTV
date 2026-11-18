@@ -1,17 +1,17 @@
 # ============================================================
-# RUN STATUS  (2026-11-17 11:29 UTC)
+# RUN STATUS  (2026-11-18 11:07 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1045 episode-specific, 6 fixed show-blurb, 77 generic, 1 none (see generic_desc.txt)
+#   descriptions     : 1034 episode-specific, 8 fixed show-blurb, 78 generic, 2 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 651  (manual pins: 2)
-#   S/E by absolute  : 16
-#   S/E + desc / TAM : 8  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 33  (S/E from your hand-verified sheet)
-#   episode guide    : 189  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 131  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 625  (manual pins: 2)
+#   S/E by absolute  : 12
+#   S/E + desc / TAM : 14  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 39  (S/E from your hand-verified sheet)
+#   episode guide    : 192  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 117  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 233
+#   names from TAM   : 231
 #   S/E withheld     : 61  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
@@ -22,20 +22,23 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
-    ("Cromartie High School", "Pootan Gets Fired"): (, ),   # epNum=18
-    ("Cyborg 009", "Artemis (Mythos Arc)"): (, ),   # epNum=24
     ("Cyborg 009", "Gilmore's Notes (Recap)"): (, ),   # epNum=26
     ("Cyborg 009", "Mythos, The Final Chapter (Mythos Arc)"): (, ),   # epNum=25
     ("Cyborg 009", "The Fight for Tomorrow"): (, ),   # epNum=28
     ("Dragon Ball Z", "Cell's Mighty Breakdown"): (, ),   # epNum=173
-    ("Dragon Ball Z", "Gohan's Desperate Plea"): (, ),   # epNum=168
     ("Dragon Ball Z", "The Unleashing"): (, ),   # epNum=171
     ("Fantastic Four", "The Micro World Of Dr. Doom"): (, ),   # epNum=15
+    ("Fighting Spirit", "The Other Semi-Final"): (, ),   # epNum=23
+    ("GaoGaiGar", "Chase the Black 300!"): (, ),   # epNum=7
+    ("Ghost Stories", "The Life-Taking Psychic Photo - Railway Crossing of Evil"): (, ),   # epNum=14
+    ("Ghost Stories", "The Picture that Swallows People - Da Vinci"): (, ),   # epNum=13
+    ("Ghost in the Shell", "SA: Idolatry - IDOLATOR"): (, ),   # epNum=7
+    ("Ghost in the Shell", "SA: The Fortunate Ones - MISSING HEARTS"): (, ),   # epNum=8
     ("Home Movies", "Focus Grill (Finale)"): (, ),   # epNum=52
     ("Initial D: First Stage", "Lan Evo Corps, Akina Sortie!"): (, ),   # epNum=30
+    ("Initial D: First Stage", "The Feeling of Defeat"): (, ),   # epNum=31
     ("Iron Man", "The Moleman [sic] Strikes, The Dragon of Flames, Decision Under the Earth"): (, ),   # epNum=8
     ("Lupin the Third: Part II", "Crusin' in Drag"): (, ),   # epNum=42
-    ("Lupin the Third: Part II", "Happy Betrayals to You"): (, ),   # epNum=38
     ("Lupin the Third: Part II", "Heroes and Vixens"): (, ),   # epNum=41
     ("Lupin the Third: Part II", "Payload"): (, ),   # epNum=40
     ("Lupin the Third: Part II", "Pretty Cluckin' Insane"): (, ),   # epNum=39
@@ -44,8 +47,6 @@
     ("Ranma ½", "Ryoga & Akane: 2-Gether, 4-Ever"): (, ),   # epNum=42
     ("Saint Seiya: Knights of the Zodiac", "Hero! Ikki Destroyed For Brotherly Love"): (, ),   # epNum=58
     ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): (, ),   # epNum=60
-    ("Saint Seiya: Knights of the Zodiac", "The Fear of Nothingness! The Open Eyes of Shaka"): (, ),   # epNum=57
     ("Superman: The Animated Series", "Legacy (Part 2)"): (, ),   # epNum=54
     ("Teen Titans", "Aftershock (Part 2)"): (, ),   # epNum=26
     ("Voltron", "Escape to Another Planet"): (, ),   # epNum=2
-    ("Voltron", "Space Explorers Captured"): (, ),   # epNum=1
