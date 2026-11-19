@@ -1969,6 +1969,11 @@
   "show": "Bakugan Battle Brawlers",
   "t": 1794067314.741767
  },
+ "series|Ben 10: Omniverse": {
+  "desc": "The continuing adventures of Ben Tennyson (Yuri Lowenthal) and his new partner, Rook Blonko (Bumper Robinson).",
+  "show": "Ben 10: Omniverse",
+  "t": 1795101778.5230787
+ },
  "series|Boruto: Naruto Next Generations": {
   "desc": "Son of Naruto Uzumaki, Boruto, follows his father's footsteps along with his friends to become great ninja. Throughout all their adventures, Boruto is determined to make his mark in the ninja world and live outside of his father's...",
   "show": "Boruto: Naruto Next Generations",
@@ -2209,6 +2214,11 @@
   "show": "Scan2Go",
   "t": 1794067314.8056724
  },
+ "series|Scooby-Doo and Scrappy-Doo": {
+  "desc": "The adventures of the mystery solving dog and his nephew.",
+  "show": "Scooby-Doo and Scrappy-Doo",
+  "t": 1795101778.1359005
+ },
  "series|Sealab 2020": {
   "desc": "Cartoon adventure series that focused on a group of Oceanauts in their experimental complex on the ocean floor.",
   "show": "Sealab 2020",
@@ -2248,6 +2258,11 @@
   "desc": "Space Ghost, a superhero from a 1960s Hanna-Barbera cartoon, hosts his own talk show.",
   "show": "Space Ghost: Coast to Coast",
   "t": 1793577630.3306217
+ },
+ "series|Speed Buggy": {
+  "desc": "Animated 'Saturday-morning' television cartoon about a race car.",
+  "show": "Speed Buggy",
+  "t": 1795101778.034369
  },
  "series|Speed Racer": {
   "desc": "Teenager Gô Mifune aspires to be the world's best race-car champion with the help of his friends, family and his father's high-tech race-car, the Mach 5.",
@@ -2434,6 +2449,11 @@
   "show": "Top Cat",
   "t": 1793577624.7029545
  },
+ "series|Total Drama": {
+  "desc": "Animated satire of survivor reality shows featuring random teenage archetypes vying for the final prize by any means necessary.",
+  "show": "Total Drama",
+  "t": 1795101778.3991194
+ },
  "series|Underdog": {
   "desc": "The adventures of a rhyming canine superhero.",
   "show": "Underdog",
@@ -2448,6 +2468,11 @@
   "desc": "The misadventures of a friendly gator.",
   "show": "Wally Gator",
   "t": 1793577626.3591433
+ },
+ "series|Where's Huddles?": {
+  "desc": "The misadventures of a team of football players and their families on and off the field.",
+  "show": "Where's Huddles?",
+  "t": 1795101778.2903967
  },
  "series|Yo Yogi!": {
   "desc": "Non-canon update of Yogi Bear and friends, this time as teenage detectives in the local mall.",
