@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-18 11:07 UTC)
+# RUN STATUS  (2026-11-19 11:07 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 1034 episode-specific, 8 fixed show-blurb, 78 generic, 2 none (see generic_desc.txt)
+#   descriptions     : 946 episode-specific, 10 fixed show-blurb, 69 generic, 2 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 625  (manual pins: 2)
+#   S/E by name      : 574  (manual pins: 2)
 #   S/E by absolute  : 12
-#   S/E + desc / TAM : 14  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 39  (S/E from your hand-verified sheet)
-#   episode guide    : 192  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 117  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
-#   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 231
-#   S/E withheld     : 61  (listed below)
+#   S/E + desc / TAM : 13  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 37  (S/E from your hand-verified sheet)
+#   episode guide    : 169  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 103  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   repeat-fill      : 2  (re-airings backfilled from a named sibling by episodeNumber)
+#   names from TAM   : 236
+#   S/E withheld     : 49  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -23,30 +23,26 @@
 # gave none, so a guide can't key on it).
 # ============================================================
     ("Cyborg 009", "Gilmore's Notes (Recap)"): (, ),   # epNum=26
-    ("Cyborg 009", "Mythos, The Final Chapter (Mythos Arc)"): (, ),   # epNum=25
     ("Cyborg 009", "The Fight for Tomorrow"): (, ),   # epNum=28
-    ("Dragon Ball Z", "Cell's Mighty Breakdown"): (, ),   # epNum=173
-    ("Dragon Ball Z", "The Unleashing"): (, ),   # epNum=171
     ("Fantastic Four", "The Micro World Of Dr. Doom"): (, ),   # epNum=15
+    ("Fighting Spirit", "Grudges, Sorrows & Dreams"): (, ),   # epNum=25
     ("Fighting Spirit", "The Other Semi-Final"): (, ),   # epNum=23
+    ("Fighting Spirit", "To the Promised Place..."): (, ),   # epNum=24
     ("GaoGaiGar", "Chase the Black 300!"): (, ),   # epNum=7
+    ("Ghost Stories", "The Apartment That Eats People! Nest of Evil Spirits"): (, ),   # epNum=16
+    ("Ghost Stories", "The Devil's Spell - Rite of Darkness"): (, ),   # epNum=15
     ("Ghost Stories", "The Life-Taking Psychic Photo - Railway Crossing of Evil"): (, ),   # epNum=14
     ("Ghost Stories", "The Picture that Swallows People - Da Vinci"): (, ),   # epNum=13
+    ("Ghost in the Shell", "C: The Man Who Dwells in the Shadows of the Net - CHAT! CHAT! CHAT!"): (, ),   # epNum=9
+    ("Ghost in the Shell", "SA: A Perfect Day for a Jungle Cruise - JUNGLE CRUISE"): (, ),   # epNum=10
     ("Ghost in the Shell", "SA: Idolatry - IDOLATOR"): (, ),   # epNum=7
     ("Ghost in the Shell", "SA: The Fortunate Ones - MISSING HEARTS"): (, ),   # epNum=8
-    ("Home Movies", "Focus Grill (Finale)"): (, ),   # epNum=52
     ("Initial D: First Stage", "Lan Evo Corps, Akina Sortie!"): (, ),   # epNum=30
     ("Initial D: First Stage", "The Feeling of Defeat"): (, ),   # epNum=31
     ("Iron Man", "The Moleman [sic] Strikes, The Dragon of Flames, Decision Under the Earth"): (, ),   # epNum=8
     ("Lupin the Third: Part II", "Crusin' in Drag"): (, ),   # epNum=42
     ("Lupin the Third: Part II", "Heroes and Vixens"): (, ),   # epNum=41
     ("Lupin the Third: Part II", "Payload"): (, ),   # epNum=40
-    ("Lupin the Third: Part II", "Pretty Cluckin' Insane"): (, ),   # epNum=39
-    ("Mega Man", "Crime of the Century (Finale)"): (, ),   # epNum=27
-    ("Pokemon Origins", "Charizard (Finale)"): (, ),   # epNum=4
-    ("Ranma ½", "Ryoga & Akane: 2-Gether, 4-Ever"): (, ),   # epNum=42
-    ("Saint Seiya: Knights of the Zodiac", "Hero! Ikki Destroyed For Brotherly Love"): (, ),   # epNum=58
     ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): (, ),   # epNum=60
     ("Superman: The Animated Series", "Legacy (Part 2)"): (, ),   # epNum=54
     ("Teen Titans", "Aftershock (Part 2)"): (, ),   # epNum=26
-    ("Voltron", "Escape to Another Planet"): (, ),   # epNum=2

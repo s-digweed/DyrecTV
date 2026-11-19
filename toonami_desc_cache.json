@@ -148,6 +148,10 @@
 "n": "Reunion for O'Rourke",
 "o": "Agarn arranges a celebration of O'Rourke's 25 years of service in the Army."
 },
+"1062|1|26": {
+"n": "Captain Parmenter, One Man Army",
+"o": "The men learn that they are not legally enlisted so they leave and Wilton is forced to man the fort alone."
+},
 "1063|1|1": {
 "n": "Tempestuous Temperaments",
 "o": "Fuu is a part-time teahouse worker whose life changes forever when two vagabond warriors, Mugen and Jin, stumble into her place of business and end up in hot water with the local magistrate."
@@ -195,6 +199,14 @@
 "1063|1|2": {
 "n": "Redeye Reprisal",
 "o": "When Mugen wounds an enemy's arm, it sets off a dangerous chain reaction. Fuu is kidnapped, and two deadly assassins are dispatched to make short work of vagabond Mugen and ronin Jin."
+},
+"1063|1|20": {
+"n": "Elegy of Entrapment (1)",
+"o": "Mugen defends the honor of beautiful blind songstress, but when the when the trio of wanderers becomes a quartet, Fuu will be faced with an impossible decision."
+},
+"1063|1|21": {
+"n": "Elegy of Entrapment (2)",
+"o": "Mugen's has his own deadly run-in with the same blind beauty that sent Jin plummeting towards a gruesome end. Who is this seductive assassin, and why is she targeting the Champloo crew?"
 },
 "1063|1|3": {
 "n": "Hellhounds for Hire (1)",
@@ -303,6 +315,10 @@
 "10821|4|16": {
 "n": "Let's Plant!",
 "o": "We join Steve and Blue who are outside planting Nero, a new plant of theirs. In this episode, we learn all about plants, starting with some of the plants in the backyard of the Blue's Clues house. We help Periwinkle learn about plants and pretend to be plants ourselves. Later, we skidoo into a plant book and learn about the very smart behaviors of some of Blue's favorite plants, such as the Venus Flytrap."
+},
+"10821|4|17": {
+"n": "Rhyme Time",
+"o": "In this episode, we help the various characters to come up with words that rhyme with things they're saying. Rhymes are words that have the same ending sound as another word, such as \"say\" and \"hay,\" or \"head\" and \"bed.\" Lullabies usually rhyme and so we help Mr. Salt to create one to get Paprika and Cinnamon to sleep. We also skiddoo into a rhyming storybook. There we help out several characters whose stories aren't quite right because one of the things in them doesn't rhyme with the other two things."
 },
 "10821|4|2": {
 "n": "Adventure!",
@@ -639,6 +655,10 @@
 "11747|4|12": {
 "n": "Bilko's Secret Mission",
 "o": "When Ritzik is accidentally given a dose of electricity it makes him magnetic. He doesn't realise it, but it helps him control the ball in a roulette wheel. He thinks he has come up with a foolproof method of winning at roulette."
+},
+"11747|4|13": {
+"n": "Bilko's Giveaway",
+"o": "In Hollywood with no money, Bilko teams up with a child genius to win  big prizes on a TV game show. but no cash."
 },
 "11747|4|6": {
 "n": "Bilko Joins the Navy",
@@ -2648,6 +2668,10 @@
 "n": "Bronco-Bustin’ Munster",
 "o": "In yet another example of Eddie’s misguided regard for his father’s natural abilities, the young Munster enters Herman’s name in the bucking bronco contest at the local rodeo. Lily is unable to talk Herman out of such a dangerous task: he is intent on being a hero to his son in spite of the fact that he’s scared stiff. Meanwhile, the promoters plan to have Herman ride a horse that is guaranteed to break every bone in his body."
 },
+"1712|2|4": {
+"n": "Herman Munster, Shutter Bug",
+"o": "Herman takes up amateur photography and accidentally snaps a picture of two men making their escape from a bank robbery.  Herman has visions of getting a big reward for his evidence, but the bank robbers track him down and decide to hold up with the Munsters until the heat is off. This episode revisits the show’s recurrent fascination with criminality, especially bank robberies."
+},
 "177|4|10": {
 "n": "The Baboon's Paw",
 "o": "I.R. discovers that he has magical paws granting all awful wishes."
@@ -2980,6 +3004,10 @@
 "n": "Parts: The Clonus Horror",
 "o": "In the theater, the crew watches as a young man discovers he and his friends only exist to be harvested for their 'spare parts' in \"Parts: The Clonus Horror\" (1979).\n\nMeanwhile, Pearl, Professor Bobo, and Brain Guy find themselves reluctantly babysitting a trio of all-powerful Space Children."
 },
+"1952|8|12": {
+"n": "The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies",
+"o": "In the theater, the crew watches as a carnival fortune teller turns men into mindless zombies to go out and kill for her in \"The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies\" (1964).\n\nMeanwhile, on the SOL, Mike gets a new hairstyle from Shelli the Nanite."
+},
 "1952|8|18": {
 "n": "Devil Doll",
 "o": "In the theater, the crew watches as a ventriloquist traps a human soul inside his dummy in \"Devil Doll\" (1964).\n\nMeanwhile, on the SOL, Mike thinks that the demon called Pitch is a bad influence on Crow."
@@ -3039,6 +3067,10 @@
 "1974|6|1": {
 "n": "Bob's Change of Life",
 "o": "Bob's well-ordered life turns topsy-turvy when he and Emily move to a new Chicago residence."
+},
+"1974|6|2": {
+"n": "Ex-Con Job",
+"o": "Bob's attempt at treating convicts who are about to be released has him climbing the walls."
 },
 "1988|1|10": {
 "n": "Mandora: the Evil Chaser",
@@ -3599,6 +3631,14 @@
 "2126|5|13": {
 "n": "Miss Popularity",
 "o": "Surprisingly the \"\"once no talent,\"\" Jan is competing in a popularity contest at school.  With Peter as her campaign manager and the rest of the family pitching in, she's got a great chance of winning.  However, she quickly finds herself making promises to her classmates that she can't possibly keep."
+},
+"2126|5|14": {
+"n": "Kelly's Kids",
+"o": "The Brady's friends, the Kellys are in the middle of adopting one little boy and soon find themselves adopting a total of three boys all of different ethnic backgrounds and they soon find themselves dealing with racist neighbors."
+},
+"2126|5|15": {
+"n": "The Driver's Seat",
+"o": "Greg bets Marcia that she can't beat his score on her driver's test.  However all the pressure gets the best of Marcia.  Meanwhile, Jan must also deal with the pressure of speaking in front of a large group of people."
 },
 "2126|5|2": {
 "n": "Mail Order Hero",
@@ -4304,6 +4344,10 @@
 "n": "Bobby and the Critic",
 "o": "Bobby, who is appearing in a one man play, is fired up about a ruthless theater critic who has been writing scathing reviews.  Bobby writes an angry letter to the critic, but throws it away without sending it, having already felt better for venting his anger.  Predictably, Louie fishes it out of the trash and mails it, and it gets printed in the newspaper.  Bobby is soon getting cheers from actors all over the city, but gets worried when he learns that the critic himself is going to be at Bobby's play.  After the play, the critic finds Bobby and hands him a wonderful review of his performance.  Bobby is overcome until the critic says he's not going to print it, because rather than a scathing review which would seem like sour grapes or a good review that would boost his career, not submitting a review will leave Bobby in obscurity and the critic will have his vengeance."
 },
+"2251|3|18": {
+"n": "On the Job (1)",
+"o": "The cab company goes bust, and the gang is forced to get other jobs.  They meet at Mario's a month later to discuss their new jobs.  Tony is a collector for a bookie, but feels guilty about this line of work, especially when he needs to collect on a priest. Elaine is an executive assistant, but after she convinces her spineless boss to speak his opinions at a board meeting, they both get fired.  Jim takes a job as a door to door salesman, but forgets that he is selling encyclopedias rather than rug shampooers and ruins a woman's carpet in the process. (Part one of a two part episode)"
+},
 "2274|2|10": {
 "n": "History",
 "o": "Mr. Lynch is tutoring Brendon, who is failing History. His lack of historical perspective is evident through his movies, which star the evil George Washington, the evil Picasso and the evil Annie Oakley."
@@ -4984,6 +5028,10 @@
 "n": "EPISODE 01: PROLOGUE + SUPER SPARTAN i",
 "o": "During a raid on a meeting with a foreign representative that he suspects involves corruption and criminal activity, Public Security's Daisuke Aramaki encounters a mysterious cyborg. Introducing herself as Motoko Kusanagi, the cyborg proposes the formation of a new special forces unit to the Minister of Internal Affairs. Aramaki asks Kusanagi to investigate something as a first step."
 },
+"255358|1|10": {
+"n": "EPISODE 10: BRAIN DRAIN iii + GHOST COAST + EPILOGUE",
+"o": "Kusanagi loses her prosthetic body when it is gunned down, and she flees the scene with Batou as a disembodied brain. They go to Batou's safehouse to get her a new body, but she is channeled into by the presumed-destroyed Puppet Master while in lockdown mode."
+},
 "255358|1|2": {
 "n": "EPISODE 02: SUPER SPARTAN ii + JUNK JUNGLE i",
 "o": "Kusanagi and her team begin operating as the Shell Squad after being scouted by Aramaki. At some point, the cyberbrain of the Foreign Minister's interpreter was infected by a virus. Aramaki senses that Col. Malles, who is living in exile in the country, is trying to interfere with a secret meeting. He orders Kusanagi to back-trace the hack and find the culprit."
@@ -5011,6 +5059,10 @@
 "255358|1|8": {
 "n": "EPISODE 08: INTERMISSION + BRAIN DRAIN i",
 "o": "Kusanagi regains consciousness after a brain-dive into the Puppet Master. Although they now know the truth behind what happened, Kusanagi keeps sensing the Puppet Master's presence from time to time. The Shell Squad raids a boat being used by a terrorist cell, and Kusanagi mistakenly guns down its leader."
+},
+"255358|1|9": {
+"n": "EPISODE 09: BRAIN DRAIN ii",
+"o": "Footage of the incident is leaked to the media by some unknown party, and Kusanagi is accused of murdering the terrorist in cold blood. Kusanagi, suspecting that the Ghorantl intelligence service is pulling the strings behind the scenes, conducts a solo investigation, but she finds herself put on trial."
 },
 "2560|1|10": {
 "n": "The Square Triangle",
@@ -6788,6 +6840,14 @@
 "n": "Shirley Jones, Lindsay Wagner, Mykelti Williamson, Matthew Settle",
 "o": "Shirley Jones has a life-threatening run-in with a ghost who plays with fire; Lindsay Wagner has a paranormal experience with a tortured teenage spirit; Mykelti Williamson gets a terrifying phone call from the other side and Matthew Settle has a spooky experience with the spirit of a distraught woman."
 },
+"32803|2|6": {
+"n": "Jermaine Jackson, Karina Smirnoff, Diane Ladd, Haylie Duff",
+"o": "Jermaine Jackson encounters the spirit of an elderly woman haunting his family's estate; a desperate spirit contacts Diane Ladd and pleads for help; Dave Foley learns his apartment has a dark and brutal past; and an angry spirit attacks a young Karina Smirnoff."
+},
+"32803|2|7": {
+"n": "Christopher Knight, Carol Alt, Dick Van Patten, Marissa Jaret Winokur",
+"o": "Young Christopher Knight is visited by the spirit of a tormented girl; a spirit lures Carol Alt into buying her first home; Dick Van Patten is visited by a ghost who foreshadows his future; and Marissa Jaret Winokur stumbles upon a sad spirit in her friend's home."
+},
 "334|1|2": {
 "n": "I, Robot",
 "o": "Sealab is in danger, but nobody cares. The crew wonders what it would be like to be robots, while Quinn tries to deal with the impending disaster."
@@ -8283,6 +8343,14 @@
 "42705|1|23": {
 "n": "Another Semi-Final",
 "o": "Ippos day off. Miyata and Mashiba face off."
+},
+"42705|1|24": {
+"n": "To the Place We Promised...",
+"o": "Miyata and Mashiba continues to fight. Ippo is angred by the outcome."
+},
+"42705|1|25": {
+"n": "Every Emotion",
+"o": "Ippo trains for Mashiba flicker jabs."
 },
 "42705|1|3": {
 "n": "Tears of Joy",
@@ -10876,6 +10944,10 @@
 "n": "A Federal Case",
 "o": "Love beats a pathway to Brenda's door when a young federal agent uses her apartment to run a security check on the residence across the street."
 },
+"645|2|21": {
+"n": "The Marty Morgan Story",
+"o": "The emotional, high-strung Ida Morgenstern demonstrates her knack for jumping to conclusions when hubby Martin begins to act very secretive."
+},
 "6460|1|19": {
 "n": "The Snowstorm",
 "o": "A big snowstorm causes havoc in Busytown."
@@ -11878,6 +11950,8 @@
 }
 },
 "movie_year": {
+"lupin iii the castle of cagliostro|": "",
+"miracle on 34th street|": "1947",
 "the land before time|": "1988",
 "the legendary super saiyan|": ""
 },
@@ -12817,6 +12891,10 @@
 "blue s clues|4|16": {
 "nm": "",
 "ov": ""
+},
+"blue s clues|4|17": {
+"nm": "Let's Plant",
+"ov": "Somebody new is joining us today- it's our new plant, Nero! As we learn how to plant Nero in the garden, Steve realizes that he doesn't know what kind of plant Nero is. But Blue knows so we play Blues Clues to figure it out."
 },
 "blue s clues|4|2": {
 "nm": "",
@@ -14646,6 +14724,10 @@
 "nm": "Reunion for O'Rourke",
 "ov": "O'Rourke has been in the Army for twenty-five years."
 },
+"f troop|1|26": {
+"nm": "Captain Parmenter, One Man Army",
+"ov": "When F Troop finds out that none of them are legally enlisted, the troopers leave and only Captain Parmenter remains to fight off an Indian attack."
+},
 "family double dare|3|18": {
 "nm": "",
 "ov": ""
@@ -16366,6 +16448,10 @@
 "nm": "",
 "ov": ""
 },
+"initial d first stage|2|5": {
+"nm": "",
+"ov": ""
+},
 "inspector gadget|1|10": {
 "nm": "The Ruby",
 "ov": "Dr. Claw steals the big red ruby of India to use in his superlaser to destroy U.S. communications satellites."
@@ -17726,6 +17812,10 @@
 "nm": "",
 "ov": ""
 },
+"mystery science theater 3000|8|12": {
+"nm": "",
+"ov": ""
+},
 "mystery science theater 3000|8|18": {
 "nm": "",
 "ov": ""
@@ -18362,6 +18452,10 @@
 "nm": "A Federal Case",
 "ov": "Washington, DC based FBI agent Michael Stearns makes what most consider an unreasonable request: to move into Brenda's apartment for an indefinite period of time (meaning that she would have to find other accommodation for that ti..."
 },
+"rhoda|2|21": {
+"nm": "",
+"ov": ""
+},
 "robotech|2|18": {
 "nm": "",
 "ov": ""
@@ -18873,6 +18967,14 @@
 "samurai champloo|1|2": {
 "nm": "Hyakkiyakô",
 "ov": "After Mugen cuts off a former enemy's arm, the enemy sets out to extract revenge on him by kidnapping Fuu and kill Mugen and Jin."
+},
+"samurai champloo|1|20": {
+"nm": "Hikakôgai sono ichi",
+"ov": "Mugen defend the honor of a blind songtress, but when the trio of wanderers become a quartet, Fuu must make an important decision."
+},
+"samurai champloo|1|21": {
+"nm": "Hikakôgai sono ni",
+"ov": "Mugen has his own deadly run-in with the same blind beauty that sent Jin plummeting toward a gruesome end."
 },
 "samurai champloo|1|3": {
 "nm": "Ishindenshin sono ichi",
@@ -19826,6 +19928,10 @@
 "nm": "",
 "ov": ""
 },
+"taxi|3|18": {
+"nm": "On the Job: Part 1",
+"ov": "After the Sunshine Cab Company goes bankrupt, the gang decides to meet at Mario's a month later to tell stories about their new jobs."
+},
 "teen titans|1|13": {
 "nm": "Car Trouble",
 "ov": "Cyborg is in a chase around the city when various villains get their hands on his newly-built \"T-Car.\""
@@ -20086,6 +20192,10 @@
 "nm": "Bob's Change of Life",
 "ov": "The Hartleys decide to move to a new apartment. Bob has finally finished writing his book and he begins to worry about all the changes in his life."
 },
+"the bob newhart show|6|2": {
+"nm": "Ex-Con Job",
+"ov": "Bob's doing group therapy sessions at a prison to counsel men who'll soon be rleased.."
+},
 "the brady bunch|5|10": {
 "nm": "Try, Try Again",
 "ov": "After Marcia and Cindy are chosen to participate in their class' ballet recital but Jan isn't, a dejected Jan decides to quit ballet altogether, realizing that she doesn't have the aptitude for it. Carol suggests she try other activities such as other forms of dance as Jan is sure to find one she both likes and is good at. But activity after activity seems ultimately to fail for Jan. Greg comes up with a plan to cheer Jan up, not really realizing that his plan only masks the problem of Jan really needing to find something at which she's good. As Jan tries harder and harder to find that perfect activity, she may unwittingly stumble onto her real talent. Meanwhile, Mike is preparing a gourmet dinner whose menu is top secret. Carol and Alice are dying to find out what's on the menu. Mike may have one major flaw with his dinner which is no fault of his cooking skill."
@@ -20101,6 +20211,14 @@
 "the brady bunch|5|13": {
 "nm": "",
 "ov": ""
+},
+"the brady bunch|5|14": {
+"nm": "Kelly's Kids",
+"ov": "Mike and Carol's friends, nightclub performer Ken Kelly and his wife Kathy Kelly, have just purchased a larger house close to the Bradys. They announce to Mike and Carol the reason for the larger house is because they have just adopted an eight-year-old boy named Matt. Although Matt loves being adopted and loves his new parents, his transition to the Kelly household is not an entirely smooth one since Matt misses all of his old friends at the adoption home, most specifically his best friends Dwayne and Steve, who referred to themselves as the Three Musketeers. Ken and Kathy decide that if they are going to have an instant family, that raising two boys would be just as easy as raising one. The question becomes which of Dwayne or Steve, if either, is the one they are going to choose. That becomes a more difficult decision than they had first imagined after they meet the two boys. Their new enlarged family may be torn apart before it even has a chance to develop due to the intolerance of their neighbor Mrs. Payne, who not only implies that she doesn't like children but that she finds certain other aspects of the children's basic characteristics offensive."
+},
+"the brady bunch|5|15": {
+"nm": "The Driver's Seat",
+"ov": "Marcia battles nerves and Greg's sexist remarks when she tries to get her driver's license. Eventually, the debate over which gender has the better driving abilities leads to a winner-take-all driving test in a vacant parking lot."
 },
 "the brady bunch|5|2": {
 "nm": "",
@@ -20558,6 +20676,10 @@
 "nm": "Bronco Bustin' Munster",
 "ov": "Eddie has entered his dad in a local rodeo bronco-riding contest. The organizers, impressed by Eddie's bragging, decide to let Herman ride their wildest horse, Volcano. Scared and nervous, Herman asks Grandpa for help, who decides to turn himself into a horse so Herman at least knows whom he'll be riding."
 },
+"the munsters|2|4": {
+"nm": "Herman Munster, Shutterbug",
+"ov": "Herman has taken up photography as a new hobby and inadvertently snaps a picture of two bank robbers leaving the scene of the crime. The robbers in question soon locate the Munster's house (by searching for the Munster's Koach) in order to get their hands on the incriminating evidence."
+},
 "the mysterious cities of gold|1|35": {
 "nm": "The Olmec Machine",
 "ov": "Esteban, Zia and Tao are waiting outside the base when Gaspard and Gomez take them by surprise and demand to be taken to the Cities of Gold. Meanwhile, Wanacocha arrives to announce their victory to Mendoza, but the latter becomes..."
@@ -20665,6 +20787,10 @@
 "the phil silvers show|4|12": {
 "nm": "",
 "ov": ""
+},
+"the phil silvers show|4|13": {
+"nm": "Bilko's Giveaway",
+"ov": "Bilko wins $25,000 in prizes. When he has to pay taxes on his winnings he comes up with a way to dispose of the prizes and starts his own quiz show in Grove City. All is going well until Doberman becomes a big hit with the audience."
 },
 "the phil silvers show|4|7": {
 "nm": "",
@@ -21737,6 +21863,7 @@
 "Legends of the Hidden Temple": "In a Temple filled with lost treasures and protected by mysterious Mayan temple guards, six teams of two children compete to retrieve one of the historical artifacts in the Temple by performing physical stunts and answering questions based on history, mythology, and geography. After three elimination rounds, only one team remains, who then earns the right to go through the Temple to retrieve the artifact within three minutes and win a grand prize.",
 "Little Bear": "Follows a young bear as he goes on exciting adventures in the forest, gets into trouble and learns new things with his friends, including Emily, Duck, Hen, Cat, and Owl. His parents are Mother Bear, who is always there when he needs her, and Father Bear, a fisherman who is often at sea. Based on books by Else Holmelund Minarik.",
 "Little Giants": "Shinichiro Kosaka is a detective of the major cases unit of the Tokyo Metropolitan Police and on the path to become captain of the unit when he makes a mistake during an investigation. Kosaka was subsequently demoted to precinct duty, where he finds his new colleagues taking on small cases tirelessly with a sense of justice untinged by workplace politics and internal disputes.",
+"Lupin III The Castle of Cagliostro": "After a successful robbery leaves famed thief Lupin the Third and his partner Jigen with nothing but a large amount of expertly crafted counterfeit bills, he decides to track down the forgers responsible—and steal any other treasures he may find in the Castle of Cagliostro, including the 'damsel in distress' he finds imprisoned there.",
 "Lupin the Third": "She's a thief. A killer. A saint and a scandal. She's whatever you need her to be to get the job done. She takes your breath away to get what she wants. She takes everything else just because she can. It's all in a night's work for the woman called Fujiko Mine. She's the slinky, sultry thread that holds Lupin III's crew together—and this is the heist that started it all.",
 "Lupin the Third: Part II": "Follow the exciting adventures of Arsene Lupin III, the grandson of the world's greatest thief, Arsene Lupin. Together with Daisuke Jigen, Goemon Ishikawa and his love interest Fujiko Mine, he carries out the greatest robberies of all time, all the while evading the control of Inspector Koichi Zenigata.",
 "MST3K - S09E07 - Hobgoblins": "",
@@ -21747,6 +21874,7 @@
 "Maya the Bee (1975)": "The adventures of a young and happy bee who is sent by her queen to search for pollen, and in doing so she finds a new world that surrounds her, making friends with various forest creatures.",
 "Mega Man": "Mega Man is a robot created by a brilliant scientist named Dr. Light, who hoped many his many creations would only be used for good. One day however, a mad scientist named Dr. Wily stole Light's original 6 robots and creation plans. From them he began creating a whole new series of robots, with one goal... World Domination! But Dr. Light gave Mega Man the ultimate trump card when he built him. Mega Man possesses the ability to absorb the powers of other robots. Now Mega Man and his best friend, a robotic dog named Rush fight for everlasting peace against the evil Dr. Wily!",
 "Men in Black: The Series": "A secret government organization made up of men provide intergalactic immigration services for Earth-bound aliens.",
+"Miracle on 34th Street": "Kris Kringle, seemingly the embodiment of Santa Claus, is asked to portray the jolly old fellow at Macy's following his performance in the Thanksgiving Day parade. His portrayal is so complete that many begin to question if he truly is Santa Claus, while others question his sanity.",
 "Mister Ed": "Wilbur Post and his wife Carol move into a beautiful new home. When Wilbur takes a look in his new barn, he finds that the former owner left his horse behind. This horse is no ordinary horse . . . he can talk, but only to Wilbur, which leads to all sorts of misadventures for Wilbur and his trouble-making sidekick Mister Ed.",
 "Moon of the Wolf": "Sound of the Desert traces the fate of Xin Yue, a young  orphan who was adopted by the nomadic Xiongnu tribe. When political  turmoil forces Xin Yue to flee, she finds herself in the company of two  very different, but alluring men: Mo Xun, a kind soul, and Wei  Wu Ji, a cold general. As Xin Yue travels throughout a vast  desert of possibilities, she must ask herself who she loves most in  this delicate dance of love.",
 "Mr. Wizard's World": "With the help of his young assistants, Mr. Wizard starts each episode with a demonstration that at first glance should be impossible, but is actually based firmly on basic scientific principles. Mr. Wizard's explanations are aimed at kids, but are in-depth enough to be educational and interesting for anyone. His experiments are usually kept simple enough for parents and kids to re-create at home.",
@@ -22229,6 +22357,7 @@
 "the brak show": null,
 "the busy world of richard scarry": null,
 "the littl bits": null,
+"the lucy show": null,
 "the many loves of dobie gillis": null,
 "the mighty thor": null,
 "the munsters": null,
@@ -92498,6 +92627,7 @@
 "lassie": "70762",
 "legends of the hidden temple (1993)": "71335",
 "little bear": "76717",
+"lupin iii the castle of cagliostro": null,
 "lupin the third": "257875",
 "lupin the third: part ii": "71863",
 "make the grade": "389094",
@@ -92505,6 +92635,7 @@
 "mega man": "76696",
 "megas xlr": "74095",
 "men in black: the series": "77743",
+"miracle on 34th street": null,
 "mister ed": "78045",
 "mobile suit gundam wing": "445110",
 "mobile suit gundam: the 08th ms team": "80784",
