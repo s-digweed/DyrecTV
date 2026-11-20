@@ -3,6 +3,10 @@
   "desc": "Called “Juggernaut,” these are the unmanned combat drones developed by the Republic of San Magnolia in answer to the attacks by the autonomous unmanned drones of the neighboring Empire of Giad, the “Legion”. But they’re only unmanned in name. In reality, they are piloted by the Eighty-sixers—those considered to be less than human and treated as mere tools. Determined to achieve his own mysterious ends, Shin, the captain of Spearhead Squadron, which is comprised of Eighty-sixers, continues to fight a hopeless war on a battlefield where only death awaits him.",
   "t": 1793777406.1535356
  },
+ "ax|A Place Further Than the Universe": {
+  "desc": "A group of high school girls join an expedition headed towards the Antarctic.",
+  "t": 1795192760.4561005
+ },
  "ax|Astro Boy (1963)": {
   "desc": "As long as trouble's brewing across the universe, the small but powerful robot, Astro Boy, will have adventures, assisted by his mentor, Dr. Elefun.",
   "t": 1793777397.8684275
@@ -63,9 +67,17 @@
   "desc": "High schooler Taiju awakens from petrification millennia after a blinding light turned humanity to stone. He finds his scientific genius friend Senku working on a plan to rebuild civilization using science.",
   "t": 1793777398.9005356
  },
+ "ax|Encouragement of Climb: Next Summit": {
+  "desc": "Aoi's fear of heights won't hold her down as she and her friends run the school mountaineering club.",
+  "t": 1795192760.3790116
+ },
  "ax|Fist of the North Star": {
   "desc": "After a nuclear war turns Earth into a lawless wasteland, Kenshiro, a practitioner of the deadly master art \"Hokuto Shinken\", fights a succession of tyrannical warriors to restore order.",
   "t": 1793777399.3590908
+ },
+ "ax|Food for the Soul": {
+  "desc": "An original animation about the daily life of five girls who just became university students. They love delicious food, want to have lots of fun with everyone, and study a little harder to enjoy university life to the fullest.",
+  "t": 1795192760.604336
  },
  "ax|Frieren: Beyond Journey's End": {
   "desc": "Elf mage Frieren and her fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people arou...",
@@ -127,6 +139,10 @@
   "desc": "The story of a young delivery boy who becomes a drift-racing legend.",
   "t": 1793777398.545201
  },
+ "ax|Initial D: Third Stage (2001)": {
+  "desc": "More races and challenges for soon-to-be-graduate/drift racer Takumi Fujiwara. Of course, with all the bells and whistles of a big screen production.",
+  "t": 1795192761.074466
+ },
  "ax|JoJo's Bizarre Adventure": {
   "desc": "The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives.",
   "t": 1793777399.0847454
@@ -166,6 +182,10 @@
  "ax|Mobile Suit Gundam Wing": {
   "desc": "A squadron of giant robot pilots of a beleaguered Earth colony bring the war to their oppressive home planet.",
   "t": 1793777403.9335012
+ },
+ "ax|Moomin": {
+  "desc": "The eerie and charming animated adventures of a creature called Moomin and his friends and family.",
+  "t": 1795192760.5252357
  },
  "ax|Nichijou": {
   "desc": "Follow the adventures of three ordinary girls as they learn their most important lessons the hard way. Meanwhile, a pocket-sized professor makes life difficult for a robot who just wants to be normal.",
@@ -223,6 +243,10 @@
   "desc": "Teenager Gô Mifune aspires to be the world's best race-car champion with the help of his friends, family and his father's high-tech race-car, the Mach 5.",
   "t": 1793777397.219149
  },
+ "ax|Spy × Family Code: White (2023)": {
+  "desc": "While under the guise of taking his family on a weekend winter getaway, Loid's attempt to make progress on his current mission Operation Strix proves difficult when Anya mistakenly gets involved and triggers events that threaten world peace.",
+  "t": 1795192761.0101702
+ },
  "ax|Super Milk-chan (Vintage Shorts)": {
   "desc": "A heavily edited US version of the series that has Americanized jokes and humor and featuring English voice cast live action segments replacing the original Japanese segments.",
   "t": 1793777406.5339189
@@ -230,6 +254,10 @@
  "ax|That Time I Got Reincarnated as a Slime": {
   "desc": "Average 37-year-old Minami Satoru dies and is reincarnated as the most unremarkable creature imaginable-a slime.",
   "t": 1793777398.7274842
+ },
+ "ax|The Animatrix (2003)": {
+  "desc": "A teenager's dreams which conclude with him falling off a building, lead him to believe that the reality he lives in, may not be so real after all.",
+  "t": 1795192760.3126633
  },
  "ax|The Ghost in the Shell (2026)": {
   "desc": "In the year 2029, Niihama City has become a technologically advanced metropolis. Due to great improvements in cybernetics, its citizens are able to replace their limbs with robotic parts.",
@@ -246,6 +274,14 @@
  "ax|The Melancholy of Haruhi Suzumiya": {
   "desc": "The crazy adventures of the SOS Brigade, led by the insane but charismatic Haruhi.",
   "t": 1793777403.2083163
+ },
+ "ax|The Venture Bros.": {
+  "desc": "The bizarre escapades of pseudo-heroic scientist Dr. Rusty Venture, his competent, high-strung bodyguard, and his two overenthusiastic sons.",
+  "t": 1795192760.1516151
+ },
+ "ax|The Venture Bros.: Radiant Is the Blood of the Baboon Heart (2023)": {
+  "desc": "Doc's latest invention will either bankrupt the Ventures or launch them to new heights.",
+  "t": 1795192760.239913
  },
  "ax|Ultimate Muscle": {
   "desc": "With the fate of the universe at stake, Kid Muscle takes on a throng of intergalactic wrestlers.",
