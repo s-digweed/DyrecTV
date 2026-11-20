@@ -429,6 +429,7 @@ AX_LOOKUP = {
     "Super Milk-chan (Vintage Shorts)": "Super Milk-chan",
     "Laid-Back Camp (S1)": "Laid-Back Camp",
     "The Ghost in the Shell (2026) [Sneak Preview]": "The Ghost in the Shell (2026)",
+    "Spy × Family Code: White (2023)": "Spy x Family Code: White (2023)",
 }
 
 def resolve_ax(title, mins):
