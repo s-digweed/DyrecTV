@@ -1939,6 +1939,11 @@
   "show": "Top Cat and the Beverly Hills Cats (1988)",
   "t": 1794577807.4819095
  },
+ "movie|Underdog": {
+  "desc": "A Beagle must use his newly-bestowed superpowers to defend Capitol City from mad scientist Simon Barsinister.",
+  "show": "Underdog (2007)",
+  "t": 1795188336.331154
+ },
  "movie|Yogi's Ark Lark": {
   "desc": "",
   "show": "Yogi's Ark Lark",
@@ -2338,6 +2343,11 @@
   "desc": "King Zandor and a group of bizarre creatures protect their futuristic kingdom from creatures from other galaxies.",
   "show": "The Herculoids",
   "t": 1793577632.7744868
+ },
+ "series|The High Fructose Adventures of Annoying Orange": {
+  "desc": "A television series of the popular YouTube series ''Annoying Orange''. Where Orange (Dane Boedigheimer) goes on an adventure with his friends. His weird friend Nerville (Toby Turner) basically played by a YouTuber has a fear of al...",
+  "show": "The High Fructose Adventures of Annoying Orange",
+  "t": 1795188336.2078428
  },
  "series|The Huckleberry Hound Show": {
   "desc": "The adventures of a blue dog with a southern accent.",
