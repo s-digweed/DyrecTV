@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-20 10:54 UTC)
-#   episode-specific: 922
-#   fixed show-blurb: 12  (hand-supplied, intentional)
-#   generic (blurb) : 60
+# DESCRIPTION REPORT  (2026-11-21 10:39 UTC)
+#   episode-specific: 925
+#   fixed show-blurb: 15  (hand-supplied, intentional)
+#   generic (blurb) : 54
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -11,14 +11,10 @@
 #   ("<show>", "<episode>"): "the real episode description",
 # ============================================================
     ("Birdman and the Galaxy Trio", "Birdman in the Revenge of Dr. Millennium"): "",   # epNum=32  pinned cartoon: no synopsis supplied for this segment
+    ("Cyborg 009", "Computoia"): "",   # epNum=30  no S/E resolved -> show-level blurb
     ("Cyborg 009", "The Fight for Tomorrow"): "",   # epNum=28  no S/E resolved -> show-level blurb
-    ("Family Double Dare", "Episode 21"): "",   # epNum=73  S/E set but no DB/OMDb/TAM episode overview
     ("Fantastic Four", "The Micro World Of Dr. Doom"): "",   # epNum=15  no S/E resolved -> show-level blurb
-    ("Fighting Spirit", "Grudges, Sorrows & Dreams"): "",   # epNum=25  no S/E resolved -> show-level blurb
-    ("Fighting Spirit", "To the Promised Place..."): "",   # epNum=24  no S/E resolved -> show-level blurb
     ("GaoGaiGar", "Chase the Black 300!"): "",   # epNum=7  no S/E resolved -> show-level blurb
-    ("Ghost Stories", "The Apartment That Eats People! Nest of Evil Spirits"): "",   # epNum=16  no S/E resolved -> show-level blurb
-    ("Ghost Stories", "The Devil's Spell - Rite of Darkness"): "",   # epNum=15  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "C: The Man Who Dwells in the Shadows of the Net - CHAT! CHAT! CHAT!"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "SA: A Perfect Day for a Jungle Cruise - JUNGLE CRUISE"): "",   # epNum=10  no S/E resolved -> show-level blurb
     ("Ghost in the Shell", "SA: Idolatry - IDOLATOR"): "",   # epNum=7  no S/E resolved -> show-level blurb
@@ -30,11 +26,12 @@
     ("Justice League Crisis On Two Earths (2010)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin III The Castle of Cagliostro", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Crusin' in Drag"): "",   # epNum=42  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Heroes and Vixens"): "",   # epNum=41  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Jumpin' the Bones"): "",   # epNum=43  no S/E resolved -> show-level blurb
+    ("Lupin the Third: Part II", "Lion, Cheatin' and Stealin'"): "",   # epNum=44  no S/E resolved -> show-level blurb
     ("Miracle on 34th Street (1947)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): "",   # epNum=60  no S/E resolved -> show-level blurb
     ("Superman: The Animated Series", "Legacy (Part 2)"): "",   # epNum=54  no S/E resolved -> show-level blurb
     ("The Legendary Super Saiyan", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Voltron", "The Missing Key"): "",   # epNum=4  no S/E resolved -> show-level blurb
+    ("Voltron", "The Princess Joins Up"): "",   # epNum=5  no S/E resolved -> show-level blurb
     ("What Would You Do? (1991)", "Feeding a Tarantula"): "",   # epNum=11  S/E set but no DB/OMDb/TAM episode overview
+    ("What Would You Do? (1991)", "Follow the Leader Dance"): "",   # epNum=12  S/E set but no DB/OMDb/TAM episode overview

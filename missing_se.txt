@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-20 10:54 UTC)
+# RUN STATUS  (2026-11-21 10:39 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 922 episode-specific, 12 fixed show-blurb, 60 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 925 episode-specific, 15 fixed show-blurb, 54 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 523  (manual pins: 2)
+#   S/E by name      : 522  (manual pins: 2)
 #   S/E by absolute  : 20
-#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 42  (S/E from your hand-verified sheet)
-#   episode guide    : 172  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   S/E + desc / TAM : 27  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 37  (S/E from your hand-verified sheet)
+#   episode guide    : 173  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
 #   abs-resolve Snick: 107  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
-#   repeat-fill      : 2  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 225
-#   S/E withheld     : 43  (listed below)
+#   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
+#   names from TAM   : 220
+#   S/E withheld     : 35  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,13 +22,10 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
+    ("Cyborg 009", "Computoia"): (, ),   # epNum=30
     ("Cyborg 009", "The Fight for Tomorrow"): (, ),   # epNum=28
     ("Fantastic Four", "The Micro World Of Dr. Doom"): (, ),   # epNum=15
-    ("Fighting Spirit", "Grudges, Sorrows & Dreams"): (, ),   # epNum=25
-    ("Fighting Spirit", "To the Promised Place..."): (, ),   # epNum=24
     ("GaoGaiGar", "Chase the Black 300!"): (, ),   # epNum=7
-    ("Ghost Stories", "The Apartment That Eats People! Nest of Evil Spirits"): (, ),   # epNum=16
-    ("Ghost Stories", "The Devil's Spell - Rite of Darkness"): (, ),   # epNum=15
     ("Ghost in the Shell", "C: The Man Who Dwells in the Shadows of the Net - CHAT! CHAT! CHAT!"): (, ),   # epNum=9
     ("Ghost in the Shell", "SA: A Perfect Day for a Jungle Cruise - JUNGLE CRUISE"): (, ),   # epNum=10
     ("Ghost in the Shell", "SA: Idolatry - IDOLATOR"): (, ),   # epNum=7
@@ -37,9 +34,8 @@
     ("Initial D: First Stage", "The Feeling of Defeat"): (, ),   # epNum=31
     ("Iron Man", "The Moleman [sic] Strikes, The Dragon of Flames, Decision Under the Earth"): (, ),   # epNum=8
     ("Lupin the Third: Part II", "Crusin' in Drag"): (, ),   # epNum=42
-    ("Lupin the Third: Part II", "Heroes and Vixens"): (, ),   # epNum=41
     ("Lupin the Third: Part II", "Jumpin' the Bones"): (, ),   # epNum=43
-    ("Saint Seiya: Knights of the Zodiac", "Hyoga's Return! At Risk of Life"): (, ),   # epNum=60
+    ("Lupin the Third: Part II", "Lion, Cheatin' and Stealin'"): (, ),   # epNum=44
     ("Superman: The Animated Series", "Legacy (Part 2)"): (, ),   # epNum=54
-    ("Teen Titans", "Aftershock (Part 2)"): (, ),   # epNum=26
     ("Voltron", "The Missing Key"): (, ),   # epNum=4
+    ("Voltron", "The Princess Joins Up"): (, ),   # epNum=5
