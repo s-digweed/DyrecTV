@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-23 11:48 UTC)
+# RUN STATUS  (2026-11-24 13:17 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 931 episode-specific, 16 fixed show-blurb, 66 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 1049 episode-specific, 12 fixed show-blurb, 71 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 572  (manual pins: 0)
-#   S/E by absolute  : 26
-#   S/E + desc / TAM : 21  (name+S/E+synopsis taken straight from TAM)
-#   master map       : 28  (S/E from your hand-verified sheet)
-#   episode guide    : 161  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 122  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   S/E by name      : 638  (manual pins: 0)
+#   S/E by absolute  : 28
+#   S/E + desc / TAM : 13  (name+S/E+synopsis taken straight from TAM)
+#   master map       : 26  (S/E from your hand-verified sheet)
+#   episode guide    : 199  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 125  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 192
-#   S/E withheld     : 30  (listed below)
+#   names from TAM   : 234
+#   S/E withheld     : 33  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -24,16 +24,17 @@
 # ============================================================
     ("2 Stupid Dogs", "Inside Out (includes Hollywood with Little Bird)"): (, ),   # epNum=49
     ("Berserk", "The Eclipse"): (, ),   # epNum=24
-    ("GaoGaiGar", "Chase the Black 300!"): (, ),   # epNum=7
-    ("Ghost in the Shell", "C: The Man Who Dwells in the Shadows of the Net - CHAT! CHAT! CHAT!"): (, ),   # epNum=9
-    ("Ghost in the Shell", "SA: A Perfect Day for a Jungle Cruise - JUNGLE CRUISE"): (, ),   # epNum=10
+    ("Fantastic Four", "Blastaar, The Living Bomb-Burst"): (, ),   # epNum=16
+    ("GaoGaiGar", "The Day the Sun Went Out"): (, ),   # epNum=8
+    ("Girls Und Panzer", "Against Pravda!"): (, ),   # epNum=8
     ("Girls Und Panzer", "Next up is Anzio!"): (, ),   # epNum=7
+    ("Lupin the Third: Part II", "Crownin' Around"): (, ),   # epNum=47
     ("Lupin the Third: Part II", "Diamonds and Minx"): (, ),   # epNum=45
     ("Lupin the Third: Part II", "Jumpin' the Bones"): (, ),   # epNum=43
     ("Lupin the Third: Part II", "Lion, Cheatin' and Stealin'"): (, ),   # epNum=44
     ("Lupin the Third: Part II", "The Island of Dr. Derange"): (, ),   # epNum=46
     ("Nadia: The Secret of Blue Water", "Successor to the Stars (Finale)"): (, ),   # epNum=39
+    ("Ranma ½", "Final Facedown! Happosai vs. The Invisible Man"): (, ),   # epNum=50
     ("Sailor Moon", "Moon Animate Make-Up "Fractious Frames""): (, ),   # epNum=160
     ("Voltron", "The Lion Has New Claws"): (, ),   # epNum=7
-    ("Voltron", "The Princess Joins Up"): (, ),   # epNum=5
     ("Voltron", "The Right Arm of Voltron"): (, ),   # epNum=6
