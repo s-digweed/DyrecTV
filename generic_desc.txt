@@ -1,8 +1,8 @@
 # ============================================================
-# DESCRIPTION REPORT  (2026-11-24 13:17 UTC)
-#   episode-specific: 1049
-#   fixed show-blurb: 12  (hand-supplied, intentional)
-#   generic (blurb) : 71
+# DESCRIPTION REPORT  (2026-11-25 12:07 UTC)
+#   episode-specific: 941
+#   fixed show-blurb: 16  (hand-supplied, intentional)
+#   generic (blurb) : 69
 #   none            : 0
 # These programmes do NOT have an episode-specific description.
 # Reason is given after each line, with the feed episodeNumber
@@ -13,28 +13,29 @@
     ("2 Stupid Dogs", "Inside Out (includes Hollywood with Little Bird)"): "",   # epNum=49  no S/E resolved -> show-level blurb
     ("A Charlie Brown Thanksgiving", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Allegra's Window", "Small Is Beautiful"): "",   # epNum=4  S/E set but no DB/OMDb/TAM episode overview
-    ("Berserk", "The Black Swordsman (Redux)"): "",   # epNum=26  no S/E resolved -> show-level blurb
+    ("Allegra's Window", "The Imaginary Zoo"): "",   # epNum=5  S/E set but no DB/OMDb/TAM episode overview
     ("Berserk", "The Eclipse"): "",   # epNum=24  no S/E resolved -> show-level blurb
-    ("Bojack Unbound", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "The Punchline Part 1"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "The Punchline Part 2"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Dragon Ball Z Abridged", "The Punchline Part 3"): "",   # epNum=10  no S/E resolved -> show-level blurb
     ("Fantastic Four", "Blastaar, The Living Bomb-Burst"): "",   # epNum=16  no S/E resolved -> show-level blurb
     ("Flipper (1964)", "(no episode name)"): "",   # epNum=89  no S/E resolved -> show-level blurb
+    ("GaoGaiGar", "Element Z0"): "",   # epNum=9  S/E set but no DB/OMDb/TAM episode overview
     ("GaoGaiGar", "The Day the Sun Went Out"): "",   # epNum=8  no S/E resolved -> show-level blurb
     ("Garfields Thanksgiving", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Girls Und Panzer", "Against Pravda!"): "",   # epNum=8  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "Akane-san of the Broadcasting Room!! Voice of the Dead"): "",   # epNum=18  no S/E resolved -> show-level blurb
+    ("Ghost Stories", "Terror at Bloodstain Lake!! Apparition in the Snow"): "",   # epNum=17  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "C: In The Forest of the Imagoes - PORTRAITZ"): "",   # epNum=11  no S/E resolved -> show-level blurb
+    ("Ghost in the Shell", "SA: Tachikoma Runs Away; The Movie Director's Dream - ESCAPE FROM"): "",   # epNum=12  no S/E resolved -> show-level blurb
     ("Girls Und Panzer", "Next up is Anzio!"): "",   # epNum=7  no S/E resolved -> show-level blurb
-    ("Justice League Crisis On Two Earths (2010)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Crownin' Around"): "",   # epNum=47  no S/E resolved -> show-level blurb
+    ("Initial D: First Stage", "Akagi Battle! A Flash of Black and White!"): "",   # epNum=35  no S/E resolved -> show-level blurb
+    ("Initial D: First Stage", "That Car, Gone Berserk"): "",   # epNum=36  no S/E resolved -> show-level blurb
+    ("Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
+    ("Iron Man", "The Other Iron Man!, Death Duel, Into The Jaws of the Death"): "",   # epNum=9  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Diamonds and Minx"): "",   # epNum=45  no S/E resolved -> show-level blurb
-    ("Lupin the Third: Part II", "Jumpin' the Bones"): "",   # epNum=43  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "Lion, Cheatin' and Stealin'"): "",   # epNum=44  no S/E resolved -> show-level blurb
     ("Lupin the Third: Part II", "The Island of Dr. Derange"): "",   # epNum=46  no S/E resolved -> show-level blurb
     ("Nadia: The Secret of Blue Water", "Successor to the Stars (Finale)"): "",   # epNum=39  no S/E resolved -> show-level blurb
-    ("Ranma ½", "Final Facedown! Happosai vs. The Invisible Man"): "",   # epNum=50  no S/E resolved -> show-level blurb
-    ("Sailor Moon", "Moon Animate Make-Up "Fractious Frames""): "",   # epNum=160  no S/E resolved -> show-level blurb
     ("This is America, Charlie Brown", "(no episode name)"): "",   # epNum=  no S/E resolved -> show-level blurb
-    ("Voltron", "The Lion Has New Claws"): "",   # epNum=7  no S/E resolved -> show-level blurb
-    ("Voltron", "The Right Arm of Voltron"): "",   # epNum=6  no S/E resolved -> show-level blurb
+    ("What Would You Do? (1991)", "Being Hypnotized"): "",   # epNum=13  S/E set but no DB/OMDb/TAM episode overview
     ("What Would You Do? (1991)", "Follow the Leader Dance"): "",   # epNum=12  S/E set but no DB/OMDb/TAM episode overview
