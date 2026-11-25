@@ -2040,6 +2040,11 @@
   "show": "Centurions",
   "t": 1793577630.8596997
  },
+ "series|Clarence": {
+  "desc": "Life is just one big adventure for Clarence and his two best friends, Jeff &amp; Sumo.",
+  "show": "Clarence",
+  "t": 1795617279.2114642
+ },
  "series|Courage the Cowardly Dog": {
   "desc": "The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land.",
   "show": "Courage the Cowardly Dog",
@@ -2164,6 +2169,11 @@
   "desc": "The misadventures of Loopy De Loop, the kind, considerate and charming wolf, who tries to do good and change the bad reputation of his kind.",
   "show": "Loopy De Loop",
   "t": 1793577626.1851113
+ },
+ "series|MAD": {
+  "desc": "The animated version of the classic humor magazine satirizes current pop culture.",
+  "show": "MAD",
+  "t": 1795617280.8263376
  },
  "series|Magilla Gorilla": {
   "desc": "Magilla Gorilla is a gorilla who spends his time languishing in the front display window of Melvin Peebles' pet shop, eating bananas and being a drain on the businessman's finances.",
@@ -2315,6 +2325,11 @@
   "show": "Speed Racer",
   "t": 1795025366.077434
  },
+ "series|Steven Universe": {
+  "desc": "A team of intergalactic warriors fight to protect the Earth, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that they face.",
+  "show": "Steven Universe",
+  "t": 1795617279.092037
+ },
  "series|Super Friends": {
   "desc": "The greatest of the DC Comics superheroes work together to uphold the good with the help of some young proteges.",
   "show": "Super Friends",
@@ -2329,6 +2344,11 @@
   "desc": "A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face.",
   "show": "Teen Titans",
   "t": 1793577632.6823711
+ },
+ "series|Teen Titans Go!": {
+  "desc": "Superhero roommates Robin, Cyborg, Starfire, Raven and Beast Boy love saving the day, but what happens when they're done fighting crime?",
+  "show": "Teen Titans Go!",
+  "t": 1795617280.6534836
  },
  "series|The Adventures of Gulliver": {
   "desc": "The adventures of Gary Gulliver and his search for his missing father.",
@@ -2479,6 +2499,11 @@
   "desc": "The adventures of the basketball team as superheroes.",
   "show": "The Super Globetrotters",
   "t": 1793577630.507547
+ },
+ "series|The Thanksgiving That Almost Wasn't": {
+  "desc": "",
+  "show": "The Thanksgiving That Almost Wasn't",
+  "t": 1795617280.5491276
  },
  "series|Thundarr the Barbarian": {
   "desc": "Thundarr the Barbarian and his companions Ookla the Mok and Princess Ariel wander a devastated future Earth and fight evil wherever they find it.",
