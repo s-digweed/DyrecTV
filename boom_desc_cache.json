@@ -1810,6 +1810,11 @@
   "show": "Alvin and the Chipmunks Meet Frankenstein (1999)",
   "t": 1793577626.7197022
  },
+ "movie|Boomerang Zoo": {
+  "desc": "",
+  "show": "Boomerang Zoo",
+  "t": 1795701158.1458547
+ },
  "movie|Casper": {
   "desc": "An afterlife therapist and his daughter meet a friendly young ghost when they move into a crumbling mansion in order to rid the premises of wicked spirits.",
   "show": "Casper (1995)",
@@ -1985,6 +1990,11 @@
   "show": "Underdog (2007)",
   "t": 1795188336.331154
  },
+ "movie|We're Back! A Dinosaur's Story": {
+  "desc": "A time traveling scientist goes back to prehistoric times and feeds dinosaurs a magic cereal that increases their intelligence - next they land in modern New York City for a series of comic adventures.",
+  "show": "We're Back! A Dinosaur's Story (1993)",
+  "t": 1795701156.9334896
+ },
  "movie|Yogi's Ark Lark": {
   "desc": "",
   "show": "Yogi's Ark Lark",
@@ -1999,6 +2009,11 @@
   "desc": "A not-too-bright canine duo get into all sorts of mischief and trouble.",
   "show": "2 Stupid Dogs",
   "t": 1793577628.9923098
+ },
+ "series|A Charlie Brown Thanksgiving": {
+  "desc": "",
+  "show": "A Charlie Brown Thanksgiving",
+  "t": 1795701158.832273
  },
  "series|Augie Doggie": {
   "desc": "The misadventures of Augie Doggie and Doggie Daddy.",
@@ -2105,6 +2120,11 @@
   "show": "Garfield and Friends",
   "t": 1793577632.213352
  },
+ "series|Garfield's Thanksgiving": {
+  "desc": "",
+  "show": "Garfield's Thanksgiving",
+  "t": 1795701159.5167828
+ },
  "series|Heathcliff and the Catillac Cats": {
   "desc": "Heathcliff knows he is the best cat around! Never have we seen such self-confidence topped off with a heavy dose of vanity, cunning, ruthlessness, and a mischievous love of gags. He cruises and struts down the street and watch out any person, cat, or dog who gets in his way! Although he may terrorize the neighborhood, let an outsider try to push anyone around and he is a veritable tiger of defense. On the other side of town are The Catillac Cats, which typically revolve around leader Riff-Raff's get-rich-quick schemes or searches for food.",
   "show": "Heathcliff and the Catillac Cats",
@@ -2180,6 +2200,11 @@
   "show": "Magilla Gorilla",
   "t": 1793577625.3488479
  },
+ "series|Megas XLR": {
+  "desc": "Two teenage slackers find a mecha from the future that had been lying in a New Jersey junkyard for nearly 60 years and make modifications much to the dismay of the robot's attractive creator.",
+  "show": "Megas XLR",
+  "t": 1795701159.6955392
+ },
  "series|Merry Madagascar": {
   "desc": "",
   "show": "Merry Madagascar",
@@ -2194,6 +2219,11 @@
   "desc": "The adventures of a white whale who has become friends with two twelve-year-olds and a man endowed with incredible powers.",
   "show": "Moby Dick and Mighty Mightor",
   "t": 1793577631.7662241
+ },
+ "series|My Gym Partner's a Monkey": {
+  "desc": "A clerical error sends 12-year-old Adam Lyon to a middle school for zoo animals, but his best friend, Jake the Monkey, is standing by him every step of the way to help him adjust.",
+  "show": "My Gym Partner's a Monkey",
+  "t": 1795701159.6170712
  },
  "series|My Little Pony: Friendship is Magic": {
   "desc": "After learning that her friends, as well as herself, are the magical Elements of Harmony, studious unicorn Twilight Sparkle is sent by her mentor, Princess Celestia, to Ponyville to study the magic of friendship with help from her...",
@@ -2485,6 +2515,11 @@
   "show": "The Real Adventures of Jonny Quest",
   "t": 1793623421.8136387
  },
+ "series|The Real Ghostbusters": {
+  "desc": "The continuing adventures of the staff of the ghost removal service.",
+  "show": "The Real Ghostbusters",
+  "t": 1795701159.7924197
+ },
  "series|The Rocky and Bullwinkle Show": {
   "desc": "A variety show, with the main feature being the serialized adventures of the two title characters, the anthropomorphic moose Bullwinkle and flying squirrel Rocky. The main adversaries in most of their adventures are the Russian-like spies Boris Badenov and Natasha Fatale. Supporting segments include Dudley Do-Right, Peabody's Improbable History, and Fractured Fairy Tales, among others.",
   "show": "The Rocky and Bullwinkle Show",
@@ -2534,6 +2569,11 @@
   "desc": "The adventures of a rhyming canine superhero.",
   "show": "Underdog",
   "t": 1793623421.3339016
+ },
+ "series|Unikitty!": {
+  "desc": "The fan-favorite cat-unicorn hybrid from The Lego Movie (2014) has adventures with her four other pals -- brother Puppycorn, scientist Dr. Fox, bodyguard Hawkodile, and boring, grey 1x3 Lego brick Richard.",
+  "show": "Unikitty!",
+  "t": 1795701158.2269843
  },
  "series|Valley of the Dinosaurs": {
   "desc": "American science teacher John Butler along with his wife Kim and their two children Katie and Greg, as well as their dog Digger, are on a rafting trip on the Amazon river. As they are going down the river, their boat gets caught i...",
