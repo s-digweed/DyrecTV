@@ -54,6 +54,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "Jpuffle5 + CN Classic + Animax: titles + descriptions [skip ci]"
-            git pull --rebase origin main
-            git push
+            # newer run wins: rebase onto anything that landed meanwhile; on a conflict, abort and still publish
+            git pull --rebase origin main || git rebase --abort
+            git push --force-with-lease
           fi
