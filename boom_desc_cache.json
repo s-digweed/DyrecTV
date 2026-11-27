@@ -1909,6 +1909,11 @@
   "show": "Noah's Ark",
   "t": 1794577808.8594098
  },
+ "movie|Paul Blart: Mall Cop": {
+  "desc": "When a shopping mall is taken over by a gang of organized crooks, it's up to a mild-mannered security guard to save the day.",
+  "show": "Paul Blart: Mall Cop (2009)",
+  "t": 1795795018.0070329
+ },
  "movie|Scooby-Doo": {
   "desc": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
   "show": "Scooby-Doo (2002)",
@@ -2103,6 +2108,11 @@
   "desc": "Four costumed superheroes battle the world's most terrifying villains.",
   "show": "Fantastic Four",
   "t": 1793577631.4076405
+ },
+ "series|Fender Bender 500": {
+  "desc": "A revival of Wacky Races in the 1990s, in which the racers drove monster trucks made for racing. Using Hanna-Barbera's character library, each vehicle had a different theme, specific to its drivers.",
+  "show": "Fender Bender 500",
+  "t": 1795795017.9215395
  },
  "series|Flintstone Frolics": {
   "desc": "The misadventures of two modern-day Stone Age families, the Flintstones and the Rubbles.",
