@@ -1,18 +1,18 @@
 # ============================================================
-# RUN STATUS  (2026-11-27 11:46 UTC)
+# RUN STATUS  (2026-11-28 11:21 UTC)
 #   SIMKL resolver   : ON — 0 extra S/E this run
 #   OMDb descriptions: ON
-#   descriptions     : 890 episode-specific, 19 fixed show-blurb, 94 generic, 0 none (see generic_desc.txt)
+#   descriptions     : 893 episode-specific, 18 fixed show-blurb, 98 generic, 0 none (see generic_desc.txt)
 #   TAM index        : loaded
-#   S/E by name      : 514  (manual pins: 0)
-#   S/E by absolute  : 14
-#   S/E + desc / TAM : 18  (name+S/E+synopsis taken straight from TAM)
+#   S/E by name      : 518  (manual pins: 0)
+#   S/E by absolute  : 10
+#   S/E + desc / TAM : 24  (name+S/E+synopsis taken straight from TAM)
 #   master map       : 6  (S/E from your hand-verified sheet)
-#   episode guide    : 188  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
-#   abs-resolve Snick: 114  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
+#   episode guide    : 190  (authoritative IMDb/TMDB/wiki guide, keyed by absolute #)
+#   abs-resolve Snick: 113  (nameless slots auto-filled from episodeNumber -> see abs_snick.txt)
 #   repeat-fill      : 0  (re-airings backfilled from a named sibling by episodeNumber)
-#   names from TAM   : 223
-#   S/E withheld     : 49  (listed below)
+#   names from TAM   : 214
+#   S/E withheld     : 60  (listed below)
 # ============================================================
 # NEEDS S/E: we have the correct episode NAME (from the feed or
 # TAM) + description, but couldn't confidently resolve a season/
@@ -22,25 +22,28 @@
 # The trailing  epNum=  is the feed episodeNumber (blank = the API
 # gave none, so a guide can't key on it).
 # ============================================================
+    ("Cartoon Planet", "A Life in a Day"): (, ),   # epNum=16
+    ("Cromartie High School", "You Never Give Me Your Name"): (, ),   # epNum=22
     ("Cyborg 009", "Pharaoh Virus"): (, ),   # epNum=34
     ("Fantastic Four", "Blastaar, The Living Bomb-Burst"): (, ),   # epNum=16
     ("GaoGaiGar", "The Day the Sun Went Out"): (, ),   # epNum=8
-    ("Ghost Stories", "Farewell, Amanojaku - The Descent of Ohma"): (, ),   # epNum=20
-    ("Ghost Stories", "The Headless Horsemen!! Curse of Death"): (, ),   # epNum=19
     ("Girls Und Panzer", "Against Pravda!"): (, ),   # epNum=8
     ("Girls Und Panzer", "It's a Desperate Situation!"): (, ),   # epNum=9
-    ("Girls Und Panzer", "Next up is Anzio!"): (, ),   # epNum=7
+    ("Girls Und Panzer", "She's a Classmate!"): (, ),   # epNum=10
     ("Initial D: First Stage", "A New Eight-Six Is Born"): (, ),   # epNum=37
     ("Initial D: First Stage", "Akagi Battle! A Flash of Black and White!"): (, ),   # epNum=35
     ("Initial D: First Stage", "That Car, Gone Berserk"): (, ),   # epNum=36
-    ("Iron Man", "The Other Iron Man!, Death Duel, Into The Jaws of the Death"): (, ),   # epNum=9
     ("Lupin the Third: Part II", "Crownin' Around"): (, ),   # epNum=47
-    ("Lupin the Third: Part II", "The Island of Dr. Derange"): (, ),   # epNum=46
+    ("Lupin the Third: Part II", "Snake Charmer"): (, ),   # epNum=49
     ("Lupin the Third: Part II", "Vault Assault"): (, ),   # epNum=48
     ("Ranma ½", "Final Facedown! Happosai vs. The Invisible Man"): (, ),   # epNum=50
+    ("Sailor Moon", "Computer School Blues"): (, ),   # epNum=5
     ("Sailor Moon", "Moon Animate Make-Up "Fractious Frames""): (, ),   # epNum=160
     ("Sailor Moon", "Slim City"): (, ),   # epNum=3
     ("Sailor Moon", "So You Want to Be a Superstar"): (, ),   # epNum=4
     ("Sailor Moon", "Talk Radio"): (, ),   # epNum=2
+    ("Sailor Moon", "Time Bomb"): (, ),   # epNum=6
+    ("ThunderCats", "Feliner - Part 2"): (, ),   # epNum=30
     ("Voltron", "A Pretty Spy"): (, ),   # epNum=9
+    ("Voltron", "Secret of the White Lion"): (, ),   # epNum=10
     ("X-Men: The Animated Series", "Days of Future Past (Part 2)"): (, ),   # epNum=12
