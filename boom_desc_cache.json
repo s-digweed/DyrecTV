@@ -1809,6 +1809,11 @@
   "show": "A Monsterous Holiday (2013)",
   "t": 1793888553.7663307
  },
+ "movie|Alvin and the Chipmunks": {
+  "desc": "Three musical chipmunks are discovered by an aspiring songwriter who wants to use their amazing singing abilities to become famous.",
+  "show": "Alvin and the Chipmunks (2007)",
+  "t": 1795880649.6708796
+ },
  "movie|Alvin and the Chipmunks Meet Frankenstein": {
   "desc": "Alvin, Simon and Theodore revel in their new gig at a movie theme park by wandering the grounds after hours. Among the attractions is the spooky Frankenstein's Castle, where a real mad ...",
   "show": "Alvin and the Chipmunks Meet Frankenstein (1999)",
@@ -1913,6 +1918,11 @@
   "desc": "When a shopping mall is taken over by a gang of organized crooks, it's up to a mild-mannered security guard to save the day.",
   "show": "Paul Blart: Mall Cop (2009)",
   "t": 1795795018.0070329
+ },
+ "movie|Paul Blart: Mall Cop 2": {
+  "desc": "After six years of keeping our malls safe, Paul Blart has earned a well-deserved vacation. He heads to Las Vegas with his teenage daughter before she heads off to college. But safety never takes a holiday and when duty calls, Blar...",
+  "show": "Paul Blart: Mall Cop 2 (2015)",
+  "t": 1795880649.741522
  },
  "movie|Scooby-Doo": {
   "desc": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
@@ -2024,6 +2034,16 @@
   "show": "A Charlie Brown Thanksgiving",
   "t": 1795701158.832273
  },
+ "series|A Chipmunk Celebration": {
+  "desc": "",
+  "show": "A Chipmunk Celebration",
+  "t": 1795880649.3430796
+ },
+ "series|Alvin and the Chipmunks": {
+  "desc": "Three chipmunk brothers, Alvin, Simon, and Theodore are adopted by human, Dave.",
+  "show": "Alvin and the Chipmunks",
+  "t": 1795880649.6003115
+ },
  "series|Augie Doggie": {
   "desc": "The misadventures of Augie Doggie and Doggie Daddy.",
   "show": "Augie Doggie",
@@ -2048,6 +2068,11 @@
   "desc": "Son of Naruto Uzumaki, Boruto, follows his father's footsteps along with his friends to become great ninja. Throughout all their adventures, Boruto is determined to make his mark in the ninja world and live outside of his father's...",
   "show": "Boruto: Naruto Next Generations",
   "t": 1794067314.6682239
+ },
+ "series|Bugs Bunny's Thanksgiving Diet": {
+  "desc": "",
+  "show": "Bugs Bunny's Thanksgiving Diet",
+  "t": 1795880648.5740793
  },
  "series|Captain Caveman and the Teen Angels": {
   "desc": "The adventures of a superhero caveman and a trio of female amateur detectives.",
